@@ -7,6 +7,7 @@
     <style type="text/css">
 body {
   font-family: "jf open 粉圓 1.1", "圓體-繁", serif;
+  line-height: 1.4em;
   border-radius: 0px;
 }
 
@@ -45,7 +46,7 @@ section {
 
 #cover-page {
   text-align: center;
-  font-family: "翩翩體-繁";
+  font-family: /*"翩翩體-繁"*/ 'Toppan Bunkyu Midashi Mincho Extrabold';
 }
 
 @media screen {
@@ -61,7 +62,33 @@ h1:before {
   margin-top: 2vh;
   margin-bottom: 2vh;
 }
+      
+td {
+  vertical-align: top;
+  padding: 0.15em 0;
+  line-height: 1.4em;
+}
 
+:root {
+  --color: 0, 0%;
+  --l:100%;
+}
+
+td:nth-child(1) {text-align: right;}
+td:nth-child(2) {padding-left: 3vw;}
+tr:nth-child(3n+1) {font-size: 1.4em; font-family: 'Calibri';}
+tr:nth-child(3n+2) {
+  --color-darker: hsl(var(--color),calc(var(--l) - 50%));
+  /* color: var(--color-darker); */
+  color: antiquewhite;
+}
+tr:nth-child(3n) {line-height: 50%}
+
+table {
+  border-collapse: collapse;
+}
+
+.TBD {background-color: yellow; color: #0759ab}
 </style> </head>
   <body>
     <div id="cover-page">
@@ -70,7 +97,8 @@ h1:before {
         <span style="font-size: 1.5em;">客語台詞彙整</span><br>
         （學習用） </div>
     </div>
-    <div style="float:right; line-height:1.3em;"> <a href="https://www.facebook.com/Aiuanyu/posts/345262983761551">Aiuanyu_愛灣語</a> v0.2<br>
+    <div style="float:right; line-height:1.3em;"> <a href="https://www.facebook.com/Aiuanyu/posts/345262983761551">Aiuanyu_愛灣語</a> <br>
+      v0.3beta<a href="https://drive.google.com/file/d/1vCk5SYo32PHfw_vmfHnGL7YgdTegbxFi/view">（☞ 看最新版）</a><br>
       收看原劇 ☞ <a href="https://www.ptsplus.tv/season/f912324d-7495-4a21-bfdb-652e7423c8a2">公視+</a><br>
       討論、共筆 ☞ <a href="https://docs.google.com/document/d/1qjP0zwRnv96oyrgvqQfZm3rADH9A1hVpi91XZwlRJaU/edit?usp=sharing">文件工作區</a></div>
     <div id="chars">【講客个人物】
@@ -78,18 +106,84 @@ h1:before {
         <li> 阿杰：客人+排灣混血 </li>
         <li> 村人、水仔：車城社寮庄个村人摎頭人 </li>
         <li> 林父：阿杰个阿爸 </li>
-        <li> 阿九：保力庄个頭人 </li>
+        <li> 阿九：保力庄个頭人</li>
+        <li>蝶妹：女主角</li>
       </ul>
     </div>
     <h1>EP1</h1>
     <section>8:02<br>
-      村人：番仔杰，老規矩，𫣆兜這客人庄，有人十六歲吔，愛有成年禮！<br>
-      杰：𠊎係客家人，毋係番仔！<br>
-      <br>
-      村人：若屋下三國演義啊！番人阿姆，客人阿爸，你阿姐，賣分毛番。<br>
-      石頭你從細用到大，都沒出手，這擺分你機會啊！你个成年禮來啊！摎身上客人衫脫忒！你就過關吔！</section>
+      <table style="width: 100%" border="0">
+        <tbody>
+          <tr>
+            <td>Cúnngǐn:&nbsp; </td>
+            <td>Fánè Kied, lò gúigì, éntéu ìa Hàgngǐn zóng, íu ngǐn siiplìug se ě, oi íu sǐinngǐanlí! </td>
+          </tr>
+          <tr>
+            <td>村人： </td>
+            <td>番仔杰，老規矩，𫣆兜這客人庄，有人十六歲吔，愛有成年禮！ </td>
+          </tr>
+          <tr>
+            <td> <br>
+            </td>
+            <td> <br>
+            </td>
+          </tr>
+          <tr>
+            <td>Kied:&nbsp; </td>
+            <td>Ngǎi he Hàggángǐn, m̌ he fánè!</td>
+          </tr>
+          <tr>
+            <td>杰：</td>
+            <td>𠊎係客家人，毋係番仔！</td>
+          </tr>
+          <tr>
+            <td><br>
+            </td>
+            <td><br>
+            </td>
+          </tr>
+          <tr>
+            <td>Cúnngǐn:&nbsp; </td>
+            <td>Ngía vùgga Sám Gùet Íanngi à! Fánngǐn ámé, Hàgngǐn ábá, ňg ájì, mai bún fǔngmófán.</td>
+          </tr>
+          <tr>
+            <td>村人：</td>
+            <td>若屋下三國演義啊！番人阿姆，客人阿爸，你阿姐，賣分紅毛番。</td>
+          </tr>
+          <tr>
+            <td><br>
+            </td>
+            <td><br>
+            </td>
+          </tr>
+          <tr>
+            <td><br>
+            </td>
+            <td>Sagtěu ňg qǐung se iung do tai, du mǒ cùdsù, ìa bài bún ňg gífi à! Ňg ge sǐinngǐanlí lǒi à! Láu sǐin sóng Hàgngǐn sám tòd tèd! Ňg qiu gogúan ě!</td>
+          </tr>
+          <tr>
+            <td><br>
+            </td>
+            <td>石頭你從細用到大，都沒出手，這擺分你機會啊！你个成年禮來啊！摎身上客人衫脫忒！你就過關吔！</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
     <section>14:06<br>
-      水仔：社寮生理庄，兩片有通透，秤仔無偎偏。生个學老人毋救，死个客人，乜毋收！走！</section>
+      <table style="width: 100%" border="0">
+        <tbody>
+          <tr>
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sùiè:&nbsp; </td>
+            <td>Salǐau sénlí zóng, lìong pìen íu tǔngteu, ciinè mǒ vàpìen. Sángge Hoglòngǐn m̌ giu, xìge Hàgngǐn, me m̌ sú!<br>
+            </td>
+          </tr>
+          <tr>
+            <td>水仔：</td>
+            <td>社寮生理庄，兩片有通透，秤仔無偎偏。生个學老人毋救，死个客人，乜毋收！走！ </td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
     <section>14:42<br>
       林父：田無吾分，摎學老人搶水拚命，無愛去啦！<br>
       阿九：你歇在統領埔客家庄，毋𢯭手喔？<br>
@@ -115,7 +209,7 @@ h1:before {
     </section>
     <section> 24:12<br>
       父：就望你阿姐，佇府城亦得好過。<br>
-      〔24:20〕杰：係阿姆彼做生番个㓾＿……？（聽來像「時節」，但跟字幕不合）<br>
+      〔24:20〕杰：係阿姆彼做生番个<span class="TBD">㓾＿……</span>？（聽來像「時節」，但跟字幕不合）<br>
       父：你十六歲哩，佇琅𤩝，毋係分人㓾死，就係做生番仔㓾人。<br>
       <br>
       父：有摎你阿姐講過哩，你十六歲，會帶你去府城。佢毋轉來，𫣆去尋佢！</section>
@@ -174,10 +268,10 @@ h1:before {
       杰：阿爸愛帶船員來尋你，分偷牛賊㓾死忒哩，阿姐。<br>
       蝶：毋好想阿爸哩，𠊎看到你，𠊎就安心哩。<br>
       杰：𠊎話着會認毋出阿姐。<br>
-      蝶：阿姐認吔出你啊。（不確定是不是「吔」）來。你㘔一＿水＿＿＿。<br>
+      蝶：阿姐認吔出你啊。（不確定是不是「吔」）來。你㘔一<span class="TBD">＿水＿＿＿</span>。<br>
       <br>
       26:07<br>
-      杰：阿姐，鞋＿大吔。<br>
+      杰：阿姐，鞋<span class="TBD">＿</span>大吔。<br>
       蝶：遽兜吔。來！愛去摎你安戶。<br>
       ……<br>
       蝶：佇府城，毋好講番話。這位有人罵你生番仔，母好承認。下一擺，就行這條路轉去。<br>
@@ -199,9 +293,16 @@ h1:before {
       蝶：這位毋係琅𤩝，府城个船仔，都有主人吔。<br>
       <br>
       45:04<br>
-      杰：講生番仔，𠊎做毋得承認；唐山仔，又＿着無像。<br>
+      杰：講生番仔，𠊎做毋得承認；唐山仔，又<span class="TBD">＿</span>着無像。<br>
     </section>
     <div id="thanks"> 特別致謝：余畹婕老師熱心校正 </div>
+    <div id="note"> 編輯說明：<br>
+      <ul>
+        <li>羅馬字：<a href="https://www.wikiwand.com/zh-tw/%E8%87%BA%E7%81%A3%E5%AE%A2%E5%AE%B6%E8%AA%9E%E6%8B%BC%E9%9F%B3%E6%96%B9%E6%A1%88">教育部臺灣客語拼音</a>（GHSRobert flavor）</li>
+        <li>漢字：教育部推薦客語漢字</li>
+        <li>局部讀音依南四縣發音</li>
+      </ul>
+    </div>
     
   </body>
 </html>
