@@ -6,10 +6,17 @@
     <meta name="author" content="G.HS.Robert Ciang">
     <style type="text/css">
 body {
-  font-family: "jf open 粉圓 1.1", "圓體-繁", serif;
+/*  font-family: "jf open 粉圓 1.1", "圓體-繁", serif;*/
+  font-family: '源流明體'/*"霞鶩文楷 TC"*/, serif;
   line-height: 1.4em;
   border-radius: 0px;
 }
+
+h1 {
+  font-family: /*Oradano-mincho-GSRR*/ /*Alegreya,*/ /*HGSMinchoE*/ 'Toppan Bunkyu Midashi Gothic';
+}
+
+#thanks {font-family: '黑體-繁'; font-weight: 700;}
 
 section {
   background-color: #198964;
@@ -17,6 +24,7 @@ section {
   margin: 10pt;
   padding: /*50pt*/ 5vh;
   border-radius: /*5px*/ 2vh;
+  font-weight: 700;
 }
 
 @media print {
@@ -42,17 +50,21 @@ section {
   body {
     font-size: 2vh;
   }
+#thanks {
+  break-before: always;
+}
 }
 
 #cover-page {
   text-align: center;
-  font-family: /*"翩翩體-繁"*/ 'Toppan Bunkyu Midashi Mincho Extrabold';
+  font-family: /*"翩翩體-繁"*/ Toppan Bunkyu Midashi Mincho Extrabold;
 }
 
 @media screen {
   #cover-page br {
     display: none;
   }
+  
 }
 
 h1::before {
@@ -112,7 +124,7 @@ table {
 }
 
 .time {
-  font-family: /* Digital-7 */ Menlo; 
+  font-family: /* Digital-7 */ /*Menlo*/ NovaMono for Powerline; 
   background: black; 
   color: white; 
   display: inline-block; 
@@ -128,6 +140,10 @@ table {
   padding: 1vh;
 }
 
+.draft::before {
+  content: "草稿狀態‧防雷慎入";
+}
+
 .draft section {
   background-color: hsl(160, 69%, 10%) /* #198964 的暗黑調 */
 }</style>
@@ -140,7 +156,7 @@ table {
         （學習用） </div>
     </div>
     <div style="float:right; line-height:1.3em;"> <a href="https://www.facebook.com/Aiuanyu/posts/345262983761551">Aiuanyu_愛灣語</a>編 <br>
-      v0.34beta<a href="https://drive.google.com/file/d/1vCk5SYo32PHfw_vmfHnGL7YgdTegbxFi/view">（☞ 看最新版）</a><br>
+      v0.35beta<a href="https://drive.google.com/file/d/1vCk5SYo32PHfw_vmfHnGL7YgdTegbxFi/view">（☞ 看最新版）</a><br>
       <a href="https://github.com/GJRobert/Seqalu-hak/commits/main">（更新紀錄）</a> <br>
       <a href="http://ghsrobert.tk/hist/seqalu#%E8%A7%80%E7%9C%8B">收看原劇</a><br>
       <a href="https://docs.google.com/document/d/1qjP0zwRnv96oyrgvqQfZm3rADH9A1hVpi91XZwlRJaU/edit?usp=sharing">討論、共筆、協作區</a></div>
@@ -923,7 +939,7 @@ table {
           <tr>
             <td>蝶：</td>
             <td>在府城，毋好講番話。<br>
-              這位有人罵你生番仔，母好承認。<br>
+              這位有人罵你生番仔，毋好承認。<br>
               下二擺，就行這條路轉去。</td>
           </tr>
           <tr>
@@ -1063,85 +1079,79 @@ table {
     </section>
     <div class="draft">
       <h1>EP3 sasekauljan 僕人</h1>
-      <fieldset>
-        <legend>
-          草稿狀態‧防雷慎入
-        </legend>
-      <section>2:37<br>
-        九：琅𤩝，無官府！<br>
-        <br>
-        4:10<br>
-        水：哪像你兜客人，還去拈船。<br>
-        九：官府講啊，琅𤩝，「禁地荒埔」！分𫣆這兜，「自生自滅」！<br>
-        死船員，就喊𫣆這兜，拿生番个人頭交差、繳罰个錢？天光日，通譯，來收人頭，𠊎出面！嗄下來，你上山！摎通譯个人頭分生番仔！sáng<br>
-        講，𠊎替 tai 佢這兜啊，解決忒！𠊎愛贌轉統領埔！<br>
-        <br>
-        6:20<br>
-        九：偷牛賊，係風港該片个唐山人，生得摎生番無共樣啦！唉！<br>
-        水：毋使愁，𠊎會處理。<br>
-        <br>
-        11:40<br>
-        九：＿＿會傳染！𠊎兜係孤不衷个！你兜，另外尋位所歇！<br>
-        <br>
-        27:00<br>
-        蝶：鞋改好哩，去做事！去啊！<br>
-        <br>
-        34:00<br>
-        杰：這，阿姐路項＿（se？），你分𠊎个錢買个。<br>
-        蝶：你去街項喔？<br>
-        杰：還吂到街項啊。<br>
-        <br>
-        34:24<br>
-        蝶：放工，你行街項，轉醫生館。sen<br>
-        杰：佢兜會罵𠊎生番仔 sang<br>
-        蝶：你聽多哩，就聽毋着哩。</section>
+      <fieldset> <legend> 草稿狀態‧防雷慎入 </legend>
+        <section>2:37<br>
+          九：琅𤩝，無官府！<br>
+          <br>
+          4:10<br>
+          水：哪像你兜客人，還去拈船。<br>
+          九：官府講啊，琅𤩝，「禁地荒埔」！分𫣆這兜，「自生自滅」！<br>
+          死船員，就喊𫣆這兜，拿生番个人頭交差、繳罰个錢？天光日，通譯，來收人頭，𠊎出面！嗄下來，你上山！摎通譯个人頭分生番仔！sáng<br>
+          講，𠊎替 tai 佢這兜啊，解決忒！𠊎愛贌轉統領埔！<br>
+          <br>
+          6:20<br>
+          九：偷牛賊，係風港該片个唐山人，生得摎生番無共樣啦！唉！<br>
+          水：毋使愁，𠊎會處理。<br>
+          <br>
+          11:40<br>
+          九：＿＿會傳染！𠊎兜係孤不衷个！你兜，另外尋位所歇！<br>
+          <br>
+          27:00<br>
+          蝶：鞋改好哩，去做事！去啊！<br>
+          <br>
+          34:00<br>
+          杰：這，阿姐路項＿（se？），你分𠊎个錢買个。<br>
+          蝶：你去街項喔？<br>
+          杰：還吂到街項啊。<br>
+          <br>
+          34:24<br>
+          蝶：放工，你行街項，轉醫生館。sen<br>
+          杰：佢兜會罵𠊎生番仔 sang<br>
+          蝶：你聽多哩，就聽毋着哩。</section>
       </fieldset>
       <h1>EP4 sacemecemelj 蠻荒之境</h1>
-            <fieldset>
-        <legend>
-          草稿狀態‧防雷慎入
-        </legend>
-      <section>1:52<br>
-        蝶：阿弟牯！（不太明白為什麼劇組字幕翻譯不翻「弟弟 Brother」而是一定要翻成名字呢？）<br>
-        蝶：尋紅毛仔做若保人，官軍毋會尋若麻煩啊。<br>
-        杰：定著愛去府城搬石頭？做毋得留下來整屋歇？<br>
-        杰：佢兜係愛燒屋个，我囥去灶公用＿埋忒。<br>
-        杰：放轉去啦。無地方好囥吔。<br>
-        蝶：𠊎做麼个愛囥啊？<br>
-        <br>
-        3:55<br>
-        母：𠊎一屋下vugka人，無位所好去吔，莫燒，𠊎自家走。<br>
-        <br>
-        6:10<br>
-        杰：會帶𠊎阿姐走，就遽走！<br>
-        <br>
-        7:03<br>
-        蝶：這分你。<br>
-        杰：這屋係阿姆帶等𫣆兜起个，你毋想轉來，無相干，還有𠊎。𠊎摎其整好。你走啦，記得轉來看𠊎。<br>
-        <br>
-        22:05<br>
-        蝶：𠊎兜愛來尋船員个！<br>
-        九：船員無在這！毋知去哪位哩！<br>
-        九：你這隻生番仔，帶紅毛番來，走啊！<br>
-        蝶：毋分𠊎兜入村，會有較多紅毛番來。𠊎兜會燒村仔，摎你頭擺燒吾屋共樣。（煞氣！）<br>
-        九：頭擺，燒若屋，係孤不衷个 FIXME。＿下講過哩，村肚項，無船員，走啦！<br>
-        蝶：柴Ceu城頭人定著會當暢。佢分𠊎兜入村尋船員，紅毛番摎柴城轉朋友，你係紅毛番个死對頭。<br>
-        <br>
-        23:48<br>
-        蝶：帶𠊎去你拈船个地方，𠊎兜正分你錢。<br>
-        <br>
-        27:10<br>
-        蝶：你頭擺摎吾爸、吾姆逐（？）出保力庄，吾爸係客家人吔！柴城頭人講个。<br>
-        九：你阿爸，係＿＿蜂走出來个客家人，對山該片走出來个客家人，佢毋識講係？<br>
-        蝶：山个該片，係哪位吔？<br>
-        九：蚊蟀埔啊，佢自家講个啊。帶等一个生番个細妹仔，講乜係蚊蟀埔个生番仔，部落个使用人啊。＿著奇怪呴？𠊎乜係啊！保力庄啊，毋收留來路不明个人。<br>
-        村人：頭人，會走吔。<br>
-        九：還有外人，會來琅𤩝無？<br>
-        蝶：毋會有人再過來哩。</section></fieldset>
+      <fieldset> <legend> 草稿狀態‧防雷慎入 </legend>
+        <section>1:52<br>
+          蝶：阿弟牯！（不太明白為什麼劇組字幕翻譯不翻「弟弟 Brother」而是一定要翻成名字呢？）<br>
+          蝶：尋紅毛仔做若保人，官軍毋會尋若麻煩啊。<br>
+          杰：定著愛去府城搬石頭？做毋得留下來整屋歇？<br>
+          杰：佢兜係愛燒屋个，我囥去灶公用＿埋忒。<br>
+          杰：放轉去啦。無地方好囥吔。<br>
+          蝶：𠊎做麼个愛囥啊？<br>
+          <br>
+          3:55<br>
+          母：𠊎一屋下vugka人，無位所好去吔，莫燒，𠊎自家走。<br>
+          <br>
+          6:10<br>
+          杰：會帶𠊎阿姐走，就遽走！<br>
+          <br>
+          7:03<br>
+          蝶：這分你。<br>
+          杰：這屋係阿姆帶等𫣆兜起个，你毋想轉來，無相干，還有𠊎。𠊎摎其整好。你走啦，記得轉來看𠊎。<br>
+          <br>
+          22:05<br>
+          蝶：𠊎兜愛來尋船員个！<br>
+          九：船員無在這！毋知去哪位哩！<br>
+          九：你這隻生番仔，帶紅毛番來，走啊！<br>
+          蝶：毋分𠊎兜入村，會有較多紅毛番來。𠊎兜會燒村仔，摎你頭擺燒吾屋共樣。（煞氣！）<br>
+          九：頭擺，燒若屋，係孤不衷个 FIXME。＿下講過哩，村肚項，無船員，走啦！<br>
+          蝶：柴Ceu城頭人定著會當暢。佢分𠊎兜入村尋船員，紅毛番摎柴城轉朋友，你係紅毛番个死對頭。<br>
+          <br>
+          23:48<br>
+          蝶：帶𠊎去你拈船个地方，𠊎兜正分你錢。<br>
+          <br>
+          27:10<br>
+          蝶：你頭擺摎吾爸、吾姆逐（？）出保力庄，吾爸係客家人吔！柴城頭人講个。<br>
+          九：你阿爸，係＿＿蜂走出來个客家人，對山該片走出來个客家人，佢毋識講係？<br>
+          蝶：山个該片，係哪位吔？<br>
+          九：蚊蟀埔啊，佢自家講个啊。帶等一个生番个細妹仔，講乜係蚊蟀埔个生番仔，部落个使用人啊。＿著奇怪呴？𠊎乜係啊！保力庄啊，毋收留來路不明个人。<br>
+          村人：頭人，會走吔。<br>
+          九：還有外人，會來琅𤩝無？<br>
+          蝶：毋會有人再過來哩。</section>
+      </fieldset>
     </div>
     <h1></h1>
-    <div id="thanks"> 特別致謝：</div>
-    <div>
+    <div id="thanks"> 特別致謝：
       <ul>
         <li>社群</li>
         <ul>
