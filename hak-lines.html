@@ -16,7 +16,19 @@ h1 {
   font-family: /*Oradano-mincho-GSRR*/ /*Alegreya,*/ /*HGSMinchoE*/ 'Toppan Bunkyu Midashi Gothic';
 }
 
-#thanks {font-family: '黑體-繁'; font-weight: 700;}
+#thanks {font-family: PT Sans, '黑體-繁', sans-serif; font-weight: 700;}
+#thanks ul ul li {
+  display: inline-block;
+  color: white;
+  padding: 0.3em;
+  margin-left: 0.3em;
+  margin-right: 0.3em;
+  border-radius: 0.3em;
+}
+/*#thanks>ul>ul, #thanks>ul>li {display: inline-block}*/
+#community li {  background-color: hsl(31, 90%, 80%);}
+#dic li {  background-color: hsl(192, 90%, 80%);}
+#softwares li {  background-color: hsl(111, 90%, 80%);}
 
 section {
   background-color: #198964;
@@ -159,7 +171,7 @@ table {
         （學習用） </div>
     </div>
     <div style="float:right; line-height:1.3em;"> <a href="https://www.facebook.com/Aiuanyu/posts/345262983761551">Aiuanyu_愛灣語</a>編 <br>
-      v0.39beta<a href="https://drive.google.com/file/d/1vCk5SYo32PHfw_vmfHnGL7YgdTegbxFi/view">（☞ 看最新版）</a><br>
+      v0.4beta<a href="https://drive.google.com/file/d/1vCk5SYo32PHfw_vmfHnGL7YgdTegbxFi/view">（☞ 看最新版）</a><br>
       <a href="https://github.com/GJRobert/Seqalu-hak/commits/main">（更新紀錄）</a> <br>
       <a href="http://ghsrobert.tk/hist/seqalu#%E8%A7%80%E7%9C%8B">收看原劇</a><br>
       <a href="https://docs.google.com/document/d/1qjP0zwRnv96oyrgvqQfZm3rADH9A1hVpi91XZwlRJaU/edit?usp=sharing">討論、共筆、協作區</a></div>
@@ -1111,7 +1123,7 @@ table {
                 <td> Gúanfù gòng a, Lǒngkieu, "gimti fóngpú"! Bún én ìadéu, "cii sǎng cii mied"!<br>
                   Xì sǒnǐan, qiu hém én ìadéu, ná sǎngfán ge ngǐntěu gáucái, gìeu fad ge qǐen?<br>
                   Tǐengóngngìd, Tǔng'id, lǒi sú ngǐntěu, ngǎi cùdmien!<br>
-                  Sa ha lǒi, ňg sǒng sán! Láu Tǔng'ìd ge ngǐntěu bún sángfánè!<br>
+                  Sa há lǒi, ňg sǒng sán! Láu Tǔng'id ge ngǐntěu bún sángfánè!<br>
                   Gòng, ngǎi tai gǐ ìadéu a, gìaigìad tèd! Ngǎi oi piog zòn Tùnglíangpú!<br>
                 </td>
               </tr>
@@ -1535,14 +1547,27 @@ table {
     <div id="thanks"> 特別致謝：
       <ul>
         <li>社群</li>
-        <ul>
+        <ul id="community">
           <li>余畹婕老師</li>
+          <li>徐瑞蓮小姐</li>
+          <li>管燕蕾小姐</li>
         </ul>
         <li>詞典</li>
-        <ul>
+        <ul id="dic">
           <li>教育部常用詞辭典（民間查詢介面「萌典」）</li>
           <li>教育部認證詞彙</li>
           <li>徐兆泉四縣腔</li>
+        </ul>
+        <li>軟體</li>
+        <ul id="softwares">
+          <li>BlueGriffon</li>
+          <li>jf open 粉圓</li>
+          <li>VS Code</li>
+          <li>GitHub</li>
+          <li>But Ko 字型</li>
+          <li>Google 雲端硬碟</li>
+        </ul>
+        <ul id="dic">
         </ul>
       </ul>
     </div>
@@ -1553,6 +1578,5 @@ table {
         <li>局部讀音依南四縣腔（雖然劇中似以北四縣腔為主 @@）</li>
       </ul>
     </div>
-    
   </body>
 </html>
