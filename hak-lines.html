@@ -193,6 +193,17 @@ table {
 } /* css - Is there a way to use SVG as content in a pseudo element ::before or ::after - Stack Overflow <https://stackoverflow.com/questions/19255296/is-there-a-way-to-use-svg-as-content-in-a-pseudo-element-before-or-after> */
 
 #vnum {font-size: 1.5em; font-weight: 700;}
+
+/* CSS counter-increment property <https://www.w3schools.com/cssref/pr_gen_counter-increment.asp> */
+body {counter-reset: EPx}
+.episode {counter-increment: EPx;}
+.episode section:after {
+  float:right;
+  content: "EP" counter(EPx) ;
+  margin-top: 0.5em;
+  font-family: Operator Mono;
+  font-size: 0.8em;
+}
     </style>
   </head>
   <body>
@@ -225,1438 +236,1450 @@ table {
       </ul>
     </div>
     <div style="clear: both;"></div>
-    <h1>EP1 vali kemasiljavek 海上的風</h1>
-    <section>
-      <div class="time">8:02<br>
-      </div>
-      <table style="width: 100%" border="0">
-        <tbody>
-          <tr>
-            <td>Cúnngǐn:&nbsp; </td>
-            <td>Fánè Kied, lò gúigì, éndéu ìa Hàgngǐn zóng, íu ngǐn siiblìug se ě, oi íu sǐinngǐanlí! </td>
-          </tr>
-          <tr>
-            <td>村人： </td>
-            <td>番仔杰，老規矩，𫣆兜這客人庄，有人十六歲吔，愛有成年禮！ </td>
-          </tr>
-          <tr>
-            <td>Kied:&nbsp; </td>
-            <td>Ngǎi he Hàggángǐn, m̌ he fánè!</td>
-          </tr>
-          <tr>
-            <td>杰：</td>
-            <td>𠊎係客家人，毋係番仔！</td>
-          </tr>
-          <tr>
-            <td>Cúnngǐn:&nbsp; </td>
-            <td>Ngía vùggá Sám Gùed Íanngi à! Fánngǐn ámé, Hàgngǐn ábá, ňg ájì, mai bún mófán.</td>
-          </tr>
-          <tr>
-            <td>村人：</td>
-            <td>若屋下三國演義啊！番人阿姆，客人阿爸，你阿姐，賣分毛番。</td>
-          </tr>
-          <tr>
-            <td><br>
-            </td>
-            <td>Sagtěu ňg qǐung se iung do tai, du mǒ cùdsù, ìa bài bún ňg gífi à! Ňg ge sǐinngǐanlí lǒi à! Láu sángfán sǐin hong Hàgngǐn sám tòd tèd! Ňg qiu gogúan ě!</td>
-          </tr>
-          <tr>
-            <td><br>
-            </td>
-            <td>石頭你從細用到大，都無出手，這擺分你機會啊！你个成年禮來啊！摎生番身項客人衫脫忒！你就過關吔！</td>
-          </tr>
-        </tbody>
-      </table>
-    </section>
-    <section><span class="time">14:06</span><br>
-      <table style="width: 100%" border="0">
-        <tbody>
-          <tr>
-            <td>Sùiè:&nbsp; </td>
-            <td>Salǐau sénlí zóng, lìong pìen íu tǔngteu, ciinè mǒ vàpìen. Sángge Hoglòngǐn m̌ giu, xìge Hàgngǐn, me m̌ sú! Zèu!<br>
-            </td>
-          </tr>
-          <tr>
-            <td>水仔：</td>
-            <td>社寮生理庄，兩片有通透，秤仔無偎偏。生个學老人毋救，死个客人，乜毋收！走！ </td>
-          </tr>
-        </tbody>
-      </table>
-    </section>
-    <section><span class="time">14:42</span><br>
-      <table style="width: 100%" border="0">
-        <tbody>
-          <tr>
-            <td>Lǐm Lòsiid:&nbsp;<br>
-            </td>
-            <td>Tǐen mǒ ngá fun, láu Hoglòngǐn qìong sùi biangmiang, mǒ oi hi là!<br>
-            </td>
-          </tr>
-          <tr>
-            <td>林老實： </td>
-            <td>田無吾份，摎學老人搶水拚命，無愛去啦！ </td>
-          </tr>
-          <tr>
-            <td>Á-Gìu:&nbsp;</td>
-            <td>Ňg hed di Tùnglíangpú Hàggá zóng, m̌ tensù ǒ?<br>
-            </td>
-          </tr>
-          <tr>
-            <td>阿九：</td>
-            <td>你歇在統領埔客家庄，毋𢯭手喔？</td>
-          </tr>
-          <tr>
-            <td>Lǐm:&nbsp;</td>
-            <td>Ngìong bán? He mǒ tensù, iu oi séu ngá vùg? Ňg hǎn mǎng láu ngá bú'ngǐong fi sìidlí.<br>
-            </td>
-          </tr>
-          <tr>
-            <td>林：</td>
-            <td>仰般？係無𢯭手，又愛燒吾屋？你還吂摎吾餔娘會失禮。</td>
-          </tr>
-          <tr>
-            <td>Á-Gìu:&nbsp; </td>
-            <td>Ňg lǒi tensù, ngá tǐen, piog lìong fun tǐen bún ňg. <br>
-              Ngá laiè, me íu vùg hò hed! <br>
-              He mǒ, Hàggá zóng, mǒ ngǐn sìong oi ga fánè! <br>
-              Ňg laiè, qiu dèn dò tò Salǐau ge tùsáng'è, zai go sa sén tùsángzìi a!<br>
-            </td>
-          </tr>
-          <tr>
-            <td>阿九： </td>
-            <td>你來𢯭手，吾田，贌兩<span class="TBD">分</span>田分你。<br>
-              若倈仔，乜有屋好歇！<br>
-              係無，客家庄，無人想愛嫁番仔！<br>
-              你倈仔，就等着討社寮个土生仔，再過生土生子啊！ </td>
-          </tr>
-          <tr>
-            <td>Lǐm:&nbsp; </td>
-            <td>Ngǎi vùggá ngǐn, qǐonpu zoha Hàggángǐn.<br>
-              Cěusǎng Hoglòè, cǐi go zúngxien lè he? Hǹg! <br>
-              Ngǎi těn ňg hi zo ngimǐnǐa, m̌ kǐu íu ngǐn bai, qiang kǐu ngá laiè íu tǐen hò gáng; <br>
-              he mǒ, ňg bai màge, ngǎi du hi qǐm ňg!<br>
-            </td>
-          </tr>
-          <tr>
-            <td>林：<br>
-            </td>
-            <td>𠊎屋下人，全部做下客家人。<br>
-              樵城學老仔，㓾過中線哩係？哼！<br>
-              𠊎跈你去做義民爺，毋求有人拜，淨求吾倈仔有田好耕；<br>
-              係無，你拜麼个，𠊎都去尋你！</td>
-          </tr>
-          <tr>
-            <td>Kied:&nbsp;<br>
-            </td>
-            <td>Ábá!<br>
-            </td>
-          </tr>
-          <tr>
-            <td>杰：</td>
-            <td>阿爸！</td>
-          </tr>
-          <tr>
-            <td>Lǐm:&nbsp; </td>
-            <td>Á-Kied!<br>
-            </td>
-          </tr>
-          <tr>
-            <td>林：</td>
-            <td>阿杰！</td>
-          </tr>
-          <tr>
-            <td>Kied:&nbsp; </td>
-            <td>Ngǎi ti ngá Ábá hi!<br>
-            </td>
-          </tr>
-          <tr>
-            <td>杰：</td>
-            <td>𠊎替吾阿爸去！</td>
-          </tr>
-          <tr>
-            <td>Gìu:&nbsp; </td>
-            <td>Ňg siiblìug se lè. Hàggángǐn o, zòvàn oi gíngo ìa gúan, zang zodèd son taingǐn.<br>
-            </td>
-          </tr>
-          <tr>
-            <td>九：</td>
-            <td>你十六歲哩。客家人喔，早晚愛經過這關，正做得算大人。</td>
-          </tr>
-          <tr>
-            <td>Lǐm:&nbsp; </td>
-            <td>Bùd zùn hi!<br>
-            </td>
-          </tr>
-          <tr>
-            <td>林：</td>
-            <td>不准去！</td>
-          </tr>
-          <tr>
-            <td>Gìu:&nbsp; </td>
-            <td>Ngía laiè...<br>
-            </td>
-          </tr>
-          <tr>
-            <td>九：</td>
-            <td>若倈仔……</td>
-          </tr>
-          <tr>
-            <td>Lǐm:&nbsp; </td>
-            <td>Moiè zèu tèd, hegòng laiè iu xì tèd, gía mé xì m̌ voi bionggo ngǎi.<br>
-            </td>
-          </tr>
-          <tr>
-            <td>林：</td>
-            <td>妹仔走忒，係講倈仔又死忒，厥姆死毋會放過𠊎。</td>
-          </tr>
-        </tbody>
-      </table>
-    </section>
-    <section><span class="time">16:54</span><br>
-      <table style="width: 100%" border="0">
-        <tbody>
-          <tr>
-            <td>Lǐm:&nbsp; </td>
-            <td>Těubài, hém ňg hi Fùsǎng, ňg gíang do voi xì! Ìaha iu voi hi sǐongcíi?<br>
-            </td>
-          </tr>
-          <tr>
-            <td>林： </td>
-            <td>頭擺，喊你去府城，你驚到會死！這下又會去相㓾？</td>
-          </tr>
-          <tr>
-            <td>Kied:&nbsp; </td>
-            <td>Ábá!<br>
-            </td>
-          </tr>
-          <tr>
-            <td>杰：</td>
-            <td>阿爸！</td>
-          </tr>
-          <tr>
-            <td>Lǐm:&nbsp; </td>
-            <td>Gómózìi! M̌ he ňg, én qiu íu tǐen lè la!<br>
-            </td>
-          </tr>
-          <tr>
-            <td>林：</td>
-            <td>孤盲子！毋係你，𫣆就有田哩啦！</td>
-          </tr>
-          <tr>
-            <td>Kied:&nbsp; </td>
-            <td>Ábá, íu sǒn hò ngíam.<br>
-            </td>
-          </tr>
-          <tr>
-            <td>杰：</td>
-            <td>阿爸，有船好拈。</td>
-          </tr>
-        </tbody>
-      </table>
-    </section>
-    <section><span class="time"> 17:28</span><br>
-      <table style="width: 100%" border="0">
-        <tbody>
-          <tr>
-            <td>Á-Gìu:&nbsp; </td>
-            <td>Mǒ haglòn...<br>
-            </td>
-          </tr>
-          <tr>
-            <td>阿九：</td>
-            <td>無核卵……（粗口，很小聲，我聽不出來，是參考網友資訊）</td>
-          </tr>
-        </tbody>
-      </table>
-    </section>
-    <section><span class="time"> 21:00</span><br>
-      <table style="width: 100%" border="0">
-        <tbody>
-          <tr>
-            <td>Á-Gìu:&nbsp; </td>
-            <td>Zunpǐ hǎn cèd tèd lè!<br>
-            </td>
-          </tr>
-          <tr>
-            <td>阿九：</td>
-            <td>圳埤還塞忒哩！</td>
-          </tr>
-        </tbody>
-      </table>
-    </section>
-    <section><span class="time"> 24:12</span><br>
-      <table style="width: 100%" border="0">
-        <tbody>
-          <tr>
-            <td>Lǐm:&nbsp; </td>
-            <td>Qiu mong ňg ájì, di Fùsǎng ngìd'è hò go.<br>
-            </td>
-          </tr>
-          <tr>
-            <td>林：</td>
-            <td>就望你阿姐，在府城日仔好過。</td>
-          </tr>
-          <tr>
-            <td>Kied:&nbsp;<br>
-            </td>
-            <td>He Ámé ge zo sángfán ge cǐi pìed?<br>
-            </td>
-          </tr>
-          <tr>
-            <td>杰：</td>
-            <td>係阿姆該做生番个㓾撇？</td>
-          </tr>
-          <tr>
-            <td>Lǐm:&nbsp; </td>
-            <td>Ňg siiblìug se lè, di Lǒngkieu, m̌ he bún ngǐn cíi xì, qiu he zo sángfánè cíi ngǐn.<br>
-            </td>
-          </tr>
-          <tr>
-            <td>林： </td>
-            <td>你十六歲哩，佇琅𤩝，毋係分人㓾死，就係做生番仔㓾人。</td>
-          </tr>
-          <tr>
-            <td>Lǐm:&nbsp; </td>
-            <td>Íu láu ňg ájì gòng go lè, ňg siiblìug se, voi dai ňg hi Fùsǎng. Gǐ m̌ zònlǒi, én hi qǐm gǐ!</td>
-          </tr>
-          <tr>
-            <td>林： </td>
-            <td>有摎你阿姐講過哩，你十六歲，會帶你去府城。佢毋轉來，𫣆去尋佢！</td>
-          </tr>
-        </tbody>
-      </table>
-    </section>
-    <section><span class="time"> 29:15</span><br>
-      <table style="width: 100%" border="0">
-        <tbody>
-          <tr>
-            <td>Gìu:&nbsp; </td>
-            <td>Ňg dòng sùimàg, bún sùi qiang lìug jin ngía tǐen, ngá tǐen m̌ sìi sái sùi o?<br>
-              Ňg oi hìug Cěusǎng, ngǎi oi hìug Bòlid, Tùnglíangpú!<br>
-            </td>
-          </tr>
-          <tr>
-            <td>九：</td>
-            <td>你擋水脈，分水淨流進若田，吾田毋使㘔水喔？<br>
-              你愛畜樵城，𠊎愛畜保力、統領埔！</td>
-          </tr>
-          <tr>
-            <td><br>
-            </td>
-            <td>…… </td>
-          </tr>
-          <tr>
-            <td><br>
-            </td>
-            <td><br>
-            </td>
-          </tr>
-          <tr>
-            <td>Sùi:&nbsp; </td>
-            <td>Á-Gìu Góè, ňg láu sángfán piog ge Tùnglíangpú, voi mǒ oi lè.</td>
-          </tr>
-          <tr>
-            <td>水：</td>
-            <td>阿九哥仔，你摎生番贌个統領埔，會無愛哩。</td>
-          </tr>
-        </tbody>
-      </table>
-      <br>
-      <br>
-      <span class="time"> 31:40</span><br>
-      <table style="width: 100%" border="0">
-        <tbody>
-          <tr>
-            <td>Sùi:&nbsp; <br>
-            </td>
-            <td>Á-Gìu Góè a, taigá ngiong ìd pu la, hò mǒ? </td>
-          </tr>
-          <tr>
-            <td>水： </td>
-            <td>阿九哥仔啊，大家讓一步啦，好無？ </td>
-          </tr>
-          <tr>
-            <td>Gìu:&nbsp; </td>
-            <td>Bòlid zodèd hìug àn dó ngǐn, ngǎi hǎn oi láu sángfán piog Tùnglíangpú?</td>
-          </tr>
-          <tr>
-            <td>九：</td>
-            <td>保力做得畜恁多人，𠊎還愛摎生番贌統領埔？</td>
-          </tr>
-        </tbody>
-      </table>
-      <br>
-      &nbsp; ……<br>
-      <br>
-      <span class="time"> 32:47</span><br>
-      <table style="width: 100%" border="0">
-        <tbody>
-          <tr>
-            <td>Gìu:&nbsp; </td>
-            <td>Zéusǐin, gìhǎge sengǐnè, kon ciigá ge ábá, góng hi mǎi.<br>
-              Qìong m̌ dò sùi, gǐ ìadéu ábá, pagpag xì lè!<br>
-              Hàggángǐn m̌ gíang zo ngimǐnǐa, Tùnglíangpú, m̌ tui!<br>
-              Sùimàg, ňg m̌ hò biong a, dèn ngá ngǐn hi qìong!</td>
-          </tr>
-          <tr>
-            <td>九：</td>
-            <td>朝晨，幾下个細人仔，看自家个阿爸，扛去埋。<br>
-              搶毋着水，佢這兜阿爸，白白死哩！<br>
-              客家人毋驚做義民爺，統領埔，毋退！<br>
-              水脈，你毋好放啊，等吾人去搶！</td>
-          </tr>
-          <tr>
-            <td>Sùi:&nbsp; </td>
-            <td>Á-Gìu Gó, m̌ hò zèu la!</td>
-          </tr>
-          <tr>
-            <td>水：</td>
-            <td>阿九哥，毋好走啦！</td>
-          </tr>
-        </tbody>
-      </table>
-      <br>
-      <br>
-      <span class="time"> 35:50</span><br>
-      <table style="width: 100%" border="0">
-        <tbody>
-          <tr>
-            <td>Gìu:&nbsp; </td>
-            <td>Ìaha, ňg zodèd biong sùimàg.</td>
-          </tr>
-          <tr>
-            <td>九：</td>
-            <td>這下，你做得放水脈。</td>
-          </tr>
-        </tbody>
-      </table>
-      <br>
-      <br>
-      <span class="time"> 36:25</span><br>
-      <table style="width: 100%" border="0">
-        <tbody>
-          <tr>
-            <td>Gìu:&nbsp; </td>
-            <td>Á-Sùi, Tùnglíangpú ge fò, voi séu do Salǐau o!</td>
-          </tr>
-          <tr>
-            <td>九：</td>
-            <td>阿水，統領埔个火，會燒到社寮哦！</td>
-          </tr>
-        </tbody>
-      </table>
-    </section>
-    <section><span class="time">38:20</span> <br>
-      <table style="width: 100%" border="0">
-        <tbody>
-          <tr>
-            <td>Lǐm:&nbsp; </td>
-            <td>Těubài Hàgngǐn séu, ìa bài Cěusǎng Hoglòè séu. Ìa vùg, he ňg ámé qínsù hì ge.<br>
-            </td>
-          </tr>
-          <tr>
-            <td>父：</td>
-            <td>頭擺客人燒，這擺樵城學老仔燒。這屋，係你阿姆親手起个。</td>
-          </tr>
-          <tr>
-            <td>Lǐm:&nbsp; </td>
-            <td>Macuka, ngǎi dai Á-Kied-è, hi qǐm Tiab-Moi a, ňg oi bòfu én ìdgángǐn tǒnǐan. A?<br>
-            </td>
-          </tr>
-          <tr>
-            <td>父：</td>
-            <td>瑪祖卡，𠊎帶阿杰仔，去尋蝶妹啊，你愛保護𫣆一家人團圓。啊？</td>
-          </tr>
-          <tr>
-            <td>Sǒnǐan:&nbsp; </td>
-            <td>Oi! Hàggángǐn? Ngǎi qǐm gúanfù!<br>
-            </td>
-          </tr>
-          <tr>
-            <td>船員：</td>
-            <td>喂！客家人？𠊎尋官府！</td>
-          </tr>
-          <tr>
-            <td>Lǐm:&nbsp; </td>
-            <td>Gúanfù? Íu gúanfù hǎn voi séu vùg a? Zèu la!<br>
-            </td>
-          </tr>
-          <tr>
-            <td>父：</td>
-            <td>官府？有官府還會燒屋啊？走啦！</td>
-          </tr>
-          <tr>
-            <td><br>
-            </td>
-            <td>…… </td>
-          </tr>
-          <tr>
-            <td><br>
-            </td>
-            <td><br>
-            </td>
-          </tr>
-          <tr>
-            <td>Lǐm:&nbsp; </td>
-            <td>Hi kon íu màge dadqǐen ge a!<br>
-            </td>
-          </tr>
-          <tr>
-            <td>父：</td>
-            <td>去看有麼个值錢个啊！</td>
-          </tr>
-          <tr>
-            <td>Kied:&nbsp;</td>
-            <td>Ábá! Sǒnǐan!<br>
-            </td>
-          </tr>
-          <tr>
-            <td>杰：</td>
-            <td>阿爸！船員！</td>
-          </tr>
-        </tbody>
-      </table>
-    </section>
-    <section><span class="time"> 40:00</span><br>
-      <table style="width: 100%" border="0">
-        <tbody>
-          <tr>
-            <td>Sùi:&nbsp;</td>
-            <td>Cěusǎng ngǐn lǒi bán fo mǒ oi ge a.<br>
-              Ágóè, Salǐau nab fánzú, sǎngfánè náu fánmǒè, náu sǒnǐan.<br>
-              Dí sǒnǐan dui Salǐau zèu, sú zòn Salǐau se siiqǐn,<br>
-              ngufi ngǎi láu sǒnǐan tensù, voi cùdcò.<br>
-            </td>
-          </tr>
-          <tr>
-            <td>水：</td>
-            <td>樵城人來搬貨無愛个啊。<br>
-              阿哥仔，社寮納番租，生番仔惱番毛仔，惱船員。<br>
-              知船員對社寮走，收轉社寮細事情，<br>
-              誤會𠊎摎船員𢯭手，會出草。</td>
-          </tr>
-          <tr>
-            <td>Lǐm:&nbsp; </td>
-            <td>Sùi a, tǔng ňg jia gì tǐau logsòg.<br>
-            </td>
-          </tr>
-          <tr>
-            <td>林：</td>
-            <td>水啊，同你借幾條絡索。</td>
-          </tr>
-          <tr>
-            <td>Sùi:&nbsp; </td>
-            <td>Fùsǎng lu dóng ìan a, siid bàu téu è a.<br>
-              Giu sǒnǐan ge sònngǐun, ngǎi oi líang.<br>
-              Hò. Logsòg.<br>
-              Tiab-Moi ho, mǒ tincog qiu oi zòn lǒi le.<br>
-              Ìaha hi Fùsǎng, ngǔihìam la.<br>
-            </td>
-          </tr>
-          <tr>
-            <td>水：</td>
-            <td>府城路當遠啊，食飽兜仔啊。<br>
-              救船員个賞銀，𠊎愛領。〔意思與字幕似有出入〕<br>
-              好。絡索。<br>
-              蝶妹呴，無定著就愛轉來哩。<br>
-              這下去府城，危險啦。</td>
-          </tr>
-          <tr>
-            <td>Kied:&nbsp; </td>
-            <td>Ábá!<br>
-            </td>
-          </tr>
-          <tr>
-            <td>杰：</td>
-            <td>阿爸！</td>
-          </tr>
-          <tr>
-            <td>Lǐm:&nbsp; </td>
-            <td>Dìau ngía mé lè...<br>
-              Á-Kied! Zèu!<br>
-            </td>
-          </tr>
-          <tr>
-            <td>林：</td>
-            <td>屌若姆哩……<br>
-              阿杰！走！</td>
-          </tr>
-        </tbody>
-      </table>
-    </section>
-    <section><span class="time">44:07</span><br>
-      <table>
-        <tbody>
-          <tr>
-            <td>Lǐm:&nbsp; </td>
-            <td>Zèu lè, mǒ haglòn ge.<br>
-              Gìag! Tincog voi do Fùsǎng qǐm ňg ájì! Lǒi!<br>
-            </td>
-          </tr>
-          <tr>
-            <td>林：</td>
-            <td>走哩，無核卵个。<br>
-              遽！定著會到府城尋你阿姐！來！</td>
-          </tr>
-          <tr>
-            <td>Lǐm:&nbsp; </td>
-            <td>Ngǎi gíang sìid m̌ cùd ájì.<br>
-            </td>
-          </tr>
-          <tr>
-            <td>杰：</td>
-            <td>𠊎驚識毋出阿姐。</td>
-          </tr>
-          <tr>
-            <td>Lǐm:&nbsp; </td>
-            <td>Gìag gìag!<br>
-            </td>
-          </tr>
-          <tr>
-            <td><br>
-            </td>
-            <td>遽遽！</td>
-          </tr>
-          <tr>
-            <td>Lǐm:&nbsp; </td>
-            <td>Téungǐuced. Díamdíam.<br>
-            </td>
-          </tr>
-          <tr>
-            <td><br>
-            </td>
-            <td>偷牛賊。恬恬。</td>
-          </tr>
-          <tr>
-            <td>Kied:&nbsp; </td>
-            <td>Ábá!<br>
-            </td>
-          </tr>
-          <tr>
-            <td>杰：</td>
-            <td>阿爸！</td>
-          </tr>
-          <tr>
-            <td>Lǐm:&nbsp; </td>
-            <td>Ka hi déu ě, qiu he Fúnggòng, dai gǐ hi bo gúan!<br>
-            </td>
-          </tr>
-          <tr>
-            <td><br>
-            </td>
-            <td>較去兜吔，就係風港，帶佢去報官！</td>
-          </tr>
-          <tr>
-            <td>Kied:&nbsp; </td>
-            <td>Ábá m̌ hi ě?<br>
-            </td>
-          </tr>
-          <tr>
-            <td>杰：</td>
-            <td>阿爸毋去吔？</td>
-          </tr>
-          <tr>
-            <td>Lǐm:&nbsp; </td>
-            <td>Ngǎi hi lè, mà ngǐn láu ňg ámé zoban a? Sa hi!<br>
-            </td>
-          </tr>
-          <tr>
-            <td><br>
-            </td>
-            <td>𠊎去哩，麼人摎你阿姆做伴啊？嗄去！</td>
-          </tr>
-          <tr>
-            <td>Kied:&nbsp; </td>
-            <td>Ábá!<br>
-            </td>
-          </tr>
-          <tr>
-            <td>杰：</td>
-            <td>阿爸！</td>
-          </tr>
-          <tr>
-            <td>Lǐm:&nbsp; </td>
-            <td>Ìadéu he ňg ábá cǐi go ge téungǐuced.<br>
-              "Lon cǐi ngǐn ge, tincog vǎngxì," ňg ámé gòng ge.<br>
-              Boin.<br>
-            </td>
-          </tr>
-          <tr>
-            <td>林： </td>
-            <td>這兜係你阿爸㓾過个偷牛賊。<br>
-              「亂㓾人个，定著橫死」，你阿姆講个。<br>
-              報應。</td>
-          </tr>
-        </tbody>
-      </table>
-    </section>
-    <h1> EP2 sequljung 藍眼人</h1>
-    <section><span class="time"> 11:26</span><br>
-      <table>
-        <tbody>
-          <tr>
-            <td>Tiab:&nbsp;</td>
-            <td>Ádigù, ngǎi he Ájì. Ádigù.<br>
-            </td>
-          </tr>
-          <tr>
-            <td>蝶：</td>
-            <td>阿弟牯，𠊎係阿姐。阿弟牯。</td>
-          </tr>
-        </tbody>
-      </table>
-    </section>
-    <section><span class="time"> 23:37</span><br>
-      <table>
-        <tbody>
-          <tr>
-            <td>Kied:&nbsp;</td>
-            <td>Ìa vi he nai? Ngǎi oi zòn hi qǐm Ábá.</td>
-          </tr>
-          <tr>
-            <td>杰：</td>
-            <td>這位係哪？𠊎愛轉去尋阿爸。</td>
-          </tr>
-        </tbody>
-      </table>
-    </section>
-    <section><span class="time"> 24:26</span><br>
-      <table>
-        <tbody>
-          <tr>
-            <td>Kied:&nbsp;</td>
-            <td>Ábá oi dai sǒnǐan lǒi qǐm ňg, bún téungǐuced cǐi xì tèd lè, Ájì.<br>
-            </td>
-          </tr>
-          <tr>
-            <td>杰：</td>
-            <td>阿爸愛帶船員來尋你，分偷牛賊㓾死忒哩，阿姐。</td>
-          </tr>
-          <tr>
-            <td>Tiab:&nbsp; </td>
-            <td>M̌ hò sìong Ábá lè, ngǎi kon dò ňg, ngǎi qiu ónsím lè.<br>
-            </td>
-          </tr>
-          <tr>
-            <td>蝶：</td>
-            <td>毋好想阿爸哩，𠊎看着你，𠊎就安心哩。</td>
-          </tr>
-          <tr>
-            <td>Kied:&nbsp; </td>
-            <td>Ngǎi va dò voi ngin m̌ cùd Ájì.<br>
-            </td>
-          </tr>
-          <tr>
-            <td>杰：</td>
-            <td>𠊎話着會認毋出阿姐。</td>
-          </tr>
-          <tr>
-            <td>Tiab:&nbsp; </td>
-            <td>Ájì ngin dèd cùd ňg a. Lǒi. Ňg zai go soi ìd há ě.<br>
-            </td>
-          </tr>
-          <tr>
-            <td>蝶：</td>
-            <td>阿姐認得出你啊。來。你再過睡加一下吔。</td>
-          </tr>
-        </tbody>
-      </table>
-    </section>
-    <section><span class="time"> 26:07</span><br>
-      <table>
-        <tbody>
-          <tr>
-            <td>Kied:&nbsp;</td>
-            <td>Ájì, hǎi tèd tai ě.<br>
-            </td>
-          </tr>
-          <tr>
-            <td>杰：</td>
-            <td>阿姐，鞋忒大吔。</td>
-          </tr>
-          <tr>
-            <td>Tiab:&nbsp; </td>
-            <td>Gìag déu ě. Lǒi! Oi hi láu ňg ónfu.<br>
-            </td>
-          </tr>
-          <tr>
-            <td>蝶：</td>
-            <td>遽兜吔。來！愛去摎你安戶。</td>
-          </tr>
-          <tr>
-            <td>Tiab:&nbsp; </td>
-            <td>Di Fùsǎng, m̌ hò gòng fánfa.<br>
-              Ìa vi íu ngǐn ma ňg sǎngfánè, m̌ hò sǐinngin.<br>
-              Ha ngi bài, qiu hǎng ìa tǐau lu zòn hi.<br>
-            </td>
-          </tr>
-          <tr>
-            <td>蝶：</td>
-            <td>在府城，毋好講番話。<br>
-              這位有人罵你生番仔，毋好承認。<br>
-              下二擺，就行這條路轉去。</td>
-          </tr>
-          <tr>
-            <td><br>
-            </td>
-            <td>…… </td>
-          </tr>
-          <tr>
-            <td><br>
-            </td>
-            <td><br>
-            </td>
-          </tr>
-          <tr>
-            <td>Tiab:&nbsp; </td>
-            <td>Fùsǎng m̌ voi íu ngǐn séu ngía vùg.<br>
-            </td>
-          </tr>
-          <tr>
-            <td>蝶：</td>
-            <td>府城毋會有人燒若屋。</td>
-          </tr>
-        </tbody>
-      </table>
-    </section>
-    <section><span class="time"> 27:02</span><br>
-      <table>
-        <tbody>
-          <tr>
-            <td>Tiab:&nbsp; </td>
-            <td>Dènìdha do dàsagcǒng, oi ngíunnai. Mǒ bún dà, m̌ voi cùdsíi.<br>
-            </td>
-          </tr>
-          <tr>
-            <td>蝶：</td>
-            <td>等一下到打石場，愛忍耐。無分打，毋會出師。</td>
-          </tr>
-          <tr>
-            <td>Kied:&nbsp; </td>
-            <td>Ngǎi zò qiu di Ábá ge cùdsíi lè.<br>
-            </td>
-          </tr>
-          <tr>
-            <td>杰：</td>
-            <td>𠊎早就在阿爸該出師哩。</td>
-          </tr>
-        </tbody>
-      </table>
-    </section>
-    <section><span class="time"> 43:10</span><br>
-      <table>
-        <tbody>
-          <tr>
-            <td>Tiab:&nbsp; </td>
-            <td>Ádigù!<br>
-              Ádigù!<br>
-            </td>
-          </tr>
-          <tr>
-            <td>蝶：</td>
-            <td>阿弟牯！<br>
-              阿弟牯！</td>
-          </tr>
-          <tr>
-            <td>Kied:&nbsp; </td>
-            <td>Ájì.<br>
-            </td>
-          </tr>
-          <tr>
-            <td>杰：</td>
-            <td>阿姐。</td>
-          </tr>
-          <tr>
-            <td>Tiab:&nbsp; </td>
-            <td>Ňgdéu hi nai a? Hǎn m̌ zòn hi ísánggùan?<br>
-            </td>
-          </tr>
-          <tr>
-            <td>蝶：</td>
-            <td>你兜去哪啊？還毋轉去醫生館？</td>
-          </tr>
-          <tr>
-            <td>Kied:&nbsp; </td>
-            <td>Ngǎi ge ha hi con ngoisùi.<br>
-            </td>
-          </tr>
-          <tr>
-            <td>杰：</td>
-            <td>𠊎該下去賺外水。</td>
-          </tr>
-          <tr>
-            <td>Tiab:&nbsp; </td>
-            <td>Ngoisùi? Gúi síinè dablǎu, hi nai ě?<br>
-            </td>
-          </tr>
-          <tr>
-            <td>蝶：</td>
-            <td>外水？歸身仔溚潦，去哪吔？</td>
-          </tr>
-          <tr>
-            <td>Kied:&nbsp; </td>
-            <td>Ngíam sǒnè.<br>
-            </td>
-          </tr>
-          <tr>
-            <td>杰：</td>
-            <td>拈船仔。</td>
-          </tr>
-          <tr>
-            <td>Tiab:&nbsp; </td>
-            <td>Ìavi m̌ he Lǒngkieu, Fùsǎng ge sǒnè, du íu zùngǐn ě.<br>
-            </td>
-          </tr>
-          <tr>
-            <td>蝶：</td>
-            <td>這位毋係琅𤩝，府城个船仔，都有主人吔。</td>
-          </tr>
-        </tbody>
-      </table>
-    </section>
-    <section><span class="time"> 45:04</span><br>
-      <table>
-        <tbody>
-          <tr>
-            <td>Kied:&nbsp; </td>
-            <td>Gòng sǎngfánè, ngǎi zo-m̌-dèd sǐinngin; <br>
-              Tǒngsánngǐn, iu kǐeu dò mǒ qiong.<br>
-            </td>
-          </tr>
-          <tr>
-            <td>杰：</td>
-            <td>講生番仔，𠊎做毋得承認；<br>
-              唐山人，又喬着無像。</td>
-          </tr>
-        </tbody>
-      </table>
-    </section>
-    <h1>EP3 sasekauljan 僕人</h1>
-    <section> <span class="time"> 2:37 </span>
-      <table>
-        <tbody>
-          <tr>
-            <td> Gìu:&nbsp;</td>
-            <td> Lǒngkieu, mǒ gúanfù! </td>
-          </tr>
-          <tr>
-            <td> 九： </td>
-            <td> 琅𤩝，無官府！ </td>
-          </tr>
-        </tbody>
-      </table>
-    </section>
-    <section> <span class="time"> 4:10 </span>
-      <table>
-        <tbody>
-          <tr>
-            <td> Sùi:&nbsp;</td>
-            <td> Nai qiong ňgdéu Hàgngǐn, hǎn hi ngíam sǒn. </td>
-          </tr>
-          <tr>
-            <td> 水： </td>
-            <td> 哪像你兜客人，還去拈船。 </td>
-          </tr>
-          <tr>
-            <td> Gìu:&nbsp; </td>
-            <td> Gúanfù gòng a, Lǒngkieu, "gimti fóngpú"! Bún én ìadéu, "cii sǎng cii mied"!<br>
-              Xì sǒnǐan, qiu hém én ìadéu, ná sǎngfán ge ngǐntěu gáucái, gìeu fad ge qǐen?<br>
-              Tǐengóngngìd, Tǔng'id, lǒi sú ngǐntěu, ngǎi cùdmien!<br>
-              Sa há lǒi, ňg sǒng sán! Láu Tǔng'id ge ngǐntěu bún sángfánè!<br>
-              Gòng, ngǎi tai gǐ ìadéu a, gìaigìad tèd! Ngǎi oi piog zòn Tùnglíangpú!<br>
-            </td>
-          </tr>
-          <tr>
-            <td> 九： </td>
-            <td> 官府講啊，琅𤩝，「禁地荒埔」！分𫣆這兜，「自生自滅」！<br>
-              死船員，就喊𫣆這兜，拿生番个人頭交差、繳罰个錢？<br>
-              天光日，通譯，來收人頭，𠊎出面！<br>
-              續下來，你上山！摎通譯个人頭分生番仔！<br>
-              講，𠊎替佢這兜啊，解決忒！𠊎愛贌轉統領埔！ </td>
-          </tr>
-        </tbody>
-      </table>
-    </section>
-    <section> <span class="time"> 6:20 </span>
-      <table>
-        <tbody>
-          <tr>
-            <td> Gìu:&nbsp; </td>
-            <td>Téungǐuced, he Fúnggòng ge pìen ge Tǒngsánngǐn, sén dèd láu sángfán mǒ kiungiong la! Ai!<br>
-            </td>
-          </tr>
-          <tr>
-            <td> 九： </td>
-            <td> 偷牛賊，係風港該片个唐山人，生得摎生番無共樣啦！唉！ </td>
-          </tr>
-          <tr>
-            <td> Sùi:&nbsp; </td>
-            <td>M̌sìi sěu, ngǎi voi cùlí.<br>
-            </td>
-          </tr>
-          <tr>
-            <td> 水： </td>
-            <td> 毋使愁，𠊎會處理。 </td>
-          </tr>
-        </tbody>
-      </table>
-    </section>
-    <section> <span class="time"> 11:40 </span>
-      <table>
-        <tbody>
-          <tr>
-            <td> Gìu:&nbsp; </td>
-            <td>Ngiadpiang voi ce ngǐn! Ngǎidéu he góbùdjíong ge! Ňgdéu, nangngoi qǐm visò hed!<br>
-            </td>
-          </tr>
-          <tr>
-            <td> 九： </td>
-            <td> 熱病會遰人！𠊎兜係高不將个！你兜，另外尋位所歇！ </td>
-          </tr>
-        </tbody>
-      </table>
-    </section>
-    <section> <span class="time"> 27:00 </span>
-      <table>
-        <tbody>
-          <tr>
-            <td> Tiab:&nbsp; </td>
-            <td>Hǎi gòi hò lè, hi zose! Hi a!<br>
-            </td>
-          </tr>
-          <tr>
-            <td> 蝶： </td>
-            <td> 鞋改好哩，去做事！去啊！ </td>
-          </tr>
-        </tbody>
-      </table>
-    </section>
-    <section> <span class="time"> 34:00 </span>
-      <table>
-        <tbody>
-          <tr>
-            <td> Kied:&nbsp; </td>
-            <td>Ìa, Ájì lu hong siid, ňg bún ngǎi ge qǐen mai ge.<br>
-            </td>
-          </tr>
-          <tr>
-            <td> 杰： </td>
-            <td> 這，阿姐路項食，你分𠊎个錢買个。 </td>
-          </tr>
-          <tr>
-            <td>Tiab:&nbsp; </td>
-            <td>Ňg hi gíai hong o?<br>
-            </td>
-          </tr>
-          <tr>
-            <td> 蝶： </td>
-            <td> 你去街項喔？ </td>
-          </tr>
-          <tr>
-            <td>Kied:&nbsp; </td>
-            <td>Hǎn mǎng do gíai hong a.<br>
-            </td>
-          </tr>
-          <tr>
-            <td> 杰： </td>
-            <td> 還吂到街項啊。 </td>
-          </tr>
-        </tbody>
-      </table>
-    </section>
-    <section> <span class="time"> 34:24 </span>
-      <table>
-        <tbody>
-          <tr>
-            <td> Tiab:&nbsp; </td>
-            <td>Bionggóng, ňg hǎng gíai hong, zòn íséngùan.<br>
-            </td>
-          </tr>
-          <tr>
-            <td> 蝶： </td>
-            <td> 放工，你行街項，轉醫生館。 </td>
-          </tr>
-          <tr>
-            <td>Kied:&nbsp; </td>
-            <td>Gǐdéu voi ma ngǎi sǎngfánè.<br>
-            </td>
-          </tr>
-          <tr>
-            <td> 杰： </td>
-            <td>佢兜會罵𠊎生番仔。</td>
-          </tr>
-          <tr>
-            <td>Tiab:&nbsp; </td>
-            <td>Ňg táng dó lè, qiu táng m̌ dò lè.<br>
-            </td>
-          </tr>
-          <tr>
-            <td> 蝶： </td>
-            <td> 你聽多哩，就聽毋着哩。 </td>
-          </tr>
-        </tbody>
-      </table>
-    </section>
-    <h1>EP4 sacemecemel 蠻荒之境</h1>
-    <section> <span class="time">1:52 </span>
-      <table>
-        <tbody>
-          <tr>
-            <td> Tiab:&nbsp; </td>
-            <td>Ádigù!<br>
-            </td>
-          </tr>
-          <tr>
-            <td> 蝶： </td>
-            <td> 阿弟牯！（不太明白為什麼劇組字幕翻譯不翻「弟弟 Brother」而是一定要翻成名字呢？） </td>
-          </tr>
-          <tr>
-            <td>Tiab:&nbsp; </td>
-            <td>Qǐm fǔngmóè zo ngía bòngǐn, gúangíun m̌ voi qǐm ngía mǎfǎn a.<br>
-            </td>
-          </tr>
-          <tr>
-            <td> 蝶： </td>
-            <td> 尋紅毛仔做若保人，官軍毋會尋若麻煩啊。 </td>
-          </tr>
-          <tr>
-            <td>Kied:&nbsp; </td>
-            <td>Tincog oi hi Fùsǎng bán sagtěu? Zo-m̌-dèd lǐu há lǒi zàng vùg <span
-                class="TBD">he</span>?<br>
-            </td>
-          </tr>
-          <tr>
-            <td> 杰： </td>
-            <td> 定著愛去府城搬石頭？做毋得留下來整屋<span class="TBD">係</span>？ </td>
-          </tr>
-          <tr>
-            <td>Kied:&nbsp; </td>
-            <td>Gǐdéu he oi séu vùg'è, ngǎi kong hi zotěu iung nǎi mǎi tèd.<br>
-            </td>
-          </tr>
-          <tr>
-            <td> 杰： </td>
-            <td> 佢兜係愛燒屋仔，𠊎囥去灶頭用泥埋忒。 </td>
-          </tr>
-          <tr>
-            <td>Kied:&nbsp; </td>
-            <td>Biong zòn hi la. Mǒ tifóng hò kong ě.<br>
-            </td>
-          </tr>
-          <tr>
-            <td> 杰： </td>
-            <td> 放轉去啦。無地方好囥吔。 </td>
-          </tr>
-          <tr>
-            <td>Tiab:&nbsp; </td>
-            <td>Ngǎi zo màge oi kong a?<br>
-            </td>
-          </tr>
-          <tr>
-            <td> 蝶： </td>
-            <td> 𠊎做麼个愛囥啊？ </td>
-          </tr>
-        </tbody>
-      </table>
-    </section>
-    <section> <span class="time"> 3:55 </span>
-      <table>
-        <tbody>
-          <tr>
-            <td> Macuka:&nbsp; </td>
-            <td> Ngǎi ìd vùg<span class="TBD">k</span>á ngǐn, mǒ visò hò hi ě, mog séu, ngǎi ciigá zèu.<br>
-            </td>
-          </tr>
-          <tr>
-            <td> 瑪祖卡： </td>
-            <td> 𠊎一屋下人，無位所好去吔，莫燒，𠊎自家走。 </td>
-          </tr>
-        </tbody>
-      </table>
-    </section>
-    <section> <span class="time"> 6:10 </span>
-      <table>
-        <tbody>
-          <tr>
-            <td>Kied:&nbsp; </td>
-            <td>Voi dai ngǎi ájì zèu, qiu gìag zèu!<br>
-            </td>
-          </tr>
-          <tr>
-            <td> 杰： </td>
-            <td> 會帶𠊎阿姐走，就遽走！ </td>
-          </tr>
-        </tbody>
-      </table>
-    </section>
-    <section> <span class="time"> 7:03 </span>
-      <table>
-        <tbody>
-          <tr>
-            <td> Tiab:&nbsp; </td>
-            <td>Ìa bún ňg.<br>
-            </td>
-          </tr>
-          <tr>
-            <td> 蝶： </td>
-            <td> 這分你。 </td>
-          </tr>
-          <tr>
-            <td>Kied:&nbsp; </td>
-            <td>Ìa vùg he Ámé dai dèn éndéu hì ge,<br>
-              ňg m̌ sìong zòn lǒi, mǒ síongkón, hǎn íu ngǎi.<br>
-              Ngǎi láu gǐ zàng hò.<br>
-              Ňg zèu la, gidèd zòn lǒi kon ngǎi.<br>
-            </td>
-          </tr>
-          <tr>
-            <td> 杰： </td>
-            <td> 這屋係阿姆帶等𫣆兜起个，<br>
-              你毋想轉來，無相干，還有𠊎。<br>
-              𠊎摎佢整好。<br>
-              你走啦，記得轉來看𠊎。 </td>
-          </tr>
-        </tbody>
-      </table>
-    </section>
-    <section> <span class="time"> 22:05 </span>
-      <table>
-        <tbody>
-          <tr>
-            <td> Tiab:&nbsp; </td>
-            <td>Ngǎidéu oi lǒi qǐm sǒnǐan ge!<br>
-            </td>
-          </tr>
-          <tr>
-            <td> 蝶： </td>
-            <td> 𠊎兜愛來尋船員个！ </td>
-          </tr>
-          <tr>
-            <td>Gìu:&nbsp; </td>
-            <td>Sǒnǐan mǒ di ìa! M̌ dí hi naivi lè!<br>
-            </td>
-          </tr>
-          <tr>
-            <td> 九： </td>
-            <td> 船員無在這！毋知去哪位哩！ </td>
-          </tr>
-          <tr>
-            <td>Gìu:&nbsp; </td>
-            <td>Ňg ìa zàg sǎngfánè, dai fǔngmófán lǒi, zèu a!<br>
-            </td>
-          </tr>
-          <tr>
-            <td> 九： </td>
-            <td> 你這隻生番仔，帶紅毛番來，走啊！ </td>
-          </tr>
-          <tr>
-            <td>Tiab:&nbsp; </td>
-            <td>M̌ bún ngǎidéu ngib cún, voi íu ka dó fǔngmófán lǒi.<br>
-              Gǐdéu voi séu cúnè, láu ňg těubài séu ngá vùg kiungiong.<br>
-            </td>
-          </tr>
-          <tr>
-            <td> 蝶： </td>
-            <td> 毋分𠊎兜入村，會有較多紅毛番來。<br>
-              佢兜會燒村仔，摎你頭擺燒吾屋共樣。（煞氣！） </td>
-          </tr>
-          <tr>
-            <td>Gìu:&nbsp; </td>
-            <td>Těubài, séu ngía vùg, he góbùdjíong ge. Geha gòng go lè, cún dùhong, mǒ sǒnǐan, zèu la!<br>
-            </td>
-          </tr>
-          <tr>
-            <td> 九： </td>
-            <td> 頭擺，燒若屋，係高不將个。該下講過哩，村肚項，無船員，走啦！ </td>
-          </tr>
-          <tr>
-            <td>Tiab:&nbsp; </td>
-            <td>Cěusǎng těungǐn tincog voi dóng tiong. Gǐ bún ngǎidéu ngib cún qǐm sǒnǐan,<br>
-              fǔngmófán láu Cěusǎng zòn pěníu, ňg he fǔngmófán ge xìduitěu.<br>
-            </td>
-          </tr>
-          <tr>
-            <td> 蝶： </td>
-            <td> 樵城頭人定著會當暢。佢分𠊎兜入村尋船員，<br>
-              紅毛番摎樵城轉朋友，你係紅毛番个死對頭。 </td>
-          </tr>
-        </tbody>
-      </table>
-    </section>
-    <section> <span class="time"> 23:48 </span>
-      <table>
-        <tbody>
-          <tr>
-            <td> Tiab:&nbsp; </td>
-            <td>Dai ngǎi hi ňg ngíamsǒn ge tifóng, ngǎidéu zang bún ňg qǐen.<br>
-            </td>
-          </tr>
-          <tr>
-            <td> 蝶： </td>
-            <td> 帶𠊎去你拈船个地方，𠊎兜正分你錢。 </td>
-          </tr>
-        </tbody>
-      </table>
-    </section>
-    <section> <span class="time"> 27:10 </span>
-      <table>
-        <tbody>
-          <tr>
-            <td> Tiab:&nbsp; </td>
-            <td>Ňg těubài láu ngá bá, ngá mé gìug cùd Bòlid Zóng,<br>
-              ngá bá he Hàggángǐn ě! Cěusǎng těungǐn gòng ge.<br>
-            </td>
-          </tr>
-          <tr>
-            <td> 蝶： </td>
-            <td> 你頭擺摎吾爸、吾姆逐出保力庄，<br>
-              吾爸係客家人吔！樵城頭人講个。 </td>
-          </tr>
-          <tr>
-            <td>Gìu:&nbsp; </td>
-            <td>Ňg ábá, he magmagfúng zèu cùd lǒi ge Hàggángǐn,<br>
-              dui sán ge pìen zèu cùd lǒi ge Hàggángǐn, gǐ m̌ siid gòng he?<br>
-            </td>
-          </tr>
-          <tr>
-            <td> 九： </td>
-            <td> 你阿爸，係𢫦𢫦風走出來个客家人，<br>
-              對山該片走出來个客家人，佢毋識講係？ </td>
-          </tr>
-          <tr>
-            <td>Tiab:&nbsp; </td>
-            <td>Sán ge ge pìen, he naivi ě?<br>
-            </td>
-          </tr>
-          <tr>
-            <td> 蝶： </td>
-            <td> 山个該片，係哪位吔？ </td>
-          </tr>
-          <tr>
-            <td>Gìu:&nbsp; </td>
-            <td>Múnsùdpú a, gǐ ciigá gòng ge a.<br>
-              Dai dèn ìd zàg sángfán ge semoiè, gòng me he Múnsùdpú ge sángfánè, pulog ge sìiiongngǐn a.<br>
-              Sii dò kǐguai ho? Ngǎi me he a!<br>
-              Bòlid Zóng a, m̌ súlǐu lǒilúbùdmǐn ge ngǐn.<br>
-            </td>
-          </tr>
-          <tr>
-            <td> 九： </td>
-            <td> 蚊蟀埔啊，佢自家講个啊。<br>
-              帶等一隻生番个細妹仔，講乜係蚊蟀埔个生番仔，部落个使用人啊。<br>
-              試著奇怪呴？𠊎乜係啊！<br>
-              保力庄啊，毋收留來路不明个人。 </td>
-          </tr>
-          <tr>
-            <td>Cúnngǐn:&nbsp; </td>
-            <td>Těungǐn, voi zèu ě.<br>
-            </td>
-          </tr>
-          <tr>
-            <td> 村人： </td>
-            <td> 頭人，會走吔。 </td>
-          </tr>
-          <tr>
-            <td>Gìu:&nbsp; </td>
-            <td>Hǎn íu ngoingǐn, voi lǒi Lǒngkieu mǒ?<br>
-            </td>
-          </tr>
-          <tr>
-            <td> 九： </td>
-            <td> 還有外人，會來琅𤩝無？ </td>
-          </tr>
-          <tr>
-            <td>Tiab:&nbsp; </td>
-            <td>M̌ voi íu ngǐn zai go lǒi lè.<br>
-            </td>
-          </tr>
-          <tr>
-            <td> 蝶： </td>
-            <td> 毋會有人再過來哩。</td>
-          </tr>
-        </tbody>
-      </table>
-    </section>
-    <h1> EP5 tinaidayananga cavilj a maljaljekuya 百年恩怨</h1>
-    <section><span class="time">12:16</span>
-      <table>
-        <tbody>
-          <tr>
-            <td>Kied:&nbsp; </td>
-            <td> Ňg m̌ gidèd lè? Ngǎi hǎn gidèd. Ňg lǐkói Lǒngkieu, cǔn ngǎi láu Ábá, sìong Ámé ge sǐijìed, ngǎi qiu voi sóng lǒi. Gǐ dàgbài du hǎng ìa tǐau lu, dai dèn ngǎidéu hi ge pìen sunǎ, gòng zai gohi, qiu he pulog, gía ge vùg. Gǐ báumí, hǎn he zòn dò ge, di ge gosíin.<br>
-            </td>
-          </tr>
-          <tr>
-            <td>杰：</td>
-            <td>你毋記得哩？𠊎還記得。你離開琅𤩝，存𠊎摎阿爸，想阿姆个時節，𠊎就會上來。佢逐擺都行這條路，帶等𠊎兜去該片樹林<span
-                class="sidenote">這段為什麼像是客語發音的閩南話 XD</span>，講再過去，就係部落，厥个屋。佢包尾，還係轉到該，在該過身。</td>
-          </tr>
-          <tr>
-            <td>&nbsp; </td>
-            <td>Ge pìen sunǎ, qiu di miendàng.<br>
-            </td>
-          </tr>
-          <tr>
-            <td>&nbsp; </td>
-            <td>該片樹林，就在面頂。</td>
-          </tr>
-          <tr>
-            <td>Tiab:&nbsp; </td>
-            <td>Ngǎi sìong hìlǒi lè. Ňg lǐu di ìa, ngǎi hi qǐm pulog.<br>
-            </td>
-          </tr>
-          <tr>
-            <td>蝶：</td>
-            <td>𠊎想起來哩。你留在這，𠊎去尋部落。</td>
-          </tr>
-          <tr>
-            <td>Kied:&nbsp; </td>
-            <td>Ngǎi těn ňg hi.<br>
-            </td>
-          </tr>
-          <tr>
-            <td>杰：</td>
-            <td>𠊎跈你去。</td>
-          </tr>
-          <tr>
-            <td>Tiab:&nbsp; </td>
-            <td>Ngǎi gíang voi cùd siiqǐn, ngǎi qidgá hi. Ge tǐau lu, fai hǎng.<br>
-            </td>
-          </tr>
-          <tr>
-            <td>蝶：</td>
-            <td>𠊎驚會出事情，𠊎自家去。該條路，壞行。</td>
-          </tr>
-        </tbody>
-      </table>
-    </section>
-    <h1>EP6 venalet 叛變</h1>
-    <section><span class="time">12:20</span>
-      <table>
-        <tbody>
-          <tr>
-            <td>Lǐm:&nbsp; </td>
-            <td>Macuka, m̌ pa, ngǎi hi qǐm iog'è.<br>
-              Kied'è, lǒi!<br>
-            </td>
-          </tr>
-          <tr>
-            <td>林：</td>
-            <td>瑪祖卡，毋怕，𠊎去尋藥仔。<br>
-              杰仔，來！</td>
-          </tr>
-          <tr>
-            <td>Gìu:&nbsp; </td>
-            <td>Hǎn m̌ bán zèu! Ngiadpiang voi ce ngǐn ge! Séu!<br>
-            </td>
-          </tr>
-          <tr>
-            <td>九：</td>
-            <td>還毋搬走！熱病會遰人个！燒！</td>
-          </tr>
-        </tbody>
-      </table>
-    </section>
+    <div id="EP1" class="episode">
+      <h1>EP1 vali kemasiljavek 海上的風</h1>
+      <section>
+        <div class="time">8:02<br>
+        </div>
+        <table style="width: 100%" border="0">
+          <tbody>
+            <tr>
+              <td>Cúnngǐn:&nbsp; </td>
+              <td>Fánè Kied, lò gúigì, éndéu ìa Hàgngǐn zóng, íu ngǐn siiblìug se ě, oi íu sǐinngǐanlí! </td>
+            </tr>
+            <tr>
+              <td>村人： </td>
+              <td>番仔杰，老規矩，𫣆兜這客人庄，有人十六歲吔，愛有成年禮！ </td>
+            </tr>
+            <tr>
+              <td>Kied:&nbsp; </td>
+              <td>Ngǎi he Hàggángǐn, m̌ he fánè!</td>
+            </tr>
+            <tr>
+              <td>杰：</td>
+              <td>𠊎係客家人，毋係番仔！</td>
+            </tr>
+            <tr>
+              <td>Cúnngǐn:&nbsp; </td>
+              <td>Ngía vùggá Sám Gùed Íanngi à! Fánngǐn ámé, Hàgngǐn ábá, ňg ájì, mai bún mófán.</td>
+            </tr>
+            <tr>
+              <td>村人：</td>
+              <td>若屋下三國演義啊！番人阿姆，客人阿爸，你阿姐，賣分毛番。</td>
+            </tr>
+            <tr>
+              <td><br>
+              </td>
+              <td>Sagtěu ňg qǐung se iung do tai, du mǒ cùdsù, ìa bài bún ňg gífi à! Ňg ge sǐinngǐanlí lǒi à! Láu sángfán sǐin hong Hàgngǐn sám tòd tèd! Ňg qiu gogúan ě!</td>
+            </tr>
+            <tr>
+              <td><br>
+              </td>
+              <td>石頭你從細用到大，都無出手，這擺分你機會啊！你个成年禮來啊！摎生番身項客人衫脫忒！你就過關吔！</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section><span class="time">14:06</span><br>
+        <table style="width: 100%" border="0">
+          <tbody>
+            <tr>
+              <td>Sùiè:&nbsp; </td>
+              <td>Salǐau sénlí zóng, lìong pìen íu tǔngteu, ciinè mǒ vàpìen. Sángge Hoglòngǐn m̌ giu, xìge Hàgngǐn, me m̌ sú! Zèu!<br>
+              </td>
+            </tr>
+            <tr>
+              <td>水仔：</td>
+              <td>社寮生理庄，兩片有通透，秤仔無偎偏。生个學老人毋救，死个客人，乜毋收！走！ </td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section><span class="time">14:42</span><br>
+        <table style="width: 100%" border="0">
+          <tbody>
+            <tr>
+              <td>Lǐm Lòsiid:&nbsp;<br>
+              </td>
+              <td>Tǐen mǒ ngá fun, láu Hoglòngǐn qìong sùi biangmiang, mǒ oi hi là!<br>
+              </td>
+            </tr>
+            <tr>
+              <td>林老實： </td>
+              <td>田無吾份，摎學老人搶水拚命，無愛去啦！ </td>
+            </tr>
+            <tr>
+              <td>Á-Gìu:&nbsp;</td>
+              <td>Ňg hed di Tùnglíangpú Hàggá zóng, m̌ tensù ǒ?<br>
+              </td>
+            </tr>
+            <tr>
+              <td>阿九：</td>
+              <td>你歇在統領埔客家庄，毋𢯭手喔？</td>
+            </tr>
+            <tr>
+              <td>Lǐm:&nbsp;</td>
+              <td>Ngìong bán? He mǒ tensù, iu oi séu ngá vùg? Ňg hǎn mǎng láu ngá bú'ngǐong fi sìidlí.<br>
+              </td>
+            </tr>
+            <tr>
+              <td>林：</td>
+              <td>仰般？係無𢯭手，又愛燒吾屋？你還吂摎吾餔娘會失禮。</td>
+            </tr>
+            <tr>
+              <td>Á-Gìu:&nbsp; </td>
+              <td>Ňg lǒi tensù, ngá tǐen, piog lìong fun tǐen bún ňg. <br>
+                Ngá laiè, me íu vùg hò hed! <br>
+                He mǒ, Hàggá zóng, mǒ ngǐn sìong oi ga fánè! <br>
+                Ňg laiè, qiu dèn dò tò Salǐau ge tùsáng'è, zai go sa sén tùsángzìi a!<br>
+              </td>
+            </tr>
+            <tr>
+              <td>阿九： </td>
+              <td>你來𢯭手，吾田，贌兩<span class="TBD">分</span>田分你。<br>
+                若倈仔，乜有屋好歇！<br>
+                係無，客家庄，無人想愛嫁番仔！<br>
+                你倈仔，就等着討社寮个土生仔，再過生土生子啊！ </td>
+            </tr>
+            <tr>
+              <td>Lǐm:&nbsp; </td>
+              <td>Ngǎi vùggá ngǐn, qǐonpu zoha Hàggángǐn.<br>
+                Cěusǎng Hoglòè, cǐi go zúngxien lè he? Hǹg! <br>
+                Ngǎi těn ňg hi zo ngimǐnǐa, m̌ kǐu íu ngǐn bai, qiang kǐu ngá laiè íu tǐen hò gáng; <br>
+                he mǒ, ňg bai màge, ngǎi du hi qǐm ňg!<br>
+              </td>
+            </tr>
+            <tr>
+              <td>林：<br>
+              </td>
+              <td>𠊎屋下人，全部做下客家人。<br>
+                樵城學老仔，㓾過中線哩係？哼！<br>
+                𠊎跈你去做義民爺，毋求有人拜，淨求吾倈仔有田好耕；<br>
+                係無，你拜麼个，𠊎都去尋你！</td>
+            </tr>
+            <tr>
+              <td>Kied:&nbsp;<br>
+              </td>
+              <td>Ábá!<br>
+              </td>
+            </tr>
+            <tr>
+              <td>杰：</td>
+              <td>阿爸！</td>
+            </tr>
+            <tr>
+              <td>Lǐm:&nbsp; </td>
+              <td>Á-Kied!<br>
+              </td>
+            </tr>
+            <tr>
+              <td>林：</td>
+              <td>阿杰！</td>
+            </tr>
+            <tr>
+              <td>Kied:&nbsp; </td>
+              <td>Ngǎi ti ngá Ábá hi!<br>
+              </td>
+            </tr>
+            <tr>
+              <td>杰：</td>
+              <td>𠊎替吾阿爸去！</td>
+            </tr>
+            <tr>
+              <td>Gìu:&nbsp; </td>
+              <td>Ňg siiblìug se lè. Hàggángǐn o, zòvàn oi gíngo ìa gúan, zang zodèd son taingǐn.<br>
+              </td>
+            </tr>
+            <tr>
+              <td>九：</td>
+              <td>你十六歲哩。客家人喔，早晚愛經過這關，正做得算大人。</td>
+            </tr>
+            <tr>
+              <td>Lǐm:&nbsp; </td>
+              <td>Bùd zùn hi!<br>
+              </td>
+            </tr>
+            <tr>
+              <td>林：</td>
+              <td>不准去！</td>
+            </tr>
+            <tr>
+              <td>Gìu:&nbsp; </td>
+              <td>Ngía laiè...<br>
+              </td>
+            </tr>
+            <tr>
+              <td>九：</td>
+              <td>若倈仔……</td>
+            </tr>
+            <tr>
+              <td>Lǐm:&nbsp; </td>
+              <td>Moiè zèu tèd, hegòng laiè iu xì tèd, gía mé xì m̌ voi bionggo ngǎi.<br>
+              </td>
+            </tr>
+            <tr>
+              <td>林：</td>
+              <td>妹仔走忒，係講倈仔又死忒，厥姆死毋會放過𠊎。</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section><span class="time">16:54</span><br>
+        <table style="width: 100%" border="0">
+          <tbody>
+            <tr>
+              <td>Lǐm:&nbsp; </td>
+              <td>Těubài, hém ňg hi Fùsǎng, ňg gíang do voi xì! Ìaha iu voi hi sǐongcíi?<br>
+              </td>
+            </tr>
+            <tr>
+              <td>林： </td>
+              <td>頭擺，喊你去府城，你驚到會死！這下又會去相㓾？</td>
+            </tr>
+            <tr>
+              <td>Kied:&nbsp; </td>
+              <td>Ábá!<br>
+              </td>
+            </tr>
+            <tr>
+              <td>杰：</td>
+              <td>阿爸！</td>
+            </tr>
+            <tr>
+              <td>Lǐm:&nbsp; </td>
+              <td>Gómózìi! M̌ he ňg, én qiu íu tǐen lè la!<br>
+              </td>
+            </tr>
+            <tr>
+              <td>林：</td>
+              <td>孤盲子！毋係你，𫣆就有田哩啦！</td>
+            </tr>
+            <tr>
+              <td>Kied:&nbsp; </td>
+              <td>Ábá, íu sǒn hò ngíam.<br>
+              </td>
+            </tr>
+            <tr>
+              <td>杰：</td>
+              <td>阿爸，有船好拈。</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section><span class="time"> 17:28</span><br>
+        <table style="width: 100%" border="0">
+          <tbody>
+            <tr>
+              <td>Á-Gìu:&nbsp; </td>
+              <td>Mǒ haglòn...<br>
+              </td>
+            </tr>
+            <tr>
+              <td>阿九：</td>
+              <td>無核卵……（粗口，很小聲，我聽不出來，是參考網友資訊）</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section><span class="time"> 21:00</span><br>
+        <table style="width: 100%" border="0">
+          <tbody>
+            <tr>
+              <td>Á-Gìu:&nbsp; </td>
+              <td>Zunpǐ hǎn cèd tèd lè!<br>
+              </td>
+            </tr>
+            <tr>
+              <td>阿九：</td>
+              <td>圳埤還塞忒哩！</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section><span class="time"> 24:12</span><br>
+        <table style="width: 100%" border="0">
+          <tbody>
+            <tr>
+              <td>Lǐm:&nbsp; </td>
+              <td>Qiu mong ňg ájì, di Fùsǎng ngìd'è hò go.<br>
+              </td>
+            </tr>
+            <tr>
+              <td>林：</td>
+              <td>就望你阿姐，在府城日仔好過。</td>
+            </tr>
+            <tr>
+              <td>Kied:&nbsp;<br>
+              </td>
+              <td>He Ámé ge zo sángfán ge cǐi pìed?<br>
+              </td>
+            </tr>
+            <tr>
+              <td>杰：</td>
+              <td>係阿姆該做生番个㓾撇？</td>
+            </tr>
+            <tr>
+              <td>Lǐm:&nbsp; </td>
+              <td>Ňg siiblìug se lè, di Lǒngkieu, m̌ he bún ngǐn cíi xì, qiu he zo sángfánè cíi ngǐn.<br>
+              </td>
+            </tr>
+            <tr>
+              <td>林： </td>
+              <td>你十六歲哩，佇琅𤩝，毋係分人㓾死，就係做生番仔㓾人。</td>
+            </tr>
+            <tr>
+              <td>Lǐm:&nbsp; </td>
+              <td>Íu láu ňg ájì gòng go lè, ňg siiblìug se, voi dai ňg hi Fùsǎng. Gǐ m̌ zònlǒi, én hi qǐm gǐ!</td>
+            </tr>
+            <tr>
+              <td>林： </td>
+              <td>有摎你阿姐講過哩，你十六歲，會帶你去府城。佢毋轉來，𫣆去尋佢！</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section><span class="time"> 29:15</span><br>
+        <table style="width: 100%" border="0">
+          <tbody>
+            <tr>
+              <td>Gìu:&nbsp; </td>
+              <td>Ňg dòng sùimàg, bún sùi qiang lìug jin ngía tǐen, ngá tǐen m̌ sìi sái sùi o?<br>
+                Ňg oi hìug Cěusǎng, ngǎi oi hìug Bòlid, Tùnglíangpú!<br>
+              </td>
+            </tr>
+            <tr>
+              <td>九：</td>
+              <td>你擋水脈，分水淨流進若田，吾田毋使㘔水喔？<br>
+                你愛畜樵城，𠊎愛畜保力、統領埔！</td>
+            </tr>
+            <tr>
+              <td><br>
+              </td>
+              <td>…… </td>
+            </tr>
+            <tr>
+              <td><br>
+              </td>
+              <td><br>
+              </td>
+            </tr>
+            <tr>
+              <td>Sùi:&nbsp; </td>
+              <td>Á-Gìu Góè, ňg láu sángfán piog ge Tùnglíangpú, voi mǒ oi lè.</td>
+            </tr>
+            <tr>
+              <td>水：</td>
+              <td>阿九哥仔，你摎生番贌个統領埔，會無愛哩。</td>
+            </tr>
+          </tbody>
+        </table>
+        <br>
+        <br>
+        <span class="time"> 31:40</span><br>
+        <table style="width: 100%" border="0">
+          <tbody>
+            <tr>
+              <td>Sùi:&nbsp; <br>
+              </td>
+              <td>Á-Gìu Góè a, taigá ngiong ìd pu la, hò mǒ? </td>
+            </tr>
+            <tr>
+              <td>水： </td>
+              <td>阿九哥仔啊，大家讓一步啦，好無？ </td>
+            </tr>
+            <tr>
+              <td>Gìu:&nbsp; </td>
+              <td>Bòlid zodèd hìug àn dó ngǐn, ngǎi hǎn oi láu sángfán piog Tùnglíangpú?</td>
+            </tr>
+            <tr>
+              <td>九：</td>
+              <td>保力做得畜恁多人，𠊎還愛摎生番贌統領埔？</td>
+            </tr>
+          </tbody>
+        </table>
+        <br>
+        &nbsp; ……<br>
+        <br>
+        <span class="time"> 32:47</span><br>
+        <table style="width: 100%" border="0">
+          <tbody>
+            <tr>
+              <td>Gìu:&nbsp; </td>
+              <td>Zéusǐin, gìhǎge sengǐnè, kon ciigá ge ábá, góng hi mǎi.<br>
+                Qìong m̌ dò sùi, gǐ ìadéu ábá, pagpag xì lè!<br>
+                Hàggángǐn m̌ gíang zo ngimǐnǐa, Tùnglíangpú, m̌ tui!<br>
+                Sùimàg, ňg m̌ hò biong a, dèn ngá ngǐn hi qìong!</td>
+            </tr>
+            <tr>
+              <td>九：</td>
+              <td>朝晨，幾下个細人仔，看自家个阿爸，扛去埋。<br>
+                搶毋着水，佢這兜阿爸，白白死哩！<br>
+                客家人毋驚做義民爺，統領埔，毋退！<br>
+                水脈，你毋好放啊，等吾人去搶！</td>
+            </tr>
+            <tr>
+              <td>Sùi:&nbsp; </td>
+              <td>Á-Gìu Gó, m̌ hò zèu la!</td>
+            </tr>
+            <tr>
+              <td>水：</td>
+              <td>阿九哥，毋好走啦！</td>
+            </tr>
+          </tbody>
+        </table>
+        <br>
+        <br>
+        <span class="time"> 35:50</span><br>
+        <table style="width: 100%" border="0">
+          <tbody>
+            <tr>
+              <td>Gìu:&nbsp; </td>
+              <td>Ìaha, ňg zodèd biong sùimàg.</td>
+            </tr>
+            <tr>
+              <td>九：</td>
+              <td>這下，你做得放水脈。</td>
+            </tr>
+          </tbody>
+        </table>
+        <br>
+        <br>
+        <span class="time"> 36:25</span><br>
+        <table style="width: 100%" border="0">
+          <tbody>
+            <tr>
+              <td>Gìu:&nbsp; </td>
+              <td>Á-Sùi, Tùnglíangpú ge fò, voi séu do Salǐau o!</td>
+            </tr>
+            <tr>
+              <td>九：</td>
+              <td>阿水，統領埔个火，會燒到社寮哦！</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section><span class="time">38:20</span> <br>
+        <table style="width: 100%" border="0">
+          <tbody>
+            <tr>
+              <td>Lǐm:&nbsp; </td>
+              <td>Těubài Hàgngǐn séu, ìa bài Cěusǎng Hoglòè séu. Ìa vùg, he ňg ámé qínsù hì ge.<br>
+              </td>
+            </tr>
+            <tr>
+              <td>父：</td>
+              <td>頭擺客人燒，這擺樵城學老仔燒。這屋，係你阿姆親手起个。</td>
+            </tr>
+            <tr>
+              <td>Lǐm:&nbsp; </td>
+              <td>Macuka, ngǎi dai Á-Kied-è, hi qǐm Tiab-Moi a, ňg oi bòfu én ìdgángǐn tǒnǐan. A?<br>
+              </td>
+            </tr>
+            <tr>
+              <td>父：</td>
+              <td>瑪祖卡，𠊎帶阿杰仔，去尋蝶妹啊，你愛保護𫣆一家人團圓。啊？</td>
+            </tr>
+            <tr>
+              <td>Sǒnǐan:&nbsp; </td>
+              <td>Oi! Hàggángǐn? Ngǎi qǐm gúanfù!<br>
+              </td>
+            </tr>
+            <tr>
+              <td>船員：</td>
+              <td>喂！客家人？𠊎尋官府！</td>
+            </tr>
+            <tr>
+              <td>Lǐm:&nbsp; </td>
+              <td>Gúanfù? Íu gúanfù hǎn voi séu vùg a? Zèu la!<br>
+              </td>
+            </tr>
+            <tr>
+              <td>父：</td>
+              <td>官府？有官府還會燒屋啊？走啦！</td>
+            </tr>
+            <tr>
+              <td><br>
+              </td>
+              <td>…… </td>
+            </tr>
+            <tr>
+              <td><br>
+              </td>
+              <td><br>
+              </td>
+            </tr>
+            <tr>
+              <td>Lǐm:&nbsp; </td>
+              <td>Hi kon íu màge dadqǐen ge a!<br>
+              </td>
+            </tr>
+            <tr>
+              <td>父：</td>
+              <td>去看有麼个值錢个啊！</td>
+            </tr>
+            <tr>
+              <td>Kied:&nbsp;</td>
+              <td>Ábá! Sǒnǐan!<br>
+              </td>
+            </tr>
+            <tr>
+              <td>杰：</td>
+              <td>阿爸！船員！</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section><span class="time"> 40:00</span><br>
+        <table style="width: 100%" border="0">
+          <tbody>
+            <tr>
+              <td>Sùi:&nbsp;</td>
+              <td>Cěusǎng ngǐn lǒi bán fo mǒ oi ge a.<br>
+                Ágóè, Salǐau nab fánzú, sǎngfánè náu fánmǒè, náu sǒnǐan.<br>
+                Dí sǒnǐan dui Salǐau zèu, sú zòn Salǐau se siiqǐn,<br>
+                ngufi ngǎi láu sǒnǐan tensù, voi cùdcò.<br>
+              </td>
+            </tr>
+            <tr>
+              <td>水：</td>
+              <td>樵城人來搬貨無愛个啊。<br>
+                阿哥仔，社寮納番租，生番仔惱番毛仔，惱船員。<br>
+                知船員對社寮走，收轉社寮細事情，<br>
+                誤會𠊎摎船員𢯭手，會出草。</td>
+            </tr>
+            <tr>
+              <td>Lǐm:&nbsp; </td>
+              <td>Sùi a, tǔng ňg jia gì tǐau logsòg.<br>
+              </td>
+            </tr>
+            <tr>
+              <td>林：</td>
+              <td>水啊，同你借幾條絡索。</td>
+            </tr>
+            <tr>
+              <td>Sùi:&nbsp; </td>
+              <td>Fùsǎng lu dóng ìan a, siid bàu téu è a.<br>
+                Giu sǒnǐan ge sònngǐun, ngǎi oi líang.<br>
+                Hò. Logsòg.<br>
+                Tiab-Moi ho, mǒ tincog qiu oi zòn lǒi le.<br>
+                Ìaha hi Fùsǎng, ngǔihìam la.<br>
+              </td>
+            </tr>
+            <tr>
+              <td>水：</td>
+              <td>府城路當遠啊，食飽兜仔啊。<br>
+                救船員个賞銀，𠊎愛領。〔意思與字幕似有出入〕<br>
+                好。絡索。<br>
+                蝶妹呴，無定著就愛轉來哩。<br>
+                這下去府城，危險啦。</td>
+            </tr>
+            <tr>
+              <td>Kied:&nbsp; </td>
+              <td>Ábá!<br>
+              </td>
+            </tr>
+            <tr>
+              <td>杰：</td>
+              <td>阿爸！</td>
+            </tr>
+            <tr>
+              <td>Lǐm:&nbsp; </td>
+              <td>Dìau ngía mé lè...<br>
+                Á-Kied! Zèu!<br>
+              </td>
+            </tr>
+            <tr>
+              <td>林：</td>
+              <td>屌若姆哩……<br>
+                阿杰！走！</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section><span class="time">44:07</span><br>
+        <table>
+          <tbody>
+            <tr>
+              <td>Lǐm:&nbsp; </td>
+              <td>Zèu lè, mǒ haglòn ge.<br>
+                Gìag! Tincog voi do Fùsǎng qǐm ňg ájì! Lǒi!<br>
+              </td>
+            </tr>
+            <tr>
+              <td>林：</td>
+              <td>走哩，無核卵个。<br>
+                遽！定著會到府城尋你阿姐！來！</td>
+            </tr>
+            <tr>
+              <td>Lǐm:&nbsp; </td>
+              <td>Ngǎi gíang sìid m̌ cùd ájì.<br>
+              </td>
+            </tr>
+            <tr>
+              <td>杰：</td>
+              <td>𠊎驚識毋出阿姐。</td>
+            </tr>
+            <tr>
+              <td>Lǐm:&nbsp; </td>
+              <td>Gìag gìag!<br>
+              </td>
+            </tr>
+            <tr>
+              <td><br>
+              </td>
+              <td>遽遽！</td>
+            </tr>
+            <tr>
+              <td>Lǐm:&nbsp; </td>
+              <td>Téungǐuced. Díamdíam.<br>
+              </td>
+            </tr>
+            <tr>
+              <td><br>
+              </td>
+              <td>偷牛賊。恬恬。</td>
+            </tr>
+            <tr>
+              <td>Kied:&nbsp; </td>
+              <td>Ábá!<br>
+              </td>
+            </tr>
+            <tr>
+              <td>杰：</td>
+              <td>阿爸！</td>
+            </tr>
+            <tr>
+              <td>Lǐm:&nbsp; </td>
+              <td>Ka hi déu ě, qiu he Fúnggòng, dai gǐ hi bo gúan!<br>
+              </td>
+            </tr>
+            <tr>
+              <td><br>
+              </td>
+              <td>較去兜吔，就係風港，帶佢去報官！</td>
+            </tr>
+            <tr>
+              <td>Kied:&nbsp; </td>
+              <td>Ábá m̌ hi ě?<br>
+              </td>
+            </tr>
+            <tr>
+              <td>杰：</td>
+              <td>阿爸毋去吔？</td>
+            </tr>
+            <tr>
+              <td>Lǐm:&nbsp; </td>
+              <td>Ngǎi hi lè, mà ngǐn láu ňg ámé zoban a? Sa hi!<br>
+              </td>
+            </tr>
+            <tr>
+              <td><br>
+              </td>
+              <td>𠊎去哩，麼人摎你阿姆做伴啊？嗄去！</td>
+            </tr>
+            <tr>
+              <td>Kied:&nbsp; </td>
+              <td>Ábá!<br>
+              </td>
+            </tr>
+            <tr>
+              <td>杰：</td>
+              <td>阿爸！</td>
+            </tr>
+            <tr>
+              <td>Lǐm:&nbsp; </td>
+              <td>Ìadéu he ňg ábá cǐi go ge téungǐuced.<br>
+                "Lon cǐi ngǐn ge, tincog vǎngxì," ňg ámé gòng ge.<br>
+                Boin.<br>
+              </td>
+            </tr>
+            <tr>
+              <td>林： </td>
+              <td>這兜係你阿爸㓾過个偷牛賊。<br>
+                「亂㓾人个，定著橫死」，你阿姆講个。<br>
+                報應。</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </div>
+    <div id="EP2" class="episode">
+      <h1> EP2 sequljung 藍眼人</h1>
+      <section><span class="time"> 11:26</span><br>
+        <table>
+          <tbody>
+            <tr>
+              <td>Tiab:&nbsp;</td>
+              <td>Ádigù, ngǎi he Ájì. Ádigù.<br>
+              </td>
+            </tr>
+            <tr>
+              <td>蝶：</td>
+              <td>阿弟牯，𠊎係阿姐。阿弟牯。</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section><span class="time"> 23:37</span><br>
+        <table>
+          <tbody>
+            <tr>
+              <td>Kied:&nbsp;</td>
+              <td>Ìa vi he nai? Ngǎi oi zòn hi qǐm Ábá.</td>
+            </tr>
+            <tr>
+              <td>杰：</td>
+              <td>這位係哪？𠊎愛轉去尋阿爸。</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section><span class="time"> 24:26</span><br>
+        <table>
+          <tbody>
+            <tr>
+              <td>Kied:&nbsp;</td>
+              <td>Ábá oi dai sǒnǐan lǒi qǐm ňg, bún téungǐuced cǐi xì tèd lè, Ájì.<br>
+              </td>
+            </tr>
+            <tr>
+              <td>杰：</td>
+              <td>阿爸愛帶船員來尋你，分偷牛賊㓾死忒哩，阿姐。</td>
+            </tr>
+            <tr>
+              <td>Tiab:&nbsp; </td>
+              <td>M̌ hò sìong Ábá lè, ngǎi kon dò ňg, ngǎi qiu ónsím lè.<br>
+              </td>
+            </tr>
+            <tr>
+              <td>蝶：</td>
+              <td>毋好想阿爸哩，𠊎看着你，𠊎就安心哩。</td>
+            </tr>
+            <tr>
+              <td>Kied:&nbsp; </td>
+              <td>Ngǎi va dò voi ngin m̌ cùd Ájì.<br>
+              </td>
+            </tr>
+            <tr>
+              <td>杰：</td>
+              <td>𠊎話着會認毋出阿姐。</td>
+            </tr>
+            <tr>
+              <td>Tiab:&nbsp; </td>
+              <td>Ájì ngin dèd cùd ňg a. Lǒi. Ňg zai go soi ìd há ě.<br>
+              </td>
+            </tr>
+            <tr>
+              <td>蝶：</td>
+              <td>阿姐認得出你啊。來。你再過睡加一下吔。</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section><span class="time"> 26:07</span><br>
+        <table>
+          <tbody>
+            <tr>
+              <td>Kied:&nbsp;</td>
+              <td>Ájì, hǎi tèd tai ě.<br>
+              </td>
+            </tr>
+            <tr>
+              <td>杰：</td>
+              <td>阿姐，鞋忒大吔。</td>
+            </tr>
+            <tr>
+              <td>Tiab:&nbsp; </td>
+              <td>Gìag déu ě. Lǒi! Oi hi láu ňg ónfu.<br>
+              </td>
+            </tr>
+            <tr>
+              <td>蝶：</td>
+              <td>遽兜吔。來！愛去摎你安戶。</td>
+            </tr>
+            <tr>
+              <td>Tiab:&nbsp; </td>
+              <td>Di Fùsǎng, m̌ hò gòng fánfa.<br>
+                Ìa vi íu ngǐn ma ňg sǎngfánè, m̌ hò sǐinngin.<br>
+                Ha ngi bài, qiu hǎng ìa tǐau lu zòn hi.<br>
+              </td>
+            </tr>
+            <tr>
+              <td>蝶：</td>
+              <td>在府城，毋好講番話。<br>
+                這位有人罵你生番仔，毋好承認。<br>
+                下二擺，就行這條路轉去。</td>
+            </tr>
+            <tr>
+              <td><br>
+              </td>
+              <td>…… </td>
+            </tr>
+            <tr>
+              <td><br>
+              </td>
+              <td><br>
+              </td>
+            </tr>
+            <tr>
+              <td>Tiab:&nbsp; </td>
+              <td>Fùsǎng m̌ voi íu ngǐn séu ngía vùg.<br>
+              </td>
+            </tr>
+            <tr>
+              <td>蝶：</td>
+              <td>府城毋會有人燒若屋。</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section><span class="time"> 27:02</span><br>
+        <table>
+          <tbody>
+            <tr>
+              <td>Tiab:&nbsp; </td>
+              <td>Dènìdha do dàsagcǒng, oi ngíunnai. Mǒ bún dà, m̌ voi cùdsíi.<br>
+              </td>
+            </tr>
+            <tr>
+              <td>蝶：</td>
+              <td>等一下到打石場，愛忍耐。無分打，毋會出師。</td>
+            </tr>
+            <tr>
+              <td>Kied:&nbsp; </td>
+              <td>Ngǎi zò qiu di Ábá ge cùdsíi lè.<br>
+              </td>
+            </tr>
+            <tr>
+              <td>杰：</td>
+              <td>𠊎早就在阿爸該出師哩。</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section><span class="time"> 43:10</span><br>
+        <table>
+          <tbody>
+            <tr>
+              <td>Tiab:&nbsp; </td>
+              <td>Ádigù!<br>
+                Ádigù!<br>
+              </td>
+            </tr>
+            <tr>
+              <td>蝶：</td>
+              <td>阿弟牯！<br>
+                阿弟牯！</td>
+            </tr>
+            <tr>
+              <td>Kied:&nbsp; </td>
+              <td>Ájì.<br>
+              </td>
+            </tr>
+            <tr>
+              <td>杰：</td>
+              <td>阿姐。</td>
+            </tr>
+            <tr>
+              <td>Tiab:&nbsp; </td>
+              <td>Ňgdéu hi nai a? Hǎn m̌ zòn hi ísánggùan?<br>
+              </td>
+            </tr>
+            <tr>
+              <td>蝶：</td>
+              <td>你兜去哪啊？還毋轉去醫生館？</td>
+            </tr>
+            <tr>
+              <td>Kied:&nbsp; </td>
+              <td>Ngǎi ge ha hi con ngoisùi.<br>
+              </td>
+            </tr>
+            <tr>
+              <td>杰：</td>
+              <td>𠊎該下去賺外水。</td>
+            </tr>
+            <tr>
+              <td>Tiab:&nbsp; </td>
+              <td>Ngoisùi? Gúi síinè dablǎu, hi nai ě?<br>
+              </td>
+            </tr>
+            <tr>
+              <td>蝶：</td>
+              <td>外水？歸身仔溚潦，去哪吔？</td>
+            </tr>
+            <tr>
+              <td>Kied:&nbsp; </td>
+              <td>Ngíam sǒnè.<br>
+              </td>
+            </tr>
+            <tr>
+              <td>杰：</td>
+              <td>拈船仔。</td>
+            </tr>
+            <tr>
+              <td>Tiab:&nbsp; </td>
+              <td>Ìavi m̌ he Lǒngkieu, Fùsǎng ge sǒnè, du íu zùngǐn ě.<br>
+              </td>
+            </tr>
+            <tr>
+              <td>蝶：</td>
+              <td>這位毋係琅𤩝，府城个船仔，都有主人吔。</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section><span class="time"> 45:04</span><br>
+        <table>
+          <tbody>
+            <tr>
+              <td>Kied:&nbsp; </td>
+              <td>Gòng sǎngfánè, ngǎi zo-m̌-dèd sǐinngin; <br>
+                Tǒngsánngǐn, iu kǐeu dò mǒ qiong.<br>
+              </td>
+            </tr>
+            <tr>
+              <td>杰：</td>
+              <td>講生番仔，𠊎做毋得承認；<br>
+                唐山人，又喬着無像。</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </div>
+    <div id="EP3" class="episode">
+      <h1>EP3 sasekauljan 僕人</h1>
+      <section> <span class="time"> 2:37 </span>
+        <table>
+          <tbody>
+            <tr>
+              <td> Gìu:&nbsp;</td>
+              <td> Lǒngkieu, mǒ gúanfù! </td>
+            </tr>
+            <tr>
+              <td> 九： </td>
+              <td> 琅𤩝，無官府！ </td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section> <span class="time"> 4:10 </span>
+        <table>
+          <tbody>
+            <tr>
+              <td> Sùi:&nbsp;</td>
+              <td> Nai qiong ňgdéu Hàgngǐn, hǎn hi ngíam sǒn. </td>
+            </tr>
+            <tr>
+              <td> 水： </td>
+              <td> 哪像你兜客人，還去拈船。 </td>
+            </tr>
+            <tr>
+              <td> Gìu:&nbsp; </td>
+              <td> Gúanfù gòng a, Lǒngkieu, "gimti fóngpú"! Bún én ìadéu, "cii sǎng cii mied"!<br>
+                Xì sǒnǐan, qiu hém én ìadéu, ná sǎngfán ge ngǐntěu gáucái, gìeu fad ge qǐen?<br>
+                Tǐengóngngìd, Tǔng'id, lǒi sú ngǐntěu, ngǎi cùdmien!<br>
+                Sa há lǒi, ňg sǒng sán! Láu Tǔng'id ge ngǐntěu bún sángfánè!<br>
+                Gòng, ngǎi tai gǐ ìadéu a, gìaigìad tèd! Ngǎi oi piog zòn Tùnglíangpú!<br>
+              </td>
+            </tr>
+            <tr>
+              <td> 九： </td>
+              <td> 官府講啊，琅𤩝，「禁地荒埔」！分𫣆這兜，「自生自滅」！<br>
+                死船員，就喊𫣆這兜，拿生番个人頭交差、繳罰个錢？<br>
+                天光日，通譯，來收人頭，𠊎出面！<br>
+                續下來，你上山！摎通譯个人頭分生番仔！<br>
+                講，𠊎替佢這兜啊，解決忒！𠊎愛贌轉統領埔！ </td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section> <span class="time"> 6:20 </span>
+        <table>
+          <tbody>
+            <tr>
+              <td> Gìu:&nbsp; </td>
+              <td>Téungǐuced, he Fúnggòng ge pìen ge Tǒngsánngǐn, sén dèd láu sángfán mǒ kiungiong la! Ai!<br>
+              </td>
+            </tr>
+            <tr>
+              <td> 九： </td>
+              <td> 偷牛賊，係風港該片个唐山人，生得摎生番無共樣啦！唉！ </td>
+            </tr>
+            <tr>
+              <td> Sùi:&nbsp; </td>
+              <td>M̌sìi sěu, ngǎi voi cùlí.<br>
+              </td>
+            </tr>
+            <tr>
+              <td> 水： </td>
+              <td> 毋使愁，𠊎會處理。 </td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section> <span class="time"> 11:40 </span>
+        <table>
+          <tbody>
+            <tr>
+              <td> Gìu:&nbsp; </td>
+              <td>Ngiadpiang voi ce ngǐn! Ngǎidéu he góbùdjíong ge! Ňgdéu, nangngoi qǐm visò hed!<br>
+              </td>
+            </tr>
+            <tr>
+              <td> 九： </td>
+              <td> 熱病會遰人！𠊎兜係高不將个！你兜，另外尋位所歇！ </td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section> <span class="time"> 27:00 </span>
+        <table>
+          <tbody>
+            <tr>
+              <td> Tiab:&nbsp; </td>
+              <td>Hǎi gòi hò lè, hi zose! Hi a!<br>
+              </td>
+            </tr>
+            <tr>
+              <td> 蝶： </td>
+              <td> 鞋改好哩，去做事！去啊！ </td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section> <span class="time"> 34:00 </span>
+        <table>
+          <tbody>
+            <tr>
+              <td> Kied:&nbsp; </td>
+              <td>Ìa, Ájì lu hong siid, ňg bún ngǎi ge qǐen mai ge.<br>
+              </td>
+            </tr>
+            <tr>
+              <td> 杰： </td>
+              <td> 這，阿姐路項食，你分𠊎个錢買个。 </td>
+            </tr>
+            <tr>
+              <td>Tiab:&nbsp; </td>
+              <td>Ňg hi gíai hong o?<br>
+              </td>
+            </tr>
+            <tr>
+              <td> 蝶： </td>
+              <td> 你去街項喔？ </td>
+            </tr>
+            <tr>
+              <td>Kied:&nbsp; </td>
+              <td>Hǎn mǎng do gíai hong a.<br>
+              </td>
+            </tr>
+            <tr>
+              <td> 杰： </td>
+              <td> 還吂到街項啊。 </td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section> <span class="time"> 34:24 </span>
+        <table>
+          <tbody>
+            <tr>
+              <td> Tiab:&nbsp; </td>
+              <td>Bionggóng, ňg hǎng gíai hong, zòn íséngùan.<br>
+              </td>
+            </tr>
+            <tr>
+              <td> 蝶： </td>
+              <td> 放工，你行街項，轉醫生館。 </td>
+            </tr>
+            <tr>
+              <td>Kied:&nbsp; </td>
+              <td>Gǐdéu voi ma ngǎi sǎngfánè.<br>
+              </td>
+            </tr>
+            <tr>
+              <td> 杰： </td>
+              <td>佢兜會罵𠊎生番仔。</td>
+            </tr>
+            <tr>
+              <td>Tiab:&nbsp; </td>
+              <td>Ňg táng dó lè, qiu táng m̌ dò lè.<br>
+              </td>
+            </tr>
+            <tr>
+              <td> 蝶： </td>
+              <td> 你聽多哩，就聽毋着哩。 </td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </div>
+    <div id="EP4" class="episode">
+      <h1>EP4 sacemecemel 蠻荒之境</h1>
+      <section> <span class="time">1:52 </span>
+        <table>
+          <tbody>
+            <tr>
+              <td> Tiab:&nbsp; </td>
+              <td>Ádigù!<br>
+              </td>
+            </tr>
+            <tr>
+              <td> 蝶： </td>
+              <td> 阿弟牯！（不太明白為什麼劇組字幕翻譯不翻「弟弟 Brother」而是一定要翻成名字呢？） </td>
+            </tr>
+            <tr>
+              <td>Tiab:&nbsp; </td>
+              <td>Qǐm fǔngmóè zo ngía bòngǐn, gúangíun m̌ voi qǐm ngía mǎfǎn a.<br>
+              </td>
+            </tr>
+            <tr>
+              <td> 蝶： </td>
+              <td> 尋紅毛仔做若保人，官軍毋會尋若麻煩啊。 </td>
+            </tr>
+            <tr>
+              <td>Kied:&nbsp; </td>
+              <td>Tincog oi hi Fùsǎng bán sagtěu? Zo-m̌-dèd lǐu há lǒi zàng vùg <span
+                  class="TBD">he</span>?<br>
+              </td>
+            </tr>
+            <tr>
+              <td> 杰： </td>
+              <td> 定著愛去府城搬石頭？做毋得留下來整屋<span class="TBD">係</span>？ </td>
+            </tr>
+            <tr>
+              <td>Kied:&nbsp; </td>
+              <td>Gǐdéu he oi séu vùg'è, ngǎi kong hi zotěu iung nǎi mǎi tèd.<br>
+              </td>
+            </tr>
+            <tr>
+              <td> 杰： </td>
+              <td> 佢兜係愛燒屋仔，𠊎囥去灶頭用泥埋忒。 </td>
+            </tr>
+            <tr>
+              <td>Kied:&nbsp; </td>
+              <td>Biong zòn hi la. Mǒ tifóng hò kong ě.<br>
+              </td>
+            </tr>
+            <tr>
+              <td> 杰： </td>
+              <td> 放轉去啦。無地方好囥吔。 </td>
+            </tr>
+            <tr>
+              <td>Tiab:&nbsp; </td>
+              <td>Ngǎi zo màge oi kong a?<br>
+              </td>
+            </tr>
+            <tr>
+              <td> 蝶： </td>
+              <td> 𠊎做麼个愛囥啊？ </td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section> <span class="time"> 3:55 </span>
+        <table>
+          <tbody>
+            <tr>
+              <td> Macuka:&nbsp; </td>
+              <td> Ngǎi ìd vùg<span class="TBD">k</span>á ngǐn, mǒ visò hò hi ě, mog séu, ngǎi ciigá zèu.<br>
+              </td>
+            </tr>
+            <tr>
+              <td> 瑪祖卡： </td>
+              <td> 𠊎一屋下人，無位所好去吔，莫燒，𠊎自家走。 </td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section> <span class="time"> 6:10 </span>
+        <table>
+          <tbody>
+            <tr>
+              <td>Kied:&nbsp; </td>
+              <td>Voi dai ngǎi ájì zèu, qiu gìag zèu!<br>
+              </td>
+            </tr>
+            <tr>
+              <td> 杰： </td>
+              <td> 會帶𠊎阿姐走，就遽走！ </td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section> <span class="time"> 7:03 </span>
+        <table>
+          <tbody>
+            <tr>
+              <td> Tiab:&nbsp; </td>
+              <td>Ìa bún ňg.<br>
+              </td>
+            </tr>
+            <tr>
+              <td> 蝶： </td>
+              <td> 這分你。 </td>
+            </tr>
+            <tr>
+              <td>Kied:&nbsp; </td>
+              <td>Ìa vùg he Ámé dai dèn éndéu hì ge,<br>
+                ňg m̌ sìong zòn lǒi, mǒ síongkón, hǎn íu ngǎi.<br>
+                Ngǎi láu gǐ zàng hò.<br>
+                Ňg zèu la, gidèd zòn lǒi kon ngǎi.<br>
+              </td>
+            </tr>
+            <tr>
+              <td> 杰： </td>
+              <td> 這屋係阿姆帶等𫣆兜起个，<br>
+                你毋想轉來，無相干，還有𠊎。<br>
+                𠊎摎佢整好。<br>
+                你走啦，記得轉來看𠊎。 </td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section> <span class="time"> 22:05 </span>
+        <table>
+          <tbody>
+            <tr>
+              <td> Tiab:&nbsp; </td>
+              <td>Ngǎidéu oi lǒi qǐm sǒnǐan ge!<br>
+              </td>
+            </tr>
+            <tr>
+              <td> 蝶： </td>
+              <td> 𠊎兜愛來尋船員个！ </td>
+            </tr>
+            <tr>
+              <td>Gìu:&nbsp; </td>
+              <td>Sǒnǐan mǒ di ìa! M̌ dí hi naivi lè!<br>
+              </td>
+            </tr>
+            <tr>
+              <td> 九： </td>
+              <td> 船員無在這！毋知去哪位哩！ </td>
+            </tr>
+            <tr>
+              <td>Gìu:&nbsp; </td>
+              <td>Ňg ìa zàg sǎngfánè, dai fǔngmófán lǒi, zèu a!<br>
+              </td>
+            </tr>
+            <tr>
+              <td> 九： </td>
+              <td> 你這隻生番仔，帶紅毛番來，走啊！ </td>
+            </tr>
+            <tr>
+              <td>Tiab:&nbsp; </td>
+              <td>M̌ bún ngǎidéu ngib cún, voi íu ka dó fǔngmófán lǒi.<br>
+                Gǐdéu voi séu cúnè, láu ňg těubài séu ngá vùg kiungiong.<br>
+              </td>
+            </tr>
+            <tr>
+              <td> 蝶： </td>
+              <td> 毋分𠊎兜入村，會有較多紅毛番來。<br>
+                佢兜會燒村仔，摎你頭擺燒吾屋共樣。（煞氣！） </td>
+            </tr>
+            <tr>
+              <td>Gìu:&nbsp; </td>
+              <td>Těubài, séu ngía vùg, he góbùdjíong ge. Geha gòng go lè, cún dùhong, mǒ sǒnǐan, zèu la!<br>
+              </td>
+            </tr>
+            <tr>
+              <td> 九： </td>
+              <td> 頭擺，燒若屋，係高不將个。該下講過哩，村肚項，無船員，走啦！ </td>
+            </tr>
+            <tr>
+              <td>Tiab:&nbsp; </td>
+              <td>Cěusǎng těungǐn tincog voi dóng tiong. Gǐ bún ngǎidéu ngib cún qǐm sǒnǐan,<br>
+                fǔngmófán láu Cěusǎng zòn pěníu, ňg he fǔngmófán ge xìduitěu.<br>
+              </td>
+            </tr>
+            <tr>
+              <td> 蝶： </td>
+              <td> 樵城頭人定著會當暢。佢分𠊎兜入村尋船員，<br>
+                紅毛番摎樵城轉朋友，你係紅毛番个死對頭。 </td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section> <span class="time"> 23:48 </span>
+        <table>
+          <tbody>
+            <tr>
+              <td> Tiab:&nbsp; </td>
+              <td>Dai ngǎi hi ňg ngíamsǒn ge tifóng, ngǎidéu zang bún ňg qǐen.<br>
+              </td>
+            </tr>
+            <tr>
+              <td> 蝶： </td>
+              <td> 帶𠊎去你拈船个地方，𠊎兜正分你錢。 </td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section> <span class="time"> 27:10 </span>
+        <table>
+          <tbody>
+            <tr>
+              <td> Tiab:&nbsp; </td>
+              <td>Ňg těubài láu ngá bá, ngá mé gìug cùd Bòlid Zóng,<br>
+                ngá bá he Hàggángǐn ě! Cěusǎng těungǐn gòng ge.<br>
+              </td>
+            </tr>
+            <tr>
+              <td> 蝶： </td>
+              <td> 你頭擺摎吾爸、吾姆逐出保力庄，<br>
+                吾爸係客家人吔！樵城頭人講个。 </td>
+            </tr>
+            <tr>
+              <td>Gìu:&nbsp; </td>
+              <td>Ňg ábá, he magmagfúng zèu cùd lǒi ge Hàggángǐn,<br>
+                dui sán ge pìen zèu cùd lǒi ge Hàggángǐn, gǐ m̌ siid gòng he?<br>
+              </td>
+            </tr>
+            <tr>
+              <td> 九： </td>
+              <td> 你阿爸，係𢫦𢫦風走出來个客家人，<br>
+                對山該片走出來个客家人，佢毋識講係？ </td>
+            </tr>
+            <tr>
+              <td>Tiab:&nbsp; </td>
+              <td>Sán ge ge pìen, he naivi ě?<br>
+              </td>
+            </tr>
+            <tr>
+              <td> 蝶： </td>
+              <td> 山个該片，係哪位吔？ </td>
+            </tr>
+            <tr>
+              <td>Gìu:&nbsp; </td>
+              <td>Múnsùdpú a, gǐ ciigá gòng ge a.<br>
+                Dai dèn ìd zàg sángfán ge semoiè, gòng me he Múnsùdpú ge sángfánè, pulog ge sìiiongngǐn a.<br>
+                Sii dò kǐguai ho? Ngǎi me he a!<br>
+                Bòlid Zóng a, m̌ súlǐu lǒilúbùdmǐn ge ngǐn.<br>
+              </td>
+            </tr>
+            <tr>
+              <td> 九： </td>
+              <td> 蚊蟀埔啊，佢自家講个啊。<br>
+                帶等一隻生番个細妹仔，講乜係蚊蟀埔个生番仔，部落个使用人啊。<br>
+                試著奇怪呴？𠊎乜係啊！<br>
+                保力庄啊，毋收留來路不明个人。 </td>
+            </tr>
+            <tr>
+              <td>Cúnngǐn:&nbsp; </td>
+              <td>Těungǐn, voi zèu ě.<br>
+              </td>
+            </tr>
+            <tr>
+              <td> 村人： </td>
+              <td> 頭人，會走吔。 </td>
+            </tr>
+            <tr>
+              <td>Gìu:&nbsp; </td>
+              <td>Hǎn íu ngoingǐn, voi lǒi Lǒngkieu mǒ?<br>
+              </td>
+            </tr>
+            <tr>
+              <td> 九： </td>
+              <td> 還有外人，會來琅𤩝無？ </td>
+            </tr>
+            <tr>
+              <td>Tiab:&nbsp; </td>
+              <td>M̌ voi íu ngǐn zai go lǒi lè.<br>
+              </td>
+            </tr>
+            <tr>
+              <td> 蝶： </td>
+              <td> 毋會有人再過來哩。</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </div>
+    <div id="EP5" class="episode">
+      <h1> EP5 tinaidayananga cavilj a maljaljekuya 百年恩怨</h1>
+      <section><span class="time">12:16</span>
+        <table>
+          <tbody>
+            <tr>
+              <td>Kied:&nbsp; </td>
+              <td> Ňg m̌ gidèd lè? Ngǎi hǎn gidèd. Ňg lǐkói Lǒngkieu, cǔn ngǎi láu Ábá, sìong Ámé ge sǐijìed, ngǎi qiu voi sóng lǒi. Gǐ dàgbài du hǎng ìa tǐau lu, dai dèn ngǎidéu hi ge pìen sunǎ, gòng zai gohi, qiu he pulog, gía ge vùg. Gǐ báumí, hǎn he zòn dò ge, di ge gosíin.<br>
+              </td>
+            </tr>
+            <tr>
+              <td>杰：</td>
+              <td>你毋記得哩？𠊎還記得。你離開琅𤩝，存𠊎摎阿爸，想阿姆个時節，𠊎就會上來。佢逐擺都行這條路，帶等𠊎兜去該片樹林<span
+                  class="sidenote">這段為什麼像是客語發音的閩南話 XD</span>，講再過去，就係部落，厥个屋。佢包尾，還係轉到該，在該過身。</td>
+            </tr>
+            <tr>
+              <td>&nbsp; </td>
+              <td>Ge pìen sunǎ, qiu di miendàng.<br>
+              </td>
+            </tr>
+            <tr>
+              <td>&nbsp; </td>
+              <td>該片樹林，就在面頂。</td>
+            </tr>
+            <tr>
+              <td>Tiab:&nbsp; </td>
+              <td>Ngǎi sìong hìlǒi lè. Ňg lǐu di ìa, ngǎi hi qǐm pulog.<br>
+              </td>
+            </tr>
+            <tr>
+              <td>蝶：</td>
+              <td>𠊎想起來哩。你留在這，𠊎去尋部落。</td>
+            </tr>
+            <tr>
+              <td>Kied:&nbsp; </td>
+              <td>Ngǎi těn ňg hi.<br>
+              </td>
+            </tr>
+            <tr>
+              <td>杰：</td>
+              <td>𠊎跈你去。</td>
+            </tr>
+            <tr>
+              <td>Tiab:&nbsp; </td>
+              <td>Ngǎi gíang voi cùd siiqǐn, ngǎi qidgá hi. Ge tǐau lu, fai hǎng.<br>
+              </td>
+            </tr>
+            <tr>
+              <td>蝶：</td>
+              <td>𠊎驚會出事情，𠊎自家去。該條路，壞行。</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </div>
+    <div id="EP6" class="episode">
+      <h1>EP6 venalet 叛變</h1>
+      <section><span class="time">12:20</span>
+        <table>
+          <tbody>
+            <tr>
+              <td>Lǐm:&nbsp; </td>
+              <td>Macuka, m̌ pa, ngǎi hi qǐm iog'è.<br>
+                Kied'è, lǒi!<br>
+              </td>
+            </tr>
+            <tr>
+              <td>林：</td>
+              <td>瑪祖卡，毋怕，𠊎去尋藥仔。<br>
+                杰仔，來！</td>
+            </tr>
+            <tr>
+              <td>Gìu:&nbsp; </td>
+              <td>Hǎn m̌ bán zèu! Ngiadpiang voi ce ngǐn ge! Séu!<br>
+              </td>
+            </tr>
+            <tr>
+              <td>九：</td>
+              <td>還毋搬走！熱病會遰人个！燒！</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </div>
     <h1></h1>
     <div id="thanks"> 特別致謝：
       <ul>
