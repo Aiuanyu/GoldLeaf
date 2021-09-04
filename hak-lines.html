@@ -12,12 +12,12 @@ body {
   border-radius: 0px;
 }
 
-h1 {
+h1, #vnum {
   font-family: /*Oradano-mincho-GSRR*/ /*Alegreya,*/ /*HGSMinchoE*/ 'Toppan Bunkyu Midashi Gothic';
   line-height: 1.4;
 }
 
-#thanks {font-family: PT Sans, '黑體-繁', sans-serif; font-weight: 700;}
+#thanks, #links a {font-family: PT Sans, '黑體-繁', sans-serif; font-weight: 700;}
 #thanks ul ul li {
   display: inline-block;
   color: white;
@@ -66,9 +66,10 @@ section table {
   body {
     font-size: 2vh;
   }
-#thanks {
-  break-before: always;
-}
+  
+  #thanks {
+    break-before: always;
+  }
 }
 
 #cover-page {
@@ -165,7 +166,35 @@ table {
 }
 
 .sidenote {display: none;}
-</style> </head>
+
+#links {text-align: left;}
+
+#links a {
+  display: inline-block;
+  color: white;
+  background-color: #198964;
+  padding: 0.3em 0.7em;
+  margin: 0.3em 0.5em;
+  box-shadow: 0.1em 0.1em maroon;
+  border-radius: 0.4em;
+  float: none;
+  text-decoration: none;
+  vertical-align: middle;
+}
+#links a:after {
+  display: inline-block;
+  content: ' ';
+  background-image: url('res/click.svg');
+  background-size: 1.2em 1.2em;
+  width:1.2em;
+  height:1.2em;
+  margin-left:0.3em;
+  vertical-align: middle;
+} /* css - Is there a way to use SVG as content in a pseudo element ::before or ::after - Stack Overflow <https://stackoverflow.com/questions/19255296/is-there-a-way-to-use-svg-as-content-in-a-pseudo-element-before-or-after> */
+
+#vnum {font-size: 1.5em; font-weight: 700;}
+    </style>
+  </head>
   <body>
     <div id="cover-page">
       <div> 公視戲劇<br>
@@ -173,11 +202,12 @@ table {
         <span style="font-size: 1.5em;">客語台詞彙整</span><br>
         （學習用） </div>
     </div>
-    <div style="float:right; line-height:1.3em;"> <a href="https://www.facebook.com/Aiuanyu/posts/345262983761551">Aiuanyu_愛灣語</a>編 <br>
-      v0.5<a href="https://drive.google.com/file/d/1vCk5SYo32PHfw_vmfHnGL7YgdTegbxFi/view">（☞ 看最新版）</a><br>
-      <a href="https://github.com/GJRobert/Seqalu-hak/commits/main">（更新紀錄）</a> <br>
-      <a href="http://ghsrobert.tk/hist/seqalu#%E8%A7%80%E7%9C%8B">收看原劇</a><br>
-      <a href="https://docs.google.com/document/d/1qjP0zwRnv96oyrgvqQfZm3rADH9A1hVpi91XZwlRJaU/edit?usp=sharing">討論、共筆、協作區</a></div>
+    <div style="float:right; line-height:1.3em;" id="links"> <a href="https://www.facebook.com/Aiuanyu/posts/345262983761551">Aiuanyu_愛灣語</a>編 <br>
+      <span id="vnum">v0.5</span>（持續更新中）<br>
+      <a href="https://drive.google.com/file/d/1vCk5SYo32PHfw_vmfHnGL7YgdTegbxFi/view">看最新版</a><br>
+      <a href="https://github.com/GJRobert/Seqalu-hak/commits/main">更新紀錄</a> <br>
+      <a href="http://ghsrobert.tk/hist/seqalu#%E8%A7%80%E7%9C%8B">如何收看原劇</a><br>
+      <a href="https://docs.google.com/document/d/1qjP0zwRnv96oyrgvqQfZm3rADH9A1hVpi91XZwlRJaU/edit?usp=sharing">提建議、參與編輯</a></div>
     <div id="chars">【講客个人物】
       <ul>
         <li> 阿杰：客人+排灣混血 </li>
@@ -187,6 +217,7 @@ table {
         <li>蝶妹：女主角</li>
       </ul>
     </div>
+    <div style="clear: both;"></div>
     <h1>EP1 vali kemasiljavek 海上的風</h1>
     <section>
       <div class="time">8:02<br>
@@ -1625,10 +1656,10 @@ table {
         <li>社群</li>
         <ul id="community">
           <li>臺中市余畹婕老師</li>
+          <li>sallytai</li>
           <li>徐瑞蓮小姐</li>
           <li>管燕蕾小姐</li>
           <li>Theo Yeh</li>
-          <li>sallytai</li>
           <li>花蓮縣黃瑞香老師</li>
         </ul>
         <li>詞典</li>
@@ -1640,10 +1671,12 @@ table {
         <li>軟體</li>
         <ul id="softwares">
           <li>BlueGriffon</li>
-          <li>jf open 粉圓</li>
+          <li>Sublime Text</li>
           <li>VS Code</li>
           <li>GitHub</li>
-          <li>But Ko 字型</li>
+          <li>源流明體</li>
+          <li>源石黑體</li>
+          <li>jf open 粉圓</li>
           <li>Google 雲端硬碟</li>
         </ul>
         <ul id="dic">
@@ -1657,5 +1690,6 @@ table {
         <li>局部讀音依南四縣腔（雖然劇中似以北四縣腔為主 @@）</li>
       </ul>
     </div>
+    
   </body>
 </html>
