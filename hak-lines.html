@@ -174,7 +174,37 @@ table {
   background-color: hsl(160, 69%, 10%) /* #198964 的暗黑調 */
 }
 
-.sidenote {display: none;}
+.sidenote {
+  position: absolute; /* ☞ css - Float right and position absolute doesn't work together - Stack Overflow <https://stackoverflow.com/questions/11333624/float-right-and-position-absolute-doesnt-work-together> */
+  max-width: 15vw;
+  font-size: 8pt;
+  line-height: 10pt;
+  background-color: #FFE8A4;
+  background-image: url(res/Wood-Border.svg); /* ☞ Wood Border 2 | Free SVG <https://freesvg.org/wood-border2-arvin61r58> */ /* Wood Pattern - Transparent Textures <https://www.transparenttextures.com/wood-pattern.html> */
+  background-size: 100% 100%; /* 新版 Firefox 中，SVG 的 aspect ratio 會維持不變，不像 BlueGriffon 3.1 裡面會拉伸 ∴須修改 SVG 檔加入 preserveAspectRatio="none" ☞ css - Cannot stretch svg background image, aspect ratio will be preserved - Stack Overflow <https://stackoverflow.com/questions/32454685/cannot-stretch-svg-background-image-aspect-ratio-will-be-preserved> */
+  border-radius: 3pt;
+  left: 80vw;
+  font-family: Athelas, 楷體-繁, sans-serif;
+  padding: 8pt 10pt;
+  color: brown;
+  box-shadow: brown 0.25vw 0.25vw;
+}
+
+section table {width: 70vw;}
+
+.noted {
+  background-color: rgba(255, 232, 164, 0.40);
+  border-radius: 0.3em;
+}
+.noted:before {
+  content: "✏️";
+  font-size: 0.5em;
+  vertical-align: top;
+  top: -0.9em;
+  display: inline-block;
+  position: relative;
+  margin-right: 0.1em;
+}
 
 #links {text-align: left;}
 
@@ -262,7 +292,7 @@ body {counter-reset: EPx}
       <section>
         <div class="time">8:02<br>
         </div>
-        <table style="width: 100%" border="0">
+        <table border="0">
           <tbody>
             <tr>
               <td>Cúnngǐn:&nbsp; </td>
@@ -302,7 +332,7 @@ body {counter-reset: EPx}
         </table>
       </section>
       <section><span class="time">14:06</span><br>
-        <table style="width: 100%" border="0">
+        <table border="0">
           <tbody>
             <tr>
               <td>Sùiè:&nbsp; </td>
@@ -317,7 +347,7 @@ body {counter-reset: EPx}
         </table>
       </section>
       <section><span class="time">14:42</span><br>
-        <table style="width: 100%" border="0">
+        <table border="0">
           <tbody>
             <tr>
               <td>Lǐm Lòsiid:&nbsp;<br>
@@ -374,7 +404,8 @@ body {counter-reset: EPx}
               <td>林：<br>
               </td>
               <td>𠊎屋下人，全部做下客家人。<br>
-                樵城學老仔，㓾過中線哩係？哼！<br>
+                <div class="sidenote"> 聽來是 Cěusǎng，並不是「柴」的客語音「cǎi」。依 salleytai 提供之資訊，漢字改用「樵城」。 </div>
+                <span class="noted">樵</span>城學老仔，㓾過中線哩係？哼！<br>
                 𠊎跈你去做義民爺，毋求有人拜，淨求吾倈仔有田好耕；<br>
                 係無，你拜麼个，𠊎都去尋你！</td>
             </tr>
@@ -446,7 +477,7 @@ body {counter-reset: EPx}
         </table>
       </section>
       <section><span class="time">16:54</span><br>
-        <table style="width: 100%" border="0">
+        <table border="0">
           <tbody>
             <tr>
               <td>Lǐm:&nbsp; </td>
@@ -488,22 +519,24 @@ body {counter-reset: EPx}
         </table>
       </section>
       <section><span class="time"> 17:28</span><br>
-        <table style="width: 100%" border="0">
+        <table border="0">
           <tbody>
             <tr>
               <td>Á-Gìu:&nbsp; </td>
-              <td>Mǒ haglòn...<br>
+              <td>
+                <div class="sidenote"> 粗口，很小聲，我聽不出來，是參考網友資訊。 </div>
+                <span class="noted">Mǒ haglòn</span>...<br>
               </td>
             </tr>
             <tr>
               <td>阿九：</td>
-              <td>無核卵……（粗口，很小聲，我聽不出來，是參考網友資訊）</td>
+              <td>無核卵……</td>
             </tr>
           </tbody>
         </table>
       </section>
       <section><span class="time"> 21:00</span><br>
-        <table style="width: 100%" border="0">
+        <table border="0">
           <tbody>
             <tr>
               <td>Á-Gìu:&nbsp; </td>
@@ -518,7 +551,7 @@ body {counter-reset: EPx}
         </table>
       </section>
       <section><span class="time"> 24:12</span><br>
-        <table style="width: 100%" border="0">
+        <table border="0">
           <tbody>
             <tr>
               <td>Lǐm:&nbsp; </td>
@@ -560,7 +593,7 @@ body {counter-reset: EPx}
         </table>
       </section>
       <section><span class="time"> 29:15</span><br>
-        <table style="width: 100%" border="0">
+        <table border="0">
           <tbody>
             <tr>
               <td>Gìu:&nbsp; </td>
@@ -597,7 +630,7 @@ body {counter-reset: EPx}
         <br>
         <br>
         <span class="time"> 31:40</span><br>
-        <table style="width: 100%" border="0">
+        <table border="0">
           <tbody>
             <tr>
               <td>Sùi:&nbsp; <br>
@@ -622,7 +655,7 @@ body {counter-reset: EPx}
         &nbsp; ……<br>
         <br>
         <span class="time"> 32:47</span><br>
-        <table style="width: 100%" border="0">
+        <table border="0">
           <tbody>
             <tr>
               <td>Gìu:&nbsp; </td>
@@ -651,7 +684,7 @@ body {counter-reset: EPx}
         <br>
         <br>
         <span class="time"> 35:50</span><br>
-        <table style="width: 100%" border="0">
+        <table border="0">
           <tbody>
             <tr>
               <td>Gìu:&nbsp; </td>
@@ -666,7 +699,7 @@ body {counter-reset: EPx}
         <br>
         <br>
         <span class="time"> 36:25</span><br>
-        <table style="width: 100%" border="0">
+        <table border="0">
           <tbody>
             <tr>
               <td>Gìu:&nbsp; </td>
@@ -680,7 +713,7 @@ body {counter-reset: EPx}
         </table>
       </section>
       <section><span class="time">38:20</span> <br>
-        <table style="width: 100%" border="0">
+        <table border="0">
           <tbody>
             <tr>
               <td>Lǐm:&nbsp; </td>
@@ -751,7 +784,7 @@ body {counter-reset: EPx}
         </table>
       </section>
       <section><span class="time"> 40:00</span><br>
-        <table style="width: 100%" border="0">
+        <table border="0">
           <tbody>
             <tr>
               <td>Sùi:&nbsp;</td>
@@ -789,7 +822,8 @@ body {counter-reset: EPx}
             <tr>
               <td>水：</td>
               <td>府城路當遠啊，食飽兜仔啊。<br>
-                救船員个賞銀，𠊎愛領。〔意思與字幕似有出入〕<br>
+                <div class="sidenote">劇中華文字幕寫「順便幫我領一份吧」，但客話原意似乎比較像是水仔想要獨吞，與字幕似有出入，有待官方確認。</div>
+                救船員个賞銀，<span class="noted">𠊎愛領</span>。<br>
                 好。絡索。<br>
                 蝶妹呴，無定著就愛轉來哩。<br>
                 這下去府城，危險啦。</td>
@@ -877,7 +911,9 @@ body {counter-reset: EPx}
             <tr>
               <td><br>
               </td>
-              <td>較去兜吔，就係風港，帶佢去報官！</td>
+              <td>
+                <div class="sidenote"> 屏東縣楓港鄉舊名「風港」，依劇中時代背景取舊名。 </div>
+                較去兜吔，就係<span class="noted">風港</span>，帶佢去報官！</td>
             </tr>
             <tr>
               <td>Kied:&nbsp; </td>
@@ -1342,12 +1378,14 @@ body {counter-reset: EPx}
           <tbody>
             <tr>
               <td> Tiab:&nbsp; </td>
-              <td>Ádigù!<br>
-              </td>
+              <td>
+                <div class="sidenote">原文僅是呼喚弟弟之用語，可能因為英語語境會稱呼名字、「Brother」另有其他用法，所以英文字幕寫的是名字，連帶也影響華文字幕。不然華文字幕翻譯成「弟弟」也應該沒問題吧。 </div>
+                <span class="noted">Ádigù</span>!</td>
             </tr>
             <tr>
               <td> 蝶： </td>
-              <td> 阿弟牯！（不太明白為什麼劇組字幕翻譯不翻「弟弟 Brother」而是一定要翻成名字呢？） </td>
+              <td> 阿弟牯！<br>
+              </td>
             </tr>
             <tr>
               <td>Tiab:&nbsp; </td>
@@ -1497,7 +1535,7 @@ body {counter-reset: EPx}
             <tr>
               <td> 蝶： </td>
               <td> 毋分𠊎兜入村，會有較多紅毛番來。<br>
-                佢兜會燒村仔，摎你頭擺燒吾屋共樣。（煞氣！） </td>
+                佢兜會燒村仔，摎你頭擺燒吾屋共樣。 </td>
             </tr>
             <tr>
               <td>Gìu:&nbsp; </td>
@@ -1553,7 +1591,10 @@ body {counter-reset: EPx}
             </tr>
             <tr>
               <td>Gìu:&nbsp; </td>
-              <td>Ňg ábá, he magmagfúng zèu cùd lǒi ge Hàggángǐn,<br>
+              <td>
+                <div class="sidenote"> 這個詞我只能聽出音像是「màmàfùng」，所幸社群朋友協助輾轉提供正確的詞。☞ <a
+                    href="https://www.moedict.tw/:%F0%A2%AB%A6%F0%A2%AB%A6%E9%A2%A8">萌典</a> </div>
+                Ňg ábá, he <span class="noted">magmagfúng</span> zèu cùd lǒi ge Hàggángǐn,<br>
                 dui sán ge pìen zèu cùd lǒi ge Hàggángǐn, gǐ m̌ siid gòng he?<br>
               </td>
             </tr>
@@ -1573,7 +1614,9 @@ body {counter-reset: EPx}
             </tr>
             <tr>
               <td>Gìu:&nbsp; </td>
-              <td>Múnsùdpú a, gǐ ciigá gòng ge a.<br>
+              <td>
+                <div class="sidenote"> 「蟀」的音是查徐兆泉詞典的，但聽演員講起來有點像「Mǔnsuepú」，也許是「率 soi」。 </div>
+                <span class="noted">Múnsùdpú</span> a, gǐ ciigá gòng ge a.<br>
                 Dai dèn ìd zàg sángfán ge semoiè, gòng me he Múnsùdpú ge sángfánè, pulog ge sìiiongngǐn a.<br>
                 Sii dò kǐguai ho? Ngǎi me he a!<br>
                 Bòlid Zóng a, m̌ súlǐu lǒilúbùdmǐn ge ngǐn.<br>
@@ -1582,7 +1625,8 @@ body {counter-reset: EPx}
             <tr>
               <td> 九： </td>
               <td> 蚊蟀埔啊，佢自家講个啊。<br>
-                帶等一隻生番个細妹仔，講乜係蚊蟀埔个生番仔，部落个使用人啊。<br>
+                <div class="sidenote"> 這個詞似乎沒得查，我依中華民國民法「使用人」的相似意義姑且用之。待官方確認。 </div>
+                帶等一隻生番个細妹仔，講乜係蚊蟀埔个生番仔，部落个<span class="noted">使用人</span>啊。<br>
                 試著奇怪呴？𠊎乜係啊！<br>
                 保力庄啊，毋收留來路不明个人。 </td>
             </tr>
@@ -1629,8 +1673,7 @@ body {counter-reset: EPx}
             </tr>
             <tr>
               <td>杰：</td>
-              <td>你毋記得哩？𠊎還記得。你離開琅𤩝，存𠊎摎阿爸，想阿姆个時節，𠊎就會上來。佢逐擺都行這條路，帶等𠊎兜去該片樹林<span
-                  class="sidenote">這段為什麼像是客語發音的閩南話 XD</span>，講再過去，就係部落，厥个屋。佢包尾，還係轉到該，在該過身。</td>
+              <td>你毋記得哩？𠊎還記得。你離開琅𤩝，存𠊎摎阿爸，想阿姆个時節，𠊎就會上來。<span class="sidenote">這段裡的「逐擺」、「樹林」剛好都和閩南話相近 XD</span>佢逐擺都行這條路，帶等𠊎兜去該片樹林，講再過去，就係部落，厥个屋。佢包尾，還係轉到該，在該過身。</td>
             </tr>
             <tr>
               <td>&nbsp; </td>
