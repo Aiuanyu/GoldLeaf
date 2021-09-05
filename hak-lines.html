@@ -137,9 +137,17 @@ table {
 }
 
 .TBD {
-  background-color: yellow;
+  background-color: rgba(255, 255, 0, 0.90);
   color: #0759ab;
 }
+/*.TBD:after {
+  content: "?";
+  font-size: 0.5em;
+  vertical-align: top;
+  line-height: 1.2em;
+  padding-right: 0.2em;
+  padding-top: 0.5em;
+}*/
 
 .time {
   font-family: /* Digital-7 */ /*Menlo*/ NovaMono for Powerline; 
@@ -177,7 +185,8 @@ table {
   float: none;
   text-decoration: none;
   vertical-align: middle;
-  box-shadow: 0.1em 0.1em maroon;
+  box-shadow: 0.1em 0.1em #0D4936;
+  border: 0.05em #0D4936 solid;
 }
 #links a, #vinfo {
   padding: 0.3em 0.7em;
@@ -1825,6 +1834,5 @@ body {counter-reset: EPx}
         </ul>
       </ul>
     </div>
-    
   </body>
 </html>
