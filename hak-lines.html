@@ -197,6 +197,7 @@ section table {width: 70vw;}
 .noted {
   background-color: rgba(255, 232, 164, 0.40);
   border-radius: 0.3em;
+  break-inside: avoid; /* 沒辦法讓 before 的元素和主元素保持在同一行 :( */
 }
 .noted:before {
   content: "✏️";
@@ -1879,6 +1880,5 @@ body {counter-reset: EPx}
         </ul>
       </ul>
     </div>
-    
   </body>
 </html>
