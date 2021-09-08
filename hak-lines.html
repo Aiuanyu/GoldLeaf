@@ -409,10 +409,35 @@ section:before {
         for (var i=0; i<nodes.length; i+=2) { //奇數行
           var j = i / 2;
           nodes[i].getElementsByTagName('td')[1].innerHTML = HL[j];
+          var k = i + 1;
+          var name = nodes[k].getElementsByTagName('td')[0].innerHTML.replace("：","").replace(' ','').replace(' ','').replace("&nbsp;","");
+          var nameHl = JSON.parse(document.getElementById('name-hl').innerHTML);
+          if (nameHl[name] == undefined) {
+            continue;
+          }
+          else {
+            nodes[i].getElementsByTagName('td')[0].innerHTML = nameHl[name] + ":&nbsp;";
+          }
         }
 
         var hakvar = document.getElementsByTagName('link')[0];
         hakvar.setAttribute('href', 'HL.css');
+      }
+    </script>
+    <script type="application/json" id="name-hl">
+      {
+        "": "",
+        "村人": "cunˋ ngin",
+        "杰": "kiedˋ",
+        "水仔": "shuiˊ er",
+        "林老實": "lim loˊ shidˋ",
+        "阿九": "a+ giuˊ",
+        "林": "lim",
+        "九": "giuˊ",
+        "水": "shuiˊ",
+        "船員": "shon rhan",
+        "蝶": "tiabˋ",
+        "瑪祖卡": "Macuka"
       }
     </script>
   </head>
@@ -566,8 +591,7 @@ section:before {
               </td>
             </tr>
             <tr>
-              <td>林：<br>
-              </td>
+              <td>林：</td>
               <td>𠊎屋下人，全部做下客家人。<br>
                 <div class="sidenote"> 聽來是 Cěusǎng，並不是「柴」的客語音「cǎi」。依 salleytai 提供之資訊，漢字改用「樵城」。 </div>
                 <span class="noted">樵</span>城學老仔，㓾過中線哩係？哼！<br>
@@ -886,7 +910,7 @@ section:before {
               </td>
             </tr>
             <tr>
-              <td>父：</td>
+              <td>林：</td>
               <td>頭擺客人燒，這擺樵城學老仔燒。這屋，係你阿姆親手起个。</td>
             </tr>
             <tr>
@@ -895,7 +919,7 @@ section:before {
               </td>
             </tr>
             <tr>
-              <td>父：</td>
+              <td>林：</td>
               <td>瑪祖卡，𠊎帶阿杰仔，去尋蝶妹啊，你愛保護𫣆一家人團圓。啊？</td>
             </tr>
             <tr>
@@ -913,7 +937,7 @@ section:before {
               </td>
             </tr>
             <tr>
-              <td>父：</td>
+              <td>林：</td>
               <td>官府？有官府還會燒屋啊？走啦！</td>
             </tr>
             <tr>
@@ -933,7 +957,7 @@ section:before {
               </td>
             </tr>
             <tr>
-              <td>父：</td>
+              <td>林：</td>
               <td>去看有麼个值錢个啊！</td>
             </tr>
             <tr>
