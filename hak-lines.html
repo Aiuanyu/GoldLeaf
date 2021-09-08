@@ -73,6 +73,8 @@ section table {
   .draft h1 {page-break-before: always;}
   
   tr {page-break-inside: avoid;}
+  
+  .noprint {display: none;}
 }
 
 #cover-page {
@@ -256,21 +258,59 @@ body {counter-reset: EPx}
   text-align: center;
   background: #E5FBC6;
 }
+
+section:before {
+  content: "客：四縣腔";
+  float: right;
+  font-size: 0.5em;
+}
+.HL {display: none;}
     </style>
+    <link id="hakvar" rel="stylesheet" type="text/css" href="">
+    <!--<script src="https://code.jquery.com/jquery-3.5.0.js"></script>-->
+    <script type="text/javascript">
+      function useHL() {
+        // var fs = require('fs'); // 這兩行不行，這好像是 node.js 用的
+        // var HL = fs.readFileSync("./HL.txt", 'utf-8');
+
+        // jQuery 也用不了
+          // jQuery.get('./HL.txt', function(HL) {
+          //var HLlines = HL.split('\n');
+        // });
+
+        // 所以還是直接用陣列吧
+        HL = [
+        "哈哈哈",
+        "嘿嘿",
+        "呵呵"
+        ];
+
+        var nodes = document.getElementsByTagName("tr");
+        for (var i=0; i<nodes.length; i+=2) { //奇數行
+          var j = i / 2;
+          nodes[i].getElementsByTagName('td')[1].innerHTML = HL[j];
+        }
+
+        var hakvar = document.getElementsByTagName('link')[0];
+        hakvar.setAttribute('href', 'HL.css');
+      }
+    </script>
   </head>
   <body>
     <div id="cover-page">
       <div> 公視戲劇<br>
         <span style="font-size: 2em; font-family: '王漢宗中行書繁'">「斯卡羅」</span><br>
         <span style="font-size: 1.5em;">客語台詞彙整</span><br>
-        （學習用） </div>
+        （學習用）<span class="SI"><br>（四縣腔）</span><span class="HL"><br>（海陸腔）</span> </div>
     </div>
     <div style="float:right; line-height:1.3em;" id="links"> <a href="https://www.facebook.com/Aiuanyu/posts/345262983761551">Aiuanyu_愛灣語</a>編 <br>
       <div id="vinfo"> <span id="vnum">v0.53</span>（EP1～6 ✅<br>
         EP7、8 初稿防雷供應；<br>
         🏃‍持續更新中） </div>
       <a href="https://drive.google.com/file/d/1vCk5SYo32PHfw_vmfHnGL7YgdTegbxFi/view">看最新版</a><br>
-      <a href="https://github.com/GJRobert/Seqalu-hak/commits/main">更新紀錄</a> <br>
+      <a href="https://github.com/GJRobert/Seqalu-hak/commits/main">更新紀錄</a><br class="noprint"><button
+        id="useHL" class="noprint"
+        onclick="useHL()">客語改用海陸腔</button> <br>
       <a href="http://ghsrobert.tk/hist/seqalu#%E8%A7%80%E7%9C%8B">如何收看原劇</a><br>
       <a href="https://docs.google.com/document/d/1qjP0zwRnv96oyrgvqQfZm3rADH9A1hVpi91XZwlRJaU/edit?usp=sharing">提建議、參與編輯</a></div>
     <div id="chars">【講客个人物】

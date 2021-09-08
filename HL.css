@@ -1,0 +1,14 @@
+tr:nth-child(2n+1) {
+  text-shadow: 0.1em 0.1em 0.1em maroon;
+}
+
+section:before {
+  content: "客：海陸腔";
+  float: right;
+  font-size: 0.5em;
+}
+
+.SI {display: none !important;}
+.HL {
+  display: initial !important;
+}
