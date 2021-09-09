@@ -73,6 +73,8 @@ section table {
   .draft h1 {page-break-before: always;}
   
   tr {page-break-inside: avoid;}
+  
+  .noprint {display: none;}
 }
 
 #cover-page {
@@ -256,21 +258,204 @@ body {counter-reset: EPx}
   text-align: center;
   background: #E5FBC6;
 }
+
+section:before {
+  content: "客：四縣腔";
+  float: right;
+  font-size: 0.5em;
+}
+.HL {display: none;}
     </style>
+    <link id="hakvar" rel="stylesheet" type="text/css" href="">
+    <!--<script src="https://code.jquery.com/jquery-3.5.0.js"></script>-->
+    <script type="text/javascript">
+      function useHL() {
+        // var fs = require('fs'); // 這兩行不行，這好像是 node.js 用的
+        // var HL = fs.readFileSync("./HL.txt", 'utf-8');
+
+        // jQuery 也用不了
+          // jQuery.get('./HL.txt', function(HL) {
+          //var HLlines = HL.split('\n');
+        // });
+
+        // 所以還是直接用陣列吧
+        HL = [
+        "fanˋ er  kiedˋ, loˊ guiˋ giˊ , en  deuˋ liaˊ hag ngin zongˋ, rhiuˋ ngin shibˋ liug soiˇ leˋ , oiˇ rhiuˋ shin ngien liˋ! ",
+        "ngai heˇ hag gaˋ ngin ,m heˇ fanˋ er !",
+        "ngia vug haˋ samˋ gued rhanˋ ngi+ a+ ! <br>fanˋ ngin a+ meˋ , hag ngin a+ baˋ , ngi  a+ ze , mai+ bunˋ moˋ fanˋ ",
+        "shagˋ teu ngi ciung seˇ rhung+ doˇ tai+ , du+ mo chud shiuˊ , liaˊ baiˊ<br> bunˋ ngi giˋ fui+ a+ ! ngi gaiˇ shin ngien liˋ loi a+ ! lauˋ sangˋ fanˋ shinˋ hong+ hag ngin samˋ tod ted ! ngi ciu+ goˇ guanˋ leˋ! ",
+        "sha+ liau senˋ liˋ zongˋ, liongˊ pienˊ rhiuˋ tungˋ teuˇ , chinˇ er mo vaˊ pienˋ . sangˋ gaiˇ hogˋ loˊ ngin m giuˇ , siˊ gaiˇ hag ngin , meˇ m shiuˋ ! zeuˊ ! ",
+        "tien mo nga fun+ , lauˋ hogˋ loˊ ngin ciongˊ shuiˊ biangˇ miang+ , mo oiˇ hiˇ la! ",
+        "ngi hied duˇ tungˊ liangˋ buˋ hag gaˋ zongˋ, m tenˇ shiuˊ oi? ",
+        "ngiongˊ banˋ ? heˇ mo tenˇ shiuˊ , rhiu+ oiˇ shauˋ nga vug ? ngi han mang lauˋ nga  buˋ ngiong fui+ shid liˋ . ",
+        "ngi loi tenˇ shiuˊ , nga tien , piogˋ liongˊ fun+ tien bunˋ ngi . <br>ngia laiˇ er , meˇ rhiuˋ vug hoˊ hied ! <br>heˇ mo , hag gaˋ zongˋ, mo ngin siongˊ oiˇ gaˇ fanˋ er ! <br><div class='sidenote'> 本來記錄「生」（sén？），但聽演員講起來像 hen 的音，故改為存疑。 </div>ngi laiˇ er , ciu+ denˊ do ˊtoˊ sha+ liau gaiˇ tuˊ sangˋ er , zaiˇ goˇ <span class='noted'>sangˋ</span> tuˊ sangˋ ziiˊ a+ ! ",
+        "ngai vug haˋ ngin , cion pu+ zoˇ ha+ hag gaˋ ngin . <br>ciau shang hogˋ loˊ er , chi goˇ zhungˋ sienˇ leˋheˇ ?  <br>ngai ten ngi hiˇ zoˇ ngi+ min rha , m kiu rhiuˋ ngin baiˇ , ciang+ kiu nga laiˇ er rhiuˋ tien hoˊ gangˋ ; <br>heˇ mo , ngi baiˇ maˊ gaiˇ , ngai du+ hiˇ cim ngi ! ",
+        "a+ baˋ ! ",
+        "a+ Kiedˋ! ",
+        "ngai tiˇ nga a+ baˋ hiˇ ! ",
+        "ngi shibˋ liug soiˇ leˋ. hag gaˋ ngin o, zoˊ vanˊ oiˇ ginˋ goˇ liaˊ guanˋ , <br>zhangˇ zoˇ ded sonˇ tai+ ngin . ",
+        "bud zhunˊ hiˇ ! ",
+        "ngia laiˇ er ……",
+        "moiˇ er zeuˊ ted , heˇ gongˊ laiˇ er rhiu+ siˊ ted , gia meˋ siˊ m voi+ biongˇ  goˇ ngai . ",
+        "teu baiˊ , hemˋ ngi hiˇ fuˊ shang , ngi giangˋ doˇ voi+ siˊ ! liaˊ ha+ rhiu+ voi+ hiˇ siongˋ chi ? ",
+        "a+ baˋ ! ",
+        "goˋ moˋ ziiˊ ! m heˇ ngi , en ciu+ rhiuˋ tien leˋ laˇ! ",
+        "a+ baˋ , rhiuˋ shon hoˊ ngiamˋ . ",
+        "<div class='sidenote'> 粗口，很小聲，我聽不出來，是參考網友資訊。 </div><span class='noted'>mo hagˋ lonˊ</span> ……",
+        "zhunˇ biˋhan sed ted leˋ! ",
+        "ciu+ mong+ ngi a+ ze , duˇ  fuˊ shang ngid er hoˊ goˇ . ",
+        "heˇ a+ meˋ gai  zoˇ sangˋ fanˋ gaiˇ chi gaiˇ（个） ? ",
+        "ngi shibˋ liug soiˇ leˋ, duˇ long kiau, m heˇ bunˋ ngin chi siˊ , ciu+ heˇ zoˇ sangˋ fanˋ er chi ngin . ",
+        "rhiuˋ lauˋ ngi a+ ze gongˊ goˇ leˋ, ngi shibˋ liug soiˇ , voi+ daiˇ ngi hiˇ fuˊ shang . gi m zhonˊ loi , en hiˇ cim gi ! ",
+        "ngi dongˊ shuiˊ mag , bunˋ shuiˊ ciang+ liu zinˇ ngia tien , nga tien m siiˊ saiˋ shuiˊ oi? <br>ngi oiˇ hiug ciau shang , ngai oiˇ hiug boˊ lidˋ 、tungˊ liangˋ buˋ ! ",
+        "……",
+        "a+ giuˊ goˋ er , ngi lauˋ sangˋ fanˋ piogˋ gaiˇ tungˊ liangˋ buˋ , voi+ mo oiˇ leˋ. ",
+        "a+ giuˊ goˋ er a+ , tai+ gaˋ ngiong+  rhid pu+ la+, hoˊ mo ? ",
+        "boˊ lidˋ zoˇ ded hiug anˊ doˋ ngin , ngai han oiˇ lauˋ sangˋ fanˋ piogˋ tungˊ liangˋ buˋ ? ",
+        "zhauˋ shin , giˊ haˋ gaiˇ seˇ ngin er , konˇ cid gaˋ gaiˇ a+ baˋ , gongˋ hiˇ mai . <br>ciongˊ m doˊ shuiˊ , gi liaˊ deuˋ a+ baˋ , pagˋ pagˋ siˊ leˋ! <br>hag gaˋ ngin m giangˋ zoˇ ngi+ min rha , tungˊ liangˋ buˋ , m tuiˇ ! <br>shuiˊ mag , ngi m hauˇ biongˇ a+ , denˊ nga ngin hiˇ ciongˊ ! ",
+        "a+ giuˊ goˋ , m hauˇ zeuˊ la+! ",
+        "liaˊ ha+ , ngi zoˇ ded biongˇ shuiˊ mag . ",
+        "a+ shuiˊ , tungˊ liangˋ buˋ gaiˇ foˊ , voi+ shauˋ doˇ sha+ liau oˊ ! ",
+        "teu baiˊ hag ngin shauˋ , liaˊ baiˊ ciau shang hogˋ loˊ er shauˋ . liaˊ vug , heˇ ngi a+ meˋ cinˋ shiuˊ hiˊ gaiˇ . ",
+        "Macuka , ngai daiˇ a+ kiedˋer , hiˇ cim tiabˋ moiˇ a+ , ngi oiˇ boˊ fu+ en rhid gaˋ ngin ton rhan . a+ ? ",
+        "喂! hag gaˋ ngin ? ngai cim gonˋ fuˊ ! ",
+        "gonˋ fuˊ ? rhiuˋ gonˋ fuˊ han voi+ shauˋ vug a+ ? zeuˊ la+! ",
+        "……",
+        "hiˇ konˇ rhiuˋ maˊ gaiˇ dadˋ cien gaiˇ a+ ! ",
+        "a+ baˋ ! shon rhan ! ",
+        "ciau shang ngin loi banˋ foˇ mo oiˇ gaiˇ a+ . a+ goˋ er , sha+ liau nabˋ fanˋ zuˋ , sangˋ fanˋ er nauˋ fanˋ moˋ er , nauˋ shon rhan . diˋ shon rhan duiˇ sha+ liau zeuˊ , shiuˋ zhonˊ sha+ liau seˇ sii+ cin , ngu+ fui+ ngai lauˋ shon rhan tenˇ shiuˊ , voi+ chud coˊ . ",
+        "shuiˊ a+ , tung ngi ziaˇ giˊ tiau logˋ sog . ",
+        "fuˊ shang lu+ dongˋ rhanˊ a+ , shidˋ bauˊ deuˋ er a+ . <br>giuˇ shon rhan gaiˇ shongˊ ngiun , ngai oiˇ liangˋ . <br>hoˊ . logˋ sog . <br>tiabˋ moiˇ 呴, mo tin+ chogˋ ciu+ oiˇ zhonˊ loi leˋ. <br>liaˊ ha+ hiˇ fuˊ shang , ngui hiamˊ la+. ",
+        "a+ baˋ ! ",
+        "diauˊ ngia meˋ leˋ……<br>a+ Kiedˋ! zeuˊ ! ",
+        "zeuˊ le, mo hagˋ lonˊ gaiˇ . <br>giag ! tin+ chogˋ voi+ doˇ fuˊ shang cim ngi a+ ze ! loi ! ",
+        "ngai giangˋ ngin+  m chud a+ ze . ",
+        "giag giag ! ",
+        "teuˋ ngiu cedˋ . diamˋ diamˋ . ",
+        "a+ baˋ ! ",
+        "haˇ hiˇ deuˋ er, ciu+ heˇ pungˋ gongˊ , daiˇ gi hiˇ boˇ gonˋ ! ",
+        "a+ baˋ m hiˇ meˇ? ",
+        "ngai hiˇ leˋ, maˊ ngin lauˋ ngi a+ meˋ zoˇ panˋ a+ ? saˇ hiˇ ! ",
+        "a+ baˋ ! ",
+        "liaˊ deuˋ heˇ ngi a+ baˋ chi goˇ gaiˇ teuˋ ngiu cedˋ . <br>「lon+ chi ngin gaiˇ , tin+ chogˋ vang siˊ 」, ngi a+ meˋ gongˊ gaiˇ . <br>boˇ rhinˇ . ",
+        "a+ ti+ guˊ , ngai heˇ a+ ze . a+ ti+ guˊ . ",
+        "liaˊ vui+ heˇ nai+ ? ngai oiˇ zhonˊ hi+ cim a+ baˋ . ",
+        "a+ baˋ oiˇ daiˇ shon rhan loi cim ngi , bunˋ teuˋ ngiu cedˋ chi siˊ ted leˋ, a+ ze . ",
+        "m hoˊ siongˊ a+ baˋ leˋ, ngai konˇ doˊngi , ngai ciu+ onˋ simˋ leˋ. ",
+        "ngai faˇ doˊ voi+ ngin+ m chud a+ ze . ",
+        "a+ ze  ngin+ ded chud ngi a+ . loi . ngi zaiˇ goˇ shoi+ gaˋ rhid haˋ er. ",
+        "a+ ze, hai ted tai+ 吔. ",
+        "giag deuˋ eˇ. loi ! oiˇ hiˇ lauˋ ngi onˋ fu+ . ",
+        "duˇ fuˊ shang , m hauˇ gongˊ fanˋ faˇ . <br>liaˊ vui+ rhiuˋ ngin maˇ ngi sangˋ fanˋ er , m hoˊ shin ngin+ . <br>ha+ ngi+ baiˊ , ciu+ hang liaˊ tiau lu+ zhonˊ hiˇ . ",
+        "",
+        "fuˊ shang m voi+ rhiuˋ ngin shauˋ ngia vug . ",
+        "denˊ rhid ha+ doˇ daˊ shagˋ chong , oiˇ ngiunˋ nai+ . mo bunˋ daˊ , m voi+ chud siiˋ . ",
+        "ngai zoˊ ciu+ duˇ a+ baˋ gai chud siiˋ leˋ. ",
+        " a+ ti+ guˊ ! a+ ti+ guˊ ! ",
+        "a+ ze",
+        "ngi deuˋ hiˇ nai+ a+ ? han m zhonˊ hiˇ rhiˋ sangˋ gonˊ ? ",
+        "ngai gai ha+ hiˇ con+ ngoi+ shuiˊ . ",
+        "ngoi+ shuiˊ ? guiˋ shinˋ er dabˋ lau , hiˇ nai+ leˋ? ",
+        "ngiamˋ shon er . ",
+        "liaˊ vui+ m heˇ long kiau, fuˊ shang gaiˇ shon er , du+ rhiuˋ zhuˊ ngin eˇ. ",
+        "gongˊ sangˋ fanˋ er , ngai zoˇ m ded shin ngin+ ; tong sanˋ ngin , rhiu+ kiau doˊmo ciongˇ . ",
+        "long kiau , mo gonˋ fuˊ ! ",
+        "nai+ ciongˇ ngi deuˋ hag ngin , han hiˇ ngiamˋ shon . ",
+        "gonˋ fuˊ gongˊ a+ , long kiau, 「gimˇ ti+ fongˋ buˋ 」! bunˋ en liaˊ deuˋ , <br>「cii+ sangˋ cii+ medˋ 」! <br>siˊ shon rhan , ciu+ hemˋ en liaˊ deuˋ , naˋ sangˋ fanˋ gaiˇ ngin teu gauˋ caˋ 、giauˊfadˋ gaiˇ cien ? <br>tienˋ gongˋ ngid , tungˋ rhidˋ, loi shiuˋ ngin teu , ngai chud mienˇ ! <br>siugˋ haˋ loi , ngi shongˋ sanˋ ! lauˋ tungˋ rhidˋgaiˇ ngin teu bunˋ sangˋ fanˋ er ! <br>gongˊ , ngai tiˇ gi liaˊ deuˋ a+ , gaiˊ gied ted ! ngai oiˇ piogˋ zhonˊ tungˊ liangˋ buˋ ! ",
+        "teuˋ ngiu cedˋ , heˇ pungˋ gongˊ gai pienˊ gaiˇ tong sanˋ ngin , sangˋ ded lauˋ sangˋ fanˋ mo <br>kiung+ rhong+ la+! aiˋ ! ",
+        "m siiˊ seu , ngai voi+ chuˊ liˋ . ",
+        "ngiedˋ piang+  voi+ cheˇ ngin ! ngai deuˋ heˇ goˋ bud ziongˋ gaiˇ ! ngi deuˋ , nangˇ ngoi+ cim <br>vui+ soˊ hied ! ",
+        "hai goiˊ hoˊ leˋ, hiˇ zoˇ sii+ ! hiˇ a+ ! ",
+        "liaˊ , a+ ze lu+ hong+ shidˋ, ngi bunˋ ngai gaiˇ cien maiˋ gaiˇ . ",
+        "ngi hiˇ gaiˋ hong+ oiˊ? ",
+        "han mang doˇ gaiˋ hong+ a+ . ",
+        "biongˇ gungˋ , ngi hang gaiˋ hong+ , zhonˊ rhiˋ sangˋ gonˊ . ",
+        "gi deuˋ voi+ maˇ ngai sangˋ fanˋ er . ",
+        "ngi tangˋ doˋ leˋ, ciu+ tangˋ m doˊleˋ. ",
+        "<div class='sidenote'>原文僅是呼喚弟弟之用語，可能因為英語語境會稱呼名字、「Brother」另有其他用法，所以英文字幕寫的是名字，連帶也影響華文字幕。不然華文字幕翻譯成「弟弟」也應該沒問題吧。 </div><span class='noted'>a+ ti+ guˊ</span> ! ",
+        "cim fung moˋ er zoˇ ngia boˊ ngin , gonˋ giunˋ m voi+ cim ngia ma fan a+ . ",
+        "tin+ chogˋ oiˇ hiˇ fuˊ shang banˋ shagˋ teu ? zoˇ m ded liu haˋ loi zhinˊ vug heˇ ? ",
+        "gi deuˋ heˇ oiˇ shauˋ vug er , ngai kongˇ hiˇ zoˇ teu rhung+ nai mai ted . ",
+        "biongˇ zhonˊ hiˇ la+. mo ti+ fongˋ hoˊ kongˇ leˊ. ",
+        "ngai zoˇ maˊ gaiˇ oiˇ kongˇ a+ ? ",
+        "ngai rhid vug kaˋngin , mo vui+ soˊ hoˊ hiˇ leˋ, mogˋ shauˋ , ngai cid gaˋ zeuˊ . ",
+        "voi+ daiˇ ngai a+ ze zeuˊ , ciu+ giag zeuˊ ! ",
+        "liaˊ bunˋ ngi . ",
+        "liaˊ vug heˇ a+ meˋ daiˇ denˊ en deuˋ hiˊ gaiˇ , ngi m siongˊ zhonˊ loi , mo siongˋ gonˋ , han rhiuˋ ngai . ngai lauˋ gi zhangˊ hoˊ . ngi zeuˊ la+, giˇ ded zhonˊ loi konˇ ngai . ",
+        "ngai deuˋ oiˇ loi cim shon rhan gaiˇ ! ",
+        "shon rhan mo coiˋ liaˊ ! m diˋ hiˇ nai+ vui+ leˋ! ",
+        "ngi liaˊ zhag sangˋ fanˋ er , daiˇ fung moˋ fanˋ loi , zeuˊ a+ ! ",
+        "m bunˋ ngai deuˋ ngibˋ cunˋ , voi+ rhiuˋ haˇ doˋ fung moˋ fanˋ loi . gi deuˋ voi+ shauˋ cunˋ er , lauˋ ngi teu baiˊ shauˋ nga vug kiung+ rhong+ . ",
+        "teu baiˊ , shauˋ ngia vug , heˇ goˋ bud ziongˋ gaiˇ . gai haˋ gongˊ goˇ leˋ, cunˋ duˊ hong+ , mo shon rhan , zeuˊ la+! ",
+        "Ciau shang teu ngin tin+ chogˋ voi+ dongˋ tiongˇ . gi bunˋ ngai deuˋ ngibˋ cunˋ cim shon rhan , fung moˋ fanˋ lauˋ Ciau shang zoˇ pen rhiuˋ , ngi heˇ fung moˋ fanˋ gaiˇ siˊ duiˇ teu . ",
+        "daiˇ ngai hiˇ ngi ngiamˋ shon gaiˇ ti+ fongˋ , ngai deuˋ zhangˇ bunˋ ngi cien . ",
+        "ngi teu baiˊ lauˋ nga baˋ 、nga meˋ giug （? ）chud boˊ lidˋ zongˋ, nga baˋ heˇ hag gaˋ ngin ie! ciau shang teu ngin gongˊ gaiˇ . ",
+        "<div class='sidenote'> 這個詞我只能聽出音像是「màmàfùng」，所幸社群朋友協助輾轉提供正確的詞。☞ <a href='https:\/\/www.moedict.tw/:%F0%A2%AB%A6%F0%A2%AB%A6%E9%A2%A8'>萌典</a> </div>ngi a+ baˋ , heˇ <span class='noted'>magˋ magˋ fungˋ</span>  zeuˊ chud loi gaiˇ hag gaˋ ngin , duiˇ sanˋ gai pienˊ zeuˊ chud loi gaiˇ hag gaˋ ngin , gi m shid gongˊ heˇ ? ",
+        "sanˋ gaiˇ gai pienˊ , heˇ nai+ vui+ ie? ",
+        "<div class='sidenote'> 「蟀」的音是查徐兆泉詞典的，但聽演員講起來有點像「Mǔnsuepú」，也許是「率 soi」。 </div><span class='noted'>munˋ sud buˋ</span> a+ , gi cid gaˋ gongˊ gaiˇ a+ . daiˇ denˊ rhid gaiˇ sangˋ fanˋ gaiˇ seˇ moiˇ er , gongˊ meˇ heˇ munˋ sud buˋ gaiˇ sangˋ fanˋ er , pu+ logˋ gaiˇ siiˊ rhung+ ngin a+ . chiˇ doˊ ki guaiˇ ho? ngai meˇ heˇ a+ ! boˊ lidˋ zongˋ a+ , m shiuˋ liu loi lu+ bud min gaiˇ ngin . ",
+        "teu ngin , voi+ zeuˊ leˋ. ",
+        "han rhiuˋ ngoi+ ngin , voi+ loi long kiau mo ? ",
+        "m voi+ rhiuˋ ngin zaiˇ goˇ loi leˋ. ",
+        "ngi m giˇ ded leˋ? ngai han giˇ ded . ngi li koiˋ long kiau, cunˋ ngai lauˋ a+ baˋ , siongˊ a+ meˋ gaiˇ shi zied , ngai ciu+ voi+ shongˋ loi . gi dag baiˊ du+ hang liaˊ tiau lu+ , daiˇ denˊ ngai deuˋ hiˇ gai pienˊ shu+ na , gongˊ zaiˇ goˇ hiˇ , ciu+ heˇ pu+ logˋ , gia gaiˇ vug . gi bauˋ muiˋ , han heˇ zhonˊ doˇ gai , diˇ gai goˇ shinˋ . ",
+        "gai pienˊ shu+ na , ciu+ duˇ mienˇ dangˊ . ",
+        "ngai siongˊ hiˊ loi leˋ. ngi liu cai+ liaˊ , ngai hiˇ cim pu+ logˋ . ",
+        "ngai ten ngi hiˇ . ",
+        "ngai giangˋ voi+ chud sii+ cin , ngai cid gaˋ hiˇ . gai tiau lu+ , faiˊ  hang . ",
+        "Macuka, m paˇ , ngai hiˇ cim rhogˋ er . <br>Kiedˋer , loi ! ",
+        "han m banˋ zeuˊ ! ngiedˋ piang+ voi+ cheˇ ngin  gaiˇ ! shauˋ",
+        ];
+
+        var nodes = document.getElementsByTagName("tr");
+        for (var i=0; i<nodes.length; i+=2) { //奇數行
+          var j = i / 2;
+          nodes[i].getElementsByTagName('td')[1].innerHTML = HL[j];
+          var k = i + 1;
+          var name = nodes[k].getElementsByTagName('td')[0].innerHTML.replace("：","").replace(' ','').replace(' ','').replace("&nbsp;","");
+          var nameHl = JSON.parse(document.getElementById('name-hl').innerHTML);
+          if (nameHl[name] == undefined) {
+            continue;
+          }
+          else {
+            nodes[i].getElementsByTagName('td')[0].innerHTML = nameHl[name] + ":&nbsp;";
+          }
+        }
+
+        var hakvar = document.getElementsByTagName('link')[0];
+        hakvar.setAttribute('href', 'HL.css');
+      }
+    </script>
+    <script type="application/json" id="name-hl">
+      {
+        "": "",
+        "村人": "cunˋ ngin",
+        "杰": "kiedˋ",
+        "水仔": "shuiˊ er",
+        "林老實": "lim loˊ shidˋ",
+        "阿九": "a+ giuˊ",
+        "林": "lim",
+        "九": "giuˊ",
+        "水": "shuiˊ",
+        "船員": "shon rhan",
+        "蝶": "tiabˋ",
+        "瑪祖卡": "Macuka"
+      }
+    </script>
   </head>
   <body>
     <div id="cover-page">
       <div> 公視戲劇<br>
         <span style="font-size: 2em; font-family: '王漢宗中行書繁'">「斯卡羅」</span><br>
         <span style="font-size: 1.5em;">客語台詞彙整</span><br>
-        （學習用） </div>
+        （學習用）<span class="SI"><br>（四縣腔）</span><span class="HL"><br>（海陸腔）</span> </div>
     </div>
     <div style="float:right; line-height:1.3em;" id="links"> <a href="https://www.facebook.com/Aiuanyu/posts/345262983761551">Aiuanyu_愛灣語</a>編 <br>
-      <div id="vinfo"> <span id="vnum">v0.53</span>（EP1～6 ✅<br>
-        EP7、8 初稿防雷供應；<br>
+      <div id="vinfo"> <span id="vnum">v0.6beta</span>（EP1～6 ✅<br>
+        EP7、8 初稿防雷供應；<br>⭐海陸腔版本登場⭐<br>
         🏃‍持續更新中） </div>
       <a href="https://drive.google.com/file/d/1vCk5SYo32PHfw_vmfHnGL7YgdTegbxFi/view">看最新版</a><br>
-      <a href="https://github.com/GJRobert/Seqalu-hak/commits/main">更新紀錄</a> <br>
+      <a href="https://github.com/GJRobert/Seqalu-hak/commits/main">更新紀錄</a><br class="noprint"><button
+        id="useHL" class="noprint"
+        onclick="useHL()">客語改用海陸腔</button> <br>
       <a href="http://ghsrobert.tk/hist/seqalu#%E8%A7%80%E7%9C%8B">如何收看原劇</a><br>
       <a href="https://docs.google.com/document/d/1qjP0zwRnv96oyrgvqQfZm3rADH9A1hVpi91XZwlRJaU/edit?usp=sharing">提建議、參與編輯</a></div>
     <div id="chars">【講客个人物】
@@ -406,8 +591,7 @@ body {counter-reset: EPx}
               </td>
             </tr>
             <tr>
-              <td>林：<br>
-              </td>
+              <td>林：</td>
               <td>𠊎屋下人，全部做下客家人。<br>
                 <div class="sidenote"> 聽來是 Cěusǎng，並不是「柴」的客語音「cǎi」。依 salleytai 提供之資訊，漢字改用「樵城」。 </div>
                 <span class="noted">樵</span>城學老仔，㓾過中線哩係？哼！<br>
@@ -726,7 +910,7 @@ body {counter-reset: EPx}
               </td>
             </tr>
             <tr>
-              <td>父：</td>
+              <td>林：</td>
               <td>頭擺客人燒，這擺樵城學老仔燒。這屋，係你阿姆親手起个。</td>
             </tr>
             <tr>
@@ -735,7 +919,7 @@ body {counter-reset: EPx}
               </td>
             </tr>
             <tr>
-              <td>父：</td>
+              <td>林：</td>
               <td>瑪祖卡，𠊎帶阿杰仔，去尋蝶妹啊，你愛保護𫣆一家人團圓。啊？</td>
             </tr>
             <tr>
@@ -753,7 +937,7 @@ body {counter-reset: EPx}
               </td>
             </tr>
             <tr>
-              <td>父：</td>
+              <td>林：</td>
               <td>官府？有官府還會燒屋啊？走啦！</td>
             </tr>
             <tr>
@@ -773,7 +957,7 @@ body {counter-reset: EPx}
               </td>
             </tr>
             <tr>
-              <td>父：</td>
+              <td>林：</td>
               <td>去看有麼个值錢个啊！</td>
             </tr>
             <tr>
