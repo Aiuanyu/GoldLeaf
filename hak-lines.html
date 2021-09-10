@@ -266,6 +266,16 @@ section:before {
   font-size: 0.5em;
 }
 .HL {display: none;}
+#useHL {
+  position: fixed;
+  top: 2px;
+  right: 2px;
+  opacity: 0.3;
+  z-index: 50;
+}
+#useHL:hover {
+  opacity: 0.9;
+}
     </style>
     <link id="hakvar" rel="stylesheet" type="text/css" href="">
     <!--<script src="https://code.jquery.com/jquery-3.5.0.js"></script>-->
@@ -363,7 +373,7 @@ section:before {
         "a+ ze, hai ted tai+ 吔. ",
         "giag deuˋ eˇ. loi ! oiˇ hiˇ lauˋ ngi onˋ fu+ . ",
         "duˇ fuˊ shang , m hauˇ gongˊ fanˋ faˇ . <br>liaˊ vui+ rhiuˋ ngin maˇ ngi sangˋ fanˋ er , m hoˊ shin ngin+ . <br>ha+ ngi+ baiˊ , ciu+ hang liaˊ tiau lu+ zhonˊ hiˇ . ",
-        "",
+        "...",
         "fuˊ shang m voi+ rhiuˋ ngin shauˋ ngia vug . ",
         "denˊ rhid ha+ doˇ daˊ shagˋ chong , oiˇ ngiunˋ nai+ . mo bunˋ daˊ , m voi+ chud siiˋ . ",
         "ngai zoˊ ciu+ duˇ a+ baˋ gai chud siiˋ leˋ. ",
@@ -481,8 +491,7 @@ section:before {
         ⭐海陸腔版本登場⭐<br>
         🏃‍持續更新中） </div>
       <a href="https://drive.google.com/file/d/1vCk5SYo32PHfw_vmfHnGL7YgdTegbxFi/view">看最新版</a><br>
-      <a href="https://github.com/GJRobert/Seqalu-hak/commits/main">更新紀錄</a><br
-        class="noprint">
+      <a href="https://github.com/GJRobert/Seqalu-hak/commits/main">更新紀錄</a>
       <button id="useHL" class="noprint" onclick="useHL()">客語改用海陸腔</button> <br>
       <a href="http://ghsrobert.tk/hist/seqalu#%E8%A7%80%E7%9C%8B">如何收看原劇</a><br>
       <a href="https://docs.google.com/document/d/1qjP0zwRnv96oyrgvqQfZm3rADH9A1hVpi91XZwlRJaU/edit?usp=sharing">提建議、參與編輯</a></div>
@@ -876,7 +885,7 @@ section:before {
           <tbody>
             <tr>
               <td>Gìu:&nbsp; </td>
-              <td>Zéusǐin, gìhǎge sengǐnè, kon ciigá ge ábá, góng hi mǎi.<br>
+              <td>Zéusǐin, gìhǎge se'ngǐnè, kon ciigá ge ábá, góng hi mǎi.<br>
                 Qìong m̌ dò sùi, gǐ ìadéu ábá, pagpag xì lè!<br>
                 Hàggángǐn m̌ gíang zo ngimǐnǐa, Tùnglíangpú, m̌ tui!<br>
                 Sùimàg, ňg m̌ hò biong a, dèn ngá ngǐn hi qìong!</td>
@@ -952,7 +961,7 @@ section:before {
             </tr>
             <tr>
               <td>Sǒnǐan:&nbsp; </td>
-              <td>Oi! Hàggángǐn? Ngǎi qǐm gúanfù!<br>
+              <td>Oi! Hàggángǐn? Ngǎi qǐm gónfù!<br>
               </td>
             </tr>
             <tr>
@@ -961,7 +970,7 @@ section:before {
             </tr>
             <tr>
               <td>Lǐm:&nbsp; </td>
-              <td>Gúanfù? Íu gúanfù hǎn voi séu vùg a? Zèu la!<br>
+              <td>Gónfù? Íu gónfù hǎn voi séu vùg a? Zèu la!<br>
               </td>
             </tr>
             <tr>
@@ -1029,10 +1038,10 @@ section:before {
             </tr>
             <tr>
               <td>Sùi:&nbsp; </td>
-              <td>Fùsǎng lu dóng ìan a, siid bàu téu è a.<br>
+              <td>Fùsǎng lu dóng ìan a, siid bàu déu è a.<br>
                 Giu sǒnǐan ge sònngǐun, ngǎi oi líang.<br>
                 Hò. Logsòg.<br>
-                Tiab-Moi ho, mǒ tincog qiu oi zòn lǒi le.<br>
+                Tiab-Moi ho, mǒ tincog qiu oi zòn lǒi lè.<br>
                 Ìaha hi Fùsǎng, ngǔihìam la.<br>
               </td>
             </tr>
@@ -1093,12 +1102,11 @@ section:before {
             </tr>
             <tr>
               <td>Lǐm:&nbsp; </td>
-              <td>Gìag gìag!<br>
+              <td>Gìaggìag!<br>
               </td>
             </tr>
             <tr>
-              <td>林：<br>
-              </td>
+              <td>林：</td>
               <td>遽遽！</td>
             </tr>
             <tr>
@@ -1107,8 +1115,7 @@ section:before {
               </td>
             </tr>
             <tr>
-              <td>林：<br>
-              </td>
+              <td>林：</td>
               <td>偷牛賊。恬恬。</td>
             </tr>
             <tr>
@@ -1122,12 +1129,11 @@ section:before {
             </tr>
             <tr>
               <td>Lǐm:&nbsp; </td>
-              <td>Ka hi déu ě, qiu he Fúnggòng, dai gǐ hi bo gúan!<br>
+              <td>Ka hi déu ě, qiu he Fúnggòng, dai gǐ hi bo gón!<br>
               </td>
             </tr>
             <tr>
-              <td>林：<br>
-              </td>
+              <td>林：</td>
               <td>
                 <div class="sidenote"> 屏東縣楓港鄉舊名「風港」，依劇中時代背景取舊名。 </div>
                 較去兜吔，就係<span class="noted">風港</span>，帶佢去報官！</td>
@@ -1147,8 +1153,7 @@ section:before {
               </td>
             </tr>
             <tr>
-              <td>林：<br>
-              </td>
+              <td>林：</td>
               <td>𠊎去哩，麼人摎你阿姆做伴啊？嗄去！</td>
             </tr>
             <tr>
@@ -1274,7 +1279,7 @@ section:before {
             <tr>
               <td>Tiab:&nbsp; </td>
               <td>Di Fùsǎng, m̌ hò gòng fánfa.<br>
-                Ìa vi íu ngǐn ma ňg sǎngfánè, m̌ hò sǐinngin.<br>
+                Ìa vi íu ngǐn ma ňg sángfánè, m̌ hò sǐinngin.<br>
                 Ha ngi bài, qiu hǎng ìa tǐau lu zòn hi.<br>
               </td>
             </tr>
@@ -1365,7 +1370,7 @@ section:before {
             </tr>
             <tr>
               <td>Kied:&nbsp; </td>
-              <td>Ngǎi ge ha hi con ngoisùi.<br>
+              <td>Ngǎi geha hi con ngoisùi.<br>
               </td>
             </tr>
             <tr>
@@ -1392,7 +1397,7 @@ section:before {
             </tr>
             <tr>
               <td>Tiab:&nbsp; </td>
-              <td>Ìavi m̌ he Lǒngkieu, Fùsǎng ge sǒnè, du íu zùngǐn ě.<br>
+              <td>Ìavi m̌ he Lǒngkieu, Fùsǎng ge sǒnè, du íu zù'ngǐn ě.<br>
               </td>
             </tr>
             <tr>
@@ -1407,7 +1412,7 @@ section:before {
           <tbody>
             <tr>
               <td>Kied:&nbsp; </td>
-              <td>Gòng sǎngfánè, ngǎi zo-m̌-dèd sǐinngin; <br>
+              <td>Gòng sángfánè, ngǎi zo-m̌-dèd sǐinngin; <br>
                 Tǒngsánngǐn, iu kǐeu dò mǒ qiong.<br>
               </td>
             </tr>
@@ -1427,7 +1432,7 @@ section:before {
           <tbody>
             <tr>
               <td> Gìu:&nbsp;</td>
-              <td> Lǒngkieu, mǒ gúanfù! </td>
+              <td> Lǒngkieu, mǒ gónfù! </td>
             </tr>
             <tr>
               <td> 九： </td>
@@ -1449,8 +1454,8 @@ section:before {
             </tr>
             <tr>
               <td> Gìu:&nbsp; </td>
-              <td> Gúanfù gòng a, Lǒngkieu, "gimti fóngpú"! Bún én ìadéu, "cii sǎng cii mied"!<br>
-                Xì sǒnǐan, qiu hém én ìadéu, ná sǎngfán ge ngǐntěu gáucái, gìeu fad ge qǐen?<br>
+              <td> Gónfù gòng a, Lǒngkieu, "gimti fóngpú"! Bún én ìadéu, "cii sáng cii mied"!<br>
+                Xì sǒnǐan, qiu hém én ìadéu, ná sángfán ge ngǐntěu gáucái, gìeu fad ge qǐen?<br>
                 Tǐengóngngìd, Tǔng'id, lǒi sú ngǐntěu, ngǎi cùdmien!<br>
                 Sa há lǒi, ňg sǒng sán! Láu Tǔng'id ge ngǐntěu bún sángfánè!<br>
                 Gòng, ngǎi tai gǐ ìadéu a, gìaigìad tèd! Ngǎi oi piog zòn Tùnglíangpú!<br>
@@ -1568,7 +1573,7 @@ section:before {
             </tr>
             <tr>
               <td>Kied:&nbsp; </td>
-              <td>Gǐdéu voi ma ngǎi sǎngfánè.<br>
+              <td>Gǐdéu voi ma ngǎi sángfánè.<br>
               </td>
             </tr>
             <tr>
@@ -1606,7 +1611,7 @@ section:before {
             </tr>
             <tr>
               <td>Tiab:&nbsp; </td>
-              <td>Qǐm fǔngmóè zo ngía bòngǐn, gúangíun m̌ voi qǐm ngía mǎfǎn a.<br>
+              <td>Qǐm fǔngmóè zo ngía bòngǐn, góngíun m̌ voi qǐm ngía mǎfǎn a.<br>
               </td>
             </tr>
             <tr>
@@ -1736,7 +1741,7 @@ section:before {
             </tr>
             <tr>
               <td>Gìu:&nbsp; </td>
-              <td>Ňg ìa zàg sǎngfánè, dai fǔngmófán lǒi, zèu a!<br>
+              <td>Ňg ìa zàg sángfánè, dai fǔngmófán lǒi, zèu a!<br>
               </td>
             </tr>
             <tr>
@@ -2011,7 +2016,6 @@ section:before {
             </tbody>
           </table>
         </section>
-        ……<br>
         <section><span class="time"> 4:30 </span>
           <table>
             <tbody>
@@ -2096,13 +2100,13 @@ section:before {
                   <div class="sidenote"> 「下二擺」符合這邊的語意，但聽來像「han 擺」，不知是有連音效應，還是演員發音問題。（我對客話真的還有蠻多不瞭解的）</div>
                   Lìa fa, dèn gian Zùngbín'gón zang gòng là. <span
                     class="lang2">It-píng A-hiann</span> tincog dóng xìong táng ge a. A ňg ngǐntěu logti, Cěusǎng me sàngsii. <span
-                    class="noted">Hanbài (Ha'ngibài)</span> ò, qiu m̌sìi láu ňg xíongcǐi ge lè!</td>
+                    class="noted">Hanbài (Ha ngi bài)</span> ò, qiu m̌sìi láu ňg xíongcǐi ge lè!</td>
               </tr>
               <tr>
                 <td>水：</td>
                 <td>
                   <div class="sidenote"> 我聽演員唸這個「就」感覺有點像臺語「tiō」 </div>
-                  這話，等見總兵官正講啦。<span class="lang2">一丙阿兄</span>定著當想聽个啊。啊你人頭落地，樵城乜省事。<span
+                  這話，等見總兵官正講啦。<span class="lang2">一丙阿兄</span><!--FIXME-->定著當想聽个啊。啊你人頭落地，樵城乜省事。<span
                     class="noted">下二擺</span>喔，<span
                     class="noted">就</span>毋使摎你相㓾个哩！</td>
               </tr>
@@ -2707,7 +2711,7 @@ section:before {
               <tr>
                 <td><br>
                 </td>
-                <td>故所毋係朋友哩喔？</td>
+                <td>故所毋係朋友<span class="TBD">哩喔</span>？</td>
               </tr>
             </tbody>
           </table>
