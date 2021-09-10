@@ -269,6 +269,21 @@ section:before {
     <link id="hakvar" rel="stylesheet" type="text/css" href="">
     <!--<script src="https://code.jquery.com/jquery-3.5.0.js"></script>-->
     <script type="text/javascript">
+      function fillHakNames() {
+        // var nodes = document.getElementById("EP7").getElementsByTagName("tr") + document.getElementById("EP8").getElementsByTagName("tr");
+        var nodes = document.getElementsByTagName('tr');
+        for (var i=0; i<nodes.length; i+=2) { //奇數行
+          var k = i + 1;
+          var name = nodes[k].getElementsByTagName('td')[0].innerHTML.replace("：","").replace(' ','').replace(' ','').replace("&nbsp;","");
+          var names = JSON.parse(document.getElementById('names').innerHTML);
+          if (names[name] == undefined) {
+            continue;
+          }
+          else {
+            nodes[i].getElementsByTagName('td')[0].innerHTML = names[name][0] + ":&nbsp;";
+          }
+        }
+      }
       function useHL() {
         // var fs = require('fs'); // 這兩行不行，這好像是 node.js 用的
         // var HL = fs.readFileSync("./HL.txt", 'utf-8');
@@ -408,15 +423,22 @@ section:before {
         var nodes = document.getElementsByTagName("tr");
         for (var i=0; i<nodes.length; i+=2) { //奇數行
           var j = i / 2;
-          nodes[i].getElementsByTagName('td')[1].innerHTML = HL[j];
+          if (HL[j] == undefined) {
+            nodes[i].getElementsByTagName('td')[1].innerHTML = "";
+            // continue;
+          }
+          else {
+            nodes[i].getElementsByTagName('td')[1].innerHTML = HL[j];
+          }
+          
           var k = i + 1;
           var name = nodes[k].getElementsByTagName('td')[0].innerHTML.replace("：","").replace(' ','').replace(' ','').replace("&nbsp;","");
-          var nameHl = JSON.parse(document.getElementById('name-hl').innerHTML);
-          if (nameHl[name] == undefined) {
+          var names = JSON.parse(document.getElementById('names').innerHTML);
+          if (names[name] == undefined) {
             continue;
           }
           else {
-            nodes[i].getElementsByTagName('td')[0].innerHTML = nameHl[name] + ":&nbsp;";
+            nodes[i].getElementsByTagName('td')[0].innerHTML = names[name][1] + ":&nbsp;";
           }
         }
 
@@ -424,24 +446,23 @@ section:before {
         hakvar.setAttribute('href', 'HL.css');
       }
     </script>
-    <script type="application/json" id="name-hl">
+    <script type="application/json" id="names">
       {
-        "": "",
-        "村人": "cunˋ ngin",
-        "杰": "kiedˋ",
-        "水仔": "shuiˊ er",
-        "林老實": "lim loˊ shidˋ",
-        "阿九": "a+ giuˊ",
-        "林": "lim",
-        "九": "giuˊ",
-        "水": "shuiˊ",
-        "船員": "shon rhan",
-        "蝶": "tiabˋ",
-        "瑪祖卡": "Macuka"
+        "村人": ["Cúnngǐn","cunˋ ngin"],
+        "杰": ["Kied","kiedˋ"],
+        "水仔": ["Sùiè","shuiˊ er"],
+        "林老實": ["Lǐm Lòsiid","lim loˊ shidˋ"],
+        "阿九": ["Á-Gìu","a+ giuˊ"],
+        "林": ["Lǐm","lim"],
+        "九": ["Gìu","giuˊ"],
+        "水": ["Sùi","shuiˊ"],
+        "船員": ["Sǒnǐan","shon rhan"],
+        "蝶": ["Tiab","tiabˋ"],
+        "瑪祖卡": ["Macuka","Macuka"]
       }
     </script>
   </head>
-  <body>
+  <body onload="fillHakNames()">
     <div id="cover-page">
       <div> 公視戲劇<br>
         <span style="font-size: 2em; font-family: '王漢宗中行書繁'">「斯卡羅」</span><br>
@@ -1875,7 +1896,7 @@ section:before {
               </td>
             </tr>
             <tr>
-              <td>&nbsp; </td>
+              <td></td>
               <td>該片樹林，就在面頂。</td>
             </tr>
             <tr>
@@ -2111,7 +2132,7 @@ section:before {
                 </td>
               </tr>
               <tr>
-                <td> &nbsp;</td>
+                <td></td>
                 <td>係講，分總兵官知你本想伏厥兜吔，哈哈哈……</td>
               </tr>
               <tr>
@@ -2412,7 +2433,7 @@ section:before {
                 </td>
               </tr>
               <tr>
-                <td> &nbsp;</td>
+                <td></td>
                 <td>𫣆俚愛官軍摎生番仔配合𫣆俚，<br>
                   <div class="sidenote"> 是有腔調也用「是 sii」當作繫詞嗎？ </div>
                   𫣆俚<span class="noted">是</span>秤仔，琅𤩝个秤仔，<br>
@@ -2574,8 +2595,8 @@ section:before {
               </tr>
               <tr>
                 <td>九：</td>
-                <td>做若朋友，愛付出當大个代價！樵城，摎外人个軍隊，做朋友啦！𠊎會變佢這兜个敵人。無拿着一兜仔東西，這代價�<span
-                    class="TBD">�＿</span>毋和！</td>
+                <td>做若朋友，愛付出當大个代價！樵城，摎外人个軍隊，做朋友啦！𠊎會變佢這兜个敵人。無拿着一兜仔東西，這代價𠊎<span
+                    class="TBD">＿</span>毋和！</td>
               </tr>
               <tr>
                 <td> &nbsp;</td>
@@ -2669,7 +2690,7 @@ section:before {
                 </td>
               </tr>
               <tr>
-                <td> &nbsp;</td>
+                <td></td>
                 <td>故所毋係朋友哩喔？</td>
               </tr>
             </tbody>
