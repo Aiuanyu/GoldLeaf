@@ -17,7 +17,7 @@ h1, #vnum {
   line-height: 1.4;
 }
 
-#thanks, #links a {font-family: PT Sans, '黑體-繁', sans-serif; font-weight: 700;}
+#thanks, #links a, #HLauthor {font-family: PT Sans, '黑體-繁', sans-serif; font-weight: 700;}
 #thanks ul ul li {
   display: inline-block;
   color: white;
@@ -25,6 +25,7 @@ h1, #vnum {
   margin: 0.1em 0.3em;
   border-radius: 0.3em;
 }
+#HLauthor {background-color: orange; color: white;}
 /*#thanks>ul>ul, #thanks>ul>li {display: inline-block}*/
 #community li {  background-color: hsl(31, 90%, 80%);}
 #dic li {  background-color: hsl(192, 90%, 80%);}
@@ -214,7 +215,6 @@ section table {width: 70vw;}
 #links {text-align: left;}
 
 #links a {
-  display: inline-block;
   color: white;
   background-color: #198964;
   float: none;
@@ -223,9 +223,12 @@ section table {width: 70vw;}
   box-shadow: 0.1em 0.1em #0D4936;
   border: 0.05em #0D4936 solid;
 }
-#links a, #vinfo {
+#links a, #HLauthor {
+  display: inline-block;
+}
+#links a, #vinfo, #HLauthor {
   padding: 0.3em 0.7em;
-  margin: 0.3em 0.5em;
+  margin: 0.3em 0.3em;
   border-radius: 0.4em;
 }
 #links a:after {
@@ -276,6 +279,10 @@ section:before {
 #useHL:hover {
   opacity: 0.9;
 }
+
+tr.lang2, td.lang2, .lang2 {color: /*honeydew*//*hsl(217, 82%, 89%)*/#FAD7DB;}
+tr:nth-child(2n).lang2, tr:nth-child(2n) .lang2 {font-family: "源石黑體"; serif; font-weight: 500;}
+tr:nth-child(2n+1).lang2, tr:nth-child(2n+1) .lang2 {font-family: Calibri; serif; font-weight: 700;}
     </style>
     <link id="hakvar" rel="stylesheet" type="text/css" href="">
     <!--<script src="https://code.jquery.com/jquery-3.5.0.js"></script>-->
@@ -486,22 +493,30 @@ section:before {
           （海陸腔）</span> </div>
     </div>
     <div style="float:right; line-height:1.3em;" id="links"> <a href="https://www.facebook.com/Aiuanyu/posts/345262983761551">Aiuanyu_愛灣語</a>編 <br>
-      <div id="vinfo"> <span id="vnum">v0.6beta</span>（EP1～6 ✅<br>
-        EP7、8 初稿防雷供應；<br>
-        ⭐海陸腔版本登場⭐<br>
+      <span class="HL"><span id="HLauthor">海陸腔拼音：sallytai</span></span>
+      <div id="vinfo"> <span id="vnum">v0.7beta</span>（EP1～6 ✅<br>
+        EP7、8 待校訂防雷供應；<br>
+        ⭐海陸腔版本登場⭐（EP1～6）<br>
         🏃‍持續更新中） </div>
       <a href="https://drive.google.com/file/d/1vCk5SYo32PHfw_vmfHnGL7YgdTegbxFi/view">看最新版</a><br>
-      <a href="https://github.com/GJRobert/Seqalu-hak/commits/main">更新紀錄</a>
-      <button id="useHL" class="noprint" onclick="useHL()">客語改用海陸腔</button> <br>
+      <a href="https://github.com/GJRobert/Seqalu-hak/commits/main">更新紀錄</a> <button
+        id="useHL"
+        class="noprint"
+        onclick="useHL()">客語改用海陸腔</button> <br>
       <a href="http://ghsrobert.tk/hist/seqalu#%E8%A7%80%E7%9C%8B">如何收看原劇</a><br>
-      <a href="https://docs.google.com/document/d/1qjP0zwRnv96oyrgvqQfZm3rADH9A1hVpi91XZwlRJaU/edit?usp=sharing">提建議、參與編輯</a></div>
-    <div id="chars">【講客个人物】
+      <a href="https://www.facebook.com/Aiuanyu/posts/345262983761551">提建議</a> <a
+        href="https://docs.google.com/document/d/1qjP0zwRnv96oyrgvqQfZm3rADH9A1hVpi91XZwlRJaU/edit?usp=sharing">參與編輯</a></div>
+    <div id="chars">【劇中人物】
       <ul>
         <li> 阿杰：客人+排灣混血 </li>
         <li> 村人、水仔：車城社寮庄个村人摎頭人 </li>
         <li> 林老實：阿杰个阿爸 </li>
         <li> 阿九：保力庄个頭人</li>
         <li>蝶妹：女主角</li>
+        <li>瑪祖卡：蝶、杰个阿姆</li>
+        <li>朱一丙：柴城庄个頭人</li>
+        <li>阿九个阿姆</li>
+        <li>Tokitok：斯卡羅酋邦大股頭、豬朥束社頭目</li>
       </ul>
     </div>
     <div id="note"> 編輯說明：<br>
