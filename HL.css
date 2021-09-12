@@ -1,6 +1,7 @@
 tr:nth-child(2n+1) {
   text-shadow: 0.1em 0.1em 0.1em maroon;
 }
+tr.fr {text-shadow: none;}
 .sidenote {text-shadow: none !important;}
 
 section:before {

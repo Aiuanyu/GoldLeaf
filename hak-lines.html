@@ -280,9 +280,46 @@ section:before {
   opacity: 0.9;
 }
 
-tr.lang2, td.lang2, .lang2 {color: /*honeydew*//*hsl(217, 82%, 89%)*/#FAD7DB;}
+tr.lang2, td.lang2, .lang2 {color: /*honeydew*//*hsl(217, 82%, 89%)*/hsl(303, 78%, 91%);}
 tr:nth-child(2n).lang2, tr:nth-child(2n) .lang2 {font-family: "源石黑體"; serif; font-weight: 500;}
 tr:nth-child(2n+1).lang2, tr:nth-child(2n+1) .lang2 {font-family: Calibri; serif; font-weight: 700;}
+.fr td {color: hsl(255, 78%, 91%);}
+
+.poem {
+  font-style: italic;
+  text-align: center;
+}      
+/* Quote styling <https://codepen.io/JoeHastings/pen/MOdRVm> */
+.poem blockquote {
+	position: relative;
+	margin: 0;
+}      
+.poem blockquote:before,
+.poem blockquote:after {
+	position: absolute;
+	color: hsla(255, 78%, 91%, 0.3);
+	font-size: 5rem;
+	width: 2rem;
+	height: 2rem;
+}
+.poem blockquote:before {
+	content: '“';
+	left: -1rem;
+	top: -1rem;
+}
+.poem blockquote:after {
+	content: '”';
+	right: -2rem;
+	bottom: 1rem;
+}
+
+.sidenote blockquote {
+  margin: 1em 0;
+  padding: 1em 0 1em 0.5em;
+  border-left: solid;
+  font-family: FangSong !important;
+  line-height: 1.7em;
+}
     </style>
     <link id="hakvar" rel="stylesheet" type="text/css" href="">
     <!--<script src="https://code.jquery.com/jquery-3.5.0.js"></script>-->
@@ -441,7 +478,10 @@ tr:nth-child(2n+1).lang2, tr:nth-child(2n+1) .lang2 {font-family: Calibri; serif
         var nodes = document.getElementsByTagName("tr");
         for (var i=0; i<nodes.length; i+=2) { //奇數行
           var j = i / 2;
-          if (HL[j] == undefined) {
+          if (nodes[i].classList.contains('fr')) {
+            continue;
+          }
+          else if (HL[j] == undefined) {
             nodes[i].getElementsByTagName('td')[1].innerHTML = "";
             // continue;
           }
@@ -494,7 +534,7 @@ tr:nth-child(2n+1).lang2, tr:nth-child(2n+1) .lang2 {font-family: Calibri; serif
     </div>
     <div style="float:right; line-height:1.3em;" id="links"> <a href="https://www.facebook.com/Aiuanyu/posts/345262983761551">Aiuanyu_愛灣語</a>編 <br>
       <span class="HL"><span id="HLauthor">海陸腔拼音：sallytai</span></span>
-      <div id="vinfo"> <span id="vnum">v0.7beta</span>（EP1～6 ✅<br>
+      <div id="vinfo"> <span id="vnum">v0.71beta</span>（EP1～6 ✅<br>
         EP7、8 待校訂防雷供應；<br>
         ⭐海陸腔版本登場⭐（EP1～6）<br>
         🏃‍持續更新中） </div>
@@ -2124,7 +2164,7 @@ tr:nth-child(2n+1).lang2, tr:nth-child(2n+1) .lang2 {font-family: Calibri; serif
                 <td>水：</td>
                 <td>
                   <div class="sidenote"> 我聽演員唸這個「就」感覺有點像臺語「tiō」 </div>
-                  這話，等見總兵官正講啦。<span class="lang2">一丙阿兄</span><!--FIXME-->定著當想聽个啊。啊你人頭落地，樵城乜省事。<span
+                  這話，等見總兵官正講啦。<span class="lang2">一丙阿兄</span>定著當想聽个啊。啊你人頭落地，樵城乜省事。<span
                     class="noted">下二擺</span>喔，<span
                     class="noted">就</span>毋使摎你相㓾个哩！</td>
               </tr>
@@ -2350,6 +2390,8 @@ tr:nth-child(2n+1).lang2, tr:nth-child(2n+1) .lang2 {font-family: Calibri; serif
           </table>
         </section>
       </div>
+    </div>
+    <div class="draft">
       <div id="EP8" class="episode">
         <h1>EP8 ljangudan 獵物</h1>
         <section><span class="time"> 20:17 </span>
@@ -2734,7 +2776,47 @@ tr:nth-child(2n+1).lang2, tr:nth-child(2n+1) .lang2 {font-family: Calibri; serif
             </tbody>
           </table>
         </section>
-        <div class="sidenote"> 最後出現可能是這齣戲唯一的法語詩，可惜我聽不太清楚內容 XD </div>
+        <section> <span class="time">45:42</span>
+          <table>
+            <tbody>
+              <tr class="fr">
+                <td>LeGendre:&nbsp;</td>
+                <td>
+                  <div class="sidenote"> Alfonse de Lamartine, 'Jocelyn, le 20 juillet 1800'（感謝法比歐臉書提供全文）<br>
+                    <blockquote> 真實而可悲的人生形象<br>
+                      歡樂進入痛苦的發源地<br>
+                      幸福是絕望的泉源<br>
+                      白天誕生<br>
+                      上帝在晚上將其讓位<br>
+                      生命之杯總是有相同的劑量<br>
+                      一隻手拿起它時，<br>
+                      另一隻手將它放下<br>
+                      唉！如果我們的眼睛<br>
+                      有時能探測到<br>
+                      這些滿溢的<br>
+                      幸福之杯<br>
+                      我們會不會發現人間的喜悅<br>
+                      總是充滿灰燼和淚水？ </blockquote>
+                  </div>
+                  <div class="poem">
+                    <blockquote>O vraie et lamentable image de la vie ! <br>
+                      La joie entre par où la douleur est sortie ! <br>
+                      Le bonheur prend le lit d'où fuit le désespoir ! <br>
+                      À ce qui naît le jour Dieu fait place le soir ; <br>
+                      La coupe de la vie a toujours même dose, <br>
+                      Mais une main la prend quand l'autre la dépose, <br>
+                      Hélas ! et si notre œil pouvait parfois sonder <br>
+                      Ces coupes de bonheur qui semblent déborder, <br>
+                      Ne trouverions-nous pas que chaque joie humaine <br>
+                      Des cendres et des pleurs d'un autre est toujours pleine ? </blockquote>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+              </tr>
+            </tbody>
+          </table>
+        </section>
       </div>
     </div>
     <h1></h1>
@@ -2770,6 +2852,5 @@ tr:nth-child(2n+1).lang2, tr:nth-child(2n+1) .lang2 {font-family: Calibri; serif
         </ul>
       </ul>
     </div>
-    
   </body>
 </html>
