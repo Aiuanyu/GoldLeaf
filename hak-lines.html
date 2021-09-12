@@ -510,46 +510,8 @@ tr:nth-child(2n+1).lang2, tr:nth-child(2n+1) .lang2 {font-family: Calibri; serif
         hakvar.setAttribute('href', 'HL.css');
       }
 
-      data = [
-        {
-          "EP": "9",
-          "title": "",
-          "sections": [
-            {
-              "t": "1:50",
-              "rows": [
-                [
-                  "村人",
-                  "番仔杰，老規矩，𫣆兜這客人庄，有人十六歲吔，愛有成年禮！",
-                  "Fánè Kied, lò gúigì, éndéu ìa Hàgngǐn zóng, íu ngǐn siiblìug se ě, oi íu sǐinngǐanlí!",
-                  "fanˋ er kiedˋ, loˊ guiˋ giˊ , en deuˋ liaˊ hag ngin zongˋ, rhiuˋ ngin shibˋ liug soiˇ leˋ , oiˇ rhiuˋ shin ngien liˋ!"
-                ]
-              ]
-            },
-            {
-              "t": "6:00",
-              "rows": []
-            },
-            {
-              "t": "10:15",
-              "rows": []
-            },
-            {
-              "t": "33:00",
-              "rows": []
-            }
-          ]
-        },
-        {
-          "EP": "10",
-          "title": "ljayar 瘟疫",
-          "sections": [],
-          "misc": "（像完全無人講着客話 XD）"
-        }
-      ]
-
-      // 參考另一個 branch 的進度：Seqalu-hak/hak-lines.html at aec3dad6f0a0c71777a41b5f0c2cce41896de1f4 · GJRobert/Seqalu-hak <https://github.com/GJRobert/Seqalu-hak/blob/aec3dad6f0a0c71777a41b5f0c2cce41896de1f4/hak-lines.html>
       function create() {
+        // 參考另一個 branch 的進度：Seqalu-hak/hak-lines.html at aec3dad6f0a0c71777a41b5f0c2cce41896de1f4 · GJRobert/Seqalu-hak <https://github.com/GJRobert/Seqalu-hak/blob/aec3dad6f0a0c71777a41b5f0c2cce41896de1f4/hak-lines.html>
 
         var contentContainer = document.getElementById("generated");
 
@@ -597,6 +559,7 @@ tr:nth-child(2n+1).lang2, tr:nth-child(2n+1) .lang2 {font-family: Calibri; serif
         fillHakNames();
       }
     </script>
+    <script type="text/javascript" src="data.js"></script>
     <script type="application/json" id="names">
       {
         "村人": ["Cúnngǐn","cunˋ ngin"],
