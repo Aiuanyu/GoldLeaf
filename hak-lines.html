@@ -328,17 +328,23 @@ tr:nth-child(2n+1).lang2, tr:nth-child(2n+1) .lang2 {font-family: Calibri; serif
         // var nodes = document.getElementById("EP7").getElementsByTagName("tr") + document.getElementById("EP8").getElementsByTagName("tr");
         var nodes = document.getElementsByTagName('tr');
         for (var i=0; i<nodes.length; i+=2) { //奇數行
-          var k = i + 1;
-          var name = nodes[k].getElementsByTagName('td')[0].innerHTML.replace("：","").replace(' ','').replace(' ','').replace("&nbsp;","");
-          var names = JSON.parse(document.getElementById('names').innerHTML);
-          if (names[name] == undefined) {
+          if (nodes[i].classList.contains("fr")) {
             continue;
           }
           else {
-            nodes[i].getElementsByTagName('td')[0].innerHTML = names[name][0] + ":&nbsp;";
+            var k = i + 1;
+            var name = nodes[k].getElementsByTagName('td')[0].innerHTML.replace("：","").replace(' ','').replace(' ','').replace("&nbsp;","");
+            var names = JSON.parse(document.getElementById('names').innerHTML);
+            if (names[name] == undefined) {
+              continue;
+            }
+            else {
+              nodes[i].getElementsByTagName('td')[0].innerHTML = names[name][0] + ":&nbsp;";
+            }
           }
         }
       }
+
       function useHL() {
         // var fs = require('fs'); // 這兩行不行，這好像是 node.js 用的
         // var HL = fs.readFileSync("./HL.txt", 'utf-8');
@@ -503,6 +509,93 @@ tr:nth-child(2n+1).lang2, tr:nth-child(2n+1) .lang2 {font-family: Calibri; serif
         var hakvar = document.getElementsByTagName('link')[0];
         hakvar.setAttribute('href', 'HL.css');
       }
+
+      data = [
+        {
+          "EP": "9",
+          "title": "",
+          "sections": [
+            {
+              "t": "1:50",
+              "rows": [
+                [
+                  "村人",
+                  "番仔杰，老規矩，𫣆兜這客人庄，有人十六歲吔，愛有成年禮！",
+                  "Fánè Kied, lò gúigì, éndéu ìa Hàgngǐn zóng, íu ngǐn siiblìug se ě, oi íu sǐinngǐanlí!",
+                  "fanˋ er kiedˋ, loˊ guiˋ giˊ , en deuˋ liaˊ hag ngin zongˋ, rhiuˋ ngin shibˋ liug soiˇ leˋ , oiˇ rhiuˋ shin ngien liˋ!"
+                ]
+              ]
+            },
+            {
+              "t": "6:00",
+              "rows": []
+            },
+            {
+              "t": "10:15",
+              "rows": []
+            },
+            {
+              "t": "33:00",
+              "rows": []
+            }
+          ]
+        },
+        {
+          "EP": "10",
+          "title": "ljayar 瘟疫",
+          "sections": [],
+          "misc": "（像完全無人講着客話 XD）"
+        }
+      ]
+
+      // 參考另一個 branch 的進度：Seqalu-hak/hak-lines.html at aec3dad6f0a0c71777a41b5f0c2cce41896de1f4 · GJRobert/Seqalu-hak <https://github.com/GJRobert/Seqalu-hak/blob/aec3dad6f0a0c71777a41b5f0c2cce41896de1f4/hak-lines.html>
+      function create() {
+
+        var contentContainer = document.getElementById("generated");
+
+        for (var i=0; i<data.length; i++) {
+
+          var ep = document.createElement("div");
+          ep.setAttribute("id", data[i].EP);
+          ep.setAttribute("class", "episode");
+          var h1 = document.createElement("h1");
+          h1.innerHTML = "EP" + data[i].EP + " " + data[i].title;
+          ep.appendChild(h1);
+
+          for (var j=0; j<data[i].sections.length; j++) {
+
+            var section = document.createElement("section");
+
+            var time = document.createElement("span");
+            time.classList.add("time");
+            time.innerHTML = data[i].sections[j].t;
+            section.appendChild(time);
+
+            var table = document.createElement("table");
+
+            for (var k=0; k<data[i].sections[j].rows.length; k++) {
+              var tr1 = document.createElement("tr");
+              var tr2 = document.createElement("tr");
+              tr1.innerHTML = '<td></td><td>' + data[i].sections[j].rows[k][2] + '</td>';
+              tr2.innerHTML = '<td>' + data[i].sections[j].rows[k][0] + '：</td><td>' + data[i].sections[j].rows[k][1] + '</td>';
+              table.appendChild(tr1);
+              table.appendChild(tr2);
+            }
+
+            section.appendChild(table);
+            ep.appendChild(section);
+          }
+
+          contentContainer.appendChild(ep);
+        }
+
+      }
+
+      // html - Loading javascript in body onload with 2 functions - Stack Overflow <https://stackoverflow.com/questions/10122555/loading-javascript-in-body-onload-with-2-functions>
+      function init() {
+        create();
+        fillHakNames();
+      }
     </script>
     <script type="application/json" id="names">
       {
@@ -523,7 +616,7 @@ tr:nth-child(2n+1).lang2, tr:nth-child(2n+1) .lang2 {font-family: Calibri; serif
       }
     </script>
   </head>
-  <body onload="fillHakNames()">
+  <body onload="init()">
     <div id="cover-page">
       <div> 公視戲劇<br>
         <span style="font-size: 2em; font-family: '王漢宗中行書繁'">「斯卡羅」</span><br>
@@ -2820,6 +2913,7 @@ tr:nth-child(2n+1).lang2, tr:nth-child(2n+1) .lang2 {font-family: Calibri; serif
         </section>
       </div>
     </div>
+    <div id="generated"></div>
     <h1></h1>
     <div id="thanks"> 特別致謝：
       <ul>
