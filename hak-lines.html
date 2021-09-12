@@ -520,6 +520,7 @@ tr:nth-child(2n+1).lang2, tr:nth-child(2n+1) .lang2 {font-family: Calibri; serif
           var ep = document.createElement("div");
           ep.setAttribute("id", data[i].EP);
           ep.setAttribute("class", "episode");
+          if (data[i].draft == true) {ep.setAttribute("class","draft");}
           var h1 = document.createElement("h1");
           h1.innerHTML = "EP" + data[i].EP + " " + data[i].title;
           ep.appendChild(h1);
@@ -538,8 +539,15 @@ tr:nth-child(2n+1).lang2, tr:nth-child(2n+1) .lang2 {font-family: Calibri; serif
             for (var k=0; k<data[i].sections[j].rows.length; k++) {
               var tr1 = document.createElement("tr");
               var tr2 = document.createElement("tr");
+              if (data[i].sections[j].rows[k][2] === undefined) {
+                data[i].sections[j].rows[k][2] = "";
+              }
               tr1.innerHTML = '<td></td><td>' + data[i].sections[j].rows[k][2] + '</td>';
-              tr2.innerHTML = '<td>' + data[i].sections[j].rows[k][0] + '：</td><td>' + data[i].sections[j].rows[k][1] + '</td>';
+              var name = data[i].sections[j].rows[k][0];
+              if (name !== '') {
+                name += "："
+              }
+              tr2.innerHTML = '<td>' + name + '</td><td>' + data[i].sections[j].rows[k][1] + '</td>';
               table.appendChild(tr1);
               table.appendChild(tr2);
             }
@@ -548,8 +556,16 @@ tr:nth-child(2n+1).lang2, tr:nth-child(2n+1) .lang2 {font-family: Calibri; serif
             ep.appendChild(section);
           }
 
+          if (data[i].misc !== undefined) {
+            var misc = document.createElement("p");
+            misc.innerHTML = data[i].misc;
+            ep.appendChild(misc);
+          }
+
           contentContainer.appendChild(ep);
+
         }
+
 
       }
 
