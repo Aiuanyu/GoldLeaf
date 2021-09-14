@@ -114,6 +114,11 @@ data = [
             "Òi! Zo màge sú ngá vǒ!"
           ],
           [
+            "",
+            "",
+            "..."
+          ],
+          [
             "水",
             "統領埔，我个！我个！我个！我个！……",
             "Thóng-niá-poo, guá ê! Guá ê! Guá ê! Guá ê! ...",
@@ -127,31 +132,37 @@ data = [
           [
             "九",
             "再過一隻月，稻仔就好割吔。這，田地變荒地！田地變荒地！",
-            "to"
+            "Zai go ìd zàg ngiad, toè qiu hò gòd ě. Ìa, tǐenti bien fóngti! Tǐenti bien fóngti!"
           ],
           [
             "",
-            "佢缺糧，缺得連無熟个禾都割吔！"
+            "佢缺糧，缺得連無熟个禾都割吔！",
+            "Gǐ kìad lǐong, kìad dèd lǐen mǒsugge vǒ du gòd ě!"
           ],
           [
             "",
-            "統領埔，官軍燒个啊！<br>官軍，你帶來个！<br>統領埔，會又分你燒<span class='TBD'>忒＿</span>無？你講吔！"
+            "統領埔，官軍燒个啊！<br>官軍，你帶來个！<br>統領埔，會又分你燒<span class='TBD'>忒＿</span>無？你講吔！",
+            "Tùnglíangpú, gón'gíun séu ge à!<br>Gón'gíun, ňg dai lǒi ge!<br>Tùnglíangpú, voi iu bún ňg séu <span class='TBD'>tèd __</span> mǒ? Ňg gòng ě!"
           ],
           [
             "",
-            "帶官軍來，這一切就註定哩！"
+            "帶官軍來，這一切就註定哩！",
+            "Dai gón'gíun lǒi, ìa ìdqìed qiu zutin lè!"
           ],
           [
             "蝶",
-            "𠊎毋知會<span class='lang2'>按呢</span>。𠊎淨希望，燒屋个事情，毋會再過發生哩。"
+            "𠊎毋知會恁仔。𠊎淨希望，燒屋个事情，毋會再過發生哩。",
+            "Ngǎi m̌ dí voi àně. Ngǎi qiang hímong, séu vùg ge siiqǐn, m̌ voi zaigo fàdsén lè."
           ],
           [
             "九",
-            "𠊎摎樵城，會摎你兜生番仔㓾淨淨。"
+            "𠊎摎樵城，會摎你兜生番仔㓾淨淨。",
+            "Ngǎi láu Cěusǎng, voi láu ňgdéu sángfánè cǐi qiangqiang."
           ],
           [
             "蝶",
-            "𠊎恨琅𤩝，恨你這兜！<br>還吾姆命來！"
+            "𠊎恨琅𤩝，恨你這兜！<br>還吾姆命來！",
+            "Ngǎi hen Lǒngkieu, hen ňg ìadéu!<br>Vǎn ngá mé miang lǒi!"
           ],
           [
             "必",
@@ -161,18 +172,19 @@ data = [
           ],
           [
             "九",
-            "<div class='sidenote'>Ho̍h-ló 有「激外外」，演員客話聽來像 giog？是激 gieb 嗎？暫時還不確定-客話係用哪字。</div>你想愛<span class='noted'><span class='TBD'>＿</span>外外</span>，有還過壞个事情會發生到吾身項！你穩死个啊！"
+            "<div class='sidenote'>Ho̍h-ló 有「激外外」，演員客話聽來像 giog？是激 gieb 嗎？暫時還不確定-客話係用哪字。</div>你想愛<span class='noted'><span class='TBD'>＿</span>外外</span>，有還過壞个事情會發生到若身項！你穩死个啊！",
+            "Ňg xìong oi <span class='TBD'>__ngoingoi</span>, íu hǎn go faige siiqǐn voi fàdsén do ngía sǐin hong! Ňg vùn xì ge à!"
           ],
           [
             "蝶",
             "阿水兄……",
-            "",
+            "A-Tsuí Hiann...",
             "2"
           ],
           [
             "水",
             "土生仔嘛有白米通好食矣。我會當食白米矣，哈。",
-            "",
+            "Thóo-senn-á mā ū pe̍h-bí thang hó tsia̍h--ah. Guá ē-tàng tsia̍h pe̍h-bí--ah, ha.",
             "2"
           ]
         ]
@@ -189,12 +201,13 @@ data = [
           [
             "劉",
             "你，走！",
-            "Nǐ, zǒ!",
+            "Nǐ, zǒu!",
             "5"
           ],
           [
             "九",
-            "走吔。"
+            "走吔。",
+            "Zèu ě."
           ],
           [
             "李",
@@ -209,28 +222,33 @@ data = [
         "rows": [
           [
             "村人",
-            "喂！番仔杰！"
+            "喂！番仔杰！",
+            "Òi! Fánè Kied!"
           ],
           [
             "杰",
-            "吾姐在哪？"
+            "吾姐在哪？",
+            "Ngá jì di nai?"
           ],
           [
             "村人",
-            "𠊎這兜乜想愛尋佢，再過做一擺「成年禮」，轉大人。"
+            "𠊎這兜乜想愛尋佢，再過做一擺「成年禮」，轉大人。",
+            "Ngǎi ìadéu me xìong qǐm gǐ, zaigo zo ìd bài &quot;sǐinngǐanlí&quot;, zòn taingǐn."
           ],
           [
             "",
             "唉唷？一駁仔無看着，緊來緊像生番仔了……呵呵……",
-            "bòg lio"
+            "Aio? Ìd bòg'è mǒ kon dò, gìn lǒi gìn qiong sángfánè lìo... Hoho..."
           ],
           [
             "杰",
-            "想愛分生番仔出草係？"
+            "想愛分生番仔出草係？",
+            "Xìong oi bún sángfánè cùdcò he?"
           ],
           [
             "村人",
-            "屌麼个！你講麼个漦！"
+            "屌麼个！你講麼个漦！",
+            "Díau màge! Ňg gòng màge xǐau!"
           ]
         ]
       }
