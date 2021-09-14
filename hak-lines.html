@@ -18,7 +18,7 @@
           else {
             var k = i + 1; //奇數行
             var name = nodes[k].getElementsByTagName('td')[0].innerHTML.replace("：","").replace(' ','').replace(' ','').replace("&nbsp;","");
-            var names = JSON.parse(document.getElementById('names').innerHTML);
+            // var names = JSON.parse(document.getElementById('names').innerHTML);
             if (names[name] == undefined) {
               name = name.replace(/\d/,'');
               if (names[name] == undefined) {
@@ -194,7 +194,7 @@
           
           var k = i + 1;
           var name = nodes[k].getElementsByTagName('td')[0].innerHTML.replace("：","").replace(' ','').replace(' ','').replace("&nbsp;","");
-          var names = JSON.parse(document.getElementById('names').innerHTML);
+          // var names = JSON.parse(document.getElementById('names').innerHTML);
           if (names[name] == undefined) {
             continue;
           }
@@ -281,29 +281,7 @@
       }
     </script>
     <script type="text/javascript" src="data.js"></script>
-    <script type="application/json" id="names">
-      {
-        "村人": ["Cúnngǐn","cunˋ ngin"],
-        "杰": ["Kied","kiedˋ"],
-        "水仔": ["Sùiè","shuiˊ er"],
-        "林老實": ["Lǐm Lòsiid","lim loˊ shidˋ"],
-        "阿九": ["Á-Gìu","a+ giuˊ"],
-        "林": ["Lǐm","lim"],
-        "九": ["Gìu","giuˊ"],
-        "水": ["Sùi","shuiˊ"],
-        "水2": ["Tsuí", "Tsuí"],
-        "船員": ["Sǒnǐan","shon rhan"],
-        "蝶": ["Tiab","tiabˋ"],
-        "瑪祖卡": ["Macuka","Macuka"],
-        "丙": ["Bíang","biangˋ"],
-        "姆": ["Mé","meˋ"],
-        "Tok": ["Tok","Tok"],
-        "必": ["Pickering", "Pickering"],
-        "李": ["LeGendre", "LeGendre"],
-        "軍官5": ["Jūnguān"],
-        "劉5": ["Líu"]
-      }
-    </script>
+    <script type="text/javascript" src="names.js"></script>
   </head>
   <body onload="init()">
     <div id="cover-page">
