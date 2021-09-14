@@ -57,7 +57,7 @@ section table {
   }
   
   body {
-    font-size: 2vh;
+    font-size: 1.8vh;
   }
   
   #thanks {
@@ -66,7 +66,7 @@ section table {
   
   .draft h1 {page-break-before: always;}
   
-  tr {page-break-inside: avoid;}
+  tr, .sidenote {page-break-inside: avoid;} /* .sidenote 的部分似乎是無效的 */
   
   .noprint {display: none;}
 }
@@ -89,6 +89,10 @@ h1::before {
   text-align: center;
   margin-top: 10vh;
   margin-bottom: 10vh;
+}
+h1 {
+  text-indent: -2em;
+  margin-left: 2em;
 }
 
 td {
@@ -174,15 +178,15 @@ table {
 
 .sidenote {
   position: absolute; /* ☞ css - Float right and position absolute doesn't work together - Stack Overflow <https://stackoverflow.com/questions/11333624/float-right-and-position-absolute-doesnt-work-together> */
-  max-width: 15vw;
+  max-width: 14vw;
   font-size: 8pt;
   font-weight: 500;
-  line-height: 10pt;
+  line-height: 12pt;
   background-color: #FFE8A4;
   background-image: url(res/Wood-Border.svg); /* ☞ Wood Border 2 | Free SVG <https://freesvg.org/wood-border2-arvin61r58> */ /* Wood Pattern - Transparent Textures <https://www.transparenttextures.com/wood-pattern.html> */
   background-size: 100% 100%; /* 新版 Firefox 中，SVG 的 aspect ratio 會維持不變，不像 BlueGriffon 3.1 裡面會拉伸 ∴須修改 SVG 檔加入 preserveAspectRatio="none" ☞ css - Cannot stretch svg background image, aspect ratio will be preserved - Stack Overflow <https://stackoverflow.com/questions/32454685/cannot-stretch-svg-background-image-aspect-ratio-will-be-preserved> */
   border-radius: 3pt;
-  left: 80vw;
+  left: 82vw;
   font-family: Athelas, 楷體-繁, sans-serif;
   padding: 8pt 10pt;
   color: brown;

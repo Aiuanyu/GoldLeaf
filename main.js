@@ -75,7 +75,7 @@ function create() {
     ep.setAttribute("class", "episode");
     if (data[i].draft == true) {ep.setAttribute("class","draft episode");}
     var h1 = document.createElement("h1");
-    h1.innerHTML = "EP" + data[i].EP + " " + data[i].title;
+    h1.innerHTML = "<p>EP" + data[i].EP + " " + data[i].title + "</p>";
     ep.appendChild(h1);
 
     for (var j=0; j<data[i].sections.length; j++) {
