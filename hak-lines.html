@@ -183,6 +183,7 @@ table {
   position: absolute; /* ☞ css - Float right and position absolute doesn't work together - Stack Overflow <https://stackoverflow.com/questions/11333624/float-right-and-position-absolute-doesnt-work-together> */
   max-width: 15vw;
   font-size: 8pt;
+  font-weight: 500;
   line-height: 10pt;
   background-color: #FFE8A4;
   background-image: url(res/Wood-Border.svg); /* ☞ Wood Border 2 | Free SVG <https://freesvg.org/wood-border2-arvin61r58> */ /* Wood Pattern - Transparent Textures <https://www.transparenttextures.com/wood-pattern.html> */
@@ -280,14 +281,24 @@ section:before {
   opacity: 0.9;
 }
 
-tr.lang2, td.lang2, .lang2 {color: /*honeydew*//*hsl(217, 82%, 89%)*/hsl(303, 78%, 91%);}
-tr:nth-child(2n).lang2, tr:nth-child(2n) .lang2 {font-family: "源石黑體"; serif; font-weight: 500;}
-tr:nth-child(2n+1).lang2, tr:nth-child(2n+1) .lang2 {font-family: Calibri; serif; font-weight: 700;}
-.fr td {color: hsl(255, 78%, 91%);}
+tr:nth-child(2n) {color: white !important;}
+/* Ho̍h-ló */
+tr.lang2, td.lang2, tr:nth-child(2n+1) .lang2 {color: /*honeydew*//*hsl(217, 82%, 89%)*/hsl(303, 78%, 91%);}
+tr:nth-child(2n).lang2, tr:nth-child(2n) .lang2 {font-family: "霞鶩文楷 TC", sans-serif; font-weight: 700;}
+tr:nth-child(2n+1).lang2, tr:nth-child(2n+1) .lang2 {font-family: Cambria, serif; font-weight: 500;}
+/* 英法文 */
+.fr td, .lang6 td {color: hsl(255, 78%, 91%); font-family: 'Bell MT';}
+.lang4 td {color: hsl(187, 78%, 91%); font-family: 'Bell MT';}
+tr:nth-child(2n).lang4, tr:nth-child(2n).lang6 {display: none;}
+/* Mandarin */
+tr.lang5, td.lang5, .lang5 {color: /*honeydew*//*hsl(217, 82%, 89%)*/hsl(235, 78%, 91%);}
+tr:nth-child(2n).lang5, tr:nth-child(2n) .lang5 {font-family: "源泉圓體", sans-serif; font-weight: 700;}
+tr:nth-child(2n+1).lang5, tr:nth-child(2n+1) .lang5 {font-family: Dubai, sans-serif; font-weight: 500;}
 
 .poem {
   font-style: italic;
   text-align: center;
+  font-weight: 500;
 }      
 /* Quote styling <https://codepen.io/JoeHastings/pen/MOdRVm> */
 .poem blockquote {
@@ -327,20 +338,28 @@ tr:nth-child(2n+1).lang2, tr:nth-child(2n+1) .lang2 {font-family: Calibri; serif
       function fillHakNames() {
         // var nodes = document.getElementById("EP7").getElementsByTagName("tr") + document.getElementById("EP8").getElementsByTagName("tr");
         var nodes = document.getElementsByTagName('tr');
-        for (var i=0; i<nodes.length; i+=2) { //奇數行
+        for (var i=0; i<nodes.length; i+=2) {
           if (nodes[i].classList.contains("fr")) {
             continue;
           }
           else {
-            var k = i + 1;
+            var k = i + 1; //奇數行
             var name = nodes[k].getElementsByTagName('td')[0].innerHTML.replace("：","").replace(' ','').replace(' ','').replace("&nbsp;","");
             var names = JSON.parse(document.getElementById('names').innerHTML);
             if (names[name] == undefined) {
-              continue;
+              name = name.replace(/\d/,'');
+              if (names[name] == undefined) {
+                nodes[k].getElementsByTagName('td')[0].innerHTML = nodes[k].getElementsByTagName('td')[0].innerHTML.replace(/\d/,'');
+                continue;
+              }
+              else {
+                nodes[i].getElementsByTagName('td')[0].innerHTML = names[name][0] + ":&nbsp;";
+              }
             }
             else {
               nodes[i].getElementsByTagName('td')[0].innerHTML = names[name][0] + ":&nbsp;";
             }
+            nodes[k].getElementsByTagName('td')[0].innerHTML = nodes[k].getElementsByTagName('td')[0].innerHTML.replace(/\d/,'');
           }
         }
       }
@@ -482,18 +501,23 @@ tr:nth-child(2n+1).lang2, tr:nth-child(2n+1) .lang2 {font-family: Calibri; serif
         ];
 
         var nodes = document.getElementsByTagName("tr");
-        for (var i=0; i<nodes.length; i+=2) { //奇數行
+        for (var i=0; i<nodes.length; i+=2) {
           var j = i / 2;
-          if (nodes[i].classList.contains('fr')) {
-            continue;
-          }
-          else if (HL[j] == undefined) {
-            nodes[i].getElementsByTagName('td')[1].innerHTML = "";
-            // continue;
-          }
-          else {
-            nodes[i].getElementsByTagName('td')[1].innerHTML = HL[j];
-          }
+          // nodes[i].getElementsByTagName('td')[0].innerHTML += " " + j; // 除錯用
+          var rowclass = nodes[i].getAttribute('class');
+          //if (nodes[i].hasAttribute('class')) {
+          if (nodes[i].hasAttribute('class') && (rowclass.includes('fr') || rowclass.includes('lang'))) {
+              continue;
+            }
+            else if (HL[j] == undefined) {
+              nodes[i].getElementsByTagName('td')[1].innerHTML = "";
+              // continue;
+            }
+            else {
+              nodes[i].getElementsByTagName('td')[1].innerHTML = HL[j];
+            }
+
+          //}
           
           var k = i + 1;
           var name = nodes[k].getElementsByTagName('td')[0].innerHTML.replace("：","").replace(' ','').replace(' ','').replace("&nbsp;","");
@@ -518,9 +542,9 @@ tr:nth-child(2n+1).lang2, tr:nth-child(2n+1) .lang2 {font-family: Calibri; serif
         for (var i=0; i<data.length; i++) {
 
           var ep = document.createElement("div");
-          ep.setAttribute("id", data[i].EP);
+          ep.setAttribute("id", "EP"+data[i].EP);
           ep.setAttribute("class", "episode");
-          if (data[i].draft == true) {ep.setAttribute("class","draft");}
+          if (data[i].draft == true) {ep.setAttribute("class","draft episode");}
           var h1 = document.createElement("h1");
           h1.innerHTML = "EP" + data[i].EP + " " + data[i].title;
           ep.appendChild(h1);
@@ -544,10 +568,18 @@ tr:nth-child(2n+1).lang2, tr:nth-child(2n+1) .lang2 {font-family: Calibri; serif
               }
               tr1.innerHTML = '<td></td><td>' + data[i].sections[j].rows[k][2] + '</td>';
               var name = data[i].sections[j].rows[k][0];
+              var lang = data[i].sections[j].rows[k][3];
+              name = (lang === undefined) ? name : name+lang;
               if (name !== '') {
                 name += "："
               }
               tr2.innerHTML = '<td>' + name + '</td><td>' + data[i].sections[j].rows[k][1] + '</td>';
+
+              if (lang !== undefined) {
+                tr1.classList += "lang"+data[i].sections[j].rows[k][3];
+                tr2.classList += "lang"+data[i].sections[j].rows[k][3];
+              }
+
               table.appendChild(tr1);
               table.appendChild(tr2);
             }
@@ -586,12 +618,15 @@ tr:nth-child(2n+1).lang2, tr:nth-child(2n+1) .lang2 {font-family: Calibri; serif
         "林": ["Lǐm","lim"],
         "九": ["Gìu","giuˊ"],
         "水": ["Sùi","shuiˊ"],
+        "水2": ["Tsuí", "Tsuí"],
         "船員": ["Sǒnǐan","shon rhan"],
         "蝶": ["Tiab","tiabˋ"],
         "瑪祖卡": ["Macuka","Macuka"],
         "丙": ["Bíang","biangˋ"],
         "姆": ["Mé","meˋ"],
-        "Tok": ["Tok","Tok"]
+        "Tok": ["Tok","Tok"],
+        "必": ["Pickering", "Pickering"],
+        "李": ["LeGendre", "LeGendre"]
       }
     </script>
   </head>
@@ -2264,7 +2299,7 @@ tr:nth-child(2n+1).lang2, tr:nth-child(2n+1) .lang2 {font-family: Calibri; serif
               </tr>
               <tr>
                 <td>水：</td>
-                <td>阿九哥仔，樵城 1 千 5 百人，離山項个生番當遠啊；保力，400 人，倚山邊，生番仔報冤仇喔，你兜客人，淨做得跳海泅轉唐山。生番仔會交凶手？定著打起來。生番仔在山肚幾下百年，逐得走係？𫣆琅𤩝，幾下代哩，乜走毋忒啦。</td>
+                <td>阿九哥仔，樵城 1 千 5 百人，離山項个生番當遠啊；保力，400 人，偎山邊，生番仔報冤仇喔，你兜客人，淨做得跳海泅轉唐山。生番仔會交凶手？定著打起來。生番仔在山肚幾下百年，逐得走係？𫣆琅𤩝，幾下代哩，乜走毋忒啦。</td>
               </tr>
               <tr>
                 <td> &nbsp;</td>

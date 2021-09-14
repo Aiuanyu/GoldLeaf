@@ -10,25 +10,27 @@ data = [
           [
             "九",
             "唉。山肚項，草个記號，生番仔無解忒。",
-            "cò e"
+            "Ài. Sán dùhong, cò e giho, sángfánè mǒ gìai tèd."
           ],
           [
             "姆",
             "豬仔食个豬菜，分人食忒哩，豬會餓死，續下來換人仔。無食糧哩。秤仔會斜哪片，當清楚毋係？",
-            "<div class='sidenote'>梅芳阿姨似又混到 Ho̍h-ló</div> zu <span class='noted'>ě</span> qǐa me"
+            "<div class='sidenote'>梅芳阿姨似又混到 Ho̍h-ló</div>Zúè siid <span class='noted'>ě</span> zúcoi, bún ngǐn siid tèd lè, zú voi ngo xì, sa hálǒi von ngǐnè. Mǒ siidlǐong lè. Ciinè voi qǐa nai pìen, dóng qíncù me?"
           ],
           [
             "九",
-            "無定著喔，生番仔會分𫣆入山，𠊎用鹽，摎佢兜換兜食糧。"
+            "無定著喔，生番仔會分𫣆入山，𠊎用鹽，摎佢兜換兜食糧。",
+            "Mǒ tincog ò, sángfánè voi bún én ngib sán, ngǎi iung ǐam, láu gǐdéu von déu siidlǐong."
           ],
           [
             "村人",
             "阿水仔來村口吔！",
-            "cúnhèu"
+            "Á-Sùiè lǒi cúnhèu ě!"
           ],
           [
             "九",
-            "無定著喔，生番仔喊佢來傳話吔！"
+            "無定著喔，生番仔喊佢來傳話吔！",
+            "Mǒ tincog ò, sángfánè hém gǐ lǒi cǒnfa ě!"
           ]
         ]
       },
@@ -37,53 +39,63 @@ data = [
         "rows": [
           [
             "九",
-            "你係摎𠊎，買食糧？<br>生番仔該片，無消息哦？"
+            "你係摎𠊎，買食糧？<br>生番仔該片，無消息哦？",
+            "Ňg he láu ngǎi, mái siidlǐong?<br>Sángfánè ge pìen, mǒ séuxìd o?"
           ],
           [
             "水",
-            "就算有喔，乜毋係麼个好消息。"
+            "就算有喔，乜毋係麼个好消息。",
+            "Qiuson íu ò, me m̌ he màge hò séuxìd."
           ],
           [
             "九",
             "昨晡日，生番仔來保力，講會摎統領埔贌分你！你在該中喔，搣漦搣濞！",
-            "medˋ xiauˇ medˋ pi; ge dúng"
+            "Zóbú'ngìd, sángfánè lǒi Bòlid, gòng voi láu Tùnglíangpú piog bún ňg! Ňg di ge dúng ò, mèd xǐau mèd pi!"
           ],
           [
             "水",
-            "𠊎淨贌着荒地吔，統領埔就燒忒吔，交易所乜係啊。"
+            "𠊎淨贌着荒地吔，統領埔就燒忒吔，交易所乜係啊。",
+            "Ngǎi qiang piog dò fóngti ě, Tùnglíangpú qiu séu tèd ě, gáuidsò me he à."
           ],
           [
             "九",
-            "總兵官，講着做着！𠊎摎總兵官講，統領埔分你佔去哩，佢講，佢會處理。<br>續下來，𠊎摎樵城分統領埔，統領埔，毋係生番个哩！"
+            "總兵官，講着做着！𠊎摎總兵官講，統領埔分你佔去哩，佢講，佢會處理。<br>續下來，𠊎摎樵城分統領埔，統領埔，毋係生番个哩！",
+            "Zùngbín'gón, gòng dò zo dò! Ngǎi láu Zùngbín'gón gòng, Tùnglíangpú bún ňg jiam hi lè, gǐ gòng, gǐ voi cùlí.<br> Sa hálǒi, ngǎi láu Cěusǎng fún Tùnglíangpú, Tùnglíangpú, m̌ he sángfán ge lè!"
           ],
           [
             "水",
-            "統領埔，盡包尾還係你拿去吔。<br>感謝阿九哥个教訓。"
+            "統領埔，盡包尾還係你拿去吔。<br>感謝阿九哥个教訓。",
+            "Tùnglíangpú, qin báumí hǎn he ňg ná hi ě.<br> Gamqia Á-Gìu Gó ge gauhiun."
           ],
           [
             "",
             "該土生仔喔，無食白米个命啊，該車仔係𠊎自家拉來个。<br>庄肚个三條牛啊，全都㓾忒哩，還毋罅食。",
-            "qidga lái"
+            "Ge tòsáng'è ò, mǒ siid pagmì ge miang à, ge cáè he ngǎi qidga lái lǒi ge.<br>Zóng dù ge sám tǐau ngǐu à, qǐon du cǐi tèd lè, hǎn m̌ la siid."
           ],
           [
             "",
-            "阿九哥啊，分兜仔食糧啊，好無？"
+            "阿九哥啊，分兜仔食糧啊，好無？",
+            "Á-Gìu Gó à, bún déuè siidlǐong à, hò mǒ?"
           ],
           [
             "九",
-            "哈哈哈哈哈……你該下講吔，你無食白米个命啊！"
+            "哈哈哈哈哈……你該下講吔，你無食白米个命啊！",
+            "Hahahahaha... Ňg geha gòng ě, ňg mǒ siid pagmì ge miang à!"
           ],
           [
             "水",
-            "𠊎摎你做牛做馬，<br>𠊎摎你做牛做馬，<br>𠊎摎你做牛做馬！"
+            "𠊎摎你做牛做馬，<br>𠊎摎你做牛做馬，<br>𠊎摎你做牛做馬！",
+            "Ngǎi láu ňg zo ngǐu zo má,<br>ngǎi láu ňg zo ngǐu zo má,<br>ngǎi láu ňg zo ngǐu zo má!"
           ],
           [
             "九",
-            "𠊎自家个食糧喔，都毋罅哩！莫講牛仔，豬仔，乜毋罅㘔喔！"
+            "𠊎自家个食糧喔，都毋罅哩！莫講牛仔，豬仔，乜毋罅㘔喔！",
+            "Ngǎi qidgá ge siidlǐong ò, du m̌ la lè! Mog gòng ngǐuè, zúè, me m̌ la sái ò!"
           ],
           [
             "水",
-            "你摎<span class='lang2'>一丙兄</span>分統領埔，毋驚分着荒地係？呵呵呵……"
+            "你摎<span class='lang2'>一丙兄</span>分統領埔，毋驚分着荒地係？呵呵呵……",
+            "Ňg láu <span class='lang2'>It-píng Hiann</span> fún Tùnglíangpú, m̌ gíang fún dò fóngti he? Hohoho..."
           ]
         ]
       },
@@ -92,18 +104,19 @@ data = [
         "rows": [
           [
             "水",
-            "緊割！緊割！稻仔袂<span class='TBD'>＿＿</span>，漢人無愛食，咱來食！咱來食",
-            "",
+            "緊割！緊割！稻仔袂<span class='TBD'>＿＿</span>，漢人無愛食，咱來食！咱來食！",
+            "Kín kuah! Kín kuah! Tiū-á bē <span class='TBD'>__</span>, Hàn-lâng bô ài tsia̍h, lán lâi tsia̍h! Lán lâi tsia̍h!",
             "2"
           ],
           [
             "村人",
-            "喂！做麼个收吾禾！"
+            "喂！做麼个收吾禾！",
+            "Òi! Zo màge sú ngá vǒ!"
           ],
           [
             "水",
             "統領埔，我个！我个！我个！我个！……",
-            "",
+            "Thóng-niá-poo, guá ê! Guá ê! Guá ê! Guá ê! ...",
             "2"
           ]
         ]
@@ -169,14 +182,14 @@ data = [
         "rows": [
           [
             "軍官",
-            "",
             "大人，保力升旗了。",
+            "Dàrén, Bǎolì shēngqí le.",
             "5"
           ],
           [
             "劉",
-            "",
             "你，走！",
+            "Nǐ, zǒ!",
             "5"
           ],
           [
@@ -186,7 +199,8 @@ data = [
           [
             "李",
             "",
-            "The rice isn't ready for harvest."
+            "The rice isn't ready for harvest.",
+            "4"
           ]
         ]
       },
