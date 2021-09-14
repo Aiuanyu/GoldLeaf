@@ -1,0 +1,326 @@
+body {
+/*  font-family: "jf open 粉圓 1.1", "圓體-繁", serif;*/
+  font-family: '源流明體'/*"霞鶩文楷 TC"*/, HanaMinB, serif;
+  line-height: 1.4rem;
+  border-radius: 0px;
+}
+
+h1, #vnum {
+  font-family: /*Oradano-mincho-GSRR*/ /*Alegreya,*/ /*HGSMinchoE*/ 'Toppan Bunkyu Midashi Gothic';
+  line-height: 1.4;
+}
+
+#thanks, #links a, #HLauthor {font-family: PT Sans, '黑體-繁', sans-serif; font-weight: 700;}
+#thanks ul ul li {
+  display: inline-block;
+  color: white;
+  padding: 0.3em;
+  margin: 0.1em 0.3em;
+  border-radius: 0.3em;
+}
+#HLauthor {background-color: mediumvioletred; color: white;}
+/*#thanks>ul>ul, #thanks>ul>li {display: inline-block}*/
+#community li {  background-color: hsl(31, 90%, 80%);}
+#dic li {  background-color: hsl(192, 90%, 80%);}
+#softwares li {  background-color: hsl(111, 90%, 80%);}
+
+section {
+  background-color: #198964;
+  color: white;
+  margin: 10pt;
+  padding: /*50pt*/ 5vh;
+  border-radius: /*5px*/ 2vh;
+}
+      
+section table {
+  font-weight: 700;
+}
+
+@media print {
+  #cover-page {
+    /* 占滿整頁 */
+    width: 100vw;
+    height: 100vh;
+    page-break-after: always;
+    
+    /* 內容全置中 */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    
+    font-size: 5vh;
+  }
+  #cover-page div {
+    display: initial !important;
+    line-height: 3em;
+  }
+  
+  body {
+    font-size: 2vh;
+  }
+  
+  #thanks {
+    page-break-before: always;
+  }
+  
+  .draft h1 {page-break-before: always;}
+  
+  tr {page-break-inside: avoid;}
+  
+  .noprint {display: none;}
+}
+
+#cover-page {
+  text-align: center;
+  font-family: /*"翩翩體-繁"*/ Toppan Bunkyu Midashi Mincho Extrabold;
+}
+
+@media screen {
+  #cover-page br {
+    display: none;
+  }
+  
+}
+
+h1::before {
+  content: "❖ ❖";
+  display: block;
+  text-align: center;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+}
+
+td {
+  vertical-align: top;
+  padding: 0.15em 0px;
+  line-height: 1.4em;
+}
+
+:root {
+  --color: 0 0%;
+  --l: 100%;
+}
+
+td:nth-child(1) {
+  text-align: right;
+  white-space: nowrap;
+  width: 10vw;
+}
+
+td:nth-child(2) {
+  padding-left: 3vw;
+}
+
+tr:nth-child(2n+1) {
+  font-size: 1.4em;
+  font-family: "Athelas";
+}
+
+tr:nth-child(2n+1) td {
+  padding-top: 1em;
+}
+
+tr:nth-child(2n+1) {
+  --color-darker: hsl(var(--color),calc(var(--l) - 50%));
+  /* color: var(--color-darker); */
+  color: antiquewhite;
+}
+/* tr:nth-child(3n) {line-height: 50%; height: 50%} */
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  border: 0px none;
+}
+
+.TBD {
+  background-color: rgba(255, 255, 0, 0.90);
+  color: #0759ab;
+}
+/*.TBD:after {
+  content: "?";
+  font-size: 0.5em;
+  vertical-align: top;
+  line-height: 1.2em;
+  padding-right: 0.2em;
+  padding-top: 0.5em;
+}*/
+
+.time {
+  font-family: /* Digital-7 */ /*Menlo*/ NovaMono for Powerline; 
+  background: black; 
+  color: white; 
+  display: inline-block; 
+  padding: 0.5em; 
+  font-size: 0.8em;
+  line-height: 0.8em;
+  border-radius: 0.5em;
+  vertical-align: center;
+}
+
+.draft {
+  background-color: #ebebeb;
+  padding: 1vh;
+}
+
+.draft::before, .draft h1::before {
+  content: "以下草稿狀態‧防雷慎入";
+}
+
+.draft section {
+  background-color: hsl(160, 69%, 10%) /* #198964 的暗黑調 */
+}
+
+.sidenote {
+  position: absolute; /* ☞ css - Float right and position absolute doesn't work together - Stack Overflow <https://stackoverflow.com/questions/11333624/float-right-and-position-absolute-doesnt-work-together> */
+  max-width: 15vw;
+  font-size: 8pt;
+  font-weight: 500;
+  line-height: 10pt;
+  background-color: #FFE8A4;
+  background-image: url(res/Wood-Border.svg); /* ☞ Wood Border 2 | Free SVG <https://freesvg.org/wood-border2-arvin61r58> */ /* Wood Pattern - Transparent Textures <https://www.transparenttextures.com/wood-pattern.html> */
+  background-size: 100% 100%; /* 新版 Firefox 中，SVG 的 aspect ratio 會維持不變，不像 BlueGriffon 3.1 裡面會拉伸 ∴須修改 SVG 檔加入 preserveAspectRatio="none" ☞ css - Cannot stretch svg background image, aspect ratio will be preserved - Stack Overflow <https://stackoverflow.com/questions/32454685/cannot-stretch-svg-background-image-aspect-ratio-will-be-preserved> */
+  border-radius: 3pt;
+  left: 80vw;
+  font-family: Athelas, 楷體-繁, sans-serif;
+  padding: 8pt 10pt;
+  color: brown;
+  box-shadow: brown 0.25vw 0.25vw;
+}
+
+section table {width: 70vw;}
+
+.noted {
+  background-color: rgba(255, 232, 164, 0.40);
+  border-radius: 0.3em;
+  break-inside: avoid; /* 沒辦法讓 before 的元素和主元素保持在同一行 :( */
+}
+.noted:before {
+  content: "✏️";
+  font-size: 0.5em;
+  vertical-align: top;
+  top: -0.9em;
+  display: inline-block;
+  position: relative;
+  margin-right: 0.1em;
+}
+
+#links {text-align: left;}
+
+#links a {
+  color: white;
+  background-color: #198964;
+  float: none;
+  text-decoration: none;
+  vertical-align: middle;
+  box-shadow: 0.1em 0.1em #0D4936;
+  border: 0.05em #0D4936 solid;
+}
+#links a, #HLauthor {
+  display: inline-block;
+}
+#links a, #vinfo, #HLauthor {
+  padding: 0.3em 0.7em;
+  margin: 0.3em 0.3em;
+  border-radius: 0.4em;
+}
+#links a:after {
+  display: inline-block;
+  content: ' ';
+  background-image: url('res/click.svg'); /* Free Click Icon, Symbol. Download in PNG, SVG format. <https://www.iconpacks.net/free-icon/click-2384.html> */
+  background-size: 1.2em 1.2em;
+  width:1.2em;
+  height:1.2em;
+  margin-left:0.3em;
+  vertical-align: middle;
+} /* css - Is there a way to use SVG as content in a pseudo element ::before or ::after - Stack Overflow <https://stackoverflow.com/questions/19255296/is-there-a-way-to-use-svg-as-content-in-a-pseudo-element-before-or-after> */
+
+#vnum {font-size: 1.5em; font-weight: 700;}
+
+/* CSS counter-increment property <https://www.w3schools.com/cssref/pr_gen_counter-increment.asp> */
+body {counter-reset: EPx}
+.episode {counter-increment: EPx;}
+.episode section:after {
+  float:right;
+  content: "EP" counter(EPx) ;
+  /*margin-top: 0.5em;*/
+  bottom: 0.5em;
+  font-family: Operator Mono;
+  font-size: 0.8em;
+}
+
+#vinfo {
+/*  border: 1px solid; */
+  padding: 0.3em;
+  text-align: center;
+  background: #E5FBC6;
+}
+
+section:before {
+  content: "客：四縣腔";
+  float: right;
+  font-size: 0.5em;
+}
+.HL {display: none;}
+#useHL {
+  position: fixed;
+  top: 2px;
+  right: 2px;
+  opacity: 0.3;
+  z-index: 50;
+}
+#useHL:hover {
+  opacity: 0.9;
+}
+
+tr:nth-child(2n) {color: white !important;}
+/* Ho̍h-ló */
+tr.lang2, td.lang2, tr:nth-child(2n+1) .lang2 {color: /*honeydew*//*hsl(217, 82%, 89%)*/hsl(303, 78%, 91%);}
+tr:nth-child(2n).lang2, tr:nth-child(2n) .lang2 {font-family: "霞鶩文楷 TC", sans-serif; font-weight: 700;}
+tr:nth-child(2n+1).lang2, tr:nth-child(2n+1) .lang2 {font-family: Cambria, serif; font-weight: 500;}
+/* 英法文 */
+.fr td, .lang6 td {color: hsl(255, 78%, 91%); font-family: 'Bell MT';}
+.lang4 td {color: hsl(187, 78%, 91%); font-family: 'Bell MT';}
+tr:nth-child(2n).lang4, tr:nth-child(2n).lang6 {display: none;}
+/* Mandarin */
+tr.lang5, td.lang5, .lang5 {color: /*honeydew*//*hsl(217, 82%, 89%)*/hsl(235, 78%, 91%);}
+tr:nth-child(2n).lang5, tr:nth-child(2n) .lang5 {font-family: "源泉圓體", sans-serif; font-weight: 700;}
+tr:nth-child(2n+1).lang5, tr:nth-child(2n+1) .lang5 {font-family: Dubai, sans-serif; font-weight: 500;}
+
+.poem {
+  font-style: italic;
+  text-align: center;
+  font-weight: 500;
+}      
+/* Quote styling <https://codepen.io/JoeHastings/pen/MOdRVm> */
+.poem blockquote {
+	position: relative;
+	margin: 0;
+}      
+.poem blockquote:before,
+.poem blockquote:after {
+	position: absolute;
+	color: hsla(255, 78%, 91%, 0.5);
+	font-size: 5rem;
+	width: 2rem;
+	height: 2rem;
+}
+.poem blockquote:before {
+	content: '“';
+	left: -1rem;
+	top: -1rem;
+}
+.poem blockquote:after {
+	content: '”';
+	right: -2rem;
+	bottom: 1rem;
+}
+
+.sidenote blockquote {
+  margin: 1em 0;
+  padding: 1em 0 1em 0.5em;
+  border-left: solid;
+  font-family: FangSong !important;
+  line-height: 1.7em;
+}
