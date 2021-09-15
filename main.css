@@ -193,6 +193,21 @@ table {
   box-shadow: brown 0.25vw 0.25vw;
 }
 
+.trans { /* 參考 .sidenote 來做翻譯方塊（主要給排灣語用） */
+  position: absolute;
+  max-width: 20vw;
+  font-size: 10pt;
+  font-weight: 500;
+  line-height: 14pt;
+  background-color: hsla(124, 55%, 71%, 0.5);
+  border-radius: 3pt;
+  left: 70vw;
+  font-family: Athelas, 楷體-繁, sans-serif;
+  padding: 8pt 10pt;
+  color: white;
+  /* box-shadow: brown 0.25vw 0.25vw; */
+}
+
 section table {width: 70vw;}
 
 .noted {
@@ -287,10 +302,11 @@ tr:nth-child(2n+1).lang2, tr:nth-child(2n+1) .lang2 {font-family: Cambria, serif
 tr.lang3, td.lang3, tr:nth-child(2n+1) .lang3 {color: /*honeydew*//*hsl(217, 82%, 89%)*/hsl(127, 78%, 91%);}
 tr:nth-child(2n).lang3, tr:nth-child(2n) .lang3 {font-family: "黑體-繁", sans-serif; font-weight: 700;}
 tr:nth-child(2n+1).lang3, tr:nth-child(2n+1) .lang3 {font-family: Superclarendon, 'Academy Engraved LET', 'Book Antigua', Baskerville, serif; font-weight: 500; font-size: 1.1em;}
+tr.lang3 td:nth-child(2), tr.fr td:nth-child(2) {padding-right: 30%;}
 /* 英法文 */
 .fr td, .lang6 td {color: hsl(255, 78%, 91%); font-family: 'Bell MT';}
 .lang4 td {color: hsl(187, 78%, 91%); font-family: 'Bell MT';}
-tr:nth-child(2n).lang4, tr:nth-child(2n).lang6 {display: none;}
+tr:nth-child(2n).lang4, tr:nth-child(2n).lang6, tr:nth-child(2n).lang3 {display: none;}
 /* Mandarin */
 tr.lang5, td.lang5, .lang5 {color: /*honeydew*//*hsl(217, 82%, 89%)*/hsl(235, 78%, 91%);}
 tr:nth-child(2n).lang5, tr:nth-child(2n) .lang5 {font-family: "源泉圓體", sans-serif; font-weight: 700;}

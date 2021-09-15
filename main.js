@@ -92,17 +92,31 @@ function create() {
       for (var k=0; k<data[i].sections[j].rows.length; k++) {
         var tr1 = document.createElement("tr");
         var tr2 = document.createElement("tr");
-        if (data[i].sections[j].rows[k][2] === undefined) {
+        if (data[i].sections[j].rows[k][2] === undefined) { // 還沒有羅馬字就先空著
           data[i].sections[j].rows[k][2] = "";
         }
-        tr1.innerHTML = '<td></td><td>' + data[i].sections[j].rows[k][2] + '</td>';
-        var name = data[i].sections[j].rows[k][0];
-        var lang = data[i].sections[j].rows[k][3];
-        name = (lang === undefined) ? name : name+lang;
-        if (name !== '') {
-          name += "："
+
+        if (data[i].sections[j].rows[k][3] == 3) { // 排灣
+          var name = data[i].sections[j].rows[k][0];
+          var lang = data[i].sections[j].rows[k][3];
+          var namelang = (lang === undefined) ? name : name+lang;
+          if (name !== '') {
+            name += "："
+          }
+          tr1.innerHTML = '<td></td><td><div class="trans">（' + name.replace(/\d/,'') + data[i].sections[j].rows[k][1] + '）</div>' + data[i].sections[j].rows[k][2] + '</td>'; // 跟其他語文漢字放第 2 列不同，是把華文字幕放在右邊，類似 sidenote
+          tr2.innerHTML = '<td>' + namelang + '</td><td></td>'; // 這列還是要有，讓 fillHakNames() 去抓族語名，但再用 display:none 同英、法文
         }
-        tr2.innerHTML = '<td>' + name + '</td><td>' + data[i].sections[j].rows[k][1] + '</td>';
+        else { // 非排灣
+          tr1.innerHTML = '<td></td><td>' + data[i].sections[j].rows[k][2] + '</td>';
+          var name = data[i].sections[j].rows[k][0];
+          var lang = data[i].sections[j].rows[k][3];
+          name = (lang === undefined) ? name : name+lang;
+          if (name !== '') {
+            name += "："
+          }
+          tr2.innerHTML = '<td>' + name + '</td><td>' + data[i].sections[j].rows[k][1] + '</td>';
+        }
+
 
         if (lang !== undefined) {
           tr1.classList += "lang"+data[i].sections[j].rows[k][3];

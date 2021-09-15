@@ -1,7 +1,7 @@
 data = [
   {
     "EP": "9",
-    "draft": true,
+    "draft": false,
     "title": "sikavaljut 活下去",
     "sections": [
       {
@@ -275,7 +275,7 @@ data = [
           [
             "",
             "我向各獵區祈求讓你們追擊到獵物，",
-            "kiqaung aken",
+            "kiqaung aken Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium", // 語料還不完整，後面先用假的來填滿預期空間
             "3"
           ]
         ]
