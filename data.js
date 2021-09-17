@@ -1,5 +1,1945 @@
 data = [
   {
+    "EP": "1",
+    "title": "vali kemasiljavek 海上的風",
+    "sections": [
+
+      {
+        "t": "8:02",
+        "rows": [
+
+          [
+
+            "村人",
+            "番仔杰，老規矩，𫣆兜這客人庄，有人十六歲吔，愛有成年禮！",
+            "Fánè Kied, lò gúigì, éndéu ìa Hàgngǐn zóng, íu ngǐn siiblìug se ě, oi íu sǐinngǐanlí!",
+
+          ],
+
+          [
+
+            "杰",
+            "𠊎係客家人，毋係番仔！",
+            "Ngǎi he Hàggángǐn, m̌ he fánè!",
+
+          ],
+
+          [
+
+            "村人",
+            "若屋下三國演義啊！番人阿姆，客人阿爸，你阿姐，賣分毛番。",
+            "Ngía vùggá Sám Gùed Íanngi à! Fánngǐn ámé, Hàgngǐn ábá, ňg ájì, mai bún mófán.",
+
+          ],
+
+          [
+
+            "",
+            "石頭你從細用到大，都無出手，這擺分你機會啊！你个成年禮來啊！摎生番身項客人衫脫忒！你就過關吔！",
+            "Sagtěu ňg qǐung se iung do tai, du mǒ cùdsù, ìa bài bún ňg gífi à! Ňg ge sǐinngǐanlí lǒi à! Láu sángfán sǐin hong Hàgngǐn sám tòd tèd! Ňg qiu gogúan ě!",
+
+          ],
+
+        ]
+      },
+
+      {
+        "t": "14:06",
+        "rows": [
+
+          [
+
+            "水仔",
+            "社寮生理庄，兩片有通透，秤仔無偎<span class='noted'>片</span>。生个學老人毋救，死个客人，乜毋收！走！",
+            "Salǐau sénlí zóng, lìong pìen íu tǔngteu, ciinè mǒ và pìen. Sángge Hoglòngǐn m̌ giu, xìge Hàgngǐn, me m̌ sú! Zèu!",
+
+          ],
+
+        ]
+      },
+
+      {
+        "t": "14:42",
+        "rows": [
+
+          [
+
+            "林老實",
+            "田無吾份，摎學老人搶水拚命，無愛去啦！",
+            "Tǐen mǒ ngá fun, láu Hoglòngǐn qìong sùi biangmiang, mǒ oi hi là!",
+
+          ],
+
+          [
+
+            "阿九",
+            "你歇在統領埔客家庄，毋𢯭手喔？",
+            "Ňg hed di Tùnglíangpú Hàggá zóng, m̌ tensù ǒ?",
+
+          ],
+
+          [
+
+            "林",
+            "仰般？係無𢯭手，又愛燒吾屋？你還吂摎吾餔娘會失禮。",
+            "Ngìong bán? He mǒ tensù, iu oi séu ngá vùg? Ňg hǎn mǎng láu ngá bú'ngǐong fi sìidlí.",
+
+          ],
+
+          [
+
+            "阿九",
+            "你來𢯭手，吾田，贌兩<span class='TBD'>分</span>田分你。<br>若倈仔，乜有屋好歇！<br>係無，客家庄，無人想愛嫁番仔！<br>若倈仔，佢就等討社寮个土生仔，再過<span class='TBD'>＿</span>土生子啊！",
+            "Ňg lǒi tensù, ngá tǐen, piog lìong fun tǐen bún ňg. <br>Ngá laiè, me íu vùg hò hed! <br>He mǒ, Hàggá zóng, mǒ ngǐn xìong oi ga fánè! <br><div class='sidenote'> 本來記錄「生」（sén？），但聽演員講起來像 hen 的音，故改為存疑。 </div>Ňgía laiè, gǐ qiu dèn tò Salǐau ge tùsáng'è, zaigo <span class='noted'>___</span> tùsángzìi a!",
+
+          ],
+
+          [
+
+            "林",
+            "𠊎屋下人，全部<span class='TBD'>做下</span>客家人。<br><div class='sidenote'> 聽來是 Cěusǎng，並不是「柴」的客語音「cǎi」。依 salleytai 提供之資訊，漢字改用「樵城」。 </div><span class='noted'>樵</span>城學老仔，㓾過中線哩係？哼！<br>𠊎跈你去做義民爺，毋求有人拜，淨求吾倈仔有田好耕；<br>係無，你拜麼个，𠊎都去尋你！",
+            "<div class='sidenote'> 從意思來推，加上聽起來演員講「zu he」，或許我還是應該譯為「都係」才對。但是不確定為什麼演員不是唸「du he」而是像「zu he」？ </div>Ngǎi vùggá ngǐn, qǐonpu <span class='noted'>zoha</span> Hàggángǐn.<br>Cěusǎng Hoglòè, cǐi go zúngxien lè he? Hǹg! <br>Ngǎi těn ňg hi zo ngimǐnǐa, m̌ kǐu íu ngǐn bai, qiang kǐu ngá laiè íu tǐen hò gáng; <br>he mǒ, ňg bai màge, ngǎi du hi qǐm ňg!",
+
+          ],
+
+          [
+
+            "杰",
+            "阿爸！",
+            "Ábá!",
+
+          ],
+
+          [
+
+            "林",
+            "阿杰！",
+            "Á-Kied!",
+
+          ],
+
+          [
+
+            "杰",
+            "𠊎替吾阿爸去！",
+            "Ngǎi ti ngá Ábá hi!",
+
+          ],
+
+          [
+
+            "九",
+            "你十六歲哩。客家人喔，早晚愛經過這關，正做得算係大人。",
+            "Ňg siiblìug se lè. Hàggángǐn o, zòvàn oi gíngo ìa gúan, zang zodèd son he taingǐn.",
+
+          ],
+
+          [
+
+            "林",
+            "不准去！",
+            "Bùd zùn hi!",
+
+          ],
+
+          [
+
+            "九",
+            "若倈仔……",
+            "Ngía laiè...",
+
+          ],
+
+          [
+
+            "林",
+            "妹仔走忒，係講倈仔又死忒，厥姆死毋會放過𠊎。",
+            "Moiè zèu tèd, hegòng laiè iu xì tèd, gía mé xì m̌ voi bionggo ngǎi.",
+
+          ],
+
+        ]
+      },
+
+      {
+        "t": "16:54",
+        "rows": [
+
+          [
+
+            "林",
+            "頭擺，喊你去府城，你驚到會死！這下又會去相㓾？",
+            "Těubài, hém ňg hi Fùsǎng, ňg gíang do voi xì! Ìaha iu voi hi xíongcǐi?",
+
+          ],
+
+          [
+
+            "杰",
+            "阿爸！",
+            "Ábá!",
+
+          ],
+
+          [
+
+            "林",
+            "孤盲子！毋係你，𫣆就有田哩啦！",
+            "Gómózìi! M̌ he ňg, én qiu íu tǐen lè la!",
+
+          ],
+
+          [
+
+            "杰",
+            "阿爸，有船好拈。",
+            "Ábá, íu sǒn hò ngíam.",
+
+          ],
+
+        ]
+      },
+
+      {
+        "t": "17:28",
+        "rows": [
+
+          [
+
+            "阿九",
+            "無核卵……",
+            "<div class='sidenote'> 粗口，很小聲，我聽不出來，是參考網友資訊。 </div><span class='noted'>Mǒ haglòn</span>...",
+
+          ],
+
+        ]
+      },
+
+      {
+        "t": "21:00",
+        "rows": [
+
+          [
+
+            "阿九",
+            "圳埤還塞忒哩！",
+            "Zunpǐ hǎn cèd tèd lè!",
+
+          ],
+
+        ]
+      },
+
+      {
+        "t": "24:12",
+        "rows": [
+
+          [
+
+            "林",
+            "就望你阿姐，在府城日仔好過。",
+            "Qiu mong ňg ájì, di Fùsǎng ngìd'è hò go.",
+
+          ],
+
+          [
+
+            "杰",
+            "係阿姆該做生番个㓾撇？",
+            "He Ámé ge zo sángfán ge cǐi pìed?",
+
+          ],
+
+          [
+
+            "林",
+            "你十六歲哩，佇琅𤩝，毋係分人㓾死，就係做生番仔㓾人。",
+            "Ňg siiblìug se lè, di Lǒngkieu, m̌ he bún ngǐn cǐi xì, qiu he zo sángfánè cǐi ngǐn.",
+
+          ],
+
+          [
+
+            "林",
+            "有摎你阿姐講過哩，你十六歲，會帶你去府城。佢毋轉來，𫣆去尋佢！",
+            "Íu láu ňg ájì gòng go lè, ňg siiblìug se, voi dai ňg hi Fùsǎng. Gǐ m̌ zònlǒi, én hi qǐm gǐ!",
+
+          ],
+
+        ]
+      },
+
+      {
+        "t": "29:15",
+        "rows": [
+
+          [
+
+            "九",
+            "你擋水脈，分水淨流進若田，吾田毋使㘔水喔？<br>你愛畜樵城，𠊎愛畜保力、統領埔！",
+            "Ňg dòng sùimàg, bún sùi qiang lìug jin ngía tǐen, ngá tǐen m̌ sìi sái sùi o?<br>Ňg oi hìug Cěusǎng, ngǎi oi hìug Bòlid, Tùnglíangpú!",
+
+          ],
+
+          [
+
+            "",
+            "",
+            "……",
+
+          ],
+
+          [
+
+            "水",
+            "阿九哥仔，你摎生番贌个統領埔，會無愛哩。",
+            "Á-Gìu Góè, ňg láu sángfán piog ge Tùnglíangpú, voi mǒ oi lè.",
+
+          ],
+
+        ]
+      },
+
+      {
+        "t": "31:40",
+        "rows": [
+
+          [
+
+            "水",
+            "阿九哥仔啊，大家讓一步啦，好無？",
+            "Á-Gìu Góè a, taigá ngiong ìd pu la, hò mǒ?",
+
+          ],
+
+          [
+
+            "九",
+            "保力做得畜恁多人，𠊎還愛摎生番贌統領埔？",
+            "Bòlid zodèd hìug àn dó ngǐn, ngǎi hǎn oi láu sángfán piog Tùnglíangpú?",
+
+          ],
+
+        ]
+      },
+
+      {
+        "t": "32:47",
+        "rows": [
+
+          [
+
+            "九",
+            "朝晨，幾下个細人仔，看自家个阿爸，扛去埋。<br>搶毋着水，佢這兜阿爸，白白死哩！<br>客家人毋驚做義民爺，統領埔，毋退！<br>水脈，你毋好放啊，等吾人去搶！",
+            "Zéusǐin, gìhǎge se'ngǐnè, kon ciigá ge ábá, góng hi mǎi.<br>Qìong m̌ dò sùi, gǐ ìadéu ábá, pagpag xì lè!<br>Hàggángǐn m̌ gíang zo ngimǐnǐa, Tùnglíangpú, m̌ tui!<br>Sùimàg, ňg m̌ hò biong a, dèn ngá ngǐn hi qìong!",
+
+          ],
+
+          [
+
+            "水",
+            "阿九哥，毋好走啦！",
+            "Á-Gìu Gó, m̌ hò zèu la!",
+
+          ],
+
+        ]
+      },
+
+      {
+        "t": "35:50",
+        "rows": [
+
+          [
+
+            "九",
+            "這下，你做得放水脈。",
+            "Ìaha, ňg zodèd biong sùimàg.",
+
+          ],
+
+        ]
+      },
+
+      {
+        "t": "36:25",
+        "rows": [
+
+          [
+
+            "九",
+            "阿水，統領埔个火，會燒到社寮哦！",
+            "Á-Sùi, Tùnglíangpú ge fò, voi séu do Salǐau o!",
+
+          ],
+
+        ]
+      },
+
+      {
+        "t": "38:20",
+        "rows": [
+
+          [
+
+            "林",
+            "頭擺客人燒，這擺樵城學老仔燒。這屋，係你阿姆親手起个。",
+            "Těubài Hàgngǐn séu, ìa bài Cěusǎng Hoglòè séu. Ìa vùg, he ňg ámé qínsù hì ge.",
+
+          ],
+
+          [
+
+            "林",
+            "瑪祖卡，𠊎帶阿杰仔，去尋蝶妹啊，你愛保護𫣆一家人團圓。啊？",
+            "Macuka, ngǎi dai Á-Kied-è, hi qǐm Tiab-Moi a, ňg oi bòfu én ìdgángǐn tǒnǐan. A?",
+
+          ],
+
+          [
+
+            "船員",
+            "喂！客家人？𠊎尋官府！",
+            "Oi! Hàggángǐn? Ngǎi qǐm gónfù!",
+
+          ],
+
+          [
+
+            "林",
+            "官府？有官府還會燒屋啊？走啦！",
+            "Gónfù? Íu gónfù hǎn voi séu vùg a? Zèu la!",
+
+          ],
+
+          [
+
+            "",
+            "",
+            "……",
+
+          ],
+
+          [
+
+            "林",
+            "去看有麼个值錢个啊！",
+            "Hi kon íu màge dadqǐen ge a!",
+
+          ],
+
+          [
+
+            "杰",
+            "阿爸！船員！",
+            "Ábá! Sǒnǐan!",
+
+          ],
+
+        ]
+      },
+
+      {
+        "t": "40:00",
+        "rows": [
+
+          [
+
+            "水",
+            "樵城人來搬貨無愛个啊。<br>阿哥仔，社寮納番租，生番仔惱番毛仔，惱船員。<br>知船員對社寮走，收轉社寮細事情，<br>誤會𠊎摎船員𢯭手，會出草。",
+            "Cěusǎng ngǐn lǒi bán fo mǒ oi ge a.<br>Ágóè, Salǐau nab fánzú, sǎngfánè náu fánmǒè, náu sǒnǐan.<br>Dí sǒnǐan dui Salǐau zèu, sú zòn Salǐau se siiqǐn,<br>ngufi ngǎi láu sǒnǐan tensù, voi cùdcò.",
+
+          ],
+
+          [
+
+            "林",
+            "<span class='lang2'>水啊</span>，同你借幾條絡索。",
+            "<span class='lang2'>Tsuí--a</span>, tǔng ňg jia gì tǐau logsòg.",
+
+          ],
+
+          [
+
+            "水",
+            "府城路當遠啊，食飽兜仔啊。<br><div class='sidenote'>劇中華文字幕寫「順便幫我領一份吧」，但客話原意似乎比較像是水仔想要獨吞，與字幕似有出入，有待官方確認。</div>救船員个賞銀，<span class='noted'>這愛領</span>。<br>好。絡索。<br>蝶妹呴，無定著就愛轉來哩。<br>這下去府城，危險啦。",
+            "Fùsǎng lu dóng ìan a, siid bàu déu è a.<br>Giu sǒnǐan ge sònngǐun, lìa oi líang.<br>Hò. Logsòg.<br>Tiab-Moi ho, mǒ tincog qiu oi zòn lǒi lè.<br>Ìaha hi Fùsǎng, ngǔihìam la.",
+
+          ],
+
+          [
+
+            "杰",
+            "阿爸！",
+            "Ábá!",
+
+          ],
+
+          [
+
+            "林",
+            "屌若姆哩……<br>阿杰！走！",
+            "Dìau ngía mé lè...<br>Á-Kied! Zèu!",
+
+          ],
+
+        ]
+      },
+
+      {
+        "t": "44:07",
+        "rows": [
+
+          [
+
+            "林",
+            "走哩，無核卵个。<br>遽！定著會到府城尋你阿姐！來！",
+            "Zèu lè, mǒ haglòn ge.<br>Gìag! Tincog voi do Fùsǎng qǐm ňg ájì! Lǒi!",
+
+          ],
+
+          [
+
+            "杰",
+            "𠊎驚識毋出阿姐。",
+            "Ngǎi gíang sìid m̌ cùd ájì.",
+
+          ],
+
+          [
+
+            "林",
+            "遽遽！",
+            "Gìaggìag!",
+
+          ],
+
+          [
+
+            "林",
+            "偷牛賊。恬恬。",
+            "Téungǐuced. Díamdíam.",
+
+          ],
+
+          [
+
+            "杰",
+            "阿爸！",
+            "Ábá!",
+
+          ],
+
+          [
+
+            "林",
+            "<div class='sidenote'> 屏東縣楓港鄉舊名「風港」，依劇中時代背景取舊名。 </div>較去兜吔，就係<span class='noted'>風港</span>，帶佢去報官！",
+            "Ka hi déu ě, qiu he Fúnggòng, dai gǐ hi bo gón!",
+
+          ],
+
+          [
+
+            "杰",
+            "阿爸毋去吔？",
+            "Ábá m̌ hi ě?",
+
+          ],
+
+          [
+
+            "林",
+            "𠊎去哩，麼人摎你阿姆做伴啊？<span class='noted'>續</span>去！",
+            "Ngǎi hi lè, mà ngǐn láu ňg ámé zoban a? Sa hi!",
+
+          ],
+
+          [
+
+            "杰",
+            "阿爸！",
+            "Ábá!",
+
+          ],
+
+          [
+
+            "林",
+            "這兜係你阿爸㓾過个偷牛賊。<br>「亂㓾人个，定著<span class='noted'>雄</span>死」，你阿姆講个。<br>報應。",
+            "Ìadéu he ňg ábá cǐi go ge téungǐuced.<br><div class='sidenote'> 再細聽，像是 hǐung </div>&quot;Lon cǐi ngǐn ge, tincog <span class='noted'>hǐung</span>xì,&quot; ňg ámé gòng ge.<br>Boin.",
+
+          ],
+
+        ]
+      }
+    ]
+  },
+
+  {
+    "EP": "2",
+    "title": "sequljung 藍眼人",
+    "sections": [
+
+      {
+        "t": "11:26",
+        "rows": [
+
+          [
+
+            "蝶",
+            "阿弟牯，𠊎係阿姐。阿弟牯。",
+            "Ádigù, ngǎi he Ájì. Ádigù.",
+
+          ],
+
+        ]
+      },
+
+      {
+        "t": "23:37",
+        "rows": [
+
+          [
+
+            "杰",
+            "這位係哪？𠊎愛轉去尋阿爸。",
+            "Ìa vi he nai? Ngǎi oi zòn hi qǐm Ábá.",
+
+          ],
+
+        ]
+      },
+
+      {
+        "t": "24:26",
+        "rows": [
+
+          [
+
+            "杰",
+            "阿爸愛帶船員來尋你，分偷牛賊㓾死忒哩，阿姐。",
+            "Ábá oi dai sǒnǐan lǒi qǐm ňg, bún téungǐuced cǐi xì tèd lè, Ájì.",
+
+          ],
+
+          [
+
+            "蝶",
+            "毋好想阿爸哩，𠊎看着你，𠊎就安心哩。",
+            "M̌ hò xìong Ábá lè, ngǎi kon dò ňg, ngǎi qiu ónsím lè.",
+
+          ],
+
+          [
+
+            "杰",
+            "𠊎話着會認毋出阿姐。",
+            "Ngǎi va dò voi ngin m̌ cùd Ájì.",
+
+          ],
+
+          [
+
+            "蝶",
+            "阿姐認得出你啊。來。你再過睡加一下吔。",
+            "Ájì ngin dèd cùd ňg a. Lǒi. Ňg zai go soi gá ìd há ě.",
+
+          ],
+
+        ]
+      },
+
+      {
+        "t": "26:07",
+        "rows": [
+
+          [
+
+            "杰",
+            "阿姐，鞋忒大吔。",
+            "Ájì, hǎi tèd tai ě.",
+
+          ],
+
+          [
+
+            "蝶",
+            "遽兜吔。來！愛去摎你安戶。",
+            "Gìag déu ě. Lǒi! Oi hi láu ňg ónfu.",
+
+          ],
+
+          [
+
+            "蝶",
+            "在府城，毋好講番話。<br>這位有人罵你生番仔，毋好承認。<br>下二擺，就行這條路轉去。",
+            "Di Fùsǎng, m̌ hò gòng fánfa.<br>Ìa vi íu ngǐn ma ňg sángfánè, m̌ hò sǐinngin.<br>Ha ngi bài, qiu hǎng ìa tǐau lu zòn hi.",
+
+          ],
+
+          [
+
+            "",
+            "",
+            "……",
+
+          ],
+
+          [
+
+            "蝶",
+            "府城毋會有人燒若屋。",
+            "Fùsǎng m̌ voi íu ngǐn séu ngía vùg.",
+
+          ],
+
+        ]
+      },
+
+      {
+        "t": "27:02",
+        "rows": [
+
+          [
+
+            "蝶",
+            "等一下到打石場，愛忍耐。無分打，毋會出師。",
+            "Dènìdha do dàsagcǒng, oi ngíunnai. Mǒ bún dà, m̌ voi cùdsíi.",
+
+          ],
+
+          [
+
+            "杰",
+            "𠊎早就在阿爸該出師哩。",
+            "Ngǎi zò qiu di Ábá ge cùdsíi lè.",
+
+          ],
+
+        ]
+      },
+
+      {
+        "t": "43:10",
+        "rows": [
+
+          [
+
+            "蝶",
+            "阿弟牯！<br>阿弟牯！",
+            "Ádigù!<br>Ádigù!",
+
+          ],
+
+          [
+
+            "杰",
+            "阿姐。",
+            "Ájì.",
+
+          ],
+
+          [
+
+            "蝶",
+            "你兜去哪啊？還毋轉去醫生館？",
+            "Ňgdéu hi nai a? Hǎn m̌ zòn hi ísánggùan?",
+
+          ],
+
+          [
+
+            "杰",
+            "𠊎該下去賺外水。",
+            "Ngǎi geha hi con ngoisùi.",
+
+          ],
+
+          [
+
+            "蝶",
+            "外水？歸身仔溚潦，去哪吔？",
+            "Ngoisùi? Gúi síinè dablǎu, hi nai ě?",
+
+          ],
+
+          [
+
+            "杰",
+            "拈船仔。",
+            "Ngíam sǒnè.",
+
+          ],
+
+          [
+
+            "蝶",
+            "這位毋係琅𤩝，府城个船仔，都有主人吔。",
+            "Ìavi m̌ he Lǒngkieu, Fùsǎng ge sǒnè, du íu zù'ngǐn ě.",
+
+          ],
+
+        ]
+      },
+
+      {
+        "t": "45:04",
+        "rows": [
+
+          [
+
+            "杰",
+            "講生番仔，𠊎做毋得承認；<br>唐山人，又喬着無像。",
+            "Gòng sángfánè, ngǎi zo-m̌-dèd sǐinngin; <br>Tǒngsánngǐn, iu kǐeu dò mǒ qiong.",
+
+          ],
+
+        ]
+      }
+    ]
+  },
+
+  {
+    "EP": "3",
+    "title": "sasekauljan 僕人",
+    "sections": [
+
+      {
+        "t": "2:37",
+        "rows": [
+
+          [
+
+            "九",
+            "琅𤩝，無官府！",
+            "Lǒngkieu, mǒ gónfù!",
+
+          ],
+
+        ]
+      },
+
+      {
+        "t": "4:10",
+        "rows": [
+
+          [
+
+            "水",
+            "哪像你兜客人，還去拈船。",
+            "Nai qiong ňgdéu Hàgngǐn, hǎn hi ngíam sǒn.",
+
+          ],
+
+          [
+
+            "九",
+            "官府講啊，琅𤩝，「禁地荒埔」！分𫣆這兜，「自生自滅」！<br>死船員，就喊𫣆這兜，拿生番个人頭交差、繳罰个錢？<br>天光日，通譯，來收人頭，𠊎出面！<br>續下來，你上山！摎通譯个人頭分生番仔！<br>講，𠊎替佢這兜啊，解決忒！𠊎愛贌轉統領埔！",
+            "Gónfù gòng a, Lǒngkieu, &quot;gimti fóngpú&quot;! Bún én ìadéu, &quot;cii sáng cii mied&quot;!<br>Xì sǒnǐan, qiu hém én ìadéu, ná sángfán ge ngǐntěu gáucái, gìeu fad ge qǐen?<br>Tǐengóngngìd, Tǔng'id, lǒi sú ngǐntěu, ngǎi cùdmien!<br>Sa há lǒi, ňg sǒng sán! Láu Tǔng'id ge ngǐntěu bún sángfánè!<br>Gòng, ngǎi tai gǐ ìadéu a, gìaigìad tèd! Ngǎi oi piog zòn Tùnglíangpú!",
+
+          ],
+
+        ]
+      },
+
+      {
+        "t": "6:20",
+        "rows": [
+
+          [
+
+            "九",
+            "偷牛賊，係風港該片个唐山人，生得摎生番無共樣啦！唉！",
+            "Téungǐuced, he Fúnggòng ge pìen ge Tǒngsánngǐn, sén dèd láu sángfán mǒ kiungiong la! Ai!",
+
+          ],
+
+          [
+
+            "水",
+            "毋使愁，𠊎會處理。",
+            "M̌sìi sěu, ngǎi voi cùlí.",
+
+          ],
+
+        ]
+      },
+
+      {
+        "t": "11:40",
+        "rows": [
+
+          [
+
+            "九",
+            "熱病會遰人！𠊎兜係高不將个！你兜，另外尋位所歇！",
+            "Ngiadpiang voi ce ngǐn! Ngǎidéu he góbùdjíong ge! Ňgdéu, nangngoi qǐm visò hed!",
+
+          ],
+
+        ]
+      },
+
+      {
+        "t": "27:00",
+        "rows": [
+
+          [
+
+            "蝶",
+            "鞋改好哩，去做事！去啊！",
+            "Hǎi gòi hò lè, hi zose! Hi a!",
+
+          ],
+
+        ]
+      },
+
+      {
+        "t": "34:00",
+        "rows": [
+
+          [
+
+            "杰",
+            "這，阿姐路項食，你分𠊎个錢買个。",
+            "Ìa, Ájì lu hong siid, ňg bún ngǎi ge qǐen mai ge.",
+
+          ],
+
+          [
+
+            "蝶",
+            "你去街項喔？",
+            "Ňg hi gíai hong o?",
+
+          ],
+
+          [
+
+            "杰",
+            "還吂到街項啊。",
+            "Hǎn mǎng do gíai hong a.",
+
+          ],
+
+        ]
+      },
+
+      {
+        "t": "34:24",
+        "rows": [
+
+          [
+
+            "蝶",
+            "放工，你行街項，轉醫生館。",
+            "Bionggóng, ňg hǎng gíai hong, zòn íséngùan.",
+
+          ],
+
+          [
+
+            "杰",
+            "佢兜會罵𠊎生番仔。",
+            "Gǐdéu voi ma ngǎi sángfánè.",
+
+          ],
+
+          [
+
+            "蝶",
+            "你聽多哩，就聽毋着哩。",
+            "Ňg táng dó lè, qiu táng m̌ dò lè.",
+
+          ],
+
+        ]
+      }
+    ]
+  },
+
+  {
+    "EP": "4",
+    "title": "sacemecemel 蠻荒之境",
+    "sections": [
+
+      {
+        "t": "1:52",
+        "rows": [
+
+          [
+
+            "蝶",
+            "阿弟牯！",
+            "<div class='sidenote'>原文僅是呼喚弟弟之用語，可能因為英語語境會稱呼名字、「Brother」另有其他用法，所以英文字幕寫的是名字，連帶也影響華文字幕。不然華文字幕翻譯成「弟弟」也應該沒問題吧。 </div><span class='noted'>Ádigù</span>!",
+
+          ],
+
+          [
+
+            "蝶",
+            "尋紅毛仔做若保人，官軍毋會尋若麻煩啊。",
+            "Qǐm fǔngmóè zo ngía bòngǐn, góngíun m̌ voi qǐm ngía mǎfǎn a.",
+
+          ],
+
+          [
+
+            "杰",
+            "定著愛去府城搬石頭？做毋得留下來整屋<span class='TBD'>係</span>？",
+            "Tincog oi hi Fùsǎng bán sagtěu? Zo-m̌-dèd lǐu há lǒi zàng vùg <span class='TBD'>he</span>?",
+
+          ],
+
+          [
+
+            "杰",
+            "佢兜係愛燒屋仔，𠊎囥去灶頭用泥埋忒。",
+            "Gǐdéu he oi séu vùg'è, ngǎi kong hi zotěu iung nǎi mǎi tèd.",
+
+          ],
+
+          [
+
+            "杰",
+            "放轉去啦。無地方好囥吔。",
+            "Biong zòn hi la. Mǒ tifóng hò kong ě.",
+
+          ],
+
+          [
+
+            "蝶",
+            "𠊎做麼个愛囥啊？",
+            "Ngǎi zo màge oi kong a?",
+
+          ],
+
+        ]
+      },
+
+      {
+        "t": "3:55",
+        "rows": [
+
+          [
+
+            "瑪祖卡",
+            "𠊎一屋下人，無位所好去吔，莫燒，𠊎自家走。",
+            "Ngǎi ìd vùg<span class='TBD'>k</span>á ngǐn, mǒ visò hò hi ě, mog séu, ngǎi ciigá zèu.",
+
+          ],
+
+        ]
+      },
+
+      {
+        "t": "6:10",
+        "rows": [
+
+          [
+
+            "杰",
+            "會帶𠊎阿姐走，就遽走！",
+            "Voi dai ngǎi ájì zèu, qiu gìag zèu!",
+
+          ],
+
+        ]
+      },
+
+      {
+        "t": "7:03",
+        "rows": [
+
+          [
+
+            "蝶",
+            "這分你。",
+            "Ìa bún ňg.",
+
+          ],
+
+          [
+
+            "杰",
+            "這屋係阿姆帶等𫣆兜起个，<br>你毋想轉來，無相干，還有𠊎。<br>𠊎摎佢整好。<br>你走啦，記得轉來看𠊎。",
+            "Ìa vùg he Ámé dai dèn éndéu hì ge,<br>ňg m̌ xìong zòn lǒi, mǒ xíongkón, hǎn íu ngǎi.<br>Ngǎi láu gǐ zàng hò.<br>Ňg zèu la, gidèd zòn lǒi kon ngǎi.",
+
+          ],
+
+        ]
+      },
+
+      {
+        "t": "22:05",
+        "rows": [
+
+          [
+
+            "蝶",
+            "𠊎兜愛來尋船員个！",
+            "Ngǎidéu oi lǒi qǐm sǒnǐan ge!",
+
+          ],
+
+          [
+
+            "九",
+            "船員無在這！毋知去哪位哩！",
+            "Sǒnǐan mǒ di ìa! M̌ dí hi naivi lè!",
+
+          ],
+
+          [
+
+            "九",
+            "你這隻生番仔，帶紅毛番來，走啊！",
+            "Ňg ìa zàg sángfánè, dai fǔngmófán lǒi, zèu a!",
+
+          ],
+
+          [
+
+            "蝶",
+            "毋分𠊎兜入村，會有較多紅毛番來。<br>佢兜會燒村仔，摎你頭擺燒吾屋共樣。",
+            "M̌ bún ngǎidéu ngib cún, voi íu ka dó fǔngmófán lǒi.<br>Gǐdéu voi séu cúnè, láu ňg těubài séu ngá vùg kiungiong.",
+
+          ],
+
+          [
+
+            "九",
+            "頭擺，燒若屋，係高不將个。該下講過哩，村肚項，無船員，走啦！",
+            "Těubài, séu ngía vùg, he góbùdjíong ge. Geha gòng go lè, cún dùhong, mǒ sǒnǐan, zèu la!",
+
+          ],
+
+          [
+
+            "蝶",
+            "樵城頭人定著會當暢。佢分𠊎兜入村尋船員，<br>紅毛番摎樵城轉朋友，你係紅毛番个死對頭。",
+            "Cěusǎng těungǐn tincog voi dóng tiong. Gǐ bún ngǎidéu ngib cún qǐm sǒnǐan,<br>fǔngmófán láu Cěusǎng zòn pěníu, ňg he fǔngmófán ge xìduitěu.",
+
+          ],
+
+        ]
+      },
+
+      {
+        "t": "23:48",
+        "rows": [
+
+          [
+
+            "蝶",
+            "帶𠊎去你拈船个地方，𠊎兜正分你錢。",
+            "Dai ngǎi hi ňg ngíamsǒn ge tifóng, ngǎidéu zang bún ňg qǐen.",
+
+          ],
+
+        ]
+      },
+
+      {
+        "t": "27:10",
+        "rows": [
+
+          [
+
+            "蝶",
+            "你頭擺摎吾爸、吾姆逐出保力庄，<br>吾爸係客家人吔！樵城頭人講个。",
+            "Ňg těubài láu ngá bá, ngá mé gìug cùd Bòlid Zóng,<br>ngá bá he Hàggángǐn ě! Cěusǎng těungǐn gòng ge.",
+
+          ],
+
+          [
+
+            "九",
+            "你阿爸，係𢫦𢫦風走出來个客家人，<br>對山該片走出來个客家人，佢毋識講係？",
+            "<div class='sidenote'> 這個詞我只能聽出音像是「màmàfùng」，所幸社群朋友協助輾轉提供正確的詞。☞ <a href='https://www.moedict.tw/:%F0%A2%AB%A6%F0%A2%AB%A6%E9%A2%A8'>萌典</a> </div>Ňg ábá, he <span class='noted'>magmagfúng</span> zèu cùd lǒi ge Hàggángǐn,<br>dui sán ge pìen zèu cùd lǒi ge Hàggángǐn, gǐ m̌ siid gòng he?",
+
+          ],
+
+          [
+
+            "蝶",
+            "山个該片，係哪位吔？",
+            "Sán ge ge pìen, he naivi ě?",
+
+          ],
+
+          [
+
+            "九",
+            "蚊蟀埔啊，佢自家講个啊。<br><div class='sidenote'> 這個詞似乎沒得查，我依中華民國民法「使用人」的相似意義姑且用之。待官方確認。 </div>帶等一隻生番个細妹仔，講乜係蚊蟀埔个生番仔，部落个<span class='noted'>使用人</span>啊。<br>試著奇怪呴？𠊎乜係啊！<br>保力庄啊，毋收留來路不明个人。",
+            "<div class='sidenote'> 「蟀」的音是查徐兆泉詞典的，但聽演員講起來有點像「Mǔnsuepú」，也許是「率 soi」。 </div><span class='noted'>Múnsùdpú</span> a, gǐ ciigá gòng ge a.<br>Dai dèn ìd zàg sángfán ge semoiè, gòng me he Múnsùdpú ge sángfánè, pulog ge sìiiongngǐn a.<br>Sii dò kǐguai ho? Ngǎi me he a!<br>Bòlid Zóng a, m̌ súlǐu lǒilubùdmǐn ge ngǐn.",
+
+          ],
+
+          [
+
+            "村人",
+            "頭人，會走吔。",
+            "Těungǐn, voi zèu ě.",
+
+          ],
+
+          [
+
+            "九",
+            "還有外人，會來琅𤩝無？",
+            "Hǎn íu ngoingǐn, voi lǒi Lǒngkieu mǒ?",
+
+          ],
+
+          [
+
+            "蝶",
+            "毋會有人再過來哩。",
+            "M̌ voi íu ngǐn zai go lǒi lè.",
+
+          ],
+
+        ]
+      }
+    ]
+  },
+
+  {
+    "EP": "5",
+    "title": "tinaidayananga cavilj a maljaljekuya<br> 百年恩怨",
+    "sections": [
+
+      {
+        "t": "12:16",
+        "rows": [
+
+          [
+
+            "杰",
+            "你毋記得哩？𠊎還記得。你離開琅𤩝，存𠊎摎阿爸，想阿姆个時節，𠊎就會上來。<div class='sidenote'>這段裡的「逐擺」、「樹林」剛好都和閩南話相近 XD</div>佢逐擺都行這條路，帶等𠊎兜去該片樹林，講去，就係部落，厥个屋。佢包尾，還係轉到該，在該過身。",
+            "Ňg m̌ gidèd lè? Ngǎi hǎn gidèd. Ňg lǐkói Lǒngkieu, cǔn ngǎi láu Ábá, xìong Ámé ge sǐijìed, ngǎi qiu voi sóng lǒi. Gǐ dàgbài du hǎng ìa tǐau lu, dai dèn ngǎidéu hi ge pìen sunǎ, gòng zai gohi, qiu he pulog, gía ge vùg. Gǐ báumí, hǎn he zòn dò ge, di ge gosíin.",
+
+          ],
+
+          [
+
+            "",
+            "該片樹林，就在面頂。",
+            "Ge pìen sunǎ, qiu di miendàng.",
+
+          ],
+
+          [
+
+            "蝶",
+            "𠊎想起來哩。你留在這，𠊎去尋部落。",
+            "Ngǎi xìong hìlǒi lè. Ňg lǐu di ìa, ngǎi hi qǐm pulog.",
+
+          ],
+
+          [
+
+            "杰",
+            "𠊎跈你去。",
+            "Ngǎi těn ňg hi.",
+
+          ],
+
+          [
+
+            "蝶",
+            "𠊎驚會出事情，𠊎自家去。該條路，壞行。",
+            "Ngǎi gíang voi cùd siiqǐn, ngǎi qidgá hi. Ge tǐau lu, fai hǎng.",
+
+          ],
+
+        ]
+      }
+    ]
+  },
+
+  {
+    "EP": "6",
+    "title": "venalet 叛變",
+    "sections": [
+
+      {
+        "t": "12:20",
+        "rows": [
+
+          [
+
+            "林",
+            "瑪祖卡，毋怕，𠊎去尋藥仔。<br>杰仔，來！",
+            "Macuka, m̌ pa, ngǎi hi qǐm iog'è.<br>Kied'è, lǒi!",
+
+          ],
+
+          [
+
+            "九",
+            "還毋搬走！熱病會遰人个！燒！",
+            "Hǎn m̌ bán zèu! Ngiadpiang voi ce ngǐn ge! Séu!",
+
+          ],
+
+        ]
+      }
+    ]
+  },
+
+  {
+    "EP": "7",
+    "title": "aljak a vavayan na mazazangiljan<br> 福爾摩莎公主",
+    "sections": [
+
+      {
+        "t": "2:42",
+        "rows": [
+
+          [
+
+            "九",
+            "你做得出幾多仔人？伏在琅𤩝入口，官軍一隻乜走毋忒。",
+            "Nǧ zodèd cùd gìdóè ngǐn? Fug di Lǒngkieu ngibkìeu, góngíun ìd zàg me zèu m̌ tèd.",
+
+          ],
+
+        ]
+      },
+
+      {
+        "t": "3:30",
+        "rows": [
+
+          [
+
+            "九",
+            "嘿！共下出陣哩！𠊎乜會損失人，哪有力氣滅若庄啦！",
+            "Hè! Kiungha cùdciin lè! Ngǎi me voi sùnsìid ngǐn, nai íu lidhi mied ngía zóng là!",
+
+          ],
+
+          [
+
+            "丙",
+            "麼个「共下出陣」？……",
+            "Màge &quot;kiungha cùdciin&quot;?...",
+
+          ],
+
+          [
+
+            "九",
+            "𠊎無恁樣想哩！你哩？<span class='TBD'>想</span>出一半个人哦？",
+            "Ngǎi mǒ ànngǐong xìong lè! Ňg lè? <span class='TBD'>Xìong</span> cùd ìdban ge ngǐn o?",
+
+          ],
+
+        ]
+      },
+
+      {
+        "t": "4:30",
+        "rows": [
+
+          [
+
+            "九",
+            "𫣆摎生番仔，無來往啊，生番仔个事情喔，社寮自家處理。𠊎轉去，歸庄所有个門，封起來。",
+            "Én láu sángfánè, mǒ lǒivóng à, sángfánè ge siiqǐn ò, Salǐau qìdgá cùlí.<br>Ngǎi zònhi, gúi zóng sòíu ge mǔn, fúng hìlǒi.",
+
+          ],
+
+          [
+
+            "水",
+            "好啊！共下等死啊。",
+            "Hò a! Kiungha dèn xì a.",
+
+          ],
+
+          [
+
+            "九",
+            "麼个啊？",
+            "Màge a?",
+
+          ],
+
+        ]
+      },
+
+      {
+        "t": "5:50？",
+        "rows": [
+
+          [
+
+            "水",
+            "食得起？",
+            "Siid dèd hì?",
+
+          ],
+
+        ]
+      },
+
+      {
+        "t": "9:50",
+        "rows": [
+
+          [
+
+            "蝶",
+            "你兜擲死貓仔過來，吾姆正破病个。",
+            "Ňgdéu deb xì meuè golǒi, ngá mé zang popiang ge.",
+
+          ],
+
+          [
+
+            "杰",
+            "阿姐……",
+            "Ájì...",
+
+          ],
+
+        ]
+      },
+
+      {
+        "t": "21:00",
+        "rows": [
+
+          [
+
+            "九",
+            "係講啊，樵城無留暗步，摎𠊎伏在該琅𤩝路口，官軍無定著入毋得。",
+            "Hegòng a, Cěusǎng mǒ lǐu anpu, láu ngǎi fug di ge Lǒngkieu lu kìeu, góngíun mǒ tincog ngib m̌ dèd.",
+
+          ],
+
+          [
+
+            "水",
+            "<div class='sidenote'> 我聽演員唸這個「就」感覺有點像臺語「tiō」 </div>這話，等見總兵官正講啦。<span class='lang2'>一丙阿兄</span>定著當想聽个啊。啊你人頭落地，樵城乜省事。<span class='noted'>下二擺</span>喔，<span class='noted'>就</span>毋使摎你相㓾个哩！",
+            "<div class='sidenote'> 「下二擺」符合這邊的語意，但聽來像「han 擺」，不知是有連音效應，還是演員發音問題。（我對客話真的還有蠻多不瞭解的）</div>Lìa fa, dèn gian Zùngbín'gón zang gòng là. <span class='lang2'>It-píng A-hiann</span> tincog dóng xìong táng ge a. A ňg ngǐntěu logti, Cěusǎng me sàngsii. <span class='noted'>Hanbài (Ha ngi bài)</span> ò, qiu m̌sìi láu ňg xíongcǐi ge lè!",
+
+          ],
+
+          [
+
+            "九",
+            "你講麼个！",
+            "Ňg gòng màge!",
+
+          ],
+
+        ]
+      },
+
+      {
+        "t": "27:00",
+        "rows": [
+
+          [
+
+            "水",
+            "阿九哥仔，樵城 1 千 5 百人，離山項个生番當遠啊；保力，400 人，偎山邊，生番仔報冤仇喔，你兜客人，淨做得跳海泅轉唐山。生番仔會交凶手？定著打起來。生番仔在山肚幾下百年，逐得走係？𫣆琅𤩝，幾下代哩，乜走毋忒啦。",
+            "Á-Gìu Góè, Cěusǎng ìd qíen ǹg bàg ngǐn, lǐ sánhong ge sángfán dóng ìan à;<br>Bòlid, xi bàg ngǐn, và sán bíen, sángfánè bo íansǔ ò, ňgdéu Hàgngǐn, qiang zodèd tiau hòi qǐu zòn Tǒngsán. Sángfánè voi gáu híungsù? Tincog dà hìlǒi. Sángfánè di sán dù gìhá bàg ngǐan, gìug dèd zèu he? Én Lǒngkieu, gìhá toi lè, me zèu m̌ tèd là.",
+
+          ],
+
+          [
+
+            "",
+            "係講，分總兵官知你本想伏厥兜吔，哈哈哈……",
+            "Hegòng, bún Zùngbín'gón dí ňg bùn xìong pug gíadéu ě, hahaha...",
+
+          ],
+
+          [
+
+            "九",
+            "屌你阿姆啊！啊？你乜贊成、你乜有份啦！",
+            "Dìau ňg ámé à! A? Ňg me zansǐin, ňg me íufun là!",
+
+          ],
+
+          [
+
+            "水",
+            "<div class='sidenote'> 聽不清楚，需要協助 QQ </div>講笑个啦！<span class='TBD'>放下</span>……",
+            "Gòngseu ge là! <span class='TBD'>Bionghá</span>...",
+
+          ],
+
+          [
+
+            "九",
+            "樵城 1500 人，佢兜愛升軍旗，𠊎伏在哪下都無用啦！啊！夭壽子啦。夭壽子。",
+            "Cěusǎng ìd qíen ǹg bàg ngǐn, gǐdéu oi síin gíunkǐ, ngǎi pug di naiha du mǒ iung là! À! Íeusuzìi la. Íeusuzìi.",
+
+          ],
+
+          [
+
+            "水",
+            "𠊎毋著、𠊎毋著。",
+            "Ngǎi m̌ cog, ngǎi m̌ cog.",
+
+          ],
+
+          [
+
+            "九",
+            "想害𠊎哦？啊？𠊎摎你講啦！𠊎走投無路，先㓾社寮，再分總兵官斷頭！",
+            "Xìong hoi ngǎi o? A? Ngǎi láu ňg gòng là! Ngǎi zèutěumǒlu, xíen cǐi Salǐau, zai bún Zùngbín'gón dòntěu!",
+
+          ],
+
+        ]
+      },
+
+      {
+        "t": "32:00",
+        "rows": [
+
+          [
+
+            "姆",
+            "頭人無頭，就毋係頭人啊！你毋驚剁頭係無？",
+            "Těungǐn mǒ těu, qiu m̌ he těungǐn à! Ňg m̌ gíang dogtěu he mǒ?",
+
+          ],
+
+          [
+
+            "九",
+            "唉。該片喔，官軍，愛剁頭；這片哩，生番仔愛出草，兩條路都無通啊。",
+            "Ài. Ge pìen ò, góngíun, oi dogtěu; ìa pìen lè, sángfánè oi cùdcò, lìong tǐau lu du mǒ túng à.",
+
+          ],
+
+          [
+
+            "姆",
+            "生番仔收轉去統領埔，<span class='TBD'>撤</span>轉來个人，豬寮雞寮，歇都<span class='TBD'>＿＿</span>。少忒統領埔个田喔，續下來，會缺糧哩。",
+            "Sángfánè sú zòn hi Tùnglíangpú, <span class='TBD'>càd</span> zònlǒi ge ngǐn, zúlǐau gíelǐau, hed du <span class='TBD'>____</span>. Sèu tèd Tùnglíangpú ge tǐen ò, sa hálǒi, voi kìad lǐong lè.",
+
+          ],
+
+          [
+
+            "九",
+            "再過尋，阿水仔傳話，喊生番仔，摎統領埔贌分𠊎？",
+            "Zaigo qǐm, Á-Sùiè cǒnfa, hém sángfánè, láu Tùnglíangpú piog bún ngǎi?",
+
+          ],
+
+          [
+
+            "姆",
+            "<div class='sidenote'> 「毋係」感覺有連音變成 me </div>佢毋會摎你傳話啦。佢<span class='TBD'>拆</span>忒統領埔，拆忒，好起新个<span class='noted'>毋係</span>？",
+            "Gǐ m̌ voi láu ňg cǒnfa là. Gǐ <span class='TBD'>càg</span> tèd Tùnglíangpú, càg tèd, hò hì xínge <span class='noted'>me</span>?",
+
+          ],
+
+          [
+
+            "九",
+            "喔，生番仔交代个，臨時交換所定定啦。",
+            "Ò, sángfánè gáudai ge, lǐmsǐi gáuvonsò tintin là.",
+
+          ],
+
+          [
+
+            "姆",
+            "一<span class='TBD'>塊</span>土地空做該，無人打主意啊？阿水無愛，樵城乜無愛，就等你哦？統領埔拿毋轉來哩啦。想過下一步哪。",
+            "Ìd <span class='TBD'>kuai</span> tùti kung zo ge, mǒ ngǐn dà zù'i a? Á-Sùi mǒ oi, Cěusǎng me mǒ oi, qiu dèn ňg o? Tùnglíangpú ná m̌ zònlǒi lè la. Xìong go há ìd pu <span class='TBD'>nai</span>.",
+
+          ],
+
+          [
+
+            "九",
+            "𠊎過毋下去喔，麼人搶統領埔，𠊎就㓾過去喔！",
+            "Ngǎi go m̌ háhi ò, mà ngǐn qìong Tùnglíangpú, ngǎi qiu cǐi gohi ò!",
+
+          ],
+
+          [
+
+            "姆",
+            "<div class='sidenote'> 母的「你」似乎都是 ngi，有點北苗、新竹口音？ </div>唉。幾下代哩，𫣆等摎樵城，你無來，𠊎無去，無進也無退，想看啊仔兩片，無搶走麼个，也無搶着麼个毋係？",
+            "Ài. Gìhá toi lè, éndén láu Cěusǎng, <span class='noted'>ngǐ</span> mǒ lǒi, ngǎi mǒ hi, mǒ jin ía mǒ tui, xìong kon a è lìong pìen, mǒ qìong zèu màge, ía mǒ qìong dò màge me?",
+
+          ],
+
+          [
+
+            "九",
+            "做麼<span class='TBD'>＿</span>？愛摎學老講和？幾下代人个冤仇，就恁樣清了？",
+            "Zo mà <span class='TBD'>__</span>? Oi láu Hoglò gòngfǒ? Gìhá toi ngǐn ge íansǔ, qiu ànngǐong qín <span class='TBD'>é</span>?",
+
+          ],
+
+          [
+
+            "姆",
+            "你兜去見官軍，行共條路，去个時節無計較，轉來，乜無算事毋係？",
+            "Ngǐdéu hi gian góngíun, hǎng kiung tǐau lu, hi ge sǐijìed mǒ giegàu, zònlǒi, me mǒ son sii me?",
+
+          ],
+
+          [
+
+            "九",
+            "係講，樵城升旗？𠊎係跈佢行絕路哦？",
+            "Hegòng, Cěusǎng síinkǐ? Ngǎi he tèn gǐ hǎng qiedlu o?",
+
+          ],
+
+          [
+
+            "姆",
+            "人多个路啊，毋會係絕路啦。係講樵城升旗，你愛比佢，還愛慢兜升。",
+            "<div class='sidenote'> 梅芳阿姨唸 gai XD 腔調很明顯 </div>Ngǐn dó <span class='noted'>gai</span> lu à, m̌ voi he qiedlu là. Hegòng Cěusǎng síinkǐ, ňg oi bì gǐ, hǎn oi man déu síin.",
+
+          ],
+
+        ]
+      }
+    ]
+  },
+
+  {
+    "EP": "8",
+    "title": "ljangudan 獵物",
+    "sections": [
+
+      {
+        "t": "20:17",
+        "rows": [
+
+          [
+
+            "姆",
+            "偎生番仔該片个圍牆，逐日愛去巡哦。生番仔定著會來。",
+            "Và sángfánè ge pìen ge vǐxǐong, dàg ngìd oi hi sǔn ó. Sángfánè tincog voi lǒi.",
+
+          ],
+
+          [
+
+            "九",
+            "𠊎知啊。",
+            "Ngǎi di a.",
+
+          ],
+
+          [
+
+            "村人",
+            "頭人，官軍到吔。",
+            "Těungǐn, gón'gíun do ě.",
+
+          ],
+
+          [
+
+            "姆",
+            "入土看時辰，出門看時機。忒早啦！",
+            "Ngibtù kon sǐisǐin, cùdmǔn kon sǐigí. Tèd zò là!",
+
+          ],
+
+          [
+
+            "九",
+            "阿姆啊，你毋係講啊，人多个路，毋係絕路啊？樵城升旗喔。",
+            "Ámé à, ňg m̌ he gòng à, ngǐn dó ge lu, m̌ he qiedlu a? Cěusǎng síinkǐ o.",
+
+          ],
+
+          [
+
+            "姆",
+            "人還無罅啦。",
+            "Ngǐn hǎn m̌ la là.",
+
+          ],
+
+          [
+
+            "九",
+            "啊？",
+            "A?",
+
+          ],
+
+          [
+
+            "姆",
+            "路項淨有樵城、官軍，無看着生番仔啊。做毋得分官軍入庄。分佢兜在庄口等。",
+            "Lu hong qiang íu Cěusǎng, gón'gíun, mǒ kon dò sángfánè a. Zo-m̌-dèd bún góngíun ngib zóng. Bun gǐdéu di zóngkìeu dèn.",
+
+          ],
+
+          [
+
+            "九",
+            "嘿，係講啊，官軍係毋想等，係走忒哩呢？",
+            "Hè, hegòng à, gón'gíun he m̌ xìong dèn, he zèu tèd lè ne?",
+
+          ],
+
+          [
+
+            "姆",
+            "毋會走啦。淨樵城升旗，無保力，官軍無才調啦。",
+            "M̌ voi zèu la. Qiang Cěusǎng síinkǐ, mǒ Bòlid, gón'gíun mǒ cǒitiau là.",
+
+          ],
+
+          [
+
+            "",
+            "𫣆俚愛官軍摎生番仔配合𫣆俚，<br><div class='sidenote'> 是有腔調也用「是 sii」當作繫詞嗎？ </div>𫣆俚<span class='noted'>是</span>秤仔，琅𤩝个秤仔，<br>偎官軍這片，生番仔會驚；<br>偎生番仔這片，官軍會敗。<br>這下，兩頭秤頭是空个毋係？<br>𫣆俚還吂升旗，官軍定著會來放斤兩。<br>毋好分官軍入庄，生番仔在山頂乜看得着，<br>佢乜會來放斤兩。<br>到尾，𫣆俚看兩片，哪片斤兩較足，<br>𫣆俚就偎哪片。啊？",
+            "Énlì oi gón'gíun láu sángfánè pihab énlì,<br>énlì sii ciinè, Lǒngkieu ge ciinè,<br>và gón'gíun lìa pìen, sángfánè voi gíang;<br>và sángfánè lìa pìen, gón'gíun voi pai.<br><div class='sidenote'>聽來像 liha，該不會梅芳阿姨有饒平腔還是詔安腔的背景？ </div><span class='noted'>Lìaha</span>, lìong těu ciintěu sii kúngge me?<br>Énlì hǎn mǎng síinkǐ, gón'gíun tincog voi lǒi biong gínlíong.<br>M̌ hò bún gón'gíun ngib zóng, sángfánè di sán dàng me kon dèd dò,<br>gǐ me voi lǒi biong gínlíong.<br>Domí, énlì kon lìong pìen, nai pìen gínlíong ka jìug,<br>énlì qiu và nai pìen. A?",
+
+          ],
+
+          [
+
+            "村人",
+            "官軍等到佇毋著哩。",
+            "Gón'gíun dèn do du m̌ dǐau lè.",
+
+          ],
+
+          [
+
+            "姆",
+            "哈。毋會走啦。佢還要你遽遽出去哩！嘿，去看，看厥兜，分幾多斤兩，哈？",
+            "Ha. M̌ voi zèu là. Gǐ hǎn oi ňg gìaggìag cùdhi lè! Hè, hi kon, kon gíadéu, bún gì dó gínlíong, ha?",
+
+          ],
+
+          [
+
+            "",
+            "小心蝶妹啊！佢分官軍，少斤減兩哦。頭擺，你會燒厥屋，㓾厥姆个冤仇，重過天喔。",
+            "Sèuxím Tiab Moi à! Gí bún gón'gíun, sèugíngàmlíong o. Těubài, ňg voi séu gía vùg, cǐi gía mé ge íansǔ, qǐung go tíen ò.",
+
+          ],
+
+        ]
+      },
+
+      {
+        "t": "25:00",
+        "rows": [
+
+          [
+
+            "蝶",
+            "統領埔个事情，總兵官會派人來查。",
+            "Tùnglíangpú ge siiqǐn, Zùngbín'gón voi pai ngǐn lǒi cǎ.",
+
+          ],
+
+          [
+
+            "九",
+            "頭擺，燒若屋，係高不將。",
+            "Těubài, séu ngía vùg, he góbùdjíong.",
+
+          ],
+
+          [
+
+            "蝶",
+            "頭擺个事情……",
+            "Těubài ge siiqǐn...",
+
+          ],
+
+          [
+
+            "九",
+            "這擺你轉來做通譯，係講啊，想愛借等官軍報冤仇，𠊎毋會放過你啊。",
+            "Ìa bài ňg zònlǒi zo tǔng'id, hegòng à, xìong oi jia dèn gón'gíun bo íansǔ, ngǎi m̌ voi bionggo ňg à.",
+
+          ],
+
+        ]
+      },
+
+      {
+        "t": "37:20",
+        "rows": [
+
+          [
+
+            "",
+            "故所，你毋會升旗，乜毋會摎外人个軍隊𢯭手。",
+            "<div class='sidenote'> 演員們（尤其夏靖庭）北四縣音為 gíuncui</div>Gusò, ňg m̌ voi síinkǐ, me m̌ voi láu ngoingǐn ge <span class='noted'>gíundui</span> tensù.",
+
+          ],
+
+          [
+
+            "九",
+            "你做得打敗外人个軍隊無？",
+            "Ňg zodèd dàpai ngoingǐn ge gíundui mǒ?",
+
+          ],
+
+          [
+
+            "",
+            "保力𢯭手，就做得。",
+            "Bòlid tensù, qiu zodèd.",
+
+          ],
+
+          [
+
+            "九",
+            "𢯭手，做得。統領埔，賣分𠊎。",
+            "Tensù, zodèd. Tùnglíangpú, mai bún ngǎi.",
+
+          ],
+
+          [
+
+            "",
+            "祖先个土地，做毋得賣。",
+            "Zùxíen ge tùti, zo-m̌-dèd mai.",
+
+          ],
+
+          [
+
+            "九",
+            "下二擺摎你做生理，毋想經過社寮，𠊎直接入山，摎你做生理？",
+            "Ha'ngibài láu ňg zo sénlí, m̌ xìong gíngo Salǐau, ngǎi ciijìab ngib sán, láu ňg zo sénlí?",
+
+          ],
+
+          [
+
+            "",
+            "外人做毋得入山，係祖先个規矩。做生理，對社寮。",
+            "Ngoingǐn zo-m̌-dèd ngib sán, he zùxíen ge gúigi. Zo sénlí, dui Salǐau.",
+
+          ],
+
+          [
+
+            "九",
+            "做若朋友，愛付出當大个代價！樵城，摎外人个軍隊，做朋友啦！𠊎會變佢這兜个敵人。無拿着一兜仔東西，這代價𠊎<span class='TBD'>＿</span>毋和！",
+            "Zo ngía pěníu, oi fucùd dóng taige toiga! Cěusǎng, láu ngoingǐn ge gíundui, zo pěníu là! Ngǎi voi bien gǐ ìadéu ge tidngǐn. Mǒ ná dò ìddéuè dúngxi, ìa toiga ngǎi <span class='TBD'>__</span> m̌ fǒ!",
+
+          ],
+
+          [
+
+            "",
+            "朋友，毋會討恁多！",
+            "Pěníu, m̌ voi tò àn dó!",
+
+          ],
+
+          [
+
+            "九",
+            "保力摎你𢯭手，打外人个軍隊；打<span class='TBD'>＿</span>，你摎保力𢯭手。樵城人忒多，早晚會食忒保力。",
+            "<div class='sidenote'> suan？ </div>Bòlid láu ňg tensù, dà ngoingǐn ge gíundui; dà <span class='noted'>__</span>, ňg láu Bòlid tensù. Cěusǎng ngǐn tèd dó, zòvàn voi siid tèd Bòlid.",
+
+          ],
+
+          [
+
+            "",
+            "逐走外人个軍隊，係要恢復琅𤩝本來个樣仔！",
+            "Gìug zèu ngoingǐn ge gíundui, he oi fífug Lǒngkieu bùnlǒige iong'è! ",
+
+          ],
+
+          [
+
+            "九",
+            "麼个都毋答應，交麼个朋友啦！",
+            "Màge du m̌ dàb'in, gáu màge pěn'íu là!",
+
+          ],
+
+          [
+
+            "",
+            "統領埔本來答應贌分社寮。",
+            "Tùnglíangpú bùnlǒi dàb'in piog bún Salǐau.",
+
+          ],
+
+          [
+
+            "九",
+            "你講麼个？社寮阿水，摎你贌統領埔？",
+            "Ňg gòng màge? Salǐau Á-Sùi, láu ňg piog Tùnglíangpú?",
+
+          ],
+
+          [
+
+            "",
+            "這下，收轉來，贌分你。天光日，𠊎派人，來拿，食糧。你放到庄頭外背，拿着吔，𠊎就知，朋友个誠意。",
+            "Ìaha, sú zònlǒi, piog bún ňg. Tǐen'góngngìd, ngǎi pai ngǐn, lǒi ná, siidlǐong. Ňg biong do zóngtěu noboi, ná dò ě, ngǎi qiu dí, pěn'íu ge sǐin'i.",
+
+          ],
+
+          [
+
+            "九",
+            "你乜解忒山肚項草个記號，𠊎就知山肚項毋係禁地，𠊎做得入山摎你做生理。",
+            "Ňg me gìai tèd sán dùhong cò ge giho, ngǎi qiu dí sán dùhong m̌ he gimti, ngǎi zodèd ngib sán láu ňg zo sénlí.",
+
+          ],
+
+          [
+
+            "",
+            "",
+            "...",
+
+          ],
+
+          [
+
+            "",
+            "故所毋係朋友<span class='TBD'>哩喔</span>？",
+            "Gusò m̌ he pěn'íu lè o?",
+
+          ],
+
+        ]
+      },
+
+      {
+        "t": "45:42",
+        "rows": []
+      }
+    ]
+  },
+
+  {
     "EP": "9",
     "draft": true,
     "title": "sikavaljut 活下去",
