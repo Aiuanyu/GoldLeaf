@@ -1293,6 +1293,7 @@ data = [
 
   {
     "EP": "7",
+    "draft": true,
     "title": "aljak a vavayan na mazazangiljan<br> 福爾摩莎公主",
     "sections": [
 
@@ -1620,6 +1621,7 @@ data = [
 
   {
     "EP": "8",
+    "draft": true,
     "title": "ljangudan 獵物",
     "sections": [
 
@@ -1934,7 +1936,14 @@ data = [
 
       {
         "t": "45:42",
-        "rows": []
+        "rows": [
+          [
+            "李",
+            "",
+            "<div class= 'sidenote'> Alfonse de Lamartine, 'Jocelyn, le 20 juillet 1800'（感謝法比歐臉書提供全文）<br><blockquote> 真實而可悲的人生形象<br>歡樂進入痛苦的發源地<br>幸福是絕望的泉源<br>白天誕生<br>上帝在晚上將其讓位<br>生命之杯總是有相同的劑量<br>一隻手拿起它時，<br>另一隻手將它放下<br>唉！如果我們的眼睛<br>有時能探測到<br>這些滿溢的<br>幸福之杯<br>我們會不會發現人間的喜悅<br>總是充滿灰燼和淚水？ </blockquote></div><div class='poem'><blockquote>O vraie et lamentable image de la vie ! <br>La joie entre par où la douleur est sortie ! <br>Le bonheur prend le lit d'où fuit le désespoir ! <br>À ce qui naît le jour Dieu fait place le soir ; <br>La coupe de la vie a toujours même dose, <br>Mais une main la prend quand l'autre la dépose, <br>Hélas ! et si notre œil pouvait parfois sonder <br>Ces coupes de bonheur qui semblent déborder, <br>Ne trouverions-nous pas que chaque joie humaine <br>Des cendres et des pleurs d'un autre est toujours pleine ? </blockquote></div>",
+            "6"
+          ]
+        ]
       }
     ]
   },
