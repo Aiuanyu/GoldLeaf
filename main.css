@@ -302,7 +302,7 @@ tr:nth-child(2n+1).lang2, tr:nth-child(2n+1) .lang2 {font-family: Cambria, serif
 tr.lang3, td.lang3, tr:nth-child(2n+1) .lang3 {color: /*honeydew*//*hsl(217, 82%, 89%)*/hsl(127, 78%, 91%);}
 tr:nth-child(2n).lang3, tr:nth-child(2n) .lang3 {font-family: "黑體-繁", sans-serif; font-weight: 700;}
 tr:nth-child(2n+1).lang3, tr:nth-child(2n+1) .lang3 {font-family: Superclarendon, 'Academy Engraved LET', 'Book Antigua', Baskerville, serif; font-weight: 500; font-size: 1.1em;}
-tr.lang3 td:nth-child(2), tr.fr td:nth-child(2) {padding-right: 30%;}
+tr.lang3 td:nth-child(2), tr.fr td:nth-child(2) {padding-right: 25%;}
 /* 英法文 */
 .fr td, .lang6 td {color: hsl(255, 78%, 91%); font-family: 'Bell MT';}
 .lang4 td {color: hsl(187, 78%, 91%); font-family: 'Bell MT';}
@@ -341,7 +341,7 @@ tr:nth-child(2n+1).lang5, tr:nth-child(2n+1) .lang5 {font-family: Dubai, sans-se
 	bottom: 1rem;
 }
 
-.sidenote blockquote {
+.sidenote blockquote, .trans blockquote {
   margin: 1em 0;
   padding: 1em 0 1em 0.5em;
   border-left: solid;

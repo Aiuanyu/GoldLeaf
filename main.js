@@ -103,7 +103,11 @@ function create() {
           if (name !== '') {
             name += "："
           }
-          tr1.innerHTML = '<td></td><td><div class="trans">（' + name.replace(/\d/,'') + data[i].sections[j].rows[k][1] + '）</div>' + data[i].sections[j].rows[k][2] + '</td>'; // 跟其他語文漢字放第 2 列不同，是把華文字幕放在右邊，類似 sidenote
+          var trans = '';
+          if (data[i].sections[j].rows[k][1] !== '') { // 加這道，處理「空的翻譯」的情形（有翻譯，才產生 trans 方塊；像如果排灣文是打「...」那就不會有翻譯了）
+            trans = '<div class="trans">（' + name.replace(/\d/,'') + data[i].sections[j].rows[k][1] + '）</div>';
+          }
+          tr1.innerHTML = '<td></td><td>' + trans + data[i].sections[j].rows[k][2] + '</td>'; // 跟其他語文漢字放第 2 列不同，是把華文字幕放在右邊，類似 sidenote
           tr2.innerHTML = '<td>' + namelang + '</td><td></td>'; // 這列還是要有，讓 fillHakNames() 去抓族語名，但再用 display:none 同英、法文
         }
         else { // 非排灣
