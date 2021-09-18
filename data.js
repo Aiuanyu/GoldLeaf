@@ -3,6 +3,23 @@ data = [
     "EP": "1",
     "title": "vali kemasiljavek 海上的風",
     "sections": [
+      {
+        "t": "5:52",
+        "rows": [
+          [
+            "水",
+            "咧等阿姊啊？",
+            "Leh tán a-tsí--a?",
+            "2"
+          ],
+          [
+            "",
+            "哎……琅𤩝儂造孽。天公毋放尿，欠雨，水寶貴。恁姊抑是莫轉來好矣。",
+            "Ai... Lân-kiau lâng tsō-gia̍t. Thinn-kong m̄ pàng-liō, khiàm hōo, tsuí pó-kuì. Lín tsí a̍h-sī mài tńg-lâi hó--ah.",
+            "2"
+          ]
+        ]
+      },
 
       {
         "t": "8:02",
