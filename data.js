@@ -17,13 +17,67 @@ data = [
             "哎……琅𤩝儂造孽。天公毋放尿，欠雨，水寶貴。恁姊抑是莫轉來好矣。",
             "Ai... Lân-kiau lâng tsō-gia̍t. Thinn-kong m̄ pàng-liō, khiàm hōo, tsuí pó-kuì. Lín tsí a̍h-sī mài tńg-lâi hó--ah.",
             "2"
+          ],
+          [
+            "杰",
+            "我阿姊死佇咧府城矣。",
+            "Guá a-tsí sí tī-leh Hú-siânn--ah.",
+            "2"
+          ],
+          [
+            "水",
+            "死咧府城比活咧琅𤩝好命。阮社寮个土生仔喔，番薯是食一世儂；啊死了後塗內一種，是又閣佮番薯相對看。規氣啊，後世儂投胎做番薯。",
+            "Sí leh Hú-siânn pí ua̍h leh Lân-kiau hó-miā. Gún Siā-liâu ê thóo-senn-á--o, han-tsî sī tsia̍h tsi̍t-sì-lâng; a sí liáu-āu thôo lāi tsi̍t tsìng, sī iū-koh kah han-tsî siunn-tuì-khuànn. Kui-khì--a, āu-sì-lâng tâu-thai tsuè han-tsî.",
+            "2"
+          ],
+          [
+            "",
+            "琅𤩝早慢會搶水，有啥物代誌來社寮揣我。這個月辛苦矣。",
+            "Lân-kiau tsá-bān ê tshiúnn tsuí, ū siánn-mí tāi-tsì lâi Siā-liâu tshuē guá. Tsit kò gue̍h sin-khóo--a.",
+            "2"
+          ],
+          [
+            "杰",
+            "我十六矣。",
+            "Guá tsa̍p-la̍k--ah.",
+            "2"
+          ],
+          [
+            "水",
+            "著啦，十六歲矣，是愛領工錢毋是領番薯矣。",
+            "Tio̍h--la, tsa̍p-la̍k hè--ah, sī ài niá kang-tsînn m̄-sī niá han-tsî--ah.",
+            "2"
+          ],
+          [
+            "",
+            "阿杰仔，若領了工錢就愛較認份咧。<br>平湖个船來矣。",
+            "A-kia̍t-á, nā niá-liáu kang-tsînn tiō ài khah jīn-hūn--leh.<br>Pênn-ôo ê tsûn lâi--ah.",
+            "2"
+          ],
+          [
+            "",
+            "喂！船來矣！<br>來魚先搬入去庄內底啊！",
+            "Ói! Tsûn lâi-ah!<br>Lâi hî sian puann li̍p-khì tsng lāi-té--a!",
+            "2"
+          ],
+          [
+            "庄人",
+            "細膩細膩。",
+            "Sè-lī sè-lī.",
+            "2"
           ]
         ]
       },
 
       {
-        "t": "8:02",
+        "t": "7:58",
         "rows": [
+          [
+            "庄人",
+            "來來來過來一下，細膩啊。",
+            "Lâi lâi lâi kuè-lâi tsi̍t-ē, sè-lī--a.",
+            "2"
+          ],
 
           [
 
@@ -42,6 +96,13 @@ data = [
           ],
 
           [
+            "庄人",
+            "這囥後壁就好矣。布袋仔對遐囥啊。",
+            "Tse khǹg āu-piah tiō hó--ah. Pòo-tē-á tuì hia khǹg--a.",
+            "2"
+          ],
+
+          [
 
             "村人",
             "若屋下三國演義啊！番人阿姆，客人阿爸，你阿姐，賣分毛番。",
@@ -57,6 +118,24 @@ data = [
 
           ],
 
+        ]
+      },
+
+      {
+        "t": "8:45",
+        "rows": [
+          [
+            "外甥",
+            "閃閃閃，閃啦！",
+            "Siám-siám-siám, siám--lah!",
+            "2"
+          ],
+          [
+            "",
+            "碼頭卡死體，阿舅，這會帶衰呢。",
+            "Bé-thâu khá sí-thé, A-kū, tse ē tài-sue--ne.",
+            "2"
+          ]
         ]
       },
 

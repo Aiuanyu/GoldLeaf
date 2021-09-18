@@ -10,9 +10,9 @@ function fillHakNames() {
       var name = nodes[k].getElementsByTagName('td')[0].innerHTML.replace("：","").replace(' ','').replace(' ','').replace("&nbsp;","");
       // var names = JSON.parse(document.getElementById('names').innerHTML);
       if (names[name] == undefined) {
-        name = name.replace(/\d/,'');
+        name = name.replace(/\d/,'').replace('：','');
         if (names[name] == undefined) {
-          nodes[k].getElementsByTagName('td')[0].innerHTML = nodes[k].getElementsByTagName('td')[0].innerHTML.replace(/\d/,'');
+          nodes[k].getElementsByTagName('td')[0].innerHTML = nodes[k].getElementsByTagName('td')[0].innerHTML.replace(/\d/,'').replace('：','');
           continue;
         }
         else {
