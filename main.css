@@ -328,3 +328,7 @@ tr:nth-child(2n+1).lang5, tr:nth-child(2n+1) .lang5 {font-family: Dubai, sans-se
   font-family: FangSong !important;
   line-height: 1.7em;
 }
+
+.updated {
+  border-bottom: dashed 0.5vh hsla(181, 54%, 64%, 0.5);
+}

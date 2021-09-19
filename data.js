@@ -27,8 +27,8 @@ data = [
           [
 
             "村人",
-            "若屋下三國演義啊！番人阿姆，客人阿爸，你阿姐，賣分毛番。",
-            "Ngía vùggá Sám Gùed Íanngi à! Fánngǐn ámé, Hàgngǐn ábá, ňg ájì, mai bún mófán.",
+            "若屋下三國演義啊！番人阿姆，客人阿爸，<span class='updated'>若</span>姐，賣<span class='updated'>紅</span>毛番。",
+            "Ngía vùg<span class='updated'>k</span>á Sám Gùed Íanngi à! Fánngǐn ámé, Hàgngǐn ábá, <span class='updated'>ňgía jì</span>, mai <span class='updated'>fǔng</span>mófán.",
 
           ],
 
@@ -50,8 +50,8 @@ data = [
           [
 
             "水仔",
-            "社寮生理庄，兩片有通透，秤仔無偎<span class='noted'>片</span>。生个學老人毋救，死个客人，乜毋收！走！",
-            "Salǐau sénlí zóng, lìong pìen íu tǔngteu, ciinè mǒ và pìen. Sángge Hoglòngǐn m̌ giu, xìge Hàgngǐn, me m̌ sú! Zèu!",
+            "社寮生理庄，兩片有通透，秤仔無偎<span class='updated'>片</span>。生个學老人毋救，死个客人，乜毋收！走！",
+            "Salǐau sénlí zóng, lìong pìen íu <span  class='updated'>túng</span>teu, ciinè mǒ và pìen. Sángge Hoglòngǐn m̌ giu, xìge Hàgngǐn, me m̌ sú! Zèu!",
 
           ],
 
@@ -65,8 +65,8 @@ data = [
           [
 
             "林老實",
-            "田無吾份，摎學老人搶水拚命，無愛去啦！",
-            "Tǐen mǒ ngá fun, láu Hoglòngǐn qìong sùi biangmiang, mǒ oi hi là!",
+            "田無吾份，摎學老<span class='updated'>仔</span>搶水拚命，無愛去啦！",
+            "Tǐen mǒ ngá fun, láu Hoglò<span class='updated'>è</span> qìong sùi biangmiang, mǒ oi hi là!",
 
           ],
 
@@ -89,16 +89,16 @@ data = [
           [
 
             "阿九",
-            "你來𢯭手，吾田，贌兩<span class='TBD'>分</span>田分你。<br>若倈仔，乜有屋好歇！<br>係無，客家庄，無人想愛嫁番仔！<br>若倈仔，佢就等討社寮个土生仔，再過<span class='TBD'>＿</span>土生子啊！",
-            "Ňg lǒi tensù, ngá tǐen, piog lìong fun tǐen bún ňg. <br>Ngá laiè, me íu vùg hò hed! <br>He mǒ, Hàggá zóng, mǒ ngǐn xìong oi ga fánè! <br><div class='sidenote'> 本來記錄「生」（sén？），但聽演員講起來像 hen 的音，故改為存疑。 </div>Ňgía laiè, gǐ qiu dèn tò Salǐau ge tùsáng'è, zaigo <span class='noted'>___</span> tùsángzìi a!",
+            "你來𢯭手，吾田，贌兩分田分你。<br>若倈仔，乜有屋好歇！<br>係無，客家庄，無人想愛嫁番仔！<br>若倈仔，佢就等討社寮个土生仔，再過<span class='updated'>降</span>土生子啊！",
+            "Ňg lǒi tensù, ngá tǐen, piog lìong <span class='updated'>fún</span> tǐen bún ňg. <br><span class='updated'>Ngía</span> laiè, me íu vùg hò hed! <br>He mǒ, Hàggá zóng, mǒ ngǐn xìong oi ga fánè! <br>Ňgía laiè, gǐ qiu dèn tò Salǐau ge tùsáng'è, zaigo <span class='updated'>giung</span> tùsángzìi a!",
 
           ],
 
           [
 
             "林",
-            "𠊎屋下人，全部<span class='TBD'>做下</span>客家人。<br><div class='sidenote'> 聽來是 Cěusǎng，並不是「柴」的客語音「cǎi」。依 salleytai 提供之資訊，漢字改用「樵城」。 </div><span class='noted'>樵</span>城學老仔，㓾過中線哩係？哼！<br>𠊎跈你去做義民爺，毋求有人拜，淨求吾倈仔有田好耕；<br>係無，你拜麼个，𠊎都去尋你！",
-            "<div class='sidenote'> 從意思來推，加上聽起來演員講「zu he」，或許我還是應該譯為「都係」才對。但是不確定為什麼演員不是唸「du he」而是像「zu he」？ </div>Ngǎi vùggá ngǐn, qǐonpu <span class='noted'>zoha</span> Hàggángǐn.<br>Cěusǎng Hoglòè, cǐi go zúngxien lè he? Hǹg! <br>Ngǎi těn ňg hi zo ngimǐnǐa, m̌ kǐu íu ngǐn bai, qiang kǐu ngá laiè íu tǐen hò gáng; <br>he mǒ, ňg bai màge, ngǎi du hi qǐm ňg!",
+            "𠊎屋下人，全部<span class='updated'>就係</span>客家人。<br><div class='sidenote'> 聽來是 Cěusǎng，並不是「柴」的客語音「cǎi」。依 salleytai 提供之資訊，漢字改用「樵城」。 </div><span class='noted'>樵</span>城學老仔，㓾過中線哩係？哼！<br>𠊎跈你<span class='updated'>這兜</span>去做義民爺，毋<span class='updated'>求人</span>拜，淨求吾倈仔有田好耕；<br>係無，你拜麼个，𠊎都去尋你！",
+            "<div class='sidenote'> 我本來聽起來像「zu he」。DanielaAerts 提供改為 qiu he 並提示也有可能是「都係 du he」。</div>Ngǎi vùg<span class='updated'>k</span>á ngǐn, qǐonpu <span class='updated noted'>qiu he</span> Hàggángǐn.<br>Cěusǎng Hoglòè, cǐi go zúngxien lè he? Hǹg! <br>Ngǎi těn ňg <span class='updated'>ìadéu</span> hi zo ngimǐnǐa, m̌ <span class='updated'>kǐu ngǐn</span> bai, qiang kǐu ngá laiè íu tǐen hò gáng; <br>he mǒ, ňg bai màge, ngǎi du hi qǐm ňg!",
 
           ],
 
@@ -121,16 +121,16 @@ data = [
           [
 
             "杰",
-            "𠊎替吾阿爸去！",
-            "Ngǎi ti ngá Ábá hi!",
+            "𠊎<span class='updated'>代</span>吾阿爸去！",
+            "Ngǎi <span class='updated'>toi</span> ngá Ábá hi!",
 
           ],
 
           [
 
             "九",
-            "你十六歲哩。客家人喔，早晚愛經過這關，正做得算係大人。",
-            "Ňg siiblìug se lè. Hàggángǐn o, zòvàn oi gíngo ìa gúan, zang zodèd son he taingǐn.",
+            "你十六歲哩。客家人喔，早<span class='updated'>慢</span>愛經過這關，正做得算係大人。",
+            "Ňg siiblìug se lè. Hàggángǐn o, zò<span class='updated'>man</span> oi gíngo ìa gúan, zang zodèd son he taingǐn.",
 
           ],
 
@@ -153,8 +153,8 @@ data = [
           [
 
             "林",
-            "妹仔走忒，係講倈仔又死忒，厥姆死毋會放過𠊎。",
-            "Moiè zèu tèd, hegòng laiè iu xì tèd, gía mé xì m̌ voi bionggo ngǎi.",
+            "妹仔走忒，係講倈仔又死忒，厥姆<span class='updated'>斯</span>毋會放過𠊎。",
+            "Moiè zèu tèd, hegòng laiè iu xì tèd, gía mé <span class='updated'>sǐi</span> m̌ voi bionggo ngǎi.",
 
           ],
 
@@ -168,8 +168,8 @@ data = [
           [
 
             "林",
-            "頭擺，喊你去府城，你驚到會死！這下又會去相㓾？",
-            "Těubài, hém ňg hi Fùsǎng, ňg gíang do voi xì! Ìaha iu voi hi xíongcǐi?",
+            "頭擺，喊你去府城，你驚到會死！這下<span class='updated'>過愛</span>去相㓾？",
+            "Těubài, hém ňg hi Fùsǎng, ňg gíang do voi xì! Ìaha <span class='updated'>gi oi</span> hi xíongcǐi?",
 
           ],
 
@@ -207,8 +207,8 @@ data = [
           [
 
             "阿九",
-            "無核卵……",
-            "<div class='sidenote'> 粗口，很小聲，我聽不出來，是參考網友資訊。 </div><span class='noted'>Mǒ haglòn</span>...",
+            "<span class='updated'>屌若个</span>……",
+            "<div class='sidenote'> 粗口，很小聲，我聽不出來，網友有說是「無核卵」，也有網友說「屌若个」比較常用。 </div><span class='noted updated'>Dìau ngía ge</span>...",
 
           ],
 
@@ -222,8 +222,8 @@ data = [
           [
 
             "阿九",
-            "圳埤還塞忒哩！",
-            "Zunpǐ hǎn cèd tèd lè!",
+            "圳<span class='updated'>陂</span>還塞<span class='updated'>等</span>哩！",
+            "<div class='sidenote'>一個動作狀態的延續至今（DanielaAerts）</div>Zun<span class='updated'>bí</span> hǎn cèd <span class='updated noted'>dèn</span> lè!",
 
           ],
 
@@ -237,8 +237,8 @@ data = [
           [
 
             "林",
-            "就望你阿姐，在府城日仔好過。",
-            "Qiu mong ňg ájì, di Fùsǎng ngìd'è hò go.",
+            "就望<span class='updated'>若姐</span>，在府城日仔好過。",
+            "Qiu mong <span class='updated'>ngía jì</span>, di Fùsǎng ngìd'è hò go.",
 
           ],
 
@@ -261,8 +261,8 @@ data = [
           [
 
             "林",
-            "有摎你阿姐講過哩，你十六歲，會帶你去府城。佢毋轉來，𫣆去尋佢！",
-            "Íu láu ňg ájì gòng go lè, ňg siiblìug se, voi dai ňg hi Fùsǎng. Gǐ m̌ zònlǒi, én hi qǐm gǐ!",
+            "有摎你阿姐講過哩，你十六歲，<span class='updated'>愛</span>帶你去府城。佢毋轉來，𫣆去尋佢！",
+            "Íu láu ňg ájì gòng go lè, ňg siiblìug se, <span class='updated'>oi</span> dai ňg hi Fùsǎng. Gǐ m̌ zònlǒi, én hi qǐm gǐ!",
 
           ],
 
@@ -276,8 +276,8 @@ data = [
           [
 
             "九",
-            "你擋水脈，分水淨流進若田，吾田毋使㘔水喔？<br>你愛畜樵城，𠊎愛畜保力、統領埔！",
-            "Ňg dòng sùimàg, bún sùi qiang lìug jin ngía tǐen, ngá tǐen m̌ sìi sái sùi o?<br>Ňg oi hìug Cěusǎng, ngǎi oi hìug Bòlid, Tùnglíangpú!",
+            "你擋水脈，分水淨流<span class='updated'>去</span>若田，吾田毋使㘔水喔？<br>你愛畜樵城，𠊎愛畜保力、統領埔！",
+            "Ňg dòng sùimàg, bún sùi qiang <span class='updated'>lǐu hi</span> ngía tǐen, ngá tǐen m̌ sìi sái sùi o?<br>Ňg oi hìug Cěusǎng, ngǎi oi hìug Bòlid, Tùnglíangpú!",
 
           ],
 
@@ -292,8 +292,8 @@ data = [
           [
 
             "水",
-            "阿九哥仔，你摎生番贌个統領埔，會無愛哩。",
-            "Á-Gìu Góè, ňg láu sángfán piog ge Tùnglíangpú, voi mǒ oi lè.",
+            "阿九哥仔，你摎生番贌个統領埔，會<span class='updated'>滿了啊</span>。",
+            "<div class='sidenote'>滿，表示快到期之意（DanielaAerts）</div>Á-Gìu Góè, ňg láu sángfán piog ge Tùnglíangpú, voi <span class='updated'>mán lè à</span>.",
 
           ],
 
@@ -391,8 +391,8 @@ data = [
           [
 
             "林",
-            "瑪祖卡，𠊎帶阿杰仔，去尋蝶妹啊，你愛保護𫣆一家人團圓。啊？",
-            "Macuka, ngǎi dai Á-Kied-è, hi qǐm Tiab-Moi a, ňg oi bòfu én ìdgángǐn tǒnǐan. A?",
+            "瑪祖卡，𠊎帶阿杰仔，去尋蝶妹啊，你愛保護𫣆<span class='updated'>屋下</span>人團圓。啊？",
+            "Macuka, ngǎi dai Á-Kied-è, hi qǐm Tiab-Moi a, ňg oi bòfu én <span class='updated'>vùgká</span>ngǐn tǒnǐan. A?",
 
           ],
 
@@ -446,8 +446,8 @@ data = [
           [
 
             "水",
-            "樵城人來搬貨無愛个啊。<br>阿哥仔，社寮納番租，生番仔惱番毛仔，惱船員。<br>知船員對社寮走，收轉社寮細事情，<br>誤會𠊎摎船員𢯭手，會出草。",
-            "Cěusǎng ngǐn lǒi bán fo mǒ oi ge a.<br>Ágóè, Salǐau nab fánzú, sǎngfánè náu fánmǒè, náu sǒnǐan.<br>Dí sǒnǐan dui Salǐau zèu, sú zòn Salǐau se siiqǐn,<br>ngufi ngǎi láu sǒnǐan tensù, voi cùdcò.",
+            "樵城人來搬貨無愛个啊。<br>阿哥仔，社寮納番租，生番仔惱<span class='updated'>紅</span>毛仔，惱船員。<br>知船員對社寮走，收轉社寮細事情，<br>誤會𠊎摎船員𢯭手，會出草。",
+            "Cěusǎng ngǐn lǒi bán fo mǒ oi ge a.<br>Ágóè, Salǐau nab fánzú, sǎngfánè náu <span class='updated'>fǔngmó</span>è, náu sǒnǐan.<br>Dí sǒnǐan dui Salǐau zèu, sú zòn Salǐau se siiqǐn,<br>ngufi ngǎi láu sǒnǐan tensù, voi cùdcò.",
 
           ],
 
@@ -462,8 +462,8 @@ data = [
           [
 
             "水",
-            "府城路當遠啊，食飽兜仔啊。<br><div class='sidenote'>劇中華文字幕寫「順便幫我領一份吧」，但客話原意似乎比較像是水仔想要獨吞，與字幕似有出入，有待官方確認。</div>救船員个賞銀，<span class='noted'>這愛領</span>。<br>好。絡索。<br>蝶妹呴，無定著就愛轉來哩。<br>這下去府城，危險啦。",
-            "Fùsǎng lu dóng ìan a, siid bàu déu è a.<br>Giu sǒnǐan ge sònngǐun, lìa oi líang.<br>Hò. Logsòg.<br>Tiab-Moi ho, mǒ tincog qiu oi zòn lǒi lè.<br>Ìaha hi Fùsǎng, ngǔihìam la.",
+            "府城路當遠啊，食飽兜仔啊。<br><div class='sidenote'>就是不要忘記幫我領一份的意思（DanielaAerts）</div>救船員个賞銀，<span class='noted updated'>領吾額</span>。<br>好。絡索。<br>蝶妹呴，無定著就愛轉來哩。<br>這下去府城，危險啦。",
+            "Fùsǎng lu dóng ìan a, siid bàu déu è a.<br>Giu sǒnǐan ge sònngǐun, <span class='updated'>líang ngá ngìag</span>.<br>Hò. Logsòg.<br>Tiab-Moi ho, mǒ tincog qiu oi zòn lǒi lè.<br>Ìaha hi Fùsǎng, ngǔihìam la.",
 
           ],
 
@@ -493,16 +493,16 @@ data = [
           [
 
             "林",
-            "走哩，無核卵个。<br>遽！定著會到府城尋你阿姐！來！",
-            "Zèu lè, mǒ haglòn ge.<br>Gìag! Tincog voi do Fùsǎng qǐm ňg ájì! Lǒi!",
+            "走哩，無核卵个。<br>遽！定著會到府城尋<span class='updated'>若</span>姐！來！",
+            "Zèu lè, mǒ haglòn ge.<br>Gìag! Tincog voi do Fùsǎng qǐm <span class='updated'>ngía jì</span>! Lǒi!",
 
           ],
 
           [
 
             "杰",
-            "𠊎驚識毋出阿姐。",
-            "Ngǎi gíang sìid m̌ cùd ájì.",
+            "𠊎驚<span class='updated'>認</span>毋出阿姐。",
+            "Ngǎi gíang <span class='updated'>ngin</span> m̌ cùd ájì.",
 
           ],
 
@@ -549,8 +549,8 @@ data = [
           [
 
             "林",
-            "𠊎去哩，麼人摎你阿姆做伴啊？<span class='noted'>續</span>去！",
-            "Ngǎi hi lè, mà ngǐn láu ňg ámé zoban a? Sa hi!",
+            "𠊎去哩，麼人摎<span class='updated'>若</span>姆做伴啊？<span class='updated'>煞</span>去！",
+            "Ngǎi hi lè, mà ngǐn láu <span class='updated'>ngía mé</span> zo<span class='updated'>pán</span> a? <span class='updated'>Sàd</span> hi!",
 
           ],
 
@@ -565,8 +565,8 @@ data = [
           [
 
             "林",
-            "這兜係你阿爸㓾過个偷牛賊。<br>「亂㓾人个，定著<span class='noted'>雄</span>死」，你阿姆講个。<br>報應。",
-            "Ìadéu he ňg ábá cǐi go ge téungǐuced.<br><div class='sidenote'> 再細聽，像是 hǐung </div>&quot;Lon cǐi ngǐn ge, tincog <span class='noted'>hǐung</span>xì,&quot; ňg ámé gòng ge.<br>Boin.",
+            "這兜係<span class='updated'>若</span>爸㓾過个偷牛賊。<br>「亂㓾人个，定著<span class='updated'>凶</span>死」，<span class='updated'>若</span>姆講个。<br>報應。",
+            "Ìadéu he ňg ábá cǐi go ge téungǐuced.<br>&quot;Lon cǐi ngǐn ge, tincog <span class='updated'>híung</span>xì,&quot; <span class='updated'>ngía</span> mé gòng ge.<br>Boin.",
 
           ],
 
@@ -642,7 +642,7 @@ data = [
 
             "蝶",
             "阿姐認得出你啊。來。你再過睡加一下吔。",
-            "Ájì ngin dèd cùd ňg a. Lǒi. Ňg zai go soi gá ìd há ě.",
+            "Ájì ngin dèd cùd ňg a. Lǒi. Ňg zai go soi gá ìd <span class='updated'>ha</span> ě.",
 
           ],
 
@@ -656,8 +656,8 @@ data = [
           [
 
             "杰",
-            "阿姐，鞋忒大吔。",
-            "Ájì, hǎi tèd tai ě.",
+            "阿姐，鞋<span class='updated noted'>昶</span>大吔。",
+            "<div class='sidenote'>此字音感謝 DanielaAerts 聽出。查到《客語能力認證基本詞彙》中級中高級 12-107 收錄此字，漢字用「昶」，姑從之。（母語使用者能聽出其音，比選漢字更有幫助）</div>Ájì, hǎi <span class='updated noted'>tìong</span> tai ě.",
 
           ],
 
@@ -703,16 +703,16 @@ data = [
           [
 
             "蝶",
-            "等一下到打石場，愛忍耐。無分打，毋會出師。",
-            "Dènìdha do dàsagcǒng, oi ngíunnai. Mǒ bún dà, m̌ voi cùdsíi.",
+            "等一下<span class='updated'>去</span>打石場，愛忍耐。無分打，毋會出師。",
+            "Dènìdha <span class='updated'>hi</span> dàsagcǒng, oi ngíunnai. Mǒ bún dà, m̌ voi cùdsíi.",
 
           ],
 
           [
 
             "杰",
-            "𠊎早就在阿爸該出師哩。",
-            "Ngǎi zò qiu di Ábá ge cùdsíi lè.",
+            "𠊎早就在阿爸該出師<span class='updated'>了</span>。",
+            "Ngǎi zò qiu di Ábá ge cùdsíi <span class='updated'>lìo</span>.",
 
           ],
 
@@ -743,7 +743,7 @@ data = [
 
             "蝶",
             "你兜去哪啊？還毋轉去醫生館？",
-            "Ňgdéu hi nai a? Hǎn m̌ zòn hi ísánggùan?",
+            "Ňgdéu hi nai a? Hǎn m̌ zòn hi <span class='updated'>ísén'gòn</span>?",
 
           ],
 
@@ -789,8 +789,8 @@ data = [
           [
 
             "杰",
-            "講生番仔，𠊎做毋得承認；<br>唐山人，又喬着無像。",
-            "Gòng sángfánè, ngǎi zo-m̌-dèd sǐinngin; <br>Tǒngsánngǐn, iu kǐeu dò mǒ qiong.",
+            "講生番仔，𠊎做毋得承認；<br>唐山人，又<span class='updated'><span class='TBD'>挶</span>到</span>無像。",
+            "<div class='sidenote'>giug 就是裝作的意思，跟 EP9 的 giug ngoi ngoi 的 giug 同字；據長輩稱亦與「giugsìi」（傲慢）的「挶」同義，但不確定教育部用的「挶」有沒有「裝作」的意思。（DanielaAerts）</div>Gòng sángfánè, ngǎi zo-m̌-dèd sǐinngin; <br>Tǒngsánngǐn, iu <span class='updated'><span class='noted'>giug</span> do</span> mǒ qiong.",
 
           ],
 
@@ -834,8 +834,8 @@ data = [
           [
 
             "九",
-            "官府講啊，琅𤩝，「禁地荒埔」！分𫣆這兜，「自生自滅」！<br>死船員，就喊𫣆這兜，拿生番个人頭交差、繳罰个錢？<br>天光日，通譯，來收人頭，𠊎出面！<br>續下來，你上山！摎通譯个人頭分生番仔！<br>講，𠊎替佢這兜啊，解決忒！𠊎愛贌轉統領埔！",
-            "Gónfù gòng a, Lǒngkieu, &quot;gimti fóngpú&quot;! Bún én ìadéu, &quot;cii sáng cii mied&quot;!<br>Xì sǒnǐan, qiu hém én ìadéu, ná sángfán ge ngǐntěu gáucái, gìeu fad ge qǐen?<br>Tǐengóngngìd, Tǔng'id, lǒi sú ngǐntěu, ngǎi cùdmien!<br>Sa há lǒi, ňg sǒng sán! Láu Tǔng'id ge ngǐntěu bún sángfánè!<br>Gòng, ngǎi tai gǐ ìadéu a, gìaigìad tèd! Ngǎi oi piog zòn Tùnglíangpú!",
+            "官府講啊，琅𤩝，「禁地荒埔」！分𫣆這兜，「自生自滅」！<br>死船員，就喊𫣆這兜，拿生番个人頭交差、繳罰个錢？<br>天光日，通譯，來收人頭，𠊎出面！<br>續下來，你上山！摎通譯个人頭分生番仔！<br>講，𠊎<span class='updated'>代</span>佢這兜啊，解決<span class='updated'>哩</span>！𠊎愛贌轉統領埔！",
+            "Gónfù gòng a, Lǒngkieu, &quot;gimti fóngpú&quot;! Bún én ìadéu, &quot;cii <span class='updated'>sén</span> cii mied&quot;!<br>Xì sǒnǐan, qiu hém én ìadéu, ná sángfán ge ngǐntěu gáucái, gìeu fad ge qǐen?<br>T<span class='updated'>í</span>engóngngìd, T<span class='updated'>ú</span>ng'id, lǒi sú ngǐntěu, ngǎi cùdmien!<br>Sa há lǒi, ňg s<span class='updated'>ó</span>ng sán! Láu T<span class='updated'>ú</span>ng'id ge ngǐntěu bún sángfánè!<br>Gòng, ngǎi <span class='updated'>toi</span> gǐ ìadéu a, gìaigìad <span class='updated'>lè</span>! Ngǎi oi piog zòn Tùnglíangpú!",
 
           ],
 
@@ -850,7 +850,7 @@ data = [
 
             "九",
             "偷牛賊，係風港該片个唐山人，生得摎生番無共樣啦！唉！",
-            "Téungǐuced, he Fúnggòng ge pìen ge Tǒngsánngǐn, sén dèd láu sángfán mǒ kiungiong la! Ai!",
+            "Téungǐuced, he Fúnggòng ge pìen ge Tǒngsánngǐn, <span class='updated'>sáng</span> dèd láu sángfán mǒ kiungiong la! Ai!",
 
           ],
 
@@ -934,7 +934,7 @@ data = [
 
             "蝶",
             "放工，你行街項，轉醫生館。",
-            "Bionggóng, ňg hǎng gíai hong, zòn íséngùan.",
+            "Biongg<span class='updated'>ú</span>ng, ňg hǎng gíai hong, zòn íséng<span class='updated'>ò</span>n.",
 
           ],
 
@@ -995,8 +995,8 @@ data = [
           [
 
             "杰",
-            "佢兜係愛燒屋仔，𠊎囥去灶頭用泥埋忒。",
-            "Gǐdéu he oi séu vùg'è, ngǎi kong hi zotěu iung nǎi mǎi tèd.",
+            "佢兜係愛燒屋仔，𠊎囥去灶<span class='updated'>空</span>用泥埋<span class='updated'>等</span>。",
+            "Gǐdéu he oi séu vùg'è, ngǎi kong hi zo<span class='updated'>kúng</span> iung nǎi mǎi <span class='updated'>dèn</span>.",
 
           ],
 
@@ -1027,7 +1027,7 @@ data = [
 
             "瑪祖卡",
             "𠊎一屋下人，無位所好去吔，莫燒，𠊎自家走。",
-            "Ngǎi ìd vùg<span class='TBD'>k</span>á ngǐn, mǒ visò hò hi ě, mog séu, ngǎi ciigá zèu.",
+            "Ngǎi ìd vùg<span class='updated'>k</span>á ngǐn, mǒ visò hò hi ě, mog séu, ngǎi ciigá zèu.",
 
           ],
 
@@ -1776,7 +1776,7 @@ data = [
 
             "九",
             "這擺你轉來做通譯，係講啊，想愛借等官軍報冤仇，𠊎毋會放過你啊。",
-            "Ìa bài ňg zònlǒi zo tǔng'id, hegòng à, xìong oi jia dèn gón'gíun bo íansǔ, ngǎi m̌ voi bionggo ňg à.",
+            "Ìa bài ňg zònlǒi zo t<span class='updated'>ú</span>ng'id, hegòng à, xìong oi jia dèn gón'gíun bo íansǔ, ngǎi m̌ voi bionggo ňg à.",
 
           ],
 
@@ -1903,7 +1903,7 @@ data = [
 
             "",
             "這下，收轉來，贌分你。天光日，𠊎派人，來拿，食糧。你放到庄頭外背，拿着吔，𠊎就知，朋友个誠意。",
-            "Ìaha, sú zònlǒi, piog bún ňg. Tǐen'góngngìd, ngǎi pai ngǐn, lǒi ná, siidlǐong. Ňg biong do zóngtěu noboi, ná dò ě, ngǎi qiu dí, pěn'íu ge sǐin'i.",
+            "Ìaha, sú zònlǒi, piog bún ňg. T<span class='updated'>í</span>en'góngngìd, ngǎi pai ngǐn, lǒi ná, siidlǐong. Ňg biong do zóngtěu noboi, ná dò ě, ngǎi qiu dí, pěn'íu ge sǐin'i.",
 
           ],
 
