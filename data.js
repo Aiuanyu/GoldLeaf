@@ -1940,7 +1940,7 @@ data = [
           [
             "李",
             "",
-            "<div class= 'sidenote'> Alfonse de Lamartine, 'Jocelyn, le 20 juillet 1800'（感謝法比歐臉書提供全文）<br><blockquote> 真實而可悲的人生形象<br>歡樂進入痛苦的發源地<br>幸福是絕望的泉源<br>白天誕生<br>上帝在晚上將其讓位<br>生命之杯總是有相同的劑量<br>一隻手拿起它時，<br>另一隻手將它放下<br>唉！如果我們的眼睛<br>有時能探測到<br>這些滿溢的<br>幸福之杯<br>我們會不會發現人間的喜悅<br>總是充滿灰燼和淚水？ </blockquote></div><div class='poem'><blockquote>O vraie et lamentable image de la vie ! <br>La joie entre par où la douleur est sortie ! <br>Le bonheur prend le lit d'où fuit le désespoir ! <br>À ce qui naît le jour Dieu fait place le soir ; <br>La coupe de la vie a toujours même dose, <br>Mais une main la prend quand l'autre la dépose, <br>Hélas ! et si notre œil pouvait parfois sonder <br>Ces coupes de bonheur qui semblent déborder, <br>Ne trouverions-nous pas que chaque joie humaine <br>Des cendres et des pleurs d'un autre est toujours pleine ? </blockquote></div>",
+            "<div class= 'trans'> Alfonse de Lamartine, 'Jocelyn, le 20 juillet 1800'（感謝法比歐臉書提供全文）<br><blockquote> 真實而可悲的人生形象<br>歡樂進入痛苦的發源地<br>幸福是絕望的泉源<br>白天誕生<br>上帝在晚上將其讓位<br>生命之杯總是有相同的劑量<br>一隻手拿起它時，<br>另一隻手將它放下<br>唉！如果我們的眼睛<br>有時能探測到<br>這些滿溢的<br>幸福之杯<br>我們會不會發現人間的喜悅<br>總是充滿灰燼和淚水？ </blockquote></div><div class='poem'><blockquote>O vraie et lamentable image de la vie ! <br>La joie entre par où la douleur est sortie ! <br>Le bonheur prend le lit d'où fuit le désespoir ! <br>À ce qui naît le jour Dieu fait place le soir ; <br>La coupe de la vie a toujours même dose, <br>Mais une main la prend quand l'autre la dépose, <br>Hélas ! et si notre œil pouvait parfois sonder <br>Ces coupes de bonheur qui semblent déborder, <br>Ne trouverions-nous pas que chaque joie humaine <br>Des cendres et des pleurs d'un autre est toujours pleine ? </blockquote></div>",
             "6"
           ]
         ]
@@ -2201,111 +2201,6 @@ data = [
           ]
         ]
       },
-      {
-        "t": "0:55",
-        "rows": [
-          [
-            "蝶",
-            "母親！",
-            "Ina!",
-            "3"
-          ]
-        ]
-      },
-      {
-        "t": "1:56",
-        "rows": [
-          [
-            "風祭司",
-            "五年祭將至，",
-            "Nu djemaljuanga a i papalisi itjen ta maljevaq,",
-            "3"
-          ],
-          [
-            "",
-            "我向各獵區祈求讓你們追擊到獵物，",
-            "taimaza-amen a kiqauqaung tjai ramaljemaljeng tu pupiculi amen, tu pusepi amen, tu pulu’em amen.",
-            "3"
-          ],
-          [
-            "",
-            "我們不可為獵物爭吵。",
-            "Ini’a maqati a marivu ta tja cinunan.",
-            "3"
-          ],
-          [
-            "",
-            "要互相贈予獵物。",
-            "Tjasipasangasangav a bulay.",
-            "3"
-          ]
-        ]
-      },
-      {
-        "t": "3:43",
-        "rows": [
-          [
-            "船員",
-            "",
-            "Hurry up!",
-            "4"
-          ],
-          [
-            "巴耶林",
-            "我為祖先飲下敵人血。",
-            "Uri sipalisi a djamuq ta ‘alja na sivalitan.",
-            "3"
-          ],
-          [
-            "杭特",
-            "",
-            "Stop it!",
-            "4"
-          ],
-          [
-            "",
-            "",
-            "Run! Mercy! Run!",
-            "4"
-          ],
-          [
-            "夫人",
-            "",
-            "Joseph!",
-            "4"
-          ],
-          [
-            "巴耶林",
-            "為祖先報仇！",
-            "U sipavalet tjanumun.",
-            "3"
-          ],
-          [
-            "",
-            "",
-            "...",
-            "3"
-          ],
-          [
-            "風祭司",
-            "那太陽 得以迷醉",
-            "Aza qadaq, namapaselem,",
-            "3"
-          ],
-          [
-            "",
-            "太陽閉眼",
-            "qaw qadaw, nakikezem.",
-            "3"
-          ],
-          [
-            "",
-            "祖靈為何不至",
-            "Aku ini’a tjetekuanan a sevalitan?",
-            "3"
-          ]
-        ]
-      }
     ]
   },
   {
@@ -2396,7 +2291,7 @@ data = [
           [
             "村人",
             "阿九哥！蝶妹消忒哩。",
-            "<div class='sidenote'>這句聽起來是 3 句耳語當中比較清楚的。可惡，佢這兜凶手～還吾蝶妹來 😠</div>Á-Gìu Go! Tiab Moi xíau tèd lè."
+            "<div class='sidenote'>這句聽起來是 3 句耳語當中比較清楚的。可惡，佢這兜凶手～還吾蝶妹命來 😠</div>Á-Gìu Go! Tiab Moi xíau tèd lè."
           ]
         ]
       }
