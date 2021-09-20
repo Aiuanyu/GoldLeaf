@@ -2200,6 +2200,111 @@ data = [
             "D<span class='updated'>ì</span>au màge! Ňg gòng màge xǐau!"
           ]
         ]
+      },
+      {
+        "t": "0:55",
+        "rows": [
+          [
+            "蝶",
+            "母親！",
+            "Ina!",
+            "3"
+          ]
+        ]
+      },
+      {
+        "t": "1:56",
+        "rows": [
+          [
+            "風祭司",
+            "五年祭將至，",
+            "Nu djemaljuanga a i papalisi itjen ta maljevaq,",
+            "3"
+          ],
+          [
+            "",
+            "我向各獵區祈求讓你們追擊到獵物，",
+            "taimaza-amen a kiqauqaung tjai ramaljemaljeng tu pupiculi amen, tu pusepi amen, tu pulu’em amen.",
+            "3"
+          ],
+          [
+            "",
+            "我們不可為獵物爭吵。",
+            "Ini’a maqati a marivu ta tja cinunan.",
+            "3"
+          ],
+          [
+            "",
+            "要互相贈予獵物。",
+            "Tjasipasangasangav a bulay.",
+            "3"
+          ]
+        ]
+      },
+      {
+        "t": "3:43",
+        "rows": [
+          [
+            "船員",
+            "",
+            "Hurry up!",
+            "4"
+          ],
+          [
+            "巴耶林",
+            "我為祖先飲下敵人血。",
+            "Uri sipalisi a djamuq ta ‘alja na sivalitan.",
+            "3"
+          ],
+          [
+            "杭特",
+            "",
+            "Stop it!",
+            "4"
+          ],
+          [
+            "",
+            "",
+            "Run! Mercy! Run!",
+            "4"
+          ],
+          [
+            "夫人",
+            "",
+            "Joseph!",
+            "4"
+          ],
+          [
+            "巴耶林",
+            "為祖先報仇！",
+            "U sipavalet tjanumun.",
+            "3"
+          ],
+          [
+            "",
+            "",
+            "...",
+            "3"
+          ],
+          [
+            "風祭司",
+            "那太陽 得以迷醉",
+            "Aza qadaq, namapaselem,",
+            "3"
+          ],
+          [
+            "",
+            "太陽閉眼",
+            "qaw qadaw, nakikezem.",
+            "3"
+          ],
+          [
+            "",
+            "祖靈為何不至",
+            "Aku ini’a tjetekuanan a sevalitan?",
+            "3"
+          ]
+        ]
       }
     ]
   },

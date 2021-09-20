@@ -17,5 +17,10 @@ names ={
   "必": ["Pickering", "Pickering"],
   "李": ["LeGendre", "LeGendre"],
   "軍官5": ["Jūnguān"],
-  "劉5": ["Líu"]
+  "劉5": ["Líu"],
+  "風祭司3": ["Puljingaw"],
+  "巴耶林3": ["Paljaljim"],
+  "船員4": ["Crew"],
+  "杭特4": ["Mr. Hunter"],
+  "夫人4": ["Mrs. Hunter"]
 }
