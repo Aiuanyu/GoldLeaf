@@ -25,6 +25,13 @@ data = [
           ],
 
           [
+            "庄人",
+            "這囥後壁就好矣。布袋仔對遐囥啊。",
+            "Tse khǹg āu-piah tiō hó--ah. Pòo-tē-á tuì hia khǹg--a.",
+            "2"
+          ],
+
+          [
 
             "村人",
             "若屋下三國演義啊！番人阿姆，客人阿爸，<span class='updated'>若</span>姐，賣<span class='updated'>紅</span>毛番。",
@@ -40,6 +47,24 @@ data = [
 
           ],
 
+        ]
+      },
+
+      {
+        "t": "8:45",
+        "rows": [
+          [
+            "外甥",
+            "閃閃閃，閃啦！",
+            "Siám-siám-siám, siám--lah!",
+            "2"
+          ],
+          [
+            "",
+            "碼頭卡死體，阿舅，這會帶衰呢。",
+            "Bé-thâu khá sí-thé, A-kū, tse ē tài-sue--ne.",
+            "2"
+          ]
         ]
       },
 

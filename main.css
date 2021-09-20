@@ -276,7 +276,7 @@ body {counter-reset: EPx}
   background: #E5FBC6;
 }
 
-section:before {
+section:not(.noHak):before {
   content: "客：四縣腔";
   float: right;
   font-size: 0.5em;
@@ -295,9 +295,9 @@ section:before {
 
 tr:nth-child(2n) {color: white !important;}
 /* Ho̍h-ló */
-tr.lang2, td.lang2, tr:nth-child(2n+1) .lang2 {color: /*honeydew*//*hsl(217, 82%, 89%)*/hsl(303, 78%, 91%);}
-tr:nth-child(2n).lang2, tr:nth-child(2n) .lang2 {font-family: "霞鶩文楷 TC", sans-serif; font-weight: 700;}
-tr:nth-child(2n+1).lang2, tr:nth-child(2n+1) .lang2 {font-family: Cambria, serif; font-weight: 500;}
+tr.lang2, td.lang2, tr:nth-child(2n+1) .lang2, .sample.lang2 {color: /*honeydew*//*hsl(217, 82%, 89%)*/hsl(303, 78%, 91%);}
+tr:nth-child(2n).lang2, tr:nth-child(2n) .lang2, .sample.lang2 {font-family: "霞鶩文楷 TC", sans-serif; font-weight: 700;}
+tr:nth-child(2n+1).lang2, tr:nth-child(2n+1) .lang2, .sample.lang2 {font-family: Cambria, serif; font-weight: 500;}
 /* 排灣文 */
 tr.lang3, td.lang3, tr:nth-child(2n+1) .lang3 {color: /*honeydew*//*hsl(217, 82%, 89%)*/hsl(127, 78%, 91%);}
 tr:nth-child(2n).lang3, tr:nth-child(2n) .lang3 {font-family: "黑體-繁", sans-serif; font-weight: 700;}
@@ -308,9 +308,9 @@ tr.lang3 td:nth-child(2), tr.lang6 td:nth-child(2) {padding-right: 25%;}
 .lang4 td {color: hsl(187, 78%, 91%); font-family: 'Bell MT';}
 tr:nth-child(2n).lang4, tr:nth-child(2n).lang6, tr:nth-child(2n).lang3 {display: none;}
 /* Mandarin */
-tr.lang5, td.lang5, .lang5 {color: /*honeydew*//*hsl(217, 82%, 89%)*/hsl(235, 78%, 91%);}
-tr:nth-child(2n).lang5, tr:nth-child(2n) .lang5 {font-family: "源泉圓體", sans-serif; font-weight: 700;}
-tr:nth-child(2n+1).lang5, tr:nth-child(2n+1) .lang5 {font-family: Dubai, sans-serif; font-weight: 500;}
+tr.lang5, td.lang5, .lang5, .sample.lang5 {color: /*honeydew*//*hsl(217, 82%, 89%)*/hsl(235, 78%, 91%);}
+tr:nth-child(2n).lang5, tr:nth-child(2n) .lang5, .sample.lang5 {font-family: "源泉圓體", sans-serif; font-weight: 700;}
+tr:nth-child(2n+1).lang5, tr:nth-child(2n+1) .lang5, .sample.lang5 {font-family: Dubai, sans-serif; font-weight: 500;}
 
 .poem {
   font-style: italic;
@@ -351,4 +351,9 @@ tr:nth-child(2n+1).lang5, tr:nth-child(2n+1) .lang5 {font-family: Dubai, sans-se
 
 .updated {
   border-bottom: dashed 0.5vh hsla(181, 54%, 64%, 0.5);
+
+.sample {
+  background: #198964;
+  color: antiquewhite;
+  font-family: Athelas;
 }

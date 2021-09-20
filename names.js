@@ -1,6 +1,7 @@
 names ={
   "村人": ["Cúnngǐn","Cunˋ ngin"],
   "杰": ["Kied","Kiedˋ"],
+  "杰2": ["Kia̍t"],
   "水仔": ["Sùiè","Shuiˊ er"],
   "林老實": ["Lǐm Lòsiid","Lim Loˊ Shidˋ"],
   "阿九": ["Á-Gìu","A+ Giuˊ"],
@@ -8,6 +9,9 @@ names ={
   "九": ["Gìu","Giuˊ"],
   "水": ["Sùi","Shuiˊ"],
   "水2": ["Tsuí"],
+  "庄人2": ["Tsng-lâng"],
+  "外甥2": ["Guē-sing"],
+  "甥2": ["Sing"],
   "船員": ["Sǒnǐan","Shon rhan"],
   "蝶": ["Tiab","Tiabˋ"],
   "瑪祖卡": ["Macuka","Macuka"],
