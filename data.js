@@ -566,7 +566,7 @@ data = [
 
             "林",
             "這兜係<span class='updated'>若</span>爸㓾過个偷牛賊。<br>「亂㓾人个，定著<span class='updated'>凶</span>死」，<span class='updated'>若</span>姆講个。<br>報應。",
-            "Ìadéu he ňg ábá cǐi go ge téungǐuced.<br>&quot;Lon cǐi ngǐn ge, tincog <span class='updated'>híung</span>xì,&quot; <span class='updated'>ngía</span> mé gòng ge.<br>Boin.",
+            "Ìadéu he <span class='updated'>ngía bá</span> cǐi go ge téungǐuced.<br>&quot;Lon cǐi ngǐn ge, tincog <span class='updated'>híung</span>xì,&quot; <span class='updated'>ngía</span> mé gòng ge.<br>Boin.",
 
           ],
 
@@ -1041,8 +1041,8 @@ data = [
           [
 
             "杰",
-            "會帶𠊎阿姐走，就遽走！",
-            "Voi dai ngǎi ájì zèu, qiu gìag zèu!",
+            "<span class='updated'>愛</span>帶<span class='updated'>吾</span>姐走，就遽走！",
+            "<span class='updated'>Oi</span> dai <span class='updated'>ngá jì</span> zèu, qiu gìag zèu!",
 
           ],
 
@@ -1064,8 +1064,8 @@ data = [
           [
 
             "杰",
-            "這屋係阿姆帶等𫣆兜起个，<br>你毋想轉來，無相干，還有𠊎。<br>𠊎摎佢整好。<br>你走啦，記得轉來看𠊎。",
-            "Ìa vùg he Ámé dai dèn éndéu hì ge,<br>ňg m̌ xìong zòn lǒi, mǒ xíongkón, hǎn íu ngǎi.<br>Ngǎi láu gǐ zàng hò.<br>Ňg zèu la, gidèd zòn lǒi kon ngǎi.",
+            "這屋<span class='updated'>仔</span>係阿姆帶等𫣆兜起个，<br>你毋想轉來，無相干，還有𠊎。<br>𠊎摎佢整好。<br>你走啦，記得轉來看𠊎。",
+            "Ìa vùg<span class='updated'>'è</span> he Ámé dai dèn éndéu hì ge,<br>ňg m̌ xìong zòn lǒi, mǒ xíongkón, hǎn íu ngǎi.<br>Ngǎi láu gǐ zàng hò.<br>Ňg zèu la, gidèd zòn lǒi kon ngǎi.",
 
           ],
 
@@ -1087,8 +1087,8 @@ data = [
           [
 
             "九",
-            "船員無在這！毋知去哪位哩！",
-            "Sǒnǐan mǒ di ìa! M̌ dí hi naivi lè!",
+            "船員無在這！毋知<span class='updated'>哪去</span>哩！",
+            "Sǒnǐan mǒ di ìa! M̌ dí <span class='updated'>nài hi</span> lè!",
 
           ],
 
@@ -1111,8 +1111,8 @@ data = [
           [
 
             "九",
-            "頭擺，燒若屋，係高不將个。該下講過哩，村肚項，無船員，走啦！",
-            "Těubài, séu ngía vùg, he góbùdjíong ge. Geha gòng go lè, cún dùhong, mǒ sǒnǐan, zèu la!",
+            "頭擺，燒若屋，係高不將个。<span class='noted'><span class='updated'>Ga</span> 下</span>講過哩，村肚項，無船員，走啦！",
+            "<div class='sidenote'>gaha 字不知道怎麼寫，不過 gaha 和 geha 的意思不太一樣，gaha 是剛才，geha 是那時候。（DanielaAerts）</div>Těubài, séu ngía vùg, he góbùdjíong ge. <span class='updated'>Ga</span>ha gòng go lè, cún dùhong, mǒ sǒnǐan, zèu la!",
 
           ],
 
@@ -1134,8 +1134,8 @@ data = [
           [
 
             "蝶",
-            "帶𠊎去你拈船个地方，𠊎兜正分你錢。",
-            "Dai ngǎi hi ňg ngíamsǒn ge tifóng, ngǎidéu zang bún ňg qǐen.",
+            "帶𠊎<span class='updated'>兜</span>去你拈船个地方，𠊎兜正分你錢。",
+            "Dai ngǎi<span class='updated'>déu</span> hi ňg ngíamsǒn ge tifóng, ngǎidéu zang bún ňg qǐen.",
 
           ],
 
@@ -1157,8 +1157,8 @@ data = [
           [
 
             "九",
-            "你阿爸，係𢫦𢫦風走出來个客家人，<br>對山該片走出來个客家人，佢毋識講係？",
-            "<div class='sidenote'> 這個詞我只能聽出音像是「màmàfùng」，所幸社群朋友協助輾轉提供正確的詞。☞ <a href='https://www.moedict.tw/:%F0%A2%AB%A6%F0%A2%AB%A6%E9%A2%A8'>萌典</a> </div>Ňg ábá, he <span class='noted'>magmagfúng</span> zèu cùd lǒi ge Hàggángǐn,<br>dui sán ge pìen zèu cùd lǒi ge Hàggángǐn, gǐ m̌ siid gòng he?",
+            "<span class='updated'>若</span>爸，係𢫦𢫦風走出來个客家人，<br>對山該片走出來个客家人，佢毋識講係？",
+            "<div class='sidenote'> 這個詞我只能聽出音像是「màmàfùng」，所幸社群朋友協助輾轉提供正確的詞。☞ <a href='https://www.moedict.tw/:%F0%A2%AB%A6%F0%A2%AB%A6%E9%A2%A8'>萌典</a> </div><span class='updated'>Ngía bá</span>, he <span class='noted'>magmagfúng</span> zèu cùd lǒi ge Hàggángǐn,<br>dui sán ge pìen zèu cùd lǒi ge Hàggángǐn, gǐ m̌ <span class='updated'>sìid</span> gòng he?",
 
           ],
 
@@ -1166,23 +1166,23 @@ data = [
 
             "蝶",
             "山个該片，係哪位吔？",
-            "Sán ge ge pìen, he naivi ě?",
+            "<div class='sidenote'>* 常見文獻寫此地名漢字為「蚊蟀埔」，「蟀」音 sùd 是查徐兆泉詞典的，但聽演員講起來有點像「Mǔnsuepú」，也許是「率 soi」（一般文獻好像也有寫「蚊率埔」或「蚊率社」的）。（GHSRobert）<br>* 客語裡的 múnsud'e，意思是蚊子之類更小的蟲。但演員的發音比較像 múnsoipú。（DanielaAerts）</div>Sán <span class='updated'>e</span> ge pìen, he naivi ě?",
 
           ],
 
           [
 
             "九",
-            "蚊蟀埔啊，佢自家講个啊。<br><div class='sidenote'> 這個詞似乎沒得查，我依中華民國民法「使用人」的相似意義姑且用之。待官方確認。 </div>帶等一隻生番个細妹仔，講乜係蚊蟀埔个生番仔，部落个<span class='noted'>使用人</span>啊。<br>試著奇怪呴？𠊎乜係啊！<br>保力庄啊，毋收留來路不明个人。",
-            "<div class='sidenote'> 「蟀」的音是查徐兆泉詞典的，但聽演員講起來有點像「Mǔnsuepú」，也許是「率 soi」。 </div><span class='noted'>Múnsùdpú</span> a, gǐ ciigá gòng ge a.<br>Dai dèn ìd zàg sángfán ge semoiè, gòng me he Múnsùdpú ge sángfánè, pulog ge sìiiongngǐn a.<br>Sii dò kǐguai ho? Ngǎi me he a!<br>Bòlid Zóng a, m̌ súlǐu lǒilubùdmǐn ge ngǐn.",
+            "蚊<span class='updated'>率</span>埔啊，佢自家講个啊。<br><div class='sidenote'>* 這個詞似乎沒得查，我依中華民國民法「使用人」的相似意義姑且用之。待官方確認。（GHSRobert）<br>* 這我也查不到。不過，我問我爸他說使用人他沒聽過，傭人比較常講「長年仔」，就長工的意思。如果是打工仔的話是「承勞仔」，如果是丫鬟是「梅香仔」。（DanielaAerts） </div>帶等一隻生番个細妹仔，講乜係蚊率埔个生番仔，部落个<span class='noted'>使用人</span>啊。<br>試<span class='updated'>着</span>奇怪呴？𠊎乜係啊！<br>保力庄啊，<span class='updated'>無</span>收留來路不明个人。",
+            "<span class='noted'>Mún<span class='updated'>soi</span>pú</span> a, gǐ ciigá gòng ge a.<br>Dai dèn ìd zàg sángfán ge semoiè, gòng me he Múnsùdpú ge sángfánè, pulog ge sìiiongngǐn a.<br><span class='updated'>Cii</span> dò kǐguai ho? Ngǎi me he a!<br>Bòlid Zóng a, <span class='updated'>mǒ</span> súlǐu lǒilubùdmǐn ge ngǐn.",
 
           ],
 
           [
 
             "村人",
-            "頭人，會走吔。",
-            "Těungǐn, voi zèu ě.",
+            "頭人，<span class='updated'>好</span>走吔。",
+            "Těungǐn, <span class='updated'>hò</span> zèu ě.",
 
           ],
 
@@ -1197,7 +1197,7 @@ data = [
           [
 
             "蝶",
-            "毋會有人再過來哩。",
+            "<div class='sidenote'>「好走了」是指是時候該走了的意思。（DanielaAerts）</div>毋會有人再過來哩。",
             "M̌ voi íu ngǐn zai go lǒi lè.",
 
           ],
