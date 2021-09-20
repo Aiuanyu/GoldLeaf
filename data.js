@@ -2209,5 +2209,94 @@ data = [
     "sections": [],
     "misc": "（像完全無人講着客話 XD）",
     "draft": false
+  },
+  {
+    "EP": "11",
+    "title": "masi cadja i ljavek 海的背面",
+    "sections": [],
+    "misc": "（無人講客……阿九只有眼神手勢 XD）",
+    "draft": false
+  },
+  {
+    "EP": "12",
+    "title": "kinarasudj a mareizung 盟約",
+    "sections": [
+      {
+        "t": "5:48",
+        "rows": [
+          [
+            "李",
+            "",
+            "<div class='trans'>“Heureux Qui Comme Ulysse” de Joachim du Bellay<blockquote>遠行過的人都懂得尤利西斯的幸福<br>得到金羊毛的人也懂得其中的樂趣<br>他們回到故鄉　滿懷閱歷與智慧<br>和家人一起共享天倫</blockquote></div><div class='poem'><blockquote>Heureux qui comme Ulysse a fait un beau voyage<br>Ou comme cestui - là qui conquit la toison<br>Et puis est retourné plein d'usage et raison<br>Vivre entre ses parents le reste de son âge</blockquote></div>",
+            "6"
+          ]
+        ]
+      },
+      {
+        "t": "21:40",
+        "rows": [
+          [
+            "蝶",
+            "毋好摎官軍𢯭手，生番仔毋會報冤仇。紅毛仔會轉來，分官軍離開。",
+            "M̌ hò láu gón'gíun tensù, sángfánè m̌ voi bo íansǔ. Fǔngmóè voi zònlǒi, bún gón'gíun lǐkói."
+          ],
+          [
+            "九",
+            "𠊎話着你係理番通譯？",
+            "Ngǎi va dò ňg he Lífán Túng'ìd?"
+          ],
+          [
+            "蝶",
+            "𠊎係理番通譯。𠊎曉得講番仔話，係生番仔。",
+            "Ngǎi he Lífán Túng'ìd. Ngǎi hìaudèd gòng fánèfa, he sángfánè."
+          ],
+          [
+            "九",
+            "你這下講个，係客家話呢。",
+            "Ňg ìaha gòng ě, he Hàggáfa nè."
+          ],
+          [
+            "蝶",
+            "生番仔在後背，摎油留下來！",
+            "Sángfánè di heuboi, láu ǐu lǐu hálǒi!"
+          ],
+          [
+            "丙",
+            "我早就共汝講過矣，汝引官軍來琅𤩝，汝就是客頭，破害生理！<br>只要阮柴城有一个儂受傷，我就揣汝算數。",
+            "Guá tsá tiō kā lí kóng kuè--ah, lí ín kuann-kun lâi Lân-kiau, lí tiō sī kheh-thâu, phò-hāi sing-lí!<br>Tsí-iàu gún Tshâ-siânn ū tsi̍t-ê lâng siū-siong, guá tiō tshē lí sǹg-siàu.",
+            "2"
+          ],
+          [
+            "九",
+            "喊生番仔撤退！係無，𠊎無死，你定著愛死哦！",
+            "Hém sángfánè cadtui! He mǒ, ngǎi mǒ xì, ňg tincog oi xì o!"
+          ],
+          [
+            "蝶",
+            "共油留落來。琅𤩝死去个儂，已經有夠濟矣。",
+            "Kā iû lâu--lo̍h-lâi. Lân-kiau sí-khì ê lâng, í-king ū kàu tsuē--ah.",
+            "2"
+          ],
+          [
+            "丙",
+            "無差加你一个啦。",
+            "Bô tsha ke lí tsi̍t-ê--la.",
+            "2"
+          ]
+        ]
+      },
+      {
+        "t": "43:40",
+        "rows": [
+          [
+            "村人",
+            "阿九哥！蝶妹消忒哩。",
+            "<div class='sidenote'>這句聽起來是 3 句耳語當中比較清楚的。可惡，佢這兜凶手～還吾蝶妹來 😠</div>Á-Gìu Go! Tiab Moi xíau tèd lè."
+          ]
+        ]
+      }
+    ],
+    "misc": "",
+    "draft": true
   }
 ]
