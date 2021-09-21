@@ -417,7 +417,7 @@ data = [
 
             "林",
             "瑪祖卡，𠊎帶阿杰仔，去尋蝶妹啊，你愛保護𫣆<span class='updated'>屋下</span>人團圓。啊？",
-            "Macuka, ngǎi dai Á-Kied-è, hi qǐm Tiab-Moi a, ňg oi bòfu én <span class='updated'>vùgká</span>ngǐn tǒnǐan. A?",
+            "<span class='lang3'>Macuka</span>, ngǎi dai Á-Kied-è, hi qǐm Tiab-Moi a, ňg oi bòfu én <span class='updated'>vùgká</span>ngǐn tǒnǐan. A?",
 
           ],
 
@@ -1299,7 +1299,7 @@ data = [
 
             "林",
             "瑪祖卡，毋怕，𠊎去尋藥仔。<br><span class='updated'>阿</span>杰仔，來！",
-            "Macuka, m̌ pa, ngǎi hi qǐm iog'è.<br><span class='updated'>Á-</span>Kied'è, lǒi!",
+            "<span class='lang3'>Macuka</span>, m̌ pa, ngǎi hi qǐm iog'è.<br><span class='updated'>Á-</span>Kied'è, lǒi!",
 
           ],
 
@@ -2233,14 +2233,12 @@ data = [
     "title": "ljayar 瘟疫",
     "sections": [],
     "misc": "（像完全無人講着客話 XD）",
-    "draft": false
   },
   {
     "EP": "11",
     "title": "masi cadja i ljavek 海的背面",
     "sections": [],
     "misc": "（無人講客……阿九只有眼神手勢 XD）",
-    "draft": false
   },
   {
     "EP": "12",

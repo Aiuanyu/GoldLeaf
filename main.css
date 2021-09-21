@@ -301,7 +301,9 @@ tr:nth-child(2n+1).lang2, tr:nth-child(2n+1) .lang2, .sample.lang2 {font-family:
 /* 排灣文 */
 tr.lang3, td.lang3, tr:nth-child(2n+1) .lang3 {color: /*honeydew*//*hsl(217, 82%, 89%)*/hsl(127, 78%, 91%);}
 tr:nth-child(2n).lang3, tr:nth-child(2n) .lang3 {font-family: "黑體-繁", sans-serif; font-weight: 700;}
-tr:nth-child(2n+1).lang3, tr:nth-child(2n+1) .lang3 {font-family: Superclarendon, 'Academy Engraved LET', 'Book Antigua', Baskerville, serif; font-weight: 500; font-size: 1.1em;}
+tr:nth-child(2n+1).lang3, tr:nth-child(2n+1) .lang3 {font-family: Superclarendon, 'Academy Engraved LET', 'Book Antigua', Baskerville, serif; font-weight: 500;}
+tr:nth-child(2n+1).lang3 { font-size: 1.1em;}
+tr:nth-child(2n+1) .lang3 {font-size: 0.9em;}
 tr.lang3 td:nth-child(2), tr.lang6 td:nth-child(2) {padding-right: 25%;}
 /* 英法文 */
 .fr td, .lang6 td {color: hsl(255, 78%, 91%); font-family: 'Bell MT';}
@@ -351,6 +353,7 @@ tr:nth-child(2n+1).lang5, tr:nth-child(2n+1) .lang5, .sample.lang5 {font-family:
 
 .updated {
   border-bottom: dashed 0.5vh hsla(181, 54%, 64%, 0.5);
+}
 
 .sample {
   background: #198964;

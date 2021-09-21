@@ -16,6 +16,7 @@ names ={
   "蝶": ["Tiab","Tiabˋ"],
   "瑪祖卡": ["Macuka","Macuka"],
   "丙": ["Bíang","Biangˋ"],
+  "丙2": ["Píng"],
   "姆": ["Mé","Meˋ"],
   "Tok": ["Tok","Tok"],
   "必": ["Pickering", "Pickering"],
