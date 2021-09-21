@@ -1814,7 +1814,7 @@ data = [
 
           [
 
-            "",
+            "Tok",
             "故所，你毋會升旗，乜毋會摎外人个軍隊𢯭手。",
             "<div class='sidenote'> 演員們（尤其夏靖庭）北四縣音為 gíuncui</div>Gusò, ňg m̌ voi síinkǐ, me m̌ voi láu ngoingǐn ge <span class='noted'>gíundui</span> tensù.",
 
@@ -1830,7 +1830,7 @@ data = [
 
           [
 
-            "",
+            "Tok",
             "保力𢯭手，就做得。",
             "Bòlid tensù, qiu zodèd.",
 
@@ -1846,7 +1846,7 @@ data = [
 
           [
 
-            "",
+            "Tok",
             "祖先个土地，做毋得賣。",
             "Zùxíen ge tùti, zo-m̌-dèd mai.",
 
@@ -1862,7 +1862,7 @@ data = [
 
           [
 
-            "",
+            "Tok",
             "外人做毋得入山，係祖先个規矩。做生理，對社寮。",
             "Ngoingǐn zo-m̌-dèd ngib sán, he zùxíen ge gúig<span class='updated'>ì</span>. Zo sénlí, dui Salǐau.",
 
@@ -1878,7 +1878,7 @@ data = [
 
           [
 
-            "",
+            "Tok",
             "朋友，毋會討恁多！",
             "Pěníu, m̌ voi tò àn dó!",
 
@@ -1894,7 +1894,7 @@ data = [
 
           [
 
-            "",
+            "Tok",
             "逐走外人个軍隊，係要恢復琅𤩝本來个樣仔！",
             "Gìug zèu ngoingǐn ge gíundui, he oi fífug Lǒngkieu bùnlǒige iong'è! ",
 
@@ -1910,7 +1910,7 @@ data = [
 
           [
 
-            "",
+            "Tok",
             "統領埔本來答應贌分社寮。",
             "Tùnglíangpú bùnlǒi dàb'in piog bún Salǐau.",
 
@@ -1926,7 +1926,7 @@ data = [
 
           [
 
-            "",
+            "Tok",
             "這下，收轉來，贌分你。天光日，𠊎派人，來拿，食糧。你放到庄頭外背，拿着吔，𠊎就知，朋友个誠意。",
             "Ìaha, sú zònlǒi, piog bún ňg. T<span class='updated'>í</span>en'góngngìd, ngǎi pai ngǐn, lǒi ná, siidlǐong. Ňg biong do zóngtěu noboi, ná dò ě, ngǎi qiu dí, pěn'íu ge sǐin'i.",
 

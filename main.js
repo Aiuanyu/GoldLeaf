@@ -1,4 +1,4 @@
-function fillHakNames() {
+function fillRomanNames() { // 依漢字人名，抓 name.js 資料填入羅馬字人名
   // var nodes = document.getElementById("EP7").getElementsByTagName("tr") + document.getElementById("EP8").getElementsByTagName("tr");
   var nodes = document.getElementsByTagName('tr');
   for (var i=0; i<nodes.length; i+=2) {
@@ -22,7 +22,7 @@ function fillHakNames() {
       else {
         nodes[i].getElementsByTagName('td')[0].innerHTML = names[name][0] + ":&nbsp;";
       }
-      nodes[k].getElementsByTagName('td')[0].innerHTML = nodes[k].getElementsByTagName('td')[0].innerHTML.replace(/\d/,'');
+      nodes[k].getElementsByTagName('td')[0].innerHTML = nodes[k].getElementsByTagName('td')[0].innerHTML.replace(/\d/,'').replace('Tok：',''); // Tokitok 講客个時節，還係愛直接用佢个族語名，毋使用漢字
     }
   }
 }
@@ -159,5 +159,5 @@ function create() {
 // html - Loading javascript in body onload with 2 functions - Stack Overflow <https://stackoverflow.com/questions/10122555/loading-javascript-in-body-onload-with-2-functions>
 function init() {
   create();
-  fillHakNames();
+  fillRomanNames();
 }
