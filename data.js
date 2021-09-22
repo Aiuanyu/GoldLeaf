@@ -682,7 +682,7 @@ data = [
 
             "杰",
             "阿姐，鞋<span class='updated noted'>昶</span>大吔。",
-            "<div class='sidenote'>此字音感謝 DanielaAerts 聽出。查到《客語能力認證基本詞彙》中級中高級 12-107 收錄此字，漢字用「昶」，姑從之。（母語使用者能聽出其音，比選漢字更有幫助）</div>Ájì, hǎi <span class='updated noted'>tìong</span> tai ě.",
+            "<div class='sidenote'>此字音感謝 DanielaAerts 聽出並指正（母語使用者能聽出正確的音，至為關鍵）。我循線查到《客語能力認證基本詞彙》中級中高級 12-107 收錄此字，漢字用「昶」，姑從之。</div>Ájì, hǎi <span class='updated noted'>tìong</span> tai ě.",
 
           ],
 
