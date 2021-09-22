@@ -135,6 +135,120 @@ data = [
             "碼頭卡死體，阿舅，這會帶衰呢。",
             "Bé-thâu khá sí-thé, A-kū, tse ē tài-sue--ne.",
             "2"
+          ],
+          [
+            "水",
+            "這紅毛番是生番刣个啦。咱社寮納番租，生番來若是揣無，彼較叫做衰。",
+            "Tse âng-môo-huan sī tshenn-huan thâi ê--la. Lán Siā-liâu la̍p huan-tsoo, tshenn-huan lâi nā-sī tshuē bô, he khah kiò-tsuè sue.",
+            "2"
+          ]
+        ]
+      },
+
+      {
+        "t": "10:15",
+        "rows": [
+          [
+            "府城儂",
+            "<div class='sidenote'>太小聲，只看見字幕跑，聽不出聲音。</div>三文番！<br>生番有咧賣無？<br>三文番欲賣無？<br><span class='noted'>……</span>",
+            "Sam-bûn-huan!<br>Tshenn-huan ū leh bē--bô?<br>Sam-bûn-huan beh bē--bô?<br><span class='noted'>...</span>",
+            "2"
+          ],
+          [
+            "蝶",
+            "茶師𠢕早。",
+            "Tê-su gâu-tsá.",
+            "2"
+          ],
+          [
+            "茶師",
+            "趙買辦揣汝。",
+            "Tiō Bé-pān tshuē lí.",
+            "2"
+          ],
+          [
+            "趙",
+            "三文番，今仔欲閣𤆬紅毛仔去拍獵矣？",
+            "Sam-bûn-huan, kin-á beh koh tshuā âng-môo-á khì phah-la̍h--ah?",
+            "2"
+          ],
+          [
+            "蝶",
+            "我欲去琅𤩝揣阮小弟。",
+            "Guá beh khì Lân-kiau tshuē gún sió-tī.",
+            "2"
+          ],
+          [
+            "趙",
+            "這個月个工錢，三文。",
+            "Tsit kò gue̍h ê kang-tsînn, sann bûn.",
+            "2"
+          ],
+          [
+            "蝶",
+            "感謝買辦。",
+            "Kám-siā Bé-pān.",
+            "2"
+          ]
+        ]
+      },
+
+      {
+        "t": "11:00",
+        "rows": [
+          [
+            "蝶",
+            "",
+            "Pickering Sir.<br>It's 7 o'clock, weather good, no rain.",
+            "4"
+          ],
+          [
+            "黃",
+            "才七點！",
+            "Tsiah tshit-tiám!",
+            "2"
+          ],
+          [
+            "必",
+            "已經，七點矣。<hr>",
+            "Í-king, tshit-tiám--ah.",
+            "2"
+          ],
+          [
+            "蝶",
+            "必麒麟 <span class='lang4'>Sir</span> 敢有共汝講？",
+            "Pit Kî-lîn <span class='lang4'>Sir</span> kám-ū kā lí kóng?",
+            "2"
+          ],
+          [
+            "黃",
+            "汝今仔日欲去琅𤩝接恁小弟，十六歲矣，欲入城來做囡仔工。",
+            "Lí kin-á-ji̍t beh khì Lân-kiau tsiap lín sió-tī, tsa̍p-la̍k huè--ah, beh ji̍p-sîng lâi tsò gín-á-kang.",
+            "2"
+          ],
+          [
+            "蝶",
+            "五十番銀。",
+            "Gōo-tsa̍p huan-gîn.",
+            "2"
+          ],
+          [
+            "黃",
+            "戶口，我會<span class='TBD'>＿＿</span>拍石埕。",
+            "Hōo-kháu, guá ē <span class='TBD'>______</span> phah-tsio̍h-tîng.",
+            "2"
+          ],
+          [
+            "蝶",
+            "毋是佇汝開个洋藥局？",
+            "M̄ sī tī lí khui--ê iûnn-io̍k-kio̍k?",
+            "2"
+          ],
+          [
+            "黃",
+            "府城無代誌，放流民入城，享福？",
+            "Hú-siânn bô tāi-tsì, hòng liû-bîn ji̍p-sîng, hióng-hok?",
+            "2"
           ]
         ]
       },

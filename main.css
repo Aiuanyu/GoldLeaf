@@ -328,3 +328,17 @@ tr:nth-child(2n+1).lang5, tr:nth-child(2n+1) .lang5 {font-family: Dubai, sans-se
   font-family: FangSong !important;
   line-height: 1.7em;
 }
+
+.condensed {
+  font-stretch: extra-condensed;
+  font-size: 75%;
+}
+
+td hr {
+  margin-top: 2em;
+  
+  /* Simple Styles for <hr>'s <https://css-tricks.com/examples/hrs/> */
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, hsla(42, 100%, 50%, 0), hsla(42, 100%, 50%, 0.8), hsla(42, 100%, 50%, 0));
+}
