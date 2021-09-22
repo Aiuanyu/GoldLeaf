@@ -61,7 +61,7 @@ data = [
             "2"
           ],
           [
-            "庄人",
+            "庄儂",
             "細膩細膩。",
             "Sè-lī sè-lī.",
             "2"
@@ -73,7 +73,7 @@ data = [
         "t": "7:58",
         "rows": [
           [
-            "庄人",
+            "庄儂",
             "來來來過來一下，細膩啊。",
             "Lâi lâi lâi kuè-lâi tsi̍t-ē, sè-lī--a.",
             "2"
@@ -96,7 +96,7 @@ data = [
           ],
 
           [
-            "庄人",
+            "庄儂",
             "這囥後壁就好矣。布袋仔對遐囥啊。",
             "Tse khǹg āu-piah tiō hó--ah. Pòo-tē-á tuì hia khǹg--a.",
             "2"
@@ -234,8 +234,8 @@ data = [
           ],
           [
             "黃",
-            "戶口，我會<span class='TBD'>＿＿</span>拍石埕。",
-            "Hōo-kháu, guá ē <span class='TBD'>______</span> phah-tsio̍h-tîng.",
+            "戶口，我會<span class='TBD'>＿</span>咧拍石埕。",
+            "Hōo-kháu, guá ē <span class='TBD'>__</span> leh phah-tsio̍h-tîng.",
             "2"
           ],
           [
@@ -246,8 +246,56 @@ data = [
           ],
           [
             "黃",
-            "府城無代誌，放流民入城，享福？",
-            "Hú-siânn bô tāi-tsì, hòng liû-bîn ji̍p-sîng, hióng-hok?",
+            "府城無代誌，放流民入城，享福？<br>流民入城入戶口，一年一擺，是愛來做苦力修<span class='noted'>城城</span>。",
+            "<div class='sidenote'>sîng 是「城」的文讀音，siânn 是白讀音。如果是要講「城牆」，「牆」只有一種音：tshiûnn。但演員並非講 sîng-tshiûnn 亦非講 siânn-tshiûnn，而是非常令人意外地將「城」的「文讀+白讀」連成一詞，暫時查不到還有這樣的說法。所以我不是在裝可愛叫「城城」XD</div>Hú-siânn bô tāi-tsì, hòng liû-bîn ji̍p-sîng, hiáng-hok?<br>Liû-bîn li̍p-sîng li̍p hōo-kháu, sī ài lâi tsuè khóo-la̍t siu <span class='noted'>sîng-siânn</span>.",
+            "2"
+          ]
+        ]
+      },
+
+      {
+        "t": "13:20",
+        "rows": [
+          [
+            "水",
+            "後壁彼面共踅過來啊。",
+            "Āu-piah hit bīn kā se̍h kuè-lâi--a.",
+            "2"
+          ],
+          [
+            "甥",
+            "踅過來！踅過來！<br>共伊徛起去，緊咧！用索仔共縛咧。來、來、……來！",
+            "Se̍h kuè-lâi! Se̍h kuè-lâi!<br>Kā i khiā--khí-khì, kín leh! Iōng soh-á kā pa̍k leh. Lâi, lâi, ... lâi!",
+            "2"
+          ],
+          [
+            "庄儂",
+            "頭儂！拍起來矣！",
+            "Thâu-lâng! Phah khí-lâi--ah!",
+            "2"
+          ],
+          [
+            "水",
+            "佗位啊？圳埤彼爿諾？",
+            "Tó-uī a? Tsùn-pi hit-pîng--hioh?",
+            "2"
+          ],
+          [
+            "庄儂",
+            "<div class='sidenote'>「鶴佬」之選字，參見<a href='https://www.facebook.com/notes/353628162575078/'>洪惟仁教授之考證</a>、<a href='http://rportal.lib.ntnu.edu.tw/bitstream/20.500.12235/109408/1/ntnulib_ja_B0402_0071_043.pdf'>韋煙灶、李易修之研究</a>。</div>柴城<span class='noted'>鶴佬</span>拍過中線矣！",
+            "Tshâ-siânn Ho̍h-ló phah kuè tiong-suànn--ah!",
+            "2"
+          ],
+          [
+            "水",
+            "封庄啊！活个死个攏袂當入來！",
+            "Hong-tsng--a! Ua̍h-ê sí-ê lóng bē-tàng li̍p-lâi!",
+            "2"
+          ],
+          [
+            "甥",
+            "緊咧緊咧，緊緊緊，緊去緊去！",
+            "Kín--leh kín--leh, kín kín kín, kín khì kín khì!",
             "2"
           ]
         ]
