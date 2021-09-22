@@ -18,6 +18,7 @@ names ={
   "黃2": ["N̂g"],
   "船員": ["Sǒnǐan","Shon rhan"],
   "蝶": ["Tiab","Tiabˋ"],
+  "蝶2": ["Tia̍p"],
   "瑪祖卡": ["Macuka","Macuka"],
   "丙": ["Bíang","Biangˋ"],
   "姆": ["Mé","Meˋ"],

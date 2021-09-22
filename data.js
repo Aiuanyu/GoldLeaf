@@ -90,14 +90,14 @@ data = [
           [
 
             "杰",
-            "𠊎係客家人，毋係番仔！",
+            "𠊎係客家人，毋係番仔！<hr>",
             "Ngǎi he Hàggángǐn, m̌ he fánè!",
 
           ],
 
           [
             "庄儂",
-            "這囥後壁就好矣。布袋仔對遐囥啊。",
+            "這囥後壁就好矣。布袋仔對遐囥啊。<hr>",
             "Tse khǹg āu-piah tiō hó--ah. Pòo-tē-á tuì hia khǹg--a.",
             "2"
           ],
@@ -247,7 +247,7 @@ data = [
           [
             "黃",
             "府城無代誌，放流民入城，享福？<br>流民入城入戶口，一年一擺，是愛來做苦力修<span class='noted'>城城</span>。",
-            "<div class='sidenote'>sîng 是「城」的文讀音，siânn 是白讀音。如果是要講「城牆」，「牆」只有一種音：tshiûnn。但演員並非講 sîng-tshiûnn 亦非講 siânn-tshiûnn，而是非常令人意外地將「城」的「文讀+白讀」連成一詞，暫時查不到還有這樣的說法。所以我不是在裝可愛叫「城城」XD</div>Hú-siânn bô tāi-tsì, hòng liû-bîn ji̍p-sîng, hiáng-hok?<br>Liû-bîn li̍p-sîng li̍p hōo-kháu, sī ài lâi tsuè khóo-la̍t siu <span class='noted'>sîng-siânn</span>.",
+            "<div class='sidenote'>sîng 是「城」的文讀音，siânn 是白讀音。如果是要講「城牆」，「牆」只有一種音：tshiûnn。但演員並非講 sîng-tshiûnn 亦非講 siânn-tshiûnn，而是非常令人意外地將「城」的「文讀+白讀」連成一詞，暫時查不到還有這樣的說法。所以我記「城城」不是為了裝可愛 XD</div>Hú-siânn bô tāi-tsì, hòng liû-bîn ji̍p-sîng, hiáng-hok?<br>Liû-bîn li̍p-sîng li̍p hōo-kháu, sī ài lâi tsuè khóo-la̍t siu <span class='noted'>sîng-siânn</span>.",
             "2"
           ]
         ]
