@@ -10,7 +10,7 @@ data = [
 
           [
 
-            "村人",
+            "庄人",
             "番仔杰，老規矩，𫣆兜這客人庄，有人十六歲吔，愛有成年禮！",
             "Fánè Kied, lò gúigì, éndéu ìa Hàgngǐn zóng, íu ngǐn siiblìug se ě, oi íu sǐinngǐanlí!",
 
@@ -25,7 +25,7 @@ data = [
           ],
 
           [
-            "庄人",
+            "庄儂",
             "這囥後壁就好矣。布袋仔對遐囥啊。",
             "Tse khǹg āu-piah tiō hó--ah. Pòo-tē-á tuì hia khǹg--a.",
             "2"
@@ -33,7 +33,7 @@ data = [
 
           [
 
-            "村人",
+            "庄人",
             "若屋下三國演義啊！番人阿姆，客人阿爸，<span class='updated'>若</span>姐，賣<span class='updated'>紅</span>毛番。",
             "Ngía vùg<span class='updated'>k</span>á Sám Gùed Íanngi à! Fánngǐn ámé, Hàgngǐn ábá, <span class='updated'>ňgía jì</span>, mai <span class='updated'>fǔng</span>mófán.",
 
@@ -115,7 +115,7 @@ data = [
 
             "阿九",
             "你來𢯭手，吾田，贌兩分田分你。<br>若倈仔，乜有屋好歇！<br>係無，客家庄，無人想愛嫁番仔！<br>若倈仔，佢就等討社寮个土生仔，再過<span class='updated'>降</span>土生子啊！",
-            "Ňg lǒi tensù, ngá tǐen, piog lìong <span class='updated'>fún</span> tǐen bún ňg. <br><span class='updated'>Ngía</span> laiè, me íu vùg hò hed! <br>He mǒ, Hàggá zóng, mǒ ngǐn xìong oi ga fánè! <br>Ňgía laiè, gǐ qiu dèn tò Salǐau ge tùsáng'è, zaigo <span class='updated'>giung</span> tùsángzìi a!",
+            "Ňg lǒi tensù, ngá tǐen, piog lìong <span class='updated'>fún</span> tǐen bún ňg. <br><span class='updated'>Ngía</span> laiè, me íu vùg hò hed! <br>He mǒ, Hàggá zóng, mǒ ngǐn xìong'oi ga fánè! <br>Ňgía laiè, gǐ qiu dèn tò Salǐau ge tùsáng'è, zaigo <span class='updated'>giung</span> tùsángzìi a!",
 
           ],
 
@@ -417,7 +417,7 @@ data = [
 
             "林",
             "瑪祖卡，𠊎帶阿杰仔，去尋蝶妹啊，你愛保護𫣆<span class='updated'>屋下</span>人團圓。啊？",
-            "<span class='lang3'>Macuka</span>, ngǎi dai Á-Kied-è, hi qǐm Tiab-Moi a, ňg oi bòfu én <span class='updated'>vùgká</span>ngǐn tǒnǐan. A?",
+            "<span class='lang3'>Macuka</span>, ngǎi dai Á-Kied-è, hi qǐm Tiab Moi a, ňg oi bòfu én <span class='updated'>vùgká</span>ngǐn tǒnǐan. A?",
 
           ],
 
@@ -488,7 +488,7 @@ data = [
 
             "水",
             "府城路當遠啊，食飽兜仔啊。<br><div class='sidenote'>就是不要忘記幫我領一份的意思（DanielaAerts）</div>救船員个賞銀，<span class='noted updated'>領吾額</span>。<br>好。絡索。<br>蝶妹呴，無定著就愛轉來哩。<br>這下去府城，危險啦。",
-            "Fùsǎng lu dóng ìan a, siid bàu déu è a.<br>Giu sǒnǐan ge sònngǐun, <span class='updated'>líang ngá ngìag</span>.<br>Hò. Logsòg.<br>Tiab-Moi ho, mǒ tincog qiu oi zòn lǒi lè.<br>Ìaha hi Fùsǎng, ngǔihìam la.",
+            "Fùsǎng lu dóng ìan a, siid bàu déu è a.<br>Giu sǒnǐan ge sònngǐun, <span class='updated'>líang ngá ngìag</span>.<br>Hò. Logsòg.<br>Tiab Moi ho, mǒ tincog qiu oi zòn lǒi lè.<br>Ìaha hi Fùsǎng, ngǔihìam la.",
 
           ],
 
@@ -1205,7 +1205,7 @@ data = [
 
           [
 
-            "村人",
+            "庄人",
             "頭人，<span class='updated'>好</span>走吔。",
             "Těungǐn, <span class='updated'>hò</span> zèu ě.",
 
@@ -1345,7 +1345,7 @@ data = [
 
             "九",
             "嘿！共下出陣哩！𠊎乜<span class='updated'>有</span>損失人，哪有<span class='updated'>氣力</span>滅若庄啦！",
-            "<div class='sidenote'>「滅」有 mied / med 兩音，但演員發音是 med（DanielaAerts）</div>Hè! Kiungha cùdciin lè! Ngǎi me <span class='updated'>íu</span> sùnsìid ngǐn, nai íu <span class='updated'>hilid</span> m<span class='updated noted'>e</span>d ngía zóng là!",
+            "<div class='sidenote'>「滅」有 mied / med 兩音，但演員發音是 med（DanielaAerts）</div>Hè! Kiungha cùdciin lè! Ngǎi me <span class='updated'>íu</span> sùnsìid ngǐn, nai íu <span class='updated'>hilid</span> <span class='updated noted'>med</span> ngía zóng là!",
 
           ],
 
@@ -1672,7 +1672,7 @@ data = [
 
           [
 
-            "村人",
+            "庄人",
             "頭人，官軍到吔。",
             "Těungǐn, gón'gíun do ě.",
 
@@ -1744,7 +1744,7 @@ data = [
 
           [
 
-            "村人",
+            "庄人",
             "官軍等到佇毋著哩。",
             "Gón'gíun dèn do du m̌ dǐau lè.",
 
@@ -1801,7 +1801,7 @@ data = [
 
             "九",
             "這擺你轉來做通譯，係講啊，想愛借等官軍報冤仇，𠊎毋會放過你啊。",
-            "Ìa bài ňg zònlǒi zo t<span class='updated'>ú</span>ng'id, hegòng à, xìong oi jia dèn gón'gíun bo íansǔ, ngǎi m̌ voi bionggo ňg à.",
+            "Ìa bài ňg zònlǒi zo t<span class='updated'>ú</span>ng'id, hegòng à, xìong'oi jia dèn gón'gíun bo íansǔ, ngǎi m̌ voi bionggo ňg à.",
 
           ],
 
@@ -1997,7 +1997,7 @@ data = [
             "Mǒ tincog ò, sángfánè voi bún én ngib sán, ngǎi iung ǐam, láu gǐdéu von déu siidlǐong."
           ],
           [
-            "村人",
+            "庄人",
             "阿水仔來村口吔！",
             "Á-Sùiè lǒi cúnhèu ě!"
           ],
@@ -2083,7 +2083,7 @@ data = [
             "2"
           ],
           [
-            "村人",
+            "庄人",
             "喂！做麼<span class='updated'><span class='TBD'>＿</span>割</span>吾禾！",
             "Òi! Zo mà <span class='updated'><span class='TBD'>___</span> gòd</span> ngá vǒ!"
           ],
@@ -2147,7 +2147,7 @@ data = [
           [
             "九",
             "<div class='sidenote'>Ho̍h-ló 有「激外外」，演員客話聽來像 giog？（GHSRobert）<br>同前述是 giug，暫時還不確定用哪字，先這樣用（DanielaAerts）</div>你想愛<span class='noted'><span class='TBD updated'>挶</span>外外</span>，有還<span class='updated'>較</span>壞个事情會發生到若身項！你穩死个啊！",
-            "Ňg xìong oi <span class='TBD updated'>giug</span>ngoingoi, íu hǎn <span class='updated'>ka</span> faige siiqǐn voi fàdsén do ngía sǐin hong! Ňg vùn xì ge à!"
+            "Ňg xìong'oi <span class='TBD updated'>giug</span>ngoingoi, íu hǎn <span class='updated'>ka</span> faige siiqǐn voi fàdsén do ngía sǐin hong! Ňg vùn xì ge à!"
           ],
           [
             "蝶",
@@ -2195,7 +2195,7 @@ data = [
         "t": "33:00",
         "rows": [
           [
-            "村人",
+            "庄人",
             "喂！番仔杰！",
             "Òi! Fánè Kied!"
           ],
@@ -2205,9 +2205,9 @@ data = [
             "Ngá jì di <span class='updated'>nài</span>?"
           ],
           [
-            "村人",
+            "庄人",
             "𠊎這兜乜想愛尋佢，再過做一擺「成年禮」，轉大人。",
-            "Ngǎi ìadéu me xìong qǐm gǐ, zaigo zo ìd bài &quot;sǐinngǐanlí&quot;, zòn taingǐn."
+            "Ngǎi ìadéu me xìong'oi qǐm gǐ, zaigo zo ìd bài &quot;sǐinngǐanlí&quot;, zòn taingǐn."
           ],
           [
             "",
@@ -2220,7 +2220,7 @@ data = [
             "Xìong<span class='updated'>'oi</span> bún sángfánè cùdcò he?"
           ],
           [
-            "村人",
+            "庄人",
             "屌麼个！你講麼个漦！",
             "D<span class='updated'>ì</span>au màge! Ňg gòng màge xǐau!"
           ]
@@ -2312,9 +2312,9 @@ data = [
         "t": "43:40",
         "rows": [
           [
-            "村人",
+            "庄人",
             "阿九哥！蝶妹消忒哩。",
-            "<div class='sidenote'>這句聽起來是 3 句耳語當中比較清楚的。可惡，佢這兜凶手～還吾蝶妹命來 😠</div>Á-Gìu Go! Tiab Moi xíau tèd lè."
+            "<div class='sidenote'>這句聽起來是 3 句耳語當中比較清楚的。可惡，佢這兜凶手～還吾蝶妹命來 😠</div>Á-Gìu Gó! Tiab Moi xíau tèd lè."
           ]
         ]
       }
