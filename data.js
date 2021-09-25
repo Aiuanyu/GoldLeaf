@@ -1244,7 +1244,7 @@ data = [
           [
 
             "杰",
-            "你毋記得哩？𠊎還記得。你離開琅𤩝，<span class='updated'>伸</span>𠊎摎阿爸，想阿姆个時節，𠊎就會上來。<div class='sidenote'>這段裡的「逐擺」、「樹林」剛好都和閩南話相近 XD</div>佢逐擺都行這條路，帶等𠊎兜去該<span class='updated'>位</span>樹林，講<span class='updated'>再過</span>去，就係部落，厥个屋。佢包尾，還係轉到該，在該過身。",
+            "你毋記得哩？𠊎還記得。你離開琅𤩝，<span class='updated'>伸</span>𠊎摎阿爸，想阿姆个時節，𠊎就會上來。<div class='sidenote'>這段裡的「逐擺」、「樹林」剛好都和 Ho̍h-ló 話相近 XD</div>佢逐擺都行這條路，帶等𠊎兜去該<span class='updated'>位</span>樹林，講<span class='updated'>再過</span>去，就係部落，厥个屋。佢包尾，還係轉到該，在該過身。",
             "Ňg m̌ gidèd lè? Ngǎi hǎn gidèd. Ňg lǐkói Lǒngkieu, <span class='updated'>cún</span> ngǎi láu Ábá, xìong Ámé ge sǐijìed, ngǎi qiu voi sóng lǒi. Gǐ dàgbài du hǎng ìa tǐau lu, dai dèn ngǎidéu hi ge <span class='updated'>vi</span> sunǎ, gòng zai gohi, qiu he pulog, gía ge vùg. Gǐ báumí, hǎn he zòn d<span class='updated'>o</span> ge, di ge gosíin.",
 
           ],
@@ -1452,7 +1452,7 @@ data = [
           [
 
             "水",
-            "<div class='sidenote'> 我聽演員唸這個「就」感覺有點像臺語「tiō」 </div>這話，等見總兵官正講啦。<span class='lang2'>一丙阿兄</span>定著當想聽个啊。啊你人頭落地，樵城乜省事。<span class='noted'>下二擺</span>喔，<span class='noted'>就</span>毋使摎你<span class='updated'>相㓾哩</span>！",
+            "這話，等見總兵官正講啦。<span class='lang2'>一丙阿兄</span>定著當想聽个啊。啊你人頭落地，樵城乜省事。<span class='noted'>下二擺</span>喔，<span class='noted'>就</span>毋使摎你<span class='updated'>相㓾哩</span>！",
             "<div class='sidenote'> 「Ha ngi bài 下二擺」符合這邊的語意，但聽來像「han 擺」（GHSRobert）<br><span class='updated'>對，是連音。不是演員發音問題，這字他講得非常好 XD（DanielaAerts）</span></div>Lìa fa, dèn gian Zùngbín'gón zang gòng là. <span class='lang2'>It-píng A-hiann</span> tincog dóng xìong táng ge a. A ňg ngǐntěu logti, Cěusǎng me sàngsii. <span class='noted'>Hanbài </span> ò, qiu m̌sìi láu ňg <span class='updated'>xíongcǐi lè</span>!",
 
           ],
@@ -1461,7 +1461,7 @@ data = [
 
             "九",
             "你講麼个！",
-            "Ňg gòng màge!",
+            "<div class='sidenote'> 我聽演員唸這個「就」感覺有點像臺語「tiō」 </div>Ňg gòng màge!",
 
           ],
 
@@ -1714,7 +1714,7 @@ data = [
 
             "姆",
             "路項淨有樵城、官軍，無看着生番仔啊。做毋得分官軍入庄。分佢兜在庄口等。",
-            "Lu hong qiang íu Cěusǎng, gón'gíun, mǒ kon dò sángfánè a. Zo-m̌-dèd bún góngíun ngib zóng. B<span class='updated'>ú</span>n gǐdéu di zóng<span class='updated'>hèu</span> dèn.",
+            "Lu hong qiang íu Cěusǎng, gón'gíun, mǒ kon dò sángfánè a. Zo-m̌-dèd bún gón'gíun ngib zóng. B<span class='updated'>ú</span>n gǐdéu di zóng<span class='updated'>hèu</span> dèn.",
 
           ],
 
@@ -1737,8 +1737,8 @@ data = [
           [
 
             "",
-            "𫣆俚愛官軍摎生番仔配合𫣆俚，<br><div class='sidenote'> 「斯」很難解釋。可以先當作「可不是」的意思，整句的意思是兩頭的秤頭可不是還空著嗎（反問）（DanielaAerts） </div>𫣆俚<span class='noted'>是</span>秤仔，琅𤩝个秤仔，<br>偎官軍這片，生番仔會驚；<br>偎生番仔這片，官軍會敗。<br>這下，兩頭秤頭<span class='updated noted'>斯</span>空个毋係？<br>𫣆俚還吂升旗，官軍定著會來放斤兩。<br><span class='updated'>莫</span>分官軍入庄，生番仔在山頂乜看得着，<br>佢<span class='updated'>也</span>會來放斤兩。<br>到尾，𫣆俚看兩片，哪片斤兩較足，<br>𫣆俚就偎哪片。啊？",
-            "Énlì oi gón'gíun láu sángfánè pihab énlì,<br>énlì sii ciinè, Lǒngkieu ge ciinè,<br>và gón'gíun lìa pìen, sángfánè voi gíang;<br>và sángfánè lìa pìen, gón'gíun voi pai.<br><div class='sidenote'>聽來像 liha，該不會梅芳阿姨有饒平腔還是詔安腔的背景？ </div><span class='noted'>Lìaha</span>, lìong těu ciintěu sii kúngge me?<br>Énlì hǎn mǎng síinkǐ, gón'gíun tincog voi lǒi biong gínlíong.<br><span class='updated'>Mog</span> bún gón'gíun ngib zóng, sángfánè di sán dàng me kon dèd dò,<br>gǐ <span class='updated'>ia</span> voi lǒi biong gínlíong.<br>Domí, énlì kon lìong pìen, nai pìen gínlíong ka jìug,<br>énlì qiu và nai pìen. A?",
+            "𫣆俚愛官軍摎生番仔配合𫣆俚，<br><div class='sidenote'> 「斯」很難解釋。可以先當作「可不是」的意思，整句的意思是兩頭的秤頭可不是還空著嗎（反問）（DanielaAerts） </div>𫣆俚是秤仔，琅𤩝个秤仔，<br>偎官軍這片，生番仔會驚；<br>偎生番仔這片，官軍會敗。<br>這下，兩頭秤頭<span class='updated noted'>斯</span>空个毋係？<br>𫣆俚還吂升旗，官軍定著會來放斤兩。<br><span class='updated'>莫</span>分官軍入庄，生番仔在山頂乜看得着，<br>佢<span class='updated'>也</span>會來放斤兩。<br>到尾，𫣆俚看兩片，哪片斤兩較足，<br>𫣆俚就偎哪片。啊？",
+            "Énlì oi gón'gíun láu sángfánè pihab énlì,<br>énlì sii ciinè, Lǒngkieu ge ciinè,<br>và gón'gíun lìa pìen, sángfánè voi gíang;<br>và sángfánè lìa pìen, gón'gíun voi pai.<br><div class='sidenote'>聽來像 liha，該不會梅芳阿姨有饒平腔還是詔安腔的背景？ </div><span class='noted'>Lìaha</span>, lìong těu ciintěu sǐi kúngge me?<br>Énlì hǎn mǎng síinkǐ, gón'gíun tincog voi lǒi biong gínlíong.<br><span class='updated'>Mog</span> bún gón'gíun ngib zóng, sángfánè di sán dàng me kon dèd dò,<br>gǐ <span class='updated'>ia</span> voi lǒi biong gínlíong.<br>Domí, énlì kon lìong pìen, nai pìen gínlíong ka jìug,<br>énlì qiu và nai pìen. A?",
 
           ],
 
@@ -2078,7 +2078,7 @@ data = [
         "rows": [
           [
             "水",
-            "緊割！緊割！稻仔袂<span class='updated'>飽穗</span>，漢人無愛食，咱來食！咱來食！",
+            "緊割！緊割！稻仔袂<span class='updated'>飽穗</span>，漢儂無愛食，咱來食！咱來食！",
             "Kín kuah! Kín kuah! Tiū-á bē <span class='updated'>pá-suī</span>, Hàn-lâng bô ài tsia̍h, lán lâi tsia̍h! Lán lâi tsia̍h!",
             "2"
           ],
@@ -2111,7 +2111,7 @@ data = [
           [
             "",
             "佢缺糧，缺<span class='updated'>到</span >連無熟个禾都割吔！",
-            "<div class='sidenote'>作物成熟之意，要用這個音</div>Gǐ kìad lǐong, kìad <span class='updated'>do</span> lǐen mǒ<span class='updated noted'>xìug</span>ge vǒ du gòd ě!"
+            "<div class='sidenote'>作物成熟之意，要用這個音</div>Gǐ kìad lǐong, kìad <span class='updated'>do</span> lǐen mǒ <span class='updated noted'>xìug</span>ge vǒ du gòd ě!"
           ],
           [
             "",
@@ -2250,7 +2250,7 @@ data = [
           [
             "李",
             "",
-            "<div class='trans'>“Heureux Qui Comme Ulysse” de Joachim du Bellay<blockquote>遠行過的人都懂得尤利西斯的幸福<br>得到金羊毛的人也懂得其中的樂趣<br>他們回到故鄉　滿懷閱歷與智慧<br>和家人一起共享天倫</blockquote></div><div class='poem'><blockquote>Heureux qui comme Ulysse a fait un beau voyage<br>Ou comme cestui - là qui conquit la toison<br>Et puis est retourné plein d'usage et raison<br>Vivre entre ses parents le reste de son âge</blockquote></div>",
+            "<div class='trans'>Joachim du Bellay, “Heureux Qui Comme Ulysse”<blockquote>遠行過的人都懂得尤利西斯的幸福<br>得到金羊毛的人也懂得其中的樂趣<br>他們回到故鄉　滿懷閱歷與智慧<br>和家人一起共享天倫</blockquote></div><div class='poem'><blockquote>Heureux qui comme Ulysse a fait un beau voyage<br>Ou comme cestuy-là qui conquit la toison<br>Et puis est retourné plein d'usage et raison<br>Vivre entre ses parents le reste de son âge</blockquote></div>",
             "6"
           ]
         ]
@@ -2320,6 +2320,6 @@ data = [
       }
     ],
     "misc": "",
-    "draft": true
+    "draft": false
   }
 ]

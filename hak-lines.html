@@ -15,19 +15,48 @@
   <body onload="init()">
     <div id="cover-page">
       <div> 公視戲劇<br>
-        <span style="font-size: 2em; font-family: '王漢宗中行書繁'">「斯卡羅」</span><br>
+        <span style="font-size: 1.5em; font-family: '行楷-繁'; font-weight: 700;"><span
+            style="font-size: 2em; font-family: 王漢宗中仿宋繁;">Seqalu</span><br>
+          「斯卡羅」</span><br>
         <span style="font-size: 1.5em;">客語台詞彙整</span><br>
         （學習用）<span class="SI"><br>
           （四縣腔）</span><span class="HL"><br>
-          （海陸腔）</span> </div>
+          （海陸腔）</span><br>
+        <img src="res/Notes_of_travel_in_Formosa_1869.jpg" id="cover-photo">
+        <!-- File:Notes of travel in Formosa 1869.jpg - Wikimedia Commons <https://commons.wikimedia.org/wiki/File:Notes_of_travel_in_Formosa_1869.jpg> Public Domain --> </div>
     </div>
-    <div style="float:right; line-height:1.3em;" id="links"> <a href="https://www.facebook.com/Aiuanyu/posts/345262983761551">Aiuanyu_愛灣語</a>編 <br>
+    <div id="main-idea-page">
+      <div id="main-idea">
+        <div class="qgroup">
+          <blockquote>Shout. Do not go quietly, let the last breath of this language be that of defiance.</blockquote>
+          <cite>－line of "LeGendre" in drama "Seqalu, Formosa 1867"</cite></div>
+        <div class="qgroup">
+          <blockquote>這是一個溫暖的故事，看到當下族群碰到的衝突，不同族群有不同的看見，不只是排灣族的故事，不只是漢人客家人洋人軍隊來臺灣的故事；而是去思考怎樣維護自己的族群，但不用侵略式、衝突式的解決方法，而是把人看作一個最重要的核心價值，去看到人最美的部分。每一個角色都很鮮明，看見土地滋養著不同的人，雖然膚色血統不同，但是都有高貴的靈魂，這是這齣戲想要傳達的。</blockquote>
+          <cite>－Camake Valaule</cite></div>
+        and...
+        <div class="qgroup">
+          <blockquote style="font-size: 1.5rem">Every language deserves proper writing.</blockquote>
+          <cite>－小編</cite></div>
+      </div>
+    </div>
+    <div id="suggestion">若使用手機閱讀，建議將裝置轉為橫向</div>
+    <div style="float:right; line-height:1.3em;" id="info">
+    <div id="links"> <div id="copyright"><br><a rel="license" href="http://creativecommons.org/licenses/by/3.0/tw/"><img
+                alt="創用 CC 授權條款"
+                style="border-width:0"
+                src="https://i.creativecommons.org/l/by/3.0/tw/88x31.png"></a><br>（原劇本著作權歸編劇及相關人員）</div><br>
+      小編／<a href="https://www.facebook.com/Aiuanyu/posts/345262983761551"><img src="res/Aiuanyu-cover_photo.png" height="50px"></a><br>
+      審校／
+      <ul id="community">
+        <li>臺中市余畹婕老師</li>
+        <li>sallytai</li>
+        <li>DanielaAerts</li>
+      </ul>
       <span class="HL"><span id="HLauthor">海陸腔拼音：sallytai</span></span>
-      <div id="vinfo"> <span id="vnum">v0.95beta</span>（EP1～10 ✅<br>
-        EP11、12 初稿 ⚠️<br>
-        （海陸腔 EP1～6）<br>
+      <div id="vinfo"> <span id="vnum">v1.0beta</span>（客話四縣腔全劇 ✅；<br>
+        海陸腔 EP1～6；<br>
         🏃‍持續更新中） </div>
-      最新版：<br>
+      （最新版點此：）<br>
       <a href="https://drive.google.com/file/d/1vCk5SYo32PHfw_vmfHnGL7YgdTegbxFi/view"
         style="background: deeppink">四縣腔</a> <a
         href="https://drive.google.com/file/d/1SorfoLIB_tF_jN10Q-R0GxLGNPmVXksH/view"
@@ -38,7 +67,7 @@
         onclick="useHL()">客語改用海陸腔</button> <br>
       <a href="http://ghsrobert.tk/hist/seqalu#%E8%A7%80%E7%9C%8B">如何收看原劇</a><br>
       <a href="https://www.facebook.com/Aiuanyu/posts/345262983761551">提建議</a> <a
-        href="https://docs.google.com/document/d/1qjP0zwRnv96oyrgvqQfZm3rADH9A1hVpi91XZwlRJaU/edit?usp=sharing">參與編輯</a></div>
+        href="https://docs.google.com/document/d/1qjP0zwRnv96oyrgvqQfZm3rADH9A1hVpi91XZwlRJaU/edit?usp=sharing">參與編輯</a></div></div>
     <div id="chars">【劇中人物】
       <ul>
         <li> 阿杰：客人+排灣混血个後生仔 </li>
@@ -59,7 +88,7 @@
       <ul>
         <li><span class="sample">Hàgfa / 客話</span>：</li>
         <ul>
-          <li>羅馬字：<a href="https://www.wikiwand.com/zh-tw/%E8%87%BA%E7%81%A3%E5%AE%A2%E5%AE%B6%E8%AA%9E%E6%8B%BC%E9%9F%B3%E6%96%B9%E6%A1%88">教育部臺灣客語拼音</a>（四縣腔採 GHSRobert flavor）</li>
+          <li>羅馬字：<a href="https://www.wikiwand.com/zh-tw/%E8%87%BA%E7%81%A3%E5%AE%A2%E5%AE%B6%E8%AA%9E%E6%8B%BC%E9%9F%B3%E6%96%B9%E6%A1%88">教育部臺灣客語拼音</a>（四縣腔採 GHSRobert flavor：調符標在音節上；分詞連寫）</li>
           <li>漢字：<a href="https://www.wikiwand.com/zh-tw/%E8%87%BA%E7%81%A3%E5%AE%A2%E5%AE%B6%E8%AA%9E%E6%9B%B8%E5%AF%AB%E6%8E%A8%E8%96%A6%E7%94%A8%E5%AD%97">教育部推薦客語漢字</a></li>
           <li>局部讀音依南四縣腔（雖然劇中似以北四縣腔為主 @@）</li>
         </ul>
@@ -78,17 +107,199 @@
       </ul>
     </div>
     <div style="clear: both;"></div>
+    <div id="instructions">
+      <table id="roman-guide">
+        <caption>羅馬字簡易指南</caption>
+        <thead>
+          <tr class="row0">
+            <td class="col0"> <br>
+            </td>
+            <th class="col1" colspan="2"> Hàgfa 客話 </th>
+            <th class="col3" colspan="2"> Ho̍h-ló 鶴佬 </th>
+            <th class="col5" rowspan="2"> 對應<br>
+              華語注音符號 </th>
+          </tr>
+          <tr class="row1">
+            <td class="col0"> <br>
+            </td>
+            <th class="col1"> 華語也有的音 </th>
+            <th class="col2"> 華語無 </th>
+            <th class="col3"> 華語也有的音 </th>
+            <th class="col4"> 華語無 </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="row2">
+            <th class="col0 centeralign" rowspan="7"> 韻頭 </th>
+            <td class="col1"> b p m </td>
+            <td class="col2"> <br>
+            </td>
+            <td class="col3"> p ph m </td>
+            <td class="col4"> b </td>
+            <td class="col5"> ㄅㄆㄇ </td>
+          </tr>
+          <tr class="row3">
+            <td class="col0"> f </td>
+            <td class="col1"> v </td>
+            <td class="col2"> f </td>
+            <td class="col3"> <br>
+            </td>
+            <td class="col4"> ㄈ </td>
+          </tr>
+          <tr class="row4">
+            <td class="col0"> d t n l </td>
+            <td class="col1"> <br>
+            </td>
+            <td class="col2"> t th n l </td>
+            <td class="col3"> <br>
+            </td>
+            <td class="col4"> ㄉㄊㄋㄌ </td>
+          </tr>
+          <tr class="row5">
+            <td class="col0"> g k h </td>
+            <td class="col1"> ng </td>
+            <td class="col2"> k kh h </td>
+            <td class="col3"> g ng </td>
+            <td class="col4"> ㄍㄎㄏ </td>
+          </tr>
+          <tr class="row6">
+            <td class="col0"> j q x </td>
+            <td class="col1"> <br>
+            </td>
+            <td class="col2"> tsi- tshi- si- </td>
+            <td class="col3"> <br>
+            </td>
+            <td class="col4"> ㄐㄑㄒ </td>
+          </tr>
+          <tr class="row7">
+            <td class="col0"> zh ch sh rh ⚠️<br>
+              <span class="note">（海陸腔才有，且捲舌度近英語，不如華語捲）</span> </td>
+            <td class="col1"> <br>
+            </td>
+            <td class="col2"> <br>
+            </td>
+            <td class="col3"> <br>
+            </td>
+            <td class="col4"> ㄓㄔㄕㄖ⚠️ </td>
+          </tr>
+          <tr class="row8">
+            <td class="col0"> z c s </td>
+            <td class="col1"> <br>
+            </td>
+            <td class="col2"> ts tsh s </td>
+            <td class="col3"> j </td>
+            <td class="col4"> ㄗㄘㄙ </td>
+          </tr>
+          <tr class="row9">
+            <th class="col0 centeralign" rowspan="5"> 韻腹 </th>
+            <td class="col1"> a e i o u </td>
+            <td class="col2"> <br>
+            </td>
+            <td class="col3"> a e i oo u </td>
+            <td class="col4"> <br>
+            </td>
+            <td class="col5"> ㄚㄝーㄛㄨ </td>
+          </tr>
+          <tr class="row10">
+            <td class="col0"> ii </td>
+            <td class="col1"> <br>
+            </td>
+            <td class="col2"> ir <span class="note">（某些腔調有）</span> </td>
+            <td class="col3"> <br>
+            </td>
+            <td class="col4"> ㄭ<span class="note">（ㄓㄔㄕㄖㄗㄘㄙ<br>
+                的母音部分）</span> </td>
+          </tr>
+          <tr class="row11">
+            <td class="col0"> <br>
+            </td>
+            <td class="col1"> <br>
+            </td>
+            <td class="col2"> o[ɤ]/or<br>
+              er <span class="note">（某些腔調有）</span> </td>
+            <td class="col3"> o[o] </td>
+            <td class="col4"> ㄜ </td>
+          </tr>
+          <tr class="row12">
+            <td class="col0"> <br>
+            </td>
+            <td class="col1"> <br>
+            </td>
+            <td class="col2"> <br>
+            </td>
+            <td class="col3"> -nn<br>
+              <span class="note">（鼻化）</span> </td>
+            <td class="col4"><br>
+            </td>
+          </tr>
+          <tr>
+            <td><br>
+            </td>
+            <td>m n ng<br>
+              <span class="note">（自成音節）</span> </td>
+            <td><br>
+            </td>
+            <td>m ng<br>
+              <span class="note">（自成音節）</span> </td>
+            <td><br>
+            </td>
+            <td><br>
+            </td>
+          </tr>
+          <tr class="row13">
+            <th class="col0 centeralign" rowspan="3"> 韻尾 </th>
+            <td class="col1"> -n -ng </td>
+            <td class="col2"> -m </td>
+            <td class="col3"> -n -ng </td>
+            <td class="col4"> -m </td>
+            <td class="col5"> ㄢㄤ </td>
+          </tr>
+          <tr class="row14">
+            <td class="col0"> <br>
+            </td>
+            <td class="col1"> -b -d -g </td>
+            <td class="col2"> <br>
+            </td>
+            <td class="col3"> -p -t -k </td>
+            <td class="col4"> <br>
+            </td>
+          </tr>
+          <tr class="row15">
+            <td class="col0"> <br>
+            </td>
+            <td class="col1"> <br>
+            </td>
+            <td class="col2"> <br>
+            </td>
+            <td class="col3"> -h </td>
+            <td class="col4"><br>
+            </td>
+          </tr>
+          <tr class="row16">
+            <th class="col0 centeralign"> 聲調 </th>
+            <td class="col1"> 高平 ◌<br>
+              升 ◌́<br>
+              低平 ◌̌<br>
+              降 ◌̀<br>
+              <span class="note">（調符描繪調形）</span></td>
+            <td class="col2"> <br>
+            </td>
+            <td class="col3" colspan="2"> o ó ò ô ǒ ō o̍ ő<br>
+              <span class="note">（共 8～9 調，調符無關調形，且規則較多，需另說明）</span> </td>
+            <td class="col5" style="font-family: 源泉圓體;">一聲　<br>
+              二聲　ˊ<br>
+              三聲　ˇ<br>
+              四聲　ˋ<br>
+              <span class="note">（調符描繪調形）</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
     <div id="generated"></div>
     <h1></h1>
     <div id="thanks"> 特別致謝：
       <ul>
-        <li>共同編輯夥伴</li>
-        <ul id="community">
-          <li>臺中市余畹婕老師</li>
-          <li>sallytai</li>
-          <li>DanielaAerts</li>
-        </ul>
-        <li>社群一言之增益</li>
+        <li>社群</li>
         <ul id="community">
           <li>徐瑞蓮小姐</li>
           <li>管燕蕾小姐</li>
