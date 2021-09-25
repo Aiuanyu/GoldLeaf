@@ -1,6 +1,6 @@
 function fillRomanNames() { // 依漢字人名，抓 name.js 資料填入羅馬字人名
   // var nodes = document.getElementById("EP7").getElementsByTagName("tr") + document.getElementById("EP8").getElementsByTagName("tr");
-  var nodes = document.getElementsByTagName('tr');
+  var nodes = document.getElementById('generated').getElementsByTagName('tr');
   for (var i=0; i<nodes.length; i+=2) {
     if (nodes[i].classList.contains("fr")) {
       continue;
@@ -29,7 +29,7 @@ function fillRomanNames() { // 依漢字人名，抓 name.js 資料填入羅馬�
 
 function useHL() {
 
-  var nodes = document.querySelectorAll("tr:not(.lang2):not(.lang3):not(.lang4):not(.lang5):not(.lang6)"); // 最早是設計選取所有的 tr，但如果要支援多語內容，就必須略過非客話的列 ☞ :not() - CSS（层叠样式表） | MDN <https://developer.mozilla.org/zh-CN/docs/Web/CSS/:not>
+  var nodes = document.getElementById('generated').querySelectorAll("tr:not(.lang2):not(.lang3):not(.lang4):not(.lang5):not(.lang6)"); // 最早是設計選取所有的 tr，但如果要支援多語內容，就必須略過非客話的列 ☞ :not() - CSS（层叠样式表） | MDN <https://developer.mozilla.org/zh-CN/docs/Web/CSS/:not>
   for (var i=0; i<nodes.length; i+=2) {
     var j = i / 2;
     // nodes[i].getElementsByTagName('td')[0].innerHTML += " " + j; // 除錯用
