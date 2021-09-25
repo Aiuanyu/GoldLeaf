@@ -14,3 +14,9 @@ section:not(.noHak):before {
 .HL {
   display: initial !important;
 }
+
+#cover-hak {
+  color: mediumvioletred;
+  border-color: mediumvioletred;
+  border-style: double;
+}

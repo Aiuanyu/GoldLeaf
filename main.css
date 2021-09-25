@@ -11,7 +11,7 @@ h1, #vnum {
   line-height: 1.4;
 }
 
-#main-idea-page {
+#main-idea-page, .qgroup {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -70,7 +70,10 @@ h1, #vnum {
 }
 #main-idea cite {
   line-height: 3;
-  text-align: left;
+  text-align: center;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #suggestion, #roman-guide caption {
@@ -177,8 +180,8 @@ section table {
     height: 80vh;
   }
   .qgroup {
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
+    margin-top: 1em;
+    margin-bottom: 1em;
   }
   #note {page-break-after: always;}
 
@@ -197,6 +200,20 @@ section table {
   tr, .sidenote {page-break-inside: avoid;} /* .sidenote 的部分似乎是無效的 */
   
   .noprint {display: none;}
+
+  #cover-hak {
+    /*float: right;*/
+    transform: rotate(350deg);
+    position: absolute;
+    right: 0%;
+    font-family: Huiwen-mincho;
+    border: red 0.1em solid;
+    border-radius: 0.1em;
+    color: red;
+    padding: 0.2em;
+    line-height: 1.2em !important;
+  }
+  #cover-hak .HL {color: mediumvioletred;}
 }
 /* @page :first {margin: 0;} */ /* Chromium、Firefox 系瀏覽器都無效 QQ */
 
@@ -382,9 +399,13 @@ section table {width: 70vw;}
   background-repeat: no-repeat;
   width:1.2em;
   height:1.2em;
-  margin-left:0.3em;
+  margin-left:0.1em;
+  margin-right: -0.5em;
   vertical-align: middle;
 } /* css - Is there a way to use SVG as content in a pseudo element ::before or ::after - Stack Overflow <https://stackoverflow.com/questions/19255296/is-there-a-way-to-use-svg-as-content-in-a-pseudo-element-before-or-after> */
+#links a img {
+  vertical-align: middle;
+}
 
 #vnum {font-size: 1.5em; font-weight: 700;}
 
@@ -527,6 +548,11 @@ section tr:nth-child(2n+1).lang5 {font-size: 1.2em;}
 #roman-guide th {
   background-color: silver;
   color: darkslategray;
+}
+#roman-guide caption {
+  margin: 0.5em auto;
+  font-size: 1.5em;
+  line-height: 1.8em;
 }
 
 .note {

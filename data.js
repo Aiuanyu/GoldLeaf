@@ -278,7 +278,7 @@ data = [
           [
 
             "林",
-            "你十六歲哩，佇琅𤩝，毋係分人㓾死，就係做生番仔㓾人。",
+            "你十六歲哩，<span class='updated'>在</span>琅𤩝，毋係分人㓾死，就係做生番仔㓾人。",
             "Ňg siiblìug se lè, di Lǒngkieu, m̌ he bún ngǐn cǐi xì, qiu he zo sángfánè cǐi ngǐn.",
 
           ],
