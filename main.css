@@ -115,6 +115,10 @@ h1, #vnum {
   margin-bottom: 5vh;
   max-width: 40vw;
 }
+#copyright p {
+  text-indent: -1em;
+  margin: 0 0 0 1em;
+}
 #HLauthor {background-color: mediumvioletred; color: white;}
 /*#thanks>ul>ul, #thanks>ul>li {display: inline-block}*/
 #community li {  background-color: hsl(31, 90%, 80%);}

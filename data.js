@@ -114,8 +114,8 @@ data = [
           [
 
             "阿九",
-            "你來𢯭手，吾田，贌兩分田分你。<br>若倈仔，乜有屋好歇！<br>係無，客家庄，無人想愛嫁番仔！<br>若倈仔，佢就等討社寮个土生仔，再過<span class='updated'>降</span>土生子啊！",
-            "Ňg lǒi tensù, ngá tǐen, piog lìong <span class='updated'>fún</span> tǐen bún ňg. <br><span class='updated'>Ngía</span> laiè, me íu vùg hò hed! <br>He mǒ, Hàggá zóng, mǒ ngǐn xìong'oi ga fánè! <br>Ňgía laiè, gǐ qiu dèn tò Salǐau ge tùsáng'è, zaigo <span class='updated'>giung</span> tùsángzìi a!",
+            "你來𢯭手，吾田，贌兩分<span class='updated'>地</span>分你。<br>若倈仔，乜有屋好歇！<br>係無，客家庄，無人想愛嫁番仔！<br>若倈仔，佢就等討社寮个土生仔，再過<span class='updated'>降</span>土生子啊！",
+            "Ňg lǒi tensù, ngá tǐen, piog lìong <span class='updated'>fún</span> <span class='updated'>ti</span> bún ňg. <br><span class='updated'>Ngía</span> laiè, me íu vùg hò hed! <br>He mǒ, Hàggá zóng, mǒ ngǐn xìong'oi ga fánè! <br>Ňgía laiè, gǐ qiu dèn tò Salǐau ge tùsáng'è, zaigo <span class='updated'>giung</span> tùsángzìi a!",
 
           ],
 
@@ -138,8 +138,8 @@ data = [
           [
 
             "林",
-            "阿杰！",
-            "Á-Kied!",
+            "阿杰<span class='updated'>仔</span>！",
+            "Á-Kied<span class='updated'>-è</span>!",
 
           ],
 
@@ -233,7 +233,7 @@ data = [
 
             "阿九",
             "<span class='updated'>屌若个</span>……",
-            "<div class='sidenote'> 粗口，很小聲，我聽不出來，網友有說是「無核卵」，也有網友說「屌若个」比較常用。 </div><span class='noted updated'>Dìau ngía ge</span>...",
+            "<div class='sidenote'> 粗口，很小聲，我聽不出來，網友有說是「無核卵」，也有網友說「屌若个」比較常用。反正粗口，不用太在意…… </div><span class='noted updated'>Dìau ngía ge</span>...",
 
           ],
 
