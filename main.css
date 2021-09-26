@@ -512,6 +512,20 @@ section tr:nth-child(2n+1).lang5 {font-size: 1.2em;}
   line-height: 1.7em;
 }
 
+.condensed {
+  font-stretch: extra-condensed;
+  font-size: 75%;
+}
+
+td hr {
+  margin-top: 2em;
+  
+  /* Simple Styles for <hr>'s <https://css-tricks.com/examples/hrs/> */
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, hsla(42, 100%, 50%, 0), hsla(42, 100%, 50%, 0.8), hsla(42, 100%, 50%, 0));
+}
+
 .updated {
   border-bottom: dashed 0.3vh hsla(181, 54%, 64%, 0.5);
 }

@@ -6,7 +6,7 @@ function fillRomanNames() { // 依漢字人名，抓 name.js 資料填入羅馬�
       continue;
     }
     else {
-      var k = i + 1; //奇數行
+      var k = i + 1; // 偶數行
       var name = nodes[k].getElementsByTagName('td')[0].innerHTML.replace("：","").replace(' ','').replace(' ','').replace("&nbsp;","");
       // var names = JSON.parse(document.getElementById('names').innerHTML);
       if (names[name] == undefined) {
@@ -22,6 +22,12 @@ function fillRomanNames() { // 依漢字人名，抓 name.js 資料填入羅馬�
       else {
         nodes[i].getElementsByTagName('td')[0].innerHTML = names[name][0] + ":&nbsp;";
       }
+
+      // 較長的羅馬字名字：縮小字型、縮短長度
+      if (nodes[i].getElementsByTagName('td')[0].innerHTML.includes('傷長')) {
+        nodes[i].getElementsByTagName('td')[0].innerHTML = '<span class="condensed">' + nodes[i].getElementsByTagName('td')[0].innerHTML.replace('傷長','') + '</span>';
+      }
+
       nodes[k].getElementsByTagName('td')[0].innerHTML = nodes[k].getElementsByTagName('td')[0].innerHTML.replace(/\d/,'').replace('Tok：',''); // Tokitok 講客个時節，還係愛直接用佢个族語名，毋使用漢字
     }
   }
