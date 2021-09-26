@@ -356,7 +356,7 @@ data = [
 
             "九",
             "朝晨，幾下个細人仔，看自家个阿爸，扛去埋。<br>搶毋着水，佢這兜阿爸，白白死哩！<br>客家人毋驚做義民爺，統領埔，毋退！<br>水脈，你毋好放啊，等吾人去搶！",
-            "Zéusǐin, gìhǎge se'ngǐnè, kon ciigá ge ábá, góng hi mǎi.<br>Qìong m̌ dò sùi, gǐ ìadéu ábá, pagpag xì lè!<br>Hàggángǐn m̌ gíang zo ngimǐnǐa, Tùnglíangpú, m̌ tui!<br>Sùimàg, ňg m̌ hò biong a, dèn ngá ngǐn hi qìong!",
+            "Zéusǐin, gìhǎge se'ngǐnè, kon <span class='updated'>qid</span>gá ge ábá, góng hi mǎi.<br>Qìong m̌ dò sùi, gǐ ìadéu ábá, pagpag xì lè!<br>Hàggángǐn m̌ gíang zo ngimǐnǐa, Tùnglíangpú, m̌ tui!<br>Sùimàg, ňg m̌ hò biong a, dèn ngá ngǐn hi qìong!",
 
           ],
 
