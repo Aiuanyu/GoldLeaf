@@ -1,6 +1,6 @@
-function fillHakNames() {
+function fillRomanNames() { // 依漢字人名，抓 name.js 資料填入羅馬字人名
   // var nodes = document.getElementById("EP7").getElementsByTagName("tr") + document.getElementById("EP8").getElementsByTagName("tr");
-  var nodes = document.getElementsByTagName('tr');
+  var nodes = document.getElementById('generated').getElementsByTagName('tr');
   for (var i=0; i<nodes.length; i+=2) {
     if (nodes[i].classList.contains("fr")) {
       continue;
@@ -28,14 +28,14 @@ function fillHakNames() {
         nodes[i].getElementsByTagName('td')[0].innerHTML = '<span class="condensed">' + nodes[i].getElementsByTagName('td')[0].innerHTML.replace('傷長','') + '</span>';
       }
 
-      nodes[k].getElementsByTagName('td')[0].innerHTML = nodes[k].getElementsByTagName('td')[0].innerHTML.replace(/\d/,'');
+      nodes[k].getElementsByTagName('td')[0].innerHTML = nodes[k].getElementsByTagName('td')[0].innerHTML.replace(/\d/,'').replace('Tok：',''); // Tokitok 講客个時節，還係愛直接用佢个族語名，毋使用漢字
     }
   }
 }
 
 function useHL() {
 
-  var nodes = document.querySelectorAll("tr:not(.lang2):not(.lang3):not(.lang4):not(.lang5):not(.lang6)"); // 最早是設計選取所有的 tr，但如果要支援多語內容，就必須略過非客話的列 ☞ :not() - CSS（层叠样式表） | MDN <https://developer.mozilla.org/zh-CN/docs/Web/CSS/:not>
+  var nodes = document.getElementById('generated').querySelectorAll("tr:not(.lang2):not(.lang3):not(.lang4):not(.lang5):not(.lang6)"); // 最早是設計選取所有的 tr，但如果要支援多語內容，就必須略過非客話的列 ☞ :not() - CSS（层叠样式表） | MDN <https://developer.mozilla.org/zh-CN/docs/Web/CSS/:not>
   for (var i=0; i<nodes.length; i+=2) {
     var j = i / 2;
     // nodes[i].getElementsByTagName('td')[0].innerHTML += " " + j; // 除錯用
@@ -99,17 +99,35 @@ function create() {
       for (var k=0; k<data[i].sections[j].rows.length; k++) {
         var tr1 = document.createElement("tr");
         var tr2 = document.createElement("tr");
-        if (data[i].sections[j].rows[k][2] === undefined) {
+        if (data[i].sections[j].rows[k][2] === undefined) { // 還沒有羅馬字就先空著
           data[i].sections[j].rows[k][2] = "";
         }
-        tr1.innerHTML = '<td></td><td>' + data[i].sections[j].rows[k][2] + '</td>';
-        var name = data[i].sections[j].rows[k][0];
-        var lang = data[i].sections[j].rows[k][3];
-        name = (lang === undefined) ? name : name+lang;
-        if (name !== '') {
-          name += "："
+
+        if (data[i].sections[j].rows[k][3] == 3) { // 排灣
+          var name = data[i].sections[j].rows[k][0];
+          var lang = data[i].sections[j].rows[k][3];
+          var namelang = (lang === undefined) ? name : name+lang;
+          if (name !== '') {
+            name += "："
+          }
+          var trans = '';
+          if (data[i].sections[j].rows[k][1] !== '') { // 加這道，處理「空的翻譯」的情形（有翻譯，才產生 trans 方塊；像如果排灣文是打「...」那就不會有翻譯了）
+            trans = '<div class="trans">（' + name.replace(/\d/,'') + data[i].sections[j].rows[k][1] + '）</div>';
+          }
+          tr1.innerHTML = '<td></td><td>' + trans + data[i].sections[j].rows[k][2] + '</td>'; // 跟其他語文漢字放第 2 列不同，是把華文字幕放在右邊，類似 sidenote
+          tr2.innerHTML = '<td>' + namelang + '</td><td></td>'; // 這列還是要有，讓 fillHakNames() 去抓族語名，但再用 display:none 同英、法文
         }
-        tr2.innerHTML = '<td>' + name + '</td><td>' + data[i].sections[j].rows[k][1] + '</td>';
+        else { // 非排灣
+          tr1.innerHTML = '<td></td><td>' + data[i].sections[j].rows[k][2] + '</td>';
+          var name = data[i].sections[j].rows[k][0];
+          var lang = data[i].sections[j].rows[k][3];
+          name = (lang === undefined) ? name : name+lang;
+          if (name !== '') {
+            name += "："
+          }
+          tr2.innerHTML = '<td>' + name + '</td><td>' + data[i].sections[j].rows[k][1] + '</td>';
+        }
+
 
         if (lang !== undefined) {
           tr1.classList += "lang"+data[i].sections[j].rows[k][3];
@@ -147,5 +165,5 @@ function create() {
 // html - Loading javascript in body onload with 2 functions - Stack Overflow <https://stackoverflow.com/questions/10122555/loading-javascript-in-body-onload-with-2-functions>
 function init() {
   create();
-  fillHakNames();
+  fillRomanNames();
 }

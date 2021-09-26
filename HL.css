@@ -1,7 +1,7 @@
-tr:not(.lang2):not(.lang3):not(.lang4):not(.lang5):not(.lang6):nth-child(2n+1) { /* 只對有客話的列 ☞ :not() - CSS（层叠样式表） | MDN <https://developer.mozilla.org/zh-CN/docs/Web/CSS/:not> */
+section tr:not(.lang2):not(.lang3):not(.lang4):not(.lang5):not(.lang6):nth-child(2n+1) { /* 只對有客話的列 ☞ :not() - CSS（层叠样式表） | MDN <https://developer.mozilla.org/zh-CN/docs/Web/CSS/:not> */
   text-shadow: 0.1em 0.1em 0.1em maroon;
 }
-tr.fr {text-shadow: none;}
+
 .sidenote {text-shadow: none !important;}
 
 section:not(.noHak):before {
@@ -13,4 +13,10 @@ section:not(.noHak):before {
 .SI {display: none !important;}
 .HL {
   display: initial !important;
+}
+
+#cover-hak {
+  color: mediumvioletred;
+  border-color: mediumvioletred;
+  border-style: double;
 }

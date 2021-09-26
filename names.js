@@ -1,5 +1,5 @@
 names ={
-  "村人": ["Cúnngǐn","Cunˋ ngin"],
+  "庄人": ["Zóngngǐn","Zongˋ ngin"],
   "杰": ["Kied","Kiedˋ"],
   "杰2": ["Kia̍t"],
   "水仔": ["Sùiè","Shuiˊ er"],
@@ -31,5 +31,10 @@ names ={
   "必": ["Pickering", "Pickering"],
   "李": ["LeGendre", "LeGendre"],
   "軍官5": ["Jūnguān"],
-  "劉5": ["Líu"]
+  "劉5": ["Líu"],
+  "風祭司3": ["Puljingaw"],
+  "巴耶林3": ["Paljaljim"],
+  "船員4": ["Crew"],
+  "杭特4": ["Mr. Hunter"],
+  "夫人4": ["Mrs. Hunter"]
 }

@@ -3,6 +3,7 @@ body {
   font-family: '源流明體'/*"霞鶩文楷 TC"*/, HanaMinB, serif;
   line-height: 1.4rem;
   border-radius: 0px;
+  font-size: 16px;
 }
 
 h1, #vnum {
@@ -10,13 +11,113 @@ h1, #vnum {
   line-height: 1.4;
 }
 
-#thanks, #links a, #HLauthor {font-family: PT Sans, '黑體-繁', sans-serif; font-weight: 700;}
-#thanks ul ul li {
+#main-idea-page, .qgroup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#main-idea {
+  padding: 2em;
+  margin: 2em;
+  color: /*white*/ maroon;
+  /*background-color: #e5ba00;*/
+
+  /* 以下 #main-idea 及 blockquote 樣式取自 Quote styling <https://codepen.io/JoeHastings/pen/MOdRVm> */
+  font-family: 'Special Elite', Huiwen-mincho, 'Wenyue GuDianMingChaoTi (Non-Commercial Use)', Oradano-mincho-GSRR, cursive;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+@font-face {
+  font-family: 'Special Elite';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/specialelite/v11/XLYgIZbkc4JPUL5CVArUVL0ntnAOTQ.ttf) format('truetype');
+}
+
+/*cite {
+  font-family: 'Special Elite', 'Fangsong', cursive;
+}*/
+
+#main-idea blockquote {
+  font-weight: 100;
+  font-size: 2rem;
+  max-width: 600px;
+  line-height: 1.4;
+  position: relative;
+  margin: 0;
+  padding: 0.5rem;
+}
+#main-idea blockquote:before,
+#main-idea blockquote:after {
+  position: absolute;
+  color: #f1efe6;
+  font-size: 8rem;
+  width: 4rem;
+  height: 4rem;
+}
+#main-idea blockquote:before {
+  content: '“';
+  left: -5rem;
+  top: -2rem;
+}
+#main-idea blockquote:after {
+  content: '”';
+  right: -5rem;
+  bottom: 1rem;
+}
+#main-idea cite {
+  line-height: 3;
+  text-align: center;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#suggestion, #roman-guide caption {
+  text-align: center;
+  margin: 2em auto;
+  background-color: orange;
+  width: 20em;
+  border-radius: 0.3em;
+  border: 0.1em solid lightgoldenrodyellow;
+  color: white;
+  font-family: '霞鶩文楷 TC';
+  vertical-align: middle;
+}
+#suggestion:after {
+  display: inline-block;
+  content: ' ';
+  background-image: url('res/mobile-landscape-mode.svg');
+  background-size: 1.2em 1.2em;
+  width:1.2em;
+  height:1.2em;
+  margin-left:0.3em;
+  vertical-align: middle;
+}
+
+#thanks, #links a, #HLauthor, #links li {font-family: PT Sans, '黑體-繁', sans-serif; font-weight: 700;}
+#thanks ul ul li, #links li {
   display: inline-block;
   color: white;
   padding: 0.3em;
   margin: 0.1em 0.3em;
   border-radius: 0.3em;
+}
+#links ul {
+  display: inline;
+  padding-inline-start: 0;
+}
+#info {
+  margin-left: 5vw;
+  margin-bottom: 5vh;
+  max-width: 40vw;
+}
+#copyright p {
+  text-indent: -1em;
+  margin: 0 0 0 1em;
 }
 #HLauthor {background-color: mediumvioletred; color: white;}
 /*#thanks>ul>ul, #thanks>ul>li {display: inline-block}*/
@@ -49,32 +150,82 @@ section table {
     justify-content: center;
     position: relative;
     
-    font-size: 5vh;
+    font-size: 4vh;
+    background-color: #f8f5de;
+    background-image: linear-gradient(to right, rgba(255,210,0,0.4), rgba(200, 160, 0, 0.1) 11%, rgba(0,0,0,0) 35%, rgba(200, 160, 0, 0.1) 65%);
+  box-shadow: inset 0 0 75px rgba(255,210,0,0.3), inset 0 0 20px rgba(255,210,0,0.4), inset 0 0 30px rgba(220,120,0,0.8); /* Old Paper - CSS Effects <https://codepen.io/efost/pen/rrjvkk> */
   }
   #cover-page div {
     display: initial !important;
-    line-height: 3em;
+    line-height: 2.5em;
+  }
+
+  #cover-photo {
+    display: initial !important;
+    height: 30vh;
   }
   
   body {
-    font-size: 1.8vh;
+    font-size: 1.5vh;
+  }
+
+  #main-idea-page, #instructions {
+    width: 100vw;
+    height: 100vh;
+    page-break-after: always;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  #main-idea {
+    width: 80vw;
+    height: 80vh;
+  }
+  .qgroup {
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+  #note {page-break-after: always;}
+
+  #suggestion {
+    font-size: 3vh;
+    line-height: 1.5em;
   }
   
   #thanks {
     page-break-before: always;
   }
   
-  .draft h1 {page-break-before: always;}
+  .episode:first-of-type h1 {page-break-before: always;}
+  .episode:first-of-type h1:before {display: none;}
   
   tr, .sidenote {page-break-inside: avoid;} /* .sidenote 的部分似乎是無效的 */
   
   .noprint {display: none;}
+
+  #cover-hak {
+    /*float: right;*/
+    transform: rotate(350deg);
+    position: absolute;
+    right: 0%;
+    font-family: Huiwen-mincho;
+    border: red 0.1em solid;
+    border-radius: 0.1em;
+    color: red;
+    padding: 0.2em;
+    line-height: 1.2em !important;
+  }
+  #cover-hak .HL {color: mediumvioletred;}
 }
+/* @page :first {margin: 0;} */ /* Chromium、Firefox 系瀏覽器都無效 QQ */
 
 #cover-page {
   text-align: center;
   font-family: /*"翩翩體-繁"*/ Toppan Bunkyu Midashi Mincho Extrabold;
 }
+#cover-photo {display: none;}
 
 @media screen {
   #cover-page br {
@@ -83,7 +234,7 @@ section table {
   
 }
 
-h1::before {
+.episode/*:not(:first-of-type)*/ h1::before {
   content: "❖ ❖";
   display: block;
   text-align: center;
@@ -106,33 +257,33 @@ td {
   --l: 100%;
 }
 
-td:nth-child(1) {
+section td:nth-child(1) {
   text-align: right;
   white-space: nowrap;
   width: 10vw;
 }
 
-td:nth-child(2) {
+section td:nth-child(2) {
   padding-left: 3vw;
 }
 
-tr:nth-child(2n+1) {
+section tr:nth-child(2n+1) {
   font-size: 1.4em;
   font-family: "Athelas";
 }
 
-tr:nth-child(2n+1) td {
+section tr:nth-child(2n+1) td {
   padding-top: 1em;
 }
 
-tr:nth-child(2n+1) {
+section tr:nth-child(2n+1) {
   --color-darker: hsl(var(--color),calc(var(--l) - 50%));
   /* color: var(--color-darker); */
   color: antiquewhite;
 }
-/* tr:nth-child(3n) {line-height: 50%; height: 50%} */
+/* section tr:nth-child(3n) {line-height: 50%; height: 50%} */
 
-table {
+section table {
   border-collapse: collapse;
   width: 100%;
   border: 0px none;
@@ -193,6 +344,21 @@ table {
   box-shadow: brown 0.25vw 0.25vw;
 }
 
+.trans { /* 參考 .sidenote 來做翻譯方塊（主要給排灣語用） */
+  position: absolute;
+  max-width: 20vw;
+  font-size: 10pt;
+  font-weight: 500;
+  line-height: 14pt;
+  background-color: hsla(124, 55%, 71%, 0.5);
+  border-radius: 3pt;
+  left: 70vw;
+  font-family: Athelas, 楷體-繁, sans-serif;
+  padding: 8pt 10pt;
+  color: white;
+  /* box-shadow: brown 0.25vw 0.25vw; */
+}
+
 section table {width: 70vw;}
 
 .noted {
@@ -233,12 +399,17 @@ section table {width: 70vw;}
   display: inline-block;
   content: ' ';
   background-image: url('res/click.svg'); /* Free Click Icon, Symbol. Download in PNG, SVG format. <https://www.iconpacks.net/free-icon/click-2384.html> */
-  background-size: 1.2em 1.2em;
+  background-size: 1em 1em;
+  background-repeat: no-repeat;
   width:1.2em;
   height:1.2em;
-  margin-left:0.3em;
+  margin-left:0.1em;
+  margin-right: -0.5em;
   vertical-align: middle;
 } /* css - Is there a way to use SVG as content in a pseudo element ::before or ::after - Stack Overflow <https://stackoverflow.com/questions/19255296/is-there-a-way-to-use-svg-as-content-in-a-pseudo-element-before-or-after> */
+#links a img {
+  vertical-align: middle;
+}
 
 #vnum {font-size: 1.5em; font-weight: 700;}
 
@@ -278,20 +449,31 @@ section:not(.noHak):before {
   opacity: 0.9;
 }
 
-tr:nth-child(2n) {color: white !important;}
+section tr:nth-child(2n) {color: white !important;}
 /* Ho̍h-ló */
-tr.lang2, td.lang2, tr:nth-child(2n+1) .lang2 {color: /*honeydew*//*hsl(217, 82%, 89%)*/hsl(303, 78%, 91%);}
-tr:nth-child(2n).lang2, tr:nth-child(2n) .lang2 {font-family: "霞鶩文楷 TC", sans-serif; font-weight: 700;}
-tr:nth-child(2n+1).lang2, tr:nth-child(2n+1) .lang2 {font-family: 源雲明體, serif; font-weight: 700; font-size: 1.2em;}
-tr:nth-child(2n+1) .lang2 {font-size: 0.8em !important;}
+section tr.lang2, section td.lang2, section tr:nth-child(2n+1) .lang2, .sample.lang2 {color: /*honeydew*//*hsl(217, 82%, 89%)*/hsl(303, 78%, 91%);}
+section tr:nth-child(2n).lang2, section tr:nth-child(2n) .lang2, .sample.lang2 {font-family: "源石黑體", sans-serif; font-weight: 500;}
+section tr:nth-child(2n+1).lang2, section tr:nth-child(2n+1) .lang2 {font-family: 源石黑體, serif; font-weight: 500;}
+section tr:nth-child(2n+1).lang2 {font-size: 1.2em;}
+section tr:nth-child(2n+1).lang2 td {line-height: 1.6em;}
+section tr:nth-child(2n+1) .lang2 {font-size: 0.8em !important;}
+/* 排灣文 */
+section tr.lang3, section td.lang3, section tr:nth-child(2n+1) .lang3 {color: /*honeydew*//*hsl(217, 82%, 89%)*/hsl(127, 78%, 91%);}
+section tr:nth-child(2n).lang3, section tr:nth-child(2n) .lang3 {font-family: "黑體-繁", sans-serif; font-weight: 700;}
+section tr:nth-child(2n+1).lang3, section tr:nth-child(2n+1) .lang3 {font-family: Superclarendon, 'Academy Engraved LET', 'Book Antigua', Baskerville, serif; font-weight: 500;}
+section tr:nth-child(2n+1).lang3 { font-size: 1.1em;}
+section tr:nth-child(2n+1) .lang3 {font-size: 0.8em;}
+section tr.lang3 td:nth-child(2), section tr.lang6 td:nth-child(2) {padding-right: 25%;}
 /* 英法文 */
 .fr td, .lang6 td {color: hsl(255, 78%, 91%); font-family: 'Bell MT';}
 .lang4 td {color: hsl(187, 78%, 91%); font-family: 'Bell MT';}
-tr:nth-child(2n).lang4, tr:nth-child(2n).lang6 {display: none;}
+section tr:nth-child(2n).lang4, section tr:nth-child(2n).lang6, section tr:nth-child(2n).lang3 {display: none;}
 /* Mandarin */
-tr.lang5, td.lang5, .lang5 {color: /*honeydew*//*hsl(217, 82%, 89%)*/hsl(235, 78%, 91%);}
-tr:nth-child(2n).lang5, tr:nth-child(2n) .lang5 {font-family: "源泉圓體", sans-serif; font-weight: 500;}
-tr:nth-child(2n+1).lang5, tr:nth-child(2n+1) .lang5 {font-family: 源泉圓體, sans-serif; font-weight: 500;}
+section tr.lang5, td.lang5, .lang5, .sample.lang5 {color: /*honeydew*//*hsl(217, 82%, 89%)*/hsl(235, 78%, 91%);}
+section tr:nth-child(2n).lang5, section tr:nth-child(2n) .lang5, .sample.lang5 {font-family: 楷體-繁, sans-serif; font-weight: 700;}
+section tr:nth-child(2n+1).lang5, section tr:nth-child(2n+1) .lang5, .sample.lang5 {font-family: 霞鶩文楷 TC, sans-serif; font-weight: 700;}
+section tr:nth-child(2n+1).lang5 {font-size: 1.2em;}
+/* section tr:nth-child(2n+1) .lang5, .sample.lang5 {font-size: 0.9em;} */
 
 .poem {
   font-style: italic;
@@ -322,7 +504,7 @@ tr:nth-child(2n+1).lang5, tr:nth-child(2n+1) .lang5 {font-family: 源泉圓體, 
 	bottom: 1rem;
 }
 
-.sidenote blockquote {
+.sidenote blockquote, .trans blockquote {
   margin: 1em 0;
   padding: 1em 0 1em 0.5em;
   border-left: solid;
@@ -342,4 +524,56 @@ td hr {
   border: 0;
   height: 1px;
   background-image: linear-gradient(to right, hsla(42, 100%, 50%, 0), hsla(42, 100%, 50%, 0.8), hsla(42, 100%, 50%, 0));
+}
+
+.updated {
+  border-bottom: dashed 0.3vh hsla(181, 54%, 64%, 0.5);
+}
+
+.sample {
+  background: #198964;
+  color: antiquewhite;
+  font-family: Athelas;
+}
+
+#instructions td, #instructions th {
+  font-size: 1.5vw;
+  line-height: 2vw;
+  padding: 0.5em;
+}
+#roman-guide {
+  width: 90vw;
+  margin: auto;
+  box-shadow: 0.5vw 0.7vw 0.5vw grey;
+  border: none;
+}
+#roman-guide td {
+  text-align: center;
+  vertical-align: middle;
+  font-family: Andika, 源泉圓體;
+  font-size: 2vw;
+  line-height: 2.5vw;
+  max-width: 15vw;
+}
+#roman-guide tbody tr:nth-child(2n) {
+  background-color: lightgray;
+  color: darkslategray;
+}
+#roman-guide tbody tr:nth-child(2n+1) {
+  background-color: darkseagreen;
+  color: white;
+}
+#roman-guide th {
+  background-color: silver;
+  color: darkslategray;
+}
+#roman-guide caption {
+  margin: 0.5em auto;
+  font-size: 1.5em;
+  line-height: 1.8em;
+}
+
+.note {
+  font-size: smaller;
+  font-family: Fangsong;
 }
