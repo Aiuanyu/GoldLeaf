@@ -538,8 +538,8 @@ data = [
           [
 
             "林",
-            "有摎你阿姐講過哩，你十六歲，<span class='updated'>愛</span>帶你去府城。佢毋轉來，𫣆去尋佢！",
-            "Íu láu ňg ájì gòng go lè, ňg siiblìug se, <span class='updated'>oi</span> dai ňg hi Fùsǎng. Gǐ m̌ zònlǒi, én hi qǐm gǐ!",
+            "有摎<span class='updated'>若</span>姐講過哩，你十六歲，<span class='updated'>愛</span>帶你去府城。佢毋轉來，𫣆去尋佢！",
+            "Íu láu <span class='updated'>ngía jì</span> gòng go lè, ňg siiblìug se, <span class='updated'>oi</span> dai ňg hi Fùsǎng. Gǐ m̌ zònlǒi, én hi qǐm gǐ!",
 
           ],
 
@@ -890,8 +890,8 @@ data = [
           [
 
             "林",
-            "頭擺客人燒，這擺樵城學老仔燒。這屋，係你阿姆親手起个。",
-            "Těubài Hàgngǐn séu, ìa bài Cěusǎng Hoglòè séu. Ìa vùg, he ňg ámé qínsù hì ge.",
+            "頭擺客人燒，這擺樵城學老仔燒。這屋，係<span class='updated'>若</span>姆親手起个。",
+            "Těubài Hàgngǐn séu, ìa bài Cěusǎng Hoglòè séu. Ìa vùg, he <span class='updated'>ngía mé</span> qínsù hì ge.",
 
           ],
 
