@@ -54,6 +54,7 @@ function useHL() {
 
     //}
     
+    // 替換名字
     var k = i + 1;
     var name = nodes[k].getElementsByTagName('td')[0].innerHTML.replace("：","").replace(' ','').replace(' ','').replace("&nbsp;","");
     // var names = JSON.parse(document.getElementById('names').innerHTML);
@@ -62,6 +63,10 @@ function useHL() {
     }
     else {
       nodes[i].getElementsByTagName('td')[0].innerHTML = names[name][1] + ":&nbsp;";
+      // 較長的羅馬字名字：縮小字型、縮短長度
+      if (nodes[i].getElementsByTagName('td')[0].innerHTML.includes('忒長')) {
+        nodes[i].getElementsByTagName('td')[0].innerHTML = '<span class="condensed">' + nodes[i].getElementsByTagName('td')[0].innerHTML.replace('忒長','') + '</span>';
+      }
     }
   }
 

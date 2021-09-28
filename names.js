@@ -1,9 +1,9 @@
 names ={
-  "庄人": ["Zóngngǐn","Zongˋ ngin"],
+  "庄人": ["Zóngngǐn傷長","Zongˋ ngin忒長"],
   "杰": ["Kied","Kiedˋ"],
   "杰2": ["Kia̍t"],
   "水仔": ["Sùiè","Shuiˊ er"],
-  "林老實": ["Lǐm Lòsiid傷長","Lim Loˊ Shidˋ"],
+  "林老實": ["Lǐm Lòsiid傷長","Lim Loˊ Shidˋ忒長"],
   "阿九": ["Á-Gìu","A+ Giuˊ"],
   "林": ["Lǐm","Lim"],
   "林2": ["Lîm"],

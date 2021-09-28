@@ -15,7 +15,7 @@ data = [
           ],
           [
             "",
-            "哎……琅𤩝儂造孽。天公毋放尿，欠雨，水寶貴。恁姊抑是莫轉來好矣。",
+            "<div class='sidenote'>lâng 的選字請參考<a href='https://twblg.dict.edu.tw/holodict_new/iongji/pdf/annesia325pdf.pdf'>教育部學者專文</a>，我也認為 lâng 並非「人」的白話音，為不同字。</div>哎……琅𤩝<span class='noted'>儂</span>造孽。天公毋放尿，欠雨，水寶貴。恁姊抑是莫轉來好矣。",
             "Ai... Lân-kiau lâng tsō-gia̍t. Thinn-kong m̄ pàng-liō, khiàm hōo, tsuí pó-kuì. Lín tsí a̍h-sī mài tńg-lâi hó--ah.",
             "2"
           ],
@@ -52,7 +52,7 @@ data = [
           [
             "",
             "阿杰仔，若領了工錢就愛較認份咧。<br>平湖个船來矣。",
-            "A-kia̍t-á, nā niá-liáu kang-tsînn tiō ài khah jīn-hūn--leh.<br>Pênn-ôo ê tsûn lâi--ah.",
+            "A-Kia̍t-á, nā niá-liáu kang-tsînn tiō ài khah jīn-hūn--leh.<br>Pênn-ôo ê tsûn lâi--ah.",
             "2"
           ],
           [
@@ -715,8 +715,8 @@ data = [
 
           [
             "",
-            "這，柴城。<br>這，這保力。<br>啊遮是統領埔啦。阮社寮佇遮。<br>這个統領埔呴，就這堵好，就卡咧保力佮柴城个中央，<br>予兩位阿兄進無步，退嘛無路，逼甲袂當喘氣，相對看鑿目。",
-            "Tse, Tshâ-siânn.<br>Tse, tse Pó-li̍t.<br>A tsia sī Thóng-niá-poo--la. Gún Siā-liâu tī tsia.<br>Tsit-ê Thóng-niá-poo--honnh, tiō tsia tú-hó, tiō khá leh Pó-li̍t kap Tshâ-siânn ê tiong-ng,<br>hōo nn̄g uī A-hiann tsìn bô pōo, thuè mā bô lōo, pik kah buē-tàng tshuán-khuì, sio-tuì khuànn tsha̍k-ba̍k.",
+            "這，柴城。<br>這，這保力。<br>啊遮是統領埔啦。阮社寮佇遮。<br>這个統領埔乎，就這堵好，就卡咧保力佮柴城个中央，<br>予兩位阿兄進無步，退嘛無路，逼甲袂當喘氣，相對看鑿目。",
+            "Tse, Tshâ-siânn.<br>Tse, tse Pó-li̍k.<br>A tsia sī Thóng-niá-poo--la. Gún Siā-liâu tī tsia.<br>Tsit-ê Thóng-niá-poo--honnh, tiō tsia tú-hó, tiō khá leh Pó-li̍k kap Tshâ-siânn ê tiong-ng,<br>hōo nn̄g uī A-hiann tsìn bô pōo, thuè mā bô lōo, pik kah buē-tàng tshuán-khuì, sio-tuì khuànn tsha̍k-ba̍k.",
             "2"
 
           ],
@@ -730,7 +730,7 @@ data = [
 
           [
             "丙",
-            "統領埔離阮柴城真近，我是煩惱，這粒番薯會發芽<span class='TBD'>拋</span>對柴城。<br>啊你租下統領埔了後，阮柴城个儂，就咧煩惱講恁客儂會拍過來呢；<br>啊恁統領埔个儂，落田就愛揹弓帶銃，恁嘛佇咧煩惱我柴城个儂會拍過去啊。<br>統領埔个儂會當遷倒轉去保力！統領埔做荒城隔中間嘛！<br>逐家相吞忍，喘一口氣，水脈嘛是會當喘氣啊。水嘛會當流對統領埔、流對保力啊。",
+            "統領埔離阮柴城真近，我是煩惱，這粒番薯會發芽<span class='TBD'>拋</span>對柴城。<br>啊你租下統領埔了後，阮柴城个儂，就咧煩惱講恁客儂會拍過來呢；<br>啊恁統領埔个儂，落田就愛揹弓帶銃，恁嘛佇咧煩惱我柴城个儂會拍過去啊。<br>統領埔个儂會當遷倒轉去保力！統領埔做荒地隔中間嘛！<br>逐家相吞忍，喘一口氣，水脈嘛是會當喘氣啊。水嘛會當流對統領埔、流對保力啊。",
             "Thóng-niá-poo lī Tshâ-siânn tsin kīn, guá sī huân-ló, tsit lia̍p han-tsû ê puh-gê pha tuì Tshâ-siânn.<br>A lí tsoo hā Thóng-niá-poo liáu-āu, gún Tshâ-siânn ê lâng, tiō leh huân-ló kóng lín Kheh-lâng ê phah kuè-lâi--ne;<br>A lín Thóng-niá-poo ê lâng, lo̍h-tshân tiō ài phāinn-king-tài-tshìng, lín mā tī-leh huân-ló guá Tshâ-siânn ê lâng ê phah kuè-khì--a.<br>Thóng-niá-poo ê lâng ē-tàng tshian tò-tńg-khì Pó-li̍k! Thóng-niá-poo tsò hng-tē keh tiong-kan--mā!<br>Ta̍k-ke sio thun-lún, tshuán tsi̍t kháu khuì, tsuí-me̍h mā-sī ē-tàng tshuán-khuì--a. Tsuí mā ē-tàng lâu tuì Thóng-niá-poo, lâu tuì Pó-li̍k--a.",
             "2"
           ],
@@ -789,8 +789,8 @@ data = [
 
           [
             "",
-            "恁乎，閣相刣到生番个頭前跤，生番早慢个出草啦！",
-            "Lín--honnh, koh sio-thâi kàu tshenn-huan ê thâu-tsîng-kha, tshenn-huan tsá-bān ê tshut-tsháu--lah!",
+            "恁乎，閣相刣到生番个頭前跤，生番早慢會出草啦！",
+            "Lín--honnh, koh sio-thâi kàu tshenn-huan ê thâu-tsîng-kha, tshenn-huan tsá-bān ē tshut-tsháu--lah!",
             "2"
           ]
 
@@ -819,7 +819,8 @@ data = [
           [
             "",
             "",
-            "……"
+            "……",
+            "3"
           ],
 
           [
@@ -840,7 +841,8 @@ data = [
           [
             "",
             "",
-            "……"
+            "……",
+            "3"
           ],
 
           [
@@ -860,7 +862,8 @@ data = [
           [
             "",
             "",
-            "……"
+            "……",
+            "3"
           ],
 
           [
@@ -872,8 +875,8 @@ data = [
 
           [
             "丙",
-            "喔。做朋友，送禮應該。我寄个五支銃，送𪜶矣。",
-            "Oh. Tsò pîng-iú, sàng-lé ìng-kai. Guá kià ê gōo ki tshìng, sàng in--ah.",
+            "喔。做朋友，送禮應該。我定个五支銃，送𪜶矣。",
+            "Oh. Tsò pîng-iú, sàng-lé ìng-kai. Guá tiānn ê gōo ki tshìng, sàng in--ah.",
             "2"
           ]
 
@@ -911,16 +914,8 @@ data = [
           [
 
             "林",
-            "官府？有官府還會燒屋啊？走啦！",
+            "官府？有官府還會燒屋啊？走啦！<hr>",
             "Gónfù? Íu gónfù hǎn voi séu vùg a? Zèu la!",
-
-          ],
-
-          [
-
-            "",
-            "",
-            "……",
 
           ],
 
@@ -1071,6 +1066,18 @@ data = [
       },
 
       {
+        "t": "43:57",
+        "rows": [
+          [
+            "甥",
+            "阿舅！阿舅！𪜶走去矣！",
+            "A-kū! A-kū! In tsáu-khì--ah!",
+            "2"
+          ]
+        ]
+      },
+
+      {
         "t": "44:07",
         "rows": [
 
@@ -1149,10 +1156,38 @@ data = [
           [
 
             "林",
-            "這兜係<span class='updated'>若</span>爸㓾過个偷牛賊。<br>「亂㓾人个，定著<span class='updated'>凶</span>死」，<span class='updated'>若</span>姆講个。<br>報應。",
+            "這兜係<span class='updated'>若</span>爸㓾過个偷牛賊。<br>「亂㓾人个，定著<span class='updated'>凶</span>死」，<span class='updated'>若</span>姆講个。<br>報應。<hr>",
             "Ìadéu he <span class='updated'>ngía bá</span> cǐi go ge téungǐuced.<br>&quot;Lon cǐi ngǐn ge, tincog <span class='updated'>híung</span>xì,&quot; <span class='updated'>ngía</span> mé gòng ge.<br>Boin.",
 
           ],
+
+          [
+            "水",
+            "是掠著未啊？",
+            "Sī lia̍h-tio̍h buē--a?",
+            "2"
+          ],
+
+          [
+            "甥",
+            "阿舅！<br>阿舅！閣過去就是生番个地界矣！",
+            "A-kū!<br>A-kū! Koh kuè-khì tiō-sī tshenn-huan ê tē-kài--ah!",
+            "2"
+          ],
+
+          [
+            "庄儂",
+            "生番來矣！",
+            "Tshenn-huan lâi--ah!",
+            "2"
+          ],
+
+          [
+            "水",
+            "到府城是千重嶺、萬重山。<br>過得了這番，遐閣有彼番啦。<br>行。",
+            "Kàu Hú-siânn sī tshian tiōng niá, bān tiōng san.<br>Kuè-tit-liáu tsit huan, hia koh ū hit huan--lah.<br>Kiânn.",
+            "2"
+          ]
 
         ]
       }
