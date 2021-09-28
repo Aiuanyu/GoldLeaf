@@ -160,11 +160,11 @@ section table {
     line-height: 2.5em;
   }
 
-  #cover-photo {
+  #cover-photo, #cover-photo2 {
     display: initial !important;
-    height: 30vh;
+    height: 25vh;
   }
-  
+
   body {
     font-size: 1.5vh;
   }
@@ -225,7 +225,17 @@ section table {
   text-align: center;
   font-family: /*"翩翩體-繁"*/ Toppan Bunkyu Midashi Mincho Extrabold;
 }
-#cover-photo {display: none;}
+#cover-photo, #cover-photo2 {display: none;}
+
+
+#main-title:after {
+  content: 'Aiuanyu 編／v1.1 20210929';
+  font-size: 0.5em;
+  font-family: 蘋果儷中黑;
+  position: absolute;
+  right: 5vw;
+  bottom: 0;
+}
 
 @media screen {
   #cover-page br {
@@ -338,7 +348,7 @@ section table {
   background-size: 100% 100%; /* 新版 Firefox 中，SVG 的 aspect ratio 會維持不變，不像 BlueGriffon 3.1 裡面會拉伸 ∴須修改 SVG 檔加入 preserveAspectRatio="none" ☞ css - Cannot stretch svg background image, aspect ratio will be preserved - Stack Overflow <https://stackoverflow.com/questions/32454685/cannot-stretch-svg-background-image-aspect-ratio-will-be-preserved> */
   border-radius: 3pt;
   left: 82vw;
-  font-family: Athelas, 楷體-繁, sans-serif;
+  font-family: Athelas, 楷體-繁, 全字庫正楷體 Ext-B, sans-serif; /* Chromium 系瀏覽器的「楷體-繁」竟然無法正常顯示「𤆬」字 ∴只好用 fallback */
   padding: 8pt 10pt;
   color: brown;
   box-shadow: brown 0.25vw 0.25vw;
@@ -453,7 +463,7 @@ section tr:nth-child(2n) {color: white !important;}
 /* Ho̍h-ló */
 section tr.lang2, section td.lang2, section tr:nth-child(2n+1) .lang2, .sample.lang2 {color: /*honeydew*//*hsl(217, 82%, 89%)*/hsl(303, 78%, 91%);}
 section tr:nth-child(2n).lang2, section tr:nth-child(2n) .lang2, .sample.lang2 {font-family: "源石黑體", sans-serif; font-weight: 500;}
-section tr:nth-child(2n+1).lang2, section tr:nth-child(2n+1) .lang2 {font-family: 源石黑體, serif; font-weight: 500;}
+section tr:nth-child(2n+1).lang2, section tr:nth-child(2n+1) .lang2 {font-family: 源石黑體, sans-serif; font-weight: 500;}
 section tr:nth-child(2n+1).lang2 {font-size: 1.2em;}
 section tr:nth-child(2n+1).lang2 td {line-height: 1.6em;}
 section tr:nth-child(2n+1) .lang2 {font-size: 0.8em !important;}
@@ -512,6 +522,22 @@ section tr:nth-child(2n+1).lang5 {font-size: 1.2em;}
   line-height: 1.7em;
 }
 
+.condensed {
+  font-stretch: extra-condensed; /* 要搭配有 condense 的字型才行 */
+  font-size: 90%;
+  letter-spacing: -0.05em;
+  transform: scale(2, 1); /* 一點用都沒有 */
+}
+
+td hr {
+  margin-top: 2em;
+  
+  /* Simple Styles for <hr>'s <https://css-tricks.com/examples/hrs/> */
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, hsla(49, 79%, 51%, 0), hsla(49, 79%, 51%, 0.8), hsla(49, 79%, 51%, 0)); /* 黃色相思樹花 #e5c120 */
+}
+
 .updated {
   border-bottom: dashed 0.3vh hsla(181, 54%, 64%, 0.5);
 }
@@ -562,4 +588,17 @@ section tr:nth-child(2n+1).lang5 {font-size: 1.2em;}
 .note {
   font-size: smaller;
   font-family: Fangsong;
+}
+
+#title-multilingual { /* CSS Text Gradient Generator - CSS Portal <https://www.cssportal.com/css-text-gradient-generator/> */
+  background: #198964;
+  background: -webkit-repeating-linear-gradient(to right, #198964 0%, #e5c120 50%, #C71585 100%);
+  background: -moz-repeating-linear-gradient(to right, #198964 0%, #e5c120 50%, #C71585 100%);
+  background: repeating-linear-gradient(to right, #198964 0%, #e5c120 50%, #C71585 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+} /* 黃色相思樹花 #e5c120 */
+
+.larger {
+  font-size: larger;
 }
