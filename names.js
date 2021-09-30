@@ -26,6 +26,7 @@ names ={
   "瑪祖卡": ["Macuka","Macuka"],
   "丙": ["Bíang","Biangˋ"],
   "丙2": ["Píng"],
+  "拍石師傅2": ["Phah-tsio̍h&nbsp;&nbsp;<br>Sai-hū"],
   "姆": ["Mé","Meˋ"],
   "Tok": ["Tok","Tok"],
   "必": ["Pickering", "Pickering"],
@@ -35,6 +36,6 @@ names ={
   "風祭司3": ["Puljingaw"],
   "巴耶林3": ["Paljaljim"],
   "船員4": ["Crew"],
-  "杭特4": ["Mr. Hunter"],
-  "夫人4": ["Mrs. Hunter"]
+  "杭特4": ["Mr. Hunt"],
+  "夫人4": ["Mrs. Hunt"]
 }
