@@ -1347,7 +1347,7 @@ data = [
           ],
 
           [
-            "",
+            "蝶",
             "",
             "……",
             "3"
@@ -1512,23 +1512,62 @@ data = [
           ],
           [
             "蝶",
-            "阿杰！徛予直。汝講一遍。"
+            "阿杰！徛予直。汝講一遍。",
+            "A-Kia̍t! Khiā hōo ti̍t. Lí kóng tsi̍t piàn.",
+            "2"
           ],
           [
             "杰",
-            "「我蛤仔難廳來个。」"
+            "「我蛤仔難廳來个。」",
+            "&quot;Guá Kap-á-lān Thiann lâi--ê.&quot;",
+            "2"
           ],
           [
             "師",
-            "先對mòo石頭開始啦。彼車汝个，共伊裝予滇。"
+            "先對𢯾石頭開始啦。彼車汝个，共伊裝予滇。",
+            "Sian uì mooh tsio̍h-thâu khai-sí--lah. Hit tshia lí ê, kā i tsng hōo tīnn.",
+            "2"
           ],
           [
             "蝶",
-            "阮小弟踮遮寄戶學師仔，就麻煩恁矣。"
+            "阮小弟踮遮寄戶學師仔，就麻煩恁矣。",
+            "Gún sió-tī tiàm tsia kià-hōo oh sai-á, tiō mâ-huân lín--ah.",
+            "2"
           ],
           [
             "",
-            "無代誌矣。去做<span class='TBD'>＿</span>。"
+            "無代誌矣。去做<span class='TBD'>＿</span>。",
+            "Bô tāi-tsì--ah. Khì tsò <span class='TBD'>__</span>"
+          ]
+        ]
+      },
+
+      {
+        "t": "32:04",
+        "rows": [
+          [
+            "道台",
+            "總兵大人，你不會真的派鳳山縣巡檢，去救護洋船員吧？爾等兩年後調職，勿生事端！",
+            "Zǒngbīng Dàrén, nǐ bú hùi zhēnde pài Fèngshān Xìan Xúnjǐan, qù jiùhù yáng chuányuán ba? Ěrděng liǎng nián hòu diàozhí, wù shēng shìduān!",
+            "5"
+          ],
+          [
+            "劉",
+            "洋人之事，敷衍即可。",
+            "Yángrén zhī shì, fūyǎn jí kě.",
+            "5"
+          ],
+          [
+            "道台",
+            "哈哈哈哈，「敷衍」兩個字從你的嘴裡頭說出來，我聽來倒像是在敷衍我呀。實則，你是想自行其是！",
+            "Hahaha... &quot;Fūyǎn&quot; lǐang ge zì cóng nǐde zǔi lǐtou shuō chūlái, wǒ tīng lái dào xìang shì zài fūyǎn wǒ ya. Shízé, nǐ shì xǐang zìxíngqíshì!",
+            "5"
+          ],
+          [
+            "劉",
+            "臺灣政事，已敷衍太多。自行其是不足，敷衍洋人，倒綽綽有餘！<br>道台大人。",
+            "Táiwān zhèngshì, yǐ fūyǎn tài dūo. Zìxíngqíshì bùzú, fūyǎn yángrén, dào chuòchuòyǒuyú!<br>Dàotái Dàrén.",
+            "5"
           ]
         ]
       },
@@ -1538,44 +1577,63 @@ data = [
         "rows": [
           [
             "小師傅",
-            "食飯啊。"
+            "食飯啊。",
+            "Tsia̍h-pn̄g--a.",
+            "2"
           ],
           [
             "",
-            "琅𤩝來个喔？"
+            "琅𤩝來个喔？",
+            "Lân-kiau lâi ê--oo?",
+            "2"
           ],
           [
             "杰",
-            "我蛤仔難來个。"
+            "我蛤仔難來个。",
+            "Guá Kap-á-lān lâi--ê.",
+            "2"
           ],
           [
             "小師傅",
             "琅𤩝有船通抾乎？<br>琅𤩝抾船个物仔，有當時攏會走去阮遐賣。<br>我風港个。仝鄉。",
-            "guan"
+            "Lân-kiau ū tsûn thang khioh--honnh?<br>Lân-kiau khioh tsûn ê mi̍h-á, ū tang-sî-á lóng ē tsáu-khì gún hia bē.<br>Guá Hong-káng--ê. Kāng-hiong.",
+            "2"
           ],
           [
             "",
-            "伊，下淡水个啊；啊閣有彼个，洄瀾个啊。佇遮，逐家攏是流民艱苦儂。毋免驚。"
+            "伊，下淡水个啊；啊閣有彼个，洄瀾个啊。佇遮，逐家攏是流民艱苦儂。毋免驚。",
+            "I, Ē-tām-tsuí--ê--a; a koh ū hit-ê, Huê-lân--ê--a. Tī tsia, ta̍k-ke lóng sī liû-bîn kan-khóo-lâng. M̄-bián kiann.",
+            "2"
           ],
           [
             "",
-            "有抾過船無？"
+            "有抾過船無？",
+            "Ū khioh kuè tsûn bô?",
+            "2"
           ],
           [
             "杰",
-            "抾過幾擺。"
+            "抾過幾擺。",
+            "Khioh kuè kuí pái.",
+            "2"
           ],
           [
-            "小師",
-            "府城遮，嘛有船通抾。欲趁無？<br>𪜶攏袂曉泅水啦，趁無。"
+            "小師傅",
+            "府城遮，嘛有船通抾。欲趁無？<br>𪜶攏袂曉泅水啦，趁無。",
+            "Hú-siânn tsia, mā ū tsûn thang khioh. Beh thàn--bô?<br>In lóng bē-hiáu siû-tsuí--lah, thàn bô.",
+            "2"
           ],
           [
             "",
-            "恁姐去夆騙矣。安汝个戶口，五十番銀，伊按怎趁我是毋知影啦。我愛趁幾若冬呢。"
+            "恁姐去夆騙矣。安汝个戶口，五十番銀，伊按怎趁我是毋知影啦。我愛趁幾若冬呢。",
+            "Lín tsí khì hőng phiàn--ah. An lí ê hōo-kháu, gōo-tsa̍p huan-gîn, i án-nuá thàn guá sī m̄ tsai-iánn--lah. Guá ài thàn kuí-nā tang--ne.",
+            "2"
           ],
           [
             "",
-            "汝家己看。"
+            "汝家己看。",
+            "Lí ka-kī khuànn.",
+            "2"
           ]
         ]
       },
@@ -1592,8 +1650,10 @@ data = [
 
           ],
           [
-            "小師",
-            "來！遮！行。<br>阿杰仔，來。"
+            "小師傅",
+            "來！遮！行。<br>阿杰仔，來。",
+            "Lâi! Tsia! Kiânn.<br>A-Kia̍t-á, lâi.",
+            "2"
           ],
           [
             "蝶",
@@ -1602,8 +1662,10 @@ data = [
           ],
 
           [
-            "小師",
-            "遮！"
+            "小師傅",
+            "遮！",
+            "Tsia!",
+            "2"
           ],
 
           [
@@ -1655,35 +1717,45 @@ data = [
           ],
 
           [
-            "小師",
+            "小師傅",
             "喂，汝个。",
-            "Eh"
+            "Eh, lí ê.",
+            "2"
           ],
 
           [
             "工儂",
-            "三文番來矣。"
+            "三文番來矣。",
+            "Sam-bûn-huan lâi--ah.",
+            "2"
           ],
 
           [
-            "小師",
-            "提去。"
+            "小師傅",
+            "提去。",
+            "Thê khì.",
+            "2"
           ],
 
           [
             "蝶",
             "阮小弟鬥搬貨，分偌濟啊？",
-            "tsue"
+            "Gún sió-tī tàu puann-huè, pun guā-tsuē--a?",
+            "2"
           ],
 
           [
-            "小師",
-            "汝三文，伊兩仙！<br>提去。汝个。"
+            "小師傅",
+            "汝三文，伊兩仙！<br>提去。汝个。",
+            "Lí sann bûn, i nn̄g sian!<br>Thê khì. Lí ê.",
+            "2"
           ],
 
           [
             "蝶",
-            "按呢毋才有夠。<br>多謝師傅𤆬阮小弟見世面。後擺，莫𤆬阮小弟去抾船。<br>多謝小師傅照顧。"
+            "按呢毋才有夠。<br>多謝師傅𤆬阮小弟見世面。後擺，莫𤆬阮小弟去抾船。<br>多謝小師傅照顧。",
+            "Án-ne m̄ tsiah ū-kàu.<br>To-siā sai-hū tshuā gún sió-tī kìnn sè-bīn. Āu-pái, mài tshuā gún sió-tī khì khioh-tsûn.<br>To-siā Sió-sai-hū tsiàu-kòo.",
+            "2"
           ]
 
         ]
@@ -1694,19 +1766,27 @@ data = [
         "rows": [
           [
             "府城儂",
-            "喂，三文番加一番，啊按呢是欲算幾番？"
+            "喂，三文番加一番，啊按呢是欲算幾番？",
+            "Eh, Sam-bûn-huan ke tsi̍t huan, a án-ne sī beh sǹg kuí huan?",
+            "2"
           ],
           [
             "",
-            "少年仔，欲買番仔膏無？"
+            "少年个，欲買番仔膏無？",
+            "<div class='sidenote'>問原住民要不要買「番仔膏」，也太歹毒了吧 😠</div>Siàu-liân--ê, beh bé huan-á-ko--bô?",
+            "2"
           ],
           [
             "",
-            "有看過番仔婆無看過番仔公呢！"
+            "有看過番仔婆無看過番仔公呢！",
+            "Ū khuànn-kuè huan-á-pô bô khuànn-kuè huan-á-kong--ne!",
+            "2"
           ],
           [
             "蝶",
-            "佇府城，無熟似个，莫來往；<br>熟似个，愛細膩。閣按怎裝，咱攏毋是唐山儂。"
+            "佇府城，無熟似个，莫來往；<br>熟似个，愛細膩。閣按怎裝，咱攏毋是唐山儂。",
+            "Tī Hú-siânn, bô si̍k-sāi ê, mài lâi-óng;<br>si̍k-sāi ê, ài sè-lī. Koh án-nuá tsng, lán lóng m̄-sī Tn̂g-suann-lâng.",
+            "2"
           ],
           [
 
@@ -1718,7 +1798,9 @@ data = [
 
           [
             "蝶",
-            "就叫汝莫講客話矣！<br>我是客儂，佇彼洋行食頭路，講紅毛番个話。儂攏叫我「三文番」。<br>汝愛記持，離開琅𤩝，咱啥物攏毋是。"
+            "就叫汝莫講客話矣！<br>我是客儂，佇彼洋行食頭路，講紅毛番个話。儂攏叫我「三文番」。<br>汝愛記得，離開琅𤩝，咱啥物攏毋是。",
+            "Tiō kiò lí mài kóng Kheh-uē--ah!<br>Guá sī Kheh-lâng, tī he iûnn-hâng tsia̍h thâu-lōo, kóng âng-môo-huan ê uē. Lâng lóng kiò guá &quot;Sam-bûn-huan&quot;<br>Lí ài kì-tit, lī-khui Lân-kiau, lán siánn-mih lóng m̄-sī.",
+            "2"
           ]
 
         ]
@@ -3152,7 +3234,7 @@ data = [
           [
             "李",
             "",
-            "<div class='trans'>Joachim du Bellay, “Heureux Qui Comme Ulysse”<blockquote>遠行過的人都懂得尤利西斯的幸福<br>得到金羊毛的人也懂得其中的樂趣<br>他們回到故鄉　滿懷閱歷與智慧<br>和家人一起共享天倫</blockquote></div><div class='poem'><blockquote>Heureux qui comme Ulysse a fait un beau voyage<br>Ou comme cestuy-là qui conquit la toison<br>Et puis est retourné plein d'usage et raison<br>Vivre entre ses parents le reste de son âge</blockquote></div>",
+            "<div class='trans'>Joachim du Bellay, &quot;Heureux Qui Comme Ulysse&quot;<blockquote>遠行過的人都懂得尤利西斯的幸福<br>得到金羊毛的人也懂得其中的樂趣<br>他們回到故鄉　滿懷閱歷與智慧<br>和家人一起共享天倫</blockquote></div><div class='poem'><blockquote>Heureux qui comme Ulysse a fait un beau voyage<br>Ou comme cestuy-là qui conquit la toison<br>Et puis est retourné plein d'usage et raison<br>Vivre entre ses parents le reste de son âge</blockquote></div>",
             "6"
           ]
         ]
