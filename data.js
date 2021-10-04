@@ -1011,7 +1011,7 @@ data = [
           [
             "水",
             "琅𤩝是誰收留恁一家伙仔？是我呢！<br>誰予恁囝搬貨趁錢？嘛是我啦！",
-            "Lân-kiau sī sáng siu-liû lín tsi̍t-ke-hué-á? Sī guá nē!<br>Sáng hōo lín kiánn puann huè thàn-tsînn? Mā sī guá--lah!",
+            "Lân-kiau sī sáng siu-liû lín tsi̍t-ke-hué-á? Sī guá--ne!<br>Sáng hōo lín kiánn puann huè thàn-tsînn? Mā sī guá--lah!",
             "2"
           ],
 
@@ -1537,7 +1537,8 @@ data = [
           [
             "",
             "無代誌矣。去做<span class='TBD'>＿</span>。",
-            "Bô tāi-tsì--ah. Khì tsò <span class='TBD'>__</span>"
+            "Bô tāi-tsì--ah. Khì tsò <span class='TBD'>__</span>",
+            "2"
           ]
         ]
       },
@@ -1548,7 +1549,7 @@ data = [
           [
             "道台",
             "總兵大人，你不會真的派鳳山縣巡檢，去救護洋船員吧？爾等兩年後調職，勿生事端！",
-            "Zǒngbīng Dàrén, nǐ bú hùi zhēnde pài Fèngshān Xìan Xúnjǐan, qù jiùhù yáng chuányuán ba? Ěrděng liǎng nián hòu diàozhí, wù shēng shìduān!",
+            "<div class='sidenote'>沒有和臺灣本土語言對到戲的官話／英語段落，本來不在本專案範圍內，但因為這段裡面總兵大人的「khuì-kháu 氣口」是我蠻愛模仿的，所以就還是把這段做出來了～</div>Zǒngbīng Dàrén, nǐ bú hùi zhēnde pài Fèngshān Xìan Xúnjǐan, qù jiùhù yáng chuányuán ba? Ěrděng liǎng nián hòu diàozhí, wù shēng shìduān!",
             "5"
           ],
           [
@@ -1799,7 +1800,7 @@ data = [
           [
             "蝶",
             "就叫汝莫講客話矣！<br>我是客儂，佇彼洋行食頭路，講紅毛番个話。儂攏叫我「三文番」。<br>汝愛記得，離開琅𤩝，咱啥物攏毋是。",
-            "Tiō kiò lí mài kóng Kheh-uē--ah!<br>Guá sī Kheh-lâng, tī he iûnn-hâng tsia̍h thâu-lōo, kóng âng-môo-huan ê uē. Lâng lóng kiò guá &quot;Sam-bûn-huan&quot;<br>Lí ài kì-tit, lī-khui Lân-kiau, lán siánn-mih lóng m̄-sī.",
+            "Tiō kiò lí mài kóng Kheh-uē--ah!<br>Guá sī Kheh-lâng, tī he iûnn-hâng tsia̍h thâu-lōo, kóng âng-môo-huan ê uē. Lâng lóng kiò guá &quot;Sam-bûn-huan&quot;.<br>Lí ài kì-tit, lī-khui Lân-kiau, lán siánn-mih lóng m̄-sī.",
             "2"
           ]
 
@@ -2437,7 +2438,7 @@ data = [
 
             "水",
             "這話，等見總兵官正講啦。<span class='lang2'>一丙阿兄</span>定著當想聽个啊。啊你人頭落地，樵城乜省事。<span class='noted'>下二擺</span>喔，<span class='noted'>就</span>毋使摎你<span class='updated'>相㓾哩</span>！",
-            "<div class='sidenote'> 「Ha ngi bài 下二擺」符合這邊的語意，但聽來像「han 擺」（GHSRobert）<br><span class='updated'>對，是連音。不是演員發音問題，這字他講得非常好 XD（DanielaAerts）</span></div>Lìa fa, dèn gian Zùngbín'gón zang gòng là. <span class='lang2'>It-píng A-hiann</span> tincog dóng xìong táng ge a. A ňg ngǐntěu logti, Cěusǎng me sàngsii. <span class='noted'>Hanbài </span> ò, qiu m̌sìi láu ňg <span class='updated'>xíongcǐi lè</span>!",
+            "<div class='sidenote'> 「Ha ngi bài 下二擺」符合這邊的語意，但聽來像「han 擺」（GHSRobert）<br><span class='updated'>對，是連音。不是演員發音問題，這字他講得非常好 XD（DanielaAerts）</span></div>Lìa fa, dèn gian Zùngbín'gón zang gòng là. <span class='lang2'>It-píng A-hiann</span> tincog dóng xìong táng ge a. A ňg ngǐntěu logti, Cěusǎng me sàngsii. <span class='noted'>Hanbài</span> ò, qiu m̌sìi láu ňg <span class='updated'>xíongcǐi lè</span>!",
 
           ],
 

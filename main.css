@@ -229,7 +229,7 @@ section table {
 
 
 #main-title:after {
-  content: 'Aiuanyu 編／v1.1 20210929';
+  content: 'Aiuanyu 編／v1.2 20211005';
   font-size: 0.5em;
   font-family: 蘋果儷中黑;
   position: absolute;
@@ -286,10 +286,14 @@ section tr:nth-child(2n+1) td {
   padding-top: 1em;
 }
 
+section tr:nth-child(2n) td {
+  color: hsla(0, 0%, 100%, 0.6);
+}
+
 section tr:nth-child(2n+1) {
   --color-darker: hsl(var(--color),calc(var(--l) - 50%));
   /* color: var(--color-darker); */
-  color: antiquewhite;
+  color: /*antiquewhite*/hsl(34, 100%, 96%);
 }
 /* section tr:nth-child(3n) {line-height: 50%; height: 50%} */
 
@@ -377,7 +381,7 @@ section table {width: 70vw;}
   break-inside: avoid; /* 沒辦法讓 before 的元素和主元素保持在同一行 :( */
 }
 .noted:before {
-  content: "✏️";
+  content: "✎";
   font-size: 0.5em;
   vertical-align: top;
   top: -0.9em;
@@ -461,25 +465,25 @@ section:not(.noHak):before {
 
 section tr:nth-child(2n) {color: white !important;}
 /* Ho̍h-ló */
-section tr.lang2, section td.lang2, section tr:nth-child(2n+1) .lang2, .sample.lang2 {color: /*honeydew*//*hsl(217, 82%, 89%)*/hsl(303, 78%, 91%);}
+section tr.lang2, section td.lang2, section tr:nth-child(2n+1) .lang2, .sample.lang2 {color: /*honeydew*//*hsl(217, 82%, 89%)*/hsl(303, 100%, 96%);}
 section tr:nth-child(2n).lang2, section tr:nth-child(2n) .lang2, .sample.lang2 {font-family: "源石黑體", sans-serif; font-weight: 500;}
 section tr:nth-child(2n+1).lang2, section tr:nth-child(2n+1) .lang2 {font-family: 源石黑體, sans-serif; font-weight: 500;}
 section tr:nth-child(2n+1).lang2 {font-size: 1.2em;}
 section tr:nth-child(2n+1).lang2 td {line-height: 1.6em;}
 section tr:nth-child(2n+1) .lang2 {font-size: 0.8em !important;}
 /* 排灣文 */
-section tr.lang3, section td.lang3, section tr:nth-child(2n+1) .lang3 {color: /*honeydew*//*hsl(217, 82%, 89%)*/hsl(127, 78%, 91%);}
+section tr.lang3, section td.lang3, section tr:nth-child(2n+1) .lang3 {color: /*honeydew*//*hsl(217, 82%, 89%)*/hsl(127, 100%, 96%);}
 section tr:nth-child(2n).lang3, section tr:nth-child(2n) .lang3 {font-family: "黑體-繁", sans-serif; font-weight: 700;}
 section tr:nth-child(2n+1).lang3, section tr:nth-child(2n+1) .lang3 {font-family: Superclarendon, 'Academy Engraved LET', 'Book Antigua', Baskerville, serif; font-weight: 500;}
 section tr:nth-child(2n+1).lang3 { font-size: 1.1em;}
 section tr:nth-child(2n+1) .lang3 {font-size: 0.8em;}
 section tr.lang3 td:nth-child(2), section tr.lang6 td:nth-child(2) {padding-right: 25%;}
 /* 英法文 */
-.fr td, .lang6 td {color: hsl(255, 78%, 91%); font-family: 'Bell MT';}
-.lang4 td {color: hsl(187, 78%, 91%); font-family: 'Bell MT';}
+.fr td, .lang6 td {color: hsl(255, 100%, 96%); font-family: 'Bell MT';}
+.lang4 td {color: hsl(187, 100%, 96%); font-family: 'Bell MT';}
 section tr:nth-child(2n).lang4, section tr:nth-child(2n).lang6, section tr:nth-child(2n).lang3 {display: none;}
 /* Mandarin */
-section tr.lang5, td.lang5, .lang5, .sample.lang5 {color: /*honeydew*//*hsl(217, 82%, 89%)*/hsl(235, 78%, 91%);}
+section tr.lang5, td.lang5, .lang5, .sample.lang5 {color: /*honeydew*//*hsl(217, 82%, 89%)*/hsl(235, 100%, 96%);}
 section tr:nth-child(2n).lang5, section tr:nth-child(2n) .lang5, .sample.lang5 {font-family: 楷體-繁, sans-serif; font-weight: 700;}
 section tr:nth-child(2n+1).lang5, section tr:nth-child(2n+1) .lang5, .sample.lang5 {font-family: 霞鶩文楷 TC, sans-serif; font-weight: 700;}
 section tr:nth-child(2n+1).lang5 {font-size: 1.2em;}
@@ -498,7 +502,7 @@ section tr:nth-child(2n+1).lang5 {font-size: 1.2em;}
 .poem blockquote:before,
 .poem blockquote:after {
 	position: absolute;
-	color: hsla(255, 78%, 91%, 0.5);
+	color: hsla(255, 100%, 96%, 0.5);
 	font-size: 5rem;
 	width: 2rem;
 	height: 2rem;
