@@ -1011,7 +1011,7 @@ data = [
           [
             "水",
             "琅𤩝是誰收留恁一家伙仔？是我呢！<br>誰予恁囝搬貨趁錢？嘛是我啦！",
-            "Lân-kiau sī sáng siu-liû lín tsi̍t-ke-hué-á? Sī guá nē!<br>Sáng hōo lín kiánn puann huè thàn-tsînn? Mā sī guá--lah!",
+            "Lân-kiau sī sáng siu-liû lín tsi̍t-ke-hué-á? Sī guá--ne!<br>Sáng hōo lín kiánn puann huè thàn-tsînn? Mā sī guá--lah!",
             "2"
           ],
 
@@ -1215,6 +1215,126 @@ data = [
       },
 
       {
+        "t": "12:00",
+        "rows": [
+          [
+            "李",
+            "",
+            "No!",
+            "4"
+          ],
+          [
+            "府城儂",
+            "共我買，共我買啦！",
+            "Kā guá bé, kā guá bé--lah!",
+            "2"
+          ],
+          [
+            "李",
+            "",
+            "Alright, I'll buy something.",
+            "4"
+          ],
+          [
+            "府城儂",
+            "我算汝較俗咧。<br>共我買啦！……",
+            "Guá sǹg lí khah sio̍k--leh.<br>Kā guá bé--lah!...",
+            "2"
+          ]
+        ]
+      },
+
+      {
+        "t": "16:40",
+        "rows": [
+          [
+            "水",
+            "統領埔个客儂仔搬走矣。這片田，可惜矣。<br>會當飼活兩个社寮个。",
+            "Thóng-niá-poo ê Kheh-lâng-á puann-tsáu--ah. Tsit phìnn tshân, khó-sioh--ah.<br>Ē-tàng tshī-ua̍h nn̄g-ê Siā-liâu--ê.",
+            "2"
+          ],
+          [
+            "甥",
+            "嘻？阿舅，彼个猶未熟啦！",
+            "Hi? A-kū, hit-ê iáu-buē si̍k--lah!",
+            "2"
+          ],
+          [
+            "水",
+            "哼，哼哼。漢人是濟到田無夠食。番薯只是會當食飽肚个，白米才會當飼活儂，飼活一个庄啊。",
+            "<div class='sidenote'>慷仁的第 8 調好高 XD</div>Hngh, hngh-hngh. Hàn-jîn sī tsē kàu tshân bô-kàu <span class='noted'>tsia̍h</span>. Han-tsî tsí-sī ē-tàng tsia̍h-pá tōo ê, pe̍h-bí tsiah ē-tàng tshī-ua̍h lâng, tshī-ua̍h tsi̍t-ê tsng--a.",
+            "2"
+          ],
+          [
+            "丙",
+            "水啊！送禮予生番？",
+            "Tsuí--a! Sàng-lé hōo tshenn-huan?",
+            "2"
+          ],
+          [
+            "水",
+            "銃予我。",
+            "Tshìng hōo guá.",
+            "2"
+          ],
+          [
+            "",
+            "社寮納番租啊！山頂个大股頭欲換儂矣，理當送禮啊！",
+            "Siā-liâu la̍p huan-tsoo--a! Suann-tíng ê Tuā-kóo-thâu beh uānn lâng--ah, lí-tang sàng-lé--a!",
+            "2"
+          ],
+          [
+            "丙",
+            "哈哈哈……有影啦。大股頭欲換儂，送禮是欲租統領埔。<br>儂是會變濟，袂變少啦。土地是會變少袂變濟呢。社寮遮土生仔逐家攏想欲加占一寡田、占一寡地，這應該个啊。",
+            "Ha-ha-ha... Ū-iánn--lah. Tuā-kóo-thâu beh uānn lâng, sàng-lé sī beh tsoo Thóng-niá-poo.<br>Lâng sī ē piàn tsē, buē piàn tsió--lah. Thóo-tē sī ē piàn tsió buē piàn tsē--ne. Siā-liâu tsia thóo-senn-á ta̍k-ke lóng siūnn-beh ke tsiàm tsi̍t-kuá tshân, tsiàm tsi̍t-kuá tē, tse ìng-kai ê--a.",
+            "2"
+          ],
+          [
+            "水",
+            "啊汝个意思是講，只有漢人會當食白米喔？",
+            "A lí ê ì-sù sī kóng, tsí-ū Hàn-jîn ē-tàng tsia̍h pe̍h-bí--oo?",
+            "2"
+          ],
+          [
+            "丙",
+            "汝嘛會當食。事成了後，只要將統領埔轉租我一半。",
+            "Lí mā ē-tàng tsia̍h. Sū sîng liáu-āu, tsí-iàu tsiong Thóng-niá-poo tsuán-tsoo guá tsi̍t-puànn.",
+            "2"
+          ],
+          [
+            "水",
+            "啊遮个白米，若是汝大粒汗、細粒汗收來个，汝敢會分儂一半？",
+            "A tsia-ê pe̍h-bí, nā-sī lí tuā lia̍p kuānn, sè lia̍p kuānn siu lâi ê, lí kám ē pún lâng tsi̍t-puànn?",
+            "2"
+          ],
+          [
+            "丙",
+            "會啊……我嘛驚流血呢。我驚講厝邊頭尾逐家舞了無歡喜，閣窒圳埤，按呢就毋好矣。",
+            "Ē--a... Guá mā kiann lâu-hueh--ne. Guá kiann kóng tshù-pinn-thâu-bué ta̍k-ke bú liáu bô-huann-hí, koh that tsùn-pi, án-ne tiō m̄-hó--ah.",
+            "2"
+          ],
+          [
+            "水",
+            "到時喔，生番會落山。",
+            "Kàu-sî--oo, tshenn-huan ê lo̍h-suann.",
+            "2"
+          ],
+          [
+            "丙",
+            "柴城有 1500 个庄丁，生番若來往，阮袂食虧。<br>統領埔个番租，我交一半。",
+            "Tshâ-siânn ū tsi̍t tshing gōo pah ê tsong-ting, tshenn-huan nā lâi-óng, gún bē tsia̍h-khui.<br>Thóng-niá-poo ê huan-tsoo, guá kau tsi̍t-puànn.",
+            "2"
+          ],
+          [
+            "",
+            "緊去送禮。",
+            "Kín khì sàng-lé.",
+            "2"
+          ]
+        ]
+      },
+
+      {
         "t": "23:37",
         "rows": [
 
@@ -1226,12 +1346,12 @@ data = [
 
           ],
 
-        ]
-      },
-
-      {
-        "t": "24:26",
-        "rows": [
+          [
+            "蝶",
+            "",
+            "……",
+            "3"
+          ],
 
           [
 
@@ -1289,6 +1409,13 @@ data = [
           ],
 
           [
+            "杰",
+            "",
+            "……",
+            "3"
+          ],
+
+          [
 
             "蝶",
             "在府城，毋好講番話。<br>這位有人罵你生番仔，毋好承認。<br>下二擺，就行這條路轉去。",
@@ -1298,10 +1425,10 @@ data = [
 
           [
 
-            "",
+            "杰",
             "",
             "……",
-
+            "3"
           ],
 
           [
@@ -1339,15 +1466,207 @@ data = [
       },
 
       {
+        "t": "28:00",
+        "rows": [
+          [
+            "拍石師傅",
+            "來！摃落去！",
+            "Lâi! Kòng--lo̍h-khì!",
+            "2"
+          ],
+          [
+            "",
+            "洋藥局頭家娘有交代啦，寄戶佇遮喔，無包食、無包蹛，十番銀。",
+            "Iûnn-io̍k-kio̍k thâu-ke-niû ū kau-tài--lah, kià-hōo tī tsia--oo, bô pau tsia̍h, bô pau tuà, tsa̍p huan-gîn.",
+            "2"
+          ],
+          [
+            "蝶",
+            "師傅，歹勢啦，頭家娘共我收五十番銀。",
+            "Sai-hū, pháinn-sè--lah, thâu-ke-niû kā guá siu gōo-tsa̍p huan-gîn.",
+            "2"
+          ],
+          [
+            "師",
+            "彼洋藥局是咧賣鴉片个，啊汝嘛食鴉片喔？",
+            "<div class='sidenote'>詞庫「鴉片」音 a-phiàn，但演員前字聽來是降調像是 ah-phiàn，似乎是用到「鴨」的音</div>He iûnn-io̍k-kio̍k sī leh bē <span class='noted'>ah</span>-phiàn ê, a lí mā tsia̍h ah-phiàn--oo?",
+            "2"
+          ],
+          [
+            "",
+            "你對佗位來个？",
+            "Lí uì tó-uī lâi--ê?",
+            "2"
+          ],
+          [
+            "杰",
+            "琅𤩝。",
+            "<div class='sidenote'>不是我打錯字，是真的跟別人唸的不一樣</div><span class='noted'>Lâng</span>-kiau.",
+            "2"
+          ],
+          [
+            "師",
+            "琅𤩝是拋荒个禁地呢！對遐來个番仔喔，連做流民都無夠格。<br>若官府來查喔，汝就講汝是蛤仔難廳來个。",
+            "Lân-kiau sī phah-hng ê kìm-tē--ne! Uì hia lâi ê huan-á--oo, liân tsò liû-bîn to bô kàu-keh.<br>Nā kuann-hú lâi tshâ--oo, lí tiō kóng lí sī Kap-á-lān Thiann lâi--ê.",
+            "2"
+          ],
+          [
+            "蝶",
+            "阿杰！徛予直。汝講一遍。",
+            "A-Kia̍t! Khiā hōo ti̍t. Lí kóng tsi̍t piàn.",
+            "2"
+          ],
+          [
+            "杰",
+            "「我蛤仔難廳來个。」",
+            "&quot;Guá Kap-á-lān Thiann lâi--ê.&quot;",
+            "2"
+          ],
+          [
+            "師",
+            "先對𢯾石頭開始啦。彼車汝个，共伊裝予滇。",
+            "Sian uì mooh tsio̍h-thâu khai-sí--lah. Hit tshia lí ê, kā i tsng hōo tīnn.",
+            "2"
+          ],
+          [
+            "蝶",
+            "阮小弟踮遮寄戶學師仔，就麻煩恁矣。",
+            "Gún sió-tī tiàm tsia kià-hōo oh sai-á, tiō mâ-huân lín--ah.",
+            "2"
+          ],
+          [
+            "",
+            "無代誌矣。去做<span class='TBD'>＿</span>。",
+            "Bô tāi-tsì--ah. Khì tsò <span class='TBD'>__</span>",
+            "2"
+          ]
+        ]
+      },
+
+      {
+        "t": "32:04",
+        "rows": [
+          [
+            "道台",
+            "總兵大人，你不會真的派鳳山縣巡檢，去救護洋船員吧？爾等兩年後調職，勿生事端！",
+            "<div class='sidenote'>沒有和臺灣本土語言對到戲的官話／英語段落，本來不在本專案範圍內，但因為這段裡面總兵大人的「khuì-kháu 氣口」是我蠻愛模仿的，所以就還是把這段做出來了～</div>Zǒngbīng Dàrén, nǐ bú hùi zhēnde pài Fèngshān Xìan Xúnjǐan, qù jiùhù yáng chuányuán ba? Ěrděng liǎng nián hòu diàozhí, wù shēng shìduān!",
+            "5"
+          ],
+          [
+            "劉",
+            "洋人之事，敷衍即可。",
+            "Yángrén zhī shì, fūyǎn jí kě.",
+            "5"
+          ],
+          [
+            "道台",
+            "哈哈哈哈，「敷衍」兩個字從你的嘴裡頭說出來，我聽來倒像是在敷衍我呀。實則，你是想自行其是！",
+            "Hahaha... &quot;Fūyǎn&quot; lǐang ge zì cóng nǐde zǔi lǐtou shuō chūlái, wǒ tīng lái dào xìang shì zài fūyǎn wǒ ya. Shízé, nǐ shì xǐang zìxíngqíshì!",
+            "5"
+          ],
+          [
+            "劉",
+            "臺灣政事，已敷衍太多。自行其是不足，敷衍洋人，倒綽綽有餘！<br>道台大人。",
+            "Táiwān zhèngshì, yǐ fūyǎn tài dūo. Zìxíngqíshì bùzú, fūyǎn yángrén, dào chuòchuòyǒuyú!<br>Dàotái Dàrén.",
+            "5"
+          ]
+        ]
+      },
+
+      {
+        "t": "39:58",
+        "rows": [
+          [
+            "小師傅",
+            "食飯啊。",
+            "Tsia̍h-pn̄g--a.",
+            "2"
+          ],
+          [
+            "",
+            "琅𤩝來个喔？",
+            "Lân-kiau lâi ê--oo?",
+            "2"
+          ],
+          [
+            "杰",
+            "我蛤仔難來个。",
+            "Guá Kap-á-lān lâi--ê.",
+            "2"
+          ],
+          [
+            "小師傅",
+            "琅𤩝有船通抾乎？<br>琅𤩝抾船个物仔，有當時攏會走去阮遐賣。<br>我風港个。仝鄉。",
+            "Lân-kiau ū tsûn thang khioh--honnh?<br>Lân-kiau khioh tsûn ê mi̍h-á, ū tang-sî-á lóng ē tsáu-khì gún hia bē.<br>Guá Hong-káng--ê. Kāng-hiong.",
+            "2"
+          ],
+          [
+            "",
+            "伊，下淡水个啊；啊閣有彼个，洄瀾个啊。佇遮，逐家攏是流民艱苦儂。毋免驚。",
+            "I, Ē-tām-tsuí--ê--a; a koh ū hit-ê, Huê-lân--ê--a. Tī tsia, ta̍k-ke lóng sī liû-bîn kan-khóo-lâng. M̄-bián kiann.",
+            "2"
+          ],
+          [
+            "",
+            "有抾過船無？",
+            "Ū khioh kuè tsûn bô?",
+            "2"
+          ],
+          [
+            "杰",
+            "抾過幾擺。",
+            "Khioh kuè kuí pái.",
+            "2"
+          ],
+          [
+            "小師傅",
+            "府城遮，嘛有船通抾。欲趁無？<br>𪜶攏袂曉泅水啦，趁無。",
+            "Hú-siânn tsia, mā ū tsûn thang khioh. Beh thàn--bô?<br>In lóng bē-hiáu siû-tsuí--lah, thàn bô.",
+            "2"
+          ],
+          [
+            "",
+            "恁姐去夆騙矣。安汝个戶口，五十番銀，伊按怎趁我是毋知影啦。我愛趁幾若冬呢。",
+            "Lín tsí khì hőng phiàn--ah. An lí ê hōo-kháu, gōo-tsa̍p huan-gîn, i án-nuá thàn guá sī m̄ tsai-iánn--lah. Guá ài thàn kuí-nā tang--ne.",
+            "2"
+          ],
+          [
+            "",
+            "汝家己看。",
+            "Lí ka-kī khuànn.",
+            "2"
+          ]
+        ]
+      },
+
+      {
         "t": "43:10",
         "rows": [
 
           [
 
             "蝶",
-            "阿弟牯！<br>阿弟牯！",
-            "Ádigù!<br>Ádigù!",
+            "阿弟牯！",
+            "Ádigù!",
 
+          ],
+          [
+            "小師傅",
+            "來！遮！行。<br>阿杰仔，來。",
+            "Lâi! Tsia! Kiânn.<br>A-Kia̍t-á, lâi.",
+            "2"
+          ],
+          [
+            "蝶",
+            "阿弟牯！",
+            "Ádigù!",            
+          ],
+
+          [
+            "小師傅",
+            "遮！",
+            "Tsia!",
+            "2"
           ],
 
           [
@@ -1361,24 +1680,24 @@ data = [
           [
 
             "蝶",
-            "你兜去哪啊？還毋轉去醫生館？",
-            "Ňgdéu hi nai a? Hǎn m̌ zòn hi <span class='updated'>ísén'gòn</span>?",
+            "你兜去<span class='updated'>哪仔</span>啊？還毋轉去醫生館？",
+            "Ňgdéu hi <span class='updated'>nài</span> a? Hǎn m̌ zòn hi <span class='updated'>ísén'gòn</span>?",
 
           ],
 
           [
 
             "杰",
-            "𠊎該下去賺外水。",
-            "Ngǎi geha hi con ngoisùi.",
+            "𠊎 <span class='updated'>ga</span> 下去賺外水。",
+            "Ngǎi <span class='updated'>ga</span>ha hi con ngoisùi.",
 
           ],
 
           [
 
             "蝶",
-            "外水？歸身仔溚潦，去哪吔？",
-            "Ngoisùi? Gúi síinè dablǎu, hi nai ě?",
+            "外水？歸身仔溚潦，去<span class='updated'>哪仔</span>吔？",
+            "Ngoisùi? Gúi síinè dablǎu, hi <span class='updated'>nài</span> ě?",
 
           ],
 
@@ -1393,18 +1712,83 @@ data = [
           [
 
             "蝶",
-            "這位毋係琅𤩝，府城个船仔，都有主人吔。",
+            "這位毋係琅𤩝，府城个船仔，都有主人吔。<hr>",
             "Ìavi m̌ he Lǒngkieu, Fùsǎng ge sǒnè, du íu zù'ngǐn ě.",
 
           ],
+
+          [
+            "小師傅",
+            "喂，汝个。",
+            "Eh, lí ê.",
+            "2"
+          ],
+
+          [
+            "工儂",
+            "三文番來矣。",
+            "Sam-bûn-huan lâi--ah.",
+            "2"
+          ],
+
+          [
+            "小師傅",
+            "提去。",
+            "Thê khì.",
+            "2"
+          ],
+
+          [
+            "蝶",
+            "阮小弟鬥搬貨，分偌濟啊？",
+            "Gún sió-tī tàu puann-huè, pun guā-tsuē--a?",
+            "2"
+          ],
+
+          [
+            "小師傅",
+            "汝三文，伊兩仙！<br>提去。汝个。",
+            "Lí sann bûn, i nn̄g sian!<br>Thê khì. Lí ê.",
+            "2"
+          ],
+
+          [
+            "蝶",
+            "按呢毋才有夠。<br>多謝師傅𤆬阮小弟見世面。後擺，莫𤆬阮小弟去抾船。<br>多謝小師傅照顧。",
+            "Án-ne m̄ tsiah ū-kàu.<br>To-siā sai-hū tshuā gún sió-tī kìnn sè-bīn. Āu-pái, mài tshuā gún sió-tī khì khioh-tsûn.<br>To-siā Sió-sai-hū tsiàu-kòo.",
+            "2"
+          ]
 
         ]
       },
 
       {
-        "t": "45:04",
+        "t": "44:44",
         "rows": [
-
+          [
+            "府城儂",
+            "喂，三文番加一番，啊按呢是欲算幾番？",
+            "Eh, Sam-bûn-huan ke tsi̍t huan, a án-ne sī beh sǹg kuí huan?",
+            "2"
+          ],
+          [
+            "",
+            "少年个，欲買番仔膏無？",
+            "<div class='sidenote'>問原住民要不要買「番仔膏」，也太歹毒了吧 😠</div>Siàu-liân--ê, beh bé huan-á-ko--bô?",
+            "2"
+          ],
+          [
+            "",
+            "有看過番仔婆無看過番仔公呢！",
+            "Ū khuànn-kuè huan-á-pô bô khuànn-kuè huan-á-kong--ne!",
+            "2"
+          ],
+          [
+            "蝶",
+            "佇府城，無熟似个，莫來往；<br>熟似个，愛細膩。閣按怎裝，咱攏毋是唐山儂。",
+            "Tī Hú-siânn, bô si̍k-sāi ê, mài lâi-óng;<br>si̍k-sāi ê, ài sè-lī. Koh án-nuá tsng, lán lóng m̄-sī Tn̂g-suann-lâng.",
+            "2"
+          ],
           [
 
             "杰",
@@ -1412,6 +1796,13 @@ data = [
             "<div class='sidenote'>giug 就是裝作的意思，跟 EP9 的 giug ngoi ngoi 的 giug 同字；據長輩稱亦與「giugsìi」（傲慢）的「挶」同義，但不確定教育部用的「挶」有沒有「裝作」的意思。（DanielaAerts）</div>Gòng sángfánè, ngǎi zo-m̌-dèd sǐinngin; <br>Tǒngsánngǐn, iu <span class='updated'><span class='noted'>giug</span> do</span> mǒ qiong.",
 
           ],
+
+          [
+            "蝶",
+            "就叫汝莫講客話矣！<br>我是客儂，佇彼洋行食頭路，講紅毛番个話。儂攏叫我「三文番」。<br>汝愛記得，離開琅𤩝，咱啥物攏毋是。",
+            "Tiō kiò lí mài kóng Kheh-uē--ah!<br>Guá sī Kheh-lâng, tī he iûnn-hâng tsia̍h thâu-lōo, kóng âng-môo-huan ê uē. Lâng lóng kiò guá &quot;Sam-bûn-huan&quot;.<br>Lí ài kì-tit, lī-khui Lân-kiau, lán siánn-mih lóng m̄-sī.",
+            "2"
+          ]
 
         ]
       }
@@ -2047,7 +2438,7 @@ data = [
 
             "水",
             "這話，等見總兵官正講啦。<span class='lang2'>一丙阿兄</span>定著當想聽个啊。啊你人頭落地，樵城乜省事。<span class='noted'>下二擺</span>喔，<span class='noted'>就</span>毋使摎你<span class='updated'>相㓾哩</span>！",
-            "<div class='sidenote'> 「Ha ngi bài 下二擺」符合這邊的語意，但聽來像「han 擺」（GHSRobert）<br><span class='updated'>對，是連音。不是演員發音問題，這字他講得非常好 XD（DanielaAerts）</span></div>Lìa fa, dèn gian Zùngbín'gón zang gòng là. <span class='lang2'>It-píng A-hiann</span> tincog dóng xìong táng ge a. A ňg ngǐntěu logti, Cěusǎng me sàngsii. <span class='noted'>Hanbài </span> ò, qiu m̌sìi láu ňg <span class='updated'>xíongcǐi lè</span>!",
+            "<div class='sidenote'> 「Ha ngi bài 下二擺」符合這邊的語意，但聽來像「han 擺」（GHSRobert）<br><span class='updated'>對，是連音。不是演員發音問題，這字他講得非常好 XD（DanielaAerts）</span></div>Lìa fa, dèn gian Zùngbín'gón zang gòng là. <span class='lang2'>It-píng A-hiann</span> tincog dóng xìong táng ge a. A ňg ngǐntěu logti, Cěusǎng me sàngsii. <span class='noted'>Hanbài</span> ò, qiu m̌sìi láu ňg <span class='updated'>xíongcǐi lè</span>!",
 
           ],
 
@@ -2839,7 +3230,7 @@ data = [
           [
             "李",
             "",
-            "<div class='trans'>Joachim du Bellay, “Heureux Qui Comme Ulysse”<blockquote>遠行過的人都懂得尤利西斯的幸福<br>得到金羊毛的人也懂得其中的樂趣<br>他們回到故鄉　滿懷閱歷與智慧<br>和家人一起共享天倫</blockquote></div><div class='poem'><blockquote>Heureux qui comme Ulysse a fait un beau voyage<br>Ou comme cestuy-là qui conquit la toison<br>Et puis est retourné plein d'usage et raison<br>Vivre entre ses parents le reste de son âge</blockquote></div>",
+            "<div class='trans'>Joachim du Bellay, &quot;Heureux Qui Comme Ulysse&quot;<blockquote>遠行過的人都懂得尤利西斯的幸福<br>得到金羊毛的人也懂得其中的樂趣<br>他們回到故鄉　滿懷閱歷與智慧<br>和家人一起共享天倫</blockquote></div><div class='poem'><blockquote>Heureux qui comme Ulysse a fait un beau voyage<br>Ou comme cestuy-là qui conquit la toison<br>Et puis est retourné plein d'usage et raison<br>Vivre entre ses parents le reste de son âge</blockquote></div>",
             "6"
           ]
         ]
