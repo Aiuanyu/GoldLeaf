@@ -32,6 +32,7 @@ names ={
   "工儂2": ["Kang-lâng"],
   "姆": ["Mé","Meˋ"],
   "Tok": ["Tok","Tok"],
+  "Isa": ["Isa"],
   "必": ["Pickering", "Pickering"],
   "李": ["LeGendre", "LeGendre"],
   "軍官5": ["Jūnguān"],
