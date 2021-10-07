@@ -277,10 +277,19 @@ section td:nth-child(2) {
   padding-left: 3vw;
 }
 
+section tr:nth-child(2n+1), section tr:nth-child(2n+1) .lang1 {
+  font-family: "Athelas";
+  color: /*antiquewhite*/hsl(34, 100%, 96%);
+}
 section tr:nth-child(2n+1) {
   font-size: 1.4em;
-  font-family: "Athelas";
 }
+section tr:nth-child(2n+1) .lang1 {
+  font-weight: 700;
+  font-size: 1.1em;
+}
+section tr:nth-child(2n) .lang1 {font-family: 源流明體;} /* 有的時候在其他語言台詞中反而夾雜客話 */
+
 
 section tr:nth-child(2n+1) td {
   padding-top: 1em;
@@ -293,7 +302,6 @@ section tr:nth-child(2n) td {
 section tr:nth-child(2n+1) {
   --color-darker: hsl(var(--color),calc(var(--l) - 50%));
   /* color: var(--color-darker); */
-  color: /*antiquewhite*/hsl(34, 100%, 96%);
 }
 /* section tr:nth-child(3n) {line-height: 50%; height: 50%} */
 

@@ -2216,22 +2216,36 @@ data = [
 
           ],
 
-        ]
-      },
+          [
+            "杰",
+            "",
+            "...",
+            "3"
+          ],
+          [
+            "蝶",
+            "",
+            "...<hr>",
+            "3"
+          ],
 
-      {
-        "t": "3:55",
-        "rows": [
 
           [
 
             "瑪祖卡",
-            "𠊎一屋下人，無位所好去吔，莫燒，𠊎自家走。",
+            "𠊎一屋下人，無位所好去吔，莫燒，𠊎自家走。<hr>",
             "Ngǎi ìd vùg<span class='updated'>k</span>á ngǐn, mǒ visò hò hi ě, mog séu, ngǎi ciigá zèu.",
 
           ],
+          [
+            "杰",
+            "",
+            "...",
+            "3"
+          ]
 
-        ]
+        ],
+
       },
 
       {
@@ -2269,6 +2283,204 @@ data = [
 
           ],
 
+        ]
+      },
+
+      {
+        "t": "11:03",
+        "rows": [
+          [
+            "庄儂",
+            "雞寮啦！<br>哈哈哈……"
+          ],
+          [
+            "必",
+            "汝若會<span class='noted'>袂</span>較早講啦。<br>下一間！"
+          ]
+        ]
+      },
+      {
+        "t": "11:13",
+        "rows": [
+          [
+            "李",
+            "",
+            "He knows nothing about the sailors?"
+          ],
+          [
+            "蝶",
+            "",
+            "Yes, sir."
+          ],
+          [
+            "李",
+            "",
+            "Remind him."
+          ],
+          [
+            "蝶",
+            "官府个通譯，對遮傳兩粒假生番个儂頭轉來府城。"
+          ],
+          [
+            "丙",
+            "彼是社寮予通譯个。船員个代誌，社寮應該知影。"
+          ],
+          [
+            "蝶",
+            "",
+            "Sir, he says <span class='lang2'>Siā-liâu</span> might know."
+          ],
+          [
+            "李",
+            "",
+            "So now you remember?<br>Funny how memory works isn't it?"
+          ],
+          [
+            "必",
+            "",
+            "Not a trace of the sailors here."
+          ],
+          [
+            "李",
+            "",
+            "He is just like those Qing officials. The problem is always for someone else's to solve.<hr>"
+          ],
+          [
+            "",
+            "",
+            "Doctor Manson, leave them something to chew with won't you?"
+          ],
+          [
+            "萬",
+            "",
+            "Yaw, yaw..."
+          ],
+          [
+            "李",
+            "",
+            "Butterfly, I'll wager that he is terribly curious about what our arrival means for his village. I want you to tell him about the army.<hr>",
+            "4"
+          ],
+          [
+            "萬",
+            "會使得，會使得。<br>……<br>放輕鬆、放輕鬆……<hr>",
+            ""
+          ],
+          [
+            "丙",
+            "琅𤩝猶閣有外儂欲來？"
+          ],
+          [
+            "蝶",
+            "官軍兩千儂欲來琅𤩝。"
+          ],
+          [
+            "丙",
+            "啊巡檢就進前已經來過矣，柴城會幫助官府來鬥揣紅毛番啊。<br>咦？汝是林老實个查某囝，較早我捌收留恁兜哦。",
+            "Eh?"
+          ],
+          [
+            "蝶",
+            "柴城會收留客儂，啊閣會燒統領埔？"
+          ],
+          [
+            "丙",
+            "恁兜無算是客儂。恁生番老母，較早縛這條頭巾，佮恁老爸蹛佇遐。"
+          ],
+          [
+            "",
+            "<div class='sidenote'>那個年代的臺灣人應該還不會講「爸爸」吧 XD</div>彼陣汝猶未出世。<br>客儂將恁老爸老母趕離開保力，恁老爸來柴城揣我，叫我收留伊，恁老爸閣替我刣了袂少个偷牛賊，我才將這外圍，彼塊地，予恁<span class='noted lang4'>爸爸</span>蹛。",
+            "a-bue"
+          ],
+          [
+            "",
+            "其實恁老爸跤手袂䆀，百步穿楊，伊刣了袂少个偷牛賊。<br>有一工偷牛賊欲來報復，來圍恁兜，阮佇柴城遮看著火光，阮趕到位个時陣恁兜已經火燒去矣，恁老爸也著傷矣，猶毋過，恁老爸刣死袂少个偷牛賊，所以，這馬遐，無儂敢蹛。"
+          ],
+          [
+            "李",
+            "",
+            "Betterfly don't say too much. Let's head for Sheliao."
+          ],
+          [
+            "丙",
+            "喂，<span class='lang1'>蝶妹</span>，拜託汝共紅毛大人傳達一下，柴城佮船員个代誌無關係。",
+            "Eh, <span class='lang1'>Tiab Moi</span>, pài-thok lí kā",
+            "2"
+          ],
+          [
+            "必",
+            "好！來！逐家，走！"
+          ],
+          [
+            "苦力",
+            "好！"
+          ],
+          [
+            "",
+            "",
+            "...",
+            "4"
+          ],
+          [
+            "蝶",
+            "",
+            "Those heads not from <span class='lang2'>Siā-liâu</span>, small small village, weakest in <span class='lang2'>Lân-kiau</span>.",
+            "4"
+          ],
+          [
+            "李",
+            "",
+            "Let's move on."
+          ],
+          [
+            "蝶",
+            "行！"
+          ]
+        ]
+      },
+
+      {
+        "t": "16:04",
+        "rows": [
+          [
+            "必",
+            "頭儂个厝？"
+          ],
+          [
+            "甥",
+            "是，是頭儂个厝！"
+          ],
+          [
+            "必",
+            "船員咧？"
+          ],
+          [
+            "甥",
+            "遮，遮，遮無船員。"
+          ],
+          [
+            "必",
+            "著，無活个。<hr>"
+          ],
+          [
+            "庄儂",
+            "來矣啦，緊走！"
+          ],
+          [
+            "必",
+            "",
+            "Sailors?<br>USS Rover!<br>HELLO!!!"
+          ],
+          [
+            "水",
+            "這个紅毛番毋是我刣个啦，是生番啦！<br>汝莫袂記得呢，以早是我收留汝一家伙仔。緊咧啦，汝替我去共彼个紅毛番大人解釋一下啦，緊咧啦！"
+          ],
+          [
+            "蝶",
+            "",
+            "...",
+            "4"
+          ]
         ]
       },
 
