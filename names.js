@@ -33,6 +33,7 @@ names ={
   "姆": ["Mé","Meˋ"],
   "Tok": ["Tok","Tok"],
   "Isa": ["Isa"],
+  "族勇": ["族勇"],
   "必": ["Pickering", "Pickering"],
   "李": ["LeGendre", "LeGendre"],
   "軍官5": ["Jūnguān"],
