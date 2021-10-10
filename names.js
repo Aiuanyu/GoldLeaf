@@ -34,6 +34,7 @@ names ={
   "Tok": ["Tok","Tok"],
   "Isa": ["Isa"],
   "族勇": ["族勇"],
+  "通譯2": ["Thong-i̍k"],
   "必": ["Pickering", "Pickering"],
   "李": ["LeGendre", "LeGendre"],
   "軍官5": ["Jūnguān"],

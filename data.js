@@ -1818,35 +1818,50 @@ data = [
         "rows": [
           [
             "水",
-            "大人啊，啉茶啦。"
+            "大人啊，啉茶啦。",
+            "Tāi-jîn--a, lim-tê--lah.",
+            "2"
           ],
           [
             "丙",
-            "通譯大人，船員被刣个代誌，是生番所做个，佮阮琅𤩝个百姓無關係。"
+            "通譯大人，船員被刣个代誌，是生番所做个，佮阮琅𤩝个百姓無關係。",
+            "Thong-i̍k Tāi-jîn, tsûn-guân pī thâi ê tāi-tsì, sī tshenn-huan sóo tsò ê, kah gún Lân-kiau ê peh-sènn bô kuan-hē.",
+            "2"
           ],
           [
             "通譯",
-            "船員被刣，遮个唐山儂無共救，閣無通報，難脫責任！"
+            "船員被刣，遮个唐山儂無共救，閣無通報，難脫責任！",
+            "Tsûn-guân pī thâi, tsia ê Tn̂g-suann-lâng bô kā kiù, koh bô thong-pò, lân thuah tsik-jīm!",
+            "2"
           ],
           [
             "水",
-            "大人啊……遮是禁地荒埔呢！不准出，也不准入，無法度通報官府啦。"
+            "大人啊……遮是禁地荒埔呢！不准出，也不准入，無法度通報官府啦。",
+            "Tāi-jîn--a... tsia sī kìm-tē-hong-poo--ne! Put-tsún tshut, iā put-tsún ji̍p, bô-huat-tōo thong-pò kuann-hú--lah.",
+            "2"
           ],
           [
             "通譯",
-            "拋荒个禁地，啊閣敢安家落戶啊？"
+            "拋荒个禁地，啊閣敢安家落戶啊？",
+            "Pha-hng ê kìm-tē, a koh kám an-ke-<span class='TBD'>lo̍h</span>-hōo--a?",
+            "2"
           ],
           [
             "",
-            "官府已經通情矣。"
+            "官府已經通情矣。",
+            "Kuann-hú í-king thong-tsîng--ah.",
+            "2"
           ],
           [
             "九",
-            "唉。"
+            "唉。",
+            "Ài."
           ],
           [
             "通譯",
-            "你是有啥物話欲講？"
+            "你是有啥物話欲講？",
+            "Lí sī ū siánn-mih uē beh kóng?",
+            "2"
           ],
           [
             "九",
@@ -1856,7 +1871,9 @@ data = [
           ],
           [
             "通譯",
-            "若是無接受官府提出个辦法，恁三庄个人丁我攏共恁當做流民！掠去蛤仔難開墾！"
+            "若是無接受官府提出个辦法，恁三庄个人丁我攏共恁當做流民！掠去蛤仔難開墾！",
+            "Nā-sī bô tsiap-siū kuann-hú thê-tshut ê pān-huat, lín sann tsng ê lîn-ting guá lóng kā lín tòng-tsuè liû-bîn! Lia̍h-khì Kap-á-lān khui-khún!",
+            "2"
           ]
 
         ]
@@ -1867,15 +1884,21 @@ data = [
         "rows": [
           [
             "丙",
-            "阿水啊，佮生番一向佇彼來往，攏是汝佇彼聯絡佮傳達呢。這馬是按怎？無法度啊毋？"
+            "阿水啊，佮生番一向佇彼來往，攏是汝佇彼聯絡佮傳達呢。這馬是按怎？無法度抑毋？",
+            "A-Tsuí--a, kap tshenn-huan it-hiòng tī-he lâi-óng, lóng sī lí tī-he liân-lo̍k kah thuân-ta̍t--ne. Tsit-má sī án-nuá? Bô-huat-tōo ah-m̄?",
+            "2"
           ],
           [
             "",
-            "汝毋通袂記个呢，船員是恁社寮个儂放走呢，這馬欲挃兩粒生番个儂頭哦！<br>汝愛負責。"
+            "汝毋通袂記个呢，船員是恁社寮个儂放走呢，這馬欲挃兩粒生番个儂頭哦！<br>汝愛負責。",
+            "Lí m̄-thang buē-kì ê--ne, tsûn-guân sī lín Siā-liâu ê lâng pàng-tsáu--ne, tsit-má beh ti̍h nn̄g lia̍p tshenn-huan ê lâng-thâu ő!<br>Lí ài hū-tsik.",
+            "2"
           ],
           [
             "水",
-            "頭拄仔通譯大人是講，「唐山儂無救護、未通報」。啊我，是半番半漢个土生仔呢！"
+            "頭拄仔通譯大人是講，「唐山儂無救護、未通報」。啊我，是半番半漢个土生仔呢！",
+            "Thâu-tú-á Thong-i̍k Tāi-jîn sī kóng, &quot;Tn̂g-suann-lâng bô kiù-hōo, bī thong-pò&quot;. A guá, sī puànn-huan-puànn-hàn ê thóo-senn-á--ne!",
+            "2"
           ],
 
           [
@@ -1895,16 +1918,21 @@ data = [
           ],
           [
             "丙",
-            "汝是咧講啥啦！<br>官府个人員是死在琅𤩝呢──這馬來个就毋是巡檢哦。煞落去是府城个官兵哦。啊？按呢琅𤩝所有个儂攏會受著連累汝知毋？"
+            "汝是咧講啥啦！<br>官府个人員是死在琅𤩝呢──這馬來个就毋是巡檢哦。煞落去是府城个官兵哦。啊？按呢琅𤩝所有个儂攏會受著連累汝知毋？",
+            "Lí sī leh kóng sánn--lah!<br>Kuann-hú ê jîn-guân sī sí tsāi Lân-kiau--ne --- tsit-má lâi ê tiō m̄-sī Sûn-kiám ő. Suah-lo̍h-khì sī Hú-siânn ê kuann-ping ő. A? Án-ne Lân-kiau sóo-ū ê lâng lóng ē siū-tio̍h liân-luī lí tsai m̄?",
+            "2"
           ],
           [
             "水",
             "一丙阿兄，為啥物府城个官軍水師無來，派一个通譯个來呢？",
-            "tsuí-su"
+            "It-píng A-hiann, uī-siánn-mih Hú-siânn ê kuānn-kun tsuí-su bô lâi, phài tsi̍t-ê thong-i̍k ê lâi--ne?",
+            "2"
           ],
           [
             "",
-            "其實<span class='lang1'>阿九哥</span>講甲無毋著啊。官府欲挃生番个儂頭，交差啦。若欲交差，就無這爾困難啊！<br>這馬是落田收成个時節，偷牛賊會來偷牽牛啦。"
+            "其實<span class='lang1'>阿九哥</span>講甲無毋著啊。官府欲挃生番个儂頭，交差啦。若欲交差，就無遮爾困難啊！<br>這馬是落田收成个時節，偷牛賊會來偷牽牛啦。",
+            "Kî-si̍t <span class='lang1'>Á-Gìu Gó</span> kóng kah bô-m̄-tio̍h--a. Kuann-hú beh ti̍h tshenn-huan ê lâng-thâu, kau-tshai--lah. Nā beh kau-tshai, tiō bô tsia-ní khùn-lân--a!<br>Tsit-má sī lo̍h-tshân siu-sîng ê sî-tsiat, thâu-gû-tsha̍t ē lâi thâu khan gû--lah.",
+            "2"
           ],
           [
             "",
