@@ -108,7 +108,7 @@ function create() {
           data[i].sections[j].rows[k][2] = "";
         }
 
-        if (data[i].sections[j].rows[k][3] == 3) { // 排灣
+        if (data[i].sections[j].rows[k][3] == 3 || data[i].sections[j].rows[k][3] == 4) { // 排灣、英文
           var name = data[i].sections[j].rows[k][0];
           var lang = data[i].sections[j].rows[k][3];
           var namelang = (lang === undefined) ? name : name+lang;

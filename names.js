@@ -39,6 +39,7 @@ names ={
   "李": ["LeGendre", "LeGendre"],
   "軍官5": ["Jūnguān"],
   "劉5": ["Liú"],
+  "劉4": ["Liú"],
   "道台5": ["Dàotái"],
   "風祭司3": ["Puljingaw"],
   "巴耶林3": ["Paljaljim"],
