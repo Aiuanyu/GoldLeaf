@@ -474,7 +474,7 @@ section:not(.noHak):before {
 section tr:nth-child(2n) {color: white !important;}
 /* Ho̍h-ló */
 section tr.lang2, section td.lang2, section tr:nth-child(2n+1) .lang2, .sample.lang2 {color: /*honeydew*//*hsl(217, 82%, 89%)*/hsl(303, 100%, 96%);}
-section tr:nth-child(2n).lang2, section tr:nth-child(2n) .lang2, .sample.lang2 {font-family: "源石黑體", sans-serif; font-weight: 500;}
+section tr:nth-child(2n).lang2, section tr:nth-child(2n) .lang2, .sample.lang2 {font-family: "源石黑體", /*"霞鶩文楷 TC",*/ sans-serif; font-weight: 500;}
 section tr:nth-child(2n+1).lang2, section tr:nth-child(2n+1) .lang2 {font-family: 源石黑體, sans-serif; font-weight: 500;}
 section tr:nth-child(2n+1).lang2 {font-size: 1.2em;}
 section tr:nth-child(2n+1).lang2 td {line-height: 1.6em;}
