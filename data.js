@@ -2361,11 +2361,15 @@ data = [
         "rows": [
           [
             "庄儂",
-            "雞寮啦！<br>哈哈哈……"
+            "雞寮啦！<br>哈哈哈……",
+            "Ke-liâu--lah!<br>Ha-ha-ha...",
+            "2"
           ],
           [
             "必",
-            "汝哪會<span class='noted'>𣍐</span>較早講啦。<br>下一間！"
+            "汝哪會<span class='noted'>𣍐</span>較早講啦。<br>下一間！",
+            "Lí ná-ē bē khah tsá kóng--lah.<br>Hā tsi̍t king!",
+            "2"
           ]
         ]
       },
@@ -2375,55 +2379,68 @@ data = [
           [
             "李",
             "",
-            "He knows nothing about the sailors?"
+            "He knows nothing about the sailors?",
+            "4"
           ],
           [
             "蝶",
             "",
-            "Yes, sir."
+            "Yes, sir.",
+            "4"
           ],
           [
             "李",
             "",
-            "Remind him."
+            "Remind him.",
+            "4"
           ],
           [
             "蝶",
-            "官府个通譯，對遮傳兩粒假生番个儂頭轉來府城。"
+            "官府个通譯，對遮攢兩粒假生番个儂頭轉來府城。",
+            "Kuann-hú ê thong-i̍k, uì tsia tshuán nn̄g lia̍p ké tshenn-huan ê lâng-thâu tńg-lâi Hú-siânn.",
+            "2"
           ],
           [
             "丙",
-            "彼是社寮予通譯个。船員个代誌，社寮應該知影。"
+            "彼是社寮予通譯个。船員个代誌，社寮應該知影。",
+            "He sī Siā-liâu hōo thong-i̍k ê. Tsûn-guân ê tāi-tsì, Siā-liâu ìng-kai tsai-iánn.",
+            "2"
           ],
           [
             "蝶",
             "",
-            "Sir, he says <span class='lang2'>Siā-liâu</span> might know."
+            "Sir, he says <span class='lang2'>Siā-liâu</span> might know.",
+            "4"
           ],
           [
             "李",
             "",
-            "So now you remember?<br>Funny how memory works isn't it?"
+            "So now you remember?<br>Funny how memory works isn't it?",
+            "4"
           ],
           [
             "必",
             "",
-            "Not a trace of the sailors here."
+            "Not a trace of the sailors here.",
+            "4"
           ],
           [
             "李",
             "",
-            "He is just like those Qing officials. The problem is always for someone else's to solve.<hr>"
+            "He is just like those Qing officials. The problem is always for someone else's to solve.<hr>",
+            "4"
           ],
           [
+            "李",
             "",
-            "",
-            "Doctor Manson, leave them something to chew with won't you?"
+            "Doctor Manson, leave them something to chew with won't you?",
+            "4"
           ],
           [
             "萬",
             "",
-            "Yaw, yaw..."
+            "Yaw, yaw...",
+            "4"
           ],
           [
             "李",
@@ -2434,56 +2451,74 @@ data = [
           [
             "萬",
             "會使得，會使得。<br>……<br>放輕鬆、放輕鬆……<hr>",
-            ""
+            "Ē-sái-tit, ē-sái-tit.<br>...<br>Pàng khin-sang, pàng khin-sang...",
+            "2"
           ],
           [
             "丙",
-            "琅𤩝猶閣有外儂欲來？"
+            "琅𤩝猶閣有外儂欲來？",
+            "Lân-kiau iá-koh ū guā-lâng beh lâi?",
+            "2"
           ],
           [
             "蝶",
-            "官軍兩千儂欲來琅𤩝。"
+            "官軍兩千儂欲來琅𤩝。",
+            "Kuann-kun nn̄g tshing lâng beh lâi Lân-kiau.",
+            "2"
           ],
           [
             "丙",
             "啊巡檢就進前已經來過矣，柴城會幫助官府來鬥揣紅毛番啊。<br>咦？汝是林老實个查某囝，較早我捌收留恁兜哦。",
-            "Eh?"
+            "A Sûn-kiám tiō tsìn-tsîng í-king lâi kuè--ah, Tshâ-siânn ē pang-tsōo kuann-hú lâi tàu tshuē âng-môo-huan--a.<br>Eh? Lí sī Lîm Láu-si̍t ê tsa-bóo-kiánn, khah tsá guá bat siu-liû lín tau őo.",
+            "2"
           ],
           [
             "蝶",
-            "柴城會收留客儂，啊閣會燒統領埔？"
+            "柴城會收留客儂，猶閣會燒統領埔？",
+            "Tshâ-siânn ē siu-liû Kheh-lâng, á-koh ē sio Thóng-niá-poo?",
+            "2"
           ],
           [
             "丙",
-            "恁兜無算是客儂。恁生番老母，較早縛這條頭巾，佮恁老爸蹛佇遐。"
+            "恁兜無算是客儂。恁生番老母，較早縛這條頭巾，佮恁老爸蹛佇遐。",
+            "Lín tau bô sǹg sī Kheh-lâng. Lín tshenn-huan lāu-bú, khah tsá pa̍k tsit tiâu thâu-kun, kah lín lāu-pē tuà tī hia.",
+            "2"
           ],
           [
             "",
             "<div class='sidenote'>那個年代的臺灣人應該還不會講「爸爸」吧 XD</div>彼陣汝猶未出世。<br>客儂將恁老爸老母趕離開保力，恁老爸來柴城揣我，叫我收留伊，恁老爸閣替我刣了𣍐少个偷牛賊，我才將這外圍，彼塊地，予恁<span class='noted lang4'>爸爸</span>蹛。",
-            "a-bue"
+            "Hit-tsūn lí á-buē tshut-sì.<br>Kheh-lâng tsiong lín lāu-pē lāu-bú kuánn lī-khui Pó-li̍k, lín lāu-pē lâi Tshâ-siânn tshuē guá, kiò guá siu-liû i, lín lāu-pē koh thè guá thâi liáu buē tsió ê thâu-gû-tsha̍t, guá tsiah tsiong tse guā-uî, hit tè tē, hōo lín pá--pa tuà.",
+            "2"
           ],
           [
             "",
-            "其實恁老爸跤手𣍐䆀，百步穿楊，伊刣了𣍐少个偷牛賊。<br>有一工偷牛賊欲來報復，來圍恁兜，阮佇柴城遮看著火光，阮趕到位个時陣恁兜已經火燒去矣，恁老爸也著傷矣，猶毋過，恁老爸刣死𣍐少个偷牛賊，所以，這馬遐，無儂敢蹛。"
+            "其實恁老爸跤手𣍐䆀，百步穿楊，伊刣了𣍐少个偷牛賊。<br>有一工偷牛賊欲來報復，來圍恁兜，阮佇柴城遮看著火光，阮趕到位个時陣恁兜已經火燒去矣，恁老爸也著傷矣，猶毋過，恁老爸刣死𣍐少个偷牛賊，所以，這馬遐，無儂敢蹛。",
+            "Kî-si̍t lín lāu-pē kha-tshiú bē bái, pah-pōo-tshuan-iông, i thâi liáu bē-tsió-ê thâu-gû-tsha̍t.<br>Ū tsi̍t-kang thâu-gû-tsha̍t beh lâi pò-ho̍k, lâi uî lín tau, gún tī Tshâ-siânn tsia khuànn-tio̍h hué-kng, gún kuánn kàu uī ê sî-tsūn lín tau í-king hué sio khì--ah, lín lāu-pē iā tio̍h-siong--ah, iá-m̄-kò, lín lāu-pē thâi-sí bē-tsió-ê thâu-gû-tsha̍t, sóo-í, tsit-má hia, bô lâng kánn tuà.",
+            "2"
           ],
           [
             "李",
             "",
-            "Betterfly don't say too much. Let's head for Sheliao."
+            "Betterfly don't say too much. Let's head for Sheliao.",
+            "4"
           ],
           [
             "丙",
             "喂，<span class='lang1'>蝶妹</span>，拜託汝共紅毛大人傳達一下，柴城佮船員个代誌無關係。",
-            "Eh, <span class='lang1'>Tiab Moi</span>, pài-thok lí kā",
+            "Eh, <span class='lang1'>Tiab Moi</span>, pài-thok lí kā Âng-môo Tāi-jîn thuân-ta̍t tsi̍t-ē, Tshâ-siânn kah tsûn-guân ê tāi-tsì bô kuan-hē.",
             "2"
           ],
           [
             "必",
-            "好！來！逐家，走！"
+            "好！來！逐家，行！",
+            "Hó! Lâi! Ta̍k-ke, kiânn!",
+            "2"
           ],
           [
             "苦力",
-            "好！"
+            "好！",
+            "Hó!",
+            "2"
           ],
           [
             "",
@@ -2500,11 +2535,14 @@ data = [
           [
             "李",
             "",
-            "Let's move on."
+            "Let's move on.",
+            "4"
           ],
           [
             "蝶",
-            "行！"
+            "行！",
+            "Kiânn!",
+            "2"
           ]
         ]
       },
@@ -2514,36 +2552,51 @@ data = [
         "rows": [
           [
             "必",
-            "頭儂个厝？"
+            "頭儂个厝？",
+            "Thâu-lâng ê tshù?",
+            "2"
           ],
           [
             "甥",
-            "是，是頭儂个厝！"
+            "是，是頭儂个厝！",
+            "Sī, sī thâu-lâng ê tshù!",
+            "2"
           ],
           [
             "必",
-            "船員咧？"
+            "船員咧？",
+            "Tsûn-guân leh?",
+            "2"
           ],
           [
             "甥",
-            "遮，遮，遮無船員。"
+            "遮，遮，遮無船員。",
+            "Tsia, tsia, tsia bô tsûn-guân",
+            "2"
           ],
           [
             "必",
-            "著，無活个。<hr>"
+            "著，無活个。<hr>",
+            "Tio̍h, bô ua̍h-ê.",
+            "2"
           ],
           [
             "庄儂",
-            "來矣啦，緊走！"
+            "來矣啦，緊走！",
+            "Lâi--ah--lah, kín tsáu!",
+            "2"
           ],
           [
             "必",
             "",
-            "Sailors?<br>USS Rover?<br>HELLO???"
+            "Sailors?<br>USS Rover?<br>HELLO???",
+            "4"
           ],
           [
             "水",
-            "這个紅毛番毋是我刣个啦，是生番啦！<br>汝莫𣍐記得呢，以早是我收留汝一家伙仔。緊咧啦，汝替我去共彼个紅毛番大人解釋一下啦，緊咧啦！"
+            "這个紅毛番毋是我刣个啦，是生番啦！<br>汝莫𣍐記得呢，以早是我收留汝一家伙仔。緊咧啦，汝替我去共彼个紅毛番大人解說一下啦，緊咧啦！",
+            "Tsit-ê âng-môo-huan m̄-sī guá thâi--ê--lah, sī tshenn-huan--lah!<br>Lí mài buē-kì-tit--ne, í-tsá sī guá siu-liû lí tsi̍t-ke-hué-á. Kín--leh--lah, lí thè guá khì kā hit-ê âng-môo-huan tāi-jîn kái-sueh tsi̍t-ē--lah, kín--leh--lah!",
+            "2"
           ],
           [
             "蝶",
@@ -2554,16 +2607,20 @@ data = [
           [
             "李",
             "",
-            "",
+            "...",
             "4"
           ],
           [
             "蝶",
-            "紅毛番大人欲去船鎮路个所在。"
+            "紅毛番大人欲去船鎮路个所在。",
+            "Âng-môo-huan Tāi-jîn beh khì tsûn tìn-lōo ê sóo-tsāi.",
+            "2"
           ],
           [
             "水",
-            "𣍐使啦！生番若知影我佮紅毛番行做伙，我敢會當活？社寮敢活會落去？"
+            "𣍐使啦！生番若知影我佮紅毛番行做伙，我敢會當活？社寮敢活會落去？",
+            "Bē-sái--lah! Tshenn-huan nā tsai-iánn guá kah âng-môo-huan kiânn tsò-hué, guá kám ē-tàng ua̍h? Siā-liâu kám ua̍h ē lo̍h-khì?",
+            "2"
           ],
           [
             "李",
@@ -2592,7 +2649,7 @@ data = [
           [
             "水",
             "蝶妹啊！",
-            "",
+            "Tia̍p-Muē--a!",
             "2"
           ],
           [
@@ -2604,19 +2661,19 @@ data = [
           [
             "蝶",
             "阿水兄，紅毛番大人一定愛去看船。",
-            "",
+            "A-Tsuí Hiann, Âng-môo-huan Tāi-jîn it-tīng ài khì khuànn tsûn.",
             "2"
           ],
           [
             "水",
             "𣍐使啦……社寮納番租，遮是生番个領地。",
-            "",
+            "Buē-sái--lah... Siā-liâu la̍p huan-tsoo, tsia sī tshenn-huan ê niá-tē.",
             "2"
           ],
           [
             "",
             "官府先威脅欲處罰个，啊這馬閣欲逼我𤆬路……",
-            "",
+            "Kuann-hú sian ui-hia̍p beh tshú-hua̍t--ê, a tsit-má koh beh pik guá tshuā-lōo...",
             "2"
           ],
           [
@@ -2628,7 +2685,7 @@ data = [
           [
             "水",
             "生番若知影喔，我是穩死个，<br>社寮會死，全部攏會死！",
-            "",
+            "Tshenn-huan nā tsai-iánn--oo, guá sī ún-sí--ê,<br>Siā-liâu ē sí, tsuân-pōo lóng ē sí!",
             "2"
           ],
           [
@@ -2640,7 +2697,7 @@ data = [
           [
             "水",
             "阮想欲活，阮想欲繼續活落去啊！",
-            "Guan gun",
+            "Guán siūnn-beh ua̍h, gún siūnn-beh kè-sio̍k ua̍h lo̍h-khì--a!",
             "2"
           ],
           [
@@ -2657,13 +2714,13 @@ data = [
           [
             "甥",
             "阿舅！<br>這馬蝶妹佮紅毛番做伙呢！",
-            "",
-            ""
+            "A-kū!<br>Tsit-má Tia̍p-Muē kah âng-môo-huan tsò-hué--ne!",
+            "2"
           ],
           [
             "水",
             "紅毛番來揣船手，生番若知影社寮無通報，莫講統領埔，連社寮也免交番租矣！啊咱兩百外儂是欲去佗？",
-            "",
+            "Âng-môo-huan lâi tshuē tsûn-tshiú, tshenn-huan nā tsai-iánn Siā-liâu bô thong-pò, mài kóng Thóng-niá-poo, liân Siā-liâu iā bián kau huan-tsoo--ah! A lán nn̄g pah guā lâng sī beh khì tá?",
             "2"
           ],
           [
@@ -2675,7 +2732,7 @@ data = [
           [
             "甥",
             "毋是啦！拄才若毋是蝶妹替汝共紅毛番求情，汝早就無命呢！",
-            "",
+            "M̄-sī--lah! Tú-tsiah nā m̄-sī Tia̍p-Muē thè lí kā âng-môo-huan kiû-tsîng, lí tsá tiō bô miā--ne!",
             "2"
           ],
           [
@@ -2687,8 +2744,8 @@ data = [
           [
             "甥",
             "生番一出草喔，蝶妹是欲活，嘛活𣍐久矣！",
-            "",
-            ""
+            "Tshenn-huan it tshut-tsháu--oo, Tia̍p-Muē sī beh ua̍h, mā ua̍h bē kú--ah!",
+            "2"
           ],
         ]
       },
@@ -2837,8 +2894,8 @@ data = [
           [
             "水",
             "哈哈……統領埔得來<span class='TBD'>＿＿</span>……<br>若佇遐起好交易所，生番佇遐做交易，　閣有啥儂敢來搶統領埔……<br>咱个矣！哈哈哈……嘻嘻嘻……",
-            "<div class='sidenote'>待問</div>kín-ko-kín-ko",
-            ""
+            "<div class='sidenote'>待問</div>Ha-ha... Thóng-niá-poo ti̍t-lâi <span class='TBD'>kín-ko-kín-ko</span>...<br>Nā tī hia khí hó kau-i̍k-sóo, tshenn-huan tī hia tsò kau-i̍k, koh ū siánn-lâng kánn lâi tshiúnn Thóng-niá-poo...<br>Lán ê--ah! Ha-ha-ha... hi-hi-hi...",
+            "2"
           ],
         ]
       }
@@ -6177,8 +6234,8 @@ data = [
           [
             "兵",
             "大人！道台大人要您速速去見！",
-            "",
-            ""
+            "Dàrén! Dàotái Dàrén yào Nín sù-sù qù jiàn!",
+            "5"
           ],
           [
             "軍官",
@@ -6240,7 +6297,7 @@ data = [
           [
             "Tok",
             "老朋友，讓我摸摸你的脖子。<br>本來，要砍下你頭，留你在部落當朋友的。",
-            "...",
+            "...<br><br><br>",
             "3"
           ],
           [
@@ -6258,7 +6315,7 @@ data = [
           [
             "Tok",
             "恐怕，享用不到你的禮物了。……",
-            "...",
+            "...<br><br>",
             "3"
           ],
           [
@@ -6276,19 +6333,19 @@ data = [
           [
             "李",
             "希望，咱个約束，一直傳落去。",
-            "",
+            "Hi-bāng, lán ê iok-sok, it-ti̍t thuân lo̍h-khì.",
             "2"
           ],
           [
             "杰",
             "希望我們的約定，一直傳下去。",
-            "...",
+            "...<br><br>",
             "3"
           ],
           [
             "Tok",
             "別擔心，我的洋人朋友。勇士會守住承諾！",
-            "...",
+            "...<br><br>",
             "3"
           ],
         ]
@@ -6299,7 +6356,7 @@ data = [
           [
             "杰",
             "遭船難者，將受到斯卡羅十八社友善對待，他們會以紅旗為信號，並不得進入部落區域。……",
-            "...",
+            "...<br><br><br>",
             "3"
           ],
         ]
