@@ -2912,44 +2912,44 @@ data = [
           [
             "甥",
             "來啦！搝啦！",
-            "",
-            ""
+            "Lâi--lah! Giú--lah!",
+            "2"
           ],
           [
             "水",
             "蝶妹啊，啊到底是有偌濟外儂會來琅𤩝啊？生番啊，逼我愛一个答案呢！",
-            "Tia̍p-Muē",
-            ""
+            "Tia̍p-Muē--a, a tàu-té sī ū guā-tsē guā-lâng ē lâi Lân-kiau--a? Tshenn-huan--a, pik guá ài tsi̍t-ē tap-àn--ne!",
+            "2"
           ],
           [
             "蝶",
             "阿水兄，我真正毋知影。紅毛番愛汝去山頂傳話，愛生番共凶手交出來。",
-            "",
-            ""
+            "A-Tsuí Hiann, guá tsin-tsiànn m̄-tsai-iánn. Âng-môo-huan ài lí khì suann-tíng thuân-uē, ài tshenn-huan kā hiong-tshiú kau tshut-lâi.",
+            "2"
           ],
           [
             "船夫",
             "啊我是愛等偌久？",
-            "",
-            ""
+            "A guá sī ài tán guā-kú?",
+            "2"
           ],
           [
             "蝶",
             "我真緊就轉來矣。",
-            "",
-            ""
+            "Guá tsin kín tiō tńg-lâi--ah.",
+            "2"
           ],
           [
             "水",
             "無啦！伊無欲轉矣！",
-            "",
-            ""
+            "Bô--lah! I bô beh tńg--ah!",
+            "2"
           ],
           [
             "船夫",
             "喂，汝欲創啥？",
-            "",
-            ""
+            "Eh, lí beh tshòng sánn?",
+            "2"
           ],
         ]
       },
@@ -2960,80 +2960,80 @@ data = [
           [
             "水",
             "蝶妹啊，我嘛足想欲去府城个啊。佇琅𤩝喔，我連做一隻替生番看門个狗，嘛做𣍐久。啊厝內底喔，閣予汝𤆬來个紅毛番朋友拍甲爛糊糊矣。生番閣逼我愛有消息。",
-            "",
-            ""
+            "Tia̍p-Muē--a, guá mā tsiok siūnn-beh khì Hú-siânn ê--ah. Tī Lân-kiau--oo, guá liân tsò tsi̍t-tsiah thè tshenn-huan khuànn-mn̂g ê káu, mā tsò bē kú. A tshù lāi-té--oo, koh hōo lí tshuā-lâi ê âng-môo-huan pîng-iú phah kah nuā-kôo-kôo--ah. Tshenn-huan koh pik guá ài ū siau-sit.",
+            "2"
           ],
           [
             "",
             "我只想欲有一个狗窟會當蹛就好啦。",
-            "",
-            ""
+            "Guá tsí siūnn-beh ū tsi̍t-ê káu-khut ē-tàng tuà tiō hó--lah.",
+            "2"
           ],
           [
             "",
             "啊無消息，閣欲叫生番交凶手，社寮是欲按怎活？",
-            "",
-            ""
+            "A bô siau-sit, koh beh kiò tshenn-huan kau hiong-tshiú, Siā-liâu sī beh án-nuá ua̍h?",
+            "2"
           ],
           [
             "",
             "來啦，坐咧啉茶啦。",
-            "",
-            ""
+            "Lâi--lah, tsē leh lim tê--lah.",
+            "2"
           ],
           [
             "",
-            "遮喔，佮汝細漢時陣共款，真安全啦。<br>汝細漢時陣，毋就佮汝小弟定覕佇我遮个？彼時喔，啊恁爸母規工到晚攏咧冤家，啊恁母啊，不時嘛咧講，想欲轉去山頂。我閣有傳番薯予恁食。",
-            "",
-            ""
+            "遮喔，佮汝細漢時陣仝款，真安全啦。<br>汝細漢時陣，毋就佮汝小弟定覕佇我遮个？彼時喔，啊恁爸母規工到暗攏咧冤家，啊恁母啊，不時嘛咧講，想欲轉去山頂。我閣有攢番薯予恁食。",
+            "Tsia--oo, kah lí sè-hàn sî-tsūn kāng-khuán, tsin an-tsuân--lah.<br>Lí sè-hàn sî-tsūn, m̄ tiō kah lí sió-tī tiānn bih tī guá tsia--ê? Hit-sî--oo, a lín pē-bú kui-kang kàu àm lóng leh uan-ke, a lín bú--a, put-sî mā leh kóng, siūnn-beh tńg-khì suann-tíng. Guá koh ū tshuân han-tsî hōo lín tsia̍h.",
+            "2"
           ],
           [
             "蝶",
             "阿水兄，我是真正毋知影，猶閣有偌濟外儂會來琅𤩝啦。",
-            "",
-            ""
+            "A-Tsuí Hiann, guá sī tsin-tsiànn m̄ tsai-iánn, iá-koh ū guā-tsē guā-lâng ē lâi Lân-kiau--lah.",
+            "2"
           ],
           [
             "甥",
             "阿舅。",
-            "",
-            ""
+            "A-kū.",
+            "2"
           ],
           [
             "水",
             "遮予汝蹛，汝蹛幾工下就會想起來矣。外口有儂咧顧个，真安全。",
-            "",
-            ""
+            "Tsia hōo lí tuà, lí tuà kuí-kang ē tiō ē siūnn khí-lâi--ah. Guā-kháu ū lâng leh kòo--ê, tsin an-tsuân.",
+            "2"
           ],
           [
             "蝶",
             "我干焦知影，假使生番毋回答，猶閣有一隻紅毛船來替船員報仇。",
-            "",
-            ""
+            "Guá kan-na tsai-iánn, ká-sú tshenn-huan m̄ huê-tap, iá-koh ū tsi̍t-tsiah âng-môo tsûn lâi thè tsûn-guân pò-siû.",
+            "2"
           ],
           [
             "水",
-            "閣有一隻洋船欲來？……我咧（嗶）。<br>彼統領埔就咧欲到手矣講！啊汝府城毋好好仔蹛，𤆬紅毛番轉來，琅𤩝欲予汝變翻天啦！",
-            "kàn lín niâ-á tsi-bai",
-            ""
+            "閣有一隻洋船欲來？……我咧（嗶）。<br>彼統領埔就咧欲到手矣講！<br>啊汝府城毋好好仔蹛，𤆬紅毛番轉來，琅𤩝欲予汝變翻天啦！",
+            "Koh ū tsi̍t tsiah iûnn-tsûn beh lâi?... Guá leh kàn lín niâ-á tsi-bai.<br>He Thóng-niá-poo tiō leh-beh kàu-tshiú--ah kóng!<br>A lí Hú-siânn m̄ hó-hó-á tuà, tshuā âng-môo-huan tńg-lâi, Lân-kiau beh hōo lí pìnn huan-thian--lah!",
+            "2"
           ],
           [
             "",
             "汝佮我去山頂。咱來去揣生番。生番若是變面，汝就先走，我來應付啦。",
-            "",
-            ""
+            "Lí kah guá khì suann-tíng. Lán lâi khì tshuē tshenn-huan. Tshenn-huan nā-sī pìnn-bīn, lí tiō sian tsáu, guá lâi ìng-hù--lah.",
+            "2"
           ],
           [
             "",
             "按怎？毋敢佮我入山喔？<br>著啦！我卑鄙啦！但是我𣍐卑鄙到傷害汝啦蝶妹仔！",
-            "",
-            ""
+            "Án-nuá? M̄-kánn kah guá li̍p-suann--oo?<br>Tio̍h--lah! Guá pi-phí--lah! Tān-sī guá bueh pi-phí kàu siong-hāi lí--lah Tia̍p-Muē-á!",
+            "2"
           ],
           [
             "蝶",
             "阿水兄，我驚𪜶會共汝拖累著。我會家己想辦法入山。",
-            "",
-            ""
+            "A-Tsuí Hiann, guá kiann ē kah lí thua-luī--tio̍h. Guá ē ka-kī siūnn pān-huat li̍p-suann.",
+            "2"
           ],
         ]
       },
@@ -3089,9 +3089,9 @@ data = [
         "rows": [
           [
             "丙",
-            "蝶妹，汝𤆬紅毛大人來柴城休睏。遮真陰鴆無安全哦！",
-            "",
-            ""
+            "蝶妹，汝𤆬紅毛大人來柴城歇睏。遮真陰鴆無安全哦！",
+            "Tia̍p-Muē, lí tshuā Âng-môo Tāi-jîn lâi Tshâ-siânn hioh-khùn. Tsia tsin im-thim bô an-tsuân őo!",
+            "2"
           ],
           [
             "蝶",
@@ -3119,9 +3119,9 @@ data = [
           ],
           [
             "水",
-            "蝶妹啊，啊汝山頂个代誌處理了按怎矣？啊這馬這晏矣，來阮社寮啦！𣍐危險！阿水兄𣍐陷害著汝！",
-            "",
-            ""
+            "蝶妹啊，啊汝山頂个代誌處理了按怎矣？啊這馬遮晏矣，來阮社寮啦！𣍐危險！阿水兄𣍐陷害著汝！",
+            "Tia̍p-Muē--a, a lí suann-tíng ê tāi-tsì tshú-lí liáu án-nuá--ah? A tsit-má tsia uànn--ah, lâi gún Siā-liâu--lah! Buē guî-hiám! A-Tsuí Hiann buē hām-hāi tio̍h lí!",
+            "2"
           ],
           [
             "蝶",
@@ -3144,20 +3144,20 @@ data = [
           [
             "水",
             "啊無汝共阿水兄講咧啦！日時喔，有船佇海邊仔開砲呢！是發生啥物代誌嚇？",
-            "hánn",
-            ""
+            "A bô lí kā A-Tsuí Hiann kóng leh--lah! Ji̍t-sî--oo, ū tsûn tī hái-pinn-á khui-phàu--ne! Sī huat-sing siánn-mih tāi-tsì hánn?",
+            "2"
           ],
           [
             "蝶",
             "阿水兄，日時个代誌，阮毋知影。",
-            "",
-            ""
+            "A-Tsuí Hiann, ji̍t-sî ē tāi-tsì, gún m̄ tsai-iánn.",
+            "2"
           ],
           [
             "水",
             "來轉。",
-            "",
-            ""
+            "Lâi tńg.",
+            "2"
           ],
         ]
       }
