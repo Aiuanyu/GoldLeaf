@@ -3197,32 +3197,32 @@ data = [
           [
             "水",
             "遮風透，愛縛足絚有聽會無？",
-            "",
-            ""
+            "Tsia hong thàu, ài pa̍k tsiok ân ū thiann ē--bô?",
+            "2"
           ],
           [
             "甥",
             "阿舅，二股頭講乎會予大股頭共統領埔租予咱啦，伊閣欲共社寮收做領地，啊這馬山頂到底是誰做主啦？若<span class='TBD'>得罪</span>大股頭，欲按怎？",
-            "siàng tsuè-tsú",
-            ""
+            "A-kū, Lī-kóo-thâu kóng--honnh ē hōo Tuā-kóo-thâu kā Thóng-niá-poo tsoohōo lán--lah, i koh beh kā Siā-liâu siu tsò niá-tê, a tsit-má suann-tíng tàu-té sī siàng tsuè-tsú--lah? Nā <span class='TBD'>tit-tsuē</span> Tuā-kóo-thâu, beh án-nuá?",
+            "2"
           ],
           [
             "水",
             "兩隻牛咧相觸，邊仔看就好矣。佗一个佇欲輸个時陣，汝就<span class='TBD'>捎</span>石頭共伊擲，贏个彼隻會感謝汝。<br>二股頭欲銃，創予伊。",
-            "tí-beh sa",
-            ""
+            "Nn̄g tsiah gû leh sio-tak, pinn-á khuànn tiō hó--ah. Tah tsi̍t-ê tí-beh su ê sî-tsūn, lí tiō sa tsiok-thâu kā i tàn, iânn--ê hit tsiah ē kám-siā lí.<br>Lī-kóo-thâu beh tshìng, tshòng hōo i.",
+            "2"
           ],
           [
             "甥",
             "牛相觸觸<span class='TBD'>落</span>田，到時陣，咱就啥物攏無矣！",
-            "",
-            ""
+            "Gû sio-tak tak <span class='TBD'>lo̍h</span> tshân, kàu sî-tsūn, lán tiō siánn-mih lóng bô--ah!",
+            "2"
           ],
           [
             "庄儂",
             "頭儂！",
-            "",
-            ""
+            "Thâu-lâng!",
+            "2"
           ],
         ]
       },
@@ -3232,32 +3232,32 @@ data = [
           [
             "水",
             "一丙阿兄，今仔日喔，上好是莫有啥物代誌呢。生番會算佇我个頭殼頂。",
-            "",
-            ""
+            "It-Píng A-Hiann, kin-á-ji̍t--oo, siōng-hó sī mài ū siánn-mih tāi-tsì--ne. Tshenn-huan ē sǹg tī guá thâu-khak tíng.",
+            "2"
           ],
           [
             "",
             "伊乎，是生番公主啦。",
-            "",
-            ""
+            "I--honnh, sī tshenn-huan kong-tsú--lah.",
+            "2"
           ],
           [
             "丙",
             "伊若是入來，庄內情勢、糧倉米庫一清二楚，到時我若佮生番拍起來，阮柴城毋著愛滅庄？",
-            "",
-            ""
+            "I nā-sī li̍p-lâi, tsng-lāi tsîng-sè, niû-tshng bí-khòo it-tshing-lī-tshó, kàu-sî guá nā kah tshenn-huan phah khí-lâi, gún Tshâ-siânn m̄ tio̍h ài bia̍t-tsng?",
+            "2"
           ],
           [
             "水",
             "𪜶著是想欲知影恁柴城个狀況啊。<br>然後，才欲看欲共統領埔稅汝一半無啦。",
-            "",
-            ""
+            "In tiō-sī siūnn-beh tsai-iánn lín Tshâ-siânn ê tsōng-hóng--a.<br>Jiân-āu, tsiah beh khuànn beh kā Thóng-niá-poo suè lí tsi̍t-puànn bô--lah.",
+            "2"
           ],
           [
             "",
-            "<div class='sidenote'>「改」一字源字日語「回かい」，劇中的時代應該是不會用這個字 XD</div>頂<span class='noted'>改</span>紅毛番佇船頂開砲，𪜶乎，才想欲佮汝柴城來往啦。兩邊若真正拍起來，嘛加一个朋友會當鬥相仝。",
-            "",
-            ""
+            "頂<span class='noted'>改</span>紅毛番佇船頂開砲，𪜶乎，才想欲佮汝柴城來往啦。兩爿若真正拍起來，嘛加一个朋友會當鬥相仝。",
+            "<div class='sidenote'>「改」一字源字日語「回かい」，劇中的時代應該是不會用這個字 XD</div>Tíng-kái âng-môo-huan tī tsûn tíng khui-phàu, in--honnh, tsiah siūnn-beh kah lí Tshâ-siânn lâi-óng--lah. Nn̄g-pîng nā tsin-tsiànn phah--khí-lâi, mā ke tsi̍t-ê pîng-iú ē-tàng tàu-sann-kāng.",
+            "2"
           ],
           [
             "",
@@ -3267,15 +3267,15 @@ data = [
           ],
           [
             "",
-            "創啥？創啥？銃共我囥落來哦！<br>恁若真正動手，今仔日就𣍐煞啦！",
-            "ka̋ luāi",
-            ""
+            "創啥？創啥？銃共我囥落來哦！<br>恁若真正動手，今仔日就𣍐煞啦！",            
+            "<div class='sidenote'>真的是追求完美的戲精……至少我覺得這兩個連音太到位了：<br>kā guá = ka̋；<br>lo̍h-lâi = luāi</div>Tshòng-siánn? Tshòng-siánn? Tshìng <span class='noted'>ka̋</span> khǹg--<span class='noted'>luāi</span> őo!<br>Lín nā tsin-tsiànn tāng-tshiú, kin-á-ji̍t tiō buē suah--lah!",
+            "2"
           ],
           [
             "",
             "這毋是咧講耍笑啦。今仔日無論如何，伊就是欲入柴城。",
-            "",
-            ""
+            "Tse m̄-sī leh kóng sńg-tshiò--lah. Kin-á-ji̍t bû-lūn-lû-hô, i tiō-sī beh li̍p Tshâ-siânn.",
+            "2"
           ],
         ]
       },
@@ -3297,25 +3297,25 @@ data = [
           [
             "丙",
             "伊這馬是咧講統領埔諾？",
-            "",
-            ""
+            "I tsit-má sī leh kóng Thóng-niá-poo--hioh?",
+            "2"
           ],
           [
             "水",
             "無啦！伊是講，統領埔會叫山頂个大股頭考慮啦。",
-            "",
-            ""
+            "Bô--lah! I sī kóng, Thóng-niá-poo ē kiò suann-tíng ê Tuā-kóo-thâu khó-lū--lah.",
+            "2"
           ],
           [
             "丙",
-            "閣再考慮？按呢我柴城个米就食𣍐夠年底矣，我就愛閣派儂到鳳山糴米呢，抑若按呢──",
-            "",
-            ""
+            "閣再考慮？按呢我柴城个米就食𣍐到年底矣，我就愛閣派儂到鳳山糴米呢，抑若按呢──",
+            "Koh tsài khó-lū? Án-ne guá Tshâ-siânn ê bí tiō tsia̍h buē kàu nî-té--ah, guá tiō ài koh phài lâng kàu Hōng-suann tia̍h-bí--ne, ah nā án-ne ---",
+            "2"
           ],
           [
             "水",
             "食緊挵破碗，汝嘛小按下咧！<br>有消息我會共汝通知啦！<hr>",
-            "",
+            "Tsia̍h-kín lòng-phuà uánn, lí mā sió àn-hā--leh!<br>Ū siau-sit guá ē kā lí thong-ti--lah!",
             ""
           ],
         ]
@@ -3326,14 +3326,14 @@ data = [
           [
             "丙",
             "水仔个話敢會當相信？",
-            "",
-            ""
+            "Tsuí-á ê uē kám ē-tàng siong-sìn?",
+            "2"
           ],
           [
             "助手",
             "我甘願相信紅毛番啦。",
-            "",
-            ""
+            "Guá kam-guān siong-sìn âng-môo-huan--lah.",
+            "2"
           ],
         ]
       }
