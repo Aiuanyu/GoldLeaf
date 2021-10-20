@@ -89,6 +89,7 @@ HL = [
 "ngiamˋ shon er. ",
 "liaˊ vui+ m heˇ long kiau, fuˊ shang gaiˇ shon er, du+ rhiuˋ zhuˊ ngin eˇ. ",
 "gongˊ sangˋ fanˋ er, ngai zoˇ m ded shin ngin+; tong sanˋ ngin, rhiu+ kiau doˊmo ciongˇ. ",
+"aiˋ",
 "long kiau, mo gonˋ fuˊ! ",
 "nai+ ciongˇ ngi deuˋ hag ngin, han hiˇ ngiamˋ shon. ",
 "gonˋ fuˊ gongˊ a+, long kiau, 「gimˇ ti+ fongˋ buˋ 」! bunˋ en liaˊ deuˋ, <br>「cii+ sangˋ cii+ medˋ 」! <br>siˊ shon rhan, ciu+ hemˋ en liaˊ deuˋ, naˋ sangˋ fanˋ gaiˇ ngin teu gauˋ caˋ 、giauˊfadˋ gaiˇ cien? <br>tienˋ gongˋ ngid, tungˋ rhidˋ, loi shiuˋ ngin teu, ngai chud mienˇ! <br>siugˋ haˋ loi, ngi shongˋ sanˋ! lauˋ tungˋ rhidˋgaiˇ ngin teu bunˋ sangˋ fanˋ er! <br>gongˊ, ngai tiˇ gi liaˊ deuˋ a+, gaiˊ gied ted! ngai oiˇ piogˋ zhonˊ tungˊ liangˋ buˋ! ",
