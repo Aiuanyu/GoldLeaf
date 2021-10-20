@@ -248,7 +248,7 @@ data = [
           [
             "黃",
             "府城無代誌，放流民入城，享福？<br>流民入城入戶口，一年一擺，是愛來做苦力修<span class='noted'>城城</span>。",
-            "<div class='sidenote'>sîng 是「城」的文讀音，siânn 是白讀音。如果是要講「城牆」，「牆」只有一種音：tshiûnn。但演員並非講 sîng-tshiûnn 亦非講 siânn-tshiûnn，而是非常令人意外地將「城」的「文讀+白讀」連成一詞，暫時查不到還有這樣的說法。所以我記「城城」不是為了裝可愛 XD</div>Hú-siânn bô tāi-tsì, hòng liû-bîn ji̍p-sîng, hiáng-hok?<br>Liû-bîn li̍p-sîng li̍p hōo-kháu, sī ài lâi tsuè khóo-la̍t siu <span class='noted'>sîng-siânn</span>.",
+            "<div class='sidenote'>sîng 是「城」的文讀音，siânn 是白讀音。如果是要講「城牆」，「牆」只有一種音：tshiûnn。但演員並非講 sîng-tshiûnn 亦非講 siânn-tshiûnn，而是非常令人意外地將「城」的「文讀+白讀」連成一詞，暫時查不到還有這樣的說法。所以我記「城城」不是為了裝可愛 XD</div>Hú-siânn bô tāi-tsì, hòng liû-bîn ji̍p-sîng, hiáng-hok?<br>Liû-bîn li̍p-sîng li̍p hōo-kháu, <span class='updated'>tsi̍t nî tsi̍t pái</span>, sī ài lâi tsuè khóo-la̍t siu <span class='noted'>sîng-siânn</span>.",
             "2"
           ]
         ]
@@ -737,7 +737,7 @@ data = [
           [
             "水",
             "著啦！會來遮討生活，攏是佮閻羅王借命、佮天借膽。",
-            "Tio̍h la! Ē lâi tsia thó sing-hua̍t, lóng sī kap Giâm-lô-ông tsioh miâ, kap thinn tsioh tánn.",
+            "Tio̍h--lah! Ē lâi tsia thó sing-hua̍t, lóng sī kap Giâm-lô-ông tsioh miâ, kap thinn tsioh tánn.",
             "2"
           ],
 
