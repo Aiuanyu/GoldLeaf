@@ -733,8 +733,9 @@ data = [
           [
             "",
             "樹和藤蔓，相互需要。",
-            "Namadjaljeng a kasiw kata vaudj, namarakitangez.",
-            "3"
+            "<span class='noted'>Namadjaljeng</span> a kasiw kata vaudj, namarakitangez.<div class='sidenote'><a href='https://www.facebook.com/PayuanClassic/photos/pcb.425845275631971/425844898965342'>排灣經典「族群智慧」系列</a>中將第一個字改為 namamatjakilailaing。</div><br><br><br><br>",
+            "3",
+            "典"
           ],
           [
             "伊",
@@ -788,7 +789,8 @@ data = [
             "卓",
             "伊沙，土地從來不拒絕任何種子。",
             "Isa, aicu a kadjunangan, nu tja talem amen veneve sakamaya.",
-            "3"
+            "3",
+            "典"
           ],
           [
             "",
@@ -1675,7 +1677,8 @@ data = [
             "卓",
             "唉。海上的風，吹沈了大船，也吹得部落和漢人都不平靜。",
             "Ay. Taicu a vali a kemasi ta ljavek, veliqadanga varukur, maru ta tja qinaljan kata payrang uta.",
-            "3"
+            "3",
+            "典"
           ],
         ]
       },
@@ -2413,7 +2416,8 @@ data = [
             "風",
             "山芙蓉，開花時是白色，然後不斷變顏色，最後變紅色，枯萎落地。<br>也許它不變顏色，就不會枯萎。",
             "Aicu a viljuaq, nu venuciar timadju vuteqiteqilj, a vaikvaik a pavalit ta quljaw mequdjiljanga timadju sa alain.<br>Avan a nu inika pavalitvalit ta quljaw___ a alain.",
-            "3"
+            "3",
+            "典"
           ],
         ]
       },
@@ -3500,6 +3504,30 @@ data = [
         ]
       },
       {
+        "t": "20:30",
+        "rows": [
+          [
+            "蝶",
+            "一家人不能像山胡椒一樣裂開，合不攏。",
+            "A tja tecemekeljan nakuya mamaw ta ljivanger, neka marasurasudj.",
+            "3",
+            "典"
+          ],
+        ]
+      },
+      {
+        "t": "22:50",
+        "rows": [
+          [
+            "卓",
+            "百年恩怨，誰才是兇手？",
+            "Kemasi cuay ta sinirivuan, tima kisankuya?",
+            "3",
+            "典"
+          ],
+        ]
+      },
+      {
         "t": "42:04",
         "rows": [
           [
@@ -3604,6 +3632,42 @@ data = [
 
           ],
 
+        ]
+      },
+      {
+        "t": "16:42",
+        "rows": [
+          [
+            "烏",
+            "怕迷路就結草做紀錄，把結朝你去或來的方向，這是斯卡羅勇士第一課。",
+            "Nu marekutj tu maulaw qadjayan cemel tu sipukeljang. Aicu vinengetjan pacevungan ta su vinakan kata sinipantjezan. Aicu a sisangasangasan a kicaquan ta uqaljayqaljay na Seqalu.",
+            "3",
+            "典"
+          ],
+        ]
+      },
+      {
+        "t": "17:25",
+        "rows": [
+          [
+            "烏",
+            "（真想打跑人，）注意看他的動作然後比他快。<br>漢人。<br>這是斯卡羅勇士第二課。",
+            "Pacuncuni a lingalingav, pakasangasi.<br>Pairang.<br>Aicu a sika masan musalj a kicaquan ta uqaljaqaljay na Seqalu.",
+            "3",
+            "典"
+          ],
+        ]
+      },
+      {
+        "t": "35:48",
+        "rows": [
+          [
+            "烏",
+            "沒了榕樹，巨石會掉下山崖。",
+            "Nu neka cu djaraljap, maruqu <span class='noted'>kata</span> tjagulj i dangadangas.<div class='sidenote'>演員這個字用 a 而不是 kata</div>",
+            "3",
+            "典"
+          ],
         ]
       },
       {

@@ -230,7 +230,7 @@ section table {
 
 
 #main-title:after {
-  content: 'Aiuanyu 編／v1.65 20211024';
+  content: 'Aiuanyu 編／v1.67 20211025';
   font-size: 0.5em;
   font-family: 蘋果儷中黑;
   position: absolute;
@@ -388,6 +388,7 @@ section table {
   color: hsla(49, 79%, 75%, 1.0);
   /*border-radius: 0.5em;*/
   font-family: PT Sans, 黑體-繁;
+  font-weight: 700;
 }
 
 section table {width: 70vw;}
@@ -623,4 +624,26 @@ td hr {
 
 .larger {
   font-size: larger;
+}
+
+td.classic, span.classic {
+  /*border-left: 0.2em solid hsla(49, 79%, 51%, 0.5);*/
+
+  /* 感謝　神，試了好久總算弄出可用的漸層左邊界：list with 1px solid left gradient border <https://gist.github.com/titox/1663686> */
+  background-image: linear-gradient(45deg, hsla(49, 79%, 51%, 0), hsla(49, 79%, 51%, 0.5), hsla(49, 79%, 51%, 0));
+  background-repeat: repeat-y;
+  background-size: 0.2em;
+  background-position: left 0.3em top;
+
+  /*text-shadow: 0.1em 0.1em 0.1em hsla(49, 79%, 51%, 0.8);*/
+  text-decoration: underline;
+  text-decoration-color: hsla(49, 79%, 51%, 0.8);
+  text-decoration-style: double;
+}
+td.classic:before {
+  content: '🏅';
+  font-size: 3em;
+  position: absolute;
+  right: 33%;
+  opacity: 0.3;
 }

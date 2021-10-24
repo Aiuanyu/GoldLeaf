@@ -139,6 +139,11 @@ function create() {
           tr2.classList += "lang"+data[i].sections[j].rows[k][3];
         }
 
+        if (data[i].sections[j].rows[k][4] == '典') {
+          var tds = tr1.getElementsByTagName('td');
+          tds[1].classList += 'classic';
+        }
+
         table.appendChild(tr1);
         table.appendChild(tr2);
       }
