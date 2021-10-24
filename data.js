@@ -3,7 +3,88 @@ data = [
     "EP": "1",
     "title": "vali kemasiljavek 海上的風",
     "sections": [
+      {
+        "t": "0:55",
+        "rows": [
+          [
+            "蝶",
+            "母親！",
+            "Ina!",
+            "3"
+          ],
+        ]
+      },
+      {
+        "t": "1:56",
+        "rows": [
+          [
+            "風",
+            "五年祭將至，",
+            "Nu djemaljunanga a i papalisi itjen ta maljeveq,",
+            "3"
+          ],
+          [
+            "",
+            "我向各獵區祈求讓你們追擊到獵物，<br>我向祖靈祈求你們陷阱得獵物。",
+            "taimaza-amen a kiqauqaung tjai ramaljemaljeng tu pupiculi amen, tu pusepi amen, tu pulu’emi amen.",
+            "3"
+          ],
+          [
+            "",
+            "我們不可為獵物爭吵。",
+            "Ini’a maqati a marivu ta tja cinunan.",
+            "3"
+          ],
+          [
+            "",
+            "要互相贈予獵物。",
+            "Tjasipasangasangav a bulay.",
+            "3"
+          ],
+          [
+            "卓",
+            "（古謠）",
+            "♫...♪ ♩",
+            "3"
+          ],
+        ]
+      },
+      {
 
+        "t": "3:43",
+        "rows": [
+          [
+            "巴",
+            "我為祖先飲下敵人血。",
+            "Uri sipalisi a djamuq ta 'alja na sivalitan.<hr>",
+            "3"
+          ],
+          [
+            "",
+            "為祖先報仇！嗚～～～",
+            "U sipavalet tjanumun! U~~~<hr>",
+            "3"
+          ],
+          [
+            "風",
+            "那太陽　得以迷醉，",
+            "Aza qadaw, namapaselem,",
+            "3"
+          ],
+          [
+            "",
+            "太陽閉眼，",
+            "qaw qadaw, nakikezem.",
+            "3"
+          ],
+          [
+            "",
+            "祖靈為何不至？",
+            "Aku ini’a tjetekuanan a sevalitan?",
+            "3"
+          ],
+        ]
+      },
       {
         "t": "5:52",
         "rows": [
@@ -473,6 +554,77 @@ data = [
 
         ]
       },
+      {
+        "t": "17:50",
+        "rows": [
+          [
+            "朱",
+            "伊沙二股頭，大股頭卓杞篤來了。",
+            "Kama Isa, sa mangtjezanga Tuqituq.",
+            "3"
+          ],
+          [
+            "伊",
+            "阿勞楚他們的人來我們獵場盜獵。",
+            "Mangetjez a sema a tja qaqaljupan, uri 'avan itjen na Alawcu.",
+            "3"
+          ],
+          [
+            "阿",
+            "卓杞篤！我賠一隻牛，放人！",
+            "Tuqituq!...<br><br>",
+            "3"
+          ],
+          [
+            "卓",
+            "乾旱無雨，他只是想填飽肚子。",
+            "Sauraman tucu (aicu a?) qudjalj, i'a sikavetu nimadju.",
+            "3"
+          ],
+          [
+            "伊",
+            "我們也沒東西吃。",
+            "Maculja amen uta.",
+            "3"
+          ],
+          [
+            "朱",
+            "放走他，我接大股頭以後，怎麼領導部落？",
+            "Nu (tjaulan?) timadju, uri kemuda a'en a kemacu a tja qinaljan, nu kemeljang tjanua'en?",
+            "3"
+          ],
+          [
+            "卓",
+            "你當大股頭後，想跟阿勞楚打仗？",
+            "Sa, ma'eci sun ta Alawcu, namasan Kamakama sun?<hr>",
+            "3"
+          ],
+          [
+            "族勇",
+            "社寮燒煙，漢人又械鬥了！",
+            "...",
+            "3"
+          ],
+          [
+            "卓",
+            "伊沙二股頭，麻煩你了。",
+            "Isa, paulan aicu a su pacugan.",
+            "3"
+          ],
+          [
+            "伊",
+            "斯卡羅尊嚴，也麻煩你了！走！",
+            "Pazekatjanga a (pa'alayan?) a Seqalu uta. Ari!",
+            "3"
+          ],
+          [
+            "阿",
+            "卓杞篤！卓杞篤！",
+            "Tuqituq! Tuqituq!",
+            "3"
+          ],
+        ]
+      },
 
       {
         "t": "19:55",
@@ -493,8 +645,20 @@ data = [
       },
 
       {
-        "t": "21:00",
+        "t": "20:40",
         "rows": [
+          [
+            "伊",
+            "田裡，雜草太多！",
+            "Pucemel aravac imaza.",
+            "3"
+          ],
+          [
+            "",
+            "走。",
+            "Ari.",
+            "3"
+          ],
 
           [
 
@@ -502,6 +666,12 @@ data = [
             "圳<span class='updated'>陂</span>還塞<span class='updated'>等</span>哩！",
             "<div class='sidenote'>一個動作狀態的延續至今（DanielaAerts）</div>Zun<span class='updated'>bí</span> hǎn cèd <span class='updated noted'>dèn</span> lè!",
 
+          ],
+          [
+            "",
+            "我們要殺過社寮中線搶水！",
+            "Uri cemalivat amen ta didet i Sialiaw tu kemacu ta zaljum!",
+            "3"
           ],
 
         ]
@@ -543,6 +713,95 @@ data = [
 
           ],
 
+        ]
+      },
+      {
+        "t": "24:56",
+        "rows": [
+          [
+            "伊",
+            "我帶勇士去。",
+            "Kemacu a'en ta uqaljaqaljay uta.",
+            "3"
+          ],
+          [
+            "卓",
+            "伊沙，不能向漢人出草。",
+            "Isa, nakuya a kiqulu na pairang.",
+            "3"
+          ],
+          [
+            "",
+            "樹和藤蔓，相互需要。",
+            "Namadjaljeng a kasiw kata vaudj, namarakitangez.",
+            "3"
+          ],
+          [
+            "伊",
+            "所以漢人可以向我這個二股頭背後開槍？",
+            "Sa maqati a kemuang tjanua'en na pairang?",
+            "3"
+          ],
+          [
+            "",
+            "我去阻止械鬥，客家人在我背後開槍。",
+            "Tia'en a qemeceng tjiamadju a marivurivu, sengaingay i likuz a kemuang tjanua'en.",
+            "3"
+          ],
+          [
+            "",
+            "就說統領埔離部落太近，不能租，",
+            "Sedemut aravac a Tulupau a tja kadjunangan, i'a maqati a pasedjam aya'en.",
+            "3"
+          ],
+          [
+            "",
+            "現在他們膽子大了。",
+            "Temulu aravac timadju tucu.",
+            "3"
+          ],
+          [
+            "朱",
+            "卓杞篤大股頭，山下漢人越來越多，要讓漢人知道，琅𤩝是斯卡羅的！",
+            "...<br><br><br>",
+            "3"
+          ],
+          [
+            "卓",
+            "好，統領埔收回。",
+            "Pay alapu ta Tunglungpaw a kadjunangan.",
+            "3"
+          ],
+          [
+            "",
+            "朱雷，警告漢人不能再犯！",
+            "...",
+            "3"
+          ],
+          [
+            "朱",
+            "",
+            "<div class='sidenote'>沒有字幕，但似乎是「是」之類的應諾</div><span class='noted'>Ui</span>.<br><br><br>",
+            "3"
+          ],
+          [
+            "卓",
+            "伊沙，土地從來不拒絕任何種子。",
+            "Isa, aicu a kadjunangan, nu tja talem amen veneve sakamaya.",
+            "3"
+          ],
+          [
+            "",
+            "沒有漢人，我們拿不到鹽、鐵、槍。",
+            "Nu inika payrang, neka tja qatia, pazetayang*, kata guang.",
+            "3"
+          ],
+          [
+            "伊",
+            "我下山去看漢人是怎麼控制你的！",
+            "...",
+            "3"
+          ],
         ]
       },
 
@@ -796,6 +1055,29 @@ data = [
 
         ]
       },
+      {
+        "t": "33:50",
+        "rows": [
+          [
+            "風",
+            "祖靈不在。",
+            "I'a ljeteku a sevalitan.",
+            "3"
+          ],
+          [
+            "",
+            "",
+            "...",
+            "3"
+          ],
+          [
+            "風",
+            "祖先也說不能殺女人。",
+            "I'a ma'ati a ‘emeci ta vavayavayan aya a tja ramaljemaljang.",
+            "3"
+          ],
+        ]
+      },
 
       {
         "t": "35:50",
@@ -815,10 +1097,16 @@ data = [
             "Tsuí--a, thong-i̍k a.<br>Lâng tsáu, tshù iáu tī ê, lâng iáu-koh ē-tàng tò-tńg-khì--a.",
             "2"
           ],
+          [
+            "水",
+            "人離開，房屋如果還在，人就會再回去。",
+            "Vaik a caucau, nu kamayan ta tapaw, cemikel ta caucau.",
+            "3"
+          ],
 
           [
-            "Isa",
-            "",
+            "伊",
+            "燒掉！",
             "……",
             "3"
           ],
@@ -837,11 +1125,17 @@ data = [
             "Á-Sùi, Tùnglíangpú ge fò, voi séu do Salǐau o!",
 
           ],
+          [
+            "水",
+            "大股頭換成朱雷了？",
+            "...",
+            "3"
+          ],
 
           [
-            "Isa",
-            "",
-            "……",
+            "伊",
+            "喂。柴城的槍，也要送部落！",
+            "...",
             "3"
           ],
 
@@ -858,11 +1152,16 @@ data = [
             "E̋? A gún Tshâ-siânn it-hiòng iā-bô kah tshenn-huan lâi-óng a...",
             "2"
           ],
-
           [
-            "Isa",
-            "",
-            "……",
+            "水",
+            "柴城向來沒與生番來往。",
+            "...",
+            "3"
+          ],
+          [
+            "伊",
+            "我想跟柴城當朋友。",
+            "...",
             "3"
           ],
 
@@ -878,7 +1177,7 @@ data = [
             "喔。做朋友，送禮應該。我定个五支銃，送𪜶矣。",
             "Oh. Tsò pîng-iú, sàng-lé ìng-kai. Guá tiānn ê gōo ki tshìng, sàng in--ah.",
             "2"
-          ]
+          ],
 
         ]
       },
@@ -1331,6 +1630,53 @@ data = [
             "Kín khì sàng-lé.",
             "2"
           ]
+        ]
+      },
+      {
+        "t": "21:07",
+        "rows": [
+          [
+            "伊",
+            "洋人來，我不會支援你！因為槍不夠。",
+            "Tuqituq, nu mangetjez a sequljung, tjalja neka ku qeljing tjanusun. Neka qacuvung a quang.",
+            "3"
+          ],
+          [
+            "",
+            "怕洋人、怕漢人、怕阿勞楚，告訴我，斯卡羅怎麼打下這片山林的？走。",
+            "Nu quljung, nu payrang, nu ti Alawcu. A qivu tja penuljat, tjumalj aken sinikuda malap ta kadjunangan na Seqalu! Ari.",
+            "3"
+          ],
+          [
+            "朱",
+            "伊沙二股頭說得太過了。",
+            "Ti Kama Isa, kai a aravac.",
+            "3"
+          ],
+          [
+            "卓",
+            "只會逞口舌之能的勇士，不算勇士。",
+            "<span class='TBD'>____</span> nisun <span class='TBD'>___</span> ta ljavaran, inika sauqaljay a paqulid.",
+            "3"
+          ],
+          [
+            "",
+            "",
+            "...",
+            "3"
+          ],
+          [
+            "朱",
+            "是。",
+            "Ui angata.",
+            "3"
+          ],
+          [
+            "卓",
+            "唉。海上的風，吹沈了大船，也吹得部落和漢人都不平靜。",
+            "Ay. Taicu a vali a kemasi ta ljavek, veliqadanga varukur, maru ta tja qinaljan kata payrang uta.",
+            "3"
+          ],
         ]
       },
 
@@ -2060,6 +2406,17 @@ data = [
 
         ]
       },
+      {
+        "t": "34:00",
+        "rows": [
+          [
+            "風",
+            "山芙蓉，開花時是白色，然後不斷變顏色，最後變紅色，枯萎落地。<br>也許它不變顏色，就不會枯萎。",
+            "Aicu a viljuaq, nu venuciar timadju vuteqiteqilj, a vaikvaik a pavalit ta quljaw mequdjiljanga timadju sa alain.<br>Avan a nu inika pavalitvalit ta quljaw___ a alain.",
+            "3"
+          ],
+        ]
+      },
 
       {
         "t": "34:00",
@@ -2351,6 +2708,18 @@ data = [
             "這屋<span class='updated'>仔</span>係阿姆帶等𫣆兜起个，<br>你毋想轉來，無相干，還有𠊎。<br>𠊎摎佢整好。<br>你走啦，記得轉來看𠊎。",
             "Ìa vùg<span class='updated'>'è</span> he Ámé dai dèn éndéu hì ge,<br>ňg m̌ xìong zòn lǒi, mǒ xíongkón, hǎn íu ngǎi.<br>Ngǎi láu gǐ zàng hò.<br>Ňg zèu la, gidèd zòn lǒi kon ngǎi.",
 
+          ],
+          [
+            "蝶",
+            "母親死前，要我帶你離開這裡。",
+            "Napazekatj ti kina tu kacu sun a paytjukuda aya, ta neka pacayanan tazua.",
+            "3"
+          ],
+          [
+            "杰",
+            "她也說要記得回來。",
+            "Paqenetju a cemikel aya ti kina.",
+            "3"
           ],
 
         ]
@@ -2889,6 +3258,41 @@ data = [
         ],
       },
       {
+        "t": "42:00",
+        "rows": [
+          [
+            "朱",
+            "像山豬一樣貪吃！",
+            "Matu vavuy a kinamaric!",
+            "3"
+          ],
+          [
+            "水",
+            "我不是山豬，是狗！",
+            "Inika vavuy, vatu aken.",
+            "3"
+          ],
+          [
+            "",
+            "斯卡羅忠心的狗，想活下去的狗！",
+            "Napasa Seqalu a ku varung, pasa a vayuvayu* a vatu!",
+            "3"
+          ],
+          [
+            "",
+            "",
+            "...",
+            "3"
+          ],
+          [
+            "朱",
+            "當狗，要當得像！把洋人的氣味、消息告訴主人。",
+            "Nu uri masan vatu sun, penaquliqulidu kaseljangau sasequan na quljung.<br>Satjumajli ta su kamakama.",
+            "3"
+          ],
+        ]
+      },
+      {
         "t": "44:24",
         "rows": [
           [
@@ -2896,6 +3300,17 @@ data = [
             "哈哈……統領埔得來<span class='TBD'>＿＿</span>……<br>若佇遐起好交易所，生番佇遐做交易，　閣有啥儂敢來搶統領埔……<br>咱个矣！哈哈哈……嘻嘻嘻……",
             "<div class='sidenote'>待問</div>Ha-ha... Thóng-niá-poo ti̍t-lâi <span class='TBD'>kín-ko-kín-ko</span>...<br>Nā tī hia khí hó kau-i̍k-sóo, tshenn-huan tī hia tsò kau-i̍k, koh ū siánn-lâng kánn lâi tshiúnn Thóng-niá-poo...<br>Lán ê--ah! Ha-ha-ha... hi-hi-hi...",
             "2"
+          ],
+        ]
+      },
+      {
+        "t": "49:32",
+        "rows": [
+          [
+            "",
+            "部落間難免有不愉快，只要大家心平氣和溝通就好。",
+            "Tjakudain cu tja qinaljan, tjalja izua tja qaqivuan tjalja bulay a tja sikiljaravaravan.<br><div class='sidenote'>一直蠻好奇這句話是誰講的，若是在場的哪位，但鏡頭卻完全沒有帶到。</div>",
+            "3"
           ],
         ]
       }
@@ -3138,7 +3553,7 @@ data = [
           [
             "",
             "",
-            "He want something from you...",
+            "He want something from you.<br>...",
             "4"
           ],
           [
@@ -3838,7 +4253,7 @@ data = [
 
           [
 
-            "Tok",
+            "Tuq",
             "故所，你毋會升旗，乜毋會摎外人个軍隊𢯭手。",
             "<div class='sidenote'> 演員們（尤其夏靖庭）北四縣音為 gíuncui</div>Gusò, ňg m̌ voi síinkǐ, me m̌ voi láu ngoingǐn ge <span class='noted'>gíundui</span> tensù.",
 
@@ -3854,7 +4269,7 @@ data = [
 
           [
 
-            "Tok",
+            "Tuq",
             "保力𢯭手，就做得。",
             "Bòlid tensù, qiu zodèd.",
 
@@ -3870,7 +4285,7 @@ data = [
 
           [
 
-            "Tok",
+            "Tuq",
             "祖先个土地，做毋得賣。",
             "Zùxíen ge tùti, zo-m̌-dèd mai.",
 
@@ -3886,7 +4301,7 @@ data = [
 
           [
 
-            "Tok",
+            "Tuq",
             "外人做毋得入山，係祖先个規矩。做生理，對社寮。",
             "Ngoingǐn zo-m̌-dèd ngib sán, he zùxíen ge gúig<span class='updated'>ì</span>. Zo sénlí, dui Salǐau.",
 
@@ -3902,7 +4317,7 @@ data = [
 
           [
 
-            "Tok",
+            "Tuq",
             "朋友，毋會討恁多！",
             "Pěníu, m̌ voi tò àn dó!",
 
@@ -3918,7 +4333,7 @@ data = [
 
           [
 
-            "Tok",
+            "Tuq",
             "逐走外人个軍隊，係要恢復琅𤩝本來个樣仔！",
             "Gìug zèu ngoingǐn ge gíundui, he oi fífug Lǒngkieu bùnlǒige iong'è! ",
 
@@ -3934,7 +4349,7 @@ data = [
 
           [
 
-            "Tok",
+            "Tuq",
             "統領埔本來答應贌分社寮。",
             "Tùnglíangpú bùnlǒi dàb'in piog bún Salǐau.",
 
@@ -3950,7 +4365,7 @@ data = [
 
           [
 
-            "Tok",
+            "Tuq",
             "這下，收轉來，贌分你。天光日，𠊎派人，來拿，食糧。你放到庄頭外背，拿着吔，𠊎就知，朋友个誠意。",
             "Ìaha, sú zònlǒi, piog bún ňg. T<span class='updated'>í</span>en'góngngìd, ngǎi pai ngǐn, lǒi ná, siidlǐong. Ňg biong do zóngtěu noboi, ná dò ě, ngǎi qiu dí, pěn'íu ge sǐin'i.",
 
