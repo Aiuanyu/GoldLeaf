@@ -1319,7 +1319,7 @@ data = [
           [
             "",
             "社寮納番租，靠生番保護，我會予𪜶一个交代啦。",
-            "Siā-liâu la̍p huan-tsoo, khò tshenn-huan pó-hōo, guá ê hōo in tsi̍t-ê kau-tài--lah",
+            "Siā-liâu la̍p huan-tsoo, khò tshenn-huan pó-hōo, guá ê hōo in tsi̍t-ê kau-tài--lah.",
             "2"
           ],
 
