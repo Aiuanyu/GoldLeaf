@@ -5339,32 +5339,32 @@ data = [
           [
             "水",
             "汝是嫌阮庄口死个儂無夠濟毋？敢欲共伊吊去彼爿啊？<br>汝姐也共我害，汝嘛想欲共我害喔阿杰仔？",
-            "guan",
-            ""
+            "Lí sī hiâm guán tsng-kháu sí ê lâng bô kàu tsē m̄? Kám beh kā i tiàu khì hit-pîng--a?<br>Lí tsí iā kā guá hāi, lí mā siūnn-beh kā guá hāi--oo A-Kia̍t-á?",
+            "2"
           ],
           [
             "杰",
             "我是來共汝鬥相共。一百五十支銃咧？生番个大股頭，是我阿舅。",
-            "",
-            ""
+            "Guá sī lâi kā lí tàu-sann-kāng. Tsi̍t pah gōo-tsa̍p ki tshìng--leh? Tshenn-huan ê Tuā-kóo-thâu, sī guá a-kū.",
+            "2"
           ],
           [
             "",
-            "社寮也佮官軍，鬥開山路啊！",
-            "",
-            ""
+            "社寮也共官軍，鬥開山路啊！",
+            "Siā-liâu iā kā kuann-kun, tàu khui suann-lōo--a!",
+            "2"
           ],
           [
             "軍官",
             "械鬥的，過來，充丁役！",
-            "",
-            ""
+            "Xiètòu de, guòlái, chōng dīngyì!",
+            "5"
           ],
           [
             "甥",
             "伊是大股頭个外甥仔？",
-            "",
-            ""
+            "I sī Tuā-kóo-thâu ê guē-sing-á?",
+            "2"
           ],
           [
             "杰",
@@ -5380,7 +5380,7 @@ data = [
           [
             "必",
             "汝會使走，多謝。",
-            "",
+            "Lí ē-sái tsáu, to-siā.",
             "2"
           ],
         ]
@@ -5391,74 +5391,74 @@ data = [
           [
             "水",
             "山頂个大股頭，敢──",
-            "",
-            ""
+            "Suann-tíng ê Tuā-kóo-thâu, kám ---",
+            "2"
           ],
           [
             "杰",
             "我是毋是大股頭个外甥仔、生番按怎對付軍隊，佮汝無底代。",
-            "",
-            ""
+            "Guá sī-m̄-sī Tuā-kóo-thâu ê guē-sing-á, tshenn-huan án-nuá tuì-hù kun-tuī, kah lí bô tī-tāi.",
+            "2"
           ],
           [
             "",
             "汝𤆬儂開路入山、食軍隊糧食，生番會血洗社寮。",
-            "",
-            ""
+            "Lí tshuā lâng khui-lōo li̍p-suann, tsia̍h kun-tuī niû-si̍t, tshenn-huan ē hiat-sé Siā-liâu.",
+            "2"
           ],
           [
             "水",
             "血洗社寮？聽過矣。<br>喂，其實喔，我會當共汝交予𪜶呢！大股頭个外甥仔。",
-            "",
-            ""
+            "Hiat-sé Siā-liâu? Thiann-kuè--ah.<br>Eh, kî-si̍t--oo, guá ē-tàng kā lí kau hōo in--ne! Tuā-kóo-thâu ê guē-sing-á.",
+            "2"
           ],
           [
             "",
-            "我等恁生番落山是等到斷糧，汝這馬怪我開路食官糧？大股頭个外甥仔就這點仔＿＿？只敢講「血洗社寮」？",
-            "kiosiau（出息）",
-            ""
+            "我等恁生番落山是等到斷糧，汝這馬怪我開路食官糧？大股頭个外甥仔就這點仔<span class='TBD'>腳數</span>？只敢講「血洗社寮」？",
+            "Guá tán lín tshenn-huan lo̍h-suann sī tán kàu tn̄g-niû, lí tsit-má kuài guá khui-lōo tsia̍h kuann-niû? Tuā-kóo-thâu ê guē-sing-á tiō tsit tiám-á <span class='TBD'>kioh-siàu</span>? Tsí kánn kóng &quot;hiat-sé Siā-liâu&quot;?",
+            "2"
           ],
           [
             "",
             "汝哪會無愛去血洗仝款徛旗个柴城佮保力？",
-            "",
-            ""
+            "Lí ná-ē bô-ài khì hiat-sé kāng-khuán khiā-kî ê Tshâ-siânn kah Pó-li̍k?",
+            "2"
           ],
           [
             "",
-            "我會當佮汝鬥相共。",
-            "",
-            ""
+            "我會當共汝鬥相共。",
+            "Guá ē-tàng kā lí tàu-sann-kāng.",
+            "2"
           ],
           [
             "杰",
             "按怎鬥相共？",
-            "án-ná",
-            ""
+            "Án-ná tàu-sann-kāng?",
+            "2"
           ],
           [
             "水",
             "哼。欲解決琅𤩝个問題，先處理恁兜个代誌矣，大股頭个外甥仔，蝶妹个小弟！<hr>",
-            "",
-            ""
+            "Hngh. Beh kái-kuat Lân-kiau ê būn-tê, sian tshú-lí lín tau ê tāi-tsì--ah, Tuā-kóo-thâu ê guē-sing-á, Tia̍p-Muē ê sió-tī!",
+            "2"
           ],
           [
             "必",
             "",
             "So, do you still need to go to Tonglingpu?",
-            ""
+            "4"
           ],
           [
             "",
             "",
             "...",
-            ""
+            "4"
           ],
           [
             "必",
             "阿水啊，紅毛番想欲知影，這段時間，阿杰攏佇佗位？是毋是統領埔？",
-            "",
-            ""
+            "A-Tsuí--a, âng-môo-huan siūnn-beh tsai-iánn, tsit tuānn sî-kan, A-Kia̍t lóng tī tó-uī? Sī-m̄-sī Thóng-niá-poo?",
+            "2"
           ],
           [
             "",
@@ -5474,31 +5474,31 @@ data = [
           [
             "水",
             "生番若刣來，阮社寮个儂嘛佇个呢！",
-            "",
-            ""
+            "Tshenn-huan nā thâi lâi, gún Siā-liâu ê lâng mā tī ê--ne!",
+            "2"
           ],
           [
             "杰",
             "汝食官軍个白米、替官軍𤆬路，本來就愛付出代價。",
-            "",
-            ""
+            "Lí tsia̍h kuann-kun ê pe̍h-bí, thè kuann-kun tshuā-lōo, pún-lâi tiō ài hù-tshut tāi-kè.",
+            "2"
           ],
           [
             "水",
             "原本恁生番愛付出个代價是偌大！我嘛知影講二股頭部落个路是欲按怎行，但是我無共蛇軍講。",
-            "",
-            ""
+            "Guân-pún lín tshenn-huan ài hù-tshut ê tāi-kè sī juā tuā! Guá mā tsai-iánn kóng Lī-kóo-thâu pōo-lo̍k ê lōo sī beh án-nuá kiânn, tān-sī guá bô kā Siâ-kun kóng.",
+            "2"
           ],
           [
             "庄儂",
             "頭儂！",
-            "",
-            ""
+            "Thâu-lâng!",
+            "2"
           ],
           [
             "軍官",
             "你！過來！",
-            "",
+            "Nǐ! Guòlái!",
             "5"
           ],
         ]
@@ -5515,38 +5515,38 @@ data = [
           [
             "劉",
             "入山口還有多遠？帶路！",
-            "",
+            "Rùshānkǒu hái yǒu duō yuǎn? Dàilù!",
             "5"
           ],
           [
             "",
             "走！",
-            "",
-            ""
+            "Zǒu",
+            "5"
           ],
           [
             "杰",
             "蛇軍愛汝𤆬路。<hr>",
-            "",
-            ""
+            "Siâ-kun ài lí tshuā-lōo.",
+            "2"
           ],
           [
             "水",
             "繼續行入去就是矣。",
-            "",
-            ""
+            "Kè-sio̍k kiânn-khì tiō sī--ah.",
+            "2"
           ],
           [
             "劉",
             "找理番通譯，另尋他路！",
-            "",
+            "Zhǎo Lǐfān Tōngyì, lìng xún tā lù!",
             "5"
           ],
           [
             "軍官",
             "諾！",
-            "",
-            ""
+            "Nuò!",
+            "5"
           ],
         ]
       },
@@ -5556,20 +5556,20 @@ data = [
           [
             "水",
             "阿杰仔！汝欲去佗？",
-            "ta",
-            ""
+            "A-Kia̍t-á! Lí beh khì tah?",
+            "2"
           ],
           [
             "杰",
             "我欲去揣阮阿姐。",
-            "",
-            ""
+            "Guá beh khì tshuē gún a-tsí.",
+            "2"
           ],
           [
             "水",
-            "銃來矣。船佇欲靠岸矣。汝欲去山頂通報，抑是閣欲去揣彼个理番通譯？汝家己選。<br>百外支銃，庄仔內無地藏，生番若無愛啊，我就擲落去海底。",
-            "tshue",
-            ""
+            "銃來矣。船佇欲靠岸矣。汝欲去山頂通報，抑是閣欲去揣彼个理番通譯？汝家己選。<br>百外支銃，庄仔內無地藏，生番若無愛矣，我就擲落去海底。",
+            "Tshìng lâi--ah. Tsûn tí-beh khò-huānn--ah. Lí beh khì suann-tíng thong-pò, a̍h-sī koh beh khì tshuē hit-ê Lí-huan Thong-i̍k? Lí ka-kī suán.<br>Pah guā ki tshìng, tsng-á lâi bô tè tshàng, tshenn-huan nā bô ài--ah, guá tiō tàn-lo̍h-khì hái-té.",
+            "2"
           ],
         ]
       },
@@ -5580,25 +5580,25 @@ data = [
             "必",
             "",
             "Are you going to burn this one too?",
-            ""
+            "4"
           ],
           [
             "水",
             "無啦，大人，這毋是阮社寮个。",
-            "",
-            ""
+            "Bô--lah, Tāi-jîn, tse m̄-sī gún Siā-liâu--ê.",
+            "2"
           ],
           [
             "李",
             "",
             "Why is he groveling?",
-            ""
+            "4"
           ],
           [
             "水",
             "冤枉喔，大人啊！這毋是阮个啦！求求大人啊！汝著愛共阮保護喔！這馬阮社寮喔，無地食，只會當靠大人汝共阮保護矣！拜託喔！求求汝啊，大人啊！",
-            "",
-            ""
+            "Uan-óng--oo, Tāi-jîn--a! Tse m̄-sī gún-ê--lah! Kiû-kiû Tāi-jîn--a! Lí tio̍h ài kā gún pó-hōo--oo! Tsit-má gún Siā-liâu--oo, bô tè tsia̍h, tsí ē-tàng khò Tāi-jîn lī kā gún pó-hōo--ah! Pài-thok--oo! Kiû-kiû lí--a, Tāi-jîn--a!",
+            "2"
           ],
           [
             "劉",
