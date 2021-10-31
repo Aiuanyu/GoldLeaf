@@ -2274,7 +2274,7 @@ data = [
           [
             "水",
             "一丙阿兄，為啥物府城个官軍水師無來，派一个通譯个來呢？",
-            "It-píng A-hiann, uī-siánn-mih Hú-siânn ê kuānn-kun tsuí-su bô lâi, phài tsi̍t-ê thong-i̍k ê lâi--ne?",
+            "It-píng A-hiann, uī-siánn-mih Hú-siânn ê kuann-kun tsuí-su bô lâi, phài tsi̍t-ê thong-i̍k ê lâi--ne?",
             "2"
           ],
           [
@@ -3824,6 +3824,89 @@ data = [
     "draft": false,
     "title": "aljak a vavayan na mazazangiljan<br> 福爾摩莎公主",
     "sections": [
+      {
+        "t": "1:37",
+        "rows": [
+          [
+            "水",
+            "遮个貨汝看覓仔！",
+            "Tsia ê huè lí khuànn-māi-á!",
+            "2"
+          ],
+          [
+            "平",
+            "欲換幾隻儂鮝？",
+            "Beh uānn kuí tsiah lâng-siúnn?",
+            "2"
+          ],
+          [
+            "水",
+            "我家己予生番去做儂鮝。",
+            "Guá ka-kī hōo tshenn-huan khì tsò lâng-siúnn.",
+            "2"
+          ],
+          [
+            "平",
+            "來來。",
+            "Lâi-lâi.",
+            "2"
+          ],
+          [
+            "水",
+            "銃呢？一百五十枝。",
+            "Tshìng--ne? Tsi̍t pah gōo-tsa̍p ki.",
+            "2"
+          ],
+          [
+            "平",
+            "汝遮个貨喔，上濟二十枝啦！",
+            "Lí tsia ê hè--oo, siōng-tsuē lī-tsa̍p ki--lah!",
+            "2"
+          ],
+          [
+            "水",
+            "這欠个喔，我後面<span class='TBD'>才</span>閣補啦！",
+            "Tse khiàm--ê--oo, guá āu-bīn <span class='TBD'>tsiah</span> koh póo--lah!",
+            "2"
+          ],
+          [
+            "平",
+            "儂鮝會當先欠，銃愛兩清！唐山彼爿个規矩啦！",
+            "Lâng-siúnn ē-tàng sian khiàm, tshìng ài lióng-tshing! Tn̂g-suann hit-pîng ê kui-kí--lah!",
+            "2"
+          ],
+          [
+            "水",
+            "這我瞭解──",
+            "Tse guá liáu-kái---",
+            "2"
+          ],
+          [
+            "丙",
+            "水啊！",
+            "Tsuí--a!",
+            "2"
+          ],
+          [
+            "平",
+            "等咧等咧！",
+            "Tán-leh tán-leh!",
+            "2"
+          ],
+          [
+            "水",
+            "汝哪會來矣？",
+            "Lí ná-ē lâi--ah?",
+            "2"
+          ],
+          [
+            "丙",
+            "阮派去鳳山糴米个儂轉來矣，官軍欲到矣。紅毛番嘛佇。",
+            "Gún phài khì Hōng-suann tiā-bí ê lâng tńg-lâi--ah, kuann-kun beh kàu--ah. Âng-môo-huan mā tī.",
+            "2"
+          ],
+        ]
+      },
 
       {
         "t": "2:42",
@@ -3832,17 +3915,58 @@ data = [
           [
 
             "九",
-            "你做得出幾多<span class='updated'>个</span>人？<span class='updated'>䀯</span>在琅𤩝入口，官軍一隻乜走毋忒。",
-            "<div class='sidenote'>聽來實在像 pu 而不是 pug/fug（GHSRobert/ DanielaAerts）<br>所以可能是「<a href='https://www.moedict.tw/:%E4%80%AF'>䀯</a>」字（DanielaAerts）</div>Nǧ zodèd cùd gìdó <span class='updated'>ge</span> ngǐn? <span class='updated noted'>Pu</span> di Lǒngkieu ngib<span class='updated'>hèu</span>, góngíun ìd zàg me zèu m̌ tèd.",
+            "你做得出幾多<span class='updated'>个</span>人？<span class='updated'>䀯</span>在琅𤩝入口喔，官軍一隻乜走毋忒啊。",
+            "<div class='sidenote'>聽來實在像 pu 而不是 pug/fug（GHSRobert/ DanielaAerts）<br>所以可能是「<a href='https://www.moedict.tw/:%E4%80%AF'>䀯</a>」字（DanielaAerts）</div>Nǧ zodèd cùd gìdó <span class='updated'>ge</span> ngǐn? <span class='updated noted'>Pu</span> di Lǒngkieu ngib<span class='updated'>hèu</span> ò, góngíun ìd zàg me zèu m̌ tèd à.",
 
           ],
-
-        ]
-      },
-
-      {
-        "t": "3:30",
-        "rows": [
+          [
+            "水",
+            "嘿啊！啊入琅𤩝喔，就獨獨彼條路，",
+            "Hènn--a! A ji̍p Lân-kiau--oo, tiō to̍k-to̍k hit tiâu lōo,",
+            "2"
+          ],
+          [
+            "九",
+            "嗯。",
+            "M̀.",
+            ""
+          ],
+          [
+            "水",
+            "官軍根本就進無路、退無步啦。",
+            "Kuann-kun kin-pún tiō tsìn bô lōo, thè bô pōo--lah.",
+            "2"
+          ],
+          [
+            "丙",
+            "啊恁會當出偌濟儂？",
+            "A lín ē-tàng tshut guā-tsē lâng?",
+            "2"
+          ],
+          [
+            "水",
+            "哼哼。啊阮社寮才兩百外儂，彼相刣啊，無內行啦！",
+            "Hngh-hngh. A gún Siā-liâu tsiah nn̄g pah guā lâng, he sio-thâi--a, bô lāi-hâng--lah!",
+            "2"
+          ],
+          [
+            "丙",
+            "府城總兵帶隊呢，啊若刣死總兵官，出喙个儂無代誌，動手个儂就愛滅庄呢。",
+            "Hú-siânn Tsóng-ping tuà-tuī--ne, a nā thâi-sí Tsóng-ping-kuann, tshut-tshuì ê lâng bô tāi-tsì, tāng-tshiú ê lâng tiō ài bia̍t-tsng--ne.",
+            "2"
+          ],
+          [
+            "水",
+            "若按呢我去通報生番啊。柴城、保力加上生番，彼个官軍喔，無機會滅咱个庄啦。",
+            "Nā án-ne guá khì thong-pò tshenn-huan--a. Tshâ-siânn, Pó-li̍k ka-siōng tshenn-huan, hit-ê kuann-kun--oo, bô ki-huē bia̍t lán ê tsng--lah.",
+            "2"
+          ],
+          [
+            "丙",
+            "逐家做伙佇彼相刣，啊萬一我柴城儂丁若無夠，客儂<span class='noted'>還</span>頭倒轉來，啊佇彼共我拍，我毋是仝款愛滅庄！",
+            "<div class='sidenote'>句中聽來像低平調，所以推測本來是第 5 或 7 調，「還」字兩調均有，先用「還」字。至於「反」或「返」似乎與演員變調不合。</div>Ta̍k-ke tsò-hué tī-he sio-thâi, a bān-it guá Tshâ-siânn lâng-ting nā bô kàu, Kheh-lâng huān-thâu tò-tńg-lâi, a tī-he kā guá phah, guá m̄-sī kāng-khuán ài bia̍t-tsng!",
+            "2"
+          ],
 
           [
 
@@ -3855,8 +3979,9 @@ data = [
           [
 
             "丙",
-            "麼个「共下出陣」？……",
-            "Màge &quot;kiungha cùdciin&quot;?...",
+            "<span class='lang1'>麼个「共下出陣」？</span>頭尾我若共汝點點咧，汝敢有一半个儂是毋？",
+            "<span class='lang1'>Màge &quot;kiungha cùdciin&quot;?</span> Thâu-bué guá nā kā lí tiám-tiám--leh, lí kám ū tsi̍t-puànn ê lâng sī-m̄?",
+            "2"
 
           ],
 
@@ -3867,13 +3992,24 @@ data = [
             "Ngǎi mǒ àn<span class='updated'>ně</span> xìong lè! Ňg lè? <span class='updated'>Qiang</span> cùd ìdban ge ngǐn o?",
 
           ],
-
-        ]
-      },
-
-      {
-        "t": "4:30",
-        "rows": [
+          [
+            "水",
+            "兩位阿兄！官軍就佇欲來矣呢！",
+            "Nn̄g uī a-hiann! Kuann-kun tiō tí-beh lâi--ah--ne!",
+            "2"
+          ],
+          [
+            "丙",
+            "保持實力啦！是生番刣船員呢！佮咱攏無底代佇彼啊！",
+            "Pó-tshî si̍t-li̍k--lah! Sī tshenn-huan thâi tsûn-guân--ne! Kah lán lóng bô tī-tāi tī-he--a!",
+            "2"
+          ],
+          [
+            "",
+            "官軍蹛無久，真緊就會走啦。只要咱莫惹事，予官軍佮生番，落去解決就好矣！",
+            "Kuann-kun tuà bô kú, tsin kín tiō ē tsáu--lah. Tsí-iàu lán mài liá-sū, hōo kuann-kun kah tshenn-huan, lo̍h-khì kái-kuat tiō hó--ah!",
+            "2"
+          ],
 
           [
 
@@ -3899,21 +4035,57 @@ data = [
 
           ],
 
-        ]
-      },
 
-      {
-        "t": "5:50？",
-        "rows": [
 
           [
 
             "水",
-            "食得起<span class='updated'>無</span>？",
-            "Siid dèd hì <span class='updated'>mǒ</span>?",
+            "封庄？到時連庄攏無矣，枵死恁喔。",
+            "Hong-tsng? Kàu-sî liân tsng lóng bô--ah, iau-sí lín--oo.",
+            "2"
+          ],
+          [
+            "",
+            "啊我有偌濟番薯、恁有偌濟白米，會夆去飼官軍？予官軍入琅𤩝？<br>遮，是禁地荒埔呢！恁个田啊，私墾个，官府會沒收，到時閣欲算儂頭納儂頭稅、做差役。",
+            "A guá ū guā-tsuē han-tsî, lín ū guā-tsuē pe̍h-bí, ē hőng khì tshī kuann-kun? Hōo kuann-kun li̍p Lân-kiau?<br>Tsia, sī kìm-tē hong-poo--ne! Lín ê tshân--a, su-khún--ê, kuann-hú ē bu̍t-siu, kàu-sî koh beh sǹg lâng-thâu la̍p lâng-thâu-suè, tsò tshe-ia̍h.",
+            "2"
+          ],
+          [
+            "",
+            "猶閣有，這馬琅𤩝个鹽，俗！<br>這魚仔喔，是偌好食个！哼哼哼哼哼哼……<br>予官軍入琅𤩝，啊平湖个私船敢閣來賣私鹽嗎？",
+            "Iá-koh ū, tsit-má Lân-kiau ê iâm, sio̍k!<br>Tse hî-á--oo, sī juā hó-tsia̍h--ê! Hngh-hngh-hngh-hngh-hngh-hngh...<br>Hōo kuann-kun li̍p Lân-kiau, a Pênn-ôo ê su-tsûn kám koh-lâi bē su-iâm mā?",
+            "2"
+          ],
+          [
+            "",
+            "斬頭！無鹽，欲食官鹽嗎？官鹽汝敢食會起？",
+            "Tsám-thâu! Bô iâm, beh tsia̍h kuann-iâm mā? Kuann-iâm lí kám tsia̍h ē khì?",
+            "2"
+          ],
+          [
+            "",
+            "<span class='updated'>你</span>食得起<span class='updated'>無</span>？",
+            "<span class='updated'>Ňg</span> siid dèd hì <span class='updated'>mǒ</span>?",
 
           ],
-
+          [
+            "",
+            "恁食𣍐起啦！",
+            "Lín tsia̍h bē khì--lah!",
+            "2"
+          ],
+          [
+            "",
+            "等官軍入琅𤩝，就𣍐赴矣啦！",
+            "Tán kuann-kun li̍p Lân-kiau, tiō buē-hù--ah--lah!",
+            "2"
+          ],
+          [
+            "",
+            "咱來去揣官軍啦。",
+            "Lán lâi-khì tshuē kuann-kun--lah.",
+            "2"
+          ],
         ]
       },
 
@@ -3941,8 +4113,68 @@ data = [
       },
 
       {
-        "t": "21:00",
+        "t": "19:20",
         "rows": [
+          [
+            "丙",
+            "喂，螳肢擋車，雷公个點心，自揣死路呢！",
+            "Eh, tông-ki-tòng-tshia, Luî-kong ê tiám-sim, tsū-tshuē-sí-lōo--ne!",
+            "2"
+          ],
+          [
+            "水",
+            "原底汝會當予官進無路、退無步，啊汝毋同意，這馬換汝進無步退無路矣。",
+            "Guân-té lí ē-tàng hōo kuann-kun tsìn bô lōo, thè bô pōo, a lí m̄ tông-ì, tsit-má uānn lí tsìn bô pōo thè bô lōo--ah.",
+            "2"
+          ],
+          [
+            "丙",
+            "啊官軍是來拍生番个啊，啊咱閣共生番鬥相仝，敢講按呢總兵官𣍐予咱儂頭落地嗎？",
+            "A kuann-kun sī lâi phah tshenn-huan--ê--a, a lán koh kā tshenn-huan tàu-sann-kāng, kám-kóng án-ne Tsóng-ping-kuann bē hōo lán lâng-thâu-lo̍h-tē mā?",
+            "2"
+          ],
+          [
+            "水",
+            "啊汝毋來儂頭嘛落地啊！官軍若拍敗退出琅𤩝，生番會揣汝出草！",
+            "A lí m̄ lâi lâng-thâu mā lo̍h-tē--a! Kuann-kun nā phah-pāi thuè-tshut Lân-kiau,tshenn-huan ē tshuē lí tshut-tsháu!",
+            "2"
+          ],
+          [
+            "丙",
+            "嗯，<span class='TBD'>＿＿</span>按呢我莫共官軍鬥相仝、莫揣生番鬥跤手啊！",
+            "Ḿ, <span class='TBD'>___</span> án-ne guá mài kā kuann-kun tàu-sann-kāng, mài tshuē tshenn-huan tàu-kha-tshiú--a!",
+            "2"
+          ],
+          [
+            "水",
+            "啊汝毋共生番鬥跤手，意思就是共官軍鬥相仝！",
+            "A lí m̄ kā tshenn-huan tàu-kha-tshiú, ì-sù tiō-sī kā kuann-kun tàu-sann-kāng!",
+            "2"
+          ],
+          [
+            "丙",
+            "啊若按呢我柴城……",
+            "A nā án-ne guá Tshâ-siânn...",
+            "2"
+          ],
+          [
+            "軍官",
+            "流民！轅門重地，給我安靜。在這等著。<hr>",
+            "Liúmín! Yuánmén zhòngdì, gěi wǒ ānjìng. Zài zhè děng zhe.",
+            "5"
+          ],
+          [
+            "水",
+            "啊恁柴城一千五百儂真正毋驚生番？彼是進前啦。<br>前日生番公主入柴城，汝庄內生做啥款、糧倉米庫是一清二楚，滅庄，無困難啦。",
+            "A lín Tshâ-siânn tsi̍t tshing gōo pah lâng tsin-tsiànn m̄ kiann tshenn-huan? He sī tsìn-tsîng--lah.<br>Tsîng-ji̍t Tshenn-huan Kong-tsú li̍p Tshâ-siânn, lí tsng-lāi senn tsò sánn khuán, niû-tshng bí-khòo sī it-tshing-lī-tshó, bia̍t-tsng, bô khùn-lân--lah.",
+            "2"
+          ],
+          [
+            "",
+            "啊這个總兵官敢會斬咱个頭，毋知。<br>但是生番揣漢人算數，是一定會矣。毋免替生番講話矣啦，替恁家己講話就好！<br>官軍入琅𤩝，若舞清楚形勢，就會再閣來第二改，啊咱咧，就欲再閣來見官軍！上加嘛是──儂頭落地。",
+            "<div class='sidenote'>我好像聽到「hiannse」</div>A tsit-ê Tsóng-ping-kuann kám ē tsám lán ê thâu, m̄ tsai.<br>Tān-sī tshenn-huan tshuē Hàn-jîn sǹg-siàu, sī it-tīng ē--ê. M̄-bián thè tshenn-huan kóng-uē--ah--lah, thè lín ka-kī kóng-uē tiō hó!<br>Kuann-kun li̍p Lân-kiau, nā bú tshing-tshó <span class='noted'>hîng-sì</span>, tiō ē tsài-koh lâi tē-lī kái, a lán--leh, tiō beh tsài-koh lâi kìnn kuann-kun! Siōng-ke mā sī --- lâng-thâu-lo̍h-tē.",
+            "2"
+          ],
 
           [
 
@@ -3972,8 +4204,150 @@ data = [
       },
 
       {
-        "t": "27:00",
+        "t": "21:50",
         "rows": [
+          [
+            "劉",
+            "怕生番報復、擔心官軍橫徵暴斂。他們該醒了！",
+            "Pà shēngfān bàofù, dānxīn guānjūn héngzhēngbàoliàn. Tāmen gāi xǐng le!",
+            "5"
+          ],
+          [
+            "",
+            "",
+            "...",
+            "4"
+          ],
+          [
+            "蝶",
+            "一庄五百兩，這是總兵大人予恁逐家个。<br>百姓个錢財、米糧，官軍𣍐侵占，恁毋免煩惱。<br>等生番交出凶手了後，官軍會繼續留佇彼琅𤩝，恁毋免驚生番報復。<br>願意歸順官軍，就升旗。",
+            "Tsi̍t tsng gōo pah niú, tse sī Tsóng-ping Tāi-jîn hōo lín ta̍k-ke--ê.<br>Peh-sènn ê tsînn-tsâi, bí-niû, kuann-kun buē tshim-tsiàm, lín m̄-bián huân-ló.<br>Tán tshenn-huan kau-tshut hiong-tshiú liáu-āu, kuann-kun ē kè-sio̍k lâu tī-he Lân-kiau, lín m̄-bián kiann tshenn-huan pò-ho̍k.<br>Guān-ì kui-sūn kuann-kun, tiō sing-kî.",
+            "2"
+          ],
+          [
+            "丙",
+            "呃！……無啦，阮柴城遐，邊仔喔，會當予𪜶做兵營啦！",
+            "Er!... Bô--lah, guán Tshâ-siânn hia, pinn-á--oo, ē-tàng hōo in tsò ping-iânn--lah!",
+            "2"
+          ],
+          [
+            "水",
+            "汝神經啊？汝……",
+            "Lí sîn-king--a? Lí...",
+            "2"
+          ],
+          [
+            "李",
+            "",
+            "Be quiet! You!",
+            "4"
+          ],
+          [
+            "水",
+            "汝欲共官軍鬥相共諾？",
+            "Lí beh kā kuann-kun tàu-sann-kāng--hioh?",
+            "2"
+          ],
+          [
+            "",
+            "",
+            "...",
+            "4"
+          ],
+        ]
+      },
+      {
+        "t": "23:33",
+        "rows": [
+          [
+            "水",
+            "蝶妹啊，若毋是汝去做通譯、𤆬路，官軍入琅𤩝就會當閣緩幾天。",
+            "<div class='sidenote'>演員唸 huānn，但詞典的「緩」只收 uān 的音，而 huānn 只有「扞」字。</div>Tia̍p-Muē--a, nā-m̄-sī lí khì tsò thong-i̍k, tshuā-lōo, kuann-kun li̍p Lân-kiau tiō ē-tàng koh <span class='noted'>uān</span> kuí kang.",
+            "2"
+          ],
+          [
+            "蝶",
+            "琅𤩝無官府，阮兜已經予儂燒兩擺矣，汝敢會當保證，𣍐有第三擺？",
+            "Lân-kiau bô kuann-hú, gún tau í-king hōo lâng sio nn̄g pái--ah, lí kám ē-tàng pó-tsìng, buē ū tē-sann pái?",
+            "2"
+          ],
+          [
+            "丙",
+            "哈哈哈哈哈……官軍若是來，就𣍐燒恁兜毋？",
+            "Ha-ha-ha-ha-ha... Kuann-kun nā-sī lâi, tiō bē sio lín tau m̄?",
+            "2"
+          ],
+        ]
+      },
+      {
+        "t": "24:23",
+        "rows": [
+          [
+            "水",
+            "一丙兄喔，這馬是共柴城押咧這面軍旗頂。",
+            "It-píng Hiann--oo, tsit-má sī kā Tshâ-siânn ap leh tsit bīn kun-kî tíng.",
+            "2"
+          ],
+          [
+            "丙",
+            "我綴生番啦，我會當予生番公主入我柴城、佇彼看地勢，我是得著啥？",
+            "Guá tè tshenn-huan--lah, guá ē-tàng hōo Tshenn-huan Kong-tsú li̍p guá Tshâ-siânn, tī-he khuànn tē-sè, guá sī tit-tio̍h siánn?",
+            "2"
+          ],
+          [
+            "水",
+            "若無按呢啦！明仔載我就入山揣生番，叫𪜶共統領埔个代誌緊決定好咧？汝佮我同齊來去。",
+            "Nā bô án-ne--lah! Bîn-á-tsài guá tiō li̍p-suann tshuē tshenn-huan, kiò in kā Thóng-niá-poo ê tāi-tsì kín kuat-tīng hó--leh? Lí kah guá tâng-tsê lâi-khì.",
+            "2"
+          ],
+          [
+            "丙",
+            "社寮是靠海邊呢，汝𣍐曉釣魚？<br>仝款个餌啦，敢會<span class='TBD'>入釣</span>？",
+            "Siā-liâu sī khò hái-pinn--ne, lí buē-hiáu tiò-hî?<br>Kāng-khuán ê jī--lah, kám-ē <span class='TBD'>li̍p-tiò</span>?",
+            "2"
+          ],
+          [
+            "水",
+            "哈哈哈……<br>餌頂若無鉤仔，咬了也無敗害啊！<br>而且喔，餌若有夠大，兩隻魚來食攏食有飽。",
+            "Ha-ha-ha...<br>Jī tíng nā bô kau-á, kā liáu iā bô pāi-hāi--a!<br>Jî-tshiánn--oo, jī nā ū kàu tuā, nn̄g tsiah hî lâi tsia̍h lóng tsia̍h ū pá.",
+            "2"
+          ],
+          [
+            "丙",
+            "水啊……餌是汝放个呢，內底包啥，干焦汝知影。",
+            "Tsuí--a... jī sī lí pàng--ê--ne, lāi-té pau sánn, kan-na lí tsai-iánn.",
+            "2"
+          ],
+          [
+            "",
+            "無啦無仝路啦！落車啦！",
+            "Bô--lah bô-kâng lōo--lah! Lo̍h-tshia--lah!",
+            "2"
+          ],
+          [
+            "水",
+            "一丙兄！起手無回，只有一改機會，汝莫綴毋著爿哦！",
+            "It-píng Hiann! Khí-tshiú-bô-huê, tsí-ū tsi̍t kái ki-huē, lí mài tè m̄-tio̍h pîng--őo!",
+            "2"
+          ],
+          [
+            "丙",
+            "哈哈……汝嘛是仝款！<br>較緊个！<hr>",
+            "Ha-ha... lí mā sī kāng-khuán!<br>Khah kín ê!",
+            "2"
+          ],
+          [
+            "水",
+            "這隻<span class='noted'>標</span>會咬死狗啦！",
+            "<div class='sidenote'>指的是旗幟上的標誌，而非如華文字幕寫「蛇」。</div>Tsit tsiah pio ē kā sí káu--lah!",
+            "2"
+          ],
+          [
+            "",
+            "琅𤩝个鶴佬儂、客儂仔相刣幾若代矣，刣到目睭內只看會著對方。𪜶一直無想著，假使聯合對付生番，生番个山林、田地早就是𪜶个矣。<br>這改𪜶若是想通矣，閣加上官府，琅𤩝就無生番矣，咱就變做無主儂个狗，隨儂踢！",
+            "<div class='sidenote'>同一個詞，臺灣鶴佬話有時有數種方音，都有人講，所幸，坊間詞典及輸入法，都有收錄！😃</div>Lân-kiau ê Ho̍h-ló-lâng, Kheh-lâng-á sio-thâi <span class='noted'>kuí-ā</span> tāi--ah, thâi kàu ba̍k-tsiu lāi tsí khuànn ē tio̍h tuì-hong. In it-ti̍t bô siūnn-tio̍h, ká-sú liân-ha̍p tuì-hù tshenn-huan, tshenn-huan ê suann-nâ, tshân-tē tsá tiō-sī in ê--ah.<br>Tsit kái in nā-sī siūnn-thong--ah, koh ka-siōng kuann-hú, Lân-kiau tiō bô tshenn-huan--ah, lán tiō piàn-tsò bô tsú-lâng ê káu, suî lâng that!",
+            "2"
+          ],
 
           [
 
@@ -3986,8 +4360,8 @@ data = [
           [
 
             "",
-            "係講，分總兵官知你本想<span >䀯</span>厥兜吔，哈哈哈……",
-            "Hegòng, bún Zùngbín'gón dí ňg bùn xìong <span class='updated'>pu</span> gíadéu ě, hahaha...",
+            "係講，分總兵官知你本想<span >䀯</span>厥兜吔，<span class='updated'>呵呵呵</span>……",
+            "Hegòng, bún Zùngbín'gón dí ňg bùn xìong <span class='updated'>pu</span> gíadéu ě, <span class='updated'>hòhòhò</span>...",
 
           ],
 
@@ -4026,11 +4400,81 @@ data = [
           [
 
             "九",
-            "想害𠊎哦？啊？𠊎摎你講啦！𠊎走投無路，先㓾社寮，再分總兵官<span class='updated'>剁</span>頭！",
+            "想害𠊎哦？啊？𠊎摎你講啦！𠊎走投無路，先㓾社寮，再分總兵官<span class='updated'>剁</span>頭！<hr>",
             "Xìong hoi ngǎi o? A? Ngǎi láu ňg gòng là! Ngǎi zèutěumǒlu, xíen cǐi Salǐau, zai bún Zùngbín'gón <span class='updated'>dog</span>těu!",
 
           ],
-
+          [
+            "甥",
+            "阿舅。阿舅！漢人按怎做，阮規氣，<span class='TBD'>＿</span>綴𪜶按怎做就好矣？",
+            "A-kū. A-kū! Hàn-jîn án-nuá tsò, gún kui-khì, <span class='TBD'>tiō</span> tè in án-nuá tsò tiō hó--ah?",
+            "2"
+          ],
+          [
+            "水",
+            "佮漢人同齊對付生番喔？哈哈……漢人看𣍐起生番啦！但是面對面猶是會驚个！",
+            "Kah Hàn-jîn tâng-tsê tuì-hù tshenn-huan--oo? Ha-ha... Hàn-jîn khuànn-buē-khí tshenn-huan--lah! Tān-sī bīn-tuì-bīn á-sī ē kiann ê!",
+            "2"
+          ],
+          [
+            "",
+            "咱社寮个土生仔，半番半漢，做狗，漢人嘛<span class='hapim'>無愛</span>。<br>生番若報復，漢人會當離開琅𤩝重新開始，風港、鳳山、打狗、府城，全臺灣攏有漢人會當蹛个所在。<br>啊咱離開琅𤩝，會當去佗？",
+            "Lán Siā-liâu ê thóo-senn-á, puànn-huan-puànn-hàn, tsuè káu, Hàn-jîn mā buài.<br>Tshenn-huan nā pò-ho̍k, Hàn-jîn ē-tàng lî-khui Lân-kiau tiông-sin khai-sí, Hong-káng, Hōng-suann, Tá-káu, Hú-siânn, tsuân Tâi-uân lóng ū Hàn-jîn ē-tàng tuà ê sóo-tsāi.<br>A lán lî-khui Lân-kiau, ē-tàng khì tah?",
+            "2"
+          ],
+          [
+            "",
+            "咱只會當共生番鬥相共。<br>至少，生番心情好會擲一粒骨頭，共統領埔擲予阮抾。",
+            "Lán tsí ē-tàng kā tshenn-huan tàu-sann-kāng.<br>Tsì-tsió, tshenn-huan sim-tsîng hó ē tàn tsi̍t lia̍p kut-thâu, kā Thóng-niá-poo tàn hōo gún khioh.",
+            "2"
+          ],
+          [
+            "",
+            "共軍旗抾轉來。",
+            "Kā kun-kî khioh tńg-lâi.",
+            "2"
+          ],
+        ]
+      },
+      {
+        "t": "30:46",
+        "rows": [
+          [
+            "助手",
+            "頭儂，官軍蹛佇琅𤩝，咱按呢一切攏愛聽官軍个。",
+            "Thâu-lâng, kuann-kun tuà tī Lân-kiau, lán án-ne it-tshè lóng ài thiann kuann-kun--ê.",
+            "2"
+          ],
+          [
+            "丙",
+            "汝哪毋講官軍就愛聽我个？<br>兵營草埔攏是我出个呢！官軍來到琅𤩝，儂地生疏，官軍是儂客，我遮是主儂，客隨主便嘛！我若按怎招待，𪜶就愛按怎接受啦。",
+            "Lí ná m̄ kóng kuann-kun tiō ài thiann guá-ê?<br>Ping-iânn tsháu-poo lóng sī guá tshut--ê--ne! Kuann-kun lâi kàu Lân-kiau, lâng-tē-sinn-soo, kuann-kun sī lâng-kheh, guá tsia sī tsú-lâng, kheh-suî-tsú-piān--ma! Guá nā án-nuá tsiau-tāi, in tiō ài án-nuá tsiap-siū--lah.",
+            "2"
+          ],
+          [
+            "助手",
+            "我來升旗。",
+            "Guá lâi sing-kî.",
+            "2"
+          ],
+          [
+            "丙",
+            "小等咧！旗慢慢仔升！沓沓仔來。按呢咱欲挃个物件，就更加較濟。",
+            "Sió-tán--leh! Kî bān-bān-á sing! Ta̍uh-ta̍uh-á lâi. Án-ne lán beh ti̍h ê mi̍h-kiānn, to̍h kìng-ka khah tsē.",
+            "2"
+          ],
+          [
+            "助手",
+            "若按呢，保力个林阿九，會押佗一爿？",
+            "Nā án-ne, Pó-li̍k ê Lîm A-Kiú, ē ap tó tsi̍t pîng?",
+            "2"
+          ],
+          [
+            "丙",
+            "林阿九？烏面戇張飛。行棋綴注，𪜶老母才是諸葛亮。",
+            "Lîm A-Kiú? Oo-bīn gōng Tiunn Hui. Kiânn-kî tè-tù, in lāu-bú tsiah sī Tsu-kat Liāng.",
+            "2"
+          ],
         ]
       },
 
@@ -4041,8 +4485,8 @@ data = [
           [
 
             "姆",
-            "頭人無頭，就毋係頭人啊！你毋驚剁頭係無？",
-            "Těungǐn mǒ těu, qiu m̌ he těungǐn à! Ňg m̌ gíang dogtěu he mǒ?",
+            "<span class='updated'>嘿！</span>頭人無頭，就毋係頭人啊！你毋驚剁頭係無？",
+            "<span class='updated'>Hè!</span> Těungǐn mǒ těu, qiu m̌ he těungǐn à! Ňg m̌ gíang dogtěu he mǒ?",
 
           ],
 
@@ -4113,8 +4557,8 @@ data = [
           [
 
             "九",
-            "做麼<span class='updated'>个呢</span>？愛摎學老講和？幾下代人个冤仇，就恁<span class='updated'>呢</span>清了？",
-            "<div class='sidenote'>這句是「是怎樣？」的意思（DanielaAerts）</div><span class='noted'>Zo mà<span class='updated'>ge nò</span>?</span> Oi láu Hoglò gòngfǒ? Gìhá toi ngǐn ge íansǔ, qiu àn<span class='updated'>ně</span> qín <span class='updated'>lìo</span>?",
+            "做麼<span class='updated'>呢</span>？愛摎學老<span class='updated'>仔</span>講和？幾下代人个冤仇，就恁<span class='updated'>呢</span>清了？",
+            "<div class='sidenote'>這句是「是怎樣？」的意思（DanielaAerts）</div><span class='noted'>Zo mà <span class='updated'>nò</span>?</span> Oi láu Hoglò<span class='updated'>è</span> gòngfǒ? Gìhá toi ngǐn ge íansǔ, qiu àn<span class='updated'>ně</span> qín <span class='updated'>lìo</span>?",
 
           ],
 
@@ -4143,6 +4587,65 @@ data = [
           ],
 
         ]
+      },
+      {
+        "t": "38:33",
+        "rows": [
+          [
+            "甥",
+            "阿舅！<br>阿舅，柴城佮保力，攏封庄矣，無徛旗！",
+            "A-kū!<br>A-kū, Tshâ-siânn kah Pó-li̍k, lóng hong-tsng--ah, bô khiā-kî!",
+            "2"
+          ],
+          [
+            "水",
+            "毋是無徛旗，是猶未徛个。<br>𪜶想欲等較久，提較濟。",
+            "M̄-sī bô khiā-kî, sī iá-buē khiā--ê.<br>In siūnn-beh tán khah kú, thê khah tsē.",
+            "2"
+          ],
+          [
+            "甥",
+            "拄才蝶妹仔來囥宣傳單汝哪會無共伊擋下嘻？",
+            "Tú-tsiah Tia̍p-Muē-á lâi khǹg suan-thuân-tuann lí ná-ē bô kā i tóng-hā--i?",
+            "2"
+          ],
+          [
+            "水",
+            "伊騎馬閣揹銃啦。<br>伊已經毋是以早个蝶妹仔矣。這馬無儂會共社寮鬥相共，去山頂通報生番。",
+            "I khiâ-bé koh phāinn-tshìng--lah.<br>I í-king m̄-sī í-tsá ê Tia̍p-Muē-á--ah. Tsit-má bô lâng ē kā Siā-liâu tàu-sann-kāng, khì suann-tíng thong-pò tshenn-huan.",
+            "2"
+          ],
+          [
+            "甥",
+            "若是生番揣咱催銃愛糧草，按呢是欲按怎！",
+            "Nā-sī tshenn-huan tshuē lán tshui tshìng ài niû-tsháu, án-ne sī beh án-nuá!",
+            "2"
+          ],
+          [
+            "水",
+            "漢人無愛予𪜶，只有我會當予𪜶啦！<br>只是無落雨，庄內个糧草家己儂食攏無夠。先顧家己个！",
+            "Hàn-jîn bô ài hōo in, tsí-ū guá ē-tàng hōo in--lah!<br>Tsí-sī bô lo̍h-hōo, tsng-lāi ê niû-tsháu ka-kī-lâng tsia̍h lóng bô-kàu. Sian kòo ka-tī--ê!",
+            "2"
+          ],
+          [
+            "",
+            "共查某儂囡仔捒彼統領埔咧，庄內糧草嘛全部搬過！",
+            "Kā tsa-bóo-lâng gín-á sak he Thóng-niá-poo--leh, tsng-lāi niû-tsháu mā tsuân-pōo puann kuè!",
+            "2"
+          ],
+          [
+            "甥",
+            "毋過統領埔嘛猶未起好啊！",
+            "M̄-koh Thóng-niá-poo mā iá-buē khí-hó--a!",
+            "2"
+          ],
+          [
+            "水",
+            "啊汝毋就趕緊！咱佮生番來往、共生番報消息，官軍若來，一定會封鎖社寮。<br>琅𤩝欲變天矣。",
+            "A lí m̄-tiō kuánn-kín! Lán kah tshenn-huan lâi-óng, kā tshenn-huan pò siau-sit, kuann-kun nā lâi, it-tīng ē hong-só Siā-liâu.<br>Lân-kiau beh piàn-thinn--ah.",
+            "2"
+          ],
+        ]
       }
     ]
   },
@@ -4152,6 +4655,200 @@ data = [
     "draft": false,
     "title": "ljangudan 獵物",
     "sections": [
+      {
+        "t": "11:51",
+        "rows": [
+          [
+            "甥",
+            "阿舅！阿舅！<hr>",
+            "A-kū! A-kū!",
+            "2"
+          ],
+          [
+            "水",
+            "按怎？有夠無？<br>柴城、保力欲來矣，𣍐當予𪜶看著。",
+            "Án-nuá? Ū kàu bô?<br>Tshâ-siânn, Pó-li̍k beh lâi--ah, buē-tàng hōo in khuànn-tio̍h.",
+            "2"
+          ],
+          [
+            "平",
+            "毋過汝一百五十支銃，數量傷大啦，唐山彼爿，交貨無遐緊啦！",
+            "M̄-koh lí tsi̍t pah gōo-tsa̍p ki tshìng, sòo-liōng siunn tuā--lah, Tn̂g-suann hit-pîng, kau-huè bô hia kín--lah!",
+            "2"
+          ],
+          [
+            "",
+            "好、好、好、好……我叫𪜶較緊。<br>行！<hr>",
+            "Hó, hó, hó, hó... Guá kiò in khah kín.<br>Kiânn!",
+            "2"
+          ],
+          [
+            "甥",
+            "阿舅，汝感覺保力，敢會插？",
+            "A-kū, lí kám-kak Pó-li̍k, kám ē tshah?",
+            "2"
+          ],
+          [
+            "水",
+            "𪜶咧欲想通矣。<br>社寮欲變做孤鳥矣。",
+            "In leh-beh siūnn-thong--ah.<br>Siā-liâu beh piàn-tsò koo-tsiáu--ah.",
+            "2"
+          ],
+        ]
+      },
+      {
+        "t": "14:28",
+        "rows": [
+          [
+            "蝶",
+            "柴城人丁，三年免登科納稅；財產土地，一切照舊。<br>洘旱欠雨，總兵官會揣軍官匠來開井。<br>往鳳山通商貿易，總兵官嘛答應。",
+            "Tshâ-siânn lîn-ting, sann nî bián ting-kho la̍p-suè; tsâi-sán thóo-tē, it-tshè tsiàu-kū.<br>Khò-huānn khiàm hōo, Tsóng-ping-kuann ē tshuē kun-kuann-tshiūnn lâi khui-tsénn.<br>Óng Hōng-suann thong-siong bōo-i̍k, Tsóng-ping-kuann mā tap-ìng.",
+            "2"
+          ],
+          [
+            "丙",
+            "統領埔个代誌，總兵無答應，也是汝無傳達？",
+            "Thóng-niá-poo ê tāi-tsì, Tsóng-ping bô tap-ìng, iā-sī lí bô thuân-ta̍t?",
+            "2"
+          ],
+          [
+            "蝶",
+            "無必要傳達，總兵官講「一切照舊」。統領埔是客儂个。",
+            "Bô pit-iàu thuân-ta̍t, Tsóng-ping-kuann kóng &quot;it-tshè tsiàu kū&quot;. Thóng-niá-poo sī Kheh-lâng--ê.",
+            "2"
+          ],
+          [
+            "丙",
+            "一切照舊？繼續相刣搶田？按呢哪有需要汝引官軍入來呢？",
+            "It-tshè tsiàu kū? Kè-sio̍k sio-thâi tshiúnn tshân? Án-ne nà ū su-iàu lí ín kuann-kun li̍p-lâi--ne?",
+            "2"
+          ],
+          [
+            "",
+            "大人啊！大人，柴城是琅𤩝上大庄，統領埔一向攏是客儂仔種造啊。",
+            "Tāi-jîn--a! Tāi-jîn, Tshâ-siânn sī Lân-kiau siōng tuā tsng, Thóng-niá-poo it-hiòng lóng sī Kheh-lâng-á tsìng-tsō--a.",
+            "2"
+          ],
+          [
+            "李",
+            "",
+            "I'd believe he's taken you for Father Christmas.",
+            "4"
+          ],
+          [
+            "丙",
+            "大人！大人。希望汝會當提供武器，予阮柴城成立鄉勇團練，保護地方！",
+            "Tāi-jîn! Tāi-jîn. Hi-bāng lí ē-tàng thê-kiong bú-khì, hōo gún Tshâ-siânn sîng-li̍p hiang-ióng thuân-liān, pó-hōo tē-hng!",
+            "2"
+          ],
+          [
+            "必",
+            "",
+            "That cheeky old sod! He's trying to get something out of nothing. He's just asked the Chief Commander to supply them with weapons, so he can form his own militia.",
+            "4"
+          ],
+          [
+            "劉",
+            "鄉勇團練，不准！<br>官軍至此，不准地方土紳私有武力！",
+            "Xiāngyǒng tuánliàn, bù zhǔn!<br>Guānjūn zhì cǐ, bù zhǔn dìfāng tǔshēn sīyǒu wǔlì!",
+            "5"
+          ],
+          [
+            "",
+            "",
+            "...",
+            "4"
+          ],
+          [
+            "蝶",
+            "鄉勇團練，總兵官毋答應。",
+            "Hiang-ióng thuân-liān, Tsóng-ping-kuann m̄ tap-ìng.",
+            "2"
+          ],
+          [
+            "丙",
+            "柴城想欲挃啥，汝就照實傳達。加一句減一句，我就無愛共汝當做是通譯！",
+            "Tshâ-siânn siūnn-beh ti̍h siánn, lí tiō tsiàu-si̍t thuân-ta̍t. Ke tsi̍t kù kiám tsi̍t kù, guá tiō bô ài kā lí tòng-tsò sī thong-i̍k!",
+            "2"
+          ],
+          [
+            "劉",
+            "番女，帶路！<hr>",
+            "Fānnǚ, dàilù!",
+            "5"
+          ],
+          [
+            "助",
+            "統領埔猶是無提著。",
+            "Thóng-niá-poo iā-sī bô thê--tio̍h.",
+            "2"
+          ],
+          [
+            "丙",
+            "至少荒埔𣍐變禁地。<br>欲去鳳山通商也免受著社寮个控制矣。<br>啊，這馬想欲佇琅𤩝生存，就愛看儂个面色。",
+            "Tsì-tsió hng-poo buē piàn kìm-tē.<br>Beh khì Hōng-suann thong-siong iā bián siū-tio̍h Siā-liâu ê khòng-tsè--ah.<br>A, tsit-má siūnn-beh tī Lân-kiau sing-tsûn, to̍h ài khuànn lâng ê bīn-sik.",
+            "2"
+          ],
+        ]
+      },
+      {
+        "t": "17:04",
+        "rows": [
+          [
+            "水",
+            "來！",
+            "Lâi!",
+            "2"
+          ],
+          [
+            "甥",
+            "阿舅啊！官軍出柴城矣！",
+            "A-kū--a! Kuann-kun tshut Tshâ-siânn--ah!",
+            "2"
+          ],
+          [
+            "水",
+            "共糧草攏搬入來！",
+            "Kā niû-tsháu lóng puann li̍p-lâi!",
+            "2"
+          ],
+          [
+            "庄儂",
+            "好！",
+            "Hó!",
+            "2"
+          ],
+        ]
+      },
+      {
+        "t": "19:13",
+        "rows": [
+          [
+            "甥",
+            "阿舅，無代誌無代誌。無入庄个！對保力遐去矣！",
+            "A-kū, bô tāi-tsì bô tāi-tsì. Bô li̍p-tsng--ê! Tuì Pó-li̍k hia khì--ah!",
+            "2"
+          ],
+          [
+            "水",
+            "去保力，是𪜶有價值。啊社寮無儂欲用，閣會當生存無？",
+            "Khì Pó-li̍k, sī in ū kè-ta̍t. A Siā-liâu bô lâng beh iōng, koh ē-tàng sing-tsûn--bô?",
+            "2"
+          ],
+          [
+            "",
+            "引𪜶入庄！若願意入庄喔，社寮就有利用个價值矣，就有較濟機會矣！",
+            "Ín in li̍p-tsng! Nā guān-ì li̍p-tsng--oo, Siā-liâu tiō ū lī-iōng ê kè-ta̍t--ah, tiō ū khah tsē ki-huē--ah!",
+            "2"
+          ],
+          [
+            "",
+            "蝶妹啊！大人啊！來阮社寮啦！來啦！<br>來阮社寮啦！大人啊！",
+            "Tia̍p-Muē--a! Tāi-jîn--a! Lâi gún Siā-liâu--lah! Lâi--lah!<br>Lâi gún Siā-liâu--lah! Tāi-jîn--a!",
+            "2"
+          ],
+        ]
+      },
 
       {
         "t": "20:17",
@@ -4310,6 +5007,321 @@ data = [
 
         ]
       },
+      {
+        "t": "25:49",
+        "rows": [
+          [
+            "水",
+            "囥好矣，囥好矣，緊咧。",
+            "Khǹg hó--ah, khǹg hó--ah, kín--leh.",
+            "2"
+          ],
+          [
+            "",
+            "大人啊！大人！來阮社寮啊！",
+            "Tāi-jîn--a! Tāi-jîn! Lâi gún Siā-liâu--a!",
+            "2"
+          ],
+          [
+            "蝶",
+            "",
+            "Sir, <span class='lang2'>Siā-liâu</span> is ready to receive troops.",
+            "4"
+          ],
+          [
+            "水",
+            "大人！來啦！來阮遮啦！",
+            "Tāi-jîn! Lâi--lah! Lâi gún tsia--lah!",
+            "2"
+          ],
+          [
+            "",
+            "",
+            "...",
+            "4"
+          ],
+          [
+            "水",
+            "蝶妹啊！蝶妹啊！",
+            "Tia̍p-Muē--a! Tia̍p-Muē--a!",
+            "2"
+          ],
+          [
+            "",
+            "",
+            "...",
+            "4"
+          ],
+          [
+            "水",
+            "大人啊！大人！來啦！",
+            "Tāi-jîn--a! Tāi-jîn! Lâi--lah!",
+            "2"
+          ],
+          [
+            "劉",
+            "我能給他更大的恐懼。",
+            "I can do one better.",
+            "4"
+          ],
+          [
+            "水",
+            "來阮社寮啦！",
+            "Lâi gún Siā-liâu--lah!",
+            "2"
+          ],
+        ]        
+      },
+      {
+        "t": "26:52",
+        "rows": [
+          [
+            "甥",
+            "來總搬去予蛇軍！<hr>",
+            "Lâi tsóng puann khì hōo Siâ-kun!",
+            "2"
+          ],
+          [
+            "水",
+            "大人啊，入庄啉茶啦。",
+            "Tāi-jîn--a, li̍p-tsng lim tê--lah.",
+            "2"
+          ],
+          [
+            "劉",
+            "",
+            "A grave it is!",
+            "4"
+          ],
+          [
+            "",
+            "",
+            "...",
+            "4"
+          ],
+          [
+            "水",
+            "蝶妹啊，啊生番恨紅毛番，社寮是生番个領地，無法度啦！",
+            "Tia̍p-Muē--a, a tshenn-huan hūn âng-môo-huan, Siā-liâu sī tshenn-huan ê niá-tê, bô-huat-tōo--lah!",
+            "2"
+          ],
+          [
+            "李",
+            "",
+            "Get back from him! We've heard what he had to say, do not talk to him.",
+            "4"
+          ],
+          [
+            "必",
+            "頂擺蝶妹來，汝共伊逼問官軍个消息！",
+            "Tíng-pái Tia̍p-Muē lâi, lí kā i pik-mn̄g kuann-kun ê siau-sit!",
+            "2"
+          ],
+          [
+            "水",
+            "無啦！無啦！烏白講！",
+            "Bô--lah! Bô--lah! Oo-pe̍h-kóng!",
+            "2"
+          ],
+          [
+            "",
+            "蝶妹啊，啊頂擺汝來阮兜我也無傷害汝啊！較會講我逼問汝消息呢！呵呵。",
+            "Tia̍p-Muē--a, a tíng-pái lí lâi gún-tau guá iā bô siong-hāi lí--a! Khah ē kóng guá pik-mn̄g lí siau-sit--ne! Her-her.",
+            "2"
+          ],
+          [
+            "劉",
+            "",
+            "Ask him about the ambush.",
+            "4"
+          ],
+          [
+            "李",
+            "",
+            "<div class='sidenote'>英文字幕有錯字……</div>It's him, informed the savages of our camp <span class='noted'>site</span>.<br>That's how they found us.",
+            "4"
+          ],
+          [
+            "必",
+            "是汝！是汝叫生番來刣官軍。",
+            "Sī lí! Sī lí kiò tshenn-huan lâi thâi kuann-kun.",
+            "2"
+          ],
+          [
+            "水",
+            "無啦！冤枉啊！大人啊！我無報生番，毋是我報个啊，毋是啦！",
+            "Bô--lah! Uan-óng--a! Tāi-jîn--a! Guá bô pò tshenn-huan, m̄-sī guá pò--ê--a, m̄-sī--lah!",
+            "2"
+          ],
+          [
+            "李",
+            "",
+            "You still deny it?<br>So if it wasn't you, it was her, then?",
+            "4"
+          ],
+          [
+            "水",
+            "蝶妹仔，汝共我做通譯，汝共大人講一下，汝共大人講，汝來阮社寮看覓仔啦！阮社寮啥物攏無，散閣破，啊銃也無幾枝啊，哪有這个膽啦！",
+            "Tia̍p-Muē-á, lí kā guá tsò thong-i̍k, lí kā Tāi-jîn kóng tsi̍t-ē, lí kā Tāi-jîn kóng, lí lâi gún Siā-liâu khuànn-māi-á--lah! Gún Siā-liâu sánn-mih lóng bô, sàn koh phuà, a tshìng iā bô kuí ki--a, nà ū tsit-ê tánn--lah!",
+            "2"
+          ],
+          [
+            "軍官",
+            "稟大人：統領埔已有熟番土民進駐，且藏有糧食！",
+            "Bǐng Dàrén: Tǒnglǐngpǔ yǐ yǒu shóufān tǔmín jìnzhù, qiě cáng yǒu liángshí!",
+            "5"
+          ],
+          [
+            "劉",
+            "私佔漢人土地？<br>最後機會，升旗歸順！",
+            "Sīzhàn Hànrén tǔdì?<br>Zuìhòu jīhuì, shēngqí guīshùn!",
+            "5"
+          ],
+          [
+            "必",
+            "敢佔統領埔？緊徛旗！",
+            "Kánn tsiàm Thóng-niá-poo? Kín khiā-kî!",
+            "2"
+          ],
+          [
+            "水",
+            "蝶妹仔……生番講，我若替外口儂鬥相共，𪜶就欲血洗社寮，我是欲按怎徛旗啦？",
+            "Tia̍p-Muē-á... Tshenn-huan kóng, guá nā thè guā-kháu-lâng tàu-sann-kāng, in tiō beh hiat-sé Siā-liâu, guá sī beh án-nuá khiā-kî--lah?",
+            "2"
+          ],
+          [
+            "李",
+            "",
+            "General, he's squirming. I've seen this before. The only way to remove a tick is to burn it with fire. You should move on Tonglingpu, burn the settlement down! Do not let them spread.",
+            "4"
+          ],
+          [
+            "蝶",
+            "阿水兄，汝緊升旗，若無統領埔佮米糧會夆燒了了。彼是阮兜呢！",
+            "A-Tsuí Hiann, lí kín sing-kî, nā-bô Thóng-niá-poo kah bí-niû ē hőng sio-liáu-liáu. He sī gún tau--ne!",
+            "2"
+          ],
+          [
+            "水",
+            "汝為啥物欲共我害，講我逼問汝消息？叫生番去拍官兵嘛毋是我講个啊！<br>𣍐使燒統領埔啦！生番來收兩擺糧矣，若閣燒，社寮著無糧草矣！",
+            "Lí uī-siánn-mih beh kā guá hāi, kóng guá pik-mn̄g lí siau-sit? Kiò tshenn-huan khì phah kuann-kun mā m̄-sī guá kóng--ê--a!<br>Buē-sái sio Thóng-niá-poo--lah! Tshenn-huan lâi siu nn̄g pái niû--ah, nā koh sio, Siā-liâu tiō bô niû-tsháu--ah!",
+            "2"
+          ],
+          [
+            "劉",
+            "升？還是不升？",
+            "Shēng? Háishì bù shēng?",
+            "5"
+          ],
+          [
+            "蝶",
+            "阿水兄，我毋是刁工个啦。汝先升旗，官軍會保護社寮，而且，官軍會繼續留佇彼琅𤩝，汝就毋免驚生番報復矣。",
+            "A-Tsuí Hiann, guá m̄-sī thiau-kang--ê--lah. Lí sian sing-kî, kuann-kun ē pó-hōo Siā-liâu, lî-tshiánn, kuann-kun ē kè-sio̍k lâu tī-he Lân-kiau, lí tiō m̄-bián kiann tshenn-huan pò-ho̍k--ah.",
+            "2"
+          ],
+          [
+            "水",
+            "琅𤩝閣欲加一批漢人？漢人𣍐予社寮活啦，生番才會共社寮鬥相共。我𣍐使徛旗。<br>我𣍐使徛旗啦！",
+            "Lân-kiau koh beh ke tsi̍t phue Hàn-jîn? Hàn-jîn buē hōo Siā-liâu ua̍h--lah, tshenn-huan tsiah ē kā Siā-liâu tàu-sann-kāng. Guá buē-sái khiā-kî.<br>Guá buē-sái khiā-kî--lah!",
+            "2"
+          ],
+          [
+            "李",
+            "",
+            "<div class='sidenote'>這邊是在講前幾天清軍差點被斯卡羅勇士夜襲的事。華文字幕誤為未來式</div>General! Your army <span class='noted'>was</span> nearly overrun because of the actions of one tick.",
+            "4"
+          ],
+          [
+            "劉",
+            "把統領埔燒了！",
+            "Bǎ Tǒnglǐngpǔ shāo le!",
+            "5"
+          ],
+          [
+            "軍官",
+            "諾！",
+            "Nuò!",
+            "5"
+          ],
+          [
+            "劉",
+            "粒米不留！",
+            "Lì mǐ bù liú!",
+            "5"
+          ],
+          [
+            "蝶",
+            "",
+            "No!!!!!!!",
+            "4"
+          ],
+          [
+            "水",
+            "伊講啥？伊講啥？燒哦？𣍐使燒啦！大人啊！大人啊！冤枉喔，社寮會餓死，毋是我去報个，我無報生番！我無報生番啦！",
+            "I kóng sánn? I kóng sánn? Sio--oo? Buē-sái sio--lah! Tāi-jîn--a! Tāi-jîn--a! Uan-óng--oo, Siā-liâu ē gō-sí, m̄-sī guá khì pò--ê, guá bô pò tshenn-huan! Guá bô pò tshenn-huan--lah!",
+            "2"
+          ],
+          [
+            "劉",
+            "綁起來！",
+            "Bǎng qǐlái!",
+            "5"
+          ],
+          [
+            "水",
+            "大人啊！我無報生番啦！<br>我無報生番，<br>我無報生番啦！大人啊！",
+            "Tāi-jîn--a! Guá bô pò tshenn-huan--lah!<br>Guá bô pò tshenn-huan,<br>Guá bô pò tshenn-huan--lah! Tāi-jîn--a!",
+            "2"
+          ],
+          [
+            "",
+            "蝶妹啊！！！我無報啦！𣍐使燒統領埔啦！蝶妹啊！𣍐使啦！！！啊啊啊～～～<hr>",
+            "Tia̍p-Muē--a!!! Guá bô pò--lah! Buē-sái sio Thóng-niá-poo--lah! Tia̍p-Muē--a! Buē-sái--lah!!! A-a-a~~~",
+            "2"
+          ],
+          [
+            "必",
+            "",
+            "I told you before this land was cursed but never did I expect it would come to this! Burning villages, hanging a man on a cross! Damn you!",
+            "4"
+          ],
+        ]
+      },
+      {
+        "t": "32:28",
+        "rows": [
+          [
+            "甥",
+            "阿舅！！！咱徛旗啦！",
+            "A-kū!!! Lán khiā-kî--lah!",
+            "2"
+          ],
+          [
+            "",
+            "",
+            "...",
+            "2"
+          ],
+          [
+            "",
+            "莫啦！阿舅！",
+            "Mài-lah! A-kū!",
+            "2"
+          ],
+          [
+            "水",
+            "徛旗進前就愛先起火啊！才會當予生番看！<br>火無夠大啦！燒較炎咧啊！",
+            "Khiā-kî tsìn-tsîng tiō ài sian khí-hué--a! Tsiah ē-tàng hōo tshenn-huan khuànn!<br>Hué bô kàu tuā--lah! Sio khah iām--leh--a!",
+            "2"
+          ],
+          [
+            "",
+            "看啊！看啊！你們被漢人包圍了！<br>下山！殺光蛇軍！<br>下山啊！殺光漢人！血洗社寮啊！<br>下山啊！下山啊！",
+            "(Payuan)<br><br><br><br><br>",
+            "3"
+          ],
+        ]
+      },
 
       {
         "t": "37:20",
@@ -4458,6 +5470,12 @@ data = [
             "Gusò m̌ he pěn'íu lè o?",
 
           ],
+          [
+            "Tok",
+            "不是朋友，也還不算敵人！",
+            "...<br>",
+            "3"
+          ],
 
         ]
       },
@@ -4581,14 +5599,19 @@ data = [
         "rows": [
           [
             "水",
-            "緊割！緊割！稻仔袂<span class='updated'>飽穗</span>，漢儂無愛食，咱來食！咱來食！",
-            "Kín kuah! Kín kuah! Tiū-á bē <span class='updated'>pá-suī</span>, Hàn-lâng bô ài tsia̍h, lán lâi tsia̍h! Lán lâi tsia̍h!",
+            "緊割！緊割！稻仔𣍐<span class='updated'>飽穗</span>，漢<span class='updated'>人</span>無愛食，咱來食！咱來食！",
+            "Kín kuah! Kín kuah! Tiū-á bē <span class='updated'>pá-suī</span>, Hàn-<span class='updated'>jîn</span> bô ài tsia̍h, lán lâi tsia̍h! Lán lâi tsia̍h!",
             "2"
           ],
           [
             "庄人",
             "喂！做麼<span class='updated'><span class='TBD'>＿</span>割</span>吾禾！<hr>",
             "Òi! Zo mà <span class='updated'><span class='TBD'>___</span> gòd</span> ngá vǒ!"
+          ],
+          [
+            "",
+            "",
+            "..."
           ],
           [
             "水",
@@ -4644,7 +5667,7 @@ data = [
           ],
           [
             "九",
-            "<div class='sidenote'>Ho̍h-ló 有「激外外」，演員客話聽來像 giog？（GHSRobert）<br>同前述是 giug，暫時還不確定用哪字，先這樣用（DanielaAerts）</div>你想愛<span class='noted'><span class='TBD updated'>挶</span>外外</span>，有還<span class='updated'>較</span>壞个事情會發生到若身項！你穩死个啊！",
+            "<div class='sidenote'>Ho̍h-ló 有「激外外」，演員客話聽來像 giog？（GHSRobert）<br>同前述是 giug，暫時還不確定用哪字，先這樣用（DanielaAerts）</div>你想愛<span class='noted'><span class='TBD updated'>挶</span>外外</span>，有還<span class='updated'>較</span>壞个事情會發生到若身項！你穩死个啊！<hr>",
             "Ňg xìong'oi <span class='TBD updated'>giug</span>ngoingoi, íu hǎn <span class='updated'>ka</span> faige siiqǐn voi fàdsén do ngía sǐin hong! Ňg vùn xì ge à!"
           ],
           [
@@ -4671,7 +5694,7 @@ data = [
             "5"
           ],
           [
-            "劉",
+            "",
             "你，走！",
             "Nǐ, zǒu!",
             "5"
@@ -4686,7 +5709,72 @@ data = [
             "",
             "The rice isn't ready for harvest.",
             "4"
-          ]
+          ],
+          [
+            "",
+            "",
+            "...",
+            ""
+          ],
+        ]
+      },
+      {
+        "t": "16:49",
+        "rows": [
+          [
+            "劉",
+            "理番同知？",
+            "Lǐfān Tóngzhī?",
+            "5"
+          ],
+          [
+            "同知",
+            "𪜶愛啥？<br>講啊！",
+            "In ài sánn?<br>Kòng--a!",
+            "2"
+          ],
+          [
+            "",
+            "講啊！",
+            "Kòng--a!",
+            "2"
+          ],
+          [
+            "劉",
+            "說！",
+            "Shuō!",
+            "5"
+          ],
+          [
+            "水",
+            "𪜶講欲來揣漢人朋友啦。想欲知影恁揣著殺人凶手矣未。<br>嘛想欲佮恁提一寡物件，講會當共恁鬥相共。",
+            "In kóng beh lâi tshuē Hàn-jîn pîng-iú--lah. Siūnn-beh tsai-iánn lín tshuē tio̍h sat-jîn hiong-tshiú--ah-buē.<br>Mā siūnn-beh kah lín thê tsi̍t-kuá mi̍h-kiānn, kóng ē-tàng kā lín tàu-sann-kāng.",
+            "2"
+          ],
+          [
+            "劉",
+            "警告社寮頭人：譯語從中弄鬼，就燒社寮！",
+            "Jǐnggàu Shèliáo tóurén: yìyǔ cóng zhōng nòng gǔi, jiù shāo Shèliáo!",
+            "5"
+          ],
+          [
+            "同知",
+            "起來！<br>通譯！",
+            "Khí-lâi!<br>Thong-i̍k!",
+            "2"
+          ],
+          [
+            "劉",
+            "等會問社寮頭人上山路線。上次番女通譯前來談判，也是他帶路。",
+            "Děnghǔi wùn Shèliáo tóurén shàngshān lùxiàn. Shàngcì fānnǚ tōngyì qiánlái tánpàn, yě shì tā dàilù.",
+            "5"
+          ],
+          [
+            "",
+            "",
+            "...",
+            "3"
+          ],
         ]
       },
       {
@@ -4719,23 +5807,702 @@ data = [
           ],
           [
             "庄人",
-            "屌麼个！你講麼个漦！",
+            "屌麼个！你講麼个漦！<hr>",
             "D<span class='updated'>ì</span>au màge! Ňg gòng màge xǐau!"
-          ]
+          ],
+          [
+            "杰",
+            "",
+            "...",
+            "3"
+          ],
+          [
+            "水",
+            "汝是嫌阮庄口死个儂無夠濟毋？敢欲共伊吊去彼爿啊？<br>汝姐也共我害，汝嘛想欲共我害喔阿杰仔？",
+            "Lí sī hiâm guán tsng-kháu sí ê lâng bô kàu tsē m̄? Kám beh kā i tiàu khì hit-pîng--a?<br>Lí tsí iā kā guá hāi, lí mā siūnn-beh kā guá hāi--oo A-Kia̍t-á?",
+            "2"
+          ],
+          [
+            "杰",
+            "我是來共汝鬥相共。一百五十支銃咧？生番个大股頭，是我阿舅。",
+            "Guá sī lâi kā lí tàu-sann-kāng. Tsi̍t pah gōo-tsa̍p ki tshìng--leh? Tshenn-huan ê Tuā-kóo-thâu, sī guá a-kū.",
+            "2"
+          ],
+          [
+            "",
+            "社寮也共官軍，鬥開山路啊！",
+            "Siā-liâu iā kā kuann-kun, tàu khui suann-lōo--a!",
+            "2"
+          ],
+          [
+            "軍官",
+            "械鬥的，過來，充丁役！",
+            "Xiètòu de, guòlái, chōng dīngyì!",
+            "5"
+          ],
+          [
+            "甥",
+            "伊是大股頭个外甥仔？",
+            "I sī Tuā-kóo-thâu ê guē-sing-á?",
+            "2"
+          ],
+          [
+            "杰",
+            "",
+            "...",
+            "3"
+          ],
         ]
       },
+      {
+        "t": "37:09",
+        "rows": [
+          [
+            "必",
+            "汝會使走，多謝。",
+            "Lí ē-sái tsáu, to-siā.",
+            "2"
+          ],
+        ]
+      },
+      {
+        "t": "37:18",
+        "rows": [
+          [
+            "水",
+            "山頂个大股頭，敢──",
+            "Suann-tíng ê Tuā-kóo-thâu, kám ---",
+            "2"
+          ],
+          [
+            "杰",
+            "我是毋是大股頭个外甥仔、生番按怎對付軍隊，佮汝無底代。",
+            "Guá sī-m̄-sī Tuā-kóo-thâu ê guē-sing-á, tshenn-huan án-nuá tuì-hù kun-tuī, kah lí bô tī-tāi.",
+            "2"
+          ],
+          [
+            "",
+            "汝𤆬儂開路入山、食軍隊糧食，生番會血洗社寮。",
+            "Lí tshuā lâng khui-lōo li̍p-suann, tsia̍h kun-tuī niû-si̍t, tshenn-huan ē hiat-sé Siā-liâu.",
+            "2"
+          ],
+          [
+            "水",
+            "血洗社寮？聽過矣。<br>喂，其實喔，我會當共汝交予𪜶呢！大股頭个外甥仔。",
+            "Hiat-sé Siā-liâu? Thiann-kuè--ah.<br>Eh, kî-si̍t--oo, guá ē-tàng kā lí kau hōo in--ne! Tuā-kóo-thâu ê guē-sing-á.",
+            "2"
+          ],
+          [
+            "",
+            "我等恁生番落山是等到斷糧，汝這馬怪我開路食官糧？大股頭个外甥仔就這點仔<span class='TBD'>腳數</span>？只敢講「血洗社寮」？",
+            "Guá tán lín tshenn-huan lo̍h-suann sī tán kàu tn̄g-niû, lí tsit-má kuài guá khui-lōo tsia̍h kuann-niû? Tuā-kóo-thâu ê guē-sing-á tiō tsit tiám-á <span class='TBD'>kioh-siàu</span>? Tsí kánn kóng &quot;hiat-sé Siā-liâu&quot;?",
+            "2"
+          ],
+          [
+            "",
+            "汝哪會無愛去血洗仝款徛旗个柴城佮保力？",
+            "Lí ná-ē bô-ài khì hiat-sé kāng-khuán khiā-kî ê Tshâ-siânn kah Pó-li̍k?",
+            "2"
+          ],
+          [
+            "",
+            "我會當共汝鬥相共。",
+            "Guá ē-tàng kā lí tàu-sann-kāng.",
+            "2"
+          ],
+          [
+            "杰",
+            "按怎鬥相共？",
+            "Án-ná tàu-sann-kāng?",
+            "2"
+          ],
+          [
+            "水",
+            "哼。欲解決琅𤩝个問題，先處理恁兜个代誌矣，大股頭个外甥仔，蝶妹个小弟！<hr>",
+            "Hngh. Beh kái-kuat Lân-kiau ê būn-tê, sian tshú-lí lín tau ê tāi-tsì--ah, Tuā-kóo-thâu ê guē-sing-á, Tia̍p-Muē ê sió-tī!",
+            "2"
+          ],
+          [
+            "必",
+            "",
+            "So, do you still need to go to Tonglingpu?",
+            "4"
+          ],
+          [
+            "",
+            "",
+            "...",
+            "4"
+          ],
+          [
+            "必",
+            "阿水啊，紅毛番想欲知影，這段時間，阿杰攏佇佗位？是毋是統領埔？",
+            "A-Tsuí--a, âng-môo-huan siūnn-beh tsai-iánn, tsit tuānn sî-kan, A-Kia̍t lóng tī tó-uī? Sī-m̄-sī Thóng-niá-poo?",
+            "2"
+          ],
+          [
+            "",
+            "",
+            "...",
+            "4"
+          ],
+        ]
+      },
+      {
+        "t": "43:00",
+        "rows": [
+          [
+            "水",
+            "生番若刣來，阮社寮个儂嘛佇个呢！",
+            "Tshenn-huan nā thâi lâi, gún Siā-liâu ê lâng mā tī ê--ne!",
+            "2"
+          ],
+          [
+            "杰",
+            "汝食官軍个白米、替官軍𤆬路，本來就愛付出代價。",
+            "Lí tsia̍h kuann-kun ê pe̍h-bí, thè kuann-kun tshuā-lōo, pún-lâi tiō ài hù-tshut tāi-kè.",
+            "2"
+          ],
+          [
+            "水",
+            "原本恁生番愛付出个代價是偌大！我嘛知影講二股頭部落个路是欲按怎行，但是我無共蛇軍講。",
+            "Guân-pún lín tshenn-huan ài hù-tshut ê tāi-kè sī juā tuā! Guá mā tsai-iánn kóng Lī-kóo-thâu pōo-lo̍k ê lōo sī beh án-nuá kiânn, tān-sī guá bô kā Siâ-kun kóng.",
+            "2"
+          ],
+          [
+            "庄儂",
+            "頭儂！",
+            "Thâu-lâng!",
+            "2"
+          ],
+          [
+            "軍官",
+            "你！過來！",
+            "Nǐ! Guòlái!",
+            "5"
+          ],
+        ]
+      }
     ]
   },
   {
     "EP": "10",
     "title": "ljayar 瘟疫",
-    "sections": [],
+    "sections": [
+      {
+        "t": "2:10",
+        "rows": [
+          [
+            "劉",
+            "入山口還有多遠？帶路！",
+            "Rùshānkǒu hái yǒu duō yuǎn? Dàilù!",
+            "5"
+          ],
+          [
+            "",
+            "走！",
+            "Zǒu",
+            "5"
+          ],
+          [
+            "杰",
+            "蛇軍愛汝𤆬路。<hr>",
+            "Siâ-kun ài lí tshuā-lōo.",
+            "2"
+          ],
+          [
+            "水",
+            "繼續行入去就是矣。",
+            "Kè-sio̍k kiânn-khì tiō sī--ah.",
+            "2"
+          ],
+          [
+            "劉",
+            "找理番通譯，另尋他路！",
+            "Zhǎo Lǐfān Tōngyì, lìng xún tā lù!",
+            "5"
+          ],
+          [
+            "軍官",
+            "諾！",
+            "Nuò!",
+            "5"
+          ],
+        ]
+      },
+      {
+        "t": "33:55",
+        "rows": [
+          [
+            "水",
+            "阿杰仔！汝欲去佗？",
+            "A-Kia̍t-á! Lí beh khì tah?",
+            "2"
+          ],
+          [
+            "杰",
+            "我欲去揣阮阿姐。",
+            "Guá beh khì tshuē gún a-tsí.",
+            "2"
+          ],
+          [
+            "水",
+            "銃來矣。船佇欲靠岸矣。汝欲去山頂通報，抑是閣欲去揣彼个理番通譯？汝家己選。<br>百外支銃，庄仔內無地藏，生番若無愛矣，我就擲落去海底。",
+            "Tshìng lâi--ah. Tsûn tí-beh khò-huānn--ah. Lí beh khì suann-tíng thong-pò, a̍h-sī koh beh khì tshuē hit-ê Lí-huan Thong-i̍k? Lí ka-kī suán.<br>Pah guā ki tshìng, tsng-á lâi bô tè tshàng, tshenn-huan nā bô ài--ah, guá tiō tàn-lo̍h-khì hái-té.",
+            "2"
+          ],
+        ]
+      },
+      {
+        "t": "36:48",
+        "rows": [
+          [
+            "必",
+            "",
+            "Are you going to burn this one too?",
+            "4"
+          ],
+          [
+            "水",
+            "無啦，大人，這毋是阮社寮个。",
+            "Bô--lah, Tāi-jîn, tse m̄-sī gún Siā-liâu--ê.",
+            "2"
+          ],
+          [
+            "李",
+            "",
+            "Why is he groveling?",
+            "4"
+          ],
+          [
+            "水",
+            "冤枉喔，大人啊！這毋是阮个啦！求求大人啊！汝著愛共阮保護喔！這馬阮社寮喔，無地食，只會當靠大人汝共阮保護矣！拜託喔！求求汝啊，大人啊！",
+            "Uan-óng--oo, Tāi-jîn--a! Tse m̄-sī gún-ê--lah! Kiû-kiû Tāi-jîn--a! Lí tio̍h ài kā gún pó-hōo--oo! Tsit-má gún Siā-liâu--oo, bô tè tsia̍h, tsí ē-tàng khò Tāi-jîn lī kā gún pó-hōo--ah! Pài-thok--oo! Kiû-kiû lí--a, Tāi-jîn--a!",
+            "2"
+          ],
+          [
+            "劉",
+            "",
+            "...",
+            "4"
+          ],
+          [
+            "水",
+            "大人啊，冤枉喔！這喔，毋是阮社寮走水入來个，這是柴城个啦！社寮喔，真正無物仔通好食，佇欲餓死矣！大人啊！求求恁喔！……大人啊拜託！<hr>",
+            "Tāi-jîn--a, uan-óng--oo! Tse--oo, m̄-sī gún Siā-liâu tsáu-tsuí li̍p-lâi--ê, tse sī Tshâ-siânn--ê--lah! Siā-liâu--oo, tsin-tsiànn bô mi̍h-á thang-hó tsia̍h, tí-beh gō-sí--ah! Tāi-jîn--a! Kiû-kiû lín--oo!... Tāi-jîn--a pài-thok!",
+            "2"
+          ],
+          [
+            "杰",
+            "恁哪會徛旗？",
+            "Lín ná-ē khiā-kî?",
+            "2"
+          ],
+          [
+            "甥",
+            "官軍喔，已經入庄矣啦，無徛旗喔，是欲揣死哦？<hr>",
+            "Kuann-kun--oo, í-king li̍p-tsng--ah--lah, bô khiā-kî--oo, sī beh tshuē-sí--oo?",
+            "2"
+          ],
+          [
+            "水",
+            "……社寮欲餓死矣……",
+            "...Siā-liâu beh gō-sí--ah...",
+            "2"
+          ],
+          [
+            "必",
+            "",
+            "He says he needs your protection!<br>And he says the food's not his, it belongs to <span class='lang2'>Tshâ-siânn</span>.<hr>",
+            "4"
+          ],
+          [
+            "杰",
+            "銃咧？<hr>",
+            "Tshìng--leh?",
+            "2"
+          ],
+          [
+            "軍官",
+            "滾！<br>總兵大人知道了，你人頭落地！",
+            "Gǔn!<br>Zǒngbīng Dàrén zhīdào le, nǐ réntóu luòdì!",
+            "5"
+          ],
+          [
+            "",
+            "稟報大人，運糧隊回來了。",
+            "Bǐngbào Dàrén, yùnliángduì huílái le.",
+            "5"
+          ],
+          [
+            "劉",
+            "說。",
+            "Shuō.",
+            "5"
+          ],
+          [
+            "",
+            "",
+            "...",
+            "5"
+          ],
+          [
+            "劉",
+            "告訴他，這些魚，一條都不能少！<br>明日一早，送到軍營！",
+            "Gàosù tā, zhèxiē yú, yì tiáu dōu bù néng shǎo!<br>Míngrì yìzǎu, sòng dàu jūnyíng!",
+            "5"
+          ],
+          [
+            "必",
+            "一个物件，攏𣍐使欠。明仔載，透早，再去軍營。",
+            "Tsi̍t-ê mi̍h-kiānn, lóng buē-sái khiàm. Bîng-á-tsài, thàu-tsá, tsiah khì kun-iânn.",
+            "2"
+          ],
+          [
+            "水",
+            "是！是！是！是。",
+            "Sī! Sī! Sī! Sī.",
+            "2"
+          ],
+        ]
+      },
+      {
+        "t": "39:26",
+        "rows": [
+          [
+            "丙",
+            "唉。掠無半塊魚，糧食閣賰十工，官軍已經斷糧。唉。<br>庄尾二十外戶閣著熱病，免等候生番落山報復，柴城就愛滅庄矣。",
+            "Ai. Lia̍h bô puànn tè hî, niû-si̍t koh tshun tsa̍p kang, kuann-kun í-king tn̄g-niû. Ai.<br>Tsng-bué lī-tsa̍p guā hōo koh tio̍h jia̍t-pēnn, bián tán-hāu tshenn-huan lo̍h-suann pò-ho̍k, Tshâ-siânn to̍h ài bia̍t-tsng--ah.",
+            "2"
+          ],
+        ]
+      },
+      {
+        "t": "45:10",
+        "rows": [
+          [
+            "水",
+            "血洗蛇軍愛斬頭啦，啊毋緊轉去山頂？",
+            "Hiat-sé Siâ-kun ài tsám-thâu--lah, a m̄ kín tńg-khì suann-tíng?",
+            "2"
+          ],
+          [
+            "",
+            "若按呢好啊，原本想講蛇軍欲查問<span class='ligature'>誰儂</span>去通報生番个，我欲擔；這馬毋免矣。",
+            "Nā án-ne hó--a, guân-pún siūnn-kóng Siâ-kun beh tsa-mn̄g siáng khì thong-pò tshenn-huan--ê, guá beh tann; tsit-má m̄-bián--ah.",
+            "2"
+          ],
+          [
+            "杰",
+            "替我擔？毋是出賣我？",
+            "Thè guá tann? M̄-sī tshut-bē guá?",
+            "2"
+          ],
+          [
+            "水",
+            "毋是出賣，是做買賣。<br>遐个銃我欲交換統領埔。汝去共大股頭講。",
+            "M̄-sī tshut-bē, sī tsò bé-bē.<br>Hia ê tshìng guá beh kau-uānn Thóng-niá-poo. Lí khì kā Tuā-kóo-thâu kóng.",
+            "2"
+          ],
+          [
+            "杰",
+            "汝欲擔，儂頭會落地，猶想欲交換統領埔創啥？",
+            "Lí beh tann, lâng-thâu ē lo̍h-tē, á siūnn-beh kau-uānn Thóng-niá-poo tshòng--siánn?",
+            "2"
+          ],
+          [
+            "水",
+            "恁一定會拍起來，我這馬是兩爿綴。<br>紅毛船、漢人、蛇軍，後壁閣有啥物儂欲來毋知影。恁生番早慢會消失。若加一塊地，就加十分力；若有統領埔，社寮就算無我、無恁生番，嘛會當活！",
+            "Lín it-tīng ē phah khí-lâi, guá tsit-má sī nn̄g-pîng tè.<br>Âng-môo-tsûn, Hàn-jîn, Siâ-kun, āu-piah koh ū siánn-mih-lâng beh lâi m̄ tsai-iánn. Lín tshenn-huan tsá-bān ē siau-sit. Nā ke tsi̍t tè tē, tiō ke tsa̍p hun la̍t; nā ū Thóng-niá-poo, Siā-liâu tiō-sǹg bô guá, bô lín tshenn-huan, mā ē-tàng ua̍h!",
+            "2"
+          ],
+          [
+            "",
+            "汝若想欲擔，汝就擔到底！統領埔我家己想辦法，汝莫出賣我。",
+            "Lí nā siūnn-beh tann, lí tiō tann kàu té! Thóng-niá-poo guá ka-kī siūnn pān-huat, lí mài tshut-bē guá.",
+            "2"
+          ],
+          [
+            "杰",
+            "彼暗，我佮阮爸拄著个毋是偷牛賊，是汝。",
+            "Hit àm, guá kah gún pâ tú-tio̍h ê m̄-sī thâu-gû-tsha̍t, sī lí.",
+            "2"
+          ],
+          [
+            "李",
+            "",
+            "So we're sastisfied, are we?...<hr>",
+            "4"
+          ],
+          [
+            "必",
+            "佮汝老母進前仝款。",
+            "Kah lí lāu-bú tsìn-tsîng kāng-khuán.",
+            "2"
+          ],
+          [
+            "杰",
+            "姐姐，姐姐……",
+            "Kaka! Kaka...",
+            "3"
+          ],
+        ]
+      }
+    ],
     "misc": "（像完全無人講着客話 XD）",
   },
   {
     "EP": "11",
     "title": "masi cadja i ljavek 海的背面",
-    "sections": [],
+    "sections": [
+      {
+        "t": "12:06",
+        "rows": [
+          [
+            "杰",
+            "我阿爸，熟似汝幾十年矣，伊死甲足毋甘願个！",
+            "Guá a-pâ, si̍k-sāi lí kuí tsa̍p nî--ah, i sī kah tsiok m̄-kam-guān--ê!",
+            "2"
+          ],
+          [
+            "水",
+            "因為伊毋知影汝會變生番啊。",
+            "In-uī i m̄ tsai-iánn lí ē piàn tshenn-huan--a.",
+            "2"
+          ],
+          [
+            "",
+            "恁兜，親像<span class='noted'>苦楝舅</span>仝款，會一直變色。",
+            "<div class='sidenote'><a href='https://sowhc.sow.org.tw/html/observation/plant/a01plant/a0105t03-taiwan-ran-su/taiwan-ran-su.htm'>台灣欒樹</a></div>Lín tau, tshin-tshiūnn khóo-līng-kū kāng-khuán, ē it-ti̍t piàn-sik.",
+            "2"
+          ],
+          [
+            "",
+            "半番半漢个時陣，𤆬船員走，引紅毛番入琅𤩝；<br>啊這馬咧？<br>汝家己又閣變做生番。",
+            "Puànn-huan-puànn-hàn ê sî-tsūn, tshuā tsûn-guân tsáu, ín âng-môo-huan li̍p Lân-kiau;<br>a tsit-má--leh?<br>Lí ka-kī iū-koh piàn-tsò tshenn-huan.",
+            "2"
+          ],
+          [
+            "",
+            "但是我無變！我一直是生番个狗。放走船員，主儂會拍狗。狗是無辜个。社寮，無辜个。<br>這一切攏是恁一家伙仔造成个。恁若活落來，放社寮一條生路，生番大人。",
+            "Tān-sī guá bô piàn! Guá it-ti̍t sī tshenn-huan ê káu. Pàng-tsáu tsûn-guân, tsú-lâng ē phah káu. Káu sī bû-koo--ê. Siā-liâu, bû-koo--ê.<br>Tse it-tshè lóng sī lín tsi̍t-ke-hué-á tsō-sîng--ê. Lín nā ua̍h lo̍h-lâi, pàng Siā-liâu tsi̍t tiâu sîng-lōo, Tshenn-huan Tāi-jîn.",
+            "2"
+          ],
+        ]
+      },
+      {
+        "t": "15:50",
+        "rows": [
+          [
+            "必",
+            "𤆬𪜶去山頂。",
+            "Tshuā in khì suann-tíng.",
+            "2"
+          ],
+          [
+            "",
+            "",
+            "You, arse!",
+            "4"
+          ],
+          [
+            "杰",
+            "我𤆬恁去山頂！",
+            "Guá tshuā lín khì suann-tíng!",
+            "2"
+          ],
+          [
+            "必",
+            "",
+            "He said yes.",
+            "4"
+          ],
+        ]
+      },
+      {
+        "t": "17:07",
+        "rows": [
+          [
+            "杰",
+            "彼兩个儂，先放開。若無，賰下个路，我想𣍐起來。",
+            "He nn̄g ê lâng, sian pàng-khui. Nā-bô, tshun-hā ê lōo, guá siūnn buē--khí-lâi.",
+            "2"
+          ],
+          [
+            "必",
+            "",
+            "Says he can't remember the rest of the way, not unless you release the prisoners at least.",
+            "4"
+          ],
+          [
+            "李",
+            "",
+            "...",
+            "4"
+          ],
+          [
+            "必",
+            "兩个受傷个生番，小等共𪜶放走。<hr>",
+            "Nn̄g ê siū-siong ê tshenn-huan, sió-tán kā in pàng-tsáu.",
+            "2"
+          ],
+          [
+            "軍官",
+            "我還沒看到部落。",
+            "Wǒ hái méi kàn dào bùluò.",
+            "5"
+          ],
+          [
+            "",
+            "",
+            "...",
+            ""
+          ],
+          [
+            "必",
+            "山頂上，很近了。",
+            "Shāndǐng shàng, hěn jìn le.",
+            "5"
+          ],
+          [
+            "李",
+            "",
+            "The troops need to be prepared for an invasion. We must attack at dawn....",
+            "4"
+          ],
+          [
+            "必",
+            "明早日出，他要領軍，攻堅部落。",
+            "Míngzǎu rìchū, tā yào lǐngjūn, gōngjiān bùluò.",
+            "5"
+          ],
+          [
+            "杰",
+            "這裡二十個人，全有槍！",
+            "...",
+            "3"
+          ],
+          [
+            "李",
+            "",
+            "Loot at you.<br>Shout.<br>Do not go quietly, let the last breath of this language be that of defiance.",
+            "4"
+          ],
+          [
+            "",
+            "",
+            "...<hr>",
+            "4"
+          ],
+          [
+            "必",
+            "不要動！武器放下！<br>不要動！武器放下！我們被包圍了！",
+            "Búyào dòng! Wǔqì fàngxià!<br>Búyào dòng! Wǔqì fàngxià! Wǒmen bèi bāowéi le!",
+            "5"
+          ],
+          [
+            "",
+            "",
+            "Charles! Charles, you have to tell them to surrender, or we'll all be killed!",
+            "4"
+          ],
+          [
+            "",
+            "放下！武！器！放！下！",
+            "Fàngxià! Wǔ! Qì! Fàng! Xià!",
+            "5"
+          ],
+          [
+            "杰",
+            "我姐姐呢？",
+            "...",
+            "3"
+          ],
+          [
+            "伊",
+            "是貴族後裔，就用走的回部落，別躲。",
+            "...",
+            "3"
+          ],
+          [
+            "必",
+            "莫射！莫射！阿杰替我翻譯！<br>我為頂擺个代誌，我共汝會失禮！",
+            "Mài siā! Mài siā! A-Kia̍t thè guá huan-i̍k!<br>Guá uī tíng-pái ê tāi-tsì, guá kā lí huē-sit-lé!",
+            "2"
+          ],
+          [
+            "杰",
+            "我為上次的事向妳道歉。",
+            "...",
+            "3"
+          ],
+          [
+            "烏",
+            "下山，告訴清軍，撤出琅𤩝！",
+            "...",
+            "3"
+          ],
+          [
+            "杰",
+            "汝落山，共清軍講，叫𪜶退出琅𤩝！",
+            "Lí lo̍h-suann, kā Tshing-kun kóng, kiò in thuè-tshut Lân-kiau!",
+            "2"
+          ],
+          [
+            "必",
+            "",
+            "...",
+            "4"
+          ],
+        ]
+      },
+      {
+        "t": "21:05",
+        "rows": [
+          [
+            "必",
+            "借過，借過。<hr>",
+            "Tsioh-kuè, tsioh-kuè.",
+            "2"
+          ],
+          [
+            "必",
+            "",
+            "...",
+            "5"
+          ],
+          [
+            "丙",
+            "大人：官軍來琅𤩝，為著欲創拿凶番，安定地方，將近兩個月，到這馬猶未掠著凶番。為著開路、運糧，阮百姓死傷兩百外名，牛隻也已經刣盡。現此時阮柴城無糧，閣染著熱病，萬一，生番若落山報復，阮柴城著愛滅庄。<br>請大人決定是欲滅番，也是欲退出琅𤩝。",
+            "Tāi-jîn: kuann-kun lâi Lân-kiau, uī-tio̍h beh tshòng-ná hiong-huan, an-tīng tē-hng, tsiong-kīn nn̄g kò gue̍h, kàu tsit-má iá-buē lia̍h-tio̍h hiong-huan. Uī-tio̍h khui-lōo, ūn-niû, gún peh-sènn sí-siong nn̄g pah guā miâ, gû-tsiah iā í-king thâi-tsīn. Hiān-tshú-sî gún Tshâ-siânn bô niû, koh liám-tio̍h jia̍t-pēnn, bān-it, tshenn-huan nā lo̍h-suann pò-ho̍k, gún Tshâ-siânn tiō ài bia̍t-tsng.<br>Tshiánn Tāi-jîn kuat-tīng sī beh bia̍t-huan, iā-sī beh thè-tshut Lân-kiau.",
+            "2"
+          ],
+        ]
+      },
+      {
+        "t": "40:23",
+        "rows": [
+          [
+            "軍官",
+            "報！<br>社寮熟番帶到。",
+            "Bào!<br>Shèliáo shóufān dài dào.",
+            "5"
+          ],
+          [
+            "劉",
+            "要他照實將我命令傳達給生番，不然，他們也得加入剿番。他的社寮，跟客庄一場械鬥，人所剩無多了。",
+            "Yào tā zhàoshí jiāng wǒ mìnglìng chuándá gěi shēngfān, bùrán, tāmen yě děi jiārù jiǎofān. Tāde Shèliáo, gēn Kè zhuāng yì chǎng xièdòu, rén suǒ shèng wú duō le.",
+            "5"
+          ],
+          [
+            "同知",
+            "共生番講：官軍欲放火燒山，看著火，就殺入去山內！",
+            "Kā tshenn-huan kóng: kuann-kun beh pàng-hué sio suann, khuànn-tio̍h hué, tiō sat ji̍p-khì suann-lāi!",
+            "2"
+          ],
+        ]
+      }
+    ],
     "misc": "（無人講客……阿九只有眼神手勢 XD）",
   },
   {
@@ -4751,6 +6518,112 @@ data = [
             "<div class='trans'>Joachim du Bellay, &quot;Heureux Qui Comme Ulysse&quot;<blockquote>遠行過的人都懂得尤利西斯的幸福<br>得到金羊毛的人也懂得其中的樂趣<br>他們回到故鄉　滿懷閱歷與智慧<br>和家人一起共享天倫</blockquote></div><div class='poem'><blockquote>Heureux qui comme Ulysse a fait un beau voyage<br>Ou comme cestuy-là qui conquit la toison<br>Et puis est retourné plein d'usage et raison<br>Vivre entre ses parents le reste de son âge</blockquote></div>",
             "6"
           ]
+        ]
+      },
+      {
+        "t": "6:44",
+        "rows": [
+          [
+            "水",
+            "我只會當到遮爾，閣較起去个所在我嘛無起去。",
+            "Guá tsí ē-tàng kàu tsia niā, koh khah khí--lì ê sóo-tsāi guá mā bô khí--lì.",
+            "2"
+          ],
+          [
+            "必",
+            "𣍐使，我一定欲起去。行！<br>行！",
+            "Buē-sái, guá it-tīng beh khí--lì. Kiânn!<br>Kiânn!",
+            "2"
+          ],
+        ]
+      },
+      {
+        "t": "12:47",
+        "rows": [
+          [
+            "蝶",
+            "",
+            "Pickering Sir!",
+            "4"
+          ],
+          [
+            "必",
+            "",
+            "...",
+            "4"
+          ],
+          [
+            "杰",
+            "",
+            "...",
+            "3"
+          ],
+          [
+            "李",
+            "",
+            "Tell him!",
+            "4"
+          ],
+          [
+            "蝶",
+            "阿杰！官兵要放火燒山！",
+            "<span class='lang2'>A-Kia̍t!</span> ...",
+            "3"
+          ],
+          [
+            "李",
+            "",
+            "...",
+            "4"
+          ],
+          [
+            "蝶",
+            "",
+            "They don't believe me, and they won't trust you.",
+            "4"
+          ],
+          [
+            "必",
+            "",
+            "Then tell your bloody uncle, that the blue-eyes warned you about the army and the fire. Tell them, the blue-eyes want to help....",
+            "4"
+          ],
+          [
+            "蝶",
+            "",
+            "...",
+            "3"
+          ],
+          [
+            "水",
+            "她說的是真的。小心，還有阿勞楚，他們把官軍當朋友。",
+            "...",
+            "3"
+          ],
+          [
+            "蝶",
+            "",
+            "...",
+            "3"
+          ],
+          [
+            "杰",
+            "走。",
+            "",
+            "3"
+          ],
+          [
+            "李",
+            "",
+            "Tell him we need a boat. We need to get to Taiwanfu.",
+            "4"
+          ],
+          [
+            "必",
+            "我欲愛，一隻船。這馬。",
+            "Guá beh ài, tsi̍t tsiah tsûn. Tsit-má.",
+            "2"
+          ],
         ]
       },
       {
@@ -4807,13 +6680,165 @@ data = [
         ]
       },
       {
-        "t": "43:40",
+        "t": "28:31",
         "rows": [
           [
+            "甥",
+            "阿舅！紅毛番喔，又閣𤆬一个蛇官來矣！生番這改喔，穩死个！",
+            "A-kū! Âng-môo-huan--oo, iū-koh tshuā tsi̍t-ê Siâ-kuann lâi--ah! Tshenn-huan tsit kái--oo, ún sí--ê!",
+            "2"
+          ],
+          [
+            "水",
+            "兩隻牛相觸，<span class='ligature'>啥儂</span>死<span class='ligature'>啥儂</span>活，這馬佮咱攏無關係矣。<br>先顧家己个。<br>叫逐家共物件緊款款个，撇庄。避難。",
+            "Nn̄g tsiah gû sio-tak, sia̋ng sí sia̋ng ua̍h, tsit-má kah lán lóng bô kuan-hē--ah.<br>Sian kòo ka-tī--ê.<br>Kiò ta̍k-ke kā mi̍h-kiānn kín khuán-khuán--ê, phiat-tsng. Pī-lān.",
+            "2"
+          ],
+        ]
+      },
+      {
+        "t": "30:03",
+        "rows": [
+          [
+            "軍官",
+            "大人！別殺了！火在後面燒起來了！得撤！",
+            "Dàrén! Bié shā le! Huǒ zài hòumiàn shāo qǐlái le! Děi chè!",
+            "5"
+          ],
+          [
+            "劉",
+            "燒得不夠。燒多少是多少！！！",
+            "Shāo de bú gòu. Shāo duōshǎo shì duōshǎo!!!",
+            "5"
+          ],
+          [
+            "兵",
+            "大人！道台大人要您速速去見！",
+            "Dàrén! Dàotái Dàrén yào Nín sù-sù qù jiàn!",
+            "5"
+          ],
+          [
+            "軍官",
+            "快撤啊！大人！撤！",
+            "Kuài chè a! Dàrén! Chè!",
+            "5"
+          ],
+        ]
+      },
+      {
+        "t": "43:19",
+        "rows": [
+          [
+            "水",
+            "共貨落來啊！",
+            "Kā huè lo̍h-lâi--a!",
+            "2"
+          ],
+          [
+            "甥",
+            "阿舅！<br>蝶妹死矣。<hr>",
+            "A-kū!<br>Tia̍p-Muē sí--ah.",
+            "2"
+          ],
+          [
+            "助",
+            "頭儂，蝶妹處理掉……<hr>",
+            "Thâu-lâng, Tia̍p-Muē tshú-lí tiāu...",
+            "2"
+          ],
+          [
             "庄人",
-            "阿九哥！蝶妹消忒哩。",
+            "阿九哥！蝶妹消忒哩。<hr>",
             "<div class='sidenote'>這句聽起來是 3 句耳語當中比較清楚的。可惡，佢這兜凶手～還吾蝶妹命來 😠</div>Á-Gìu Gó! Tiab Moi xíau tèd lè."
+          ],
+          [
+            "蝶",
+            "母親！",
+            "Ina...<hr>",
+            "3"
+          ],
+          [
+            "水",
+            "喂～～～！船來矣！較緊咧較緊咧！等咧無位通好囥矣喂！",
+            "Uê~~~! Tsûn lâi--ah! Khah kín--leh khah kín--leh! Tán--leh bô uī thang-hó khǹg--ah eh!",
+            "2"
+          ],
           ]
+      },
+      {
+        "t": "44:49",
+        "rows": [
+          [
+            "萬",
+            "",
+            "His lymph nodes are extremely inflamed.",
+            "4"
+          ],
+          [
+            "Tok",
+            "老朋友，讓我摸摸你的脖子。<br>本來，要砍下你頭，留你在部落當朋友的。",
+            "...<br><br><br>",
+            "3"
+          ],
+          [
+            "杰",
+            "大股頭講，伊想欲摸汝个頷頸。伊本底，欲共汝个頭留踮遮，做朋友。",
+            "Tuā-kóo-thâu kóng, i siūnn-beh bong lí-ê ām-kún. I pún-té, beh kā lí-ê thâu lâu tiàm tsia, tsò pîng-iú.",
+            "2"
+          ],
+          [
+            "必",
+            "",
+            "He says, what a lovely head you have. It's a shame you couln't keep it.",
+            "4"
+          ],
+          [
+            "Tok",
+            "恐怕，享用不到你的禮物了。……",
+            "...<br><br>",
+            "3"
+          ],
+          [
+            "杰",
+            "伊身體無好，可能無法度享用著汝个禮物矣。",
+            "I sin-thé bô hó, khó-lîng bô-huat-tōo hiáng-iōng tio̍h lí-ê lé-bu̍t--ah.",
+            "2"
+          ],
+          [
+            "必",
+            "",
+            "He appreciates your gifts, but he knows his time is running out.",
+            "4"
+          ],
+          [
+            "李",
+            "希望，咱个約束，一直傳落去。",
+            "Hi-bāng, lán ê iok-sok, it-ti̍t thuân lo̍h-khì.",
+            "2"
+          ],
+          [
+            "杰",
+            "希望我們的約定，一直傳下去。",
+            "...<br><br>",
+            "3"
+          ],
+          [
+            "Tok",
+            "別擔心，我的洋人朋友。勇士會守住承諾！",
+            "...<br><br>",
+            "3"
+          ],
+        ]
+      },
+      {
+        "t": "47:16",
+        "rows": [
+          [
+            "杰",
+            "遭船難者，將受到斯卡羅十八社友善對待，他們會以紅旗為信號，並不得進入部落區域。……",
+            "...<br><br><br>",
+            "3"
+          ],
         ]
       }
     ],
