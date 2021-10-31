@@ -56,11 +56,29 @@ data = [
           [
             "巴",
             "我為祖先飲下敵人血。",
-            "Uri sipalisi a djamuq ta 'alja na sivalitan.<hr>",
+            "Uri sipalisi a djamuq ta 'alja na sivalitan.",
             "3"
           ],
           [
+            "杭特",
             "",
+            "Stop it!",
+            "4"
+          ],
+          [
+            "",
+            "",
+            "Run! Mercy! Run!",
+            "4"
+          ],
+          [
+            "夫人",
+            "",
+            "Joseph!<hr>",
+            "4"
+          ],
+          [
+            "巴",
             "為祖先報仇！嗚～～～",
             "U sipavalet tjanumun! U~~~<hr>",
             "3"
@@ -90,19 +108,19 @@ data = [
         "rows": [
           [
             "水",
-            "咧等阿姊啊？",
+            "咧等阿姐啊？",
             "Leh tán a-tsí--a?",
             "2"
           ],
           [
             "",
-            "<div class='sidenote'>lâng 的選字請參考<a href='https://twblg.dict.edu.tw/holodict_new/iongji/pdf/annesia325pdf.pdf'>教育部學者專文</a>，我也認為 lâng 並非「人」的白話音，為不同字。</div>哎……琅𤩝<span class='noted'>儂</span>造孽。天公毋放尿，欠雨，水寶貴。恁姊抑是莫轉來好矣。",
+            "<div class='sidenote'>lâng 的選字請參考<a href='https://twblg.dict.edu.tw/holodict_new/iongji/pdf/annesia325pdf.pdf'>教育部學者專文</a>，我也認為 lâng 並非「人」的白話音，為不同字。</div>哎……琅𤩝<span class='noted'>儂</span>造孽。天公毋放尿，欠雨，水寶貴。恁姐抑是莫轉來好矣。",
             "Ai... Lân-kiau lâng tsō-gia̍t. Thinn-kong m̄ pàng-liō, khiàm hōo, tsuí pó-kuì. Lín tsí a̍h-sī mài tńg-lâi hó--ah.",
             "2"
           ],
           [
             "杰",
-            "我阿姊死佇咧府城矣。",
+            "我阿姐死佇咧府城矣。",
             "Guá a-tsí sí tī-leh Hú-siânn--ah.",
             "2"
           ],
@@ -188,7 +206,7 @@ data = [
 
             "庄人",
             "若屋下三國演義啊！番人阿姆，客人阿爸，<span class='updated'>若</span>姐，賣<span class='updated'>紅</span>毛番。",
-            "Ngía vùg<span class='updated'>k</span>á Sám Gùed Íanngi à! Fánngǐn ámé, Hàgngǐn ábá, <span class='updated'>ňgía jì</span>, mai <span class='updated'>fǔng</span>mófán.",
+            "Ngía vùg<span class='updated'>k</span>á Sám Gùed Íanngi à! Fánngǐn ámé, Hàgngǐn ábá, <span class='updated'>ngía jì</span>, mai <span class='updated'>fǔng</span>mófán.",
 
           ],
 
@@ -1176,7 +1194,7 @@ data = [
 
           [
             "丙",
-            "喔。做朋友，送禮應該。我定个五支銃，送𪜶矣。",
+            "喔。做朋友，送禮應該。我定个五枝銃，送𪜶矣。",
             "Oh. Tsò pîng-iú, sàng-lé ìng-kai. Guá tiānn ê gōo ki tshìng, sàng in--ah.",
             "2"
           ],
@@ -1311,7 +1329,7 @@ data = [
 
           [
             "水",
-            "琅𤩝是誰收留恁一家伙仔？是我呢！<br>誰予恁囝搬貨趁錢？嘛是我啦！",
+            "琅𤩝是<span class='hapim updated'>啥儂</span>收留恁一家伙仔？是我呢！<br><span class='hapim updated'>啥儂</span>予恁囝搬貨趁錢？嘛是我啦！",
             "Lân-kiau sī sáng siu-liû lín tsi̍t-ke-hué-á? Sī guá--ne!<br>Sáng hōo lín kiánn puann huè thàn-tsînn? Mā sī guá--lah!",
             "2"
           ],
@@ -3301,7 +3319,7 @@ data = [
         "rows": [
           [
             "水",
-            "哈哈……統領埔得來<span class='TBD'>＿＿</span>……<br>若佇遐起好交易所，生番佇遐做交易，　閣有啥儂敢來搶統領埔……<br>咱个矣！哈哈哈……嘻嘻嘻……",
+            "哈哈……統領埔得來<span class='TBD'>＿＿</span>……<br>若佇遐起好交易所，生番佇遐做交易，閣有啥儂敢來搶統領埔……<br>咱个矣！哈哈哈……嘻嘻嘻……",
             "<div class='sidenote'>待問</div>Ha-ha... Thóng-niá-poo ti̍t-lâi <span class='TBD'>kín-ko-kín-ko</span>...<br>Nā tī hia khí hó kau-i̍k-sóo, tshenn-huan tī hia tsò kau-i̍k, koh ū siánn-lâng kánn lâi tshiúnn Thóng-niá-poo...<br>Lán ê--ah! Ha-ha-ha... hi-hi-hi...",
             "2"
           ],
@@ -3681,7 +3699,7 @@ data = [
           ],
           [
             "甥",
-            "阿舅，二股頭講乎會予大股頭共統領埔租予咱啦，伊閣欲共社寮收做領地，啊這馬山頂到底是誰做主啦？若<span class='TBD'>得罪</span>大股頭，欲按怎？",
+            "阿舅，二股頭講乎會予大股頭共統領埔租予咱啦，伊閣欲共社寮收做領地，啊這馬山頂到底是<span class='updated hapim'>啥儂</span>做主啦？若<span class='TBD'>得罪</span>大股頭，欲按怎？",
             "A-kū, Lī-kóo-thâu kóng--honnh ē hōo Tuā-kóo-thâu kā Thóng-niá-poo tsoohōo lán--lah, i koh beh kā Siā-liâu siu tsò niá-tê, a tsit-má suann-tíng tàu-té sī siàng tsuè-tsú--lah? Nā <span class='TBD'>tit-tsuē</span> Tuā-kóo-thâu, beh án-nuá?",
             "2"
           ],
@@ -4534,7 +4552,7 @@ data = [
 
             "姆",
             "一<span class='updated'>垤</span>土地空<span class='updated'>在</span>該，無人打主意啊？阿水無愛，樵城乜無愛，就等你哦？統領埔拿毋轉來哩啦。想過下一步哪。",
-            "Ìd <span class='updated'>de</span> tùti kung <span class='updated'>do</span> ge, mǒ ngǐn dà zù'i a? Á-Sùi mǒ oi, Cěusǎng me mǒ oi, qiu dèn ňg o? Tùnglíangpú ná m̌ zònlǒi lè la. Xìong go h<span class='updated'>a</span> ìd pu <span class='updated'>nà</span>.",
+            "Ìd <span class='updated'>de</span> tùti kung <span class='updated'>di</span> ge, mǒ ngǐn dà zù'i a? Á-Sùi mǒ oi, Cěusǎng me mǒ oi, qiu dèn ňg o? Tùnglíangpú ná m̌ zònlǒi lè la. Xìong go h<span class='updated'>a</span> ìd pu <span class='updated'>nà</span>.",
 
           ],
 
@@ -4672,7 +4690,7 @@ data = [
           ],
           [
             "平",
-            "毋過汝一百五十支銃，數量傷大啦，唐山彼爿，交貨無遐緊啦！",
+            "毋過汝一百五十枝銃，數量傷大啦，唐山彼爿，交貨無遐緊啦！",
             "M̄-koh lí tsi̍t pah gōo-tsa̍p ki tshìng, sòo-liōng siunn tuā--lah, Tn̂g-suann hit-pîng, kau-huè bô hia kín--lah!",
             "2"
           ],
@@ -5471,7 +5489,7 @@ data = [
 
           ],
           [
-            "Tok",
+            "卓",
             "不是朋友，也還不算敵人！",
             "...<br>",
             "3"
@@ -5824,7 +5842,7 @@ data = [
           ],
           [
             "杰",
-            "我是來共汝鬥相共。一百五十支銃咧？生番个大股頭，是我阿舅。",
+            "我是來共汝鬥相共。一百五十枝銃咧？生番个大股頭，是我阿舅。",
             "Guá sī lâi kā lí tàu-sann-kāng. Tsi̍t pah gōo-tsa̍p ki tshìng--leh? Tshenn-huan ê Tuā-kóo-thâu, sī guá a-kū.",
             "2"
           ],
@@ -6047,7 +6065,7 @@ data = [
           ],
           [
             "水",
-            "銃來矣。船佇欲靠岸矣。汝欲去山頂通報，抑是閣欲去揣彼个理番通譯？汝家己選。<br>百外支銃，庄仔內無地藏，生番若無愛矣，我就擲落去海底。",
+            "銃來矣。船佇欲靠岸矣。汝欲去山頂通報，抑是閣欲去揣彼个理番通譯？汝家己選。<br>百外枝銃，庄仔內無地藏，生番若無愛矣，我就擲落去海底。",
             "Tshìng lâi--ah. Tsûn tí-beh khò-huānn--ah. Lí beh khì suann-tíng thong-pò, a̍h-sī koh beh khì tshuē hit-ê Lí-huan Thong-i̍k? Lí ka-kī suán.<br>Pah guā ki tshìng, tsng-á lâi bô tè tshàng, tshenn-huan nā bô ài--ah, guá tiō tàn-lo̍h-khì hái-té.",
             "2"
           ],
@@ -6188,7 +6206,7 @@ data = [
           ],
           [
             "",
-            "若按呢好啊，原本想講蛇軍欲查問<span class='ligature'>誰儂</span>去通報生番个，我欲擔；這馬毋免矣。",
+            "若按呢好啊，原本想講蛇軍欲查問<span class='hapim'>啥儂</span>去通報生番个，我欲擔；這馬毋免矣。",
             "Nā án-ne hó--a, guân-pún siūnn-kóng Siâ-kun beh tsa-mn̄g siáng khì thong-pò tshenn-huan--ê, guá beh tann; tsit-má m̄-bián--ah.",
             "2"
           ],
@@ -6690,7 +6708,7 @@ data = [
           ],
           [
             "水",
-            "兩隻牛相觸，<span class='ligature'>啥儂</span>死<span class='ligature'>啥儂</span>活，這馬佮咱攏無關係矣。<br>先顧家己个。<br>叫逐家共物件緊款款个，撇庄。避難。",
+            "兩隻牛相觸，<span class='hapim'>啥儂</span>死<span class='hapim'>啥儂</span>活，這馬佮咱攏無關係矣。<br>先顧家己个。<br>叫逐家共物件緊款款个，撇庄。避難。",
             "Nn̄g tsiah gû sio-tak, sia̋ng sí sia̋ng ua̍h, tsit-má kah lán lóng bô kuan-hē--ah.<br>Sian kòo ka-tī--ê.<br>Kiò ta̍k-ke kā mi̍h-kiānn kín khuán-khuán--ê, phiat-tsng. Pī-lān.",
             "2"
           ],
@@ -6775,7 +6793,7 @@ data = [
             "4"
           ],
           [
-            "Tok",
+            "卓",
             "老朋友，讓我摸摸你的脖子。<br>本來，要砍下你頭，留你在部落當朋友的。",
             "...<br><br><br>",
             "3"
@@ -6793,7 +6811,7 @@ data = [
             "4"
           ],
           [
-            "Tok",
+            "卓",
             "恐怕，享用不到你的禮物了。……",
             "...<br><br>",
             "3"
@@ -6823,7 +6841,7 @@ data = [
             "3"
           ],
           [
-            "Tok",
+            "卓",
             "別擔心，我的洋人朋友。勇士會守住承諾！",
             "...<br><br>",
             "3"

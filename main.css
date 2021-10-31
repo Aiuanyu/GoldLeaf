@@ -648,3 +648,20 @@ td.classic:before {
   right: 33%;
   opacity: 0.3;
 }
+
+.hapim {
+  /*font-size: 0.7em;*/
+  /*vertical-align: middle;*/
+  letter-spacing: -0.1em;
+  border-radius: 0.5em;
+  border-style: solid;
+  border-color: hsla(0, 0%, 100%, 0.3);
+  border-width: 0 0.1em 0.2em 0.1em;
+}
+/*.hapim:before {content: '[';}
+.hapim:after {content: ']';}
+.hapim:before,
+.hapim:after {
+  font-size: 0.3em;
+  opacity: 0.5;
+}*/
