@@ -98,7 +98,7 @@ h1, #vnum {
   vertical-align: middle;
 }
 
-#thanks, #links a, #HLauthor, #links li {font-family: PT Sans, '黑體-繁', sans-serif; font-weight: 700;}
+#thanks, #links a, #HLauthor, #Payuan-author, #links li {font-family: PT Sans, '黑體-繁', sans-serif; font-weight: 700;}
 #thanks ul ul li, #links li {
   display: inline-block;
   color: white;
@@ -120,6 +120,7 @@ h1, #vnum {
   margin: 0 0 0 1em;
 }
 #HLauthor {background-color: mediumvioletred; color: white;}
+#Payuan-author {background-color: #167549; color: white;}
 /*#thanks>ul>ul, #thanks>ul>li {display: inline-block}*/
 #community li {  background-color: hsl(31, 90%, 80%);}
 #dic li {  background-color: hsl(192, 90%, 80%);}
@@ -229,7 +230,7 @@ section table {
 
 
 #main-title:after {
-  content: 'Aiuanyu 編／v1.2 20211005';
+  content: 'Aiuanyu 編／v1.67 20211024';
   font-size: 0.5em;
   font-family: 蘋果儷中黑;
   position: absolute;
@@ -376,9 +377,18 @@ section table {
   border-radius: 3pt;
   left: 70vw;
   font-family: Athelas, 楷體-繁, sans-serif;
-  padding: 8pt 10pt;
+  padding: 3pt 10pt;
   color: white;
   /* box-shadow: brown 0.25vw 0.25vw; */
+}
+.tranName {
+  /*border-bottom: #e5c120 0.2em solid;*/
+  /*border-top: #e5c120 0.2em solid;*/
+  /*background-color: hsla(49, 79%, 51%, 0.5);*/
+  color: hsla(49, 79%, 75%, 1.0);
+  /*border-radius: 0.5em;*/
+  font-family: PT Sans, 黑體-繁;
+  font-weight: 700;
 }
 
 section table {width: 70vw;}
@@ -409,10 +419,10 @@ section table {width: 70vw;}
   box-shadow: 0.1em 0.1em #0D4936;
   border: 0.05em #0D4936 solid;
 }
-#links a, #HLauthor {
+#links a, #HLauthor, #Payuan-author {
   display: inline-block;
 }
-#links a, #vinfo, #HLauthor {
+#links a, #vinfo, #HLauthor, #Payuan-author {
   padding: 0.3em 0.7em;
   margin: 0.3em 0.3em;
   border-radius: 0.4em;
@@ -474,19 +484,20 @@ section:not(.noHak):before {
 section tr:nth-child(2n) {color: white !important;}
 /* Ho̍h-ló */
 section tr.lang2, section td.lang2, section tr:nth-child(2n+1) .lang2, .sample.lang2 {color: /*honeydew*//*hsl(217, 82%, 89%)*/hsl(303, 100%, 96%);}
-section tr:nth-child(2n).lang2, section tr:nth-child(2n) .lang2, .sample.lang2 {font-family: "源石黑體", /*"霞鶩文楷 TC",*/ sans-serif; font-weight: 500;}
+section tr:nth-child(2n).lang2, section tr:nth-child(2n) .lang2, .sample.lang2/*, .tranName*/ {font-family: "源石黑體", /*"霞鶩文楷 TC",*/ sans-serif; font-weight: 500;}
 section tr:nth-child(2n+1).lang2, section tr:nth-child(2n+1) .lang2 {font-family: 源石黑體, sans-serif; font-weight: 500;}
 section tr:nth-child(2n+1).lang2 {font-size: 1.2em;}
 section tr:nth-child(2n+1).lang2 td {line-height: 1.6em;}
 section tr:nth-child(2n+1) .lang2 {font-size: 0.8em !important;}
 section tr:nth-child(2n+1).lang3 .lang2 {font-size: 1em !important;}
 /* 排灣文 */
-section tr.lang3, section td.lang3, section tr:nth-child(2n+1) .lang3 {color: /*honeydew*//*hsl(217, 82%, 89%)*/hsl(127, 100%, 96%);}
-section tr:nth-child(2n).lang3, section tr:nth-child(2n) .lang3 {font-family: "黑體-繁", sans-serif; font-weight: 700;}
-section tr:nth-child(2n+1).lang3, section tr:nth-child(2n+1) .lang3 {font-family: Superclarendon, 'Academy Engraved LET', 'Book Antigua', Baskerville, serif; font-weight: 500;}
-section tr:nth-child(2n+1).lang3 { font-size: 1.1em;}
+section tr.lang3, section td.lang3, section tr:nth-child(2n+1) .lang3, .sample.lang3 {color: /*honeydew*//*hsl(217, 82%, 89%)*/hsl(127, 100%, 96%);}
+section tr:nth-child(2n).lang3, section tr:nth-child(2n) .lang3, .sample.lang3 {font-family: "黑體-繁", sans-serif; font-weight: 700;}
+section tr:nth-child(2n+1).lang3, section tr:nth-child(2n+1) .lang3, .sample.lang3 {font-family: Superclarendon, 'Academy Engraved LET', 'Book Antigua', Baskerville, serif; font-weight: 500;}
+section tr:nth-child(2n+1).lang3 {font-size: 1.1em;}
 section tr:nth-child(2n+1) .lang3 {font-size: 0.8em;}
 section tr.lang3 td:nth-child(2), section tr.lang6 td:nth-child(2) {padding-right: 25%;}
+section .lang3 td {line-height: 1.6em;}
 /* 英法文 */
 .fr td, .lang6 td {color: hsl(255, 100%, 96%); font-family: 'Bell MT';}
 .lang4 td {color: hsl(187, 100%, 96%); font-family: 'Bell MT';}
@@ -614,4 +625,26 @@ td hr {
 
 .larger {
   font-size: larger;
+}
+
+td.classic, span.classic {
+  /*border-left: 0.2em solid hsla(49, 79%, 51%, 0.5);*/
+
+  /* 感謝　神，試了好久總算弄出可用的漸層左邊界：list with 1px solid left gradient border <https://gist.github.com/titox/1663686> */
+  background-image: linear-gradient(45deg, hsla(49, 79%, 51%, 0), hsla(49, 79%, 51%, 0.5), hsla(49, 79%, 51%, 0));
+  background-repeat: repeat-y;
+  background-size: 0.2em;
+  background-position: left 0.3em top;
+
+  /*text-shadow: 0.1em 0.1em 0.1em hsla(49, 79%, 51%, 0.8);*/
+  text-decoration: underline;
+  text-decoration-color: hsla(49, 79%, 51%, 0.8);
+  text-decoration-style: double;
+}
+td.classic:before {
+  content: '🏅';
+  font-size: 3em;
+  position: absolute;
+  right: 33%;
+  opacity: 0.3;
 }

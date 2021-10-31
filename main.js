@@ -28,7 +28,7 @@ function fillRomanNames() { // 依漢字人名，抓 name.js 資料填入羅馬�
         nodes[i].getElementsByTagName('td')[0].innerHTML = '<span class="condensed">' + nodes[i].getElementsByTagName('td')[0].innerHTML.replace('傷長','') + '</span>';
       }
 
-      nodes[k].getElementsByTagName('td')[0].innerHTML = nodes[k].getElementsByTagName('td')[0].innerHTML.replace(/\d/,'').replace('Tok：',''); // Tokitok 講客个時節，還係愛直接用佢个族語名，毋使用漢字
+      nodes[k].getElementsByTagName('td')[0].innerHTML = nodes[k].getElementsByTagName('td')[0].innerHTML.replace(/\d/,'').replace('Tuq：',''); // Tokitok 講客个時節，還係愛直接用佢个族語名，毋使用漢字
     }
   }
 }
@@ -117,7 +117,7 @@ function create() {
           }
           var trans = '';
           if (data[i].sections[j].rows[k][1] !== '') { // 加這道，處理「空的翻譯」的情形（有翻譯，才產生 trans 方塊；像如果排灣文是打「...」那就不會有翻譯了）
-            trans = '<div class="trans">（' + name.replace(/\d/,'') + data[i].sections[j].rows[k][1] + '）</div>';
+            trans = '<div class="trans"><span class="tranName">' + name.replace(/\d/,'') + '</span>' + data[i].sections[j].rows[k][1] + '</div>'; // 本來前後有加括號的
           }
           tr1.innerHTML = '<td></td><td>' + trans + data[i].sections[j].rows[k][2] + '</td>'; // 跟其他語文漢字放第 2 列不同，是把華文字幕放在右邊，類似 sidenote
           tr2.innerHTML = '<td>' + namelang + '</td><td></td>'; // 這列還是要有，讓 fillHakNames() 去抓族語名，但再用 display:none 同英、法文
@@ -137,6 +137,11 @@ function create() {
         if (lang !== undefined) {
           tr1.classList += "lang"+data[i].sections[j].rows[k][3];
           tr2.classList += "lang"+data[i].sections[j].rows[k][3];
+        }
+
+        if (data[i].sections[j].rows[k][4] == '典') {
+          var tds = tr1.getElementsByTagName('td');
+          tds[1].classList += 'classic';
         }
 
         table.appendChild(tr1);
