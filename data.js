@@ -1016,7 +1016,7 @@ data = [
           [
             "水",
             "著啦！會來遮討生活，攏是佮閻羅王借命、佮天借膽。",
-            "Tio̍h--lah! Ē lâi tsia thó sing-hua̍t, lóng sī kap Giâm-lô-ông tsioh miâ, kap thinn tsioh tánn.",
+            "Tio̍h--lah! Ē lâi tsia thó sing-hua̍t, lóng sī kap Giâm-lô-ông tsioh miā, kap thinn tsioh tánn.",
             "2"
           ],
 
@@ -1329,8 +1329,8 @@ data = [
 
           [
             "水",
-            "琅𤩝是<span class='hapim updated'>啥儂</span>收留恁一家伙仔？是我呢！<br><span class='hapim updated'>啥儂</span>予恁囝搬貨趁錢？嘛是我啦！",
-            "Lân-kiau sī sáng siu-liû lín tsi̍t-ke-hué-á? Sī guá--ne!<br>Sáng hōo lín kiánn puann huè thàn-tsînn? Mā sī guá--lah!",
+            "琅𤩝是 <span class='updated'><ruby><rb>sáng</rb><rp>(</rp><rt>啥+儂</rt><rp>)</rp></ruby></span> 收留恁一家伙仔？是我呢！<br><span class='updated'>Sáng</span> 予恁囝搬貨趁錢？嘛是我啦！",
+            "Lân-kiau sī <ruby><rb>sáng</rb><rp>(</rp><rt>siánn-lâng</rt><rp>)</rp></ruby> siu-liû lín tsi̍t-ke-hué-á? Sī guá--ne!<br>Sáng hōo lín kiánn puann huè thàn-tsînn? Mā sī guá--lah!",
             "2"
           ],
 
@@ -1856,7 +1856,7 @@ data = [
           [
             "師",
             "彼洋藥局是咧賣鴉片个，啊汝嘛食鴉片喔？",
-            "<div class='sidenote'>詞庫「鴉片」音 a-phiàn，但演員前字聽來是降調像是 ah-phiàn，似乎是用到「鴨」的音</div>He iûnn-io̍k-kio̍k sī leh bē <span class='noted'>ah</span>-phiàn ê, a lí mā tsia̍h ah-phiàn--oo?",
+            "<div class='sidenote'>詞庫「鴉片」音 a-phiàn，但演員前字聽來是降調像是 ah-phiàn，似乎是用到「鴨」的音</div>He iûnn-io̍k-kio̍k sī leh bē <span class='noted'>a</span>-phiàn ê, a lí mā tsia̍h a-phiàn--oo?",
             "2"
           ],
           [
@@ -1993,8 +1993,8 @@ data = [
           ],
           [
             "",
-            "恁姐去夆騙矣。安汝个戶口，五十番銀，伊按怎趁我是毋知影啦。我愛趁幾若冬呢。",
-            "Lín tsí khì hőng phiàn--ah. An lí ê hōo-kháu, gōo-tsa̍p huan-gîn, i án-nuá thàn guá sī m̄ tsai-iánn--lah. Guá ài thàn kuí-nā tang--ne.",
+            "恁姐去<ruby><rb>夆</rb><rp>(</rp><rt>予+儂</rt><rp>)</rp></ruby>騙矣。安汝个戶口，五十番銀，伊按怎趁我是毋知影啦。我愛趁幾若冬呢。",
+            "Lín tsí khì <ruby><rb>hőng</rb><rp>(</rp><rt>hōo lâng</rt><rp>)</rp></ruby> phiàn--ah. An lí ê hōo-kháu, gōo-tsa̍p huan-gîn, i án-nuá thàn guá sī m̄ tsai-iánn--lah. Guá ài thàn kuí-nā tang--ne.",
             "2"
           ],
           [
@@ -2047,8 +2047,8 @@ data = [
           [
 
             "蝶",
-            "你兜去<span class='updated'>哪仔</span>啊？還毋轉去醫生館？",
-            "Ňgdéu hi <span class='updated'>nài</span> a? Hǎn m̌ zòn hi <span class='updated'>ísén'gòn</span>?",
+            "你兜去 <span class='updated'><ruby><rb>nài</rb><rp>(</rp><rt>哪+仔</rt><rp>)</rp></ruby></span> 啊？還毋轉去醫生館？",
+            "Ňgdéu hi <span class='updated'><span class='updated'><ruby><rb>nài</rb><rp>(</rp><rt>naiè</rt><rp>)</rp></ruby></span></span> a? Hǎn m̌ zòn hi <span class='updated'>ísén'gòn</span>?",
 
           ],
 
@@ -2063,7 +2063,7 @@ data = [
           [
 
             "蝶",
-            "外水？歸身仔溚潦，去<span class='updated'>哪仔</span>吔？",
+            "外水？歸身仔溚潦，去 <span class='updated'>nài</span> 吔？",
             "Ngoisùi? Gúi síinè dablǎu, hi <span class='updated'>nài</span> ě?",
 
           ],
@@ -3156,8 +3156,8 @@ data = [
           [
 
             "九",
-            "船員無在這！毋知<span class='updated'><span class='noted'>哪仔</span>去</span>哩！",
-            "<div class='sidenote'>nai è 的連音</div>Sǒnǐan mǒ di ìa! M̌ dí <span class='updated'><span class='noted'>nài</span> hi</span> lè!",
+            "船員無在這！毋知 <span class='updated'><span class='noted'><span class='updated'><ruby><rb>nài</rb><rp>(</rp><rt>哪+仔</rt><rp>)</rp></ruby></span></span> 去</span>哩！",
+            "<div class='sidenote'>nai è 的連音</div>Sǒnǐan mǒ di ìa! M̌ dí <span class='updated'><span class='noted'><span class='updated'><ruby><rb>nài</rb><rp>(</rp><rt>naiè</rt><rp>)</rp></ruby></span></span> hi</span> lè!",
 
           ],
           [
@@ -3256,8 +3256,8 @@ data = [
           [
 
             "庄人",
-            "頭人，<span class='updated'>好</span>走吔。",
-            "Těungǐn, <span class='updated'>hò</span> zèu ě.",
+            "頭人，<span class='noted'><span class='updated'>好</span>走吔</span>。",
+            "Těungǐn, <span class='noted'><span class='updated'>hò</span> zèu ě</span>.",
 
           ],
 
@@ -3699,8 +3699,8 @@ data = [
           ],
           [
             "甥",
-            "阿舅，二股頭講乎會予大股頭共統領埔租予咱啦，伊閣欲共社寮收做領地，啊這馬山頂到底是<span class='updated hapim'>啥儂</span>做主啦？若<span class='TBD'>得罪</span>大股頭，欲按怎？",
-            "A-kū, Lī-kóo-thâu kóng--honnh ē hōo Tuā-kóo-thâu kā Thóng-niá-poo tsoohōo lán--lah, i koh beh kā Siā-liâu siu tsò niá-tê, a tsit-má suann-tíng tàu-té sī siàng tsuè-tsú--lah? Nā <span class='TBD'>tit-tsuē</span> Tuā-kóo-thâu, beh án-nuá?",
+            "阿舅，二股頭講乎會予大股頭共統領埔租予咱啦，伊閣欲共社寮收做領地，啊這馬山頂到底是 <span class='updated'><ruby><rb>siáng</rb><rp>(</rp><rt>啥+儂</rt><rp>)</rp></ruby></span> 做主啦？若<span class='TBD'>得罪</span>大股頭，欲按怎？",
+            "A-kū, Lī-kóo-thâu kóng--honnh ē hōo Tuā-kóo-thâu kā Thóng-niá-poo tsoohōo lán--lah, i koh beh kā Siā-liâu siu tsò niá-tê, a tsit-má suann-tíng tàu-té sī <ruby><rb>siáng</rb><rp>(</rp><rt>siánn-lâng</rt><rp>)</rp></ruby> tsuè-tsú--lah? Nā <span class='TBD'>tit-tsuē</span> Tuā-kóo-thâu, beh án-nuá?",
             "2"
           ],
           [
@@ -3764,8 +3764,8 @@ data = [
           ],
           [
             "",
-            "創啥？創啥？銃共我囥落來哦！<br>恁若真正動手，今仔日就𣍐煞啦！",            
-            "<div class='sidenote'>真的是追求完美的戲精……至少我覺得這兩個連音太到位了：<br>kā guá = ka̋；<br>lo̍h-lâi = luāi</div>Tshòng-siánn? Tshòng-siánn? Tshìng <span class='noted'>ka̋</span> khǹg--<span class='noted'>luāi</span> őo!<br>Lín nā tsin-tsiànn tāng-tshiú, kin-á-ji̍t tiō buē suah--lah!",
+            "創啥？創啥？銃 <ruby><rb>ka̋</rb><rp>(</rp><rt>共+我</rt><rp>)</rp></ruby> 囥 <ruby><rb>luāi</rb><rp>(</rp><rt>落+來</rt><rp>)</rp></ruby> 哦！<br>恁若真正動手，今仔日就𣍐煞啦！",
+            "<div class='sidenote'>真的是追求完美的戲精……至少我覺得這兩個連音太到位了：<br>kā guá = ka̋；<br>lo̍h-lâi = luāi</div>Tshòng-siánn? Tshòng-siánn? Tshìng <span class='noted'><ruby><rb>ka̋</rb><rp>(</rp><rt>kā guá</rt><rp>)</rp></ruby></span> khǹg--<span class='noted'><ruby><rb>luāi</rb><rp>(</rp><rt>lo̍h-lâi</rt><rp>)</rp></ruby></span> őo!<br>Lín nā tsin-tsiànn tāng-tshiú, kin-á-ji̍t tiō buē suah--lah!",
             "2"
           ],
           [
@@ -4064,8 +4064,8 @@ data = [
           ],
           [
             "",
-            "啊我有偌濟番薯、恁有偌濟白米，會夆去飼官軍？予官軍入琅𤩝？<br>遮，是禁地荒埔呢！恁个田啊，私墾个，官府會沒收，到時閣欲算儂頭納儂頭稅、做差役。",
-            "A guá ū guā-tsuē han-tsî, lín ū guā-tsuē pe̍h-bí, ē hőng khì tshī kuann-kun? Hōo kuann-kun li̍p Lân-kiau?<br>Tsia, sī kìm-tē hong-poo--ne! Lín ê tshân--a, su-khún--ê, kuann-hú ē bu̍t-siu, kàu-sî koh beh sǹg lâng-thâu la̍p lâng-thâu-suè, tsò tshe-ia̍h.",
+            "啊我有偌濟番薯、恁有偌濟白米，會<ruby><rb>夆</rb><rp>(</rp><rt>予+儂</rt><rp>)</rp></ruby>去飼官軍？予官軍入琅𤩝？<br>遮，是禁地荒埔呢！恁个田啊，私墾个，官府會沒收，到時閣欲算儂頭納儂頭稅、做差役。",
+            "A guá ū guā-tsuē han-tsî, lín ū guā-tsuē pe̍h-bí, ē <ruby><rb>hőng</rb><rp>(</rp><rt>hōo lâng</rt><rp>)</rp></ruby> khì tshī kuann-kun? Hōo kuann-kun li̍p Lân-kiau?<br>Tsia, sī kìm-tē hong-poo--ne! Lín ê tshân--a, su-khún--ê, kuann-hú ē bu̍t-siu, kàu-sî koh beh sǹg lâng-thâu la̍p lâng-thâu-suè, tsò tshe-ia̍h.",
             "2"
           ],
           [
@@ -4205,8 +4205,8 @@ data = [
           [
 
             "水",
-            "這話，等見總兵官正講啦。<span class='lang2'>一丙阿兄</span>定著當想聽个啊。啊你人頭落地，樵城乜省事。<span class='noted'>下二擺</span>喔，<span class='noted'>就</span>毋使摎你<span class='updated'>相㓾哩</span>！",
-            "<div class='sidenote'> 「Ha ngi bài 下二擺」符合這邊的語意，但聽來像「han 擺」（GHSRobert）<br><span class='updated'>對，是連音。不是演員發音問題，這字他講得非常好 XD（DanielaAerts）</span></div>Lìa fa, dèn gian Zùngbín'gón zang gòng là. <span class='lang2'>It-píng A-hiann</span> tincog dóng xìong táng ge a. A ňg ngǐntěu logti, Cěusǎng me sàngsii. <span class='noted'>Hanbài</span> ò, qiu m̌sìi láu ňg <span class='updated'>xíongcǐi lè</span>!",
+            "這話，等見總兵官正講啦。<span class='lang2'>一丙阿兄</span>定著當想聽个啊。啊你人頭落地，樵城乜省事。<span class='noted'><ruby><rb>Han</rb><rp>(</rp><rt>下+二 </rt><rp>)</rp></ruby> 擺</span>喔，<span class='noted'>就</span>毋使摎你<span class='updated'>相㓾哩</span>！",
+            "<div class='sidenote'> 「Ha ngi bài 下二擺」符合這邊的語意，但聽來像「han 擺」（GHSRobert）<br><span class='updated'>對，是連音。不是演員發音問題，這字他講得非常好 XD（DanielaAerts）</span></div>Lìa fa, dèn gian Zùngbín'gón zang gòng là. <span class='lang2'>It-píng A-hiann</span> tincog dóng xìong táng ge a. A ňg ngǐntěu logti, Cěusǎng me sàngsii. <span class='noted'><ruby><rb>Han</rb><rp>(</rp><rt>Ha ngi</rt><rp>)</rp></ruby> bài</span> ò, qiu m̌sìi láu ňg <span class='updated'>xíongcǐi lè</span>!",
 
           ],
 
@@ -4402,8 +4402,8 @@ data = [
           [
 
             "九",
-            "樵城 1500 人，佢兜愛升軍旗，𠊎<span class='updated'>䀯</span>在<span class='updated'>哪仔</span><span class='updated'>𠊎</span>都無用啦！啊！夭壽子啦。夭壽子。",
-            "<div class='sidenote'>連音。前面有個一樣的 nài，平常我們講「哪仔」講快點就會變這樣連在一起。（DanielaAerts）</div>Cěusǎng ìd qíen ǹg bàg ngǐn, gǐdéu oi síin gíunkǐ, ngǎi <span class='updated'>pu</span> di <span class='updated noted'>nài</span> <span class='updated'>ngǎi</span> du mǒ iung là! À! Íeusuzìi la. Íeusuzìi.",
+            "樵城 1500 人，佢兜愛升軍旗，𠊎<span class='updated'>䀯</span>在 <span class='updated'><ruby><rb>nài</rb><rp>(</rp><rt>哪+仔</rt><rp>)</rp></ruby></span> <span class='updated'>𠊎</span>都無用啦！啊！夭壽子啦。夭壽子。",
+            "<div class='sidenote'>連音。前面有個一樣的 nài，平常我們講「哪仔」講快點就會變這樣連在一起。（DanielaAerts）</div>Cěusǎng ìd qíen ǹg bàg ngǐn, gǐdéu oi síin gíunkǐ, ngǎi <span class='updated'>pu</span> di <span class='updated'><ruby><rb>nài</rb><rp>(</rp><rt>naiè</rt><rp>)</rp></ruby></span> <span class='updated'>ngǎi</span> du mǒ iung là! À! Íeusuzìi la. Íeusuzìi.",
 
           ],
 
@@ -4436,8 +4436,8 @@ data = [
           ],
           [
             "",
-            "咱社寮个土生仔，半番半漢，做狗，漢人嘛<span class='hapim'>無愛</span>。<br>生番若報復，漢人會當離開琅𤩝重新開始，風港、鳳山、打狗、府城，全臺灣攏有漢人會當蹛个所在。<br>啊咱離開琅𤩝，會當去佗？",
-            "Lán Siā-liâu ê thóo-senn-á, puànn-huan-puànn-hàn, tsuè káu, Hàn-jîn mā buài.<br>Tshenn-huan nā pò-ho̍k, Hàn-jîn ē-tàng lî-khui Lân-kiau tiông-sin khai-sí, Hong-káng, Hōng-suann, Tá-káu, Hú-siânn, tsuân Tâi-uân lóng ū Hàn-jîn ē-tàng tuà ê sóo-tsāi.<br>A lán lî-khui Lân-kiau, ē-tàng khì tah?",
+            "咱社寮个土生仔，半番半漢，做狗，漢人嘛 <ruby><rb>buài</rb><rp>(</rp><rt>無+愛</rt><rp>)</rp></ruby>。<br>生番若報復，漢人會當離開琅𤩝重新開始，風港、鳳山、打狗、府城，全臺灣攏有漢人會當蹛个所在。<br>啊咱離開琅𤩝，會當去佗？",
+            "Lán Siā-liâu ê thóo-senn-á, puànn-huan-puànn-hàn, tsuè káu, Hàn-jîn mā <ruby><rb>buài</rb><rp>(</rp><rt>bô ài</rt><rp>)</rp></ruby>.<br>Tshenn-huan nā pò-ho̍k, Hàn-jîn ē-tàng lî-khui Lân-kiau tiông-sin khai-sí, Hong-káng, Hōng-suann, Tá-káu, Hú-siânn, tsuân Tâi-uân lóng ū Hàn-jîn ē-tàng tuà ê sóo-tsāi.<br>A lán lî-khui Lân-kiau, ē-tàng khì tah?",
             "2"
           ],
           [
@@ -4535,8 +4535,8 @@ data = [
           [
 
             "姆",
-            "<div class='sidenote'> 「毋係」感覺有連音變成 me（GHSRobert）；<br>「不是這樣嗎？」反問的意思（DanielaAerts） </div>佢毋會摎你傳話啦。佢<span class='TBD'>拆</span>忒統領埔，拆忒，好起新个<span class='noted'>毋係</span>？",
-            "Gǐ m̌ voi láu ňg cǒnfa là. Gǐ <span class='TBD'>càg</span> tèd Tùnglíangpú, càg tèd, hò hì xínge <span class='noted'>me</span>?",
+            "<div class='sidenote'> 「毋係」感覺有連音變成 me（GHSRobert）；<br>「不是這樣嗎？」反問的意思（DanielaAerts） </div>佢毋會摎你傳話啦。佢<span class='TBD'>拆</span>忒統領埔，拆忒，好起新个 <span class='noted'><ruby><rb>me</rb><rp>(</rp><rt>毋+係</rt><rp>)</rp></ruby></span>？",
+            "Gǐ m̌ voi láu ňg cǒnfa là. Gǐ <span class='TBD'>càg</span> tèd Tùnglíangpú, càg tèd, hò hì xínge <span class='noted'><ruby><rb>me</rb><rp>(</rp><rt>m̌ he</rt><rp>)</rp></ruby></span>?",
 
           ],
 
@@ -4567,8 +4567,8 @@ data = [
           [
 
             "姆",
-            "<div class='sidenote'> 母的「你」似乎都是 ngi，有點北苗、新竹口音？ </div>唉。幾下代哩，𫣆<span class='updated'>俚</span>摎樵城，你無來，𠊎無去，無進也無退，<span class='updated'>想看啊</span>兩片，無搶走麼个，也無搶着麼个毋係？",
-            "Ài. Gìhá toi lè, én<span class='updated'>lì</span> láu Cěusǎng, <span class='noted'>ngǐ</span> mǒ lǒi, ngǎi mǒ hi, mǒ jin <span class='updated'>i</span>a mǒ tui, <span class='updated'>xìong kon a</span> lìong pìen, mǒ qìong zèu màge, <span class='updated'>i</span>a mǒ qìong dò màge me?",
+            "<div class='sidenote'> 母的「你」似乎都是 ngi，有點北苗、新竹口音？ </div>唉。幾下代哩，𫣆<span class='updated'>俚</span>摎樵城，你無來，𠊎無去，無進也無退，<span class='updated'>想看啊</span>兩片，無搶走麼个，也無搶着麼个 <span class='updated'><ruby><rb>me</rb><rp>(</rp><rt>毋+係</rt><rp>)</rp></ruby></span>？",
+            "Ài. Gìhá toi lè, én<span class='updated'>lì</span> láu Cěusǎng, <span class='noted'>ngǐ</span> mǒ lǒi, ngǎi mǒ hi, mǒ jin <span class='updated'>i</span>a mǒ tui, <span class='updated'>xìong kon a</span> lìong pìen, mǒ qìong zèu màge, <span class='updated'>i</span>a mǒ qìong dò màge <ruby><rb>me</rb><rp>(</rp><rt>m̌ he</rt><rp>)</rp></ruby>?",
 
           ],
 
@@ -4583,7 +4583,7 @@ data = [
           [
 
             "姆",
-            "你兜去見官軍，行共條路，去个時節無計較，轉來，乜無算<span class='updated'>數</span>毋係？",
+            "你兜去見官軍，行共條路，去个時節無計較，轉來，乜無算<span class='updated'>數</span> me？",
             "Ngǐdéu hi gian góngíun, hǎng kiung tǐau lu, hi ge sǐijìed mǒ giegàu, zònlǒi, me mǒ <span class='updated'>sonsii</span> me?",
 
           ],
@@ -4955,8 +4955,8 @@ data = [
           [
 
             "",
-            "𫣆俚愛官軍摎生番仔配合𫣆俚，<br><div class='sidenote'> 「斯」很難解釋。可以先當作「可不是」的意思，整句的意思是兩頭的秤頭可不是還空著嗎（反問）（DanielaAerts） </div>𫣆俚是秤仔，琅𤩝个秤仔，<br>偎官軍這片，生番仔會驚；<br>偎生番仔這片，官軍會敗。<br>這下，兩頭秤頭<span class='updated noted'>斯</span>空个毋係？<br>𫣆俚還吂升旗，官軍定著會來放斤兩。<br><span class='updated'>莫</span>分官軍入庄，生番仔在山頂乜看得着，<br>佢<span class='updated'>也</span>會來放斤兩。<br>到尾，𫣆俚看兩片，哪片斤兩較足，<br>𫣆俚就偎哪片。啊？",
-            "Énlì oi gón'gíun láu sángfánè pihab énlì,<br>énlì sii ciinè, Lǒngkieu ge ciinè,<br>và gón'gíun lìa pìen, sángfánè voi gíang;<br>và sángfánè lìa pìen, gón'gíun voi pai.<br><div class='sidenote'>聽來像 liha，該不會梅芳阿姨有饒平腔還是詔安腔的背景？ </div><span class='noted'>Lìaha</span>, lìong těu ciintěu sǐi kúngge me?<br>Énlì hǎn mǎng síinkǐ, gón'gíun tincog voi lǒi biong gínlíong.<br><span class='updated'>Mog</span> bún gón'gíun ngib zóng, sángfánè di sán dàng me kon dèd dò,<br>gǐ <span class='updated'>ia</span> voi lǒi biong gínlíong.<br>Domí, énlì kon lìong pìen, nai pìen gínlíong ka jìug,<br>énlì qiu và nai pìen. A?",
+            "𫣆俚愛官軍摎生番仔配合𫣆俚，<br><div class='sidenote'> 「斯」很難解釋。可以先當作「可不是」的意思，整句的意思是兩頭的秤頭可不是還空著嗎（反問）（DanielaAerts） </div>𫣆俚是秤仔，琅𤩝个秤仔，<br>偎官軍這片，生番仔會驚；<br>偎生番仔這片，官軍會敗。<br>這下，兩頭秤頭<span class='updated noted'>斯</span>空个 <ruby><rb>me</rb><rp>(</rp><rt>毋+係</rt><rp>)</rp></ruby>？<br>𫣆俚還吂升旗，官軍定著會來放斤兩。<br><span class='updated'>莫</span>分官軍入庄，生番仔在山頂乜看得着，<br>佢<span class='updated'>也</span>會來放斤兩。<br>到尾，𫣆俚看兩片，哪片斤兩較足，<br>𫣆俚就偎哪片。啊？",
+            "Énlì oi gón'gíun láu sángfánè pihab énlì,<br>énlì sii ciinè, Lǒngkieu ge ciinè,<br>và gón'gíun lìa pìen, sángfánè voi gíang;<br>và sángfánè lìa pìen, gón'gíun voi pai.<br><div class='sidenote'>聽來像 liha，該不會梅芳阿姨有饒平腔還是詔安腔的背景？ </div><span class='noted'>Lìaha</span>, lìong těu ciintěu sǐi kúngge <ruby><rb>me</rb><rp>(</rp><rt>m̌ he</rt><rp>)</rp></ruby>?<br>Énlì hǎn mǎng síinkǐ, gón'gíun tincog voi lǒi biong gínlíong.<br><span class='updated'>Mog</span> bún gón'gíun ngib zóng, sángfánè di sán dàng me kon dèd dò,<br>gǐ <span class='updated'>ia</span> voi lǒi biong gínlíong.<br>Domí, énlì kon lìong pìen, nai pìen gínlíong ka jìug,<br>énlì qiu và nai pìen. A?",
 
           ],
 
@@ -5215,8 +5215,8 @@ data = [
           ],
           [
             "蝶",
-            "阿水兄，汝緊升旗，若無統領埔佮米糧會夆燒了了。彼是阮兜呢！",
-            "A-Tsuí Hiann, lí kín sing-kî, nā-bô Thóng-niá-poo kah bí-niû ē hőng sio-liáu-liáu. He sī gún tau--ne!",
+            "阿水兄，汝緊升旗，若無統領埔佮米糧會<ruby><rb>夆</rb><rp>(</rp><rt>予+儂</rt><rp>)</rp></ruby>燒了了。彼是阮兜呢！",
+            "A-Tsuí Hiann, lí kín sing-kî, nā-bô Thóng-niá-poo kah bí-niû ē <ruby><rb>hőng</rb><rp>(</rp><rt>hōo lâng</rt><rp>)</rp></ruby> sio-liáu-liáu. He sī gún tau--ne!",
             "2"
           ],
           [
@@ -5389,7 +5389,7 @@ data = [
 
             "九",
             "下二擺摎你做生理，毋想經過社寮，𠊎直接入山，摎你做生理？",
-            "Ha'ngibài láu ňg zo sénlí, m̌ xìong gíngo Salǐau, ngǎi cii<span class='updated'>d</span>jìab ngib sán, láu ňg zo sénlí?",
+            "Ha ngi bài láu ňg zo sénlí, m̌ xìong gíngo Salǐau, ngǎi cii<span class='updated'>d</span>jìab ngib sán, láu ňg zo sénlí?",
 
           ],
 
@@ -5527,8 +5527,8 @@ data = [
           ],
           [
             "姆",
-            "豬仔食个豬菜，分人食忒哩，豬<span class='updated'>仔</span>餓死，續下來換人<span class='updated'>吔</span>。無食糧哩。秤仔<span class='updated'>愛</span>斜哪片，當清楚毋係？",
-            "Zúè siid <span class='updated'>ge</span> zúcoi, bún ngǐn siid tèd lè, zú<span class='updated'>è</span> ngo xì, sa hálǒi von ngǐn <span class='updated'>ě</span>. <div class='sidenote'>客話一般都是講「食糧」，但演員這邊講「糧食」XD</div>Mǒ <span class='noted'>siidlǐong</span> lè. Ciinè <span class='updated'>oi</span> qǐa nai pìen, dóng qíncù me?"
+            "豬仔食个豬菜，分人食忒哩，豬<span class='updated'>仔</span>餓死，續下來換人<span class='updated'>吔</span>。無食糧哩。秤仔<span class='updated'>愛</span>斜哪片，當清楚 <ruby><rb>me</rb><rp>(</rp><rt>毋+係</rt><rp>)</rp></ruby>？",
+            "Zúè siid <span class='updated'>ge</span> zúcoi, bún ngǐn siid tèd lè, zú<span class='updated'>è</span> ngo xì, sa hálǒi von ngǐn <span class='updated'>ě</span>. <div class='sidenote'>客話一般都是講「食糧」，但演員這邊講「糧食」XD</div>Mǒ <span class='noted'>siidlǐong</span> lè. Ciinè <span class='updated'>oi</span> qǐa nai pìen, dóng qíncù <ruby><rb>me</rb><rp>(</rp><rt>m̌ he</rt><rp>)</rp></ruby>?"
           ],
           [
             "九",
@@ -5805,8 +5805,8 @@ data = [
           ],
           [
             "杰",
-            "吾姐在<span class='updated'>哪仔</span>？",
-            "Ngá jì di <span class='updated'>nài</span>?"
+            "吾姐在 <span class='updated'><ruby><rb>nài</rb><rp>(</rp><rt>哪+仔</rt><rp>)</rp></ruby></span>？",
+            "Ngá jì di <span class='updated'><ruby><rb>nài</rb><rp>(</rp><rt>naiè</rt><rp>)</rp></ruby></span>?"
           ],
           [
             "庄人",
@@ -6206,8 +6206,8 @@ data = [
           ],
           [
             "",
-            "若按呢好啊，原本想講蛇軍欲查問<span class='hapim'>啥儂</span>去通報生番个，我欲擔；這馬毋免矣。",
-            "Nā án-ne hó--a, guân-pún siūnn-kóng Siâ-kun beh tsa-mn̄g siáng khì thong-pò tshenn-huan--ê, guá beh tann; tsit-má m̄-bián--ah.",
+            "若按呢好啊，原本想講蛇軍欲查問 <ruby><rb>siáng</rb><rp>(</rp><rt>啥+儂</rt><rp>)</rp></ruby> 去通報生番个，我欲擔；這馬毋免矣。",
+            "Nā án-ne hó--a, guân-pún siūnn-kóng Siâ-kun beh tsa-mn̄g <ruby><rb>siáng</rb><rp>(</rp><rt>siánn-lâng</rt><rp>)</rp></ruby> khì thong-pò tshenn-huan--ê, guá beh tann; tsit-má m̄-bián--ah.",
             "2"
           ],
           [
@@ -6615,19 +6615,25 @@ data = [
           [
             "水",
             "她說的是真的。小心，還有阿勞楚，他們把官軍當朋友。",
-            "...",
+            "...<br><br>",
             "3"
           ],
           [
             "蝶",
-            "",
+            "走，我們回部落！",
             "...",
+            "3"
+          ],
+          [
+            "",
+            "你不相信姐姐？<br>那是母親的家……",
+            "...<br>",
             "3"
           ],
           [
             "杰",
             "走。",
-            "",
+            "Ari.",
             "3"
           ],
           [
@@ -6708,8 +6714,8 @@ data = [
           ],
           [
             "水",
-            "兩隻牛相觸，<span class='hapim'>啥儂</span>死<span class='hapim'>啥儂</span>活，這馬佮咱攏無關係矣。<br>先顧家己个。<br>叫逐家共物件緊款款个，撇庄。避難。",
-            "Nn̄g tsiah gû sio-tak, sia̋ng sí sia̋ng ua̍h, tsit-má kah lán lóng bô kuan-hē--ah.<br>Sian kòo ka-tī--ê.<br>Kiò ta̍k-ke kā mi̍h-kiānn kín khuán-khuán--ê, phiat-tsng. Pī-lān.",
+            "兩隻牛相觸，<ruby><rb>sia̋ng</rb><rp>(</rp><rt>啥+儂</rt><rp>)</rp></ruby> 死 sia̋ng 活，這馬佮咱攏無關係矣。<br>先顧家己个。<br>叫逐家共物件緊款款个，撇庄。避難。",
+            "Nn̄g tsiah gû sio-tak, <ruby><rb>sia̋ng</rb><rp>(</rp><rt>siánn-lâng</rt><rp>)</rp></ruby> sí sia̋ng ua̍h, tsit-má kah lán lóng bô kuan-hē--ah.<br>Sian kòo ka-tī--ê.<br>Kiò ta̍k-ke kā mi̍h-kiānn kín khuán-khuán--ê, phiat-tsng. Pī-lān.",
             "2"
           ],
         ]

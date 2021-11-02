@@ -230,7 +230,7 @@ section table {
 
 
 #main-title:after {
-  content: 'Aiuanyu 編／v1.67 20211024';
+  content: 'Aiuanyu 編／v2.0 20211102';
   font-size: 0.5em;
   font-family: 蘋果儷中黑;
   position: absolute;
@@ -394,19 +394,24 @@ section table {
 section table {width: 70vw;}
 
 .noted {
-  background-color: rgba(255, 232, 164, 0.40);
+  background-color: rgba(255, 232, 164, 0.3);
   border-radius: 0.3em;
   break-inside: avoid; /* 沒辦法讓 before 的元素和主元素保持在同一行 :( */
+  display: inline-block; /* 改用這個來讓 before 的元素和主元素保持同一行！*/
 }
-.noted:before {
-  content: "✎";
-  font-size: 0.5em;
+/*.noted:before {
+  /*display: inline;*/
+/*  content: "✎";
+  font-size: 0.3em;
   vertical-align: top;
-  top: -0.9em;
+  top: -2.5em;
+  /*left: 2em;*/
+/*  width: 0;
+  opacity: 0.33;
   display: inline-block;
   position: relative;
   margin-right: 0.1em;
-}
+}*/
 
 #links {text-align: left;}
 
@@ -656,12 +661,18 @@ td.classic:before {
   border-radius: 0.5em;
   border-style: solid;
   border-color: hsla(0, 0%, 100%, 0.3);
-  border-width: 0 0.1em 0.2em 0.1em;
+  border-width: 0 0 0.2em 0;
 }
-/*.hapim:before {content: '[';}
-.hapim:after {content: ']';}
+.hapim:before {content: '{';}
+.hapim:after {content: '}';}
 .hapim:before,
 .hapim:after {
   font-size: 0.3em;
   opacity: 0.5;
-}*/
+}
+rt {opacity: 0.5;}
+rb {
+  border-style: solid;
+  border-color: hsla(0, 0%, 100%, 0.2);
+  border-width: 0 0.1em;
+}
