@@ -108,7 +108,7 @@ function create() {
           data[i].sections[j].rows[k][2] = "";
         }
 
-        if (data[i].sections[j].rows[k][3] == 3 || data[i].sections[j].rows[k][3] == 4) { // 排灣、英文
+        if (data[i].sections[j].rows[k][3] == 3 || data[i].sections[j].rows[k][3] == 4) { // 非漢語族（排灣、英文，左原文右翻譯）
           var name = data[i].sections[j].rows[k][0];
           var lang = data[i].sections[j].rows[k][3];
           var namelang = (lang === undefined) ? name : name+lang;
@@ -119,10 +119,16 @@ function create() {
           if (data[i].sections[j].rows[k][1] !== '') { // 加這道，處理「空的翻譯」的情形（有翻譯，才產生 trans 方塊；像如果排灣文是打「...」那就不會有翻譯了）
             trans = '<div class="trans"><span class="tranName">' + name.replace(/\d/,'') + '</span>' + data[i].sections[j].rows[k][1] + '</div>'; // 本來前後有加括號的
           }
+
+          var ellipsisCell = new RegExp('^\\.\\.\\.'); // 用正規表示式檢查的方法 ☞ jquery - javascript check if regex apply - Stack Overflow <https://stackoverflow.com/questions/6390695/javascript-check-if-regex-apply>
+          if (data[i].sections[j].rows[k][3] == '3' && data[i].sections[j].rows[k][2].match(ellipsisCell)) { // 若排灣文只有「...」，則用百步蛇紋代替，比較不會那麼乾
+            data[i].sections[j].rows[k][2] = data[i].sections[j].rows[k][2].replace(/^\.\.\./,'<span class="payuanEllipsis">◆◆◆◆◆◆◆◆◆◆◆◆◆</span>');
+            // data[i].sections[j].rows[k][2] = '◆◆◆◆◆◆◆◆◆◆';
+          }
           tr1.innerHTML = '<td></td><td>' + trans + data[i].sections[j].rows[k][2] + '</td>'; // 跟其他語文漢字放第 2 列不同，是把華文字幕放在右邊，類似 sidenote
           tr2.innerHTML = '<td>' + namelang + '</td><td></td>'; // 這列還是要有，讓 fillHakNames() 去抓族語名，但再用 display:none 同英、法文
         }
-        else { // 非排灣
+        else { // 漢語族（上排羅馬字、下排漢字）
           tr1.innerHTML = '<td></td><td>' + data[i].sections[j].rows[k][2] + '</td>';
           var name = data[i].sections[j].rows[k][0];
           var lang = data[i].sections[j].rows[k][3];
@@ -139,10 +145,15 @@ function create() {
           tr2.classList += "lang"+data[i].sections[j].rows[k][3];
         }
 
-        if (data[i].sections[j].rows[k][4] == '典') {
+        if (data[i].sections[j].rows[k][4] == '典') { // 排灣經典句
           var tds = tr1.getElementsByTagName('td');
           tds[1].classList += 'classic';
         }
+
+        /* if (data[i].sections[j].rows[k][3] != '3') { // 這一小段可以用來做簡單快速的除錯
+          tr1.innerHTML = '';
+          tr2.innerHTML = '';
+        }*/
 
         table.appendChild(tr1);
         table.appendChild(tr2);
