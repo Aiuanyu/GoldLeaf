@@ -26,13 +26,13 @@ data = [
           [
             "",
             "我向各獵區祈求讓你們追擊到獵物，<br>我向祖靈祈求你們陷阱得獵物。",
-            "taimaza-amen a kiqauqaung tjai ramaljemaljeng tu pupiculi amen, tu pusepi amen, tu pulu’emi amen.",
+            "taimaza-amen a kiqauqaung tjai ramaljemaljeng tu pupiculi amen, tu pusepi amen, tu pulu'emi amen.",
             "3"
           ],
           [
             "",
             "我們不可為獵物爭吵。",
-            "Ini’a maqati a marivu ta tja cinunan.",
+            "Ini'a maqati a marivu ta tja cinunan.",
             "3"
           ],
           [
@@ -98,7 +98,7 @@ data = [
           [
             "",
             "祖靈為何不至？",
-            "Aku ini’a tjetekuanan a sevalitan?",
+            "Aku ini'a tjetekuanan a sevalitan?",
             "3"
           ],
         ]
@@ -590,7 +590,7 @@ data = [
           [
             "阿",
             "卓杞篤！我賠一隻牛，放人！",
-            "Tuqituq!...<br><br>",
+            "Tuqituq!...<br>",
             "3"
           ],
           [
@@ -782,7 +782,7 @@ data = [
           [
             "朱",
             "卓杞篤大股頭，山下漢人越來越多，要讓漢人知道，琅𤩝是斯卡羅的！",
-            "...<br><br><br>",
+            "...<br><br>",
             "3"
           ],
           [
@@ -1087,7 +1087,7 @@ data = [
           [
             "風",
             "祖先也說不能殺女人。",
-            "I'a ma'ati a ‘emeci ta vavayavayan aya a tja ramaljemaljang.",
+            "I'a ma'ati a 'emeci ta vavayavayan aya a tja ramaljemaljang.",
             "3"
           ],
         ]
@@ -2728,14 +2728,16 @@ data = [
           [
             "蝶",
             "母親死前，要我帶你離開這裡。",
-            "Napazekatj ti kina tu kacu sun a paytjukuda aya, ta neka pacayanan tazua.",
-            "3"
+            "Napazekatj ti kina tu &quot;kacu<span class='updated'>in</span> sun a vaik kitjukuda&quot; aya ti kina ka neka pacayanan tazua.",
+            "3",
+            "典"
           ],
           [
             "杰",
             "她也說要記得回來。",
             "Paqenetju a cemikel aya ti kina.",
-            "3"
+            "3",
+            "典"
           ],
 
         ]
@@ -3243,7 +3245,7 @@ data = [
 
             "九",
             "蚊<span class='updated'>率</span>埔啊，佢自家講个啊。<br><div class='sidenote'>* 這個詞似乎沒得查，我依中華民國民法「使用人」的相似意義姑且用之。待官方確認。（GHSRobert）<br>* 這我也查不到。不過，我問我爸他說使用人他沒聽過，傭人比較常講「長年仔」，就長工的意思。如果是打工仔的話是「承勞仔」，如果是丫鬟是「梅香仔」。（DanielaAerts） </div>帶等一隻生番个細妹仔，講乜係蚊率埔个生番仔，部落个<span class='noted'>使用人</span>啊。<br>試<span class='updated'>着</span>奇怪呴？𠊎乜係啊！<br>保力庄啊，<span class='updated'>無</span>收留來路不明个人。",
-            "<span class='noted'>Mún<span class='updated'>soi</span>pú</span> a, gǐ ciigá gòng ge a.<br>Dai dèn ìd zàg sángfán ge semoiè, gòng me he Múnsùdpú ge sángfánè, pulog ge sìiiongngǐn a.<br><span class='updated'>Cii</span> dò kǐguai ho? Ngǎi me he a!<br>Bòlid Zóng a, <span class='updated'>mǒ</span> súlǐu lǒilubùdmǐn ge ngǐn.",
+            "<span class='noted'>Mún<span class='updated'>soi</span>pú</span> a, gǐ ciigá gòng ge a.<br>Dai dèn ìd zàg sángfán ge semoiè, gòng me he Mún<span class='updated'>soi</span>pú ge sángfánè, pulog ge sìiiongngǐn a.<br><span class='updated'>Cii</span> dò kǐguai ho? Ngǎi me he a!<br>Bòlid Zóng a, <span class='updated'>mǒ</span> súlǐu lǒilubùdmǐn ge ngǐn.",
 
           ],
 
@@ -3279,20 +3281,23 @@ data = [
           [
             "朱",
             "像山豬一樣貪吃！",
-            "Matu vavuy a kinamaric!",
-            "3"
+            "Matu vavuy a kinamari<span class='updated'>t</span>!",
+            "3",
+            "典"
           ],
           [
             "水",
             "我不是山豬，是狗！",
             "Inika vavuy, vatu aken.",
-            "3"
+            "3",
+            "典"
           ],
           [
             "",
             "斯卡羅忠心的狗，想活下去的狗！",
-            "Napasa Seqalu a ku varung, pasa a vayuvayu* a vatu!",
-            "3"
+            "Napasa Seqalu a ku varung, pasa a <span class='updated'>valjualjut</span> a vatu!",
+            "3",
+            "典"
           ],
           [
             "",
@@ -3303,8 +3308,9 @@ data = [
           [
             "朱",
             "當狗，要當得像！把洋人的氣味、消息告訴主人。",
-            "Nu uri masan vatu sun, penaquliqulidu kaseljangau sasequan na quljung.<br>Satjumajli ta su kamakama.",
-            "3"
+            "Nu uri masan vatu sun, penaquliqulidu <span class='updated'>pakeljangau a</span> sasequan na quljung.<br>Sa tjumajli ta su kamakama.",
+            "3",
+            "典"
           ],
         ]
       },
@@ -3359,7 +3365,7 @@ data = [
             "2"
           ],
           [
-            "船夫",
+            "船工",
             "啊我是愛等偌久？",
             "A guá sī ài tán guā-kú?",
             "2"
@@ -3377,7 +3383,7 @@ data = [
             "2"
           ],
           [
-            "船夫",
+            "船工",
             "喂，汝欲創啥？",
             "Eh, lí beh tshòng sánn?",
             "2"
@@ -5790,6 +5796,18 @@ data = [
         ]
       },
       {
+        "t": "29:03",
+        "rows": [
+          [
+            "杰",
+            "沒有了家，我還能去哪呢？",
+            "Uri sema inu aken, nu nekanga nia tjumaq.",
+            "3",
+            "典"
+          ],
+        ]
+      },
+      {
         "t": "33:00",
         "rows": [
           [
@@ -5819,12 +5837,30 @@ data = [
           ],
           [
             "庄人",
-            "屌麼个！你講麼个漦！<hr>",
+            "屌麼个！你講麼个漦！",
             "D<span class='updated'>ì</span>au màge! Ňg gòng màge xǐau!"
           ],
           [
-            "杰",
             "",
+            "",
+            "...",
+            "2"
+          ],
+          [
+            "庄儂",
+            "喔唷！哎唷！喔喔喔！閃啦！<hr>",
+            "Óo-iô! Ai-iō! Óo-óo-óo! Siám--lah!",
+            "2"
+          ],
+          [
+            "杰",
+            "你右手先動。我是斯卡羅勇士！",
+            "...",
+            "3"
+          ],
+          [
+            "",
+            "脖子後面，兩根手指的地方砍下去。<br>我替部落帶來不祥……",
             "...",
             "3"
           ],
@@ -5994,7 +6030,19 @@ data = [
             "5"
           ],
         ]
-      }
+      },
+      {
+        "t": "47:02",
+        "rows": [
+          [
+            "伊",
+            "我們斯卡羅就像掉進陷阱的獵物，越掙扎血流越多就越快死。",
+            "A timitja Seqalu, mamaw taza pinudringay a sacemel. Nu tja kiqecev, tjadjaljaw a djamuq a se vaik, tjadjaljaw a macay.",
+            "3",
+            "典"
+          ],
+        ]
+      },
     ]
   },
   {
@@ -6039,6 +6087,18 @@ data = [
             "諾！",
             "Nuò!",
             "5"
+          ],
+        ]
+      },
+      {
+        "t": "24:44",
+        "rows": [
+          [
+            "卓",
+            "你越不承認，那血就會像火一樣燒著你的身體。",
+            "Nu tja kiqilia sun, aza djamuq, uri mamaw ta sapuy a ljemama ta su kinacavacavan.",
+            "3",
+            "典"
           ],
         ]
       },
