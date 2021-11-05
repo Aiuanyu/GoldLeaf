@@ -651,7 +651,7 @@ td.classic:before {
   content: '🏅';
   font-size: 3em;
   position: absolute;
-  right: 33%;
+  right: 30%;
   opacity: 0.3;
 }
 
