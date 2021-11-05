@@ -1,6 +1,6 @@
 body {
 /*  font-family: "jf open 粉圓 1.1", "圓體-繁", serif;*/
-  font-family: '源流明體'/*"霞鶩文楷 TC"*/, HanaMinB, serif;
+  font-family: '源流明體'/*"霞鶩文楷 TC"*/, HanaMinB, TaiExtWeb, serif;
   line-height: 1.4rem;
   border-radius: 0px;
   font-size: 16px;
@@ -486,10 +486,15 @@ section:not(.noHak):before {
   opacity: 0.9;
 }
 
+@font-face {
+  font-family: TaiExtWeb;
+  src: url(res/TaiExtWeb.ttf);
+}
+
 section tr:nth-child(2n) {color: white !important;}
 /* Ho̍h-ló */
 section tr.lang2, section td.lang2, section tr:nth-child(2n+1) .lang2, .sample.lang2 {color: /*honeydew*//*hsl(217, 82%, 89%)*/hsl(303, 100%, 96%);}
-section tr:nth-child(2n).lang2, section tr:nth-child(2n) .lang2, .sample.lang2/*, .tranName*/ {font-family: "源石黑體", /*"霞鶩文楷 TC",*/ sans-serif; font-weight: 500;}
+section tr:nth-child(2n).lang2, section tr:nth-child(2n) .lang2, .sample.lang2/*, .tranName*/ {font-family: "源石黑體", /*"霞鶩文楷 TC",*/ TaiExtWeb, sans-serif; font-weight: 500;}
 section tr:nth-child(2n+1).lang2, section tr:nth-child(2n+1) .lang2 {font-family: 源石黑體, sans-serif; font-weight: 500;}
 section tr:nth-child(2n+1).lang2 {font-size: 1.2em;}
 section tr:nth-child(2n+1).lang2 td {line-height: 1.6em;}
@@ -500,7 +505,7 @@ section tr.lang3, section td.lang3, section tr:nth-child(2n+1) .lang3, .sample.l
 section tr:nth-child(2n).lang3, section tr:nth-child(2n) .lang3, .sample.lang3 {font-family: "黑體-繁", sans-serif; font-weight: 700;}
 section tr:nth-child(2n+1).lang3, section tr:nth-child(2n+1) .lang3, .sample.lang3 {font-family: /*STXinwei, Nyala, Museo, */Kefa, Constantia, Archer, Superclarendon, 'Academy Engraved LET', 'Book Antigua', Baskerville, serif; font-weight: 500;}
 /*section tr:nth-child(2n+1).lang3 td:nth-child(2n+1) {font-family: Kefa; font-weight: 500; font-size: 1.4rem;}*/
-/*section tr:nth-child(2n+1).lang3 {font-size: 1.3em;}*/
+section tr:nth-child(2n+1).lang3 {font-size: 1.35em;}
 section tr:nth-child(2n+1) .lang3 {font-size: 0.9em;}
 section tr.lang3 td:nth-child(2), section tr.lang6 td:nth-child(2) {padding-right: 25%;}
 section .lang3 td {line-height: 1.6em;}
