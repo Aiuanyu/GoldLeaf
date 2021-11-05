@@ -597,7 +597,7 @@ td hr {
 #roman-guide td {
   text-align: center;
   vertical-align: middle;
-  font-family: Andika, 源泉圓體;
+  font-family: Andika, 源泉圓體, TaiExtWeb, sans-serif;
   font-size: 2vw;
   line-height: 2.5vw;
   max-width: 15vw;
