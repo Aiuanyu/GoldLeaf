@@ -98,7 +98,7 @@ h1, #vnum {
   vertical-align: middle;
 }
 
-#thanks, #links a, #HLauthor, #Payuan-author, #links li {font-family: PT Sans, '黑體-繁', sans-serif; font-weight: 700;}
+#thanks, #links a, #HLauthor, #Payuan-author, #links li, button.collapsible {font-family: PT Sans, '黑體-繁', sans-serif; font-weight: 700;}
 #thanks ul ul li, #links li {
   display: inline-block;
   color: white;
@@ -263,7 +263,7 @@ td {
   line-height: 1.4em;
 }
 
-:root {
+:root { /* 似乎可以清掉了，用不到？ */
   --color: 0 0%;
   --l: 100%;
 }
@@ -415,7 +415,7 @@ section table {width: 70vw;}
 
 #links {text-align: left;}
 
-#links a {
+#links a, .collapsible {
   color: white;
   background-color: #198964;
   float: none;
@@ -427,12 +427,12 @@ section table {width: 70vw;}
 #links a, #HLauthor, #Payuan-author {
   display: inline-block;
 }
-#links a, #vinfo, #HLauthor, #Payuan-author {
+#links a, #vinfo, #HLauthor, #Payuan-author, .collapsible {
   padding: 0.3em 0.7em;
   margin: 0.3em 0.3em;
   border-radius: 0.4em;
 }
-#links a:after {
+#links a:after, .collapsible:after {
   display: inline-block;
   content: ' ';
   background-image: url('res/click.svg'); /* Free Click Icon, Symbol. Download in PNG, SVG format. <https://www.iconpacks.net/free-icon/click-2384.html> */
@@ -475,14 +475,14 @@ section:not(.noHak):before {
   font-size: 0.5em;
 }
 .HL {display: none;}
-#useHL {
+#useHL, .floatedButtons {
   position: fixed;
   top: 2px;
   right: 2px;
   opacity: 0.3;
   z-index: 50;
 }
-#useHL:hover {
+#useHL:hover, .floatedButtons:hover {
   opacity: 0.9;
 }
 
@@ -696,3 +696,31 @@ rb {
 
 .group {border: 1px dotted lightgray;}
 .centeralign {text-align: center;}
+
+/* ===== How To Create a Collapsible <https://www.w3schools.com/howto/howto_js_collapsible.asp> ===== */
+ /* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  /*background-color: #eee;
+  color: #444;*/
+  cursor: pointer;
+  padding: 4px;
+  width: 100%;
+  /*border: none;*/
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+  background-color: hsla(49, 79%, 51%, 0.8);
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.collapsibleContent {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+  border-radius: 0.3em;
+} 

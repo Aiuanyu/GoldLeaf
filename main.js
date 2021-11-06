@@ -78,6 +78,7 @@ function create() {
   // 參考另一個 branch 的進度：Seqalu-hak/hak-lines.html at aec3dad6f0a0c71777a41b5f0c2cce41896de1f4 · GJRobert/Seqalu-hak <https://github.com/GJRobert/Seqalu-hak/blob/aec3dad6f0a0c71777a41b5f0c2cce41896de1f4/hak-lines.html>
 
   var contentContainer = document.getElementById("generated");
+  var toc = document.getElementById('floatedTOC');
 
   for (var i=0; i<data.length; i++) {
 
@@ -86,8 +87,12 @@ function create() {
     ep.setAttribute("class", "episode");
     if (data[i].draft == true) {ep.setAttribute("class","draft episode");}
     var h1 = document.createElement("h1");
-    h1.innerHTML = "<p>EP" + data[i].EP + " " + data[i].title + "</p>";
+    h1.innerHTML = "<a id='ep" + data[i].EP + "'></a><p>EP" + data[i].EP + " " + data[i].title + "</p>";
     ep.appendChild(h1);
+    // 順便製作 EP 目錄
+    var tocItem = document.createElement('li');
+    tocItem.innerHTML = "<a href='#ep" + data[i].EP + "'>EP" + data[i].EP + " " + data[i].title + "</a>";
+    toc.appendChild(tocItem);
 
     for (var j=0; j<data[i].sections.length; j++) {
 
@@ -183,8 +188,26 @@ function create() {
 
 }
 
+function collapsibles() { // How To Create a Collapsible <https://www.w3schools.com/howto/howto_js_collapsible.asp>
+  var coll = document.getElementsByClassName("collapsible");
+  var i;
+
+  for (i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var content = this.nextElementSibling;
+      if (content.style.display === "block") {
+        content.style.display = "none";
+      } else {
+        content.style.display = "block";
+      }
+    });
+  } 
+}
+
 // html - Loading javascript in body onload with 2 functions - Stack Overflow <https://stackoverflow.com/questions/10122555/loading-javascript-in-body-onload-with-2-functions>
 function init() {
   create();
   fillRomanNames();
+  collapsibles();
 }
