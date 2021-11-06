@@ -475,14 +475,14 @@ section:not(.noHak):before {
   font-size: 0.5em;
 }
 .HL {display: none;}
-#useHL {
+#useHL, .floatedButtons {
   position: fixed;
   top: 2px;
   right: 2px;
   opacity: 0.3;
   z-index: 50;
 }
-#useHL:hover {
+#useHL:hover, .floatedButtons:hover {
   opacity: 0.9;
 }
 
@@ -696,3 +696,30 @@ rb {
 
 .group {border: 1px dotted lightgray;}
 .centeralign {text-align: center;}
+
+/* ===== How To Create a Collapsible <https://www.w3schools.com/howto/howto_js_collapsible.asp> ===== */
+ /* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+  background-color: #ccc;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.collapsibleContent {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+} 
