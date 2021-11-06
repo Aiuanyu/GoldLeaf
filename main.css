@@ -263,7 +263,7 @@ td {
   line-height: 1.4em;
 }
 
-:root {
+:root { /* 似乎可以清掉了，用不到？ */
   --color: 0 0%;
   --l: 100%;
 }
