@@ -230,7 +230,7 @@ section table {
 
 
 #main-title:after {
-  content: 'Aiuanyu 編／v2.1 20211104';
+  content: 'Aiuanyu 編／v2.2 20211106';
   font-size: 0.5em;
   font-family: 蘋果儷中黑;
   position: absolute;
@@ -693,3 +693,6 @@ rb {
   border: solid 1px /*hsl(127, 100%, 96%)*/currentColor;
   font-size: 1.4rem;
 }
+
+.group {border: 1px dotted lightgray;}
+.centeralign {text-align: center;}
