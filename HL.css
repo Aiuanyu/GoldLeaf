@@ -20,3 +20,6 @@ section:not(.noHak):before {
   border-color: mediumvioletred;
   border-style: double;
 }
+
+#useHL {display: none;}
+#backToSI {display: initial;}

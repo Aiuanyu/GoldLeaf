@@ -5,6 +5,7 @@
     <title>公視戲劇「斯卡羅」多語台詞彙整</title>
     <meta name="author" content="G.HS.Robert Ciang">
     <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="icon" href="res/favicon.png">
     <link id="hakvar" rel="stylesheet" type="text/css" href="">
     <!--<script src="https://code.jquery.com/jquery-3.5.0.js"></script>-->
     <script type="text/javascript" src="main.js"></script>
@@ -53,12 +54,12 @@
     <div class="floatedButtons noprint">
       <button
             id="useHL"
-            onclick="useHL()">客語改用海陸腔</button>
+            onclick="useHL()">客語改用海陸腔</button><button id="backToSI" onclick="window.location.reload();">客語改用四縣腔</button>
             <br>
       <!-- How To Create a Collapsible <https://www.w3schools.com/howto/howto_js_collapsible.asp> -->
-      <button type="button" class="collapsible">目錄</button>
+      <button type="button" class="collapsible" id="TOCButton">目錄</button>
       <div class="collapsibleContent" id="floatedTOCContainer">
-        <a href="#top">回到頁頂</a>、<a href="#notes">編輯說明、羅馬字指南</a>
+        <a href="#top">🔼回到頁頂</a>、<a href="#notes">📕編輯說明、羅馬字指南</a>
         <ul class="TOC" id="floatedTOC"></ul>
       </div>
     </div>

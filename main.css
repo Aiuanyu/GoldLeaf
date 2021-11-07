@@ -98,7 +98,7 @@ h1, #vnum {
   vertical-align: middle;
 }
 
-#thanks, #links a, #HLauthor, #Payuan-author, #links li, button.collapsible {font-family: PT Sans, '黑體-繁', sans-serif; font-weight: 700;}
+#thanks, #links a, #HLauthor, #Payuan-author, #links li, button.collapsible, #useHL, #backToSI {font-family: PT Sans, '黑體-繁', sans-serif; font-weight: 700;}
 #thanks ul ul li, #links li {
   display: inline-block;
   color: white;
@@ -432,7 +432,7 @@ section table {width: 70vw;}
   margin: 0.3em 0.3em;
   border-radius: 0.4em;
 }
-#links a:after, .collapsible:after {
+#links a:after, .collapsible:not([class~=active]):after {
   display: inline-block;
   content: ' ';
   background-image: url('res/click.svg'); /* Free Click Icon, Symbol. Download in PNG, SVG format. <https://www.iconpacks.net/free-icon/click-2384.html> */
@@ -728,3 +728,15 @@ rb {
 #floatedTOC li, #floatedTOCContainer {
   line-height: 2em;
 }
+#backToSI {display: none;}
+#TOCButton.active:after {
+  content: "（再按一次收回 👆）" !important;
+  width: auto;
+  background-color: #198964;
+  display: inline-block;
+  margin-left: 1em;
+  border-radius: 0.5em;
+}
+#useHL, #backToSI {color: white;}
+#useHL {background-color: mediumvioletred;}
+#backToSI {background-color: deeppink;}
