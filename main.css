@@ -723,4 +723,8 @@ rb {
   overflow: hidden;
   background-color: #f1f1f1;
   border-radius: 0.3em;
-} 
+}
+
+#floatedTOC li, #floatedTOCContainer {
+  line-height: 2em;
+}
