@@ -729,7 +729,7 @@ rb {
   line-height: 2em;
 }
 #backToSI {display: none;}
-#useHL, #backToSI, #TOCButton, #floatedTOCContainer {
+#useHL, #backToSI, #TOCButton, #floatedTOCContainer { /* 關鍵的靠右 ☞ css - Right-align block elements in HTML - Stack Overflow <https://stackoverflow.com/questions/17614801/right-align-block-elements-in-html> */
   float: right;
   clear: right;
 }
