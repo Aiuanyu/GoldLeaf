@@ -427,12 +427,12 @@ section table {width: 70vw;}
 #links a, #HLauthor, #Payuan-author {
   display: inline-block;
 }
-#links a, #vinfo, #HLauthor, #Payuan-author, .collapsible {
+#links a, #vinfo, #HLauthor, #Payuan-author, .collapsible, #useHL, #backToSI {
   padding: 0.3em 0.7em;
   margin: 0.3em 0.3em;
   border-radius: 0.4em;
 }
-#links a:after, .collapsible:not([class~=active]):after {
+#links a:after, .collapsible:not([class~=active]):after, #useHL:after, #backToSI:after {
   display: inline-block;
   content: ' ';
   background-image: url('res/click.svg'); /* Free Click Icon, Symbol. Download in PNG, SVG format. <https://www.iconpacks.net/free-icon/click-2384.html> */
@@ -475,10 +475,10 @@ section:not(.noHak):before {
   font-size: 0.5em;
 }
 .HL {display: none;}
-#useHL, .floatedButtons {
+.floatedButtons {
   position: fixed;
   top: 2px;
-  right: 2px;
+  right: 0px;
   opacity: 0.3;
   z-index: 50;
 }
@@ -503,7 +503,7 @@ section tr:nth-child(2n+1).lang3 .lang2 {font-size: 1.3rem !important;}
 /* 排灣文 */
 section tr.lang3, section td.lang3, section tr:nth-child(2n+1) .lang3, .sample.lang3 {color: /*honeydew*//*hsl(217, 82%, 89%)*/hsl(127, 100%, 96%);}
 section tr:nth-child(2n).lang3, section tr:nth-child(2n) .lang3, .sample.lang3 {font-family: "黑體-繁", sans-serif; font-weight: 700;}
-section tr:nth-child(2n+1).lang3, section tr:nth-child(2n+1) .lang3, .sample.lang3 {font-family: /*STXinwei, Nyala, Museo, */Kefa, Constantia, Archer, Superclarendon, 'Academy Engraved LET', 'Book Antigua', Baskerville, serif; font-weight: 500;}
+section tr:nth-child(2n+1).lang3, section tr:nth-child(2n+1) .lang3, .sample.lang3, #floatedTOC li {font-family: /*STXinwei, Nyala, Museo, */Kefa, Constantia, Archer, Superclarendon, 'Academy Engraved LET', 'Book Antigua', Baskerville, serif; font-weight: 500;}
 /*section tr:nth-child(2n+1).lang3 td:nth-child(2n+1) {font-family: Kefa; font-weight: 500; font-size: 1.4rem;}*/
 section tr:nth-child(2n+1).lang3 {font-size: 1.35em;}
 section tr:nth-child(2n+1) .lang3 {font-size: 0.9em;}
@@ -704,9 +704,9 @@ rb {
   color: #444;*/
   cursor: pointer;
   padding: 4px;
-  width: 100%;
+  /*width: 100%;*/
   /*border: none;*/
-  text-align: left;
+  /*text-align: left;*/
   outline: none;
   font-size: 15px;
 }
@@ -729,6 +729,19 @@ rb {
   line-height: 2em;
 }
 #backToSI {display: none;}
+#useHL, #backToSI, #TOCButton, #floatedTOCContainer {
+  float: right;
+  clear: right;
+}
+#floatedTOCContainer {
+  box-shadow: 0.2em 0.2em darkslategray;
+  border: 1px solid darkslategray;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  text-align: center;
+}
+#floatedTOC li {text-align: left;}
+#TOCButton.active {width: 100%;}
 #TOCButton.active:after {
   content: "（再按一次收回 👆）" !important;
   width: auto;
