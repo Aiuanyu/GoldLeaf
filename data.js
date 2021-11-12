@@ -854,8 +854,8 @@ data = [
           ],
           [
             "水",
-            "等咧再落啊。",
-            "Tán-leh <span class='TBD'>kah</span> lo̍h--a.",
+            "等咧 <span class='updated'><ruby><rb>ka̋</rb><rp>(</rp><rt>共+我</rt><rp>)</rp></ruby></span> 落啊。",
+            "Tán-leh <span class='updated'><ruby><rb>ka̋</rb><rp>(</rp><rt>kā guá</rt><rp>)</rp></ruby></span> lo̍h--a.",
             "2"
           ],
           [
@@ -891,13 +891,13 @@ data = [
           [
             "水",
             "啊恁平湖个儂鯗嘛無好賣啊。",
-            "A lín Pênn-ôo ê lâng-siúnn mā bô hó bē--a.",
+            "A lín Pênn-ôo ê lâng-siúnn mā bô hó <span class='updated'>buē</span>--a.",
             "2"
           ],
           [
             "平",
-            "唐山个銃也無好買，予官府掠著會斬我个頭呢！",
-            "Tn̂g-suann ê tshìng iā bô hó bé, hōo kuann-hú lia̍h-tio̍h ē tsám guá-ê thâu--ne!",
+            "唐山个銃也無好買，予官府掠著會<span class='updated'>鏨</span>我个頭<span class='updated'>个</span>！",
+            "Tn̂g-suann ê tshìng iā bô hó <span class='updated'>bué</span>, hōo kuann-hú lia̍h-tio̍h ē <span class='updated'>tsām</span> guá-ê thâu--<span class='updated'>ê</span>!",
             "2"
           ],
           [
@@ -920,8 +920,8 @@ data = [
           ],
           [
             "平",
-            "出來！",
-            "Tshut-lâi!",
+            "<span class='updated'>哼。</span>出來！",
+            "<span class='updated'>Hngh.</span> Tshut-lâi!",
             "2"
           ],
           [
@@ -945,7 +945,7 @@ data = [
           [
             "甥",
             "阿舅！兩个頭儂已經到矣。遮喔，我共汝顧。",
-            "A-kū! Nn̄g ê thâu-lâng í-king kàu--ah. Tsia--o, guá kā lí kòo.",
+            "A-kū! Nn̄g ê thâu-lâng í-king kàu--ah. Tsia--oo, guá kā lí kòo.",
             "2"
           ],
           [
@@ -3700,7 +3700,7 @@ data = [
           [
             "甥",
             "阿舅，二股頭講乎會予大股頭共統領埔租予咱啦，伊閣欲共社寮收做領地，啊這馬山頂到底是 <span class='updated'><ruby><rb>siáng</rb><rp>(</rp><rt>啥+儂</rt><rp>)</rp></ruby></span> 做主啦？若<span class='TBD'>得罪</span>大股頭，欲按怎？",
-            "A-kū, Lī-kóo-thâu kóng--honnh ē hōo Tuā-kóo-thâu kā Thóng-niá-poo tsoohōo lán--lah, i koh beh kā Siā-liâu siu tsò niá-tê, a tsit-má suann-tíng tàu-té sī <ruby><rb>siáng</rb><rp>(</rp><rt>siánn-lâng</rt><rp>)</rp></ruby> tsuè-tsú--lah? Nā <span class='TBD'>tit-tsuē</span> Tuā-kóo-thâu, beh án-nuá?",
+            "A-kū, Lī-kóo-thâu kóng--honnh ē hōo Tuā-kóo-thâu kā Thóng-niá-poo tsoo hōo lán--lah, i koh beh kā Siā-liâu siu tsò niá-tê, a tsit-má suann-tíng tàu-té sī <ruby><rb>siáng</rb><rp>(</rp><rt>siánn-lâng</rt><rp>)</rp></ruby> tsuè-tsú--lah? Nā <span class='TBD'>tit-tsuē</span> Tuā-kóo-thâu, beh án-nuá?",
             "2"
           ],
           [
