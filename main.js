@@ -205,9 +205,24 @@ function collapsibles() { // How To Create a Collapsible <https://www.w3schools.
   } 
 }
 
+function openHeadTOC() {
+  var headTOCButton = document.getElementById("headTOCButton");
+  var floatedTOCButton = document.getElementById('TOCButton');
+  headTOCButton.addEventListener("click", function() {
+    floatedTOCButton.classList.toggle("active");
+    var toc = document.getElementById('floatedTOCContainer');
+    if (toc.style.display === "block") {
+      toc.style.display = "none";
+    } else {
+      toc.style.display = "block";
+    }
+  });
+}
+
 // html - Loading javascript in body onload with 2 functions - Stack Overflow <https://stackoverflow.com/questions/10122555/loading-javascript-in-body-onload-with-2-functions>
 function init() {
   create();
   fillRomanNames();
   collapsibles();
+  openHeadTOC();
 }

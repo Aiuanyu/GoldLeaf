@@ -87,6 +87,7 @@ h1, #vnum {
   font-family: '霞鶩文楷 TC';
   vertical-align: middle;
 }
+#suggestion {font-size: 3vw;}
 #suggestion:after {
   display: inline-block;
   content: ' ';
@@ -98,8 +99,8 @@ h1, #vnum {
   vertical-align: middle;
 }
 
-#thanks, #links a, #HLauthor, #Payuan-author, #links li, button.collapsible, #useHL, #backToSI {font-family: PT Sans, '黑體-繁', sans-serif; font-weight: 700;}
-#thanks ul ul li, #links li, #floatedTOC li {
+#thanks, #links a, #HLauthor, #Payuan-author, #links li, button.collapsible, #useHL, #backToSI, #headTOCButton {font-family: PT Sans, '黑體-繁', sans-serif; font-weight: 700;}
+#thanks ul ul li, #links li, #floatedTOC li, #headTOCButton {
   display: inline-block;
   color: white;
   padding: 0.3em;
@@ -415,7 +416,7 @@ section table {width: 70vw;}
 
 #links {text-align: left;}
 
-#links a, .collapsible, #floatedTOC a {
+#links a, .collapsible, #floatedTOC a, #headTOCButton {
   color: white;
   background-color: #198964;
   float: none;
@@ -427,12 +428,12 @@ section table {width: 70vw;}
 #links a, #HLauthor, #Payuan-author {
   display: inline-block;
 }
-#links a, #vinfo, #HLauthor, #Payuan-author, .collapsible, #useHL, #backToSI, #floatedTOC a {
+#links a, #vinfo, #HLauthor, #Payuan-author, .collapsible, #useHL, #backToSI, #floatedTOC a, #headTOCButton {
   padding: 0.3em 0.7em;
   margin: 0.3em 0.3em;
   border-radius: 0.4em;
 }
-#links a:after, .collapsible:not([class~=active]):after, #useHL:after, #backToSI:after {
+#links a:after, .collapsible:not([class~=active]):after, #useHL:after, #backToSI:after, #headTOCButton:after {
   display: inline-block;
   content: ' ';
   background-image: url('res/click.svg'); /* Free Click Icon, Symbol. Download in PNG, SVG format. <https://www.iconpacks.net/free-icon/click-2384.html> */
@@ -756,3 +757,8 @@ rb {
 #useHL, #backToSI {color: white;}
 #useHL {background-color: mediumvioletred;}
 #backToSI {background-color: deeppink;}
+
+#headTOCButton {
+  font-size: 3vw;
+  cursor: pointer;
+}
