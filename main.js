@@ -91,7 +91,7 @@ function create() {
     ep.appendChild(h1);
     // 順便製作 EP 目錄
     var tocItem = document.createElement('li');
-    tocItem.innerHTML = "<a href='#ep" + data[i].EP + "'>EP" + data[i].EP + " " + data[i].title + "</a>";
+    tocItem.innerHTML = "<a href='#ep" + data[i].EP + "'>" + data[i].EP + "</a>";
     toc.appendChild(tocItem);
 
     for (var j=0; j<data[i].sections.length; j++) {

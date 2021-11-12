@@ -99,7 +99,7 @@ h1, #vnum {
 }
 
 #thanks, #links a, #HLauthor, #Payuan-author, #links li, button.collapsible, #useHL, #backToSI {font-family: PT Sans, '黑體-繁', sans-serif; font-weight: 700;}
-#thanks ul ul li, #links li {
+#thanks ul ul li, #links li, #floatedTOC li {
   display: inline-block;
   color: white;
   padding: 0.3em;
@@ -415,7 +415,7 @@ section table {width: 70vw;}
 
 #links {text-align: left;}
 
-#links a, .collapsible {
+#links a, .collapsible, #floatedTOC a {
   color: white;
   background-color: #198964;
   float: none;
@@ -427,7 +427,7 @@ section table {width: 70vw;}
 #links a, #HLauthor, #Payuan-author {
   display: inline-block;
 }
-#links a, #vinfo, #HLauthor, #Payuan-author, .collapsible, #useHL, #backToSI {
+#links a, #vinfo, #HLauthor, #Payuan-author, .collapsible, #useHL, #backToSI, #floatedTOC a {
   padding: 0.3em 0.7em;
   margin: 0.3em 0.3em;
   border-radius: 0.4em;
@@ -725,6 +725,8 @@ rb {
   border-radius: 0.3em;
 }
 
+#TOCButton, #floatedTOCContainer {width: 40% !important;}
+#floatedTOC {padding-left: 0;}
 #floatedTOC li, #floatedTOCContainer {
   line-height: 2em;
 }
@@ -739,6 +741,7 @@ rb {
   padding-top: 1em;
   padding-bottom: 1em;
   text-align: center;
+  width: auto;
 }
 #floatedTOC li {text-align: left;}
 #TOCButton.active {width: 100%;}
