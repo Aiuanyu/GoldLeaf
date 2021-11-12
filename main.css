@@ -80,14 +80,17 @@ h1, #vnum {
   text-align: center;
   margin: 2em auto;
   background-color: orange;
-  width: 20em;
+  width: 70vw;
   border-radius: 0.3em;
   border: 0.1em solid lightgoldenrodyellow;
   color: white;
   font-family: '霞鶩文楷 TC';
   vertical-align: middle;
 }
-#suggestion {font-size: 3vw;}
+#suggestion {
+  font-size: 3vw;
+  line-height: 1.5em;
+}
 #suggestion:after {
   display: inline-block;
   content: ' ';
