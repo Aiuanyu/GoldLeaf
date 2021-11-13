@@ -483,10 +483,12 @@ section:not(.noHak):before {
   position: fixed;
   top: 2px;
   right: 0px;
-  opacity: 0.3;
   z-index: 50;
 }
-#useHL:hover, .floatedButtons:hover {
+#useHL, #floatedTOCButton {
+  opacity: 0.5;
+}
+#useHL:hover, /*.floatedButtons:hover, */#floatedTOCButton:hover, #floatedTOCButton.active {
   opacity: 0.9;
 }
 
@@ -712,7 +714,7 @@ rb {
   /*border: none;*/
   /*text-align: left;*/
   outline: none;
-  font-size: 15px;
+  /*font-size: 15px;*/
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
@@ -727,15 +729,16 @@ rb {
   overflow: hidden;
   background-color: #f1f1f1;
   border-radius: 0.3em;
+  z-index: 100;
 }
 
-#TOCButton, #floatedTOCContainer {width: 40% !important;}
+#floatedTOCButton[class~=active], #floatedTOCContainer {width: 40% !important;}
 #floatedTOC {padding-left: 0;}
 #floatedTOC li, #floatedTOCContainer {
   line-height: 2em;
 }
 #backToSI {display: none;}
-#useHL, #backToSI, #TOCButton, #floatedTOCContainer { /* 關鍵的靠右 ☞ css - Right-align block elements in HTML - Stack Overflow <https://stackoverflow.com/questions/17614801/right-align-block-elements-in-html> */
+#useHL, #backToSI, #floatedTOCButton, #floatedTOCContainer { /* 關鍵的靠右 ☞ css - Right-align block elements in HTML - Stack Overflow <https://stackoverflow.com/questions/17614801/right-align-block-elements-in-html> */
   float: right;
   clear: right;
 }
@@ -746,10 +749,11 @@ rb {
   padding-bottom: 1em;
   text-align: center;
   width: auto;
+  opacity: 0.8;
 }
 #floatedTOC li {text-align: left;}
-#TOCButton.active {width: 100%;}
-#TOCButton.active:after {
+#floatedTOCButton.active {width: 100%;}
+#floatedTOCButton.active:after {
   content: "（再按一次收回 👆）" !important;
   width: auto;
   background-color: #198964;
