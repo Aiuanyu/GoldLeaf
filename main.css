@@ -489,7 +489,7 @@ section:not(.noHak):before {
   opacity: 0.5;
 }
 #useHL:hover, /*.floatedButtons:hover, */#floatedTOCButton:hover, #floatedTOCButton.active {
-  opacity: 0.9;
+  opacity: 1;
 }
 
 @font-face {
@@ -751,6 +751,7 @@ rb {
   width: auto;
   opacity: 0.8;
 }
+#floatedTOCContainer:hover {opacity: 1;}
 #floatedTOC li {text-align: left;}
 #floatedTOCButton.active {width: 100%;}
 #floatedTOCButton.active:after {

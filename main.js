@@ -207,7 +207,7 @@ function collapsibles() { // How To Create a Collapsible <https://www.w3schools.
 
 function openHeadTOC() {
   var headTOCButton = document.getElementById("headTOCButton");
-  var floatedTOCButton = document.getElementById('TOCButton');
+  var floatedTOCButton = document.getElementById('floatedTOCButton');
   headTOCButton.addEventListener("click", function() {
     floatedTOCButton.classList.toggle("active");
     var toc = document.getElementById('floatedTOCContainer');
