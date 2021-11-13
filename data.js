@@ -4756,7 +4756,7 @@ data = [
           [
             "丙",
             "大人！大人。希望汝會當提供武器，予阮柴城成立鄉勇團練，保護地方！",
-            "Tāi-jîn! Tāi-jîn. Hi-bāng lí ē-tàng thê-kiong bú-khì, hōo gún Tshâ-siânn sîng-li̍p hiang-ióng thuân-liān, pó-hōo tē-hng!",
+            "Tāi-jîn! Tāi-jîn. Hi-bāng lí ē-tàng thê-kiong bú-khì, hōo gún Tshâ-siânn sîng-li̍p hi<span class='updated'>o</span>ng-ióng thuân-liān, pó-hōo tē-hng!",
             "2"
           ],
           [
@@ -4780,7 +4780,7 @@ data = [
           [
             "蝶",
             "鄉勇團練，總兵官毋答應。",
-            "Hiang-ióng thuân-liān, Tsóng-ping-kuann m̄ tap-ìng.",
+            "Hi<span class='updated'>o</span>ng-ióng thuân-liān, Tsóng-ping-kuann m̄ tap-ìng.",
             "2"
           ],
           [
