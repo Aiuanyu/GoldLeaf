@@ -87,7 +87,7 @@ function create() {
     ep.setAttribute("class", "episode");
     if (data[i].draft == true) {ep.setAttribute("class","draft episode");}
     var h1 = document.createElement("h1");
-    h1.innerHTML = "<a id='ep" + data[i].EP + "'></a><p>EP" + data[i].EP + " " + data[i].title + "</p>";
+    h1.innerHTML = "<a id='ep" + data[i].EP + "'></a><p>EP" + data[i].EP + "</p>";
     ep.appendChild(h1);
     // 順便製作 EP 目錄
     var tocItem = document.createElement('li');

@@ -131,8 +131,8 @@ h1, #vnum {
 #softwares li {  background-color: hsl(111, 90%, 80%);}
 
 section {
-  background-color: #198964;
-  color: white;
+  background-color: hsl(213, 36%, 16%); /* 海報主色調「粗布藍衣」 ☞ 幕後｜從平衡感開始，談談 《茶金》的視覺設計 | 劇夠 <https://dramago.ptsplus.tv/?p=5091&fbclid=IwAR3_g0rjWk8ln6RYwrBOMUVueCvcv1g7eVSErn40G46ELfgIxvD788lNPbk>*/
+  color: #c2b882; /* = hsl(51, 34%, 64%) = 海報主色調金色茶葉 */
   margin: 10pt;
   padding: /*50pt*/ 5vh;
   border-radius: /*5px*/ 2vh;
@@ -283,7 +283,7 @@ section td:nth-child(2) {
 }
 
 section tr:nth-child(2n+1), section tr:nth-child(2n+1) .lang1 {
-  font-family: "Athelas";
+  font-family: Athelas, HGMinchoE;
   color: /*antiquewhite*/hsl(34, 100%, 96%);
 }
 section tr:nth-child(2n+1) {
@@ -332,7 +332,7 @@ section table {
 .time {
   font-family: /* Digital-7 */ /*Menlo*/ NovaMono for Powerline; 
   background: black; 
-  color: white; 
+  /*color: white;*/
   display: inline-block; 
   padding: 0.5em; 
   font-size: 0.8em;
@@ -377,7 +377,7 @@ section table {
   font-size: 10pt;
   font-weight: 500;
   line-height: 14pt;
-  background-color: hsla(124, 55%, 71%, 0.5);
+  background-color: hsla(51, 34%, 64%, 0.5);
   border-radius: 3pt;
   left: 70vw;
   font-family: Athelas, 楷體-繁, sans-serif;
@@ -388,8 +388,8 @@ section table {
 .tranName {
   /*border-bottom: #e5c120 0.2em solid;*/
   /*border-top: #e5c120 0.2em solid;*/
-  /*background-color: hsla(49, 79%, 51%, 0.5);*/
-  color: hsla(49, 79%, 75%, 1.0);
+  /*background-color: hsla(153, 29%, 66%, 0.5);*/
+  color: hsla(153, 29%, 66%, 1.0);
   /*border-radius: 0.5em;*/
   font-family: PT Sans, 黑體-繁;
   font-weight: 700;
@@ -398,7 +398,7 @@ section table {
 section table {width: 70vw;}
 
 .noted {
-  background-color: rgba(255, 232, 164, 0.3);
+  background-color: rgba(227, 221, 109, 0.3); /* 臺灣地圖海報的黃 */
   border-radius: 0.3em;
   break-inside: avoid; /* 沒辦法讓 before 的元素和主元素保持在同一行 :( */
   display: inline-block; /* 改用這個來讓 before 的元素和主元素保持同一行！*/
@@ -519,6 +519,10 @@ section .lang3 td {line-height: 1.6em;}
 .fr td, .lang6 td {color: hsl(255, 100%, 96%); font-family: 'Bell MT';}
 .lang4 td {color: hsl(187, 100%, 96%); font-family: 'Bell MT';}
 section tr:nth-child(2n).lang4, section tr:nth-child(2n).lang6, section tr:nth-child(2n).lang3 {display: none;}
+/* Hindi 文、尼泊爾文 */
+.lang7 td {color: hsl(255, 100%, 96%);}
+section tr:nth-child(2n+1).lang7 td {font-family: Mangal, sans-serif; font-weight: 500; font-size: 1.5em;}
+
 /* Mandarin */
 section tr.lang5, td.lang5, .lang5, .sample.lang5 {color: /*honeydew*//*hsl(217, 82%, 89%)*/hsl(235, 100%, 96%);}
 section tr:nth-child(2n).lang5, section tr:nth-child(2n) .lang5, .sample.lang5 {font-family: 楷體-繁, sans-serif; font-weight: 700;}
@@ -576,7 +580,7 @@ td hr {
   /* Simple Styles for <hr>'s <https://css-tricks.com/examples/hrs/> */
   border: 0;
   height: 1px;
-  background-image: linear-gradient(to right, hsla(49, 79%, 51%, 0), hsla(49, 79%, 51%, 0.8), hsla(49, 79%, 51%, 0)); /* 黃色相思樹花 #e5c120 */
+  background-image: linear-gradient(to right, hsla(153, 29%, 66%, 0), hsla(153, 29%, 66%, 0.8), hsla(153, 29%, 66%, 0)); /* 綠茶葉海報的綠 #8ec1ab */
 }
 
 .updated {
@@ -645,17 +649,17 @@ td hr {
 }
 
 td.classic, span.classic {
-  /*border-left: 0.2em solid hsla(49, 79%, 51%, 0.5);*/
+  /*border-left: 0.2em solid hsla(153, 29%, 66%, 0.5);*/
 
   /* 感謝　神，試了好久總算弄出可用的漸層左邊界：list with 1px solid left gradient border <https://gist.github.com/titox/1663686> */
-  background-image: linear-gradient(45deg, hsla(49, 79%, 51%, 0), hsla(49, 79%, 51%, 0.5), hsla(49, 79%, 51%, 0));
+  background-image: linear-gradient(45deg, hsla(153, 29%, 66%, 0), hsla(153, 29%, 66%, 0.5), hsla(153, 29%, 66%, 0));
   background-repeat: repeat-y;
   background-size: 0.2em;
   background-position: left 0.3em top;
 
-  /*text-shadow: 0.1em 0.1em 0.1em hsla(49, 79%, 51%, 0.8);*/
+  /*text-shadow: 0.1em 0.1em 0.1em hsla(153, 29%, 66%, 0.8);*/
   text-decoration: underline;
-  text-decoration-color: hsla(49, 79%, 51%, 0.5);
+  text-decoration-color: hsla(153, 29%, 66%, 0.5);
   text-decoration-style: double;
 }
 td.classic:before {
@@ -719,7 +723,7 @@ rb {
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .active, .collapsible:hover {
-  background-color: hsla(49, 79%, 51%, 0.8);
+  background-color: hsla(153, 29%, 66%, 0.8);
 }
 
 /* Style the collapsible content. Note: hidden by default */
