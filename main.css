@@ -208,7 +208,7 @@ section table {
   
   tr, .sidenote {page-break-inside: avoid;} /* .sidenote 的部分似乎是無效的 */
   
-  .noprint {display: none;}
+  .noprint {display: none !important;}
 
   #cover-hak {
     /*float: right;*/
@@ -234,7 +234,7 @@ section table {
 
 
 #main-title:after {
-  content: 'Aiuanyu 編／v2.2.3 20211112';
+  content: 'Aiuanyu 編／v0.1 20211115';
   font-size: 0.5em;
   font-family: 蘋果儷中黑;
   position: absolute;
@@ -736,7 +736,7 @@ rb {
   z-index: 100;
 }
 
-#floatedTOCButton[class~=active], #floatedTOCContainer {width: 40% !important;}
+/*#floatedTOCButton[class~=active], #floatedTOCContainer {width: 40% !important;}*/
 #floatedTOC {padding-left: 0;}
 #floatedTOC li, #floatedTOCContainer {
   line-height: 2em;

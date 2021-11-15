@@ -20,7 +20,7 @@ data = [
           [
             "希瓦",
             "沒錯。謝謝。",
-            "Yeah, I think so. <span class='noted classic' style='font-size: 1.5em;'><ruby><rb style=' font-family: Mangal, sans-serif; font-weight: 500;'>धन्यवाद</rb><rp>(</rp><rt>Dhanyavaad</rt><rp>)</rp></ruby></span>.",/*<div class='sidenote'>特別做這段英語對白，就是為了分享這個特別的字。它是 Hindi 語和尼泊爾語的「謝謝」，據說兩種語言很相近，剛好這個字一模一樣，且也都用天城體書寫為「धन्यवाद」。<a href='https://www.wikiwand.com/zh-tw/印地语'>Hindi 印地語</a>為印度共和國使用人口最多的語言，但若以這場戲的背景<b>大吉嶺</b>而言，尼泊爾語比印地語更通行，而且剛好兩語言又都是這個字，所以不管劇本這邊是要表達哪種語言，都與背景相符。</div>*/
+            "Yeah, I think so. <span class='noted classic' style='font-size: 1.5em;'><ruby><rb style=' font-family: Mangal, sans-serif; font-weight: 500;'>धन्यवाद</rb><rp>(</rp><rt>Dhanyavaad</rt><rp>)</rp></ruby></span>.<div class='sidenote'>特別做這段英語對白，就是為了分享這個特別的字。它是 Hindi 語和尼泊爾語的「謝謝」，據說兩種語言很相近，剛好這個字一模一樣，且也都用天城體書寫為「धन्यवाद」。<a href='https://www.wikiwand.com/zh-tw/印地语'>Hindi 印地語</a>為印度共和國使用人口最多的語言，但若以這場戲的背景<b>大吉嶺</b>而言，尼泊爾語比印地語更通行，而且剛好兩語言又都是這個字，所以不管劇本這邊是要表達哪種語言，都與背景相符。</div>",/**/
             "4"
           ],/* 這句本想獨立為一行並將天城體及羅馬轉寫分列，但考量到轉寫比較不具正式文字地位（不像我希望讓鶴佬話、客話的羅馬字地位提升），加上演員節奏是連貫的，所以還是挪到接在上句後面，只是放大處理。
           [
