@@ -1,3 +1,10 @@
+:root {
+  --main-bg: hsl(213, 36%, 16%); /* 藍布 */
+  --main-text-color: #c2b882; /* 金色 */
+  --second-bg: #805136; /* 男女主海報女主襯衫 */
+  --light-bg: hsla(153, 29%, 66%, 0.8); /* 海報綠葉湖水綠 */
+}
+
 body {
 /*  font-family: "jf open 粉圓 1.1", "圓體-繁", serif;*/
   font-family: '源流明體'/*"霞鶩文楷 TC"*/, HanaMinB, TaiExtWeb, serif;
@@ -156,9 +163,10 @@ section table {
     position: relative;
     
     font-size: 4vh;
-    background-color: #f8f5de;
-    background-image: linear-gradient(to right, rgba(255,210,0,0.4), rgba(200, 160, 0, 0.1) 11%, rgba(0,0,0,0) 35%, rgba(200, 160, 0, 0.1) 65%);
-  box-shadow: inset 0 0 75px rgba(255,210,0,0.3), inset 0 0 20px rgba(255,210,0,0.4), inset 0 0 30px rgba(220,120,0,0.8); /* Old Paper - CSS Effects <https://codepen.io/efost/pen/rrjvkk> */
+    background-color: var(--main-bg);
+    color: var(--main-text-color);
+    /*background-image: linear-gradient(to right, rgba(255,210,0,0.4), rgba(200, 160, 0, 0.1) 11%, rgba(0,0,0,0) 35%, rgba(200, 160, 0, 0.1) 65%);
+  box-shadow: inset 0 0 75px rgba(255,210,0,0.3), inset 0 0 20px rgba(255,210,0,0.4), inset 0 0 30px rgba(220,120,0,0.8);*/ /* Old Paper - CSS Effects <https://codepen.io/efost/pen/rrjvkk> */
   }
   #cover-page div {
     display: initial !important;
@@ -234,7 +242,7 @@ section table {
 
 
 #main-title:after {
-  content: 'Aiuanyu 編／v0.1.1 20211116';
+  content: 'Aiuanyu 編／v0.1.2 20211116';
   font-size: 0.5em;
   font-family: 蘋果儷中黑;
   position: absolute;
@@ -243,7 +251,7 @@ section table {
 }
 
 @media screen {
-  #cover-page br {
+  #cover-page br, #main-title:after {
     display: none;
   }
   
@@ -300,8 +308,8 @@ section tr:nth-child(2n+1) td {
   padding-top: 1em;
 }
 
-section tr:nth-child(2n) td {
-  color: hsla(0, 0%, 100%, 0.6);
+section tr:nth-child(2n) td, section tr:nth-child(2n) .jp {
+  color: hsla(0, 0%, 100%, 0.6) !important;
 }
 
 section tr:nth-child(2n+1) {
@@ -420,13 +428,13 @@ section table {width: 70vw;}
 #links {text-align: left;}
 
 #links a, .collapsible, #floatedTOC a, #headTOCButton {
-  color: white;
-  background-color: #198964;
+  color: var(--main-text-color);
+  background-color: var(--main-bg);
   float: none;
   text-decoration: none;
   vertical-align: middle;
-  box-shadow: 0.1em 0.1em #0D4936;
-  border: 0.05em #0D4936 solid;
+  box-shadow: 0.1em 0.1em var(--light-bg);
+  border: 0.05em var(--light-bg); solid;
 }
 #links a, #HLauthor, #Payuan-author {
   display: inline-block;
@@ -522,7 +530,15 @@ section tr:nth-child(2n).lang4, section tr:nth-child(2n).lang6, section tr:nth-c
 /* Hindi 文、尼泊爾文 */
 .lang7 td {color: hsl(255, 100%, 96%);}
 section tr:nth-child(2n+1).lang7 td {font-family: Mangal, sans-serif; font-weight: 500; font-size: 1.5em;}
-
+/* 日文 */
+.jp {
+  font-family: Andika, '霞鶩文楷 TC', serif !important;
+  color: hsl(127, 100%, 96%) !important;
+}
+section tr:nth-child(2n+1) .jp {font-size: 0.9em;}
+section tr:nth-child(2n) .jp {font-family: '霞鶩文楷 TC', sans-serif;}
+}
+/*span.sample.jp {font-family: Andika, '霞鶩文楷 TC' !important;}*/
 /* Mandarin */
 section tr.lang5, td.lang5, .lang5, .sample.lang5 {color: /*honeydew*//*hsl(217, 82%, 89%)*/hsl(235, 100%, 96%);}
 section tr:nth-child(2n).lang5, section tr:nth-child(2n) .lang5, .sample.lang5 {font-family: 楷體-繁, sans-serif; font-weight: 700;}
@@ -588,9 +604,9 @@ td hr {
 }
 
 .sample {
-  background: #198964;
-  color: antiquewhite;
-  font-family: Athelas;
+  background: rgb(26, 39, 55);
+  color: /*antiquewhite*/hsl(34, 100%, 96%);
+  font-family: Athelas, 源流明體, serif;
 }
 
 #instructions td, #instructions th {
@@ -648,7 +664,7 @@ table#roman-guide {
   font-size: larger;
 }
 
-td.classic, span.classic {
+td.classic {
   /*border-left: 0.2em solid hsla(153, 29%, 66%, 0.5);*/
 
   /* 感謝　神，試了好久總算弄出可用的漸層左邊界：list with 1px solid left gradient border <https://gist.github.com/titox/1663686> */
@@ -656,7 +672,8 @@ td.classic, span.classic {
   background-repeat: repeat-y;
   background-size: 0.2em;
   background-position: left 0.3em top;
-
+}
+td.classic, span.classic {
   /*text-shadow: 0.1em 0.1em 0.1em hsla(153, 29%, 66%, 0.8);*/
   text-decoration: underline;
   text-decoration-color: hsla(153, 29%, 66%, 0.5);
@@ -723,7 +740,7 @@ rb {
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .active, .collapsible:hover {
-  background-color: hsla(153, 29%, 66%, 0.8);
+  background-color: var(--second-bg);
 }
 
 /* Style the collapsible content. Note: hidden by default */
@@ -761,7 +778,7 @@ rb {
 #floatedTOCButton.active:after {
   content: "（再按一次收回 👆）" !important;
   width: auto;
-  background-color: #198964;
+  background-color: var(--main-bg);
   display: inline-block;
   margin-left: 1em;
   border-radius: 0.5em;
