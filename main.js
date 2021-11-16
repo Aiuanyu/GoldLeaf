@@ -216,6 +216,11 @@ function openHeadTOC() {
     } else {
       toc.style.display = "block";
     }
+    if (floatedTOCButton.classList.contains('active')) {
+      headTOCButton.innerHTML = "收起導覽";
+    } else {
+      headTOCButton.innerHTML = "導覽";
+    }
   });
 }
 

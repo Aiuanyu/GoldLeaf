@@ -234,7 +234,7 @@ section table {
 
 
 #main-title:after {
-  content: 'Aiuanyu 編／v0.1 20211115';
+  content: 'Aiuanyu 編／v0.1.1 20211116';
   font-size: 0.5em;
   font-family: 蘋果儷中黑;
   position: absolute;
@@ -774,3 +774,5 @@ rb {
   font-size: 3vw;
   cursor: pointer;
 }
+
+#TBC {text-align: center;}
