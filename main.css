@@ -301,7 +301,7 @@ section tr:nth-child(2n+1) .lang1 {
   font-weight: 700;
   font-size: 1.1em;
 }
-section tr:nth-child(2n) .lang1 {font-family: 源流明體;} /* 有的時候在其他語言台詞中反而夾雜客話 */
+section tr:nth-child(2n) .lang1 {font-family: 源流明體, serif;} /* 有的時候在其他語言台詞中反而夾雜客話 */
 
 
 section tr:nth-child(2n+1) td {
