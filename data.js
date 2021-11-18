@@ -81,7 +81,7 @@ data = [
           [
             "吉",
             "來到早，毋當來到堵堵好。<br>好時辰，堵堵好。",
-            "Loi dǒ zó, m dòng loi dǒ dúdúhó.<br>Hó shishin, dúdúhó.",
+            "<div class='sidenote'>常見描述海陸腔變調規則的資料，上聲（24 ˊ）變調為中平 33。但郭哥這邊明顯變調為低平 11。上 <a href='https://www.facebook.com/groups/1537338799842136/posts/3171653976410602/'>FB 社團詢問</a>，感謝鄉親們分享竹東、南投各地確實有將上聲變調為 11 的變體存在。</div>Loi dǒ zó, m dòng loi dǒ <span class='noted'>dúdú</span>hó.<br>Hó shishin, dúdúhó.",
             "",
             "選"
           ],
@@ -95,7 +95,6 @@ data = [
       },
       /* 9:27 做得做得 */
       /* 9:55 也不夠國民政府打戰 */
-      /* ⭐ 11:55 茶虎茶壺 */
       {
         "t": "11:55",
         "rows": [
@@ -132,7 +131,9 @@ data = [
       /* ⭐ 55:45 大家等一下 */
     ]
   },
-  /* EP2 */
+  {
+    "EP": "2",
+    "sections": [
   /* 15:30 難能、昭和 18 年 */
   /* 17:50 張福吉、張薏心 */
   /* 19:30 到時候再辦得澎派 */
@@ -143,6 +144,61 @@ data = [
   /* 42:30 想摎你講生理 */
   /* ⭐ 44:30 我代表美國个懷特公司，來摎 */
   /* ⭐ 46:00 生理著是政治，多語交錯很棒 */
+      {
+        "t": "46:06",
+        "rows": [
+          [
+            "劉",
+            "生理就是政治。<span class='lang1'>張先生</span>汝若佮美國儂做生理，下擺汝<ruby><rb>咧</rb><rp>(</rp><rt>佇彼</rt><rp>)</rp></ruby>公會若講話，閣較有份量矣。",
+            "<div class='sidenote'>這前後的語言亮點在於 KK 鶴佬話中有時夾雜（不一定標準的）客語、華語，以及 KK 與薏心第一次雙語對談。</div>Sing-lí tiō sī tsìng-tī. <span class='lang1'><i>Zòng Sǐnsǎng</i></span> lí nā kah Bí-kok-lâng tsò sing-lí, ā-pái lí <ruby><rb>leh</rb><rp>(</rp><rt>tī-he</rt><rp>)</rp></ruby> Kong-huē nā kóng-uē, koh khah ū hūn-liōng--ah.",
+            "2"
+          ],
+          [
+            "吉",
+            "嘿。「生理就是政治」，這句話講了真有意思。啊遐爾大个利益，美國儂欲予咱趁錢，國民政府閣無欲管，這𣍐輸敢若跋筊呢。<br>毋是我無欲跋啦，我根本就耍𣍐起。",
+            "Hènn. &quot;Sing-lí tiō sī tsìng-tī&quot;, tsit kù uē kóng liáu tsin ū ì-sù. Ah hia-ní tuā ê lī-ik, Bí-kok-lâng beh hōo lán thàn-tsînn, Kok-bîn Tsìng-hú koh bô beh kuán, tse buē-su kán-ná pua̍h-kiáu--ne.<br>M̄-sī guá bô beh pua̍h--lah, guá kun-pún tiō sǹg buē khí.",
+            "2"
+          ],
+          [
+            "",
+            "喂，劉先啊，歹勢啦，予汝加走一逝。",
+            "Eh, Lâu--Sian--ah, pháinn-sè--lah, hōo lí ke tsáu tsi̍t tsuā.",
+            "2"
+          ],
+          [
+            "劉",
+            "我了解<span class='lang1'>張先生</span>汝个顧慮，但是……化肥確實是一个好生理。種田攏需要肥料，尤其咱个茶米，閣較食肥。工場若起好，全北埔，佮新竹地區个<span class='lang1'>茶</span>，產量會增加 5 倍呢！而且，阮閣拍算欲招募一千五百个<span class='lang1'>工人</span>，這千五个工儂咧當地訓練，這就是講，<span class='lang1'>張先生</span>汝有法度改善，一千五百儂个家庭个生活。<br><span class='lang1'>張先生</span>？",
+            "<div class='sidenote'>猜是故意讓 KK 講的客語有點不標準，其他聽不太出來的我就不管了，但「張先生」，四縣腔是 Zóng Xínsáng，海陸腔應是 Zhòng Sìnsàng，KK 感覺混成一種特殊的組合，而且沒有翹舌，所以我還是明確寫出他的口音，顯示戲劇效果。</div>Guá liáu-kái <span class='noted lang1'><i>Zòng Sǐnsǎng</i></span> ê kòo-lū, tān-sī... huà-puî khak-si̍t sī tsi̍t-ê hó sing-lí. Tsìng-tshân lóng su-iàu puî-liāu, iû-kî lán ê tê-bí, koh khah tsia̍h puî. Kang-tiûnn nā khí hó, tsuân Pak-poo, kah Sin-tik tē-khu ê <span class='lang1'>ca</span>, sán-liōng ê tsing-ka gōo puē--ne! Jî-tshiánn, gún koh phah-sǹg beh tsiau-bōo tsi̍t tshing gōo pah ê <span class='lang1'>gùngngin</span>, tse tshing gōo ê kang-lâng leh tong-tē hùn-liān, tse tiō sī kóng, <span class='lang1'><i>Zòng Sǐnsǎng</i></span> lí ū huat-tōo kái-siān, tsi̍t tshing gōo pah lâng ê ka-tîng ê sing-hua̍t.<br><span class='lang1'><i>Zòng Sǐnsǎng</i></span>?",
+            "2"
+          ],
+          [
+            "心",
+            "毋過，政治問題，又毋係𫣆俚做得解決个。",
+            "Mgǒ, zhǐnchï mǔnti, rhïu m hě ènlí zǒded gáigied ě.",
+            ""
+          ],
+          [
+            "劉",
+            "政治確實是有風險，但是，佗一項生理是無風險个？",
+            "Tsìng-tī khak-si̍t sī ū hong-hiám, tān-sī, tó tsi̍t-ê sing-lí sī bô hong-hiám--ê?",
+            "2"
+          ],
+          [
+            "心",
+            "𠊎想愛知劉先生，你想到這生理裡背，賺着麼个？",
+            "Ngai síong ǒi dì Liu Sìnsàng, ngi síong dǒ lía sènlì dìbǒi, cön dó mágǎi?",
+            ""
+          ],
+          [
+            "",
+            "",
+            "...",
+            "2"
+          ],
+        ]
+      }
+    ]
+  }
   /* 48:50 劉先生；風湧 */
 
   /* 主題曲「查有此人」歌詞整理轉錄自 YouTube <https://www.youtube.com/watch?v=ZUxDa4VFBZM>
