@@ -3,6 +3,7 @@
   --main-text-color: #c2b882; /* 金色 */
   --second-bg: #805136; /* 男女主海報女主襯衫 */
   --light-bg: hsla(153, 29%, 66%, 0.8); /* 海報綠葉湖水綠 */
+  --color: ;
 }
 
 body {
@@ -815,4 +816,37 @@ rb {
 .fa-youtube {
   background: #bb0000;
   color: white;
+}
+
+/* 字卡區開始 */
+.card {
+  width: 45vw;
+  height: 25vw;
+  display: inline-block;
+  background-color: var(--main-bg);
+  border-radius: 1vw;
+  margin: 1vw;
+  padding: 1vw;
+  text-align: center;
+  color: var(--main-text-color);
+}
+.cardRoman, .cardHanji, .cardNotes { /* Simplified Fluid Typography | CSS-Tricks <https://css-tricks.com/simplified-fluid-typography/> */
+  font-size: clamp( var(--minFontSize), var(--scaler), var(--maxFontSize) );
+  line-height: clamp( var(--minFontSize), var(--scaler), var(--maxFontSize) );
+}
+.cardRoman {
+  --minFontSize: 32px;
+  --maxFontSize: 200px;
+  --scaler: 10vw;
+}
+.cardHanji {
+  --minFontSize: 32px;
+  --maxFontSize: 200px;
+  --scaler: 5vw;
+
+}
+.cardNotes {
+  --minFontSize: 16px;
+  --maxFontSize: 200px;
+  --scaler: 2vw;
 }

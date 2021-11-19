@@ -230,6 +230,30 @@ function localFileIndicator() {
   }
 }
 
+function generateCards() { // 產生字卡
+  var cardsContainer = document.getElementById("cards");
+
+  for (var i = 0; i < cards.length; i++) {
+    var card = document.createElement("div");
+    card.classList += "card";
+    var hanji = document.createElement("div");
+    hanji.classList += "cardHanji";
+    var roman = document.createElement("div");
+    roman.classList += "cardRoman";
+    var notes = document.createElement("div");
+    notes.classList += "cardNotes";
+    hanji.innerHTML = cards[i][0];
+    roman.innerHTML = cards[i][1];
+    notes.innerHTML = cards[i][2];
+    card.appendChild(roman);
+    card.appendChild(hanji);
+    card.appendChild(notes);
+    cardsContainer.appendChild(card);
+  }
+
+
+}
+
 // html - Loading javascript in body onload with 2 functions - Stack Overflow <https://stackoverflow.com/questions/10122555/loading-javascript-in-body-onload-with-2-functions>
 function init() {
   create();
@@ -237,4 +261,5 @@ function init() {
   collapsibles();
   openHeadTOC();
   localFileIndicator();
+  generateCards();
 }
