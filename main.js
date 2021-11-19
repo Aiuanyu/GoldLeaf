@@ -224,10 +224,17 @@ function openHeadTOC() {
   });
 }
 
+function localFileIndicator() {
+  if (/file\:/.test(window.location.href)) { /* javascript - How to check if the URL contains a given string? - Stack Overflow <https://stackoverflow.com/questions/4597050/how-to-check-if-the-url-contains-a-given-string> */
+    document.title = "💻" + document.title;
+  }
+}
+
 // html - Loading javascript in body onload with 2 functions - Stack Overflow <https://stackoverflow.com/questions/10122555/loading-javascript-in-body-onload-with-2-functions>
 function init() {
   create();
   fillRomanNames();
   collapsibles();
   openHeadTOC();
+  localFileIndicator();
 }
