@@ -109,6 +109,11 @@ h1, #vnum {
   vertical-align: middle;
 }
 
+#thanks {
+  border: 1pt solid var(--light-bg);
+  padding: 4vw;
+  color: var(--main-bg);
+}
 #thanks, #links a, #HLauthor, #Payuan-author, #links li, button.collapsible, #useHL, #backToSI, #headTOCButton {font-family: PT Sans, '黑體-繁', sans-serif; font-weight: 700;}
 #thanks ul ul li, #links li, #floatedTOC li, #headTOCButton {
   display: inline-block;
@@ -117,6 +122,7 @@ h1, #vnum {
   margin: 0.1em 0.3em;
   border-radius: 0.3em;
 }
+#thanks ul ul li a {color: azure;}
 #links ul {
   display: inline;
   padding-inline-start: 0;
@@ -140,9 +146,11 @@ h1, #vnum {
 section {
   background-color: hsl(213, 36%, 16%); /* 海報主色調「粗布藍衣」 ☞ 幕後｜從平衡感開始，談談 《茶金》的視覺設計 | 劇夠 <https://dramago.ptsplus.tv/?p=5091&fbclid=IwAR3_g0rjWk8ln6RYwrBOMUVueCvcv1g7eVSErn40G46ELfgIxvD788lNPbk>*/
   color: #c2b882; /* = hsl(51, 34%, 64%) = 海報主色調金色茶葉 */
-  margin: 10pt;
   padding: /*50pt*/ 5vh;
+}
+section, #thanks {
   border-radius: /*5px*/ 2vh;
+  margin: 10pt;
 }
       
 section table {
@@ -376,7 +384,7 @@ section table {
   font-family: Athelas, 楷體-繁, 全字庫正楷體 Ext-B, serif; /* Chromium 系瀏覽器的「楷體-繁」竟然無法正常顯示「𤆬」字 ∴只好用 fallback */
   padding: 8pt 10pt;
   color: brown;
-  box-shadow: brown 0.25vw 0.25vw;
+  box-shadow: brown 0.3vw 0.3vw 0.25vw;
 }
 
 .trans { /* 參考 .sidenote 來做翻譯方塊（主要給排灣語用） */
