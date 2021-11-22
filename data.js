@@ -224,14 +224,14 @@ data = [
           ],
           [
             "",
-            "烏龍：發較悿，<br>茶柑仔色，味較賁、甘醇；",
-            "<div class='sidenote'>這段有幾個字，沒學過客語的人就算看到漢字也不好懂（因為華語可能沒這樣用，或罕用），除可對照華文字幕外，亦可參考客語詞典：<span class='larger'><a href='https://www.moedict.tw/:%E6%82%BF'>悿</a>、<a href='https://www.moedict.tw/:%E8%B3%81'>賁</a>、<a href='https://www.moedict.tw/:%E9%86%B9'>醹</a></span></div>Vùliung: fad hǎ tíam,<br>ca gàmer sed, müi hǎ pùn, gàmshun;",
+            "烏龍：發較<span class='noted'>悿</span>，<br>茶柑仔色，味較<span class='noted'>賁</span>、甘醇；",
+            "<div class='sidenote'>這段有幾個字，沒學過客語的人就算看到漢字也不好懂（因為華語可能沒這樣用，或罕用），除可對照華文字幕外，亦可參考客語詞典：<span class='larger'><a href='https://www.moedict.tw/:%E6%82%BF'>悿</a>、<a href='https://www.moedict.tw/:%E8%B3%81'>賁</a>、<a href='https://www.moedict.tw/:%E9%86%B9'>醹</a></span></div>Vùliung: fad hǎ <span class='noted'>tíam</span>,<br>ca gàmer sed, müi hǎ <span class='noted'>pùn</span>, gàmshun;",
             ""
           ],
           [
             "",
-            "紅茶：完全發過，<br>色最紅，味：甘醹。",
-            "Fungca: vancion fad gǒ,<br>sed zǔi fung, müi: gàmneu.",
+            "紅茶：完全發過，<br>色最紅，味：甘<span class='noted'>醹</span>。",
+            "Fungca: vancion fad gǒ,<br>sed zǔi fung, müi: gàm<span class='noted'>neu</span>.",
             ""
           ],
         ]
