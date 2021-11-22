@@ -212,8 +212,8 @@ data = [
         "rows": [
           [
             "山",
-            "綠茶：完全不識發過，<br>色青，味：清新甘甜；",
-            "<div class='sidenote'>山妹初出茅蘆，火力展示的一段精采台詞。<br>從華文字幕或原著小說這段話的整齊劃一看來，推測仍是先寫好華文劇本，再請客語老師翻譯。但，這總比十幾年前臺灣某些電視台「鄉土劇」「○○火」之流，翻譯水準好多了。期盼十幾年後，臺灣甚至能有不透過翻譯、直接寫出道地本土語言思維台詞的編劇人才。</div>Lìugca: vancion m shid fad gǒ,<br>sed cìang, müi: cìnsìn gàmtiam;",
+            "綠茶：完全不識發<span class='updated'>酵</span>，<br>色青，味：清新甘甜；",
+            "<div class='sidenote'>山妹初出茅蘆，火力展示的一段精采台詞。<br>從華文字幕或原著小說這段話的整齊劃一看來，推測仍是先寫好華文劇本，再請客語老師翻譯。但，這總比十幾年前臺灣某些電視台「鄉土劇」「○○火」之流，翻譯水準好多了。期盼十幾年後，臺灣甚至能有不透過翻譯、直接寫出道地本土語言思維台詞的編劇人才。</div>Lìugca: vancion m shid fad<span class='updated noted'>gǎu</span>,<br>sed cìang, müi: cìnsìn gàmtiam;",
             ""
           ],
           [
@@ -224,14 +224,14 @@ data = [
           ],
           [
             "",
-            "烏龍：發較悿，<br>茶柑仔色，味較賁、甘醇；",
-            "<div class='sidenote'>這段有幾個字，沒學過客語的人就算看到漢字也不好懂（因為華語可能沒這樣用，或罕用），除可對照華文字幕外，亦可參考客語詞典：<span class='larger'><a href='https://www.moedict.tw/:%E6%82%BF'>悿</a>、<a href='https://www.moedict.tw/:%E8%B3%81'>賁</a>、<a href='https://www.moedict.tw/:%E9%86%B9'>醹</a></span></div>Vùliung: fad hǎ tíam,<br>ca gàmer sed, müi hǎ pùn, gàmshun;",
+            "烏龍：發較<span class='noted'>悿</span>，<br>茶柑仔色，味較<span class='noted'>賁</span>、甘醇；",
+            "<div class='sidenote'>這段有幾個字，沒學過客語的人就算看到漢字也不好懂（因為華語可能沒這樣用，或罕用），除可對照華文字幕外，亦可參考客語詞典：<span class='larger'><a href='https://www.moedict.tw/:%E6%82%BF'>悿</a>、<a href='https://www.moedict.tw/:%E8%B3%81'>賁</a>、<a href='https://www.moedict.tw/:%E9%86%B9'>醹</a></span></div>Vùliung: fad hǎ <span class='noted'>tíam</span>,<br>ca gàmer sed, müi hǎ <span class='noted'>pùn</span>, gàmshun;",
             ""
           ],
           [
             "",
-            "紅茶：完全發過，<br>色最紅，味：甘醹。",
-            "Fungca: vancion fad gǒ,<br>sed zǔi fung, müi: gàmneu.",
+            "<div class='sidenote'>後來想想更有可能就是「發酵」fadgǎu，但是演員唸得很像 fad gǒ，所以我一開始是寫成「發過」。苦惱啊～</div>紅茶：完全發<span class='updated'>酵</span>，<br>色最紅，味：甘<span class='noted'>醹</span>。",
+            "Fungca: vancion fad<span class='updated noted'>gǎu</span>,<br>sed zǔi fung, müi: gàm<span class='noted'>neu</span>.",
             ""
           ],
         ]
