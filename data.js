@@ -100,14 +100,14 @@ data = [
         "rows": [
           [
             "范",
-            "<div class='sidenote'>教育部詞典沒收「怡」字，只好先用廣韻「與之切」來推發音。</div><span class='jp'>吉さん</span>摎怡和聯手喔，就出口臺灣三<span class='TBD'>股</span>一<span class='TBD'>股</span>个茶。<br>桃竹苗个茶，全<span class='TBD'>就</span>分<span class='jp'><ruby><rb>社長</rb><rp>(</rp><rt>しゃちょう</rt><rp>)</rp></ruby></span>你收淨淨哩，這下大自家喔都喊你「茶虎」呢！",
+            "<div class='sidenote'>教育部詞典沒收「怡」字，只好先用廣韻「與之切」來推發音。</div><span class='jp'>吉さん</span>摎怡和聯手喔，就出口臺灣<span class='noted'>三股一股</span>个茶。<br>桃竹苗个茶，全<span class='TBD'>就</span>分<span class='jp'><ruby><rb>社長</rb><rp>(</rp><rt>しゃちょう</rt><rp>)</rp></ruby></span>你收淨淨哩，這下大自家喔都喊你「茶虎」呢！",
             "<div class='sidenote'>「吉」的鶴佬話、客話、日語的讀音，通通都不是 Ji，難道是華語音嗎？</div><span class='jp'><span class='noted'>Ji</span> San</span> làu <span class='TBD'>Rhì</span>fo lienshú ò, cïu chudkíeu Toivan sàm gú rhid gú gě ca.<br>To-Zhug-Miau gě ca, cion cïu bùn <span class='jp'>Shachō</span> ngi shìu cïangcïang lè, líahä täicidgà ò dü hèm ngi &quot;Ca Fú&quot; nè!",
             ""
           ],
           [
             "吉",
             "麼个「茶虎」？係茶壺啦！<br>𠊎<span class='TBD'>＿</span>係，收茶、賣茶定定。",
-            "<div class='sidenote'>這是客語的「幾分之幾」的文法嗎？「股」我是用猜的，音似乎合。</div>Mágǎi &quot;Ca Fú&quot;, hě cafu là!<br>Ngai <span class='TBD'>sii</span> hě, shìu ca, mäi ca tïntïn.",
+            "<div class='sidenote'>「股」我是用猜的，音似乎合。<span class='updated'>後來有問到/查到了，客語「幾分之幾」的文法，確實是講「幾股幾股」或是「幾股幾」。</span></div>Mágǎi &quot;Ca Fú&quot;, hě cafu là!<br>Ngai <span class='TBD'>sii</span> hě, shìu ca, mäi ca tïntïn.",
             "",
             "選"
           ],
@@ -198,8 +198,164 @@ data = [
         ]
       }
     ]
-  }
+  },
   /* 48:50 劉先生；風湧 */
+  {
+    "EP": "3",
+    "sections": [
+  /* 6:00 左右，好茶，風水 */
+  /* 9:00 肥料全流走了不行，當食肥 */
+  /* 12:30 食自家 */ /* 阿啄仔 🗂️ */ /* 正經 🗂️ */ /* 🗂️ 風神 */ /* 揇來个 🗂️ */
+  /* ⭐13:55 綠茶，完全未發酵，色相……*/
+      {
+        "t": "13:52",
+        "rows": [
+          [
+            "山",
+            "綠茶：完全不識發過，<br>色青，味：清新甘甜；",
+            "<div class='sidenote'>山妹初出茅蘆，火力展示的一段精采台詞。<br>從華文字幕或原著小說這段話的整齊劃一看來，推測仍是先寫好華文劇本，再請客語老師翻譯。但，這總比十幾年前臺灣某些電視台「鄉土劇」「○○火」之流，翻譯水準好多了。期盼十幾年後，臺灣甚至能有不透過翻譯、直接寫出道地本土語言思維台詞的編劇人才。</div>Lìugca: vancion m shid fad gǒ,<br>sed cìang, müi: cìnsìn gàmtiam;",
+            ""
+          ],
+          [
+            "",
+            "包種：係無恁發个茶，<br>色像蜂糖，有油光，味：有滴澀；",
+            "Bàuzhóng: hě mo án fad gǎi ca,<br>sed cǐong pùngtong, rhìu rhiugòng, müi: rhìu dìd seb;",
+            ""
+          ],
+          [
+            "",
+            "烏龍：發較悿，<br>茶柑仔色，味較賁、甘醇；",
+            "<div class='sidenote'>這段有幾個字，沒學過客語的人就算看到漢字也不好懂（因為華語可能沒這樣用，或罕用），除可對照華文字幕外，亦可參考客語詞典：<span class='larger'><a href='https://www.moedict.tw/:%E6%82%BF'>悿</a>、<a href='https://www.moedict.tw/:%E8%B3%81'>賁</a>、<a href='https://www.moedict.tw/:%E9%86%B9'>醹</a></span></div>Vùliung: fad hǎ tíam,<br>ca gàmer sed, müi hǎ pùn, gàmshun;",
+            ""
+          ],
+          [
+            "",
+            "紅茶：完全發過，<br>色最紅，味：甘醹。",
+            "Fungca: vancion fad gǒ,<br>sed zǔi fung, müi: gàmneu.",
+            ""
+          ],
+        ]
+      }
+  /* ⭐15:25 𠊎無話講、煞猛打拚 */
+  /* 20:00 不是很好嗎 */ /* 🗂️ 風神 */
+  /* ⭐28:25 壞公司真厲害 */
+  /* 31:45 好看、派頭 */
+  /* 38:25 三日不摘就老哩 */
+  /* ⭐40:25 為了鄉親 */
+  /* 46:00 上海話 */
+  /* 47:00 緊來緊像盛文公 */
+  /* ⭐48:00 不能讓國家沒面子 */
+  /* 49:00 日語 */
+
+    ]
+  },
+  {
+    "EP": "4",
+    "sections": [
+  /* ⭐5:00 員工照顧好了 */
+  /* ⭐14:30 新社長說今天發工錢 */
+  /* 29:30 𠊎正經無愛結婚 */
+  /* ⭐41:30 毋係涯个老公 */
+  /* 48:00 茶郊 */
+      {
+        "t": "51:01",
+        "rows": [
+          [
+            "吉",
+            "<span class='lang4'>KK</span>，汝認為世界上，是𬦰崎个路較濟，抑是落崎个路較濟？",
+            "<span class='lang4'>KK</span>, lí līn-uî sè-kài siōng, sī peh-kiā ê lōo khah tsē, a̍h-sī lo̍h-kiā ê lōo khah tsē?",
+            "2"
+          ],
+          [
+            "劉",
+            "基本上應該是共款个，若有𬦰崎，就有落崎。",
+            "Ki-pún-siōng ìng-kai sī kāng-khuán--ê, nā ū peh-kiā, tiō ū lo̍h-kiā.",
+            "2"
+          ],
+          [
+            "吉",
+            "實際上，這世界因為有𬦰崎佮落崎，所以才會遮爾美麗。<br>𬦰崎真食力，但是視線是愈來愈闊；啊代誌敢毋是愈來愈困難，才會變做閣較珍貴嗎？",
+            "Si̍t-tsè-siōng, tse sè-kài in-uī ū peh-kiā kah lo̍h-kiā, sóo-í tsiah ē tsiah-nī bí-lē.<br>Peh-kiā tsin tsia̍h-la̍t, tān-sī sī-suànn sī lú lâi lú khuah; ah tāi-tsì kám m̄-sī lú lâi lú khùn-lân, tsiah ē piàn-tsò koh khah tin-kuì--ma?",
+            "2"
+          ],
+          [
+            "",
+            "我毋知影我个財力有夠抑無夠，但是，化肥廠，我是決定欲起。",
+            "Guá m̄ tsai-iánn guá-ê tsâi-li̍k ū-kàu ia̍h bô-kàu, tān-sī, huà-puî-tshiúnn, guá sī kuat-tīng beh khí.",
+            "2"
+          ],
+          [
+            "",
+            "臺灣个茶米焦占世界百分之一个量，只有提升品質才有法度佮世界競爭。",
+            "Tâi-uân ê tê-bí tann tsiàm sè-kài pah hun tsi it ê liōng, tsí-ū thê-sing phín-tsit tsiah ū huat-tōo kah sè-kài kīng-tsing.",
+            "2"
+          ],
+          [
+            "",
+            "咱个化肥廠欲擔个責任，毋但是北埔个茶米，更加是全臺灣个茶米。",
+            "Lán-ê huà-puî-tshiúnn beh tann ê tsik-jīm, m̄-nā sī Pak-poo ê tê-bí, kìng-ka sī tsuân Tâi-uân ê tê-bí.",
+            "2"
+          ],
+          [
+            "劉",
+            "工場起好矣，但是這馬政府無想欲用外匯進口原料啊！",
+            "Kang-tiûnn khí hó--ah, tān-sī tsit-má tsìng-hú bô siūnn-beh iōng guā-huē tsìn-kháu guân-liāu--a!",
+            "2"
+          ],
+          [
+            "吉",
+            "啥物原料？",
+            "Siánn-mih guân-liāu?",
+            "2"
+          ],
+          [
+            "劉",
+            "碳化鈣。",
+            "Tàn-huà-gài.",
+            "5"
+          ],
+          [
+            "吉",
+            "彼是啥？",
+            "He sī siánn?",
+            "2"
+          ],
+          [
+            "劉",
+            "電塗。",
+            "Tiān-thôo.",
+            "2"
+          ],
+          [
+            "吉",
+            "電塗？汝是講，共弓蕉催熟彼个電塗喔？",
+            "Tiān-thôo? Lí sī kóng, kā king-tsio tshui-si̍k hit--ê tiān-thôo--oo?",
+            "2"
+          ],
+          [
+            "劉",
+            "<span class='jp'>吉さん？<br><br>吉さん？</span>",
+            "<span class='jp'>Ji San?<br><br>Ji San?</span>",
+            "2"
+          ],
+          [
+            "吉",
+            "汝欲電塗？遐攏是啊！",
+            "Lí beh tiān-thôo? Hia lóng sī--a!",
+            "2"
+          ],
+          [
+            "劉",
+            "若是按呢，咱會使開始揣工儂矣！",
+            "Nā-sī án-ne, lán ē-sái khai-sí tshuē kang-lâng--ah!",
+            "2"
+          ],
+        ]
+      }
+    ]
+  }
+
+  /* EP4 */
 
   /* 主題曲「查有此人」歌詞整理轉錄自 YouTube <https://www.youtube.com/watch?v=ZUxDa4VFBZM>
   如果交淺言深
