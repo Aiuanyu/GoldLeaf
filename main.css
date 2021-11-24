@@ -19,7 +19,7 @@ h1, #vnum {
   line-height: 1.4;
 }
 
-#main-idea-page, .qgroup {
+#main-idea-page, .qgroup, .card {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -291,7 +291,7 @@ section td:nth-child(2) {
   padding-left: 3vw;
 }
 
-section tr:nth-child(2n+1), section tr:nth-child(2n+1) .lang1 {
+section tr:nth-child(2n+1), section tr:nth-child(2n+1) .lang1, .cardRoman {
   font-family: Athelas, HGMinchoE, serif;
   color: /*antiquewhite*/hsl(34, 100%, 96%);
 }
@@ -309,7 +309,7 @@ section tr:nth-child(2n+1) td {
   padding-top: 1em;
 }
 
-section tr:nth-child(2n) td, section tr:nth-child(2n) .jp {
+section tr:nth-child(2n) td, section tr:nth-child(2n) .jp, .cardNotes {
   color: hsla(0, 0%, 100%, 0.6) !important;
 }
 
@@ -822,7 +822,7 @@ rb {
 .card {
   width: 45vw;
   height: 25vw;
-  display: inline-block;
+  /*display: inline-block;*/
   background-color: var(--main-bg);
   border-radius: 1vw;
   margin: 1vw;
@@ -832,21 +832,27 @@ rb {
 }
 .cardRoman, .cardHanji, .cardNotes { /* Simplified Fluid Typography | CSS-Tricks <https://css-tricks.com/simplified-fluid-typography/> */
   font-size: clamp( var(--minFontSize), var(--scaler), var(--maxFontSize) );
-  line-height: clamp( var(--minFontSize), var(--scaler), var(--maxFontSize) );
+  line-height: clamp( var(--minLineHeight), var(--scaler), var(--maxLineHeight) );
+  padding: 0.5vw;
 }
 .cardRoman {
   --minFontSize: 32px;
   --maxFontSize: 200px;
+  --minLineHeight: 32px;
+  --maxLineHeight: 200px;
   --scaler: 10vw;
 }
 .cardHanji {
   --minFontSize: 32px;
   --maxFontSize: 200px;
+  --minLineHeight: 32px;
+  --maxLineHeight: 200px;
   --scaler: 5vw;
-
 }
 .cardNotes {
   --minFontSize: 16px;
   --maxFontSize: 200px;
+  --minLineHeight: 20px;
+  --maxLineHeight: 240px;
   --scaler: 2vw;
 }
