@@ -334,8 +334,14 @@ data = [
           ],
           [
             "劉",
-            "<span class='jp'>吉さん？<br><br>吉さん？</span>",
-            "<span class='jp'>Ji San?<br><br>Ji San?</span>",
+            "<span class='jp'>吉さん？</span>",
+            "<span class='jp'>Ji San?</span>",
+            "2"
+          ],
+          [
+            "",
+            "<span class='jp'>吉さん？</span>",
+            "<span class='jp'>Ji San?</span>",
             "2"
           ],
           [
