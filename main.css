@@ -382,7 +382,7 @@ section table {
   background-size: 100% 100%; /* 新版 Firefox 中，SVG 的 aspect ratio 會維持不變，不像 BlueGriffon 3.1 裡面會拉伸 ∴須修改 SVG 檔加入 preserveAspectRatio="none" ☞ css - Cannot stretch svg background image, aspect ratio will be preserved - Stack Overflow <https://stackoverflow.com/questions/32454685/cannot-stretch-svg-background-image-aspect-ratio-will-be-preserved> */
   border-radius: 3pt;
   left: 82vw;
-  font-family: Athelas, 楷體-繁, 全字庫正楷體 Ext-B, serif; /* Chromium 系瀏覽器的「楷體-繁」竟然無法正常顯示「𤆬」字 ∴只好用 fallback */
+  font-family: Athelas, 楷體-繁, 全字庫正楷體 Ext-B, TaiExtWeb, serif; /* Chromium 系瀏覽器的「楷體-繁」竟然無法正常顯示「𤆬」字 ∴只好用 fallback */
   padding: 8pt 10pt;
   color: brown;
   box-shadow: brown 0.3vw 0.3vw 0.25vw;
