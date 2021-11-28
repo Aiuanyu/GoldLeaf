@@ -285,60 +285,60 @@ data = [
             "Gìmbù'ngid, lióng ě ngiun shiù!",
             ""
           ],
-          /*[
+          [
             "茶農",
             "- 啊？<br>- 麼个？<br>- 做麼个？",
-            "gai",
+            "- Á?<br>- Mágǎi?<br>- Zǒ mágǎi?",
             ""
           ],
           [
             "",
             "- 毋著啊，昨晡日三個銀，今晡日兩個銀，（這？）價值係＿漦个啊？<br>- 係啊！",
-            "e",
+            "- M chòg à, còbù'ngid sàm ě ngiun, gìmbù'ngid lióng ě ngiun, (liá?) gǎchìd hě <span class='TBD'>háu</span>siauě à?<br>- Hě à!",
             ""
           ],
           [
             "心",
             "今晡日，就係兩個銀！",
-            "",
+            "Gìmbù'ngid, cïu hě lióng ě ngiun!",
             ""
           ],
           [
             "茶農",
-            "- 會賣無？<br>毋賣毋賣！來轉來轉！",
-            "",
+            "- 會賣無？<br>- 毋賣毋賣！來轉來轉！",
+            "- Vöi mäi mo?<br>- M mäi m mäi! Loi zhón loi zhón!",
             ""
           ],
           [
             "吉",
-            "妳恁樣做，𫣆俚日光正經無好擇！<br>阿土師傅無在哩，恁大个一張訂單，茶菁毋收好兜，品質上毋去，愛仰般出貨？",
-            "coi ge",
+            "妳恁樣做，𫣆俚日光正經無好擇！<br>阿土師傅無在哩，恁大个一張定單，茶菁毋收好兜，品質上毋去，愛仰般出貨？",
+            "<div class='sidenote'>「定」vs.「訂」，客語不同音，與華語不同。從 EP5 聽起來，本劇應該是用「定單」、「定金」，不是「訂」。這或許也和中華民國民法用語「定金」、「定作人」多半用「定」而不是「訂」有關（我推測中華民國民法所用的字詞，與華南漢語或南方官話有關）</div>Ngi ánngiong zǒ, ènlí Ngidgòng zhǐngìn mo hó tòg!<br>Á-Tü Sìifü mo còi lè, án täi gě rhid zhòng <span class='noted'>tïn</span>dàn, caciàng m shiù hó dèu, pínzhid shòng m hǐ, ǒi ngióngbàn chudfǒ?",
             ""
           ],
           [
             "心",
             "係講……利潤異好，𫣆俚當然做得高價收茶菁照顧茶農。毋過，公司員工，毋係共樣重要 <ruby><rb>me</rb><rp>(</rp><rt>毋+係</rt><rp>)</rp></ruby>？<br>員工照顧着哩，日光正做得繼續下去。<br>下後，𫣆俚正有能力摎實力，照顧其他人。",
-            "",
+            "Hěgóng... lïrhün rhǐ hó, ènlí dòngrhan zǒded gògǎ shiù caciàng zhǎugǔ canung. Mgǒ, Gùngsìi rhangùng, m hě kiüngrhöng chüngrhǎu <ruby><rb>mě</rb><rp>(</rp><rt>m hě </rt><rp>)</rp></ruby>?<br>Rhangùng zhǎugǔ dó lè, Ngidgòng zhǎng zǒded gǐsiùg hàhǐ.<br>Hàhëu, ènlí zhǎng rhìu nenlìd làu shìdlìd, zhǎugǔ kità ngin.",
             ""
           ],
           [
             "",
             "員工四隻月無發工錢哩！",
-            "",
+            "Rhangùng sǐ zhag ngièd mo fad gùngcien lè!",
             ""
           ],
           [
             "",
             "韶早，佢兜毋來，大家堵好尞一日！",
-            "",
+            "Shauzó, gidèu m loi, täigà dúhó liäu rhid ngid!",
             ""
           ],
           [
             "吉",
             "尞一日？！係講，韶早，無人來！𫣆俚日光，就準備關門哩！",
-            "",
+            "Liäu rhid ngid? Hěgóng, shauzó, mo ngin loi! Ènlí Ngidgòng, cïu zhúnpï guànmun lè!",
             ""
-          ],*/
+          ],
         ]
       },
       /*{
@@ -596,7 +596,9 @@ data = [
     ]
   }
 
-  /* EP4 */
+  /* EP5 */
+  /* ⭐ 2:50 賣出去才是錢 */
+  /* ⭐ Sabrina 指定 5:10～5:51、6:54～7:30 */
 
   /* 主題曲「查有此人」歌詞整理轉錄自 YouTube <https://www.youtube.com/watch?v=ZUxDa4VFBZM>
   如果交淺言深
