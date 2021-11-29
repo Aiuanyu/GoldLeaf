@@ -19,7 +19,7 @@ h1, #vnum {
   line-height: 1.4;
 }
 
-#main-idea-page, .qgroup, .card {
+#main-idea-page, .qgroup/*, .card*/ {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -374,10 +374,12 @@ section table {
   background-size: 100% 100%; /* 新版 Firefox 中，SVG 的 aspect ratio 會維持不變，不像 BlueGriffon 3.1 裡面會拉伸 ∴須修改 SVG 檔加入 preserveAspectRatio="none" ☞ css - Cannot stretch svg background image, aspect ratio will be preserved - Stack Overflow <https://stackoverflow.com/questions/32454685/cannot-stretch-svg-background-image-aspect-ratio-will-be-preserved> */
   border-radius: 3pt;
   left: 82vw;
-  font-family: Athelas, 楷體-繁, 全字庫正楷體 Ext-B, serif; /* Chromium 系瀏覽器的「楷體-繁」竟然無法正常顯示「𤆬」字 ∴只好用 fallback */
   padding: 8pt 10pt;
   color: brown;
   box-shadow: brown 0.25vw 0.25vw;
+}
+.sidenote, .cardNotes {
+  font-family: Athelas, 楷體-繁, 全字庫正楷體 Ext-B, serif; /* Chromium 系瀏覽器的「楷體-繁」竟然無法正常顯示「𤆬」字 ∴只好用 fallback */
 }
 
 .trans { /* 參考 .sidenote 來做翻譯方塊（主要給排灣語用） */
@@ -820,20 +822,23 @@ rb {
 
 /* 字卡區開始 */
 .card {
-  width: 45vw;
-  height: 25vw;
+  width: 400px;
+  /*float: left;*/
+  /*height: 25vw;*/
   /*display: inline-block;*/
   background-color: var(--main-bg);
-  border-radius: 1vw;
-  margin: 1vw;
-  padding: 1vw;
+  border-radius: 3vw;
+  /*margin: 1vw;
+  padding: 1vw;*/
+  margin-bottom: 15px;
   text-align: center;
   color: var(--main-text-color);
 }
 .cardRoman, .cardHanji, .cardNotes { /* Simplified Fluid Typography | CSS-Tricks <https://css-tricks.com/simplified-fluid-typography/> */
   font-size: clamp( var(--minFontSize), var(--scaler), var(--maxFontSize) );
-  line-height: clamp( var(--minLineHeight), var(--scaler), var(--maxLineHeight) );
-  padding: 0.5vw;
+  line-height: clamp( var(--minLineHeight), var(--scalerHeight), var(--maxLineHeight) );
+  padding-top: 0.5vw;
+  padding-bottom: 0.5vw;
 }
 .cardRoman {
   --minFontSize: 32px;
@@ -841,6 +846,9 @@ rb {
   --minLineHeight: 32px;
   --maxLineHeight: 200px;
   --scaler: 10vw;
+  --scalerHeight: 10vw;
+
+  margin-top: 5vw;
 }
 .cardHanji {
   --minFontSize: 32px;
@@ -848,6 +856,9 @@ rb {
   --minLineHeight: 32px;
   --maxLineHeight: 200px;
   --scaler: 5vw;
+  --scalerHeight: 5vw;
+
+  margin-top: 2vw;
 }
 .cardNotes {
   --minFontSize: 16px;
@@ -855,4 +866,22 @@ rb {
   --minLineHeight: 20px;
   --maxLineHeight: 240px;
   --scaler: 2vw;
+  --scalerHeight: 3vw;
+
+  padding: 2vw;
+  margin-top: 1vw;
+  margin-bottom: 1vw;
 }
+/*.cardRoman, .cardHanji {
+  width: 25vw;
+}*/
+.grid-item {
+  /*width: 45vw;*/
+  /*float: left;*/
+}
+/*.cardRoman {
+  display: inline-block;
+  white-space: nowrap;
+  width: 30vw;
+  font-size: 10vw !important;
+}*/

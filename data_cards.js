@@ -8,5 +8,13 @@ cards = [
     "茶園",
     "carhan",
     "請不要唸成英語「car-han」哦 XD<br>客語拼音 c = ㄘ；rh 類似法語 j"
+  ],
+  [
+    "日光",
+    "Ngidgòng"
+  ],
+  [
+    "aaaaaaaaaaaa",
+    "bbbbbbbbb"
   ]
 ]

@@ -235,21 +235,49 @@ function generateCards() { // 產生字卡
 
   for (var i = 0; i < cards.length; i++) {
     var card = document.createElement("div");
-    card.classList += "card";
+    card.classList.add("card");
+    /*card.classList.add("grid-item");*/
     var hanji = document.createElement("div");
-    hanji.classList += "cardHanji";
+    hanji.classList.add("cardHanji");
     var roman = document.createElement("div");
-    roman.classList += "cardRoman";
+    roman.classList.add("cardRoman");
+    /*roman.classList.add("fit");*/
+    roman.classList.add("fit-this-text");
+    roman.classList.add("fitter");
     var notes = document.createElement("div");
-    notes.classList += "cardNotes";
+    notes.classList.add("cardNotes");
     hanji.innerHTML = cards[i][0];
     roman.innerHTML = cards[i][1];
-    notes.innerHTML = cards[i][2];
+    if (cards[i][2]!=undefined) {
+      notes.innerHTML = cards[i][2];
+    }
     card.appendChild(roman);
     card.appendChild(hanji);
     card.appendChild(notes);
     cardsContainer.appendChild(card);
   }
+
+  /* Masonry <https://masonry.desandro.com/> */
+  var elem = document.querySelector('#cards');
+  var msnry = new Masonry( elem, {
+    // options
+    itemSelector: '.card',
+    columnWidth: 400,
+    gutter: 15
+  });
+
+  /* Fitty */
+  /*var cardRoman = document.getElementsByClassName('cardRoman');
+  fitty(cardRoman);
+  fitty('.cardRoman');*/
+
+  /* FitText */
+  /*window.fitText(document.getElementsByClassName('cardRoman'));*/
+
+  /* fitext */
+  /*import fitext from 'fitext'*/
+  const EVENTS = ['DOMContentLoaded', 'resize']
+  EVENTS.forEach( e => window.addEventListener( e, fitext ) )
 
 
 }
