@@ -594,11 +594,128 @@ data = [
         ]
       }
     ]
+  },
+  {
+    "EP": "5",
+    "sections": [
+  /* ⭐ 2:50 賣出去才是錢 */
+  /* ⭐ Sabrina 指定 5:10～5:51、6:54～7:30 */
+      {
+        "t": "5:10",
+        "rows": [
+          [
+            "山",
+            "三井个比賽茶，愛用日光个鋪面茶無？",
+            "Sàmziáng gǎi bísǒi ca, ǒi rhüng Ngidgòng ě pùmiěnca mo?",
+            ""
+          ],
+          [
+            "石",
+            "就係<span class='noted'>著蝝茶</span>。係該薄薄一層个著蝝茶。<br>這就係日光茶做得賣比別人貴个原因啊！",
+            "Cïu hě <span class='noted'>Chògrhanca</span>. Hě gai pògpòg rhid cen gǎi Chògrhanca.<br>Liá cïu hě Ngidgòng ca zǒded mäi bí pèdngin gǔi gǎi ngienrhìn a!",
+            ""
+          ],
+          [
+            "山",
+            "毋過，用<span class='noted'>青心大冇種</span>敢好？<br>青心大冇種，係講做毋好，苦味重，又臭青臭青。",
+            "<div class='sidenote'>延伸知識時間到～<span class='larger'><a href='https://www.moedict.tw/:%E5%86%87'>冇</a></span>、<a href='https://www.hanyitea.tw/single-post/chin-shin-dapan/'>青心大冇種</a>、<a href='https://www.lefoodco.com/pages/%E6%9D%B1%E6%96%B9%E7%BE%8E%E4%BA%BA%E6%98%AF%E4%BB%80%E9%BA%BC%E8%8C%B6%EF%BC%9F'>著蝝茶</a>（非業配～只是挑內容比較豐富的網頁）</div>Mgǒ, rhüng <span class='noted'>Ciàngsìm Täipǎng Zhúng</span> gám hó?<br>Ciàngsìm Täipǎng Zhúng, hěgóng zǒ m hó, fúmüi chùng, rhïu chiǔciàng chiǔciàng.",
+            ""
+          ],
+          [
+            "石",
+            "難，正係真本等！<br>青心大冇種个著蝝茶啊，味正會賁！深！又醇！",
+            "Nan, zhǎng hě zhìn búndén!<br>Ciàngsìm Täipǎng Zhúng gǎi Chògrhanca à, müi zhǎng vöi pùn! Chìm! Rhïu shun!",
+            ""
+          ],
+          [
+            "山",
+            "該𫣆俚做麼个特別愛收這時節个茶啊？",
+            "Gai ènlí zǒ mágǎi tìdpièd ǒi shiù lía shizied gǎi ca à?",
+            ""
+          ],
+          [
+            "石",
+            "𫣆俚係在該等「二五茶」啊！",
+            "Ènlí hě dǔi gai dén &quot;Ngï-Ńg Ca&quot; à!",
+            ""
+          ],
+          [
+            "山",
+            "「二五茶」？",
+            "&quot;Ngï-Ńg Ca&quot;?",
+            ""
+          ],
+          [
+            "石",
+            "Òi！下晝兩點到五點摘个茶菁，最乾！",
+            "Òi! Hàzhiǔ lióng diǎm dǒ ńg diǎm zag gǎi caciàng, zǔi gòn!",
+            ""
+          ],
+          [
+            "山",
+            "仰般愛最乾个茶菁呢？",
+            "Ngióngbàn ǒi zǔi gòn gǎi caciàng nó?",
+            ""
+          ],
+          [
+            "石",
+            "哎呀！哪有麼个仰般啊！阿土師傅都係恁樣做个啊！",
+            "Ài à! Näi rhiù mágǎi ngióngbàn à! Á-Tü Sìifü dù hě ánngiong zǒ ě à!",
+            ""
+          ],
+        ]
+      },
+      {
+        "t": "6:54",
+        "rows": [
+          [
+            "山",
+            "茶炒好正愛翕？",
+            "Ca cáu hó zhǎng ǒi hǐm?",
+            ""
+          ],
+          [
+            "石",
+            "嗯？問題還多！",
+            "M? Mǔnti han dò!",
+            ""
+          ],
+          [
+            "",
+            "著蝝茶，本身就當細。無這步，當會碎个。",
+            "Chògrhanca, búnshìn cïu dòng sě. Mo liá pü, dòng vöi sǔi ě.",
+            ""
+          ],
+          [
+            "",
+            "該當時啊，𠊎師傅，為日本天皇做茶个時節，摎𠊎講：茶身行水个時間，最重要。摸着茶葉邊唇變軟，毋會刺手，就差毋多哩！",
+            "Gaidòngshi à, ngai sìifü, vui Ngibún Tiènfong zǒ ca gǎi shizied, làu ngai góng: cashìn hangshúi gǎi shigièn, zǔi chüngrhǎu. Mià dó carhàb biènshun biěn ngiòn, m vöi ciag shiú, cïu cà m dò lè!",
+            ""
+          ],
+          [
+            "山",
+            "承蒙石頭師傅！",
+            "Shinmung Shàgteu Sìifü!",
+            ""
+          ],
+          [
+            "石",
+            "𠊎師傅講啊，做茶這件事情，𫣆俚做茶師傅个，做毋得無面子；日光，乜做毋得無面子！",
+            "Ngai sìifü góng à, zǒ ca liá kiën sïicin, ènlí zǒ casìifü ě, zǒ-m-ded mo miěnzíi; Ngidgòng, mě zǒ-m-ded mo miěnzíi!",
+            ""
+          ],
+          [
+            "山",
+            "知哩！",
+            "Dì lè!",
+            ""
+          ],
+        ]
+      }
+    ]
   }
 
   /* EP5 */
-  /* ⭐ 2:50 賣出去才是錢 */
-  /* ⭐ Sabrina 指定 5:10～5:51、6:54～7:30 */
 
   /* 主題曲「查有此人」歌詞整理轉錄自 YouTube <https://www.youtube.com/watch?v=ZUxDa4VFBZM>
   如果交淺言深
