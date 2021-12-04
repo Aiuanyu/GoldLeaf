@@ -4,6 +4,7 @@
   --second-bg: #805136; /* 男女主海報女主襯衫 */
   --light-bg: hsla(153, 29%, 66%, 0.8); /* 海報綠葉湖水綠 */
   --color: ;
+  --printed-font: Essays1743, 'WenYue GuDianMingChaoTi (Non-Commercial Use)', sans-serif;
 }
 
 body {
@@ -833,23 +834,40 @@ rb {
   margin-bottom: 15px;
   text-align: center;
   color: var(--main-text-color);
+  position: relative;
 }
 body {counter-reset: cardx;}
 .card {counter-increment: cardx;}
 .card:after {
   float: right;
   content: "Aiuanyu 愛灣語‧茶金字卡 #"counter(cardx);
-  font-family: 王漢宗中仿宋繁, sans-serif;
+  font-family: var(--printed-font);
   margin-right: 20px;
   margin-bottom: 5px;
   color: var(--light-bg);
+  opacity: 0.6;
+}
+.card .hl .cardLangLogo {
+  float: right;
+  width: 16px;
+  height: 16px;
+  background-image: url(res/HLflag.jpg);
+  background-size: 100%;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  font-size: 8px;
+  line-height: 16px;
+  text-align: center;
+  opacity: 0.6;
+  font-family: var(--printed-font);
 }
 .cardRoman {
   font-size: 100px;
   line-height: 120px;
-  margin-top: 20px;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-top: 40px;
+  margin-left: 30px;
+  margin-right: 30px;
 }
 .cardHanji {
   font-size: 50px;

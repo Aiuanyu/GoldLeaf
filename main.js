@@ -236,6 +236,7 @@ function generateCards() { // 產生字卡
   for (var i = 0; i < cards.length; i++) {
     var card = document.createElement("div");
     card.classList.add("card");
+    var cardInner = document.createElement("div");
     /*card.classList.add("grid-item");*/
     var hanji = document.createElement("div");
     hanji.classList.add("cardHanji");
@@ -251,6 +252,17 @@ function generateCards() { // 產生字卡
     if (cards[i][2]!=undefined) {
       notes.innerHTML = cards[i][2];
     }
+    var langLogo = document.createElement("div");
+    langLogo.classList.add('cardLangLogo');
+    langLogo.innerHTML = "<br>海";
+    cardInner.classList.add('hl');
+    if (cards[i][3]!=undefined) {
+      switch (cards[i][3]) {
+        case 3:
+          cardInner.classList.add('jp');
+          break;
+      }
+    }
     if (cards[i][4]!=undefined) {
       var romanInner = document.createElement("span");
       romanInner.innerHTML = roman.innerHTML;
@@ -258,9 +270,11 @@ function generateCards() { // 產生字卡
       roman.innerHTML = '';
       roman.appendChild(romanInner);
     }
-    card.appendChild(roman);
-    card.appendChild(hanji);
-    card.appendChild(notes);
+    cardInner.appendChild(langLogo);
+    cardInner.appendChild(roman);
+    cardInner.appendChild(hanji);
+    cardInner.appendChild(notes);
+    card.appendChild(cardInner);
     cardsContainer.appendChild(card);
   }
 
