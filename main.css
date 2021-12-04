@@ -520,7 +520,7 @@ section:not(.noHak):before {
 
 section tr:nth-child(2n) {color: white !important;}
 /* Ho̍h-ló */
-section tr.lang2, section td.lang2, section tr:nth-child(2n+1) .lang2, .sample.lang2 {color: /*honeydew*//*hsl(217, 82%, 89%)*/hsl(303, 100%, 96%);}
+section tr.lang2, section td.lang2, section tr:nth-child(2n+1) .lang2, .sample.lang2, .card .nan .cardRoman {color: /*honeydew*//*hsl(217, 82%, 89%)*/hsl(303, 100%, 96%);}
 section tr:nth-child(2n).lang2, section tr:nth-child(2n) .lang2, .sample.lang2/*, .tranName*/ {font-family: "源石黑體", /*"霞鶩文楷 TC",*/ TaiExtWeb, sans-serif; font-weight: 500;}
 section tr:nth-child(2n+1).lang2, section tr:nth-child(2n+1) .lang2 {font-family: 源石黑體, sans-serif; font-weight: 500;}
 section tr:nth-child(2n+1).lang2 {font-size: 1.2em;}
@@ -847,18 +847,17 @@ body {counter-reset: cardx;}
 .card {counter-increment: cardx;}
 .card:after {
   float: right;
-  content: "Aiuanyu 愛灣語‧茶金字卡 #"counter(cardx);
+  content: "Aiuanyu 愛灣語 🍵 茶金字卡 #"counter(cardx);
   font-family: var(--printed-font);
   margin-right: 20px;
   margin-bottom: 5px;
   color: var(--light-bg);
   opacity: 0.6;
 }
-.card .hl .cardLangLogo {
+.card .cardLangLogo {
   float: right;
   width: 16px;
   height: 16px;
-  background-image: url(res/HLflag.jpg);
   background-size: 100%;
   position: absolute;
   right: 20px;
@@ -869,6 +868,8 @@ body {counter-reset: cardx;}
   opacity: 0.6;
   font-family: var(--printed-font);
 }
+.card .hl .cardLangLogo {background-image: url(res/HLflag.jpg);}
+.card .nan .cardLangLogo {background-image: url(res/NANflag.png);}
 .cardRoman {
   font-size: 100px;
   line-height: 120px;

@@ -257,9 +257,17 @@ function generateCards() { // 產生字卡
     langLogo.innerHTML = "<br>海";
     cardInner.classList.add('hl');
     if (cards[i][3]!=undefined) {
+      cardInner.classList.remove('hl');
       switch (cards[i][3]) {
-        case 3:
+        case "2":
+          cardInner.classList.add('nan');
+          langLogo.innerHTML = "<br>鶴"
+          break;
+        case "3":
           cardInner.classList.add('jp');
+          break;
+        default:
+          cardInner.classList.add('hl');
           break;
       }
     }
