@@ -111,6 +111,11 @@ h1, #vnum {
   vertical-align: middle;
 }
 
+#thanks {
+  border: 1pt solid var(--light-bg);
+  padding: 4vw;
+  color: var(--main-bg);
+}
 #thanks, #links a, #HLauthor, #Payuan-author, #links li, button.collapsible, #useHL, #backToSI, #headTOCButton {font-family: PT Sans, '黑體-繁', sans-serif; font-weight: 700;}
 #thanks ul ul li, #links li, #floatedTOC li, #headTOCButton {
   display: inline-block;
@@ -119,6 +124,7 @@ h1, #vnum {
   margin: 0.1em 0.3em;
   border-radius: 0.3em;
 }
+#thanks ul ul li a {color: azure;}
 #links ul {
   display: inline;
   padding-inline-start: 0;
@@ -142,9 +148,12 @@ h1, #vnum {
 section {
   background-color: hsl(213, 36%, 16%); /* 海報主色調「粗布藍衣」 ☞ 幕後｜從平衡感開始，談談 《茶金》的視覺設計 | 劇夠 <https://dramago.ptsplus.tv/?p=5091&fbclid=IwAR3_g0rjWk8ln6RYwrBOMUVueCvcv1g7eVSErn40G46ELfgIxvD788lNPbk>*/
   color: #c2b882; /* = hsl(51, 34%, 64%) = 海報主色調金色茶葉 */
-  margin: 10pt;
   padding: /*50pt*/ 5vh;
+}
+/*section a {color: inherit;}*/
+section, #thanks {
   border-radius: /*5px*/ 2vh;
+  margin: 10pt;
 }
       
 section table {
@@ -244,7 +253,7 @@ section table {
 
 
 #main-title:after {
-  content: 'Aiuanyu 編／v0.1.3 20211118';
+  content: 'Aiuanyu 編／v0.1.7 20211202';
   font-size: 0.5em;
   font-family: 蘋果儷中黑;
   position: absolute;
@@ -377,10 +386,10 @@ section table {
   left: 82vw;
   padding: 8pt 10pt;
   color: brown;
-  box-shadow: brown 0.25vw 0.25vw;
+  box-shadow: brown 0.3vw 0.3vw 0.25vw;
 }
 .sidenote, .cardNotes {
-  font-family: Athelas, 楷體-繁, 全字庫正楷體 Ext-B, serif; /* Chromium 系瀏覽器的「楷體-繁」竟然無法正常顯示「𤆬」字 ∴只好用 fallback */
+  font-family: Athelas, 楷體-繁, 全字庫正楷體 Ext-B, TaiExtWeb, serif; /* Chromium 系瀏覽器的「楷體-繁」竟然無法正常顯示「𤆬」字 ∴只好用 fallback */
 }
 
 .trans { /* 參考 .sidenote 來做翻譯方塊（主要給排灣語用） */
@@ -541,7 +550,7 @@ section tr:nth-child(2n+1).lang7 td {font-family: Mangal, sans-serif; font-weigh
 }
 section tr:nth-child(2n+1) .jp {font-size: 0.9em;}
 section tr:nth-child(2n) .jp {font-family: '霞鶩文楷 TC', sans-serif;}
-}
+
 /*span.sample.jp {font-family: Andika, '霞鶩文楷 TC' !important;}*/
 /* Mandarin */
 section tr.lang5, td.lang5, .lang5, .sample.lang5 {color: /*honeydew*//*hsl(217, 82%, 89%)*/hsl(235, 100%, 96%);}
@@ -664,9 +673,7 @@ table#roman-guide {
   -webkit-text-fill-color: transparent;
 } /* 黃色相思樹花 #e5c120 */
 
-.larger {
-  font-size: larger;
-}
+.larger {font-size: large; line-height: 1.5em;}
 
 td.classic {
   /*border-left: 0.2em solid hsla(153, 29%, 66%, 0.5);*/
