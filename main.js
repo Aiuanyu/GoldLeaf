@@ -251,6 +251,13 @@ function generateCards() { // 產生字卡
     if (cards[i][2]!=undefined) {
       notes.innerHTML = cards[i][2];
     }
+    if (cards[i][4]!=undefined) {
+      var romanInner = document.createElement("span");
+      romanInner.innerHTML = roman.innerHTML;
+      romanInner.style.fontSize = cards[i][4]+'%';
+      roman.innerHTML = '';
+      roman.appendChild(romanInner);
+    }
     card.appendChild(roman);
     card.appendChild(hanji);
     card.appendChild(notes);
@@ -262,7 +269,7 @@ function generateCards() { // 產生字卡
   var msnry = new Masonry( elem, {
     // options
     itemSelector: '.card',
-    columnWidth: 400,
+    columnWidth: 500,
     gutter: 15
   });
 
@@ -288,6 +295,9 @@ function init() {
   fillRomanNames();
   collapsibles();
   openHeadTOC();
+  localFileIndicator();
+}
+function cardsInit() {
   localFileIndicator();
   generateCards();
 }

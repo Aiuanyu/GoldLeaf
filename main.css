@@ -708,9 +708,9 @@ td.classic:before {
 }
 rt {opacity: 0.5;}
 rb {
-  border-style: solid;
+  border-style: dotted;
   border-color: hsla(0, 0%, 100%, 0.2);
-  border-width: 0 0.1em;
+  border-width: 0 0.02em;
 }
 
 .payuanEllipsis {
@@ -822,20 +822,47 @@ rb {
 
 /* 字卡區開始 */
 .card {
-  width: 400px;
+  width: 500px;
   /*float: left;*/
   /*height: 25vw;*/
   /*display: inline-block;*/
   background-color: var(--main-bg);
-  border-radius: 3vw;
+  border-radius: 30px;
   /*margin: 1vw;
   padding: 1vw;*/
   margin-bottom: 15px;
   text-align: center;
   color: var(--main-text-color);
 }
-.cardRoman, .cardHanji, .cardNotes { /* Simplified Fluid Typography | CSS-Tricks <https://css-tricks.com/simplified-fluid-typography/> */
-  font-size: clamp( var(--minFontSize), var(--scaler), var(--maxFontSize) );
+body {counter-reset: cardx;}
+.card {counter-increment: cardx;}
+.card:after {
+  float: right;
+  content: "Aiuanyu 愛灣語‧茶金字卡 #"counter(cardx);
+  font-family: 王漢宗中仿宋繁, sans-serif;
+  margin-right: 20px;
+  margin-bottom: 5px;
+  color: var(--light-bg);
+}
+.cardRoman {
+  font-size: 100px;
+  line-height: 120px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.cardHanji {
+  font-size: 50px;
+  line-height: 75px;
+  margin-top: 10px;
+}
+.cardNotes {
+  font-size: 20px;
+  line-height: 25px;
+  margin: 20px;
+}
+/*.cardRoman, .cardHanji, .cardNotes { /* Simplified Fluid Typography | CSS-Tricks <https://css-tricks.com/simplified-fluid-typography/> */
+/*  font-size: clamp( var(--minFontSize), var(--scaler), var(--maxFontSize) );
   line-height: clamp( var(--minLineHeight), var(--scalerHeight), var(--maxLineHeight) );
   padding-top: 0.5vw;
   padding-bottom: 0.5vw;
@@ -871,7 +898,7 @@ rb {
   padding: 2vw;
   margin-top: 1vw;
   margin-bottom: 1vw;
-}
+}*/
 /*.cardRoman, .cardHanji {
   width: 25vw;
 }*/
