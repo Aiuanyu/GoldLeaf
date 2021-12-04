@@ -3,6 +3,8 @@
   --main-text-color: #c2b882; /* 金色 */
   --second-bg: #805136; /* 男女主海報女主襯衫 */
   --light-bg: hsla(153, 29%, 66%, 0.8); /* 海報綠葉湖水綠 */
+  --color: ;
+  --printed-font: Essays1743, 'WenYue GuDianMingChaoTi (Non-Commercial Use)', sans-serif;
 }
 
 body {
@@ -18,7 +20,7 @@ h1, #vnum {
   line-height: 1.4;
 }
 
-#main-idea-page, .qgroup {
+#main-idea-page, .qgroup/*, .card*/ {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -299,7 +301,7 @@ section td:nth-child(2) {
   padding-left: 3vw;
 }
 
-section tr:nth-child(2n+1), section tr:nth-child(2n+1) .lang1 {
+section tr:nth-child(2n+1), section tr:nth-child(2n+1) .lang1, .cardRoman {
   font-family: Athelas, HGMinchoE, serif;
   color: /*antiquewhite*/hsl(34, 100%, 96%);
 }
@@ -317,7 +319,7 @@ section tr:nth-child(2n+1) td {
   padding-top: 1em;
 }
 
-section tr:nth-child(2n) td, section tr:nth-child(2n) .jp {
+section tr:nth-child(2n) td, section tr:nth-child(2n) .jp, .cardNotes {
   color: hsla(0, 0%, 100%, 0.6) !important;
 }
 
@@ -382,10 +384,12 @@ section table {
   background-size: 100% 100%; /* 新版 Firefox 中，SVG 的 aspect ratio 會維持不變，不像 BlueGriffon 3.1 裡面會拉伸 ∴須修改 SVG 檔加入 preserveAspectRatio="none" ☞ css - Cannot stretch svg background image, aspect ratio will be preserved - Stack Overflow <https://stackoverflow.com/questions/32454685/cannot-stretch-svg-background-image-aspect-ratio-will-be-preserved> */
   border-radius: 3pt;
   left: 82vw;
-  font-family: Athelas, 楷體-繁, 全字庫正楷體 Ext-B, TaiExtWeb, serif; /* Chromium 系瀏覽器的「楷體-繁」竟然無法正常顯示「𤆬」字 ∴只好用 fallback */
   padding: 8pt 10pt;
   color: brown;
   box-shadow: brown 0.3vw 0.3vw 0.25vw;
+}
+.sidenote, .cardNotes {
+  font-family: Athelas, 楷體-繁, 全字庫正楷體 Ext-B, TaiExtWeb, serif; /* Chromium 系瀏覽器的「楷體-繁」竟然無法正常顯示「𤆬」字 ∴只好用 fallback */
 }
 
 .trans { /* 參考 .sidenote 來做翻譯方塊（主要給排灣語用） */
@@ -712,9 +716,9 @@ td.classic:before {
 }
 rt {opacity: 0.5;}
 rb {
-  border-style: solid;
+  border-style: dotted;
   border-color: hsla(0, 0%, 100%, 0.2);
-  border-width: 0 0.1em;
+  border-width: 0 0.02em;
 }
 
 .payuanEllipsis {
@@ -823,3 +827,113 @@ rb {
   background: #bb0000;
   color: white;
 }
+
+/* 字卡區開始 */
+.card {
+  width: 500px;
+  /*float: left;*/
+  /*height: 25vw;*/
+  /*display: inline-block;*/
+  background-color: var(--main-bg);
+  border-radius: 30px;
+  /*margin: 1vw;
+  padding: 1vw;*/
+  margin-bottom: 15px;
+  text-align: center;
+  color: var(--main-text-color);
+  position: relative;
+}
+body {counter-reset: cardx;}
+.card {counter-increment: cardx;}
+.card:after {
+  float: right;
+  content: "Aiuanyu 愛灣語‧茶金字卡 #"counter(cardx);
+  font-family: var(--printed-font);
+  margin-right: 20px;
+  margin-bottom: 5px;
+  color: var(--light-bg);
+  opacity: 0.6;
+}
+.card .hl .cardLangLogo {
+  float: right;
+  width: 16px;
+  height: 16px;
+  background-image: url(res/HLflag.jpg);
+  background-size: 100%;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  font-size: 8px;
+  line-height: 16px;
+  text-align: center;
+  opacity: 0.6;
+  font-family: var(--printed-font);
+}
+.cardRoman {
+  font-size: 100px;
+  line-height: 120px;
+  margin-top: 40px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.cardHanji {
+  font-size: 50px;
+  line-height: 75px;
+  margin-top: 10px;
+}
+.cardNotes {
+  font-size: 20px;
+  line-height: 25px;
+  margin: 20px;
+}
+/*.cardRoman, .cardHanji, .cardNotes { /* Simplified Fluid Typography | CSS-Tricks <https://css-tricks.com/simplified-fluid-typography/> */
+/*  font-size: clamp( var(--minFontSize), var(--scaler), var(--maxFontSize) );
+  line-height: clamp( var(--minLineHeight), var(--scalerHeight), var(--maxLineHeight) );
+  padding-top: 0.5vw;
+  padding-bottom: 0.5vw;
+}
+.cardRoman {
+  --minFontSize: 32px;
+  --maxFontSize: 200px;
+  --minLineHeight: 32px;
+  --maxLineHeight: 200px;
+  --scaler: 10vw;
+  --scalerHeight: 10vw;
+
+  margin-top: 5vw;
+}
+.cardHanji {
+  --minFontSize: 32px;
+  --maxFontSize: 200px;
+  --minLineHeight: 32px;
+  --maxLineHeight: 200px;
+  --scaler: 5vw;
+  --scalerHeight: 5vw;
+
+  margin-top: 2vw;
+}
+.cardNotes {
+  --minFontSize: 16px;
+  --maxFontSize: 200px;
+  --minLineHeight: 20px;
+  --maxLineHeight: 240px;
+  --scaler: 2vw;
+  --scalerHeight: 3vw;
+
+  padding: 2vw;
+  margin-top: 1vw;
+  margin-bottom: 1vw;
+}*/
+/*.cardRoman, .cardHanji {
+  width: 25vw;
+}*/
+.grid-item {
+  /*width: 45vw;*/
+  /*float: left;*/
+}
+/*.cardRoman {
+  display: inline-block;
+  white-space: nowrap;
+  width: 30vw;
+  font-size: 10vw !important;
+}*/

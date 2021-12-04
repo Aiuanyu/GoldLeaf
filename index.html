@@ -13,6 +13,7 @@
     <script type="text/javascript" src="HL-lines.js"></script>
     <script type="text/javascript" src="data.js"></script>
     <script type="text/javascript" src="names.js"></script>
+    <script type="text/javascript" src="data_cards.js"></script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-XEZP52D292"></script>
     <script>
@@ -21,6 +22,13 @@
       gtag('js', new Date());
 
       gtag('config', 'G-XEZP52D292');
+    </script>
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+    <script src='https://cdn.jsdelivr.net/npm/fitext@latest/dist/fitext.umd.js'></script>
+    <script>
+      window.addEventListener('DOMContentLoaded', function() {
+        fitext(true);
+      });
     </script>
     <meta http-equiv='cache-control' content='no-cache'>
     <meta http-equiv='expires' content='0'>
@@ -366,5 +374,15 @@
         </ul>
       </ul>
     </div>
+    <div id="cards" class="grid"></div><!-- 使用 Masonry，但因為 item 是後續才產生，所以不使用 HTML initialization -->
+    <!--<script src="res/fitty.min.js"></script>
+    <script>
+      var cardRoman = document.getElementsByClassName('cardRoman');
+      fitty(cardRoman);
+    </script>-->
+    <script src="res/fittext.js"></script>
+    <!--<script type="text/javascript">
+      window.fitText(document.getElementsByClassName('cardRoman'));
+    </script>-->
   </body>
 </html>

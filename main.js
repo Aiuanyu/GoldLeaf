@@ -230,6 +230,79 @@ function localFileIndicator() {
   }
 }
 
+function generateCards() { // 產生字卡
+  var cardsContainer = document.getElementById("cards");
+
+  for (var i = 0; i < cards.length; i++) {
+    var card = document.createElement("div");
+    card.classList.add("card");
+    var cardInner = document.createElement("div");
+    /*card.classList.add("grid-item");*/
+    var hanji = document.createElement("div");
+    hanji.classList.add("cardHanji");
+    var roman = document.createElement("div");
+    roman.classList.add("cardRoman");
+    /*roman.classList.add("fit");*/
+    roman.classList.add("fit-this-text");
+    roman.classList.add("fitter");
+    var notes = document.createElement("div");
+    notes.classList.add("cardNotes");
+    hanji.innerHTML = cards[i][0];
+    roman.innerHTML = cards[i][1];
+    if (cards[i][2]!=undefined) {
+      notes.innerHTML = cards[i][2];
+    }
+    var langLogo = document.createElement("div");
+    langLogo.classList.add('cardLangLogo');
+    langLogo.innerHTML = "<br>海";
+    cardInner.classList.add('hl');
+    if (cards[i][3]!=undefined) {
+      switch (cards[i][3]) {
+        case 3:
+          cardInner.classList.add('jp');
+          break;
+      }
+    }
+    if (cards[i][4]!=undefined) {
+      var romanInner = document.createElement("span");
+      romanInner.innerHTML = roman.innerHTML;
+      romanInner.style.fontSize = cards[i][4]+'%';
+      roman.innerHTML = '';
+      roman.appendChild(romanInner);
+    }
+    cardInner.appendChild(langLogo);
+    cardInner.appendChild(roman);
+    cardInner.appendChild(hanji);
+    cardInner.appendChild(notes);
+    card.appendChild(cardInner);
+    cardsContainer.appendChild(card);
+  }
+
+  /* Masonry <https://masonry.desandro.com/> */
+  var elem = document.querySelector('#cards');
+  var msnry = new Masonry( elem, {
+    // options
+    itemSelector: '.card',
+    columnWidth: 500,
+    gutter: 15
+  });
+
+  /* Fitty */
+  /*var cardRoman = document.getElementsByClassName('cardRoman');
+  fitty(cardRoman);
+  fitty('.cardRoman');*/
+
+  /* FitText */
+  /*window.fitText(document.getElementsByClassName('cardRoman'));*/
+
+  /* fitext */
+  /*import fitext from 'fitext'*/
+  const EVENTS = ['DOMContentLoaded', 'resize']
+  EVENTS.forEach( e => window.addEventListener( e, fitext ) )
+
+
+}
+
 // html - Loading javascript in body onload with 2 functions - Stack Overflow <https://stackoverflow.com/questions/10122555/loading-javascript-in-body-onload-with-2-functions>
 function init() {
   create();
@@ -237,4 +310,8 @@ function init() {
   collapsibles();
   openHeadTOC();
   localFileIndicator();
+}
+function cardsInit() {
+  localFileIndicator();
+  generateCards();
 }
