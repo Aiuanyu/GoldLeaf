@@ -247,6 +247,8 @@ function generateCards() { // 產生字卡
     roman.classList.add("fitter");
     var notes = document.createElement("div");
     notes.classList.add("cardNotes");
+    var qr = document.createElement("div");
+    qr.classList.add("cardQR");
     hanji.innerHTML = cards[i][0];
     roman.innerHTML = cards[i][1];
     if (cards[i][2]!=undefined) {
@@ -282,6 +284,7 @@ function generateCards() { // 產生字卡
     cardInner.appendChild(roman);
     cardInner.appendChild(hanji);
     cardInner.appendChild(notes);
+    cardInner.appendChild(qr);
     card.appendChild(cardInner);
     cardsContainer.appendChild(card);
   }

@@ -5,6 +5,8 @@
   --light-bg: hsla(153, 29%, 66%, 0.8); /* 海報綠葉湖水綠 */
   --color: ;
   --printed-font: Essays1743, 'WenYue GuDianMingChaoTi (Non-Commercial Use)', sans-serif;
+  --base-serif: Athelas, 'Doulos SIL', HGMinchoE, serif;
+  --note-font: Athelas, 楷體-繁, 全字庫正楷體 Ext-B, 'Doulos SIL', TaiExtWeb, serif;
 }
 
 body {
@@ -301,8 +303,8 @@ section td:nth-child(2) {
   padding-left: 3vw;
 }
 
-section tr:nth-child(2n+1), section tr:nth-child(2n+1) .lang1, .cardRoman {
-  font-family: Athelas, HGMinchoE, serif;
+section tr:nth-child(2n+1), section tr:nth-child(2n+1) .lang1 {
+  font-family: var(--base-serif);
   color: /*antiquewhite*/hsl(34, 100%, 96%);
 }
 section tr:nth-child(2n+1) {
@@ -319,7 +321,7 @@ section tr:nth-child(2n+1) td {
   padding-top: 1em;
 }
 
-section tr:nth-child(2n) td, section tr:nth-child(2n) .jp, .cardNotes {
+section tr:nth-child(2n) td, section tr:nth-child(2n) .jp {
   color: hsla(0, 0%, 100%, 0.6) !important;
 }
 
@@ -389,7 +391,7 @@ section table {
   box-shadow: brown 0.3vw 0.3vw 0.25vw;
 }
 .sidenote, .cardNotes {
-  font-family: Athelas, 楷體-繁, 全字庫正楷體 Ext-B, TaiExtWeb, serif; /* Chromium 系瀏覽器的「楷體-繁」竟然無法正常顯示「𤆬」字 ∴只好用 fallback */
+  font-family: var(--note-font); /* Chromium 系瀏覽器的「楷體-繁」竟然無法正常顯示「𤆬」字 ∴只好用 fallback */
 }
 
 .trans { /* 參考 .sidenote 來做翻譯方塊（主要給排灣語用） */
@@ -520,7 +522,7 @@ section:not(.noHak):before {
 
 section tr:nth-child(2n) {color: white !important;}
 /* Ho̍h-ló */
-section tr.lang2, section td.lang2, section tr:nth-child(2n+1) .lang2, .sample.lang2, .card .nan .cardRoman {color: /*honeydew*//*hsl(217, 82%, 89%)*/hsl(303, 100%, 96%);}
+section tr.lang2, section td.lang2, section tr:nth-child(2n+1) .lang2, .sample.lang2 {color: /*honeydew*//*hsl(217, 82%, 89%)*/hsl(303, 100%, 96%);}
 section tr:nth-child(2n).lang2, section tr:nth-child(2n) .lang2, .sample.lang2/*, .tranName*/ {font-family: "源石黑體", /*"霞鶩文楷 TC",*/ TaiExtWeb, sans-serif; font-weight: 500;}
 section tr:nth-child(2n+1).lang2, section tr:nth-child(2n+1) .lang2 {font-family: 源石黑體, sans-serif; font-weight: 500;}
 section tr:nth-child(2n+1).lang2 {font-size: 1.2em;}
@@ -834,7 +836,9 @@ rb {
   /*float: left;*/
   /*height: 25vw;*/
   /*display: inline-block;*/
-  background-color: var(--main-bg);
+  /*background-color: var(--main-bg);*/
+  background-image: url(res/card-bg-portrait.jpg);
+  background-size: 100% 100%;
   border-radius: 30px;
   /*margin: 1vw;
   padding: 1vw;*/
@@ -842,17 +846,30 @@ rb {
   text-align: center;
   color: var(--main-text-color);
   position: relative;
+  border: 1px solid var(--main-text-color);
 }
 body {counter-reset: cardx;}
 .card {counter-increment: cardx;}
-.card:after {
-  float: right;
-  content: "Aiuanyu 愛灣語 🍵 茶金字卡 #"counter(cardx);
+.card:before {
+  content: "茶金字卡 #"counter(cardx);
   font-family: var(--printed-font);
-  margin-right: 20px;
-  margin-bottom: 5px;
-  color: var(--light-bg);
-  opacity: 0.6;
+  position: absolute;
+  left: 30px;
+  top: 30px;
+  color: #3b3b3c;
+  background-image: url(res/card-logo.png);
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: left;
+  padding-left: 40px;
+}
+.cardNotes:after {
+  content: "Aiuanyu 愛灣語";
+  font-family: var(--printed-font);
+  color: #3b3b3c;
+  display: block;
+  margin-top: 20px;
+  opacity: 0.5;
 }
 .card .cardLangLogo {
   float: right;
@@ -865,17 +882,20 @@ body {counter-reset: cardx;}
   font-size: 8px;
   line-height: 16px;
   text-align: center;
-  opacity: 0.6;
+  color: #009944;
   font-family: var(--printed-font);
 }
 .card .hl .cardLangLogo {background-image: url(res/HLflag.jpg);}
 .card .nan .cardLangLogo {background-image: url(res/NANflag.png);}
+.card .nan .cardRoman, .card .nan .cardLangLogo {color: #a8009f;}
 .cardRoman {
   font-size: 100px;
   line-height: 120px;
-  margin-top: 40px;
+  margin-top: 70px;
   margin-left: 30px;
   margin-right: 30px;
+  font-family: var(--base-serif);
+  color: #009944;
 }
 .cardHanji {
   font-size: 50px;
@@ -884,8 +904,20 @@ body {counter-reset: cardx;}
 }
 .cardNotes {
   font-size: 20px;
-  line-height: 25px;
-  margin: 20px;
+  line-height: 28px;
+  margin: 20px 20px 80px 20px;
+  color: #3b3b3c;
+}
+.cardQR {
+  height: 70px;
+  width: 70px;
+  position: absolute;
+  right: 100px;
+  bottom: 50px;
+  /*margin: 5px auto 20px auto;*/
+  background-image: url(res/Aiuanyu-qr-code.png);
+  background-size: 100% 100%;
+  opacity: 0.7;
 }
 /*.cardRoman, .cardHanji, .cardNotes { /* Simplified Fluid Typography | CSS-Tricks <https://css-tricks.com/simplified-fluid-typography/> */
 /*  font-size: clamp( var(--minFontSize), var(--scaler), var(--maxFontSize) );

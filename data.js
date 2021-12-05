@@ -218,8 +218,8 @@ data = [
           ],
           [
             "",
-            "包種：係無恁發个茶，<br>色像蜂糖，有油光，味：有滴澀；",
-            "Bàuzhóng: hě mo án fad gǎi ca,<br>sed cǐong pùngtong, rhìu rhiugòng, müi: rhìu dìd seb;",
+            "包種：係無恁發个茶，<br>色像蜂糖，有油光，味：有<span class='updated'>一</span>滴澀；",
+            "Bàuzhóng: hě mo án fad gǎi ca,<br>sed cǐong pùngtong, rhìu rhiugòng, müi: rhìu <span class='updated'>rhid</span> dìd seb;",
             ""
           ],
           [
