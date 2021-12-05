@@ -308,8 +308,8 @@ function generateCards() { // 產生字卡
 
   /* fitext */
   /*import fitext from 'fitext'*/
-  const EVENTS = ['DOMContentLoaded', 'resize']
-  EVENTS.forEach( e => window.addEventListener( e, fitext ) )
+  /*const EVENTS = ['DOMContentLoaded', 'resize']
+  EVENTS.forEach( e => window.addEventListener( e, fitext ) )*/
 
 
 }
