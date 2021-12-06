@@ -14,7 +14,7 @@ body {
   font-family: '源流明體'/*"霞鶩文楷 TC"*/, HanaMinB, TaiExtWeb, serif;
   line-height: 1.4rem;
   border-radius: 0px;
-  font-size: 16px;
+  font-size: 24px;
 }
 
 h1, #vnum {
@@ -155,7 +155,7 @@ section {
 /*section a {color: inherit;}*/
 section, #thanks {
   border-radius: /*5px*/ 2vh;
-  margin: 10pt;
+  margin: 10pt 0;
 }
       
 section table {
@@ -482,7 +482,7 @@ body {counter-reset: EPx}
 .episode {counter-increment: EPx;}
 .episode section:after {
   float:right;
-  content: "EP" counter(EPx) ;
+  /*content: "EP" counter(EPx) ;*/
   /*margin-top: 0.5em;*/
   bottom: 0.5em;
   font-family: Operator Mono;
@@ -524,7 +524,7 @@ section tr:nth-child(2n) {color: white !important;}
 /* Ho̍h-ló */
 section tr.lang2, section td.lang2, section tr:nth-child(2n+1) .lang2, .sample.lang2 {color: /*honeydew*//*hsl(217, 82%, 89%)*/hsl(303, 100%, 96%);}
 section tr:nth-child(2n).lang2, section tr:nth-child(2n) .lang2, .sample.lang2/*, .tranName*/ {font-family: "源石黑體", /*"霞鶩文楷 TC",*/ TaiExtWeb, sans-serif; font-weight: 500;}
-section tr:nth-child(2n+1).lang2, section tr:nth-child(2n+1) .lang2 {font-family: 源石黑體, sans-serif; font-weight: 500;}
+section tr:nth-child(2n+1).lang2, section tr:nth-child(2n+1) .lang2 {font-family: 源石黑體, 'Doulos SIL', sans-serif; font-weight: 500;}
 section tr:nth-child(2n+1).lang2 {font-size: 1.2em;}
 section tr:nth-child(2n+1).lang2 td {line-height: 1.6em;}
 section tr:nth-child(2n+1) .lang2 {font-size: 0.8em !important;}

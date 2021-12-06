@@ -711,6 +711,41 @@ data = [
             ""
           ],
         ]
+      },
+      {
+        "t": "（黃明志「牆外」中童謠）",
+        "rows": [
+          [
+            "",
+            "",
+            "<img src='res/TheWall-shot.jpeg' width=100%></img>",
+            ""
+          ],
+          [
+            "囡仔",
+            "木棉花開太武山，",
+            "<div class='sidenote'>高粱，MV 裡小朋友們唸 ko-liâng，雖然與教育部詞典 kau-liâng 不同，但也是可考的（意傳輸入法有收這個音）。另外，若金門是說 -liâng 而非 -liông，則這部分似乎較偏漳腔，怪不得洪惟仁老師最新學說主張金門腔、新同安腔應是「泉化漳東腔」？</div>Bo̍k-<ruby><rb>mî</rb><rp>(</rp><rt>mi˩</rt><rp>)</rp></ruby>-hue khui Thài-<ruby><rb>bú</rb><rp>(</rp><rt>bu˧˥</rt><rp>)</rp></ruby>-suann,",
+            "2"
+          ],
+          [
+            "",
+            "風獅爺笑哈哈；",
+            "Hong-sai-iâ tshiò-ha-ha;",
+            "2"
+          ],
+          [
+            "",
+            "<div class='sidenote'>但，金門畢竟還是泉屬，央元音 -ir 的出現，還有「5 變 3」、「2 變 5」的變調規則，似乎還是比較有泉腔特色。（我都有標出）</div>貢糖高粱四季蘭，",
+            "Kòng-thn̂g <span class='noted'>ko-liâng</span> <span class='noted'>sìr</span>-kuì-lân,",
+            "2"
+          ],
+          [
+            "",
+            "我送汝到海岸。",
+            "<ruby><rb>Guá</rb><rp>(</rp><rt>gua˧˥</rt><rp>)</rp></ruby> sàng <span class='noted'>lír</span> kàu <ruby><rb>hái</rb><rp>(</rp><rt>hai˧˥</rt><rp>)</rp></ruby>-huānn.",
+            "2"
+          ],
+        ]
       }
     ]
   }
