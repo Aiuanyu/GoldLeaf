@@ -851,7 +851,7 @@ rb {
 body {counter-reset: cardx;}
 .card {counter-increment: cardx;}
 .card:before {
-  content: "茶金字卡 #"counter(cardx);
+  content: "茶金流行字卡 #"counter(cardx);
   font-family: var(--printed-font);
   position: absolute;
   left: 30px;
