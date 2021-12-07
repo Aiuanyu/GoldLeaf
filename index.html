@@ -70,6 +70,7 @@
         <a href="#top">🔼回到頁頂</a>、<a href="#notes">📕編輯說明</a>、<a href="#roman-guide">📕羅馬字指南</a><br>
         跳往各集：
         <ul class="TOC" id="floatedTOC"></ul>
+        <a href="#cardsAnchor" class="button">【附錄】「茶金」流行字卡</a>
         <hr>
         姐妹專案：<a href="https://aiuanyu.github.io/Seqalu-polyglot/">「斯卡羅」多語文逐字台詞</a>
       </div>
@@ -84,9 +85,13 @@
       客語顧問／
       <ul id="community">
         <li>Sabrina</li>
+      </ul><br>
+      字卡設計／
+      <ul id="community">
+        <li>Sabrina</li>
       </ul><!--
       <span class="HL"><span id="HLauthor">海陸腔拼音：sallytai</span></span><span id="Payuan-author">感謝<a href="https://www.facebook.com/PayuanClassic/"><img src="res/Payuan-Classic-cover_photo.jpg" height="50px"></a><br>提供暨授權排灣語</span>-->
-      <div id="vinfo"> <span id="vnum">v0.1.7</span> (20211202)<br>（<b>EP1～5 🍵精選段落×10 🍵</b>；<br>
+      <div id="vinfo"> <span id="vnum">v0.1.8</span> (20211206)<br>（<b>EP1～8 🍵精選段落🍵</b>；<br><b><a href="#cardsAnchor">新推出「流行字卡」</a></b><br>
         🏃‍持續更新中，敬請回訪） </div>
       <div class="group">最新版點此：<br>
         <div class="group centeralign"><a href="https://aiuanyu.github.io/GoldLeaf/" style="background: #805136">網頁版</a>（載入快！⚡）</div>
@@ -374,15 +379,13 @@
         </ul>
       </ul>
     </div>
-    <div id="cards" class="grid"></div><!-- 使用 Masonry，但因為 item 是後續才產生，所以不使用 HTML initialization -->
-    <!--<script src="res/fitty.min.js"></script>
-    <script>
-      var cardRoman = document.getElementsByClassName('cardRoman');
-      fitty(cardRoman);
-    </script>-->
-    <script src="res/fittext.js"></script>
-    <!--<script type="text/javascript">
-      window.fitText(document.getElementsByClassName('cardRoman'));
-    </script>-->
+    <a id="cardsAnchor"></a>
+    <h1>【附錄】「茶金」流行字卡</h1>
+    <img src="res/cards-FB-shot.png" width="100%"></img><a href="https://www.facebook.com/media/set/?set=a.411548577132991&type=3" class="button" style="display: inline-block;">精美線上版（FB 相簿）</a>
+    <div class="noprint">網頁參考版：
+      <div id="cards" class="noprint">
+        <iframe src="cards.html" width="100%" height="1000px"></iframe>
+      </div>
+    </div>
   </body>
 </html>

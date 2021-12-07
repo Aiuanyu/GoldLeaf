@@ -18,7 +18,7 @@ body {
 }
 
 h1, #vnum {
-  font-family: /*Oradano-mincho-GSRR*/ /*Alegreya,*/ /*HGSMinchoE*/ 'Toppan Bunkyu Midashi Gothic';
+  font-family: /*Oradano-mincho-GSRR*/ /*Alegreya,*/ /*HGSMinchoE*/ 'Toppan Bunkyu Midashi Gothic', 源石黑體, sans-serif;
   line-height: 1.4;
 }
 
@@ -118,7 +118,7 @@ h1, #vnum {
   padding: 4vw;
   color: var(--main-bg);
 }
-#thanks, #links a, #HLauthor, #Payuan-author, #links li, button.collapsible, #useHL, #backToSI, #headTOCButton {font-family: PT Sans, '黑體-繁', sans-serif; font-weight: 700;}
+#thanks, #links a, #HLauthor, #Payuan-author, #links li, button.collapsible, #useHL, #backToSI, #headTOCButton, a.button {font-family: PT Sans, '黑體-繁', sans-serif; font-weight: 700;}
 #thanks ul ul li, #links li, #floatedTOC li, #headTOCButton {
   display: inline-block;
   color: white;
@@ -255,7 +255,7 @@ section table {
 
 
 #main-title:after {
-  content: 'Aiuanyu 編／v0.1.7 20211202';
+  content: 'Aiuanyu 編／v0.1.8 20211206';
   font-size: 0.5em;
   font-family: 蘋果儷中黑;
   position: absolute;
@@ -442,7 +442,7 @@ section table {width: 70vw;}
 
 #links {text-align: left;}
 
-#links a, .collapsible, #floatedTOC a, #headTOCButton {
+#links a, .collapsible, #floatedTOC a, #headTOCButton, a.button {
   color: var(--main-text-color);
   background-color: var(--main-bg);
   float: none;
@@ -454,12 +454,12 @@ section table {width: 70vw;}
 #links a, #HLauthor, #Payuan-author {
   display: inline-block;
 }
-#links a, #vinfo, #HLauthor, #Payuan-author, .collapsible, #useHL, #backToSI, #floatedTOC a, #headTOCButton {
+#links a, #vinfo, #HLauthor, #Payuan-author, .collapsible, #useHL, #backToSI, #floatedTOC a, #headTOCButton, a.button {
   padding: 0.3em 0.7em;
   margin: 0.3em 0.3em;
   border-radius: 0.4em;
 }
-#links a:after, .collapsible:not([class~=active]):after, #useHL:after, #backToSI:after, #headTOCButton:after {
+#links a:after, .collapsible:not([class~=active]):after, #useHL:after, #backToSI:after, #headTOCButton:after, a.button:after {
   display: inline-block;
   content: ' ';
   background-image: url('res/click.svg'); /* Free Click Icon, Symbol. Download in PNG, SVG format. <https://www.iconpacks.net/free-icon/click-2384.html> */

@@ -610,6 +610,12 @@ data = [
             ""
           ],
           [
+            "",
+            "",
+            "<img src='res/EP5-05-10.jpg' width=100%></img>",
+            ""
+          ],
+          [
             "石",
             "就係<span class='noted'>著蝝茶</span>。係該薄薄一層个著蝝茶。<br>這就係日光茶做得賣比別人貴个原因啊！",
             "Cïu hě <span class='noted'>Chògrhanca</span>. Hě gai pògpòg rhid cen gǎi Chògrhanca.<br>Liá cïu hě Ngidgòng ca zǒded mäi bí pèdngin gǔi gǎi ngienrhìn a!",
@@ -699,6 +705,12 @@ data = [
             ""
           ],
           [
+            "",
+            "",
+            "<img src='res/EP5-06-54.jpg' width=100%></img>",
+            ""
+          ],
+          [
             "石",
             "𠊎師傅講啊，做茶這件事情，𫣆俚做茶師傅个，做毋得無面子；日光，乜做毋得無面子！",
             "Ngai sìifü góng à, zǒ ca liá kiën sïicin, ènlí zǒ casìifü ě, zǒ-m-ded mo miěnzíi; Ngidgòng, mě zǒ-m-ded mo miěnzíi!",
@@ -713,9 +725,75 @@ data = [
         ]
       }
     ]
+  },
+  {
+    "EP": "6",
+    "sections": [
+    ],
+    "misc": "「精華區還在吸收日月精華中……」"
+  },
+  {
+    "EP": "7",
+    "sections": [
+      {
+        "t": "45:40",
+        "rows": [
+          [
+            "",
+            "",
+            "<img src='res/EP7-45-42.jpg' width=100%></img>",
+            ""
+          ],
+          [
+            "心",
+            "山妹，妳還有辦法無？",
+            "Sàn Mǒi, ngi han rhiù pänfab mo?",
+            ""
+          ],
+        ]
+      }
+    ]
+  },
+  {
+    "EP": "8",
+    "sections": [
+      {
+        "t": "5:45",
+        "rows": [
+          [
+            "吉",
+            "KK？",
+            "KK?",
+            "2"
+          ],
+          [
+            "KK",
+            "嘿？",
+            "Hènn?",
+            "2"
+          ],
+          [
+            "吉",
+            "關佇彼遮，明仔載會按怎，無儂會知影。",
+            "Kuan tī-he tsia, bîn-á-tsài ē án-tsuánn, bô lâng ē tsai-iánn.",
+            "2"
+          ],
+          [
+            "",
+            "",
+            "<img src='res/EP8-05-48.jpg' width=100%></img>",
+            ""
+          ],
+          [
+            "",
+            "假使，假使我若有一个萬一，汝敢會使來，共阮兜薏心，鬥相共？",
+            "Ká-sú, ká-sú guá nā ū tsi̍t-ê bān-it, lí kám ē-sái lâi, kā gún tau Ì-sim, tàu-sann-kāng?",
+            "2"
+          ],
+        ]
+      },
+    ]
   }
-
-  /* EP5 */
 
   /* 主題曲「查有此人」歌詞整理轉錄自 YouTube <https://www.youtube.com/watch?v=ZUxDa4VFBZM>
   如果交淺言深
