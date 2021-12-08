@@ -612,7 +612,7 @@ data = [
           [
             "",
             "",
-            "<img src='res/EP5-05-10.jpg' width=100%></img>",
+            "<div class='dramaShot'><img src='res/EP5-05-10.jpg' width=100%></img></div>",
             ""
           ],
           [
@@ -707,7 +707,7 @@ data = [
           [
             "",
             "",
-            "<img src='res/EP5-06-54.jpg' width=100%></img>",
+            "<div class='dramaShot'><img src='res/EP5-06-54.jpg' width=100%></img></div>",
             ""
           ],
           [
@@ -741,7 +741,7 @@ data = [
           [
             "",
             "",
-            "<img src='res/EP7-45-42.jpg' width=100%></img>",
+            "<div class='dramaShot'><img src='res/EP7-45-42.jpg' width=100%></img></div>",
             ""
           ],
           [
@@ -781,7 +781,7 @@ data = [
           [
             "",
             "",
-            "<img src='res/EP8-05-48.jpg' width=100%></img>",
+            "<div class='dramaShot'><img src='res/EP8-05-48.jpg' width=100%></img></div>",
             ""
           ],
           [
