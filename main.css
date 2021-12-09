@@ -255,7 +255,7 @@ section table {
 
 
 #main-title:after {
-  content: 'Aiuanyu 編／v0.1.9 20211208';
+  content: 'Aiuanyu 編／v0.1.10 20211209';
   font-size: 0.5em;
   font-family: 蘋果儷中黑;
   position: absolute;
@@ -973,12 +973,16 @@ body {counter-reset: cardx;}
 
 /*.dramaShot {position: relative;}*/
 .dramaShot:after {
-  content: "（公視「茶金」劇照，版權歸出品人所有）";
+  content: "🍵 劇照版權歸出品人";
   color: var(--main-text-color);
   /*position: absolute;
   bottom: 1vw;
   left: 1vw;*/
-  font-size: 1vw;
-  line-height: 1vw;
+  font-size: 0.2vw;
+  line-height: 0.2vw;
   float: right;
+  font-weight: 500;
+  opacity: 0.5;
+  font-family: 华文仿宋;
 }
+.dramaShot img {width: 100%;}

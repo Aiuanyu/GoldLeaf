@@ -792,6 +792,94 @@ data = [
           ],
         ]
       },
+      {
+        "t": "23:13",
+        "rows": [
+          [
+            "吉",
+            "使梟、加料毋係變巧！係毋老實！",
+            "Síihiàu, gàliäu m hě biěnkiáu! Hě m lóshìd!",
+            ""
+          ],
+          [
+            "",
+            "妳好彩接了幾張定單，就話着自家當會做生理啊？",
+            "Ngi hócói ziab lè gí zhòng tïndàn, cïu vä dó cidgà dòng vöi zǒ sènlì a?",
+            ""
+          ],
+          [
+            "",
+            "",
+            "<div class='dramaShot'><img src='res/EP8-23-24.jpg'></img></div>",
+            ""
+          ],
+          [
+            "",
+            "妳係有做生理个頭腦，毋過，妳無做生理个良心！",
+            "Ngi hě rhiù zǒ sènlì ě teunó, mgǒ, ngi mo zǒ sènlì ě liongsìm!",
+            ""
+          ],
+        ]
+      },
+      {
+        "t": "24:44",
+        "rows": [
+          [
+            "心",
+            "<span class='jp'>パパ</span>，𠊎毋係了尾子。",
+            "<span class='jp'>Papa</span>, ngai m hě liáumùizíi.",
+            ""
+          ],
+          [
+            "",
+            "𠊎係有價數个。<br>𠊎係有價數，係因為𠊎關心！",
+            "Ngai hě rhiù gǎsǐi ě.<br>Ngai hě rhiù gǎsǐi, hě rhìnvüi ngai guànsìm!",
+            ""
+          ],
+          [
+            "",
+            "",
+            "<div class='dramaShot'><img src='res/EP8-24-52.jpg'></img></div>",
+            ""
+          ],
+          [
+            "",
+            "𠊎無像<span class='jp'>パパ</span>，野心恁大，一心想為歸隻北埔人做大事情，𠊎斯關心，日光下隻月係毋係發得出工錢、下一季係毋係有定單！",
+            "Ngai mo cǐong <span class='jp'>Papa</span>, rhàsìm án täi, rhidsìm sióng vui gùi zhag Bedbù ngin zǒ täi sïicin, ngai sïi guànsìm, Ngidgòng hä zhag ngièd hě m hě fad ded chud gùngcien, hä rhid gǔi hě m hě rhiù tïndàn!",
+            ""
+          ],
+          [
+            "",
+            "做生理最在意誠信，𫣆俚出貨，有失品質个誠信；毋過𫣆俚毋出貨，乜係無誠信！",
+            "Zǒ sènlì zǔi cäirhǐ shinsǐn, ènlí chudfǒ, rhiù shid pínzhid ě shinsǐn; mgǒ ènlí m chudfǒ, mě hě mo shinsǐn!",
+            ""
+          ],
+          [
+            "",
+            "",
+            "<div class='dramaShot'><img src='res/EP8-25-14.jpg'></img></div>",
+            ""
+          ],
+          [
+            "",
+            "",
+            "...",
+            ""
+          ],
+          [
+            "",
+            "日光做毋得緊做了錢个生理啊。",
+            "<div class='sidenote'>這一大段精采的父女對手戲，有機會再做更完整的逐字原文 ^^<br><br>小編覺得父女講的都很有道理，也很高興後面吉桑給予小吉的是肯定與鼓勵。好的父母，才能教出好的子女！</div>Ngidgòng zǒ-m-ded gín zǒ liáucien ě sènlì à.",
+            ""
+          ],
+          [
+            "",
+            "恁樣下去，日光早慢會橫忒。",
+            "Ánngiong hàhi, Ngidgòng zómän vöi väng ted.",
+            ""
+          ],
+        ]
+      }
     ]
   }
 
