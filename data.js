@@ -730,31 +730,31 @@ data = [
           [
             "靳",
             "慕雪，好久弗見。",
-            "Mu̱shīq, ho cieu ve̱q ci.",
+            "Mǔshīq, ho cieu věq ci.",
             "7"
           ],
           [
             "夏",
             "我常常看到儂勒拉<span class='TBD'>在</span>舞台。儂都好𠲎？",
-            "Wu̱ za̱nzān khoe tau no̱n le̱qlà ze̱ wu̱de̱. No̱n tù ho va̱?",
+            "Wǔ zǎnzān khoe tau nǒn lěqlà zě wǔdě. Nǒn tù ho vǎ?",
             "7"
           ],
           [
             "靳",
             "還上。",
-            "Ghe̱ zāon.",
+            "Ghě zāon.",
             "7"
           ],
           [
             "夏",
             "嫂子好𠲎？",
-            "Sautsy ho va̱?",
+            "Sautsy ho vǎ?",
             "7"
           ],
           [
             "",
             "改天，我再向嫂子問好。",
-            "Kethì, wu̱ tsè shian Sautsy ve̱n ho.",
+            "Kethì, wǔ tsè shian Sautsy věn ho.",
             "7"
           ],
           [
