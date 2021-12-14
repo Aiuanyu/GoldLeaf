@@ -83,15 +83,21 @@ function create() {
   for (var i=0; i<data.length; i++) {
 
     var ep = document.createElement("div");
-    ep.setAttribute("id", "EP"+data[i].EP);
-    ep.setAttribute("class", "episode");
-    if (data[i].draft == true) {ep.setAttribute("class","draft episode");}
+    ep.setAttribute("class", "epLevel");
     var h1 = document.createElement("h1");
-    h1.innerHTML = "<a id='ep" + data[i].EP + "'></a><p>EP" + data[i].EP + "</p>";
+    var tocItem = document.createElement('li'); // 順便製作 EP 目錄
+    if (data[i].EP==undefined) { // 非 EP
+      ep.setAttribute("id", data[i].title);
+      h1.innerHTML = "<a id='" + data[i].title + "'></a><p>" + data[i].title + "</p>";
+      tocItem.innerHTML = "<a href='#" + data[i].title + "'>" + data[i].title + "</a>";
+    } else { // 一般 EP
+      ep.setAttribute("id", "EP"+data[i].EP);
+      ep.classList.add("episode");
+      h1.innerHTML = "<a id='ep" + data[i].EP + "'></a><p>EP" + data[i].EP + "</p>";
+      tocItem.innerHTML = "<a href='#ep" + data[i].EP + "'>" + data[i].EP + "</a>";
+    }
+    if (data[i].draft == true) {ep.classList.add("draft");}
     ep.appendChild(h1);
-    // 順便製作 EP 目錄
-    var tocItem = document.createElement('li');
-    tocItem.innerHTML = "<a href='#ep" + data[i].EP + "'>" + data[i].EP + "</a>";
     toc.appendChild(tocItem);
 
     for (var j=0; j<data[i].sections.length; j++) {

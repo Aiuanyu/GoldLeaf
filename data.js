@@ -723,6 +723,65 @@ data = [
             ""
           ],
         ]
+      },
+      {
+        "t": "38:00",
+        "rows": [
+          [
+            "靳",
+            "慕雪，好久弗見。",
+            "Mu̱shīq, ho cieu ve̱q ci.",
+            "7"
+          ],
+          [
+            "夏",
+            "我常常看到儂勒拉<span class='TBD'>在</span>舞台。儂都好𠲎？",
+            "Wu̱ za̱nzān khoe tau no̱n le̱qlà ze̱ wu̱de̱. No̱n tù ho va̱?",
+            "7"
+          ],
+          [
+            "靳",
+            "還上。",
+            "Ghe̱ zāon.",
+            "7"
+          ],
+          [
+            "夏",
+            "嫂子好𠲎？",
+            "Sautsy ho va̱?",
+            "7"
+          ],
+          [
+            "",
+            "改天，我再向嫂子問好。",
+            "Kethì, wu̱ tsè shian Sautsy ve̱n ho.",
+            "7"
+          ],
+          [
+            "靳",
+            "",
+            "...",
+            "7"
+          ],
+          [
+            "",
+            "",
+            "<div class='dramaShot'><img src='res/EP5-38-31.jpg'></img></div>",
+            ""
+          ],
+          [
+            "",
+            "夏老闆。",
+            "Xià Lǎobǎn.",
+            "5"
+          ],
+          [
+            "夏",
+            "靳將軍。",
+            "Jìn Jiāngjūn.",
+            "5"
+          ],
+        ]
       }
     ]
   },
@@ -735,6 +794,7 @@ data = [
   {
     "EP": "7",
     "sections": [
+    /* 15:40 萎凋 = 浪茶，感謝盧盟、宋勝綱 */
       {
         "t": "45:40",
         "rows": [
@@ -881,58 +941,134 @@ data = [
         ]
       }
     ]
+  },
+  {
+    "title": "歌曲",
+    "sections": [
+      {
+        "t": "查有此人",
+        "rows": [
+          [
+            "",
+            "<div class='otherLyrics'>如果交淺言深<br>都不必承擔責任<br>如果你往前走<br>我應該跟隨多久<br>如果時間足夠<br>足夠你說 一切從頭<br>我不想做 樂觀的人<br><br>錯過是可惜<br>還是另種形式的堅定<br>抱歉沒陪伴你<br>不陪伴 我會比較靠近<br>停滯在 這種維繫<br>至少有能採摘的回憶<br>得不得 我都幸運<br>哪裡有愛 不僥倖<br><br>雖然芬芳的 總是坎坷<br>雖然寂寞也 並無不可<br>再回答不起 命運有意的提問<br>在我心裡 查有此人</div><hr>（間奏）",
+            "",
+            "5"
+          ],
+          [
+            "",
+            "",
+            "<iframe class='noprint' width='560' height='315' src='https://www.youtube.com/embed/5zKcVhDPym0' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>",
+            ""
+          ],
+          [
+            "",
+            "錯過係可惜",
+            "<div class='sidenote'>客語歌詞，網友寫出的版本有多處出入，所幸，透過<a href='https://www.instagram.com/tv/CWbZOZ_jw3k/?utm_source=ig_web_copy_link'>洪毓璟（咚咚，飾司機阿榮）IG</a>，找到正確的版本！♥（再稍依教育部詞典調整）</div>Cǒgǒ hě kósid",
+            ""
+          ],
+          [
+            "",
+            "<span class='noted'>亦</span>係無共樣形式个堅定",
+            "Rhìd hě mo kiüngrhöng hinshid gǎi gièntïn",
+            ""
+          ],
+          [
+            "",
+            "諒解𠊎無陪你",
+            "<div class='sidenote'>官方歌詞是「亦」，但歌手唱出來像「rhä 也」</div>Liǒnggái ngai mo poi ngi",
+            ""
+          ],
+          [
+            "",
+            "無做伴 𠊎會偎你較近",
+            "Mo zǒpàn ngai vöi vá ngi hǎ kiùn",
+            ""
+          ],
+          [
+            "",
+            "就暫時 放任停跎",
+            "Cïu ciämshi fǒngrhïm tinto",
+            ""
+          ],
+          [
+            "",
+            "特無能夠摘撿得回味",
+            "Tìd mo nengiěu zaggiám ded fuimüi",
+            ""
+          ],
+          [
+            "",
+            "無亦有 𠊎都幸運",
+            "Mo rhìd rhiù ngai dü hënrhün",
+            ""
+          ],
+          [
+            "",
+            "哪片多情 無問題",
+            "Näi pién dòcin mo mǔnti",
+            ""
+          ],
+          [
+            "",
+            "<div class='sidenote'>還有另一個演唱版本，但無法內嵌網頁，所以可<a href='https://www.youtube.com/ZUxDa4VFBZM'>移駕 YouTube 聆賞</a></div><div class='otherLyrics'>真能減少些後悔<br>比愛更輕的 還是愛<br>真能貪一些虧欠<br>比愛更重的 還是愛<br><br>雖然芬芳的 總是坎坷<br>雖然寂寞也 並無不可<br>再回答不起 命運有意的提問<br>在我心裡 查有此人<br><br>雖然常被提醒 誰能有下個這一生<br>雖然剩餘的旅程 僅能重現 永恆<br>在我 這無人之境 的確有個人<br>讓封閉的心 還放得下 放不下的</div>",
+            "",
+            "5"
+          ],
+          [
+            "",
+            "𠊎會記得　查有此人……",
+            "Ngai vöi gǐded ca rhiù cíi ngin...",
+            ""
+          ],
+        ]
+      },
+      {
+        "t": "You’re Breaking My Heart",
+        "rows": [
+          [
+            "",
+            "<div class='otherLyrics'>You're breaking my heart 'cause you're leaving<br>You've fallen for somebody new<br>It isn't too easy believing<br>You'd leave after all we've been through<br><br>It's breaking my heart to remember<br>The dreams we depended upon<br>You're leaving a slow dying ember<br>I'll miss you, my love, when you're gone<br><br>I wish you joy, though teardrops burn<br>But if some day you should want to return<br>Please hurry back and we'll make a new start<br>Dear<br>Till then you're breaking my heart</div><hr>（間奏）",
+            "",
+            ""
+          ],
+          [
+            "",
+            "",
+            "<iframe class='noprint' width='560' height='315' src='https://www.youtube.com/embed/Gt_GTOf1wSk' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>",
+            ""
+          ],
+          [
+            "",
+            "水點摎日頭絲都染花",
+            "Shúidiǎm làu ngidteusìi dü ngiäm fà",
+            ""
+          ],
+          [
+            "",
+            "虹色係咒誓个腳跡",
+            "Kiüngsed hě zhiǔshï gǎi giogziag",
+            ""
+          ],
+          [
+            "",
+            "毋好 看雨過單記得天青",
+            "M hó kǒn rhí go dàn gǐded tiènciàng",
+            ""
+          ],
+          [
+            "",
+            "愛看著 情比緣過長",
+            "<div class='sidenote'>依文法，此處似乎應該用 dó 的音，但歌手唱的比較像是 zhog 或 chòg</div>Ǒi kǒn <span class='noted'>dó</span> cin bí rhan gǒ chong",
+            ""
+          ],
+          [
+            "",
+            "<div class='otherLyrics'>I wish you joy, though teardrops burn<br>But if some day you should want to return<br>Please hurry back and we'll make a new start<br>Till, till then you're breaking my heart</div>",
+            "",
+            ""
+          ],
+        ]
+      }
+    ]
   }
-
-  /* 主題曲「查有此人」歌詞整理轉錄自 YouTube <https://www.youtube.com/watch?v=ZUxDa4VFBZM>
-  如果交淺言深
-都不必承擔責任
-如果你往前走
-我應該跟隨多久
-如果時間足夠
-足夠你說 一切從頭
-我不想做 樂觀的人
-
-錯過是可惜
-還是另種形式的堅定
-抱歉沒陪伴你
-不陪伴 我會比較靠近
-停滯在 這種維繫
-至少有能採摘的回憶
-得不得 我都幸運
-哪裡有愛 不僥倖
-
-雖然芬芳的 總是坎坷
-雖然寂寞也 並無不可
-再回答不起 命運有意的提問
-在我心裡 查有此人
-
-
-
-----客語----
-錯過是可惜
-還是另種形式的堅定
-抱歉沒陪伴你
-不陪伴 我會比較靠近
-停滯在 這種維繫
-至少有能採摘的回憶
-得不得 我都幸運
-哪裡有愛 不僥倖
-----客家話----
-
-真能減少些後悔
-比愛更輕的 還是愛
-真能貪一些虧欠
-比愛更重的 還是愛
-
-雖然芬芳的 總是坎坷
-雖然寂寞也 並無不可
-再回答不起 命運有意的提問
-在我心裡 查有此人
-
-雖然常被提醒 誰能有下個這一生
-雖然剩餘的旅程 僅能重現 永恆
-在我 這無人之境 的確有個人
-讓封閉的心 還放得下 放不下的
-
---在我心裡 查有此人-- */
 ]

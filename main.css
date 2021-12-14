@@ -255,7 +255,7 @@ section table {
 
 
 #main-title:after {
-  content: 'Aiuanyu 編／v0.1.10 20211209';
+  content: 'Aiuanyu 編／v0.1.11 20211214';
   font-size: 0.5em;
   font-family: 蘋果儷中黑;
   position: absolute;
@@ -270,7 +270,7 @@ section table {
   
 }
 
-.episode/*:not(:first-of-type)*/ h1::before {
+.epLevel/*:not(:first-of-type)*/ h1::before {
   content: "❖ ❖";
   display: block;
   text-align: center;
@@ -542,9 +542,9 @@ section .lang3 td {line-height: 1.6em;}
 .fr td, .lang6 td {color: hsl(255, 100%, 96%); font-family: 'Bell MT';}
 .lang4 td {color: hsl(187, 100%, 96%); font-family: 'Bell MT';}
 section tr:nth-child(2n).lang4, section tr:nth-child(2n).lang6, section tr:nth-child(2n).lang3 {display: none;}
-/* Hindi 文、尼泊爾文 */
-.lang7 td {color: hsl(255, 100%, 96%);}
-section tr:nth-child(2n+1).lang7 td {font-family: Mangal, sans-serif; font-weight: 500; font-size: 1.5em;}
+/* 吳語 */
+.lang7 td, .lang7 {color: hsl(255, 100%, 96%) !important;}
+/*section tr:nth-child(2n+1).lang7 td {font-family: var(--base-serif); font-weight: 500; /*font-size: 1.5em;}*/
 /* 日文 */
 .jp {
   font-family: Andika, '霞鶩文楷 TC', serif !important;
@@ -986,3 +986,9 @@ body {counter-reset: cardx;}
   font-family: 华文仿宋;
 }
 .dramaShot img {width: 100%;}
+
+.otherLyrics {
+  column-count: 2;
+  column-rule: 1px dotted var(--light-bg);
+  column-gap: 20%;
+}
