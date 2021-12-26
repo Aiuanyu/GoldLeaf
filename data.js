@@ -106,8 +106,8 @@ data = [
           ],
           [
             "吉",
-            "麼个「茶虎」？係茶壺啦！<br>𠊎<span class='TBD'>＿</span>係，收茶、賣茶定定。",
-            "<div class='sidenote'>「股」我是用猜的，音似乎合。<span class='updated'>後來有問到/查到了，客語「幾分之幾」的文法，確實是講「幾股幾股」或是「幾股幾」。</span></div>Mágǎi &quot;Ca Fú&quot;, hě cafu là!<br>Ngai <span class='TBD'>sii</span> hě, shìu ca, mäi ca tïntïn.",
+            "麼个「茶虎」？係茶壺啦！<br>𠊎<span class='updated'>斯</span>係，收茶、賣茶定定。",
+            "<div class='sidenote'>「股」我是用猜的，音似乎合。<span class='updated'>後來有問到/查到了，客語「幾分之幾」的文法，確實是講「幾股幾股」或是「幾股幾」。</span></div>Mágǎi &quot;Ca Fú&quot;, hě cafu là!<br>Ngai <span class='updated'>sïi</span> hě, shìu ca, mäi ca tïntïn.",
             "",
             "選"
           ],
@@ -939,6 +939,23 @@ data = [
             ""
           ],
         ]
+      },
+      {
+        "t": "39:50",
+        "rows": [
+          [
+            "",
+            "",
+            "<div class='dramaShot'><img src='res/EP8-39-56.jpg'></img></div>",
+            ""
+          ],
+          [
+            "吉",
+            "啊咱化肥大王無做成功，至少有留一个杯仔。",
+            "A lán Huà-puî Tāi-ông bô tsò sîng-kong, tsì-tsió ū lâu tsi̍t-ê pue-á.",
+            "2"
+          ],
+        ]
       }
     ]
   },
@@ -1010,7 +1027,7 @@ data = [
           ],
           [
             "",
-            "<div class='sidenote'>還有另一個演唱版本，但無法內嵌網頁，所以可<a href='https://www.youtube.com/ZUxDa4VFBZM'>移駕 YouTube 聆賞</a></div><div class='otherLyrics'>真能減少些後悔<br>比愛更輕的 還是愛<br>真能貪一些虧欠<br>比愛更重的 還是愛<br><br>雖然芬芳的 總是坎坷<br>雖然寂寞也 並無不可<br>再回答不起 命運有意的提問<br>在我心裡 查有此人<br><br>雖然常被提醒 誰能有下個這一生<br>雖然剩餘的旅程 僅能重現 永恆<br>在我 這無人之境 的確有個人<br>讓封閉的心 還放得下 放不下的</div>",
+            "<div class='sidenote'>還有另一個演唱版本，似乎也是出自官方編曲的版本，但無法內嵌網頁，所以可<a href='https://www.youtube.com/ZUxDa4VFBZM'>移駕 YouTube 聆賞</a></div><div class='otherLyrics'>真能減少些後悔<br>比愛更輕的 還是愛<br>真能貪一些虧欠<br>比愛更重的 還是愛<br><br>雖然芬芳的 總是坎坷<br>雖然寂寞也 並無不可<br>再回答不起 命運有意的提問<br>在我心裡 查有此人<br><br>雖然常被提醒 誰能有下個這一生<br>雖然剩餘的旅程 僅能重現 永恆<br>在我 這無人之境 的確有個人<br>讓封閉的心 還放得下 放不下的</div>",
             "",
             "5"
           ],
@@ -1034,7 +1051,7 @@ data = [
           [
             "",
             "",
-            "<iframe class='noprint' width='560' height='315' src='https://www.youtube.com/embed/Gt_GTOf1wSk' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>",
+            "<div class='sidenote'>王若琳的官方 MV，後來關掉了 YouTube 影片內嵌，所以無法直接在這個網頁上聽了，<a href='https://www.youtube.com/Gt_GTOf1wSk'>可能是希望大家多上他們 YT 吧，要聽請移駕囉～</a></div><div class='dramaShot'><img src='res/Breaking-Heart-MV-cover.webp'></img></div><!--<iframe class='noprint' width='560' height='315' src='https://www.youtube.com/embed/Gt_GTOf1wSk' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>-->",
             ""
           ],
           [

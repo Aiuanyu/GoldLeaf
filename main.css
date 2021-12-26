@@ -7,6 +7,7 @@
   --printed-font: Essays1743, 'WenYue GuDianMingChaoTi (Non-Commercial Use)', sans-serif;
   --base-serif: Athelas, 'Doulos SIL', HGMinchoE, serif;
   --note-font: Athelas, 楷體-繁, 全字庫正楷體 Ext-B, 'Doulos SIL', TaiExtWeb, serif;
+  --quote-font: Baskerville, 华文仿宋, 全字庫正楷體 Ext-B, 'Doulos SIL', TaiExtWeb, serif;
 }
 
 body {
@@ -255,7 +256,7 @@ section table {
 
 
 #main-title:after {
-  content: 'Aiuanyu 編／v0.1.11 20211214';
+  content: 'Aiuanyu 編／v0.1.12 20211227';
   font-size: 0.5em;
   font-family: 蘋果儷中黑;
   position: absolute;
@@ -991,4 +992,9 @@ body {counter-reset: cardx;}
   column-count: 2;
   column-rule: 1px dotted var(--light-bg);
   column-gap: 20%;
+}
+
+q {
+  font-family: var(--quote-font);
+  font-style: italic;
 }
