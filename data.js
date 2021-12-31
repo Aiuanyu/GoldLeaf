@@ -746,6 +746,29 @@ data = [
             "2"
           ],
         ]
+      },
+      {
+        "t": "「國際橋牌社 2」陳宗玄訓子",
+        "rows": [
+          [
+            "玄",
+            "汝想講汝這幾年來汝按呢 <ruby><rb>ka̋ng</rb><rp>(</rp><rt>共+儂</rt><rp>)</rp></ruby> 撨代誌，按呢遐爾仔順，彼逐家予汝面子汝就做一个大型起來哈？",
+            "Lí siūnn kóng lí tsit kuí nî lâi lí án-ne <ruby><rb>ka̋ng</rb><rp>(</rp><rt>kā lâng</rt><rp>)</rp></ruby> tshiâu tāi-tsì, án-ne hiah-nī-á sūn, he ta̍k-ke hōo lí bīn-tsú lí tiō tsò tsi̍t-ê tuā-hîng--khí-lâi ha̍h?",
+            "2"
+          ],
+          [
+            "",
+            "<span class='jp'>まだまだ</span>！",
+            "<span class='jp'>Mada mada</span>!",
+            "2"
+          ],
+          [
+            "",
+            "食無三把蕹菜，就欲上西天。",
+            "Tsia̍h bô sann pé ìng-tshài, tiō beh tsiūnn Se-thian.",
+            "2"
+          ],
+        ]
       }
     ]
   }
