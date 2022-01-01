@@ -484,7 +484,7 @@ body {counter-reset: EPx}
   float:right;
   /*content: "EP" counter(EPx) ;*/
   /*margin-top: 0.5em;*/
-  content: "Aiuanyu 愛灣語‧製";
+  content: "Aiuanyu 愛灣語";
   bottom: 0.5em;
   font-family: var(--printed-font);
   font-size: 0.8em;

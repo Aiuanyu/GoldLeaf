@@ -769,6 +769,35 @@ data = [
             "2"
           ],
         ]
+      },
+      {
+        "t": "2022 新年快樂！",
+        "rows": [
+          [
+            "",
+            "",
+            "Kalevai tua vaquan a cavilj! [排灣]",
+            "3"
+          ],
+          [
+            "",
+            "新年快樂！",
+            "Sínngiǎn kuailog! [四]<br>Sìnngien kuǎilòg! [海]",
+            ""
+          ],
+          [
+            "",
+            "新年快樂！",
+            "Sin-nî khuài-lo̍k!",
+            "2"
+          ],
+          [
+            "",
+            "",
+            "Bonne année! [fr]<br>Buon anno! [it]<br>Frohes neues Jahr! [de]",
+            "4"
+          ],
+        ]
       }
     ]
   }
