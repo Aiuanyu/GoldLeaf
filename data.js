@@ -798,6 +798,89 @@ data = [
             "4"
           ],
         ]
+      },
+      {
+        "t": "董事長樂團「仝島一命」<br>（「國際橋牌社 2」主題曲）",
+        "rows": [
+          [
+            "",
+            "仝島一命 仝途一聲 仝島一命 疼入心肝",
+            "Kāng tó tsi̍t miā<br>Kāng tôo tsi̍t siann<br>Kāng tó tsi̍t miā<br>Thiànn ji̍p sim-kuann",
+            "21"
+          ],
+          [
+            "",
+            "每一粒島嶼 攏有伊的運命",
+            "Muí tsi̍t lia̍p tó-sū<br>lóng ū i ê ūn-miā",
+            "21"
+          ],
+          [
+            "",
+            "每一片土地 太陽照落仝款的影",
+            "Muí tsi̍t phìnn thóo-tē<br>thài-iông tsiàu lo̍h kâng-khuánn ê iánn",
+            "21"
+          ],
+          [
+            "",
+            "世事變化 人情冷暖 阮猶原徛佇遮",
+            "Sè-sū piàn-huà jîn-tsîng líng-luán<br>gún iu-guân khiā tī tsia",
+            "21"
+          ],
+          [
+            "",
+            "所有委屈 吞落腹內 到底誰會贏",
+            "Sóo-ū uí-khut thun lo̍h pak-lāi<br>tàu-té sia̋ng ē iânn",
+            "21"
+          ],
+          [
+            "",
+            "仝島一命 仝途一聲 仝島一命 疼入心肝",
+            "Kāng tó tsi̍t miā<br>Kāng tôo tsi̍t siann<br>Kāng tó tsi̍t miā<br>Thiànn ji̍p sim-kuann",
+            "21"
+          ],
+          [
+            "",
+            "絕路求生 拆食落腹 仝島一命 仝路無仝命",
+            "Tsua̍t-lōo kiû-sing<br>Thiah tsia̍h lo̍h pak<br>Kāng tó tsi̍t miā<br>Kāng lōo bô kāng miā",
+            "21"
+          ],
+          [
+            "",
+            "每一欉花蕊 攏有每一種清芳",
+            "Muí tsi̍t tsâng hue-luí<br>lóng ū muí tsi̍t tsióng tshing-phang",
+            "21"
+          ],
+          [
+            "",
+            "每一隻鳥仔 向望自由的燈塔",
+            "Muí tsi̍t tsiah tsiáu-á<br>ǹg-bāng tsū-iû ê ting-thah",
+            "21"
+          ],
+          [
+            "",
+            "流血流汗 奉獻犧牲 有一工恁會知影",
+            "Lâu-hueh lâu-kuānn hōng-hiàn hi-sing<br>ū tsi̍t kang lín ē tsai-iánn",
+            "21"
+          ],
+          [
+            "",
+            "看著光線 心內的窗 美麗的將來",
+            "Khuànn-tio̍h kng-suànn sim-lāi ê thang<br>bí-lē ê tsiong-lâi",
+            "21"
+          ],
+          [
+            "",
+            "地動是考驗咱的名 手牽手 免驚惶",
+            "Tē-tāng sī khó-giām lán ê miâ<br>Tshiú khan tshiú bián kiann-hiânn",
+            "21"
+          ],
+          [
+            "",
+            "風颱會使咱愈堅強 全世界 看會著",
+            "Hong-thai ē-sái lán lú kian-kiông<br>Tsuân sè-kài khuànn ē tio̍h",
+            "21"
+          ],
+        ]
       }
     ]
   }

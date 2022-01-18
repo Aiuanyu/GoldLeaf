@@ -357,9 +357,10 @@ section table {
   display: inline-block; 
   padding: 0.5em; 
   font-size: 0.8em;
-  line-height: 0.8em;
+  line-height: 1.2em;
   border-radius: 0.5em;
-  vertical-align: center;
+  vertical-align: middle;
+  text-align: center;
 }
 
 .draft {
@@ -530,6 +531,10 @@ section tr:nth-child(2n+1).lang2 {font-size: 1.2em;}
 section tr:nth-child(2n+1).lang2 td {line-height: 1.6em;}
 section tr:nth-child(2n+1) .lang2 {font-size: 0.8em !important;}
 section tr:nth-child(2n+1).lang3 .lang2 {font-size: 1.3rem !important;}
+/* 芫荽體鶴佬 */
+section tr.lang21, section td.lang21, section tr:nth-child(2n+1) .lang21, .sample.lang21 {color: /*honeydew*//*hsl(217, 82%, 89%)*/hsl(303, 100%, 96%);}
+section tr:nth-child(2n).lang21, section tr:nth-child(2n) .lang21, .sample.lang21/*, .tranName*/ {font-family: "Iansui 0.9", TaiExtWeb, serif; font-weight: 500;}
+section tr:nth-child(2n+1).lang21, section tr:nth-child(2n+1) .lang21 {font-family: "Iansui 0.9", 'Doulos SIL', sans-serif; font-weight: 500;}
 /* 排灣文 */
 section tr.lang3, section td.lang3, section tr:nth-child(2n+1) .lang3, .sample.lang3 {color: /*honeydew*//*hsl(217, 82%, 89%)*/hsl(127, 100%, 96%);}
 section tr:nth-child(2n).lang3, section tr:nth-child(2n) .lang3, .sample.lang3 {font-family: "黑體-繁", sans-serif; font-weight: 700;}

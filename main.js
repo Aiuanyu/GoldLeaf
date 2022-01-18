@@ -10,9 +10,9 @@ function fillRomanNames() { // 依漢字人名，抓 name.js 資料填入羅馬�
       var name = nodes[k].getElementsByTagName('td')[0].innerHTML.replace("：","").replace(' ','').replace(' ','').replace("&nbsp;","");
       // var names = JSON.parse(document.getElementById('names').innerHTML);
       if (names[name] == undefined) {
-        name = name.replace(/\d/,'').replace('：','');
+        name = name.replace(/\d/,'').replace(/\d/,'').replace('：','');
         if (names[name] == undefined) {
-          nodes[k].getElementsByTagName('td')[0].innerHTML = nodes[k].getElementsByTagName('td')[0].innerHTML.replace(/\d/,'').replace('：','');
+          nodes[k].getElementsByTagName('td')[0].innerHTML = nodes[k].getElementsByTagName('td')[0].innerHTML.replace(/\d/,'').replace(/\d/,'').replace('：','');
           continue;
         }
         else {
