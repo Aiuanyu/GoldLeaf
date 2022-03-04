@@ -286,15 +286,21 @@ data = [
             ""
           ],
           [
-            "茶農",
+            "茶販",
             "- 啊？<br>- 麼个？<br>- 做麼个？",
             "- Á?<br>- Mágǎi?<br>- Zǒ mágǎi?",
             ""
           ],
           [
-            "",
-            "- 毋著啊，昨晡日三個銀，今晡日兩個銀，（這？）價值係＿漦个啊？<br>- 係啊！",
-            "- M chòg à, còbù'ngid sàm ě ngiun, gìmbù'ngid lióng ě ngiun, (liá?) gǎchìd hě <span class='TBD'>háu</span>siauě à?<br>- Hě à!",
+            "太田",
+            "麼个？兩个銀？",
+            "Mágǎi? Lióng ě ngiun?",
+            ""
+          ],
+          [
+            "茶販",
+            "- 毋著啊，昨晡日三個銀，今晡日兩個銀，這價值<span class='updated'>忒耗</span>漦个啊？<br>- 係啊！",
+            "- M chòg à, còbù'ngid sàm ě ngiun, gìmbù'ngid lióng ě ngiun, liá gǎchìd <span class='updated'>ted hau</span>siauě à?<br>- Hě à!",
             ""
           ],
           [
@@ -304,9 +310,9 @@ data = [
             ""
           ],
           [
-            "茶農",
-            "- 會賣無？<br>- 毋賣毋賣！來轉來轉！",
-            "- Vöi mäi mo?<br>- M mäi m mäi! Loi zhón loi zhón!",
+            "太田",
+            "<span class='updated'>愛</span>賣無？……<br>毋賣毋賣<span class='updated'>毋賣</span>！來轉來轉！",
+            "<span class='updated'>Ǒi</span> mäi mo? ...<br>M mäi m mäi <span class='updated'>m mäi</span>! Loi zhón loi zhón!",
             ""
           ],
           [
@@ -317,8 +323,8 @@ data = [
           ],
           [
             "心",
-            "係講……利潤異好，𫣆俚當然做得高價收茶菁照顧茶農。毋過，公司員工，毋係共樣重要 <ruby><rb>me</rb><rp>(</rp><rt>毋+係</rt><rp>)</rp></ruby>？<br>員工照顧着哩，日光正做得繼續下去。<br>下後，𫣆俚正有能力摎實力，照顧其他人。",
-            "Hěgóng... lïrhün rhǐ hó, ènlí dòngrhan zǒded gògǎ shiù caciàng zhǎugǔ canung. Mgǒ, Gùngsìi rhangùng, m hě kiüngrhöng chüngrhǎu <ruby><rb>mě</rb><rp>(</rp><rt>m hě </rt><rp>)</rp></ruby>?<br>Rhangùng zhǎugǔ dó lè, Ngidgòng zhǎng zǒded gǐsiùg hàhǐ.<br>Hàhëu, ènlí zhǎng rhìu nenlìd làu shìdlìd, zhǎugǔ kità ngin.",
+            "係講……利<span class='updated'>存</span><span class='TBD'>異</span>好，𫣆俚當然做得高價收茶菁照顧茶農。毋過，公司員工，毋係共樣重要 <ruby><rb>me</rb><rp>(</rp><rt>毋+係</rt><rp>)</rp></ruby>？<br>員工照顧着哩，日光正做得繼續下去。<br>下後，𫣆俚正有能力摎實力，照顧其他人。",
+            "<div class='sidenote'>聽起來演員唸 rhì，跟「一」、「異」的一般發音似乎不同，不然就是別的字，或是變調的結果？</div>Hěgóng... lï<span class='updated'>sun</span> <span class='TBD'>rhǐ</span> hó, ènlí dòngrhan zǒded gògǎ shiù caciàng zhǎugǔ canung. Mgǒ, Gùngsìi rhangùng, m hě kiüngrhöng chüngrhǎu <ruby><rb>mě</rb><rp>(</rp><rt>m hě </rt><rp>)</rp></ruby>?<br>Rhangùng zhǎugǔ dó lè, Ngidgòng zhǎng zǒded gǐsiùg hàhǐ.<br>Hàhëu, ènlí zhǎng rhìu nenlìd làu shìdlìd, zhǎugǔ kità ngin.",
             ""
           ],
           [
@@ -341,79 +347,127 @@ data = [
           ],
         ]
       },
-      /*{
-        "t": "13:09",
+      {
+        "t": "12:37",
         "rows": [
           [
-            "心",
-            "今晡日一個銀收！",
-            "",
+            "石",
+            "<span class='jp'>社長</span>，茶販平常十點就來哩，這下會當晝哩，還會等無？",
+            "<span class='jp'>Shachō</span>, cafǎn pinshong shìb diǎm cïu loi lè, líahä vöi dòngzhiǔ lè, han vöi dén mo?",
             ""
           ],
           [
-            "茶農",
-            "啊？妳講著還毋著？昨晡日兩個銀今晡日一個銀……",
+            "吉",
+            "妳啊妳啊，自家儘採拉低茶價，這下無人來哩，妳歡喜哩呴？ ",
+            "Ngi ǎ ngi ǎ, cidgà cíncái lài dài cagǎ, líahä mo ngin loi lè, ngi fònhí lè ho?",
+            ""
+          ],
+          [
             "",
+            "妳知兩百萬籮个粗製茶，愛收幾多茶菁無？毋會食茶、審茶，這下嗄會插人買茶。",
+            "Ngi dì lióng bag vän lo gǎi cùzhǐca, ǒi shiù gídò caciàng mo? M vöi shìd ca, shím ca, líahä sǎ vöi cab ngin mài ca.",
+            ""
+          ],
+          [
+            "嗶",
+            "〔歕嗶仔 🔊〕<span class='jp'>社長</span>！有車來哩！",
+            "[pun bier 🔊] <span class='jp'>Shachō</span>! Rhiù chà loi lè!",
+            ""
+          ],
+          [
+            "",
+            "太田叔！來來來來來來！",
+            "Tǎitien Shug! Loi loi loi loi loi loi!",
+            ""
+          ],
+          [
+            "太田",
+            "<span class='jp'>吉さん</span>好。",
+            "<span class='jp'>Ji San</span> hó.",
+            ""
+          ],
+          [
+            "心",
+            "今晡日一個銀收！",
+            "Gìmbù'ngid rhid ě ngiun shiù!",
+            ""
+          ],
+          [
+            "茶販",
+            "啊？妳講著還毋著？昨晡日兩個銀今晡日一個銀……",
+            "Á? Ngi góng chòg han m chòg? Còbù'ngid lióng ě ngiun gìmbù'ngid rhid ě ngiun...",
             ""
           ],
           [
             "吉",
             "妳又在該做麼个？",
-            "du",
+            "Ngi rhiü dǔ gai zǒ mágǎi?",
             ""
           ],
           [
             "心",
             "日光無好擇。",
-            "",
+            "Ngidgòng mo hó tòg.",
             ""
           ],
           [
-            "茶農",
-            "- 吉桑，到底「日光無好擇」，值幾多錢啦？係無？<br>- 係啊！……",
-            "",
+            "太田",
+            "<span class='jp'>吉さん</span>，到底「日光無好擇」，值幾多錢啦？係無？",
+            "<span class='jp'>Ji San</span>, dǒdái &quot;Ngidgòng mo hó tòg&quot;, dàd gídò cien là? Hě mo?",
+            ""
+          ],
+          [
+            "茶販",
+            "係啊！無人恁樣……",
+            "Hě a! Mo ngin ánngiong...",
             ""
           ],
           [
             "心",
-            "毋接受你做得毋下貨！",
-            "",
+            "毋接受个做得毋下貨！",
+            "M ziabshiü gǎi zǒded m háfǒ!",
             ""
           ],
           [
-            "茶農",
+            "太田",
             "走啊……",
-            "",
+            "Zéu a...",
             ""
           ],
           [
             "嗶",
-            "大伯大叔！𫣆新社長个價值，無像吉桑恁樣哦！一個銀，愛下，就遽！<br>等一下新社長過一句，「日光無好擇」，就係五角收囉！",
-            "",
+            "大伯大叔！𠊎兜<span class='jp'>新社長</span>个價數，無像<span class='jp'>吉さん</span>恁樣哦！一個銀，愛下，就遽！<br>等一下新社長過一句，「日光無好擇」，就係五角收囉！",
+            "Täibag täishug! Ngaidèu <span class='jp'>Shin Shachō</span> gǎi gǎsǐi, mo cǐong <span class='jp'>Ji San</span> ánngiong o! Rhid ě ngiun, ǒi há, cïu giag!<br>Dén rhid hà <span class='jp'>Shin Shachō</span> gǒ rhid gǐ, &quot;Ngidgòng mo hó tòg&quot;, cïu hě ńg gog shiù lo!",
             ""
           ],
           [
-            "茶農",
-            "- 做毋得啦！<br>- 濞……搣麼个鬼……係啦，恁樣？",
-            "",
+            "茶販",
+            "做毋得啦！",
+            "Zǒ-m-ded là!",
+            ""
+          ],
+          [
+            "太田",
+            "濞……搣麼个鬼……係啦，恁樣？",
+            "Pï... Med mágǎi gúi... Hě là, ánngiong?",
             ""
           ],
           [
             "",
-            "好啦！下來下來啦！好啦！緊＿！",
-            "fi",
+            "好啦！下來下來啦！好啦！緊<span class='TBD'>＿</span>！",
+            "Hó là! Há loi há loi là! Hó là! Gín <span class='TBD'>___</span>!",
             ""
           ],
           [
             "工人",
             "來來來來來！",
-            "",
+            "Loi loi loi loi loi!",
             ""
           ],
           [
-            "茶農",
+            "茶販",
             "- 遽遽遽遽！<br>- 幾多斤？",
-            "",
+            "- Giag giag giag giag!<br>- Gídò gìn?",
             ""
           ],
         ]
@@ -424,67 +478,67 @@ data = [
           [
             "心",
             "𫣆俚用一個銀收，量還比昨晡日增加了三成！",
-            "",
+            "Ènlí rhüng rhid ě ngiun shiù, liong han bí còbù'ngid zěngà lè sàm shang!",
             ""
           ],
           [
             "林",
-            "<span class='TBD'>該</span>仰會知佢兜个茶販仔會接受這價錢<span class='TBD'>呢</span>？",
-            "ner",
+            "<span class='TBD'>該</span>仰會知該兜茶販仔會接受這價錢<span class='TBD'>呢</span>？",
+            "Gai ngióng vöi dì gaidèu cafǎner vöi ziabshiü liá gǎcien ner?",
             ""
           ],
           [
             "心",
-            "山妹摎𠊎講个，這下茶市<span class='TBD'>＿＿＿＿</span>，其他茶寮其實乜無訂單，歸隻茶市只有𫣆俚在該收茶，佢兜只做得賣分日光啊！",
-            "ě du sii",
+            "山妹摎𠊎講个，這下茶市<span class='updated noted'>橫笐橫代</span>，其他茶寮其實乜無訂單，歸隻茶市<span class='updated'>斯</span>有𫣆俚在該收茶，佢兜<span class='updated'>斯</span>做得賣分日光啊！",
+            "<div class='sidenote'>笐，在此指的是竹節。竹子橫著長，則後代就沒有辦法一代一代、一節一節往上長。用來比喻家族、事業衰敗無發展。（客好里辦公室）</div>Sàn Mǒi làu ngai góng ě, líahä cashï <span class='noted'>väng gong väng töi</span>, kità caliau kishìd mě mo tïndàn, gùi zhag cashï sïi rhiù ènlí dǔ gai shiù ca, gidèu sïi zǒded mäi bùn Ngidgòng a!",
             ""
           ],
           [
             "林",
             "Ù，恁樣算起來，𫣆兜會省，一萬五千箍呢！",
-            "ne",
+            "Ù, ánngiong sǒn híloi, èndèu vöi sáng, rhid vän ńg cièn kièu nè!",
             ""
           ],
           [
             "心",
             "該，𫣆俚就做得先發一隻月个工錢？",
-            "e",
+            "Gai, ènlí cïu zǒded sèn fad rhid zhag ngièd ě gùngcien?",
             ""
           ],
           [
             "嗶",
-            "（口哨）新社長講，今晡日愛發工錢啊！",
-            "",
+            "〔歕嗶仔 🔊〕<span class='jp'>新社長</span>講，今晡日愛發工錢啊！",
+            "[pun bier 🔊] <span class='jp'>Shin Shachō</span> góng, gìmbù'ngid ǒi fad gùngcien á!",
             ""
           ],
           [
-            "工人",
+            "猴進",
             "正經哦？！",
-            "",
+            "Zhǐngìn ǒ?!",
             ""
           ],
           [
             "嗶",
             "正經！",
-            "",
+            "Zhǐngìn!",
             ""
           ],
           [
             "石",
             "好！",
-            "",
+            "Hó!",
             ""
           ],
           [
             "工人",
-            "新社長！新社長！新社長！……",
-            "",
+            "<span class='jp'>新社長！新社長！新社長！……</span>",
+            "<span class='jp'>Shin Shachō! Shin Shachō! Shin Shachō!...</span>",
             ""
           ],
           [
             "心",
             "𫣆俚，多收个茶菁，做得摎怡和个茶共下做起來；<br>日光欠大家个工錢，<span class='TBD'>都</span>做得在這擺，全部發分你兜！",
-            "e du lia",
+            "Ènlí, dò shiù gǎi caciàng, zǒded làu Rhìfo gǎi ca kiünghä zǒ híloi;<br>Ngidgòng kiǎm täigà ě gùngcien, dǔ zǒded dǔ liá bái, cionpü fad bùn ngidèu!",
             ""
           ],
         ]
@@ -1084,6 +1138,125 @@ data = [
             "",
             ""
           ],
+        ]
+      },
+      {
+        "t": "詩的第一行",
+        "rows": [
+          [
+            "",
+            "𠊎摎你兩儕",
+            "Ngǎi láu ngǐ liòng sǎ",
+            ""
+          ],
+          [
+            "",
+            "若近又若遠",
+            "Na kiún iu na iàn",
+            ""
+          ],
+          [
+            "",
+            "話講一半靚",
+            "Fa gòng ìd ban jiáng",
+            ""
+          ],
+          [
+            "",
+            "你个聲　你个影",
+            "Ngǐ ge sáng ngǐ ge iàng",
+            ""
+          ],
+          [
+            "",
+            "牽𠊎跈你行",
+            "Kián ngǎi těn ngǐ hǎng",
+            ""
+          ],
+          [
+            "",
+            "<div class='sidenote'><a href='https://www.youtube.com/watch?v=Ensj8GzQcz4'>播放 YouTube MV</a><br>（另外，電視劇原聲帶也有這一首，慢板鋼琴獨奏，穿插於全劇各處 😢 <a href='https://open.spotify.com/track/4Crkrze1NgMdvto9EkFk5P?si=51a6ee0124254d83'>Spotify 聆聽</a></div><div class='dramaShot'><img src='res/詩的第一行.jpeg'></img></div>",
+            "",
+            ""
+          ],
+          [
+            "",
+            "* 詩个第一行",
+            "* Síi ge ti ìd hǒng",
+            ""
+          ],
+          [
+            "",
+            "𠊎兩儕个名",
+            "Ngǎi liòng sǎ ge miǎng",
+            ""
+          ],
+          [
+            "",
+            "字裡行間聲聲慢",
+            "Sii lí hǒng gián sáng sáng man",
+            ""
+          ],
+          [
+            "",
+            "一首無名歌",
+            "Ìd sù mǒmiǎng gó",
+            ""
+          ],
+          [
+            "",
+            "四季都會唱",
+            "Xigui zu voi cong",
+            ""
+          ],
+          [
+            "",
+            "共下遊樂人間 *",
+            "Kiungha iulog ngǐngián *",
+            ""
+          ],
+          [
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            "",
+            "𠊎摎你兩儕",
+            "Ngǎi láu ngǐ liòng sǎ",
+            ""
+          ],
+          [
+            "",
+            "若近又若遠",
+            "Na kiún iu na iàn",
+            ""
+          ],
+          [
+            "",
+            "話講一半靚",
+            "Fa gòng ìd ban jiáng",
+            ""
+          ],
+          [
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            "",
+            "* 你个聲　你个影",
+            "* Ngǐ ge sáng ngǐ ge iàng",
+            ""
+          ],
+          [
+            "",
+            "牽𠊎跈你行 *",
+            "Kián ngǎi těn ngǐ hǎng *",
+            ""
+          ]
         ]
       }
     ]
