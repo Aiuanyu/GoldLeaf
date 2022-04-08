@@ -280,6 +280,12 @@ data = [
             ""
           ],
           [
+            "",
+            "",
+            "<div class='dramaShot'><img src='res/EP4-xx-xx.png' width=100%></img></div>",
+            ""
+          ],
+          [
             "心",
             "今晡日，兩個銀收！",
             "Gìmbù'ngid, lióng ě ngiun shiù!",
