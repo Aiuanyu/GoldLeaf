@@ -881,6 +881,59 @@ data = [
             "21"
           ],
         ]
+      },
+      {
+        "t": "（摘自 DaCheng Cheng〈最後的肉粽伯〉）",
+        "rows": [
+          [
+            "",
+            "「肉粽～燒肉粽～」<hr>",
+            "&quot;Bah-tsàng~ Sio Bah-tsàng~&quot;",
+            "21"
+          ],
+          [
+            "作者",
+            "臺北？",
+            "Tâi-pak?",
+            "2"
+          ],
+          [
+            "阿伯",
+            "三重埔啦！",
+            "Sann-tîng-poo!",
+            "2"
+          ],
+          [
+            "",
+            "以前三重埔有肉粽工場，攏總有 60 个儂咧賣，攏暗時騎跤踏車去工場賣。",
+            "Í-tsîng Sann-tîng-poo ū bah-tsàng kang-tiûnn, lóng-tsóng ū la̍k-tsa̍p--ê lâng leh bē, lóng àm-sî khiâ kha-ta̍h-tshia khì kang-tiûnn bē.",
+            "2"
+          ],
+          [
+            "",
+            "彼時特別叫儂錄个，阮逐家出來攏是放這，我錄 4 塊卡帶，一塊愛 300 呢！",
+            "Hit-sî ti̍k-pia̍t kiò lâng lo̍k--ê, gún ta̍k-ke tshut--lâi lóng sī pàng tse, guá lo̍k sì tè khah-tuà, tsi̍t tè ài sánn pah--neh!",
+            "2"
+          ],
+          [
+            "",
+            "尾仔工場愈來愈少，肉粽歹賣，阮就轉來桃園遮賣矣！",
+            "Bué-á kang-tiûnn lú lâi lú tsió, bah-tsàng pháinn bē, gún tiō tńg-lâi Thô-hn̂g tsia bē--ah!",
+            "2"
+          ],
+          [
+            "",
+            "這馬干焦賰我猶閣佇彼賣肉粽。",
+            "Tsit-má kan-na tshun guá iá-koh tī-he bē bah-tsàng.",
+            "2"
+          ],
+          [
+            "",
+            "干焦賰我矣……",
+            "Kan-na tshun guá--ah...",
+            "2"
+          ],
+        ]
       }
     ]
   }
