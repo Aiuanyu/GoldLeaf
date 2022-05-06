@@ -526,10 +526,10 @@ section tr:nth-child(2n) {color: white !important;}
 /* Ho̍h-ló */
 section tr.lang2, section td.lang2, section tr:nth-child(2n+1) .lang2, .sample.lang2 {color: /*honeydew*//*hsl(217, 82%, 89%)*/hsl(303, 100%, 96%);}
 section tr:nth-child(2n).lang2, section tr:nth-child(2n) .lang2, .sample.lang2/*, .tranName*/ {font-family: "源石黑體", /*"霞鶩文楷 TC",*/ TaiExtWeb, sans-serif; font-weight: 500;}
-section tr:nth-child(2n+1).lang2, section tr:nth-child(2n+1) .lang2 {font-family: 源石黑體, 'Doulos SIL', sans-serif; font-weight: 500;}
+section tr:nth-child(2n+1).lang2, section tr:nth-child(2n+1) .lang2 {font-family: 'Lesson One', 'Doulos SIL', sans-serif; font-weight: 500;}
 section tr:nth-child(2n+1).lang2 {font-size: 1.2em;}
 section tr:nth-child(2n+1).lang2 td {line-height: 1.6em;}
-section tr:nth-child(2n+1) .lang2 {font-size: 0.8em !important;}
+section tr:nth-child(2n+1) .lang2 {font-size: 0.9em !important;}
 section tr:nth-child(2n+1).lang3 .lang2 {font-size: 1.3rem !important;}
 /* 芫荽體鶴佬 */
 section tr.lang21, section td.lang21, section tr:nth-child(2n+1) .lang21, .sample.lang21 {color: /*honeydew*//*hsl(217, 82%, 89%)*/hsl(303, 100%, 96%);}
@@ -546,7 +546,7 @@ section tr.lang3 td:nth-child(2), section tr.lang6 td:nth-child(2) {padding-righ
 section .lang3 td {line-height: 1.6em;}
 /* 英法文 */
 .fr td, .lang6 td {color: hsl(255, 100%, 96%); font-family: 'Bell MT';}
-.lang4 td {color: hsl(187, 100%, 96%); font-family: 'Bell MT';}
+.lang4 td {color: hsl(187, 100%, 96%); font-family: 'Bell MT', Daehan;}
 section tr:nth-child(2n).lang4, section tr:nth-child(2n).lang6, section tr:nth-child(2n).lang3 {display: none;}
 /* Hindi 文、尼泊爾文 */
 .lang7 td {color: hsl(255, 100%, 96%);}
@@ -976,3 +976,5 @@ body {counter-reset: cardx;}
   width: 30vw;
   font-size: 10vw !important;
 }*/
+
+.bookname {font-style: italic;}

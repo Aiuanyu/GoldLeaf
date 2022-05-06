@@ -934,6 +934,59 @@ data = [
             "2"
           ],
         ]
+      },
+      {
+        "t": "20220506「像樹那樣生活」",
+        "rows": [
+          [
+            "",
+            "<div class='sidenote'>鶴佬話部分參考<a href='https://miasenn.moe.edu.tw/'>講我的名 - 閩南語姓名查詢網站</a>。「俞」先用同安腔 jû</div>連俞涵",
+            "<div class='sidenote'>3 種語文依序均為：南四縣客、海陸客、鶴佬</div>Liěn Ǐhǎm / Lien Rhiham / <span class='lang2'>Liân Jû-hâm</span>",
+            ""
+          ],
+          [
+            "",
+            "",
+            "<img src='res/山羌閱覽室.png' width=100%></img>",
+            ""
+          ],
+          [
+            "",
+            "山羌閱覽室 / <span class='lang2'>山羌仔閱覽室</span>",
+            "Sángióng Iedlamsìid<br>Sàngiòng Rhàdlǎmshid<br><span class='lang2'>Suann-kiunn-á Ua̍t-lám-sik</span>",
+            ""
+          ],
+          [
+            "",
+            "EP.34",
+            "",
+            ""
+          ],
+          [
+            "",
+            "《像樹那樣生活》",
+            "<나는 나무처럼 살고 싶다>",
+            "4"
+          ],
+          [
+            "",
+            "",
+            "<img src='res/像樹那樣生活.png' width=100%></img>",
+            ""
+          ],
+          [
+            "",
+            "《像樹仔恁仔過日仔》 / 《像樹仔恁樣過日仔》",
+            "<div class='sidenote'>我自己抓語感來翻譯書名</div><span class='bookname'>Qiong su'è ànè go ngìd'è / Ciǒng shū'er ánngiong gǒ ngid'er</span>",
+            ""
+          ],
+          [
+            "",
+            "《像樹仔彼款來生活》",
+            "<span class='bookname'>Tshiūnn tshiū-á hit-khuánn lâi sing-ua̍h</span>",
+            "2"
+          ],
+        ]
       }
     ]
   }
