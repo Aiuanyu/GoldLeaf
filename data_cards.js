@@ -1,112 +1,20 @@
 cards = [
   [
-    "小姐",
-    "<ruby><rb>siáu</rb><rp>(</rp><rt>siǎu</rt><rp>)</rp></ruby>zí",
-    "即劇迷俗稱之「<i>小吉</i>」XD<br>（兩個字本調都是升調，但依海陸腔變調規則就會一律變 <i>siǎuzí</i> ∴才變成聽到的這樣）",
+    "<span class='cardTextSmaller'>（～頭）</span>樹仔",
+    "<span class='si'><span class='cardTextSmaller'>(~ těu) </span>su'è</span><br><span class='hl'><span class='cardTextSmaller'>(~ teu) </span>shū'er</span>",
+    "客語對樹的量詞為「頭」。",
     "1"
   ],
-  [
-    "啉到橫",
-    "lìm dǒ väng",
-    "「väng 橫」v. 倒下、躺下<br>所以不是一般鶴佬話/Tâi-gí 思維的<br>「喝茫」的意思哦！<br>（另外再次說明，海陸腔客語有個「中平調」，介於高平和低平中間，鶴佬話/Tâi-gí 也有，但華語沒有；教育部拼音用「+」表示，Aiuanyu 打字上用「◌̈ 」標示。）",
-    "1",
-    "90"
-  ],
-  [
-    "合堆",
-    "<ruby><rb>gab</rb><rp>(</rp><rt>gàb</rt><rp>)</rp></ruby>dòi",
-    "即華語「併堆」。<br>（幫大家把前字的變調標出來了～）<br>「gab 合」v. 混合、夾雜<br>【例】客語「合藥仔」就是配藥、拿藥的意思"
-  ],
-  [
-    "茶園",
-    "carhan",
-    "請不要唸成英語「car-han」哦 XD<br>客語拼音 c = ㄘ；rh 微捲舌類似英語，不用到華語ㄖ",
-    "1"
-  ],
-  [
-    "日光",
-    "<ruby><rb>Ngid</rb><rp>(</rp><rt>ngìd</rt><rp>)</rp></ruby>gòng",
-    "",
-    "1"
-  ],
-  [
-    "無好擇",
-    "mo <ruby><rb>hó</rb><rp>(</rp><rt>hǒ</rt><rp>)</rp></ruby> tòg",
-    "「沒什麼好選的」，所以就相當於<br>華語「沒有選擇」的意思"
-  ],
-  [
-    "𢯭手",
-    "těnshíu",
-    "「幫忙」",
-    "",
-    ""
-  ],
-  [
-    "張薏心",
-    "Zhòng Rhǐsìm",
-    "全劇最美的名字♥",
-    "",
-    "70"
-  ],
-  [
-    "山妹",
-    "Sàn Mǒi"
-  ],
-  [
-    "石頭",
-    "Shàgteu"
-  ],
-  [
-    "承蒙",
-    "shinmung",
-    "海陸腔客語表達感謝。<br>也可以說「shinmung ngi 承蒙你」"
-  ],
-  [
-    "茶米",
-    "camí",
-    "已經製成的茶葉"
-  ],
-  [
-    "茶米",
-    "<ruby><rb>tê</rb><rp>(</rp><rt>te˩ / te˧</rt><rp>)</rp></ruby>-<ruby><rb>bí</rb><rp>(</rp><rt>bi˥˧</rt><rp>)</rp></ruby>",
-    "已經製成的茶葉。<br>臺灣鶴佬話偏泉腔會說「te˩ bi˥˧」，<br>偏漳腔會說「te˧ bi˥˧」",
+    [
+    "<span class='cardTextSmaller'>（～欉）</span>樹仔",
+    "<span class='cardTextSmaller'>(~ tsâng) </span>tshiū-á",
+    "鶴佬話對樹的量詞為「欉」。",
     "2"
   ],
   [
-    "頭家",
-    "teugà",
-    "「老闆」"
+    "薑嫲",
+    "<span class='si'>gióngmǎ</span><br><span class='hl'>giòngma</span>",
+    "即「薑」，客語似乎要加「-嫲」這個詞尾，所以不單稱「薑」。<br><br>苗栗縣大湖、銅鑼、三義 3 鄉交界處山嶺地名「薑麻園/羌麻園」，其實語源就是「薑嫲園 gióngmǎ'iěn」，完全只跟薑有關，與麻無關。（該地為四縣腔區）",
+    "1"
   ],
-  [
-    "做得",
-    "zǒded",
-    "客語表達「可以」的「助動詞」。<br>否定形是「zǒ-m-ded 做毋得」<br>這個短語在劇中蠻常用的，而且很好發音，私心推薦讓它流行起來～"
-  ],
-  [
-    "青心大冇種",
-    "Ciàngsìm Täipǎng Zhúng",
-    "據信為「臺灣最適合製作綠茶、白毫烏龍（東方美人）之茶樹品種」🍵。甚至，劇中的悲劇甘草人物「烏面 Vùmiěn」還諄諄教子：只有青心大冇種既能做紅茶、綠茶，才能做出最棒的日光茶 🍵！XD"
-  ],
-  [
-    "黃柑種",
-    "Vonggàm Zhúng",
-    "隨著 EP7 綠茶轉型大戰而登上劇中舞台。有網站說適合製紅茶、東方美人，但農委會茶改場網頁說適製綠茶，跟劇中描述較相符。"
-  ],
-  [
-    "定著",
-    "tïnchòg",
-    "「一定」，為常用詞；<br>「不一定、說不定、搞不好」即為「mo tïnchòg 無定著」<br>（四縣腔為 mǒ tincog）<br><q>𠊎定著會幸福。汝嘛愛幸福 💔</q>"
-  ],
-  [
-    "北埔",
-    "Bedbù"
-  ],
-  [
-    "新竹",
-    "Sìnzhug"
-  ],
-  [
-    "風神",
-    "fùngshin"
-  ]
 ]

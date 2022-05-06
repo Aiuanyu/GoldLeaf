@@ -262,10 +262,10 @@ function generateCards() { // 產生字卡
     }
     var langLogo = document.createElement("div");
     langLogo.classList.add('cardLangLogo');
-    langLogo.innerHTML = "<br>海";
-    cardInner.classList.add('hl');
+    langLogo.innerHTML = "<br>客";
+    cardInner.classList.add('hak');
     if (cards[i][3]!=undefined) {
-      cardInner.classList.remove('hl');
+      cardInner.classList.remove('si');
       switch (cards[i][3]) {
         case "2":
           cardInner.classList.add('nan');
@@ -275,7 +275,7 @@ function generateCards() { // 產生字卡
           cardInner.classList.add('jp');
           break;
         default:
-          cardInner.classList.add('hl');
+          cardInner.classList.add('hak');
           break;
       }
     }
