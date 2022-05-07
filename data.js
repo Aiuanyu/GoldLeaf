@@ -1023,7 +1023,7 @@ data = [
     "title": "歌曲",
     "sections": [
       {
-        "t": "查有此人",
+        "t": "<a id='themesong'></a>查有此人（華語版含一段客語）",
         "rows": [
           [
             "",
@@ -1034,7 +1034,7 @@ data = [
           [
             "",
             "",
-            "<iframe class='noprint' width='560' height='315' src='https://www.youtube.com/embed/5zKcVhDPym0' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>",
+            "<iframe class='noprint' width='100%' height='315' src='https://www.youtube.com/embed/5zKcVhDPym0' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>",
             ""
           ],
           [
@@ -1045,14 +1045,14 @@ data = [
           ],
           [
             "",
-            "<span class='noted'>亦</span>係無共樣形式个堅定",
+            "<span class='noted'>抑</span>係無共樣形式个堅定",
             "Rhìd hě mo kiüngrhöng hinshid gǎi gièntïn",
             ""
           ],
           [
             "",
             "諒解𠊎無陪你",
-            "<div class='sidenote'>官方歌詞是「亦」，但歌手唱出來像「rhä 也」</div>Liǒnggái ngai mo poi ngi",
+            "<div class='sidenote'>經羅亦娌製作人校正的歌詞是「抑」，但歌手唱的我聽來都像「rhä 也」</div>Liǒnggái ngai mo poi ngi",
             ""
           ],
           [
@@ -1075,7 +1075,7 @@ data = [
           ],
           [
             "",
-            "無亦有 𠊎都幸運",
+            "無抑有 𠊎都幸運",
             "Mo rhìd rhiù ngai dü hënrhün",
             ""
           ],
@@ -1100,6 +1100,251 @@ data = [
         ]
       },
       {
+        "t": "<a id='themesonghak'></a>查有此人（全客語版）",
+        "rows": [
+          [
+            "",
+            "",
+            "<iframe width='100%' height='315' src='https://www.youtube.com/embed/jVtytZZdorI' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>",
+            ""
+          ],
+          [
+            "",
+            "假使情淺言重",
+            "Gásíi cin cién ngien chūng",
+            ""
+          ],
+          [
+            "",
+            "無必要應承結果",
+            "Mo bidrhàu rhínshin giedgó",
+            ""
+          ],
+          [
+            "",
+            "假使你緊行遠",
+            "Gásíi ngi gín hang rhán",
+            ""
+          ],
+          [
+            "",
+            "𠊎需要走跈幾久",
+            "Ngai sìrhǎu zéu ten gígiú",
+            ""
+          ],
+          [
+            "",
+            "假使無煩無勞",
+            "Gásíi mo fan mo lo",
+            ""
+          ],
+          [
+            "",
+            "得換你講  全部來過",
+            "<div class='sidenote'>這首全客語版的主題曲，非常珍貴地只出現在……全劇終的那一幕。所以我也用 EP12 那一幕的幾張劇照來當插圖哦</div>Ded vān ngi góng cionpū loi gǒ",
+            ""
+          ],
+          [
+            "",
+            "𠊎毋想𠊎  強求快樂",
+            "Ngai m sióng ngai kiongkiu kuǎilòg",
+            ""
+          ],
+          [
+            "",
+            "",
+            "<div class='dramaShot'><img src='res/EP12-56-50.jpg' width=100%></img></div>",
+            ""
+          ],
+          [
+            "",
+            "* 頭擺係可惜",
+            "* Teubái hě kósid",
+            ""
+          ],
+          [
+            "",
+            "抑係無共樣形式个堅定",
+            "Rhid hě mo kiüngrhöng hinshid gǎi gièntïn",
+            ""
+          ],
+          [
+            "",
+            "諒解𠊎無陪你",
+            "Liǒnggái ngai mo poi ngi",
+            ""
+          ],
+          [
+            "",
+            "無做伴  𠊎會偎你較近",
+            "Mo zǒpàn ngai vöi vá ngi hǎ kiùn",
+            ""
+          ],
+          [
+            "",
+            "就暫時  放任停跎",
+            "Cïu ciämshi fǒngrhïm tinto",
+            ""
+          ],
+          [
+            "",
+            "體無能夠摘撿得回味",
+            "Tìd mo nengiěu zaggiám ded fuimüi",
+            ""
+          ],
+          [
+            "",
+            "無抑有  𠊎都幸運",
+            "Mo rhìd rhiù ngai dü hënrhün",
+            ""
+          ],
+          [
+            "",
+            "哪片多情  無問題 *",
+            "Näi pién dòcin mo mǔnti *",
+            ""
+          ],
+          [
+            "",
+            "",
+            "<div class='dramaShot'><img src='res/EP12-56-56.jpg' width=100%></img></div>",
+            ""
+          ],
+          [
+            "",
+            "** 情份愛入味  苦澀難免",
+            "** Cinfūn ǒi ngìbmūi fúseb nan mièn",
+            ""
+          ],
+          [
+            "",
+            "就算會孤栖  隨意甘願",
+            "Ciūsǒn vōi gùsì suirhǐ gàmngiēn",
+            ""
+          ],
+          [
+            "",
+            "還得仰般應  無人會聽个預言",
+            "Han ded ngióngbàn ěn mo ngin vōi tǎng gǎi rhī'ngien",
+            ""
+          ],
+          [
+            "",
+            "𠊎會記得  查有此人 **<hr>",
+            "Ngai vōi gǐded ca rhiù cíi ngin **",
+            ""
+          ],
+          [
+            "",
+            "（間奏）",
+            "",
+            "5"
+          ],
+          [
+            "",
+            "*（頭擺係可惜……）",
+            "",
+            ""
+          ],
+          [
+            "",
+            "敢得反心減忒息",
+            "Gám ded fánsìm gám ted sìd",
+            ""
+          ],
+          [
+            "",
+            "比愛較少个  還係愛",
+            "Bí ǒi hǎ sháu gǎi han hě ǒi",
+            ""
+          ],
+          [
+            "",
+            "會無潛心換情面",
+            "Vōi mo siamsìm vōn cinmiěn",
+            ""
+          ],
+          [
+            "",
+            "比愛較多个  還係愛",
+            "Bí ǒi hǎ dò gǎi han hě ǒi",
+            ""
+          ],
+          [
+            "",
+            "**（情份愛入味……）",
+            "",
+            ""
+          ],/*
+          [
+            "",
+            "情份愛入味  苦澀難免",
+            "Cinfūn ǒi ngìbmūi fúseb nan mièn",
+            ""
+          ],
+          [
+            "",
+            "就算會孤栖  隨意甘願",
+            "Ciūsǒn vōi gùsì suirhǐ gàmngiēn",
+            ""
+          ],
+          [
+            "",
+            "還得仰般應  無人會聽个預言",
+            "Han ded ngióngbàn ěn mo ngin vōi tǎng gǎi rhī'ngien",
+            ""
+          ],
+          [
+            "",
+            "𠊎會記得  查有此人",
+            "Ngai vōi gǐded ca rhiù cíi ngin",
+            ""
+          ],*/
+          [
+            "",
+            "",
+            "<div class='dramaShot'><img src='res/EP12-57-28.jpg' width=100%></img></div>",
+            ""
+          ],
+          [
+            "",
+            "麼儕長透愛講  難過行一擺這生人",
+            "Mása chongtěu ǒi góng nan gǒ hang rhid bái liā sèn ngin",
+            ""
+          ],
+          [
+            "",
+            "望得頭前這路項  會換做𠊎  等你",
+            "Mōng ded teucien liā lū hōng vōi vān zǒ ngai dén ngi",
+            ""
+          ],
+          [
+            "",
+            "到時  形影係轉色  你敢還盼得",
+            "Dǒ shi hinrháng hě zhónsed ngi gám han pǎn ded",
+            ""
+          ],
+          [
+            "",
+            "在共隻位所  掌等旭日  掌緪歲月",
+            "Dǔi kiūng zhag vūisó zhóng dén kiugngid zhóng hen sǒi'ngièd",
+            ""
+          ],
+          [
+            "",
+            "",
+            "<div class='dramaShot'><img src='res/EP12-57-54.jpg' width=100%></img></div>",
+            ""
+          ],
+          [
+            "",
+            "永留腦海  查有此人",
+            "Rhún liu nóhói ca rhiù cíi ngin",
+            ""
+          ]
+        ]
+      },
+      {
         "t": "You’re Breaking My Heart",
         "rows": [
           [
@@ -1111,7 +1356,7 @@ data = [
           [
             "",
             "",
-            "<div class='sidenote'>王若琳的官方 MV，後來關掉了 YouTube 影片內嵌，所以無法直接在這個網頁上聽了，<a href='https://www.youtube.com/Gt_GTOf1wSk'>可能是希望大家多上他們 YT 吧，要聽請移駕囉～</a></div><div class='dramaShot'><img src='res/Breaking-Heart-MV-cover.webp'></img></div><!--<iframe class='noprint' width='560' height='315' src='https://www.youtube.com/embed/Gt_GTOf1wSk' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>-->",
+            "<!--<div class='sidenote'>王若琳的官方 MV，後來關掉了 YouTube 影片內嵌，所以無法直接在這個網頁上聽了，<a href='https://www.youtube.com/Gt_GTOf1wSk'>可能是希望大家多上他們 YT 吧，要聽請移駕囉～</a></div><div class='dramaShot'><img src='res/Breaking-Heart-MV-cover.webp'></img></div>--><iframe class='noprint' width='100%' height='315' src='https://www.youtube.com/embed/Gt_GTOf1wSk' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>",
             ""
           ],
           [
@@ -1181,7 +1426,7 @@ data = [
           ],
           [
             "",
-            "<div class='sidenote'><a href='https://www.youtube.com/watch?v=Ensj8GzQcz4'>播放 YouTube MV</a><br>（另外，電視劇原聲帶也有這一首，慢板鋼琴獨奏，穿插於全劇各處 😢 <a href='https://open.spotify.com/track/4Crkrze1NgMdvto9EkFk5P?si=51a6ee0124254d83'>Spotify 聆聽</a></div><div class='dramaShot'><img src='res/詩的第一行.jpeg'></img></div>",
+            "<div class='sidenote'><a href='https://www.youtube.com/watch?v=Ensj8GzQcz4'>播放 YouTube MV</a><br>（另外，電視劇原聲帶也有這一首，慢板鋼琴獨奏，穿插於全劇各處 😢 <a href='https://open.spotify.com/track/4Crkrze1NgMdvto9EkFk5P?si=51a6ee0124254d83'>Spotify 聆聽</a></div><iframe width='100%' height='315' src='https://www.youtube.com/embed/Ensj8GzQcz4' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe><div class='dramaShot'><img src='res/詩的第一行.jpeg'></img></div>",
             "",
             ""
           ],
