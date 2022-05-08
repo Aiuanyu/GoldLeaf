@@ -1106,7 +1106,7 @@ data = [
           [
             "",
             "",
-            "<div class='sidenote'>感謝 YT 頻道 <a href='https://www.youtube.com/watch?v=YYMwucnJADw'>Buy More 在他的影片</a>首先貼出這首全部歌詞；我再請教本劇羅亦娌製作人，感謝她抽空校對。</div><div class='embeddedYT'><iframe width='100%' height='315' src='https://www.youtube.com/embed/jmd2xovN9xo' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></div>",
+            "<div class='sidenote'>一直很想問客語版的歌詞，後來是搜到 YT 頻道 <a href='https://www.youtube.com/watch?v=YYMwucnJADw'>Buy More 在他的影片</a>有貼出這首全部歌詞（謹致謝忱），我再拿去請教本劇羅亦娌製作人，感謝她抽空校對。</div><div class='embeddedYT'><iframe width='100%' height='315' src='https://www.youtube.com/embed/jmd2xovN9xo' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></div>",
             ""
           ],
           [
