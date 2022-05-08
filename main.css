@@ -145,6 +145,7 @@ h1, #vnum {
 #HLauthor {background-color: mediumvioletred; color: white;}
 #Payuan-author {background-color: #167549; color: white;}
 /*#thanks>ul>ul, #thanks>ul>li {display: inline-block}*/
+#creators li {background-color: hsl(340, 90%, 80%);}
 #community li {  background-color: hsl(31, 90%, 80%);}
 #dic li {  background-color: hsl(192, 90%, 80%);}
 #softwares li {  background-color: hsl(111, 90%, 80%);}

@@ -39,7 +39,7 @@ data = [
           [
             "吉",
             "日仔仰般變，飯還係愛食，茶還係愛啉！",
-            "Ngid'er ngíongbàn bǐen, pön han hě ǒi shìd, ca han hě ǒi lìm!",
+            "Ngid'er ngíongbàn bǐen, pōn han hě ǒi shìd, ca han hě ǒi lìm!",
             "",
             "選"
           ],
@@ -63,7 +63,7 @@ data = [
           [
             "吉",
             "三十年个茶樹頭，拿分若師傅看。",
-            "Sàmshìb ngien gǎi cashüteu, nà bùn ngia sìifü kǒn.",
+            "Sàmshìb ngien gǎi cashūteu, nà bùn ngia sìifū kǒn.",
             "",
             "選"
           ],
@@ -75,7 +75,7 @@ data = [
           [
             "伯",
             "賢姪啊，你毋會來昶慢無？",
-            "Hienchìd a, ngi m vöi loi tíong män mo?",
+            "Hienchìd a, ngi m vōi loi tíong mān mo?",
             ""
           ],
           [
@@ -88,7 +88,7 @@ data = [
           [
             "司儀",
             "第三房，行上前，祭祖！",
-            "Tï-Sàm Fong, hang shòng cien, zǐzú!",
+            "Tī-Sàm Fong, hang shòng cien, zǐzú!",
             ""
           ],
         ]
@@ -101,20 +101,20 @@ data = [
           [
             "范",
             "<div class='sidenote'>教育部詞典沒收「怡」字，只好先用廣韻「與之切」來推發音。</div><span class='jp'>吉さん</span>摎怡和聯手喔，就出口臺灣<span class='noted'>三股一股</span>个茶。<br>桃竹苗个茶，全<span class='TBD'>就</span>分<span class='jp'><ruby><rb>社長</rb><rp>(</rp><rt>しゃちょう</rt><rp>)</rp></ruby></span>你收淨淨哩，這下大自家喔都喊你「茶虎」呢！",
-            "<div class='sidenote'>「吉」的鶴佬話、客話、日語的讀音，通通都不是 Ji，難道是華語音嗎？</div><span class='jp'><span class='noted'>Ji</span> San</span> làu <span class='TBD'>Rhì</span>fo lienshú ò, cïu chudkíeu Toivan sàm gú rhid gú gě ca.<br>To-Zhug-Miau gě ca, cion cïu bùn <span class='jp'>Shachō</span> ngi shìu cïangcïang lè, líahä täicidgà ò dü hèm ngi &quot;Ca Fú&quot; nè!",
+            "<div class='sidenote'>「吉」的鶴佬話、客話、日語的讀音，通通都不是 Ji，難道是華語音嗎？</div><span class='jp'><span class='noted'>Ji</span> San</span> làu <span class='TBD'>Rhì</span>fo lienshú ò, cīu chudkíeu Toivan sàm gú rhid gú gě ca.<br>To-Zhug-Miau gě ca, cion cīu bùn <span class='jp'>Shachō</span> ngi shìu cīangcīang lè, líahā tāicidgà ò dū hèm ngi &quot;Ca Fú&quot; nè!",
             ""
           ],
           [
             "吉",
             "麼个「茶虎」？係茶壺啦！<br>𠊎<span class='updated'>斯</span>係，收茶、賣茶定定。",
-            "<div class='sidenote'>「股」我是用猜的，音似乎合。<span class='updated'>後來有問到/查到了，客語「幾分之幾」的文法，確實是講「幾股幾股」或是「幾股幾」。</span></div>Mágǎi &quot;Ca Fú&quot;, hě cafu là!<br>Ngai <span class='updated'>sïi</span> hě, shìu ca, mäi ca tïntïn.",
+            "<div class='sidenote'>「股」我是用猜的，音似乎合。<span class='updated'>後來有問到/查到了，客語「幾分之幾」的文法，確實是講「幾股幾股」或是「幾股幾」。</span></div>Mágǎi &quot;Ca Fú&quot;, hě cafu là!<br>Ngai <span class='updated'>sīi</span> hě, shìu ca, māi ca tīntīn.",
             "",
             "選"
           ],
           [
             "范",
             "<span class='jp'><ruby><rb>社長</rb><rp>(</rp><rt>しゃちょう</rt><rp>)</rp></ruby></span>係茶壺喔，𠊎就係茶杯 ě！",
-            "<span class='jp'>Shachō</span> hě cafu ò, ngai cïu hě cabùi ě!",
+            "<span class='jp'>Shachō</span> hě cafu ò, ngai cīu hě cabùi ě!",
             ""
           ],
         ]
@@ -174,7 +174,7 @@ data = [
           [
             "心",
             "毋過，政治問題，又毋係𫣆俚做得解決个。",
-            "Mgǒ, zhǐnchï mǔnti, rhïu m hě ènlí zǒded gáigied ě.",
+            "Mgǒ, zhǐnchī mǔnti, rhīu m hě ènlí zǒded gáigied ě.",
             ""
           ],
           [
@@ -186,7 +186,7 @@ data = [
           [
             "心",
             "𠊎想愛知劉先生，你想到這生理裡背，賺着麼个？",
-            "Ngai síong ǒi dì Liu Sìnsàng, ngi síong dǒ lía sènlì dìbǒi, cön dó mágǎi?",
+            "Ngai síong ǒi dì Liu Sìnsàng, ngi síong dǒ lía sènlì dìbǒi, cōn dó mágǎi?",
             ""
           ],
           [
@@ -213,25 +213,25 @@ data = [
           [
             "山",
             "綠茶：完全不識發過，<br>色青，味：清新甘甜；",
-            "<div class='sidenote'>山妹初出茅蘆，火力展示的一段精采台詞。<br>從華文字幕或原著小說這段話的整齊劃一看來，推測仍是先寫好華文劇本，再請客語老師翻譯。但，這總比十幾年前臺灣某些電視台「鄉土劇」「○○火」之流，翻譯水準好多了。期盼十幾年後，臺灣甚至能有不透過翻譯、直接寫出道地本土語言思維台詞的編劇人才。</div>Lìugca: vancion m shid fad gǒ,<br>sed cìang, müi: cìnsìn gàmtiam;",
+            "<div class='sidenote'>山妹初出茅蘆，火力展示的一段精采台詞。<br>從華文字幕或原著小說這段話的整齊劃一看來，推測仍是先寫好華文劇本，再請客語老師翻譯。但，這總比十幾年前臺灣某些電視台「鄉土劇」「○○火」之流，翻譯水準好多了。期盼十幾年後，臺灣甚至能有不透過翻譯、直接寫出道地本土語言思維台詞的編劇人才。</div>Lìugca: vancion m shid fad gǒ,<br>sed cìang, mūi: cìnsìn gàmtiam;",
             ""
           ],
           [
             "",
             "包種：係無恁發个茶，<br>色像蜂糖，有油光，味：有<span class='updated'>一</span>滴澀；",
-            "Bàuzhóng: hě mo án fad gǎi ca,<br>sed cǐong pùngtong, rhìu rhiugòng, müi: rhìu <span class='updated'>rhid</span> dìd seb;",
+            "Bàuzhóng: hě mo án fad gǎi ca,<br>sed cǐong pùngtong, rhìu rhiugòng, mūi: rhìu <span class='updated'>rhid</span> dìd seb;",
             ""
           ],
           [
             "",
             "烏龍：發較<span class='noted'>悿</span>，<br>茶柑仔色，味較<span class='noted'>賁</span>、甘醇；",
-            "<div class='sidenote'>這段有幾個字，沒學過客語的人就算看到漢字也不好懂（因為華語可能沒這樣用，或罕用），除可對照華文字幕外，亦可參考客語詞典：<span class='larger'><a href='https://www.moedict.tw/:%E6%82%BF'>悿</a>、<a href='https://www.moedict.tw/:%E8%B3%81'>賁</a>、<a href='https://www.moedict.tw/:%E9%86%B9'>醹</a></span></div>Vùliung: fad hǎ <span class='noted'>tíam</span>,<br>ca gàmer sed, müi hǎ <span class='noted'>pùn</span>, gàmshun;",
+            "<div class='sidenote'>這段有幾個字，沒學過客語的人就算看到漢字也不好懂（因為華語可能沒這樣用，或罕用），除可對照華文字幕外，亦可參考客語詞典：<span class='larger'><a href='https://www.moedict.tw/:%E6%82%BF'>悿</a>、<a href='https://www.moedict.tw/:%E8%B3%81'>賁</a>、<a href='https://www.moedict.tw/:%E9%86%B9'>醹</a></span></div>Vùliung: fad hǎ <span class='noted'>tíam</span>,<br>ca gàmer sed, mūi hǎ <span class='noted'>pùn</span>, gàmshun;",
             ""
           ],
           [
             "",
             "紅茶：完全發過，<br>色最紅，味：甘<span class='noted'>醹</span>。",
-            "Fungca: vancion fad gǒ,<br>sed zǔi fung, müi: gàm<span class='noted'>neu</span>.",
+            "Fungca: vancion fad gǒ,<br>sed zǔi fung, mūi: gàm<span class='noted'>neu</span>.",
             ""
           ],
         ]
@@ -276,7 +276,7 @@ data = [
           [
             "心",
             "這下茶市毋好，十間茶工廠，就有九間刻耐仔在該做，無敢兜仔，仰知，日光無好擇？<hr>",
-            "<div class='sidenote'>這句要感謝<a href='https://www.facebook.com/groups/1537338799842136/posts/3179454055630594/'>臺灣客家話學習、成長、交流園地</a>，我才能過關。學客語遇到問題，-社團鄉親做得𢯭手（幫忙）哦！</div>Liáhä cashï m hó, shìb gièn ca gùngchóng, cïu rhìu giú gièn kadnäier dǔi ge zǒ, m gám dèuer, ngióng dì, Ngidgòng mo hó tòg?",
+            "<div class='sidenote'>這句要感謝<a href='https://www.facebook.com/groups/1537338799842136/posts/3179454055630594/'>臺灣客家話學習、成長、交流園地</a>，我才能過關。學客語遇到問題，-社團鄉親做得𢯭手（幫忙）哦！</div>Liáhā cashī m hó, shìb gièn ca gùngchóng, cīu rhìu giú gièn kadnāier dǔi ge zǒ, m gám dèuer, ngióng dì, Ngidgòng mo hó tòg?",
             ""
           ],
           [
@@ -312,25 +312,25 @@ data = [
           [
             "心",
             "今晡日，就係兩個銀！",
-            "Gìmbù'ngid, cïu hě lióng ě ngiun!",
+            "Gìmbù'ngid, cīu hě lióng ě ngiun!",
             ""
           ],
           [
             "太田",
             "<span class='updated'>愛</span>賣無？……<br>毋賣毋賣<span class='updated'>毋賣</span>！來轉來轉！",
-            "<span class='updated'>Ǒi</span> mäi mo? ...<br>M mäi m mäi <span class='updated'>m mäi</span>! Loi zhón loi zhón!",
+            "<span class='updated'>Ǒi</span> māi mo? ...<br>M māi m māi <span class='updated'>m māi</span>! Loi zhón loi zhón!",
             ""
           ],
           [
             "吉",
             "妳恁樣做，𫣆俚日光正經無好擇！<br>阿土師傅無在哩，恁大个一張定單，茶菁毋收好兜，品質上毋去，愛仰般出貨？",
-            "<div class='sidenote'>「定」vs.「訂」，客語不同音，與華語不同。從 EP5 聽起來，本劇應該是用「定單」、「定金」，不是「訂」。這或許也和中華民國民法用語「定金」、「定作人」多半用「定」而不是「訂」有關（我推測中華民國民法所用的字詞，與華南漢語或南方官話有關）</div>Ngi ánngiong zǒ, ènlí Ngidgòng zhǐngìn mo hó tòg!<br>Á-Tü Sìifü mo còi lè, án täi gě rhid zhòng <span class='noted'>tïn</span>dàn, caciàng m shiù hó dèu, pínzhid shòng m hǐ, ǒi ngióngbàn chudfǒ?",
+            "<div class='sidenote'>「定」vs.「訂」，客語不同音，與華語不同。從 EP5 聽起來，本劇應該是用「定單」、「定金」，不是「訂」。這或許也和中華民國民法用語「定金」、「定作人」多半用「定」而不是「訂」有關（我推測中華民國民法所用的字詞，與華南漢語或南方官話有關）</div>Ngi ánngiong zǒ, ènlí Ngidgòng zhǐngìn mo hó tòg!<br>Á-Tū Sìifū mo còi lè, án tāi gě rhid zhòng <span class='noted'>tīn</span>dàn, caciàng m shiù hó dèu, pínzhid shòng m hǐ, ǒi ngióngbàn chudfǒ?",
             ""
           ],
           [
             "心",
             "係講……利<span class='updated'>存</span><span class='TBD'>異</span>好，𫣆俚當然做得高價收茶菁照顧茶農。毋過，公司員工，毋係共樣重要 <ruby><rb>me</rb><rp>(</rp><rt>毋+係</rt><rp>)</rp></ruby>？<br>員工照顧着哩，日光正做得繼續下去。<br>下後，𫣆俚正有能力摎實力，照顧其他人。",
-            "<div class='sidenote'>聽起來演員唸 rhì，跟「一」、「異」的一般發音似乎不同，不然就是別的字，或是變調的結果？</div>Hěgóng... lï<span class='updated'>sun</span> <span class='TBD'>rhǐ</span> hó, ènlí dòngrhan zǒded gògǎ shiù caciàng zhǎugǔ canung. Mgǒ, Gùngsìi rhangùng, m hě kiüngrhöng chüngrhǎu <ruby><rb>mě</rb><rp>(</rp><rt>m hě </rt><rp>)</rp></ruby>?<br>Rhangùng zhǎugǔ dó lè, Ngidgòng zhǎng zǒded gǐsiùg hàhǐ.<br>Hàhëu, ènlí zhǎng rhìu nenlìd làu shìdlìd, zhǎugǔ kità ngin.",
+            "<div class='sidenote'>聽起來演員唸 rhì，跟「一」、「異」的一般發音似乎不同，不然就是別的字，或是變調的結果？</div>Hěgóng... lī<span class='updated'>sun</span> <span class='TBD'>rhǐ</span> hó, ènlí dòngrhan zǒded gògǎ shiù caciàng zhǎugǔ canung. Mgǒ, Gùngsìi rhangùng, m hě kiūngrhōng chūngrhǎu <ruby><rb>mě</rb><rp>(</rp><rt>m hě </rt><rp>)</rp></ruby>?<br>Rhangùng zhǎugǔ dó lè, Ngidgòng zhǎng zǒded gǐsiùg hàhǐ.<br>Hàhēu, ènlí zhǎng rhìu nenlìd làu shìdlìd, zhǎugǔ kità ngin.",
             ""
           ],
           [
@@ -342,13 +342,13 @@ data = [
           [
             "",
             "韶早，佢兜毋來，大家堵好尞一日！",
-            "Shauzó, gidèu m loi, täigà dúhó liäu rhid ngid!",
+            "Shauzó, gidèu m loi, tāigà dúhó liāu rhid ngid!",
             ""
           ],
           [
             "吉",
             "尞一日？！係講，韶早，無人來！𫣆俚日光，就準備關門哩！",
-            "Liäu rhid ngid? Hěgóng, shauzó, mo ngin loi! Ènlí Ngidgòng, cïu zhúnpï guànmun lè!",
+            "Liāu rhid ngid? Hěgóng, shauzó, mo ngin loi! Ènlí Ngidgòng, cīu zhúnpī guànmun lè!",
             ""
           ],
         ]
@@ -359,19 +359,19 @@ data = [
           [
             "石",
             "<span class='jp'>社長</span>，茶販平常十點就來哩，這下會當晝哩，還會等無？",
-            "<span class='jp'>Shachō</span>, cafǎn pinshong shìb diǎm cïu loi lè, líahä vöi dòngzhiǔ lè, han vöi dén mo?",
+            "<span class='jp'>Shachō</span>, cafǎn pinshong shìb diǎm cīu loi lè, líahā vōi dòngzhiǔ lè, han vōi dén mo?",
             ""
           ],
           [
             "吉",
             "妳啊妳啊，自家儘採拉低茶價，這下無人來哩，妳歡喜哩呴？ ",
-            "Ngi ǎ ngi ǎ, cidgà cíncái lài dài cagǎ, líahä mo ngin loi lè, ngi fònhí lè ho?",
+            "Ngi ǎ ngi ǎ, cidgà cíncái lài dài cagǎ, líahā mo ngin loi lè, ngi fònhí lè ho?",
             ""
           ],
           [
             "",
             "妳知兩百萬籮个粗製茶，愛收幾多茶菁無？毋會食茶、審茶，這下嗄會插人買茶。",
-            "Ngi dì lióng bag vän lo gǎi cùzhǐca, ǒi shiù gídò caciàng mo? M vöi shìd ca, shím ca, líahä sǎ vöi cab ngin mài ca.",
+            "Ngi dì lióng bag vān lo gǎi cùzhǐca, ǒi shiù gídò caciàng mo? M vōi shìd ca, shím ca, líahā sǎ vōi cab ngin mài ca.",
             ""
           ],
           [
@@ -407,7 +407,7 @@ data = [
           [
             "吉",
             "妳又在該做麼个？",
-            "Ngi rhiü dǔ gai zǒ mágǎi?",
+            "Ngi rhiū dǔ gai zǒ mágǎi?",
             ""
           ],
           [
@@ -431,7 +431,7 @@ data = [
           [
             "心",
             "毋接受个做得毋下貨！",
-            "M ziabshiü gǎi zǒded m háfǒ!",
+            "M ziabshiū gǎi zǒded m háfǒ!",
             ""
           ],
           [
@@ -443,7 +443,7 @@ data = [
           [
             "嗶",
             "大伯大叔！𠊎兜<span class='jp'>新社長</span>个價數，無像<span class='jp'>吉さん</span>恁樣哦！一個銀，愛下，就遽！<br>等一下新社長過一句，「日光無好擇」，就係五角收囉！",
-            "Täibag täishug! Ngaidèu <span class='jp'>Shin Shachō</span> gǎi gǎsǐi, mo cǐong <span class='jp'>Ji San</span> ánngiong o! Rhid ě ngiun, ǒi há, cïu giag!<br>Dén rhid hà <span class='jp'>Shin Shachō</span> gǒ rhid gǐ, &quot;Ngidgòng mo hó tòg&quot;, cïu hě ńg gog shiù lo!",
+            "Tāibag tāishug! Ngaidèu <span class='jp'>Shin Shachō</span> gǎi gǎsǐi, mo cǐong <span class='jp'>Ji San</span> ánngiong o! Rhid ě ngiun, ǒi há, cīu giag!<br>Dén rhid hà <span class='jp'>Shin Shachō</span> gǒ rhid gǐ, &quot;Ngidgòng mo hó tòg&quot;, cīu hě ńg gog shiù lo!",
             ""
           ],
           [
@@ -455,7 +455,7 @@ data = [
           [
             "太田",
             "濞……搣麼个鬼……係啦，恁樣？",
-            "Pï... Med mágǎi gúi... Hě là, ánngiong?",
+            "Pī... Med mágǎi gúi... Hě là, ánngiong?",
             ""
           ],
           [
@@ -484,31 +484,31 @@ data = [
           [
             "心",
             "𫣆俚用一個銀收，量還比昨晡日增加了三成！",
-            "Ènlí rhüng rhid ě ngiun shiù, liong han bí còbù'ngid zěngà lè sàm shang!",
+            "Ènlí rhūng rhid ě ngiun shiù, liong han bí còbù'ngid zěngà lè sàm shang!",
             ""
           ],
           [
             "林",
             "<span class='TBD'>該</span>仰會知該兜茶販仔會接受這價錢<span class='TBD'>呢</span>？",
-            "Gai ngióng vöi dì gaidèu cafǎner vöi ziabshiü liá gǎcien ner?",
+            "Gai ngióng vōi dì gaidèu cafǎner vōi ziabshiū liá gǎcien ner?",
             ""
           ],
           [
             "心",
             "山妹摎𠊎講个，這下茶市<span class='updated noted'>橫笐橫代</span>，其他茶寮其實乜無訂單，歸隻茶市<span class='updated'>斯</span>有𫣆俚在該收茶，佢兜<span class='updated'>斯</span>做得賣分日光啊！",
-            "<div class='sidenote'>笐，在此指的是竹節。竹子橫著長，則後代就沒有辦法一代一代、一節一節往上長。用來比喻家族、事業衰敗無發展。（客好里辦公室）</div>Sàn Mǒi làu ngai góng ě, líahä cashï <span class='noted'>väng gong väng töi</span>, kità caliau kishìd mě mo tïndàn, gùi zhag cashï sïi rhiù ènlí dǔ gai shiù ca, gidèu sïi zǒded mäi bùn Ngidgòng a!",
+            "<div class='sidenote'>笐，在此指的是竹節。竹子橫著長，則後代就沒有辦法一代一代、一節一節往上長。用來比喻家族、事業衰敗無發展。（客好里辦公室）</div>Sàn Mǒi làu ngai góng ě, líahā cashī <span class='noted'>vāng gong vāng tōi</span>, kità caliau kishìd mě mo tīndàn, gùi zhag cashī sīi rhiù ènlí dǔ gai shiù ca, gidèu sīi zǒded māi bùn Ngidgòng a!",
             ""
           ],
           [
             "林",
             "Ù，恁樣算起來，𫣆兜會省，一萬五千箍呢！",
-            "Ù, ánngiong sǒn híloi, èndèu vöi sáng, rhid vän ńg cièn kièu nè!",
+            "Ù, ánngiong sǒn híloi, èndèu vōi sáng, rhid vān ńg cièn kièu nè!",
             ""
           ],
           [
             "心",
             "該，𫣆俚就做得先發一隻月个工錢？",
-            "Gai, ènlí cïu zǒded sèn fad rhid zhag ngièd ě gùngcien?",
+            "Gai, ènlí cīu zǒded sèn fad rhid zhag ngièd ě gùngcien?",
             ""
           ],
           [
@@ -544,7 +544,7 @@ data = [
           [
             "心",
             "𫣆俚，多收个茶菁，做得摎怡和个茶共下做起來；<br>日光欠大家个工錢，<span class='TBD'>都</span>做得在這擺，全部發分你兜！",
-            "Ènlí, dò shiù gǎi caciàng, zǒded làu Rhìfo gǎi ca kiünghä zǒ híloi;<br>Ngidgòng kiǎm täigà ě gùngcien, dǔ zǒded dǔ liá bái, cionpü fad bùn ngidèu!",
+            "Ènlí, dò shiù gǎi caciàng, zǒded làu Rhìfo gǎi ca kiūnghā zǒ híloi;<br>Ngidgòng kiǎm tāigà ě gùngcien, dǔ zǒded dǔ liá bái, cionpū fad bùn ngidèu!",
             ""
           ],
         ]
@@ -666,7 +666,7 @@ data = [
           [
             "山",
             "三井个比賽茶，愛用日光个鋪面茶無？",
-            "Sàmziáng gǎi bísǒi ca, ǒi rhüng Ngidgòng ě pùmiěnca mo?",
+            "Sàmziáng gǎi bísǒi ca, ǒi rhūng Ngidgòng ě pùmiěnca mo?",
             ""
           ],
           [
@@ -678,19 +678,19 @@ data = [
           [
             "石",
             "就係<span class='noted'>著蝝茶</span>。係該薄薄一層个著蝝茶。<br>這就係日光茶做得賣比別人貴个原因啊！",
-            "Cïu hě <span class='noted'>Chògrhanca</span>. Hě gai pògpòg rhid cen gǎi Chògrhanca.<br>Liá cïu hě Ngidgòng ca zǒded mäi bí pèdngin gǔi gǎi ngienrhìn a!",
+            "Cīu hě <span class='noted'>Chògrhanca</span>. Hě gai pògpòg rhid cen gǎi Chògrhanca.<br>Liá cīu hě Ngidgòng ca zǒded māi bí pèdngin gǔi gǎi ngienrhìn a!",
             ""
           ],
           [
             "山",
             "毋過，用<span class='noted'>青心大冇種</span>敢好？<br>青心大冇種，係講做毋好，苦味重，又臭青臭青。",
-            "<div class='sidenote'>延伸知識時間到～<span class='larger'><a href='https://www.moedict.tw/:%E5%86%87'>冇</a></span>、<a href='https://www.hanyitea.tw/single-post/chin-shin-dapan/'>青心大冇種</a>、<a href='https://www.lefoodco.com/pages/%E6%9D%B1%E6%96%B9%E7%BE%8E%E4%BA%BA%E6%98%AF%E4%BB%80%E9%BA%BC%E8%8C%B6%EF%BC%9F'>著蝝茶</a>（非業配～只是挑內容比較豐富的網頁）</div>Mgǒ, rhüng <span class='noted'>Ciàngsìm Täipǎng Zhúng</span> gám hó?<br>Ciàngsìm Täipǎng Zhúng, hěgóng zǒ m hó, fúmüi chùng, rhïu chiǔciàng chiǔciàng.",
+            "<div class='sidenote'>延伸知識時間到～<span class='larger'><a href='https://www.moedict.tw/:%E5%86%87'>冇</a></span>、<a href='https://www.hanyitea.tw/single-post/chin-shin-dapan/'>青心大冇種</a>、<a href='https://www.lefoodco.com/pages/%E6%9D%B1%E6%96%B9%E7%BE%8E%E4%BA%BA%E6%98%AF%E4%BB%80%E9%BA%BC%E8%8C%B6%EF%BC%9F'>著蝝茶</a>（非業配～只是挑內容比較豐富的網頁）</div>Mgǒ, rhūng <span class='noted'>Ciàngsìm Tāipǎng Zhúng</span> gám hó?<br>Ciàngsìm Tāipǎng Zhúng, hěgóng zǒ m hó, fúmūi chùng, rhīu chiǔciàng chiǔciàng.",
             ""
           ],
           [
             "石",
             "難，正係真本等！<br>青心大冇種个著蝝茶啊，味正會賁！深！又醇！",
-            "Nan, zhǎng hě zhìn búndén!<br>Ciàngsìm Täipǎng Zhúng gǎi Chògrhanca à, müi zhǎng vöi pùn! Chìm! Rhïu shun!",
+            "Nan, zhǎng hě zhìn búndén!<br>Ciàngsìm Tāipǎng Zhúng gǎi Chògrhanca à, mūi zhǎng vōi pùn! Chìm! Rhīu shun!",
             ""
           ],
           [
@@ -702,13 +702,13 @@ data = [
           [
             "石",
             "𫣆俚係在該等「二五茶」啊！",
-            "Ènlí hě dǔi gai dén &quot;Ngï-Ńg Ca&quot; à!",
+            "Ènlí hě dǔi gai dén &quot;Ngī-Ńg Ca&quot; à!",
             ""
           ],
           [
             "山",
             "「二五茶」？",
-            "&quot;Ngï-Ńg Ca&quot;?",
+            "&quot;Ngī-Ńg Ca&quot;?",
             ""
           ],
           [
@@ -726,7 +726,7 @@ data = [
           [
             "石",
             "哎呀！哪有麼个仰般啊！阿土師傅都係恁樣做个啊！",
-            "Ài à! Näi rhiù mágǎi ngióngbàn à! Á-Tü Sìifü dù hě ánngiong zǒ ě à!",
+            "Ài à! Nāi rhiù mágǎi ngióngbàn à! Á-Tū Sìifū dù hě ánngiong zǒ ě à!",
             ""
           ],
         ]
@@ -749,19 +749,19 @@ data = [
           [
             "",
             "著蝝茶，本身就當細。無這步，當會碎个。",
-            "Chògrhanca, búnshìn cïu dòng sě. Mo liá pü, dòng vöi sǔi ě.",
+            "Chògrhanca, búnshìn cīu dòng sě. Mo liá pū, dòng vōi sǔi ě.",
             ""
           ],
           [
             "",
             "該當時啊，𠊎師傅，為日本天皇做茶个時節，摎𠊎講：茶身行水个時間，最重要。摸着茶葉邊唇變軟，毋會刺手，就差毋多哩！",
-            "Gaidòngshi à, ngai sìifü, vui Ngibún Tiènfong zǒ ca gǎi shizied, làu ngai góng: cashìn hangshúi gǎi shigièn, zǔi chüngrhǎu. Mià dó carhàb biènshun biěn ngiòn, m vöi ciag shiú, cïu cà m dò lè!",
+            "Gaidòngshi à, ngai sìifū, vui Ngibún Tiènfong zǒ ca gǎi shizied, làu ngai góng: cashìn hangshúi gǎi shigièn, zǔi chūngrhǎu. Mià dó carhàb biènshun biěn ngiòn, m vōi ciag shiú, cīu cà m dò lè!",
             ""
           ],
           [
             "山",
             "承蒙石頭師傅！",
-            "Shinmung Shàgteu Sìifü!",
+            "Shinmung Shàgteu Sìifū!",
             ""
           ],
           [
@@ -773,7 +773,7 @@ data = [
           [
             "石",
             "𠊎師傅講啊，做茶這件事情，𫣆俚做茶師傅个，做毋得無面子；日光，乜做毋得無面子！",
-            "Ngai sìifü góng à, zǒ ca liá kiën sïicin, ènlí zǒ casìifü ě, zǒ-m-ded mo miěnzíi; Ngidgòng, mě zǒ-m-ded mo miěnzíi!",
+            "Ngai sìifū góng à, zǒ ca liá kiēn sīicin, ènlí zǒ casìifū ě, zǒ-m-ded mo miěnzíi; Ngidgòng, mě zǒ-m-ded mo miěnzíi!",
             ""
           ],
           [
@@ -867,7 +867,7 @@ data = [
           [
             "心",
             "山妹，妳還有辦法無？",
-            "Sàn Mǒi, ngi han rhiù pänfab mo?",
+            "Sàn Mǒi, ngi han rhiù pānfab mo?",
             ""
           ],
         ]
@@ -918,13 +918,13 @@ data = [
           [
             "吉",
             "使梟、加料毋係變巧！係毋老實！",
-            "Síihiàu, gàliäu m hě biěnkiáu! Hě m lóshìd!",
+            "Síihiàu, gàliāu m hě biěnkiáu! Hě m lóshìd!",
             ""
           ],
           [
             "",
             "妳好彩接了幾張定單，就話着自家當會做生理啊？",
-            "Ngi hócói ziab lè gí zhòng tïndàn, cïu vä dó cidgà dòng vöi zǒ sènlì a?",
+            "Ngi hócói ziab lè gí zhòng tīndàn, cīu vā dó cidgà dòng vōi zǒ sènlì a?",
             ""
           ],
           [
@@ -953,7 +953,7 @@ data = [
           [
             "",
             "𠊎係有價數个。<br>𠊎係有價數，係因為𠊎關心！",
-            "Ngai hě rhiù gǎsǐi ě.<br>Ngai hě rhiù gǎsǐi, hě rhìnvüi ngai guànsìm!",
+            "Ngai hě rhiù gǎsǐi ě.<br>Ngai hě rhiù gǎsǐi, hě rhìnvūi ngai guànsìm!",
             ""
           ],
           [
@@ -965,13 +965,13 @@ data = [
           [
             "",
             "𠊎無像<span class='jp'>パパ</span>，野心恁大，一心想為歸隻北埔人做大事情，𠊎斯關心，日光下隻月係毋係發得出工錢、下一季係毋係有定單！",
-            "Ngai mo cǐong <span class='jp'>Papa</span>, rhàsìm án täi, rhidsìm sióng vui gùi zhag Bedbù ngin zǒ täi sïicin, ngai sïi guànsìm, Ngidgòng hä zhag ngièd hě m hě fad ded chud gùngcien, hä rhid gǔi hě m hě rhiù tïndàn!",
+            "Ngai mo cǐong <span class='jp'>Papa</span>, rhàsìm án tāi, rhidsìm sióng vui gùi zhag Bedbù ngin zǒ tāi sīicin, ngai sīi guànsìm, Ngidgòng hā zhag ngièd hě m hě fad ded chud gùngcien, hā rhid gǔi hě m hě rhiù tīndàn!",
             ""
           ],
           [
             "",
             "做生理最在意誠信，𫣆俚出貨，有失品質个誠信；毋過𫣆俚毋出貨，乜係無誠信！",
-            "Zǒ sènlì zǔi cäirhǐ shinsǐn, ènlí chudfǒ, rhiù shid pínzhid ě shinsǐn; mgǒ ènlí m chudfǒ, mě hě mo shinsǐn!",
+            "Zǒ sènlì zǔi cāirhǐ shinsǐn, ènlí chudfǒ, rhiù shid pínzhid ě shinsǐn; mgǒ ènlí m chudfǒ, mě hě mo shinsǐn!",
             ""
           ],
           [
@@ -995,7 +995,7 @@ data = [
           [
             "",
             "恁樣下去，日光早慢會橫忒。",
-            "Ánngiong hàhi, Ngidgòng zómän vöi väng ted.",
+            "Ánngiong hàhi, Ngidgòng zómān vōi vāng ted.",
             ""
           ],
         ]
@@ -1046,43 +1046,43 @@ data = [
           [
             "",
             "<span class='noted'>抑</span>係無共樣形式个堅定",
-            "<span class='noted'>Rhid</span> hě mo kiüngrhöng hinshid gǎi gièntïn",
+            "<span class='noted'>Rhid</span> hě mo kiūngrhōng hinshid gǎi gièntīn",
             ""
           ],
           [
             "",
             "諒解𠊎無陪你",
-            "<div class='sidenote'>經羅亦娌製作人校正的歌詞是「抑」，但歌手唱的我聽來都像「rhä 也」。下同</div>Liǒnggái ngai mo poi ngi",
+            "<div class='sidenote'>經羅亦娌製作人校正的歌詞是「抑」，但歌手唱的我聽來都像「rhā 也」。下同</div>Liǒnggái ngai mo poi ngi",
             ""
           ],
           [
             "",
             "無做伴 𠊎會偎你較近",
-            "Mo zǒpàn ngai vöi vá ngi hǎ kiùn",
+            "Mo zǒpàn ngai vōi vá ngi hǎ kiùn",
             ""
           ],
           [
             "",
             "就暫時 放任停跎",
-            "<div class='sidenote'>教典顯示「放任」的「放」應為文讀音 fǒng，但歌手唱白讀音 biǒng</div>Cïu ciämshi <span class='noted'>fǒngrhïm</span> tinto",
+            "<div class='sidenote'>教典顯示「放任」的「放」應為文讀音 fǒng，但歌手唱白讀音 biǒng</div>Cīu ciāmshi <span class='noted'>fǒngrhīm</span> tinto",
             ""
           ],
           [
             "",
             "<span class='noted'><span class='updated'>體</span>無</span>能夠摘撿得回味",
-            "<div class='sidenote'>「tí mo 體無」一詞教典查無，感謝羅亦娌老師提供校正</div><span class='noted'>Tí mo</span> nengiěu zaggiám ded fuimüi",
+            "<div class='sidenote'>「tí mo 體無」一詞教典查無，感謝羅亦娌老師提供校正。這個詞對應到華語「至少」的意思。</div><span class='noted'>Tí mo</span> nengiěu zaggiám ded fuimūi",
             ""
           ],
           [
             "",
             "無抑有 𠊎都幸運",
-            "Mo rhid rhiù ngai dü hënrhün",
+            "Mo rhid rhiù ngai dū hēnrhūn",
             ""
           ],
           [
             "",
             "哪片多情 無問題",
-            "Näi pién dòcin mo mǔnti",
+            "Nāi pién dòcin mo mǔnti",
             ""
           ],
           [
@@ -1094,7 +1094,7 @@ data = [
           [
             "",
             "𠊎會記得　查有此人……",
-            "Ngai vöi gǐded ca rhiù cíi ngin...",
+            "Ngai vōi gǐded ca rhiù cíi ngin...",
             ""
           ],
         ]
@@ -1166,7 +1166,7 @@ data = [
           [
             "",
             "<span class='noted'>抑</span>係無共樣形式个堅定",
-            "<div class='sidenote'>經羅亦娌製作人校正的歌詞是「抑」，但歌手唱的我聽來都像「rhä 也」。下同</div><span class='noted'>Rhid</span> hě mo kiüngrhöng hinshid gǎi gièntïn",
+            "<div class='sidenote'>經羅亦娌製作人校正的歌詞是「抑」，但歌手唱的我聽來都像「rhā 也」。下同</div><span class='noted'>Rhid</span> hě mo kiūngrhōng hinshid gǎi gièntīn",
             ""
           ],
           [
@@ -1178,31 +1178,31 @@ data = [
           [
             "",
             "無做伴  𠊎會偎你較近",
-            "Mo zǒpàn ngai vöi vá ngi hǎ kiùn",
+            "Mo zǒpàn ngai vōi vá ngi hǎ kiùn",
             ""
           ],
           [
             "",
             "就暫時  放任停跎",
-            "<div class='sidenote'>教典顯示「放任」的「放」應為文讀音 fǒng，但歌手唱白讀音 biǒng</div>Cïu ciämshi <span class='noted'>fǒngrhïm</span> tinto",
+            "<div class='sidenote'>教典顯示「放任」的「放」應為文讀音 fǒng，但歌手唱白讀音 biǒng</div>Cīu ciāmshi <span class='noted'>fǒngrhīm</span> tinto",
             ""
           ],
           [
             "",
             "<span class='noted'><span class='updated'>體</span>無</span>能夠摘撿得回味",
-            "<div class='sidenote'>「tí mo 體無」一詞教典查無，感謝羅亦娌老師提供校正</div><span class='noted'>Tí mo</span> nengiěu zaggiám ded fuimüi",
+            "<div class='sidenote'>「tí mo 體無」一詞教典查無，感謝羅亦娌老師提供校正</div><span class='noted'>Tí mo</span> nengiěu zaggiám ded fuimūi",
             ""
           ],
           [
             "",
             "無抑有  𠊎都幸運",
-            "Mo rhid rhiù ngai dü hënrhün",
+            "Mo rhid rhiù ngai dū hēnrhūn",
             ""
           ],
           [
             "",
             "哪片多情  無問題 *",
-            "Näi pién dòcin mo mǔnti *",
+            "Nāi pién dòcin mo mǔnti *",
             ""
           ],
           [
@@ -1363,13 +1363,13 @@ data = [
           [
             "",
             "水點摎日頭絲都染花",
-            "Shúidiǎm làu ngidteusìi dü ngiäm fà",
+            "Shúidiǎm làu ngidteusìi dū ngiām fà",
             ""
           ],
           [
             "",
             "虹色係咒誓个腳跡",
-            "Kiüngsed hě zhiǔshï gǎi giogziag",
+            "Kiūngsed hě zhiǔshī gǎi giogziag",
             ""
           ],
           [
