@@ -1034,7 +1034,7 @@ data = [
           [
             "",
             "",
-            "<iframe class='noprint' width='100%' height='315' src='https://www.youtube.com/embed/5zKcVhDPym0' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>",
+            "<div class='embeddedYT'><iframe class='noprint' width='100%' height='315' src='https://www.youtube.com/embed/5zKcVhDPym0' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></div>",
             ""
           ],
           [
@@ -1106,7 +1106,7 @@ data = [
           [
             "",
             "",
-            "<iframe width='100%' height='315' src='https://www.youtube.com/embed/jmd2xovN9xo' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>",
+            "<div class='embeddedYT'><iframe width='100%' height='315' src='https://www.youtube.com/embed/jmd2xovN9xo' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></div>",
             ""
           ],
           [
@@ -1357,7 +1357,7 @@ data = [
           [
             "",
             "",
-            "<iframe class='noprint' width='100%' height='315' src='https://www.youtube.com/embed/Gt_GTOf1wSk' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>",
+            "<div class='embeddedYT'><iframe class='noprint' width='100%' height='315' src='https://www.youtube.com/embed/Gt_GTOf1wSk' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></div>",
             ""
           ],
           [
@@ -1427,7 +1427,7 @@ data = [
           ],
           [
             "",
-            "<div class='sidenote'><span class='printAlt'><a href='https://www.youtube.com/watch?v=Ensj8GzQcz4'>播放 YouTube MV</a><br>（</span>另外，電視劇原聲帶也有這一首，慢板鋼琴獨奏，穿插於全劇各處 😢 <a href='https://open.spotify.com/track/4Crkrze1NgMdvto9EkFk5P?si=51a6ee0124254d83'>Spotify 聆聽</a></div><iframe width='100%' height='315' src='https://www.youtube.com/embed/Ensj8GzQcz4' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe><div class='dramaShot printAlt'><img src='res/詩的第一行.jpeg'></img></div>",
+            "<div class='sidenote'><span class='printAlt'><a href='https://www.youtube.com/watch?v=Ensj8GzQcz4'>播放 YouTube MV</a><br>（</span>另外，電視劇原聲帶也有這一首，慢板鋼琴獨奏，穿插於全劇各處 😢 <a href='https://open.spotify.com/track/4Crkrze1NgMdvto9EkFk5P?si=51a6ee0124254d83'>Spotify 聆聽</a></div><div class='embeddedYT'><iframe width='100%' height='315' src='https://www.youtube.com/embed/Ensj8GzQcz4' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></div><div class='dramaShot printAlt'><img src='res/詩的第一行.jpeg'></img></div>",
             "",
             ""
           ],

@@ -248,7 +248,7 @@ section table {
   #cover-hak .HL {color: mediumvioletred;}
 
   .printAlt {display: initial;}
-  iframe {display: none;}
+  .embeddedYT {display: none;}
 }
 /* @page :first {margin: 0;} */ /* Chromium、Firefox 系瀏覽器都無效 QQ */
 
@@ -273,7 +273,11 @@ section table {
     display: none;
   }
 
-  .printAlt {display: none;}  
+  .printAlt {display: none;}
+  .embeddedYT:before {
+    content: "（內嵌 YT，按一下即可播放）";
+    font-size: 33%;
+  }
 }
 
 .epLevel/*:not(:first-of-type)*/ h1::before {
