@@ -12,7 +12,7 @@
 
 body {
 /*  font-family: "jf open 粉圓 1.1", "圓體-繁", serif;*/
-  font-family: '源流明體'/*"霞鶩文楷 TC"*/, HanaMinB, TaiExtWeb, serif;
+  font-family: Athelas, 'Doulos SIL', '源流明體'/*"霞鶩文楷 TC"*/, HanaMinB, TaiExtWeb, serif;
   line-height: 1.4rem;
   border-radius: 0px;
   font-size: 16px;
@@ -246,6 +246,9 @@ section table {
     line-height: 1.2em !important;
   }
   #cover-hak .HL {color: mediumvioletred;}
+
+  .printAlt {display: initial;}
+  iframe {display: none;}
 }
 /* @page :first {margin: 0;} */ /* Chromium、Firefox 系瀏覽器都無效 QQ */
 
@@ -257,7 +260,7 @@ section table {
 
 
 #main-title:after {
-  content: 'Aiuanyu 編／v0.1.15 20220305';
+  content: 'Aiuanyu 編／v0.1.16 20220508';
   font-size: 0.5em;
   font-family: 蘋果儷中黑;
   position: absolute;
@@ -269,7 +272,8 @@ section table {
   #cover-page br, #main-title:after {
     display: none;
   }
-  
+
+  .printAlt {display: none;}  
 }
 
 .epLevel/*:not(:first-of-type)*/ h1::before {
@@ -452,6 +456,11 @@ section table {width: 70vw;}
   vertical-align: middle;
   box-shadow: 0.1em 0.1em var(--light-bg);
   border: 0.05em var(--light-bg); solid;
+}
+#headTOCButton a {
+  color: var(--main-text-color);
+  text-decoration: none;
+  vertical-align: middle;
 }
 #links a, #HLauthor, #Payuan-author {
   display: inline-block;

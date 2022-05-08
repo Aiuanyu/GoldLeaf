@@ -1046,13 +1046,13 @@ data = [
           [
             "",
             "<span class='noted'>抑</span>係無共樣形式个堅定",
-            "Rhìd hě mo kiüngrhöng hinshid gǎi gièntïn",
+            "<span class='noted'>Rhid</span> hě mo kiüngrhöng hinshid gǎi gièntïn",
             ""
           ],
           [
             "",
             "諒解𠊎無陪你",
-            "<div class='sidenote'>經羅亦娌製作人校正的歌詞是「抑」，但歌手唱的我聽來都像「rhä 也」</div>Liǒnggái ngai mo poi ngi",
+            "<div class='sidenote'>經羅亦娌製作人校正的歌詞是「抑」，但歌手唱的我聽來都像「rhä 也」。下同</div>Liǒnggái ngai mo poi ngi",
             ""
           ],
           [
@@ -1064,19 +1064,19 @@ data = [
           [
             "",
             "就暫時 放任停跎",
-            "Cïu ciämshi fǒngrhïm tinto",
+            "<div class='sidenote'>教典顯示「放任」的「放」應為文讀音 fǒng，但歌手唱白讀音 biǒng</div>Cïu ciämshi <span class='noted'>fǒngrhïm</span> tinto",
             ""
           ],
           [
             "",
-            "特無能夠摘撿得回味",
-            "Tìd mo nengiěu zaggiám ded fuimüi",
+            "<span class='noted'><span class='updated'>體</span>無</span>能夠摘撿得回味",
+            "<div class='sidenote'>「tí mo 體無」一詞教典查無，感謝羅亦娌老師提供校正</div><span class='noted'>Tí mo</span> nengiěu zaggiám ded fuimüi",
             ""
           ],
           [
             "",
             "無抑有 𠊎都幸運",
-            "Mo rhìd rhiù ngai dü hënrhün",
+            "Mo rhid rhiù ngai dü hënrhün",
             ""
           ],
           [
@@ -1101,6 +1101,7 @@ data = [
       },
       {
         "t": "<a id='themesonghak'></a>查有此人（全客語版）",
+        "id": "themesonghak",
         "rows": [
           [
             "",
@@ -1164,8 +1165,8 @@ data = [
           ],
           [
             "",
-            "抑係無共樣形式个堅定",
-            "Rhid hě mo kiüngrhöng hinshid gǎi gièntïn",
+            "<span class='noted'>抑</span>係無共樣形式个堅定",
+            "<div class='sidenote'>經羅亦娌製作人校正的歌詞是「抑」，但歌手唱的我聽來都像「rhä 也」。下同</div><span class='noted'>Rhid</span> hě mo kiüngrhöng hinshid gǎi gièntïn",
             ""
           ],
           [
@@ -1183,19 +1184,19 @@ data = [
           [
             "",
             "就暫時  放任停跎",
-            "Cïu ciämshi fǒngrhïm tinto",
+            "<div class='sidenote'>教典顯示「放任」的「放」應為文讀音 fǒng，但歌手唱白讀音 biǒng</div>Cïu ciämshi <span class='noted'>fǒngrhïm</span> tinto",
             ""
           ],
           [
             "",
-            "體無能夠摘撿得回味",
-            "Tìd mo nengiěu zaggiám ded fuimüi",
+            "<span class='noted'><span class='updated'>體</span>無</span>能夠摘撿得回味",
+            "<div class='sidenote'>「tí mo 體無」一詞教典查無，感謝羅亦娌老師提供校正</div><span class='noted'>Tí mo</span> nengiěu zaggiám ded fuimüi",
             ""
           ],
           [
             "",
             "無抑有  𠊎都幸運",
-            "Mo rhìd rhiù ngai dü hënrhün",
+            "Mo rhid rhiù ngai dü hënrhün",
             ""
           ],
           [
@@ -1213,7 +1214,7 @@ data = [
           [
             "",
             "** 情份愛入味  苦澀難免",
-            "** Cinfūn ǒi ngìbmūi fúseb nan mièn",
+            "<div class='sidenote'>「苦」若指味道，四縣腔 fù、海陸腔 fú（參考劇中 EP1 吉桑和阿土師傅喝 30 年茶樹頭時大嘆「Fú 苦！」）；歌手唱的 kú 是用在「辛苦」之意。</div>** Cinfūn ǒi ngìbmūi <span class='noted'>fú</span>seb nan mièn",
             ""
           ],
           [
@@ -1225,7 +1226,7 @@ data = [
           [
             "",
             "還得仰般應  無人會聽个預言",
-            "Han ded ngióngbàn ěn mo ngin vōi tǎng gǎi rhī'ngien",
+            "<div class='sidenote'>歌手唱 rhín 是「允諾、應承」的意思，但此處若為「回應」之意，似應用 ěn</div>Han ded ngióngbàn <span class='noted'>ěn</span> mo ngin vōi tǎng gǎi rhī'ngien",
             ""
           ],
           [
@@ -1249,7 +1250,7 @@ data = [
           [
             "",
             "敢得反心減忒息",
-            "Gám ded fánsìm gám ted sìd",
+            "<div class='sidenote'>「反心」：更改原來的想法</div>Gám ded fánsìm gám ted sìd",
             ""
           ],
           [
@@ -1261,7 +1262,7 @@ data = [
           [
             "",
             "會無潛心換情面",
-            "Vōi mo siamsìm vōn cinmiěn",
+            "<div class='sidenote'>「潛心」：專心、深入用心</div>Vōi mo siamsìm vōn cinmiěn",
             ""
           ],
           [
@@ -1327,7 +1328,7 @@ data = [
           [
             "",
             "在共隻位所  掌等旭日  掌緪歲月",
-            "Dǔi kiūng zhag vūisó zhóng dén kiugngid zhóng hen sǒi'ngièd",
+            "<div class='sidenote'>教典顯示，「旭」在海陸腔及大埔腔只有 kiug 一種讀法，不像其他腔調有 hiug/kiug 兩種，所以這部分待查證。歌手聽來是唱 hiug</div>Dǔi kiūng zhag vūisó zhóng dén <span class='noted'>kiug</span>ngid zhóng hen sǒi'ngièd",
             ""
           ],
           [
@@ -1356,7 +1357,7 @@ data = [
           [
             "",
             "",
-            "<!--<div class='sidenote'>王若琳的官方 MV，後來關掉了 YouTube 影片內嵌，所以無法直接在這個網頁上聽了，<a href='https://www.youtube.com/Gt_GTOf1wSk'>可能是希望大家多上他們 YT 吧，要聽請移駕囉～</a></div><div class='dramaShot'><img src='res/Breaking-Heart-MV-cover.webp'></img></div>--><iframe class='noprint' width='100%' height='315' src='https://www.youtube.com/embed/Gt_GTOf1wSk' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>",
+            "<iframe class='noprint' width='100%' height='315' src='https://www.youtube.com/embed/Gt_GTOf1wSk' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>",
             ""
           ],
           [
@@ -1426,7 +1427,7 @@ data = [
           ],
           [
             "",
-            "<div class='sidenote'><a href='https://www.youtube.com/watch?v=Ensj8GzQcz4'>播放 YouTube MV</a><br>（另外，電視劇原聲帶也有這一首，慢板鋼琴獨奏，穿插於全劇各處 😢 <a href='https://open.spotify.com/track/4Crkrze1NgMdvto9EkFk5P?si=51a6ee0124254d83'>Spotify 聆聽</a></div><iframe width='100%' height='315' src='https://www.youtube.com/embed/Ensj8GzQcz4' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe><div class='dramaShot'><img src='res/詩的第一行.jpeg'></img></div>",
+            "<div class='sidenote'><span class='printAlt'><a href='https://www.youtube.com/watch?v=Ensj8GzQcz4'>播放 YouTube MV</a><br>（</span>另外，電視劇原聲帶也有這一首，慢板鋼琴獨奏，穿插於全劇各處 😢 <a href='https://open.spotify.com/track/4Crkrze1NgMdvto9EkFk5P?si=51a6ee0124254d83'>Spotify 聆聽</a></div><iframe width='100%' height='315' src='https://www.youtube.com/embed/Ensj8GzQcz4' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe><div class='dramaShot printAlt'><img src='res/詩的第一行.jpeg'></img></div>",
             "",
             ""
           ],

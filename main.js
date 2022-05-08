@@ -104,6 +104,9 @@ function create() {
 
       var section = document.createElement("section");
       section.classList.add("noHak");
+      if (data[i].sections[j].id != undefined) {
+        section.setAttribute('id',data[i].sections[j].id);
+      }
 
       var time = document.createElement("span");
       time.classList.add("time");
@@ -320,6 +323,11 @@ function generateCards() { // 產生字卡
 
 }
 
+function linkBack() {
+  var headTOCButton = document.getElementById("headTOCButton");
+  headTOCButton.innerHTML = "<a href='index.html'>" + headTOCButton.innerHTML + "</a>";
+}
+
 // html - Loading javascript in body onload with 2 functions - Stack Overflow <https://stackoverflow.com/questions/10122555/loading-javascript-in-body-onload-with-2-functions>
 function init() {
   create();
@@ -331,4 +339,10 @@ function init() {
 function cardsInit() {
   localFileIndicator();
   generateCards();
+}
+function subInit() {
+  create();
+  fillRomanNames();
+  localFileIndicator();
+  linkBack();
 }
