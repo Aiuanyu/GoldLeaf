@@ -1190,7 +1190,7 @@ data = [
           [
             "",
             "<span class='noted'><span class='updated'>體</span>無</span>能夠摘撿得回味",
-            "<div class='sidenote'>「tí mo 體無」一詞教典查無，感謝羅亦娌老師提供校正</div><span class='noted'>Tí mo</span> nengiěu zaggiám ded fuimūi",
+            "<div class='sidenote'>「tí mo 體無」一詞教典查無，感謝羅亦娌老師提供校正。這個詞對應到華語「至少」的意思。</div><span class='noted'>Tí mo</span> nengiěu zaggiám ded fuimūi",
             ""
           ],
           [
@@ -1214,7 +1214,7 @@ data = [
           [
             "",
             "** 情份愛入味  苦澀難免",
-            "<div class='sidenote'>「苦」若指味道，四縣腔 fù、海陸腔 fú（參考劇中 EP1 吉桑和阿土師傅喝 30 年茶樹頭時大嘆「Fú 苦！」）；歌手唱的 kú 是用在「辛苦」之意。</div>** Cinfūn ǒi ngìbmūi <span class='noted'>fú</span>seb nan mièn",
+            "<div class='sidenote'>「苦」若指味道，四縣腔 fù、海陸腔 fú（參考劇中 EP1 吉桑和阿土師傅喝 30 年茶樹頭時大嘆「Fú 苦！」）；歌手唱的 kú 是用在「辛苦」之意。<br>不過也有一個可能：「苦澀」是晚近層次的借詞，所以要用新層次的「文讀音」讀為 kúseb</div>** Cinfūn ǒi ngìbmūi <span class='noted'>fú</span>seb nan mièn",
             ""
           ],
           [
@@ -1226,13 +1226,13 @@ data = [
           [
             "",
             "還得仰般應  無人會聽个預言",
-            "<div class='sidenote'>歌手唱 rhín 是「允諾、應承」的意思，但此處若為「回應」之意，似應用 ěn</div>Han ded ngióngbàn <span class='noted'>ěn</span> mo ngin vōi tǎng gǎi rhī'ngien",
+            "Han ded ngióngbàn <span class='noted'>ěn</span> mo ngin vōi tǎng gǎi rhī'ngien",
             ""
           ],
           [
             "",
             "𠊎會記得  查有此人 **<hr>",
-            "Ngai vōi gǐded ca rhiù cíi ngin **",
+            "<div class='sidenote'>歌手唱 rhín 是「允諾、應承」的意思，但此處若為「回應」之意，似應用 ěn</div>Ngai vōi gǐded ca rhiù cíi ngin **",
             ""
           ],
           [
@@ -1328,7 +1328,7 @@ data = [
           [
             "",
             "在共隻位所  掌等旭日  掌緪歲月",
-            "<div class='sidenote'>教典顯示，「旭」在海陸腔及大埔腔只有 kiug 一種讀法，不像其他腔調有 hiug/kiug 兩種，所以這部分待查證。歌手聽來是唱 hiug</div>Dǔi kiūng zhag vūisó zhóng dén <span class='noted'>kiug</span>ngid zhóng hen sǒi'ngièd",
+            "<div class='sidenote'>教典顯示，「旭」在海陸腔及大埔腔只有 kiug 一種讀法，不像其他腔調有 hiug/kiug 兩種，所以這部分待查證。歌手聽來是唱 <i>shiug</i> 😮</div>Dǔi kiūng zhag vūisó zhóng dén <span class='noted'>kiug</span>ngid zhóng hen sǒi'ngièd",
             ""
           ],
           [
