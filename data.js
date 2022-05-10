@@ -987,6 +987,23 @@ data = [
             "2"
           ],
         ]
+      },
+      {
+        "t": "Isaiah 41:10",
+        "rows": [
+          [
+            "",
+            "毋使驚，𠊎摎你同在；𠊎係你个上帝，你還驚麼个呢？𠊎愛使你堅強，幫助你；𠊎愛用公義摎大能來扶持你。",
+            "[南四] M̌sìi giáng, ngǎi láu ňg tǔngcai; ngǎi he ňg ge Songti, ňg hǎn giáng màge ně? Ngǎi oi sìi ňg giénkiǒng, bóngcu ňg; ngǎi oi iung gúngngi láu tainěn lǒi fǔcǐi ňg.",
+            ""
+          ],
+          [
+            "",
+            "「𠊎係上主，𠊎正實會同你𢯭手」",
+            "&quot;Ngǎi he Sòngzù, ngǎi ziinsiid voi tǔng ňg tensù&quot;",
+            ""
+          ],
+        ]
       }
     ]
   }
