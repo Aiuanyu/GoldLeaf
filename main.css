@@ -5,7 +5,7 @@
   --light-bg: hsla(153, 29%, 66%, 0.8); /* 海報綠葉湖水綠 */
   --color: ;
   --printed-font: Essays1743, 'WenYue GuDianMingChaoTi (Non-Commercial Use)', sans-serif;
-  --base-serif: Athelas, 'Doulos SIL', HGMinchoE, serif;
+  --base-serif: Athelas, 'Doulos SIL', 宋體-繁, serif;
   --base-sans: Andika, 源石黑體, sans-serif;
   --title-sans: 'Lesson One', 黑體-繁, sans-serif;
   --note-font: Athelas, 楷體-繁, 全字庫正楷體 Ext-B, 'Doulos SIL', TaiExtWeb, serif;
