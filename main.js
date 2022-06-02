@@ -262,7 +262,6 @@ function generateCards() { // 產生字卡
     }
     var langLogo = document.createElement("div");
     langLogo.classList.add('cardLangLogo');
-    langLogo.innerHTML = "<br>客";
     cardInner.classList.add('hak');
     if (cards[i][3]!=undefined) {
       cardInner.classList.remove('si');
@@ -274,8 +273,14 @@ function generateCards() { // 產生字卡
         case "3":
           cardInner.classList.add('jp');
           break;
+        case "4":
+          cardInner.classList.add('uk');
+          card.classList.add('uk');
+          // langLogo.innerHTML = "";
+          break;
         default:
           cardInner.classList.add('hak');
+          langLogo.innerHTML = "<br>客";
           break;
       }
     }

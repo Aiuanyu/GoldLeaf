@@ -853,6 +853,7 @@ rb {
   position: relative;
   border: 1px solid var(--main-text-color);
 }
+.card.uk {background-image: url(res/card-bg-portrait-uk.jpg);}
 body {counter-reset: cardx;}
 .card {counter-increment: cardx;}
 .card:before {
@@ -894,6 +895,7 @@ body {counter-reset: cardx;}
 }
 .card .hak .cardLangLogo {background-image: url(res/HLflag.jpg);}
 .card .nan .cardLangLogo {background-image: url(res/NANflag.png);}
+.card .uk .cardLangLogo {background-image: url(res/UKflag.png);}
 .card .si .cardRoman, .card .si .cardLangLogo {color: #a89900;}
 .card .cardRoman .si:after {
   content: "四";
@@ -924,6 +926,8 @@ body {counter-reset: cardx;}
   font-family: var(--base-serif);
   color: #009944;
 }
+.card .uk .cardRoman rb {font-family: Aver/*Mariupol*/; /*font-weight: 900;*/}
+.card .uk .cardHanji {font-family: Doulos SIL;}
 .cardHanji {
   font-size: 50px;
   line-height: 75px;
