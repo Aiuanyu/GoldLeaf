@@ -1015,6 +1015,29 @@ data = [
             ""
           ],
         ]
+      },
+      {
+        "t": "破題範例",
+        "rows": [
+          [
+            "現行寫法<br>（例）：",
+            "&quot;ca gimˋ — toi van hag gaˋ vun faˇ gaiˇ sinˋ tud poˇ&quot;",
+            "",
+            ""
+          ],
+          [
+            "（對應漢字）",
+            "（茶金 — 臺灣客家文化的新突破）",
+            "<div class='sidenote'>此句為海陸腔。參考行政院客委會「參詳」當代客家文藝沙龍此影片之標題：<a href='https://www.youtube.com/watch?v=wIHHanP-uCY&t=13s'>｜客家深度影劇｜茶金──一個客家文化的新突破 - YouTube</a></div>&quot;Ca Gìm — Toivan Haggà vunfǎ gǎi sìn tudpǒ&quot;",
+            ""
+          ],
+          [
+            "",
+            "　",
+            "",
+            ""
+          ],
+        ]
       }
     ]
   }
