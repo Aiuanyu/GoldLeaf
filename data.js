@@ -1017,6 +1017,29 @@ data = [
         ]
       },
       {
+        "t": "20220708",
+        "rows": [
+          [
+            "",
+            "<ruby><rb>日本</rb><rp>(</rp><rt> にほん</rt><rp>)</rp></ruby><ruby><rb> 有事</rb><rp>(</rp><rt> ゆうじ</rt><rp>)</rp></ruby> = <ruby><rb> 台湾</rb><rp>(</rp><rt> たいわん</rt><rp>)</rp></ruby><ruby><rb> 有事</rb><rp>(</rp><rt>ゆうじ </rt><rp>)</rp></ruby>",
+            "<div class='sidenote'>「有事」= 戰爭、天災</div>Nihon yūji = Taiwan yūji",
+            ""
+          ],
+          [
+            "",
+            "ご<ruby><rb> 愁傷</rb><rp>(</rp><rt> しゅうしょう</rt><rp>)</rp></ruby><ruby><rb> 様</rb><rp>(</rp><rt> さま</rt><rp>)</rp></ruby>でございます",
+            "<div class='sidenote'>安慰家屬及日本民眾</div>Go shūshō sama-de gozaimasu",
+            ""
+          ],
+          [
+            "",
+            "<ruby><rb>暗殺</rb><rp>(</rp><rt>あんさつ</rt><rp>)</rp></ruby>を<ruby><rb>非難</rb><rp>(</rp><rt>ひなん</rt><rp>)</rp></ruby>して、<ruby><rb>攻撃性</rb><rp>(</rp><rt>こうげきせい</rt><rp>)</rp></ruby>を<ruby><rb>非難</rb><rp>(</rp><rt>ひなん</rt><rp>)</rp></ruby>します。",
+            "<div class='sidenote'>譴責暗殺，譴責侵略</div>Ansatsu-o hinanshite, kōgekisē-o hinanshimasu.",
+            ""
+          ],
+        ]
+      },
+      {
         "t": "破題範例",
         "rows": [
           [
