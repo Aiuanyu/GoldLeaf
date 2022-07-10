@@ -272,6 +272,7 @@ function generateCards() { // 產生字卡
           break;
         case "3":
           cardInner.classList.add('jp');
+          card.classList.add('jp');
           break;
         case "4":
           cardInner.classList.add('uk');
@@ -288,6 +289,7 @@ function generateCards() { // 產生字卡
       var romanInner = document.createElement("span");
       romanInner.innerHTML = roman.innerHTML;
       romanInner.style.fontSize = cards[i][4]+'%';
+      romanInner.style.lineHeight = cards[i][4]+'%';
       roman.innerHTML = '';
       roman.appendChild(romanInner);
     }

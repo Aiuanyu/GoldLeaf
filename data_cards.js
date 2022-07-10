@@ -45,5 +45,18 @@ cards = [
     "「榮光歸烏克蘭！」",
     "4",
     "65"
-  ]
+  ],
+  [
+  "<ruby><rb>安倍</rb><rp>(</rp><rt> あべ</rt><rp>)</rp></ruby><ruby><rb>晋三</rb><rp>(</rp><rt>しんぞう</rt><rp>)</rp></ruby><span style='font-size: 70%'>　<ruby><rb>様</rb><rt>さま</rt></ruby></span>",
+    "Abe Shinzō<span style='font-size: 70%;'> Sama</span>",
+    "2022/7/8 不幸遇刺 😢 的臺灣之友、日本 🇯🇵 前首相",
+    "3",
+    "62"
+  ],
+  [
+    "拉麵",
+    "<span class='si'><ruby><rb>lái</rb><rt>lǎi</rt></ruby>mien</span><br><span class='hl'>làimiēn</span>",
+    "日語「らめん」 #嘗試借詞",
+    ""
+  ],
 ]

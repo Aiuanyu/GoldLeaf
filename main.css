@@ -854,6 +854,7 @@ rb {
   border: 1px solid var(--main-text-color);
 }
 .card.uk {background-image: url(res/card-bg-portrait-uk.jpg);}
+.card.jp {background-image: none;}
 body {counter-reset: cardx;}
 .card {counter-increment: cardx;}
 .card:before {
@@ -895,6 +896,7 @@ body {counter-reset: cardx;}
 }
 .card .hak .cardLangLogo {background-image: url(res/HLflag.jpg);}
 .card .nan .cardLangLogo {background-image: url(res/NANflag.png);}
+.card .jp .cardLangLogo {background-image: url(res/JPflag.png);}
 .card .uk .cardLangLogo {background-image: url(res/UKflag.png);}
 .card .si .cardRoman, .card .si .cardLangLogo {color: #a89900;}
 .card .cardRoman .si:after {
@@ -917,6 +919,8 @@ body {counter-reset: cardx;}
   vertical-align: middle;
 }
 .card .nan .cardRoman, .card .nan .cardLangLogo {color: #a8009f;}
+.card .jp .cardHanji {color: var(--main-text-color);}
+.card .jp .cardRoman {color: #fc9c7e;}
 .cardRoman {
   font-size: 100px;
   line-height: 120px;
