@@ -59,4 +59,17 @@ cards = [
     "日語「らめん」 #嘗試借詞",
     ""
   ],
+  [
+    "山娘",
+    "<span class='si'>sánngiǒng</span><br><span class='hl'>sànngiong</span>",
+    "藍鵲",
+    "",
+    "90"
+  ],
+  [
+    "莊園",
+    "<span class='si'>zóng'iǎn</span><br><span class='hl'>zòngrhan</span>",
+    "",
+    ""
+  ],
 ]
