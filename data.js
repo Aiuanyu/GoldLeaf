@@ -1061,6 +1061,123 @@ data = [
             ""
           ],
         ]
+      },
+      {
+        "t": "Hak.Wikipedia「美國」",
+        "rows": [
+          [
+            "",
+            "美國",
+            "Míguèd",
+            ""
+          ],
+          [
+            "",
+            "亞美利加合眾國通常稱做美國，係位於北美洲个聯邦共和制國家，也係世界上最悠久个國家。",
+            "Ámíligá Habzungguèd túngsǒng cíin zo Míguèd, he vi'í Bèd Mízú ge liènbáng kiungfǒzii guèdgá, ia he siigie sóng zui iúgiù ge guèdgá.",
+            ""
+          ],
+          [
+            "",
+            "考古學研究表明，美國原住民中个大多數係黃種人个後裔，人類開始於公元前 5 萬年左右出現在美洲。",
+            "Kàugùhog ngiěngiu pèumǐn, Míguèd Ngiěncumǐn zúng ge taidósu he Vǒngzùngngǐn ge heu'i, ngǐnlui kóisìi í gúngngiěnqiěn 5 van ngiěn zò'iu cùdhien cai Mízú.",
+            ""
+          ],
+          [
+            "",
+            "基本摎人類出現在日本摎 Scandinavia 个時間相同。史前移民來自亞洲摎歐洲。主要个移民活動發生在 1.4 萬到 1.1 萬年前。之後形成美洲原住民。",
+            "",
+            ""
+          ],
+        ]
+      },
+      {
+        "t": "客話法學 #1",
+        "rows": [
+          [
+            "",
+            "損害賠償",
+            "sùnhoi pǒisòng<br>súnhōi poishóng",
+            ""
+          ],
+          [
+            "",
+            "中華民國民法規定个損害賠償，",
+            "Zúngfǎ Mǐnguèd Mǐnfàb gúitin ge sùnhoi pǒisòng,<br>            Zhùngfa Mingued Minfab gùitīn gǎi súnhōi poishóng,",
+            ""
+          ],
+          [
+            "",
+            "目的淨係同受害人个損害坉補起來，",
+            "",
+            ""
+          ],
+          [
+            "",
+            "故所受害人愛證明自家有恁多損害，",
+            "",
+            ""
+          ],
+          [
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            "",
+            "愛在契約裡肚特別約定清楚，正做得要求「懲罰性賠償金」。",
+            "",
+            ""
+          ],
+        ]
+      },
+      {
+        "t": "鄭弘儀 vs. 陳時中論智商",
+        "rows": [
+          [
+            "儀",
+            "部長<span class='lang5'>測過智商嗎？</span>",
+            "Pōo-tiúnn <span class='lang5'>cè guò zhìshāng ma?</span>",
+            "2"
+          ],
+          [
+            "中",
+            "Ha̋nn？毋知，可能囡仔个時有吧。",
+            "Ha̋nn? M̄ tsai, khó-lîng gín-á sî ū--pa.",
+            "2"
+          ],
+          [
+            "",
+            "<span class='lang5'>智商</span>个代誌，這嘛是古早真濟儂咧講這啦乎，我嘛<span class='lang5'>順便也表達一下：</span>",
+            "<span class='lang5'>Zhìshāng</span> ê tāi-tsì, tse mā-sī kóo-tsá tsin tsē lâng leh tse--lah--honnh, guá mā <span class='lang5'>shùnbiàn yě biǎodá yí xià:</span>",
+            "2"
+          ],
+          [
+            "",
+            "<span class='lang5'>智商</span>是囡仔个代誌啦。",
+            "<span class='lang5'>Zhìshāng</span> sī gín-á ê tāi-tsì--lah.",
+            "2"
+          ],
+          [
+            "儀",
+            "囡仔个代誌是啥物意思？",
+            "Gín-á ê tāi-tsì sī siánn-mih ì-sù?",
+            "2"
+          ],
+          [
+            "中",
+            "囡仔儂較有咧講彼啊。",
+            "Gín-á-lâng khah ū leh kóng he--ah.",
+            "2"
+          ],
+          [
+            "",
+            "大儂，大儂汝有<span class='lang5'>人生經驗</span>、汝有<span class='lang5'>做了很多事情</span>……",
+            "Tuā-lâng, tuā-lâng lí ū <span class='lang5'>rénshēng jīngyàn</span>, lí ū <span class='lang5'>zuòle hěn duō shìqíng</span>...",
+            "2"
+          ],
+        ]
       }
     ]
   }

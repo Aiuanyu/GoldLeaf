@@ -561,10 +561,10 @@ section tr:nth-child(2n) .jp {font-family: '霞鶩文楷 TC', sans-serif;}
 
 /*span.sample.jp {font-family: Andika, '霞鶩文楷 TC' !important;}*/
 /* Mandarin */
-section tr.lang5, td.lang5, .lang5, .sample.lang5 {color: /*honeydew*//*hsl(217, 82%, 89%)*/hsl(235, 100%, 96%);}
+section tr.lang5, td.lang5, tr:nth-child(2n+1) .lang5, .sample.lang5 {color: /*honeydew*//*hsl(217, 82%, 89%)*/hsl(235, 100%, 96%);}
 section tr:nth-child(2n).lang5, section tr:nth-child(2n) .lang5, .sample.lang5 {font-family: 楷體-繁, sans-serif; font-weight: 700;}
 section tr:nth-child(2n+1).lang5, section tr:nth-child(2n+1) .lang5, .sample.lang5 {font-family: 霞鶩文楷 TC, sans-serif; font-weight: 900;}
-section tr:nth-child(2n+1).lang5 {font-size: 1.2em;}
+section tr:nth-child(2n+1).lang5 {font-size: 1.25em;}
 /* section tr:nth-child(2n+1) .lang5, .sample.lang5 {font-size: 0.9em;} */
 
 .poem {
