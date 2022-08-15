@@ -1178,6 +1178,17 @@ data = [
             "2"
           ],
         ]
+      },
+      {
+        "t": "Courtesy of「客語隨手畫」20220814",
+        "rows": [
+          [
+            "",
+            "",
+            "弓蕉 giúngzéu  (香蕉)<br>黃梨 vǒnglǐ  (鳳梨)<br>蘋果 lìngò、linngǒ  (蘋果)<br>葡萄 pǔtǒ  (葡萄)<br>木瓜 mùgguá  (木瓜)<br>梨仔 lǐè  (水梨)<br>西瓜 xíguá  (西瓜)<br>牛眼 ngiǔngièn  (龍眼)<br>荔枝 lìzíi  (荔枝)<br>** 盡衰果 qin cóigo  = 盡衰過 (很可憐)<br>等一下，你毋係果子啊！唉喲，有影盡衰果咧！<br>更多水果：<br>柑仔 gámè  (橘子)<br>文旦 vǔndan (柚子)<br>水蜜桃 sùimedtǒ (水蜜桃)<br>香瓜 hióngguá  (香瓜)<br>柿子 siiè (柿子)<br>番檨 fánson  (土芒果)<br>佛果 fudgò (釋迦)<br>草莓 còmǒi (草莓)<br>紅龍果 fǔngliǔnggò (火龍果)<br>蓮霧 lienvu  (蓮霧)<br>棗仔 zòè (棗子)<br>檸檬 lémòng (檸檬)",
+            ""
+          ],
+        ]
       }
     ]
   }
