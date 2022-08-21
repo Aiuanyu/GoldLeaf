@@ -1189,6 +1189,59 @@ data = [
             ""
           ],
         ]
+      },
+      {
+        "t": "陳美燕〈起一隻音〉",
+        "rows": [
+          [
+            "",
+            "會唱歌个人 ",
+            "Vōi chǒnggò gǎi ngin",
+            ""
+          ],
+          [
+            "",
+            "起一隻音 ",
+            "Hí rhid zhag rhìm",
+            ""
+          ],
+          [
+            "",
+            "分大家跈等唱",
+            "Bùn tāigà ten dén chǒng",
+            ""
+          ],
+          [
+            "",
+            "歌聲正會和諧",
+            "Gòshàng zhǎng vōi fohai",
+            ""
+          ],
+          [
+            "",
+            "曉講母語个人",
+            "Hiáugóng mùngì gǎi ngin",
+            ""
+          ],
+          [
+            "",
+            "乜愛起一隻音",
+            "Mě ǒi hí rhid zhag rhìm",
+            ""
+          ],
+          [
+            "",
+            "分後輩人跈等講",
+            "Bùn hēubǔingin ten dén góng",
+            ""
+          ],
+          [
+            "",
+            "母語正會傳承",
+            "Mùngì zhǎng vōi chonshin",
+            ""
+          ]
+        ]
       }
     ]
   }
