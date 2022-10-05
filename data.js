@@ -1249,31 +1249,31 @@ data = [
           [
             "明",
             "記得當年姨媽姑姐　最愛勁歌金曲",
-            "",
+            "Gēidak dongnǐn jǐmaguzê zēoi ōi gïnggogamkuk",
             ""
           ],
           [
             "",
             "入邊嘅人講嘅語言　聽講就叫做廣東",
-            "",
+            "Jäpbin gēi jǎn gông gēi jyújǐn tenggông zäu giū zöu Gwôngdung",
             ""
           ],
           [
             "",
-            "錄影帶又Rewind咗　再睇過",
-            "",
+            "錄影帶又 rewind 咗　再睇過",
+            "Lükjîngdāai jäu rewind zô zōi tâi gwō",
             ""
           ],
           [
             "",
             "從唔識聽唔識講　不知不覺",
-            "",
+            "Cǔng m̌ sik teng m̌ sik gông bat zi bat gōk",
             ""
           ],
           [
             "",
             "咀巴就跟住蠢蠢欲動",
-            "",
+            "Zêoiba zäu gan zyü cêoncêonjyükdüng",
             ""
           ],
           [
@@ -1285,73 +1285,73 @@ data = [
           [
             "",
             "當時香港　仲係娛樂圈嘅大佬",
-            "",
+            "Dongsǐ Heunggông züng häi jyǔlökhyun gēi däailôu",
             ""
           ],
           [
             "",
             "當時江南嗰班泡菜佬",
-            "",
+            "Dongsǐ Gongnǎam gô baan paaucōilôu",
             ""
           ],
           [
             "",
             "冚巴唥都仲未紅",
-            "",
+            "Hämbaaläang dou züng mëi hǔng",
             ""
           ],
           [
             "",
             "郭富城陪我跳舞　張學友陪我失落",
+            "Gwōk Fūsǐng pǔi ngó tiūmóu Zoeng Hökjáu pǔi ngó satlök",
+            ""
+          ],
+          [
+            "",
+            "華仔教我揸摩托載女　搵黎明揈下 disco",
+            "Wǎazâi gāau ngó zaa motōk zōi néoi wān Lǎi Mǐng fïng häa disco",
+            ""
+          ],
+          [
+            "",
+            "",
             "",
             ""
           ],
           [
             "",
-            "華仔教我揸摩托載女　搵黎明揈下Disco",
-            "",
-            ""
-          ],
-          [
-            "",
-            "",
-            "",
-            ""
-          ],
-          [
-            "",
-            "班上最Chok　嗰四個　就四大天王",
-            "",
+            "班上最 cok　嗰四個　就四大天王",
+            "Baan söeng zēoi cok gô sēi gō zäu Sēi Däai Tinwǒng",
             ""
           ],
           [
             "",
             "頭髮就整到　浩南山雞　咁先夠威風",
-            "",
+            "Tǎufāat zäu zîng dōu Höunǎam Saangai gām sin gāu waifung",
             ""
           ],
           [
             "",
             "成日學伯虎吟歌　但未見夢中秋香",
-            "",
+            "Sǐngjät hök Bāakfû jǎm go däan mëi gīn müng zung Cauhoeng",
             ""
           ],
           [
             "",
             "家駒不羈風中　陪我闖蕩",
-            "",
+            "Gaakeoi bat gei fung zung pǔi ngó côngdöng",
             ""
           ],
           [
             "",
             "首首識唱　但為何成績",
-            "",
+            "Sâu sâu sik cōeng däan wǎihǒ sǐngzik",
             ""
           ],
           [
             "",
             "不能海闊天空",
-            "",
+            "Batnǎng hôifūttinhung",
             ""
           ],
           [
@@ -1363,25 +1363,25 @@ data = [
           [
             "巧",
             "* 唱一首　揀一首　經典懷念嘅廣東歌",
-            "* Chēung yat sâu gâan yat sâu gingdîn wǎainïm gēi Gwôngdung go",
+            "* Cēong jat sâu gâan jat sâu gingdîn wǎainïm gēi Gwôngdung go",
             ""
           ],
           [
             "",
             "就算憂鬱心難過　唱出一首代表我",
-            "Jäusyūn yauwat sam nǎangwō chēung cheut yat sâu döibiû ngó",
+            "Zäusyūn jauwat sam nǎangwō cēong ceot jat sâu döibiû ngó",
             ""
           ],
           [
             "",
             "唱一首　再一首　不朽最愛的廣東歌",
-            "Chēung yat sâu jōi yat sâu batnâu jēui ōi dik Gwôngdung go",
+            "Cēong jat sâu zōi jat sâu batnâu zēoi ōi dik Gwôngdung go",
             ""
           ],
           [
             "",
             "回首青春的情歌　甜蜜苦楚心迷惘　有你共我　*",
-            "Wǔisâu chingcheun dik chǐnggo tǐmmät fûchô sam mǎimóng yáu néi güng ngó *",
+            "Wǔisâu cingceun dik cǐnggo tǐmmät fûcô sam mǎimóng jáu néi güng ngó *",
             ""
           ],
           [
@@ -1495,13 +1495,13 @@ data = [
           [
             "",
             "曾為你癡癡的相思風雨中　迷失的等你等到我心痛",
-            "Chǎng wäi néi chichidik seungsi fungyú jung<br>mǎisatdik dâng néi dâng dōu ngó sam tūng",
+            "Cǎng wäi néi cicidik seungsi fungjyú zung<br>mǎisatdik dâng néi dâng dōu ngó sam tūng",
             ""
           ],
           [
             "",
             "不再猶豫　就讓一切隨風",
-            "Bat jōi yǎuyü jäu yëung yatchāi chěui fung",
+            "Bat zōi jǎujyü zäu jëung jatcāi cěui fung",
             ""
           ],
           [
