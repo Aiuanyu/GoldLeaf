@@ -1495,13 +1495,13 @@ data = [
           [
             "",
             "曾為你癡癡的相思風雨中　迷失的等你等到我心痛",
-            "Cǎng wäi néi cicidik seungsi fungjyú zung<br>mǎisatdik dâng néi dâng dōu ngó sam tūng",
+            "Cǎng wäi néi cicidik seongsi fungjyú zung<br>mǎisatdik dâng néi dâng dōu ngó sam tūng",
             ""
           ],
           [
             "",
             "不再猶豫　就讓一切隨風",
-            "Bat zōi jǎujyü zäu jëung jatcāi cěui fung",
+            "Bat zōi jǎujyü zäu jëong jatcāi cěoi fung",
             ""
           ],
           [
