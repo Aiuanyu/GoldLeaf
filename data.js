@@ -1547,6 +1547,275 @@ data = [
             ""
           ]
         ]
+      },
+      {
+        "t": "曹雅雯 Íng-uán ê sóo-tsāi<br>「永遠个所在」<br>（「流麻溝十五號」主題曲）<br><br>詞／曲／唱　曹雅雯",
+        "rows": [
+          [
+            "",
+            "* 命運若像風飄　掛念若像河流",
+            "<div class='sidenote'>入圍 2022 年第 59 屆金馬獎最佳電影原創歌曲</div>* Miā-ūn ná-tshiūnn hong phiau kuà-liām ná-tshiūnn hô lâu",
+            "2"
+          ],
+          [
+            "",
+            "名字像花落佇島上　欲<span class='updated'>佗</span>位去　無人通講 *",
+            "Miâ-jī tshiūnn hue lo̍h tī tó siōng beh tó-uī khì bô lâng thang kóng *",
+            "2"
+          ],
+          [
+            "",
+            "​​",
+            "",
+            "2"
+          ],
+          [
+            "",
+            "** 寄望<span class='updated'>敢</span>有通　<span class='updated'>數</span>想　佇無邊無岸个牆",
+            "** Kià-bāng kám ū thang siàu-siūnn tī bô-pinn-bô-huānn ê tshiûnn",
+            "2"
+          ],
+          [
+            "",
+            "遮有一群　斷<span class='updated'>翼</span>个鳥",
+            "Tsia ū tsi̍t kûn tn̄g-si̍t ê tsiáu",
+            "2"
+          ],
+          [
+            "",
+            "對<span class='updated'>佗</span>位來　無人會知 **",
+            "Tuì tó-uī lâi bô lâng ē tsai **",
+            "2"
+          ],
+          [
+            "",
+            "",
+            "",
+            "2"
+          ],
+          [
+            "",
+            "（杏子信件）",
+            "",
+            "21"
+          ],
+          [
+            "",
+            "「我思念个<span class='jp'>お<ruby><rb>母</rb><rp>(</rp><rt>かあ</rt><rp>)</rp></ruby>さん</span>：",
+            "\"Guá su-liām--ê <span class='jp'>Okāsan</span>:",
+            "21"
+          ],
+          [
+            "",
+            "我已經來到火燒島矣。",
+            "Guá í-king lâi kàu Hué-sio-tó--ah.",
+            "21"
+          ],
+          [
+            "",
+            "我佇遮真好，",
+            "Guá tī tsia tsin hó,",
+            "21"
+          ],
+          [
+            "",
+            "遮有衫通穿，",
+            "tsia ū sann thang tshīng,",
+            "21"
+          ],
+          [
+            "",
+            "嘛有飯通食，",
+            "mā ū pn̄g thang tsia̍h,",
+            "21"
+          ],
+          [
+            "",
+            "請恁毋通操煩。",
+            "tshiánn lín m̄-thang tshau-huân.",
+            "21"
+          ],
+          [
+            "",
+            "",
+            "",
+            "21"
+          ],
+          [
+            "",
+            "雖然毋知影為啥物我會佇遮，",
+            "Sui-jiân m̄ tsai-iánn uī-siánn-mih guá ē tī tsia,",
+            "21"
+          ],
+          [
+            "",
+            "毋閣，我上好共家己放袂記，",
+            "m̄-koh, guá siōng hó kā ka-kī pàng-buē-kì,",
+            "21"
+          ],
+          [
+            "",
+            "連名攏放袂記，",
+            "liân miâ lóng pàng-buē-kì,",
+            "21"
+          ],
+          [
+            "",
+            "才有法度繼續落去。",
+            "tsiah ū huat-tōo kè-sio̍k--lo̍h-khì.",
+            "21"
+          ],
+          [
+            "",
+            "只是希望我个冤屈會用早日洗清，",
+            "Tsí-sī hi-bāng guá ê uan-khut ē-īng tsá-li̍t sé-tshing,",
+            "21"
+          ],
+          [
+            "",
+            "較早轉去厝。」",
+            "khah tsá tńg-khì tshù.\"",
+            "21"
+          ],
+          [
+            "",
+            "",
+            "",
+            "2"
+          ],
+          [
+            "",
+            "*",
+            "",
+            "2"
+          ],
+          [
+            "",
+            "​",
+            "",
+            "2"
+          ],
+          [
+            "",
+            "燒啊燒啊無值錢个名份",
+            "Sio--a sio--a bô ta̍t-tsînn ê miâ-hun",
+            "2"
+          ],
+          [
+            "",
+            "唸啊唸啊攏仝款个身份",
+            "Liām--a liām--a lóng kāng-khuán ê sin-hūn",
+            "2"
+          ],
+          [
+            "",
+            "​​",
+            "",
+            "2"
+          ],
+          [
+            "",
+            "雙<span class='updated'>跤</span>行向　無盡尾个路程",
+            "Siang-kha kiânn hiòng bô tsīn-bué ê lōo-tîng",
+            "2"
+          ],
+          [
+            "",
+            "新生个人　攏帶著舊傷痕",
+            "Sin sinn ê lâng lóng tuà-tio̍h kū siong-hûn",
+            "2"
+          ],
+          [
+            "",
+            "​​",
+            "",
+            "2"
+          ],
+          [
+            "",
+            "寫　思念个日子<span class='updated'>偌濟</span>",
+            "Siá su-liām ê ji̍t-tsí guā-tsuē",
+            "2"
+          ],
+          [
+            "",
+            "寫　錯過个青春　誰賠",
+            "Siá tshò-kuè ê tshing-tshun siàng puê",
+            "2"
+          ],
+          [
+            "",
+            "閣<span class='updated'>較</span>驕傲　換來一身風霜",
+            "Koh khah kiau-ngōo uānn lâi tsi̍t-sin hong-song",
+            "2"
+          ],
+          [
+            "",
+            "湠入夢中　<span class='updated'><ruby><rb>phàng</rb><rp>(</rp><rt>拍+毋</rt><rp>)</rp></ruby></span> 見个笑容",
+            "Thuànn ji̍p bāng-tiong phàng-kìnn ê tshiò-iông",
+            "2"
+          ],
+          [
+            "",
+            "​​",
+            "",
+            "2"
+          ],
+          [
+            "",
+            "行　自由个路猶<span class='updated'>偌</span>長",
+            "Kiânn tsū-iû ê lōo iah guā tn̂g",
+            "2"
+          ],
+          [
+            "",
+            "行　自由个歌聲袂斷",
+            "Kiânn tsū-iû ê kua-siann buē tn̄g",
+            "2"
+          ],
+          [
+            "",
+            "閣<span class='updated'>較</span><span class='updated'>烏</span>暗　嘛總有一點光",
+            "Koh khah oo-àm mā tsóng ū tsi̍t-tiám kng",
+            "2"
+          ],
+          [
+            "",
+            "照入心內　永遠个所在",
+            "Tsiàu ji̍p sim-lāi íng-uán ê sóo-tsāi",
+            "2"
+          ],
+          [
+            "",
+            "",
+            "",
+            "2"
+          ],
+          [
+            "",
+            "（受難者群像：<br>陳勤<br>黃秋爽<br>藍張阿冬<br>張金杏<br>張常美）",
+            "",
+            ""
+          ],
+          [
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            "",
+            "**",
+            "",
+            ""
+          ],
+          [
+            "",
+            "",
+            "",
+            ""
+          ]
+        ]
       }
     ]
   }
