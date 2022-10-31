@@ -1393,25 +1393,25 @@ data = [
           [
             "明",
             "一人有一個夢想　但未必人人攞獎",
-            "",
+            "Jat jǎn jáu jat gō müngsôeng däan mëibit jǎnjǎn lô zôeng",
             ""
           ],
           [
             "",
             "贏咗就獨家試唱　輸咗就自己男兒當自強",
-            "",
+            "Jěng zô zäu dükgaa sī cōeng syu zô zäu nǎamjǐ dong zïkǒeng",
             ""
           ],
           [
             "",
             "命運顛沛流離　浪子的心聲　暗湧",
-            "",
+            "Mïngwän dinpūi lǎulěi löngzî dik samsing āmjûng",
             ""
           ],
           [
             "",
             "選擇咗再見理想　就一世活到半斤八兩",
-            "",
+            "Syûnzäak zô zōigīn léisôeng zäu jatsāi wüt dōu būnganbāatlôeng",
             ""
           ],
           [
