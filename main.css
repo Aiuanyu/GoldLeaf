@@ -450,7 +450,7 @@ section table {width: 70vw;}
   text-decoration: none;
   vertical-align: middle;
   box-shadow: 0.1em 0.1em var(--light-bg);
-  border: 0.05em var(--light-bg); solid;
+  border: 0.05em var(--light-bg) solid;
 }
 #links a, #HLauthor, #Payuan-author {
   display: inline-block;
