@@ -5,7 +5,8 @@
   --light-bg: hsla(153, 29%, 66%, 0.8); /* 海報綠葉湖水綠 */
   --color: ;
   --printed-font: Essays1743, 'WenYue GuDianMingChaoTi (Non-Commercial Use)', sans-serif;
-  --base-serif: Athelas, 'Doulos SIL', 宋體-繁, serif;
+  /*--base-serif: Athelas, 'Doulos SIL', 宋體-繁, serif;*/
+  --base-serif: Athelas, 'jf蘭陽明體1.0', serif;
   --base-sans: 'Lesson One', '黑體-繁', sans-serif;
   --title-sans: 'Chiayi City Font', 'PTSans+HeitiTC+Interpark', sans-serif;
   --note-font: Athelas, 楷體-繁, 全字庫正楷體 Ext-B, 'Doulos SIL', TaiExtWeb, serif;
@@ -396,7 +397,7 @@ section table {
   box-shadow: brown 0.3vw 0.3vw 0.25vw;
 }
 .sidenote, .cardNotes {
-  font-family: var(--note-font); /* Chromium 系瀏覽器的「楷體-繁」竟然無法正常顯示「𤆬」字 ∴只好用 fallback */
+  font-family: var(--base-serif); /* Chromium 系瀏覽器的「楷體-繁」竟然無法正常顯示「𤆬」字 ∴只好用 fallback */
 }
 
 .trans { /* 參考 .sidenote 來做翻譯方塊（主要給排灣語用） */
@@ -930,7 +931,7 @@ body {counter-reset: cardx;}
   font-family: var(--title-sans);
   color: #009944;
 }
-.card .uk .cardRoman rb {font-family: Aver/*Mariupol*/; /*font-weight: 900;*/}
+.card .uk .cardRoman rb {font-family: /*Aver*/'Gill Sans'; font-weight: 600;}
 .card .uk .cardHanji {font-family: Doulos SIL;}
 .cardHanji {
   font-size: 50px;
@@ -941,7 +942,7 @@ body {counter-reset: cardx;}
 .cardNotes {
   font-size: 20px;
   line-height: 28px;
-  margin: 20px 20px 80px 20px;
+  margin: 30px 60px 80px 60px;
   color: #3b3b3c;
 }
 .cardQR {
