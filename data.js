@@ -113,7 +113,7 @@ data = [
           ],
           [
             "范",
-            "<span class='jp'><ruby><rb>社長</rb><rp>(</rp><rt>しゃちょう</rt><rp>)</rp></ruby></span>係茶壺喔，𠊎就係茶杯 ě！",
+            "<span class='jp'><ruby><rb>社長</rb><rp>(</rp><rt>しゃちょう</rt><rp>)</rp></ruby></span>係茶壺喔，𠊎就係茶杯吔！",
             "<span class='jp'>Shachō</span> hě cafu ò, ngai cīu hě cabùi ě!",
             ""
           ],
@@ -212,7 +212,7 @@ data = [
         "rows": [
           [
             "山",
-            "綠茶：完全不識發過，<br>色青，味：清新甘甜；",
+            "綠茶：完全毋識發過，<br>色青，味：清新甘甜；",
             "<div class='sidenote'>山妹初出茅蘆，火力展示的一段精采台詞。<br>從華文字幕或原著小說這段話的整齊劃一看來，推測仍是先寫好華文劇本，再請客語老師翻譯。但，這總比十幾年前臺灣某些電視台「鄉土劇」「○○火」之流，翻譯水準好多了。期盼十幾年後，臺灣甚至能有不透過翻譯、直接寫出道地本土語言思維台詞的編劇人才。</div>Lìugca: vancion m shid fad gǒ,<br>sed cìang, mūi: cìnsìn gàmtiam;",
             ""
           ],

@@ -5,14 +5,15 @@
   --light-bg: hsla(153, 29%, 66%, 0.8); /* 海報綠葉湖水綠 */
   --color: ;
   --printed-font: Essays1743, 'WenYue GuDianMingChaoTi (Non-Commercial Use)', sans-serif;
-  --base-serif: Athelas, 'Doulos SIL', HGMinchoE, serif;
+  --base-serif: /*Athelas, 'Doulos SIL', HGMinchoE*/'jf蘭陽明體1.0', serif;
   --note-font: Athelas, 楷體-繁, 全字庫正楷體 Ext-B, 'Doulos SIL', TaiExtWeb, serif;
   --quote-font: Baskerville, 华文仿宋, 全字庫正楷體 Ext-B, 'Doulos SIL', TaiExtWeb, serif;
 }
 
 body {
 /*  font-family: "jf open 粉圓 1.1", "圓體-繁", serif;*/
-  font-family: Athelas, 'Doulos SIL', '源流明體'/*"霞鶩文楷 TC"*/, HanaMinB, TaiExtWeb, serif;
+  font-family: /*Athelas, 'Doulos SIL', */'jf蘭陽明體1.0'/*"霞鶩文楷 TC"*/, HanaMinB, TaiExtWeb, serif;
+  letter-spacing: 0.05em;
   line-height: 1.4rem;
   border-radius: 0px;
   font-size: 16px;
@@ -392,6 +393,7 @@ section table {
   font-size: 8pt;
   font-weight: 500;
   line-height: 12pt;
+  letter-spacing: 0;
   background-color: #FFE8A4;
   background-image: url(res/Wood-Border.svg); /* ☞ Wood Border 2 | Free SVG <https://freesvg.org/wood-border2-arvin61r58> */ /* Wood Pattern - Transparent Textures <https://www.transparenttextures.com/wood-pattern.html> */
   background-size: 100% 100%; /* 新版 Firefox 中，SVG 的 aspect ratio 會維持不變，不像 BlueGriffon 3.1 裡面會拉伸 ∴須修改 SVG 檔加入 preserveAspectRatio="none" ☞ css - Cannot stretch svg background image, aspect ratio will be preserved - Stack Overflow <https://stackoverflow.com/questions/32454685/cannot-stretch-svg-background-image-aspect-ratio-will-be-preserved> */
