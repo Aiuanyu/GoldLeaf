@@ -1816,6 +1816,119 @@ data = [
             ""
           ]
         ]
+      },
+      {
+        "t": "慢慢快活",
+        "rows": [
+          [
+            "",
+            "好久沒有赤腳在大草原上奔跑了",
+            "* Mal-buntuin nitu hadasi cisdadan sia bukzav",
+            "3"
+          ],
+          [
+            "",
+            "好久沒有跟你一起去海邊看海了",
+            "Mal-buntuin nitu muskun su sadu ning-av",
+            "3"
+          ],
+          [
+            "",
+            "窗外的風景美麗",
+            "Thang-guā ê hong-kíng bí-lē",
+            "2"
+          ],
+          [
+            "",
+            "日頭熱情咧招",
+            "Ji̍t-thâu jia̍t-tsîng leh tsio",
+            "2"
+          ],
+          [
+            "",
+            "自由自在隨時欲起行",
+            "Tsū-iû-tsū-tsāi suî-sî beh khí-kiânn",
+            "2"
+          ],
+          [
+            "",
+            "綴著風的跤步",
+            "Tuè-tio̍h hong ê kha-pōo",
+            "2"
+          ],
+          [
+            "",
+            "帶等行李這下就出發",
+            "Dai dèn hǎnglí liàha qiu cùdfá",
+            ""
+          ],
+          [
+            "",
+            "拋忒所有个煩勞",
+            "Páu tèd sò'iú ge fǎnlǒ",
+            ""
+          ],
+          [
+            "",
+            "歐嗨耶岸　我先來領唱",
+            "** Ohaie-ian na tutangus saikin",
+            "3"
+          ],
+          [
+            "",
+            "Ho-i-he　輕輕鬆鬆　鬥陣唱歌",
+            "Ho-i-he khin-khin-sang-sang tàu-tīn tshiùnn-kua",
+            "2"
+          ],
+          [
+            "",
+            "歐嗨耶岸　今天是美好的一天",
+            "Ohaie-ian aip hai manau-uaz tu hanian",
+            "3"
+          ],
+          [
+            "",
+            "Ho-i-he　慢慢快活　趕緊上車 ** *",
+            "Ho-i-he bān-bān khuìnn-ua̍h kuánn-kín tsiūnn-tshia",
+            "2"
+          ],
+          [
+            "",
+            "*",
+            "",
+            ""
+          ],
+          [
+            "",
+            "**",
+            "",
+            ""
+          ],
+          [
+            "",
+            "歐嗨耶岸　我先來領唱",
+            "Ohaie-ian na tutangus saikin",
+            "3"
+          ],
+          [
+            "",
+            "如果世界變得越來越快，那就慢慢快活　",
+            "Rúgǔo shìjiè biàn de yüè lái yüè kuài, nà jiù mànmàn kuàihuó",
+            "5"
+          ],
+          [
+            "",
+            "慢慢快活 ",
+            "Bān-bān khuìnn-ua̍h",
+            "2"
+          ],
+          [
+            "",
+            "",
+            "",
+            ""
+          ]
+        ]
       }
     ]
   }
