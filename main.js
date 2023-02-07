@@ -242,6 +242,9 @@ function generateCards() { // 產生字卡
   for (var i = 0; i < cards.length; i++) {
     var card = document.createElement("div");
     card.classList.add("card");
+    var cardAnchor = document.createElement("a");
+    var cardAnchorNum = i+1;
+    cardAnchor.setAttribute("name", cardAnchorNum);
     var cardInner = document.createElement("div");
     /*card.classList.add("grid-item");*/
     var hanji = document.createElement("div");
@@ -298,6 +301,7 @@ function generateCards() { // 產生字卡
     cardInner.appendChild(hanji);
     cardInner.appendChild(notes);
     cardInner.appendChild(qr);
+    card.appendChild(cardAnchor);
     card.appendChild(cardInner);
     cardsContainer.appendChild(card);
   }

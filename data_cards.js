@@ -86,15 +86,10 @@ cards = [
     "95"
   ],
   [
-    "烏道",
-    "oo-tō",
-    "啥儂是烏道？<br>【語言點】鶴佬話的「烏」與「道」，母音為 oo",
-    "2"
-  ],
-  
-  [
-    "烏道",
-    "<span class='si'>vúto</span><br><span class='hl'>vùtō</span>",
-    "",    
+    "<span style='font-family:\"jf蘭陽明體1.0\"; font-weight:700;'>𪹚龍</span>",
+    "bongliǔng",
+    "臺灣苗栗客族人「正月半 Zángngiad Ban」的獨特「炸龍」習俗<br>（「<span style='font-weight:700;'>𪹚</span>」字碼 U+2AE5A 有名有姓 <span style='color:blue;font-family:monospace;font-weight:700;'>#政府加油 #蘋果加油 #菇狗加油 #微軟加油</span> 早日讓作業系統內建字型完整支援本土語文吧～我不想再寫<i>{火旁}</i>啦）<br><br><span style='color:grey;'>（摘自維基百科）「𪹚龍」就是採用大量鞭炮、蜂炮去炸舞龍方式得到去邪（去舊）迎新年的作用，期望藉神龍帶來祥瑞之氣，帶給民眾平安吉祥、五穀豐收。每年快接近元宵節時，很多龍隊開始出來練習，到了元宵節那天則進入高潮。臺灣各地皆有舞龍之民俗活動，唯獨苗栗客家發展出「炸龍」的習俗。</span>",
+    "",
+    "95"
   ],
 ]
