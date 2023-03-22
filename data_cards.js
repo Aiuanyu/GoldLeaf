@@ -60,11 +60,11 @@ cards = [
     ""
   ],
   [
-    "山娘",
-    "<span class='si'>sánngiǒng</span><br><span class='hl'>sànngiong</span>",
+    "<span class='si'>山娘</span> <span class='hl'>長尾鵲</span>",
+    "<span class='si'>sánngiǒng</span><br><span class='hl'>chongmùisiag</span>",
     "藍鵲",
     "",
-    "90"
+    "60"
   ],
   [
     "莊園",
