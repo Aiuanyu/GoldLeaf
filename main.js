@@ -282,6 +282,11 @@ function generateCards() { // 產生字卡
           card.classList.add('uk');
           // langLogo.innerHTML = "";
           break;
+        case "5":
+          cardInner.classList.add('fox');
+          card.classList.add('fox');
+          langLogo.innerHTML = "原";
+          break;
         default:
           cardInner.classList.add('hak');
           langLogo.innerHTML = "<br>客";

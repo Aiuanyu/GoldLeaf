@@ -3,6 +3,7 @@
   --main-text-color: #c2b882; /* 金色 */
   --second-bg: #805136; /* 男女主海報女主襯衫 */
   --light-bg: hsla(153, 29%, 66%, 0.8); /* 海報綠葉湖水綠 */
+  --fox-color: darkred;
   --color: ;
   --printed-font: Essays1743, 'WenYue GuDianMingChaoTi (Non-Commercial Use)', sans-serif;
   /*--base-serif: Athelas, 'Doulos SIL', 宋體-繁, serif;*/
@@ -456,7 +457,7 @@ section table {width: 70vw;}
   text-decoration: none;
   vertical-align: middle;
   box-shadow: 0.1em 0.1em var(--light-bg);
-  border: 0.05em var(--light-bg); solid;
+  border: 0.05em var(--light-bg) solid;
 }
 #links a, #HLauthor, #Payuan-author {
   display: inline-block;
@@ -901,6 +902,7 @@ body {counter-reset: cardx;}
 .card .nan .cardLangLogo {background-image: url(res/NANflag.png);}
 .card .jp .cardLangLogo {background-image: url(res/JPflag.png);}
 .card .uk .cardLangLogo {background-image: url(res/UKflag.png);}
+.card .fox .cardLangLogo {background-image: none !important;}
 .card .si .cardRoman, .card .si .cardLangLogo {color: #a89900;}
 .card /*.cardRoman*/ .si:after {
   content: "四";
@@ -922,6 +924,7 @@ body {counter-reset: cardx;}
   vertical-align: middle;
 }
 .card .nan .cardRoman, .card .nan .cardLangLogo, .card .nan .cardHanji {color: #a8009f;}
+.card .fox .cardRoman, .card .fox .cardLangLogo, .card .fox .cardHanji {color: var(--fox-color);}
 .card .jp .cardHanji {color: var(--main-text-color);}
 .card .jp .cardRoman {color: #fc9c7e;}
 .cardRoman {
@@ -934,7 +937,8 @@ body {counter-reset: cardx;}
   color: #009944;
 }
 .card .uk .cardRoman rb {font-family: /*Aver*/'Gill Sans'; font-weight: 600;}
-.card .uk .cardHanji {font-family: Doulos SIL;}
+.card .uk .cardHanji,
+.card .fox .cardHanji {font-family: Doulos SIL;}
 .cardHanji {
   font-size: 50px;
   line-height: 75px;
@@ -946,6 +950,14 @@ body {counter-reset: cardx;}
   line-height: 28px;
   margin: 30px 60px 80px 60px;
   color: #3b3b3c;
+  letter-spacing: 0.05em;
+}
+.cardNotes blockquote {
+  border-left: lightgray 5px solid;
+  padding: 1em;
+  background-color: rgba(211, 211, 211, 0.3);
+  font-family: var(--quote-font);
+  border-radius: 0.5em;
 }
 .cardQR {
   height: 70px;
