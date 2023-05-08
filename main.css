@@ -498,11 +498,11 @@ body {counter-reset: EPx}
   background: #E5FBC6;
 }
 
-section:not(.noHak):before {
+/*section:not(.noHak):before {
   content: "客：四縣腔";
   float: right;
   font-size: 0.5em;
-}
+}*/
 .HL {display: none;}
 .floatedButtons {
   position: fixed;
