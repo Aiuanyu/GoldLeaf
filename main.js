@@ -235,6 +235,7 @@ function localFileIndicator() {
     document.title = "💻" + document.title;
   }
 }
+var namohNote = document.getElementById("namoh").innerHTML;
 
 function generateCards() { // 產生字卡
   var cardsContainer = document.getElementById("cards");

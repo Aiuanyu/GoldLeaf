@@ -680,6 +680,7 @@ table#roman-guide {
   background: -moz-repeating-linear-gradient(to right, #198964 0%, #e5c120 50%, #C71585 100%);
   background: repeating-linear-gradient(to right, #198964 0%, #e5c120 50%, #C71585 100%);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 } /* 黃色相思樹花 #e5c120 */
 
@@ -959,6 +960,13 @@ body {counter-reset: cardx;}
   font-family: var(--quote-font);
   border-radius: 0.5em;
 }
+.cardNotes ul {
+  text-align: justify;
+  width: 75%;
+  margin: 0 auto;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
 .cardQR {
   height: 70px;
   width: 70px;
@@ -1011,10 +1019,10 @@ body {counter-reset: cardx;}
 /*.cardRoman, .cardHanji {
   width: 25vw;
 }*/
-.grid-item {
+/*.grid-item {
   /*width: 45vw;*/
   /*float: left;*/
-}
+/*}
 /*.cardRoman {
   display: inline-block;
   white-space: nowrap;
@@ -1049,3 +1057,7 @@ q {
   font-family: var(--quote-font);
   font-style: italic;
 }
+
+.notes {display: none;}
+.smaller {font-size: 75%;}
+p.smaller {line-height: 1.5em;}

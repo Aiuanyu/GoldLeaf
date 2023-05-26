@@ -97,5 +97,11 @@ cards = [
     "rafac",
     "【’amis 阿美】Ⓜ️ 自由<br><br><small>2023/4/28〈舊金山條約〉生效 71 週年<br>Aiuanyu 愛灣語原創詩〈O Rafac〉</small><blockquote><p>假若臺灣是<u>雲氣</u>，<br>自可翱遊天地之間，<br>非杯子所能束縛；</p><p>倘若臺灣是<strong>冰河</strong>，<br>甚至可以穿山削石；</p><p>什麼東西需要裝在杯裡？<br><em>飲料</em>。</p><p>說 ROC 是<em>杯子</em>的人，<br>是想讓誰拿著杯子<em>暢飲臺灣</em>嗎？<br>細思極恐 😨。</p><p>臺灣人啊！<br>我們有幸身處的<br>並不是需要「<em>be water</em>」的環境，<br>何不早日拿著我們的權利，<br>變成<u>自由</u>又<strong>堅固</strong>的型態吧！</p></blockquote>",
     "5"
+  ],
+  [
+    "[naˈmʊh iˈjaŋ]",
+    "Namoh Iyang",
+    namohNote,
+    "5"
   ]
 ]
