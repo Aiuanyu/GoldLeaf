@@ -7,7 +7,7 @@
   --color: ;
   --printed-font: Essays1743, 'WenYue GuDianMingChaoTi (Non-Commercial Use)', sans-serif;
   /*--base-serif: Athelas, 'Doulos SIL', 宋體-繁, serif;*/
-  --base-serif: Athelas, 'jf蘭陽明體1.0', serif;
+  --base-serif: Athelas, 'jf蘭陽明體1.0', 'Yu Mincho', serif;
   --base-sans: 'Lesson One', '黑體-繁', sans-serif;
   --title-sans: 'Chiayi City Font', 'PTSans+HeitiTC+Interpark', sans-serif;
   --calligraphy: Zapfino, 'Nanum Brush Script', 洛神行書, cursive;
@@ -725,7 +725,7 @@ td.classic:before {
   font-size: 0.3em;
   opacity: 0.5;
 }
-rt {opacity: 0.5;}
+.cardRoman rt {opacity: 0.5;}
 rb {
   border-style: dotted;
   border-color: hsla(0, 0%, 100%, 0.2);

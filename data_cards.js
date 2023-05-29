@@ -103,5 +103,11 @@ cards = [
     "Namoh Iyang",
     namohNote,
     "5"
+  ],
+  [
+    "",
+    "á-geh",
+    "🇯🇵 あぶら<u><b><ruby>揚<rt>あ</rt></ruby>げ</b></u> = Ⓜ️ 油豆腐<br>（高溫油炸之板豆腐）<br>挖空填冬粉、魚漿封口 → 蒸熟<br>= 淡水小吃；簡稱「<b>あげ</b>」<br>→ 鶴佬話音譯 → Ⓜ️ 阿<ruby>給<rt style='font-size: 0.8em;'><b>ㄍㄟˇ</b></rt></ruby>",
+    "2"
   ]
 ]
