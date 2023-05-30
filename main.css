@@ -14,6 +14,7 @@
   --note-font: Athelas, 楷體-繁, 全字庫正楷體 Ext-B, 'Doulos SIL', TaiExtWeb, serif;
   --quote-font: Baskerville, 华文仿宋, 全字庫正楷體 Ext-B, 'Doulos SIL', TaiExtWeb, serif;
   --iansui: 'Iansui 094', cursive;
+  --IPA: 'Doulos SIL', serif;
 }
 
 body {
@@ -857,7 +858,7 @@ rb {
   position: relative;
   border: 1px solid var(--main-text-color);
 }
-.card.uk {background-image: url(res/card-bg-portrait-uk.jpg);}
+.card.uk, .card.sv {background-image: url(res/card-bg-portrait-uk.jpg);}
 .card.jp {background-image: none;}
 body {counter-reset: cardx;}
 .card {counter-increment: cardx;}
@@ -903,6 +904,11 @@ body {counter-reset: cardx;}
 .card .nan .cardLangLogo {background-image: url(res/NANflag.png);}
 .card .jp .cardLangLogo {background-image: url(res/JPflag.png);}
 .card .uk .cardLangLogo {background-image: url(res/UKflag.png);}
+.card .sv .cardLangLogo {
+  background-image: url(res/SVflag.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
 .card .fox .cardLangLogo {background-image: none !important;}
 .card .si .cardRoman, .card .si .cardLangLogo {color: #a89900;}
 .card /*.cardRoman*/ .si:after {
@@ -928,6 +934,8 @@ body {counter-reset: cardx;}
 .card .fox .cardRoman, .card .fox .cardLangLogo, .card .fox .cardHanji {color: var(--fox-color);}
 .card .jp .cardHanji {color: var(--main-text-color);}
 .card .jp .cardRoman {color: #fc9c7e;}
+.card.sv .cardRoman {color: #fecc02;}
+.card.sv .cardHanji {color: #006aa7;}
 .cardRoman {
   font-size: 100px;
   line-height: 120px;
@@ -939,7 +947,8 @@ body {counter-reset: cardx;}
 }
 .card .uk .cardRoman rb {font-family: /*Aver*/'Gill Sans'; font-weight: 600;}
 .card .uk .cardHanji,
-.card .fox .cardHanji {font-family: Doulos SIL;}
+.card .fox .cardHanji,
+.card.roman .cardHanji {font-family: Doulos SIL;}
 .cardHanji {
   font-size: 50px;
   line-height: 75px;
@@ -1061,3 +1070,4 @@ q {
 .notes {display: none;}
 .smaller {font-size: 75%;}
 p.smaller {line-height: 1.5em;}
+.ipa {font-family: var(--IPA);}

@@ -236,6 +236,7 @@ function localFileIndicator() {
   }
 }
 var namohNote = document.getElementById("namoh").innerHTML;
+var ikeaNote = document.getElementById("ikea").innerHTML;
 
 function generateCards() { // 產生字卡
   var cardsContainer = document.getElementById("cards");
@@ -281,12 +282,20 @@ function generateCards() { // 產生字卡
         case "4":
           cardInner.classList.add('uk');
           card.classList.add('uk');
+          card.classList.add('roman');
           // langLogo.innerHTML = "";
           break;
         case "5":
           cardInner.classList.add('fox');
           card.classList.add('fox');
+          card.classList.add('roman');
           langLogo.innerHTML = "原";
+          break;
+        case "sv":
+          cardInner.classList.add('sv');
+          card.classList.add('sv');
+          card.classList.add('roman');
+          // langLogo.innerHTML = "";
           break;
         default:
           cardInner.classList.add('hak');
