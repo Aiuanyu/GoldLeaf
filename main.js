@@ -92,7 +92,9 @@ function create() {
     // 順便製作 EP 目錄
     var tocItem = document.createElement('li');
     tocItem.innerHTML = "<a href='#ep" + data[i].EP + "'>" + data[i].EP + "</a>";
-    toc.appendChild(tocItem);
+    if (toc!=undefined) {
+      toc.appendChild(tocItem);
+    }
 
     for (var j=0; j<data[i].sections.length; j++) {
 
@@ -103,6 +105,7 @@ function create() {
       time.classList.add("time");
       time.innerHTML = data[i].sections[j].t;
       section.appendChild(time);
+      if (data[i].sections[j].id!=undefined) {section.setAttribute('id', data[i].sections[j].id);}
 
       var table = document.createElement("table");
 
@@ -226,7 +229,7 @@ function openHeadTOC() {
 
 function localFileIndicator() {
   if (/file\:/.test(window.location.href)) { /* javascript - How to check if the URL contains a given string? - Stack Overflow <https://stackoverflow.com/questions/4597050/how-to-check-if-the-url-contains-a-given-string> */
-    document.title = "💻" + document.title;
+    document.title = "💻 " + document.title;
   }
 }
 
@@ -325,4 +328,9 @@ function init() {
 function cardsInit() {
   localFileIndicator();
   generateCards();
+}
+function individualInit() {
+  create();
+  fillRomanNames();
+  localFileIndicator();
 }

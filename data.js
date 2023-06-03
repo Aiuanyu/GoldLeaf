@@ -1963,6 +1963,258 @@ data = [
             ""
           ],
         ]
+      },
+      {
+        "t": "黃子軒「內山公路」",
+        "id": "mountain-highway",
+        "rows": [
+          [
+            "",
+            "",
+            "<iframe style='width: 70vw; height: 25vh; position: fixed; z-index: 50;' src='https://www.youtube.com/embed/gYD14Kq3ssY' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' allowfullscreen></iframe><div style='width: 100%; height: 25vh;'></div>",
+            ""
+          ],
+          [
+            "",
+            "",
+            "<div class='sidenote'>🇯🇵 北海道ソ－ラン歌舞<q>ドッコイショ　ハードッコイショドッコイショ</q><br>→ 🟢「素蘭小姐欲出嫁」<q>heh-siooh heh-siooh lok-kài-siooh lok-kài-siooh</q><br>這邊我自己將歌手唱的音擬成客拼</div><i><span class='noted'>Hedxiod hedxiod laggadxiod laggadxiod laggadxiod...</span><br>He!</i>",
+            ""
+          ],
+          [
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            "",
+            "行在這條山路　𠊎著<span class='jp noted'>スリッパ</span>",
+            "<div class='sidenote'>🇯🇵 スリッパ<br>= Ⓜ️ 拖鞋</div>Hang cǎi liá tiau sànlū ngai chog <span class='jp noted'>surippa</span>",
+            ""
+          ],
+          [
+            "",
+            "一點鐘 100 公尺　比慢𠊎打頭名",
+            "Rhid diám zhùng rhid bag gùngchag bí mān ngai dá teumiang",
+            ""
+          ],
+          [
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            "",
+            "一儕人个旅行　浪漫爽快",
+            "Rhid sa ngin gǎi lìhang lōngmān sóngkuǎi",
+            ""
+          ],
+          [
+            "",
+            "行遽行慢　𠊎个 tempo 自家來",
+            "Hang giag hang mān ngai gǎi tempo cidgà loi",
+            ""
+          ],
+          [
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            "",
+            "毋使提醒𠊎　哪條路能行",
+            "Msíi tisiáng ngai nāi tiau lū nen hang",
+            ""
+          ],
+          [
+            "",
+            "毋使提醒𠊎　終點還幾遠",
+            "Msíi tisiáng ngai zhùngdiám han gí rhán",
+            ""
+          ],
+          [
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            "",
+            "* 總係　想起這條路　起起落落",
+            "* Zúng hě sióng hí liá tiau lū hí-hí-lòg-lòg",
+            ""
+          ],
+          [
+            "",
+            "離屋忒遠　見山毋係山",
+            "Li vug ted rhán giěn sàn m hě sàn",
+            ""
+          ],
+          [
+            "",
+            "總愛　行轉老路　行入山肚　放棄所有",
+            "<div class='sidenote'><i>biǒng</i>hǐ 應是被「放」的白音影響</div>Zúng ǒi hang zhón ló lū hang ngìb sàn dú <span class='noted'>fǒnghǐ</span> sórhiù",
+            ""
+          ],
+          [
+            "",
+            "最尾見山還係山 *",
+            "zǔi mùi giěn sàn han hě sàn *",
+            ""
+          ],
+          [
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            "",
+            "背等𠊎个大包袱 今暗就戴下來",
+            "Ba dén ngai gǎi tāi bàufùg gìm ǎm ciū dǎi hà loi",
+            ""
+          ],
+          [
+            "",
+            "<span class='noted'>上南片</span>係𠊎个廳下　老屋跡做膨凳",
+            "<div class='sidenote'><a href='https://goo.gl/maps/sWwLpTJ9Hs2Z9bHo7'>上南片</a>，地名，故連寫。為新竹縣關西鎮中部偏西南，鳳山溪南岸之庄頭。</div><span class='noted'>Shòngnampién</span> hě ngai gǎi tànghà ló vugziag zǒ pǒngděn",
+            ""
+          ],
+          [
+            "",
+            "順等這條水圳下去　流向𠊎个夢境",
+            "<div class='sidenote'>❌ mūng<i>zǐn</i></div>Shūn dén liá tiau shúizhǔn hà hǐ liu hiǒng ngai gǎi <span class='noted'>mūnggǐn</span>",
+            ""
+          ],
+          [
+            "",
+            "滿天星仔都摎𠊎講　毋好倒轉去",
+            "Màn tièn siàng'er dū làu ngai góng m hó dǒ zhón hǐ",
+            ""
+          ],
+          [
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            "",
+            "毋使提醒𠊎　終點在哪位",
+            "Msíi tisiáng ngai zhùngdiám cǎi nāivūi",
+            ""
+          ],
+          [
+            "",
+            "𠊎無戴這位　𠊎屬於這位",
+            "Ngai mo dǎi liávūi ngai shùgrhi liávūi",
+            ""
+          ],
+          [
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            "",
+            "",
+            "*",
+            ""
+          ],
+          [
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            "",
+            "",
+            "<i>Hedxiod hedxiod laggadxiod laggadxiod laggadxiod...<br>He!</i>",
+            ""
+          ],
+          [
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            "",
+            "總係　想起這條路　渡𠊎離開",
+            "Zúnghě sióng hí liá tiau lū tū ngai likòi",
+            ""
+          ],
+          [
+            "",
+            "離屋忒遠　見山毋係山",
+            "Li vug ted rhán giěn sàn m hě sàn",
+            ""
+          ],
+          [
+            "",
+            "總愛　行轉老路　行入山肚　放棄所有",
+            "Zúng ǒi hang zhón ló lū hang ngìb sàn dú fǒnghǐ sórhiù",
+            ""
+          ],
+          [
+            "",
+            "最尾見山還係",
+            "zǔi mùi giěn sàn han hě",
+            ""
+          ],
+          [
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            "",
+            "𠊎　總算了解",
+            "Ngai zúngsǒn liáu gái",
+            ""
+          ],
+          [
+            "",
+            "帶有一點泥味个空氣",
+            "dǎi rhiù rhid diám nai mūi gǎi kùnghǐ",
+            ""
+          ],
+          [
+            "",
+            "會在心肚轉甘",
+            "vōi cǎi sìm dú zhón gàm",
+            ""
+          ],
+          [
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            "",
+            "𠊎　總愛行轉來",
+            "Ngai zúng ǒi hang zhón loi",
+            ""
+          ],
+          [
+            "",
+            "就算毋知未來會仰般",
+            "Ciūsǒn m dì vūiloi vōi ngióngbàn",
+            ""
+          ],
+          [
+            "",
+            "試過一擺正會無遺憾",
+            "Chǐ gǒ rhid bái zhǎng vōi mo vuihām",
+            ""
+          ]
+        ]
       }
     ]
   }
