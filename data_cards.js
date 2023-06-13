@@ -115,5 +115,12 @@ cards = [
     "<span style='font-size:0.2em;'>我都唸</span>IKEA<sup>®</sup>",
     ikeaNote,
     "sv"
+  ],
+  [
+    "好精神歌單",
+    "<span class='hl'>Hó Zìnshin Gòdàn</span>",
+    "= Ⓜ️ 醒腦歌單<p class='smaller'>（HagPinPlus 範例，回應相關討論，文案著作權歸「央廣臺灣客語粉絲團」）<br>HagPinPlus 處理點：聲調符放到母音字母上、依英文習慣大寫<br>設計點：羅馬字 > 客文漢字 > 華文翻譯</p>",
+    "",
+    "48"
   ]
 ]
