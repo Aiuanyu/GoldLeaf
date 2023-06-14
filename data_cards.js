@@ -122,5 +122,12 @@ cards = [
     "= Ⓜ️ 醒腦歌單<p class='smaller'>（HagPinPlus 範例，回應相關討論，文案著作權歸「央廣臺灣客語粉絲團」）<br>HagPinPlus 處理點：聲調符放到母音字母上、依英文習慣大寫<br>設計點：羅馬字 > 客文漢字 > 華文翻譯</p>",
     "",
     "48"
+  ],
+  [
+    "[ˈliðuk ˈtumað]",
+    "Lizuk Tumaz<span class='smaller'> 🐻</span>",
+    lizuktumazNote,
+    "5",
+    "62"
   ]
 ]

@@ -237,6 +237,7 @@ function localFileIndicator() {
 }
 var namohNote = document.getElementById("namoh").innerHTML;
 var ikeaNote = document.getElementById("ikea").innerHTML;
+var lizuktumazNote = document.getElementById("lizuk-tumaz").innerHTML;
 
 function generateCards() { // 產生字卡
   var cardsContainer = document.getElementById("cards");
