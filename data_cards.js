@@ -129,5 +129,18 @@ cards = [
     lizuktumazNote,
     "5",
     "62"
+  ],
+  [
+    "<span class='proposed'>？</span>",
+    "<span class='proposed'>goblǐn</span>",
+    "【嘗試翻譯外來語】🇬🇧 goblin<br>歐美中古風奇幻文學常出現之負面種族，Ⓜ️ Mandarin 常見譯名為「哥布林」。客語發得出「gob」這樣的音節（注意 g、b 均為清音），但這個音節目前在客語中沒有意思，也沒有相關漢字，所以就不湊字，也許不用漢字、漢羅混寫也沒關係。但還是歡迎大家發想。<br>如果不想用這樣音節的話，也是可以做成 3 個音節的「哥布遴 góbulǐn（四）gòbǔlin（海）gōbùlǐn（大）」來音譯（客語的「林」聲韻 lim 與 lin 不合，所以或可改用「遴」字）<div class='example'><blockquote>佢去<ruby>濛煙<rt>mǔng'ián</rt></ruby>山頂<ruby>剁樵<rt>dog cěu</rt></ruby>，嗄堵著 3 隻<ruby>牙牙綻<rt>ngǎ'ngǎcan</rt></ruby>个 goblǐn！</blockquote>（他去迷霧山脈砍柴，卻遇到 3 隻傲慢無理又凶惡的哥布林！）</div><p class='smaller'>其他關於 goblin 的資訊網路上很多，這裡就不贅述了。</p>",
+    "",
+    ""
+  ],
+  [
+    "<span class='proposed'>？</span>",
+    "<span class='proposed'>gop-lìn</span>",
+    "【嘗試翻譯外來語】🇬🇧 goblin<br>歐美中古風奇幻文學常出現之負面種族，Ⓜ️ Mandarin 常見譯名為「哥布林」。鶴佬話可以發得出「gop」這樣的音節（注意 g 為濁音），但是目前沒有相關漢字的樣子，所以就不湊字，也許不用漢字、漢羅混寫也沒關係。但還是歡迎大家發想。<div class='example'><blockquote>伊去罩霧山頂<ruby>剉柴<rt>tshò-tshâ</rt></ruby>，煞拄著 3 隻<ruby>雄戒戒<rt>hiông-kài-kài</rt></ruby>个 gop-lìn！</blockquote>（他去迷霧山脈砍柴，卻遇到 3 隻凶惡的哥布林！）</div><p class='smaller'>其他關於 goblin 的資訊網路上很多，這裡就不贅述了。</p>",
+    "2"
   ]
 ]

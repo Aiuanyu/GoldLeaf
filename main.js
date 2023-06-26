@@ -245,6 +245,7 @@ function generateCards() { // 產生字卡
   for (var i = 0; i < cards.length; i++) {
     var card = document.createElement("div");
     card.classList.add("card");
+    card.setAttribute("id", "card"+(i+1));
     var cardAnchor = document.createElement("a");
     var cardAnchorNum = i+1;
     cardAnchor.setAttribute("name", cardAnchorNum);
