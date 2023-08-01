@@ -142,5 +142,12 @@ cards = [
     "<span class='proposed'>gop-lìn</span>",
     "【嘗試翻譯外來語】🇬🇧 goblin<br>歐美中古風奇幻文學常出現之負面種族，Ⓜ️ Mandarin 常見譯名為「哥布林」。鶴佬話可以發得出「gop」這樣的音節（注意 g 為濁音），但是目前沒有相關漢字的樣子，所以就不湊字，也許不用漢字、漢羅混寫也沒關係。但還是歡迎大家發想。<div class='example'><blockquote>伊去罩霧山頂<ruby>剉柴<rt>tshò-tshâ</rt></ruby>，煞拄著 3 隻<ruby>雄戒戒<rt>hiông-kài-kài</rt></ruby>个 gop-lìn！</blockquote>（他去迷霧山脈砍柴，卻遇到 3 隻凶惡的哥布林！）</div><p class='smaller'>其他關於 goblin 的資訊網路上很多，這裡就不贅述了。</p>",
     "2"
+  ],
+  [
+    "[giʎəˈgiʎaw kuŋˈkuan]",
+    "Giljegiljaw Kungkuan",
+    giljawNote,
+    "5",
+    "82"
   ]
 ]
