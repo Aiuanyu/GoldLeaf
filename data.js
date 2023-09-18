@@ -785,6 +785,119 @@ data = [
         ]
       },
       {
+        "t": "33:16",
+        "rows": [
+          [
+            "心",
+            "我<span class='jp'>パパ</span>，共<span class='lang1'>茶米</span>當做黃金，但是賣𣍐出去，毋是佮草仝款？戰爭，閣用𣍐著<span class='lang1'>茶米</span>啊。",
+            "Guá <span class='jp'>Papa</span>, kā <span class='lang1'>camí</span> tòng-tsò n̂g-kim, tān-sī bē bē--tshut-khì, m̄ sī kah tsháu kāng-khuán? Tsiàn-tsing, koh iōng bē tio̍h <span class='lang1'>camí</span>--ah.",
+            "2"
+          ],
+          [
+            "K",
+            "<ruby><rb>Siáng</rb><rt>啥+儂</rt></ruby> 講戰爭用𣍐著茶米？我咧做日本兵个時陣咧，茶米是標準个配備啊。一儂一工三公克，我若一工無啉茶喔，規身軀攏無爽快。",
+            "<ruby><rb>Siáng</rb><rt>siánn-lâng</rt></ruby> kóng tsiàn-tsing iōng bē tio̍h tê-bí? Guá leh tsò Ji̍t-pún-ping ê sî-tsūn--leh, tê-bí sī piau-tsún ê phuè-pī--ah. Tsi̍t lâng tsi̍t kang sann kong-khik, guá nā tsi̍t kang bô lim tê--oo, kui sin-khu lóng bô sóng-khuài.",
+            "2"
+          ],
+          [
+            "心",
+            "一儂一工三公克……若是 30 萬儂……一個月就……",
+            "Tsi̍t lâng tsi̍t kang sann kong-khik... nā sī sann-tsa̍p bān lâng... tsi̍t kò gue̍h tio̍h...",
+            "2"
+          ],
+          [
+            "",
+            "汝會使𤆬我去共<span class='lang1'>茶米</span>賣予美軍無？",
+            "Lí ē-sái tshuā guá khì kā <span class='lang1'>camí</span> bē hōo Bí-kun bô?",
+            "2"
+          ],
+          [
+            "K",
+            "但是美軍是啉咖啡个呢。",
+            "Tān-sī Bí-kun sī lim ka-pi--ê--ne.",
+            "2"
+          ],
+          [
+            "心",
+            "汝𤆬我去試看覓啊！汝毋是明仔載欲去……接彼啥物將軍？",
+            "Lí tshuā guá khì tshì khuànn-māi--a! Lí m̄ sī bîn-á-tsài beh khì... tsiap he siánn-mih tsiong-kun?",
+            "2"
+          ],
+          [
+            "K",
+            "是<span class='lang5'>克拉克</span>將軍啦。伊是美軍个 quartermaster。",
+            "Sī <span class='lang5'>Kèlākè</span> Tsiong-kun--lah. I sī Bí-kun ê quartermaster.",
+            "2"
+          ],
+          [
+            "",
+            "汝認真个喔？",
+            "Lí līn-tsin--ê--oo?",
+            "2"
+          ],
+          [
+            "",
+            "若按呢，後日佇臺北美軍个 club 內底有一个 party，我𤆬汝入去。",
+            "Nā án-ne, āu-li̍t tī Tâi-pak ê club lāi-té ū tsi̍t ê party, guá tshuā lí li̍p-khì.",
+            "2"
+          ],
+          [
+            "心",
+            "彼是啥物所在啊？跳舞个所在喔？",
+            "He sī siánn-mih sóo-tsāi--a? Thiàu-bú ê sóo-tsāi--oo?",
+            "2"
+          ],
+          [
+            "K",
+            "嘛是有跳舞啦。啊汝敢會曉跳舞？",
+            "Mā sī ū thiàu-bú--lah. Ah lí kám ē-hiáu thiàu-bú?",
+            "2"
+          ],
+          [
+            "心",
+            "會曉啊！我學校有教呢。<span class='jp'><ruby><rb>せんせい</rb><rt>先生</rt></ruby></span>講我跳甲𣍐䆀。",
+            "Ē-hiáu--a! Guá ha̍k-hāu ū kà--ne. <span class='jp'>Sensē</span> kóng guá thiàu kah bē-bái.",
+            "2"
+          ],
+          [
+            "K",
+            "哦。",
+            "Oo.",
+            "2"
+          ],
+          [
+            "心",
+            "<span class='lang1'>正經啦！</span>無我跳予汝看。",
+            "<span class='lang1'>Zhǐngìn là!</span> Bô guá thiàu hōo lí khuànn.",
+            "2"
+          ],
+          [
+            "",
+            "做得無？",
+            "Zǒded mo?",
+            ""
+          ],
+          [
+            "K",
+            "但是我想這馬美軍應該無流行跳這款个。呵。",
+            "Tān-sī guá siūnn tsit-má Bí-kun ìng-kai bô liû-hîng thiàu tsit khuán--ê.",
+            "2"
+          ],
+          [
+            "心",
+            "汝𤆬我去啦。",
+            "Lí tshuā guá khì--lah.",
+            "2"
+          ],
+          [
+            "K",
+            "嗯。🙂",
+            "M. 🙂",
+            "2"
+          ]
+        ]
+      },
+      {
         "t": "38:00",
         "rows": [
           [
