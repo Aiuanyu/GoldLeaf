@@ -300,6 +300,12 @@ function generateCards() { // 產生字卡
           card.classList.add('roman');
           // langLogo.innerHTML = "";
           break;
+        case "en":
+          cardInner.classList.add('en');
+          card.classList.add('en');
+          card.classList.add('roman');
+          langLogo.innerHTML = "en";
+          break;
         default:
           cardInner.classList.add('hak');
           langLogo.innerHTML = "<br>客";

@@ -861,7 +861,7 @@ rb {
   position: relative;
   border: 1px solid var(--main-text-color);
 }
-.card.uk, .card.sv {background-image: url(res/card-bg-portrait-uk.jpg);}
+.card.uk, .card.sv, .card.en {background-image: url(res/card-bg-portrait-uk.jpg);}
 .card.jp {background-image: none;}
 body {counter-reset: cardx;}
 .card {counter-increment: cardx;}
@@ -912,6 +912,7 @@ body {counter-reset: cardx;}
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
+.card .en .cardLangLogo {background-image: none;}
 .card .fox .cardLangLogo {background-image: none !important;}
 .card .si .cardRoman, .card .si .cardLangLogo {color: #a89900;}
 .card /*.cardRoman*/ .si:after {

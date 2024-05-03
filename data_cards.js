@@ -149,5 +149,19 @@ cards = [
     giljawNote,
     "5",
     "82"
+  ],
+  [
+    "/ˈtʃ͡ɪns.spleɪn.ɪŋ/",
+    "Chinsplaining",
+    "<p>🇬🇧 <b>[My coinage/neologism]</b><br> the act of explaining something to someone in a way that suggests that they should surrender; used especially when a Chinese explains/preaches something that is absurd to a non-Chinese</p><p>🟢 Chinese／華腦咧說教<br>🟢 Chinese/Huâ-náu leh suat-kàu</p><p>（愛灣語 2024/4/18 創詞）</p><p>cf. 🔵 客話有一隻詞：<br>📘 jiùgxiong 足相<br>Ⓜ️ 指人本事不大，卻又自以為是 🥱</p>",
+    "en",
+    "68"
+  ],
+  [
+    "足相",
+    "<span class='si'>jiùgxiong</span><span class='hl'>ziugsiǒng</span><span class='tb'>ziûgsiòng</span>",
+    "1. 指人本事不大，卻又自以為是 🥱<br>2. 性情不穩，易怒、孤僻、反應過當。",
+    "",
+    "87"
   ]
 ]
